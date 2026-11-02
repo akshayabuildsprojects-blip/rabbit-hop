@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-base: var(--base);
+  --color-panel: var(--panel);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-paper: var(--paper);
+}
+
+:root {
+  --base: #eef0f2;
+  --panel: #ffffff;
+  --ink: #1d1b24;
+  --ink-2: #4a4756;
+  --muted: #6f6c7a;
+  --line: #d8dbe1;
+  --paper: #fbfaf6;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --base: #16151b;
+    --panel: #201f27;
+    --ink: #f1f0f4;
+    --ink-2: #c9c6d3;
+    --muted: #9b98a8;
+    --line: #34323d;
+    --paper: #2a2932;
+    color-scheme: dark;
+  }
+}
+
+html,
+body {
+  background: var(--base);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Receipt strip: zig-zag torn edge top and bottom */
+.receipt {
+  background: var(--paper);
+  --tooth: 8px;
+  mask:
+    conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / var(--tooth) 51% repeat-x,
+    conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / var(--tooth) 51% repeat-x;
+}
+
+.receipt-row + .receipt-row {
+  border-top: 1px dashed var(--line);
+}
+
+@keyframes print {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+.print-in {
+  animation: print 380ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .print-in {
+    animation: none;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
