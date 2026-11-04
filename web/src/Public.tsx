@@ -1,12 +1,19 @@
 import { useState } from "react";
 import { colorOf, type Archetype } from "./lib";
 
-export function CartIcon({ color = "#000", size = 22 }: { color?: string; size?: number }) {
+// A rabbit mid-hop, with its hop trail. bg colors the eye so it reads on any background.
+export function RabbitIcon({ color = "#000", bg = "#FFE14D", size = 22 }: { color?: string; bg?: string; size?: number }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M3 4h2l2.4 11h10.2L20 7H6.2" />
-      <circle cx="9" cy="19.5" r="1.4" />
-      <circle cx="17" cy="19.5" r="1.4" />
+    <svg width={size} height={size} viewBox="0 0 24 24" fill={color} aria-hidden="true">
+      <path d="M1.2 21.2c1.2-2.6 2.8-4.3 4.6-5.3" fill="none" stroke={color} strokeWidth="1.4" strokeLinecap="round" strokeDasharray="0.1 2.4" />
+      <ellipse cx="11" cy="13.2" rx="5.6" ry="3.7" transform="rotate(-18 11 13.2)" />
+      <circle cx="16.9" cy="9" r="2.7" />
+      <ellipse cx="15.9" cy="4.3" rx="0.95" ry="2.9" transform="rotate(-22 15.9 4.3)" />
+      <ellipse cx="18.2" cy="4.6" rx="0.95" ry="2.7" transform="rotate(12 18.2 4.6)" />
+      <circle cx="5.3" cy="12.4" r="1.5" />
+      <ellipse cx="7.2" cy="17.1" rx="3.2" ry="1.15" transform="rotate(24 7.2 17.1)" />
+      <ellipse cx="16.4" cy="15.2" rx="2.5" ry="0.95" transform="rotate(38 16.4 15.2)" />
+      <circle cx="18" cy="8.4" r="0.55" fill={bg} />
     </svg>
   );
 }
@@ -18,9 +25,9 @@ export function Landing({ archetypes, onLogin }: { archetypes: Archetype[]; onLo
         <div className="mx-auto flex max-w-[1200px] flex-wrap items-center justify-between gap-4 px-6 py-4">
           <div className="flex items-center gap-3">
             <span className="flex h-10 w-10 items-center justify-center rounded border-2 border-black bg-sun">
-              <CartIcon />
+              <RabbitIcon />
             </span>
-            <span className="text-xl font-black tracking-wide">PERSONA CART LAB</span>
+            <span className="text-xl font-black tracking-wide">RABBIT HOP</span>
           </div>
           <nav className="flex items-center gap-6 text-[15px] font-semibold">
             <a href="#how" className="underline-offset-4 hover:underline">
@@ -39,7 +46,7 @@ export function Landing({ archetypes, onLogin }: { archetypes: Archetype[]; onLo
             <span className="chip mono">Built on Meta Muse Spark</span>
             <h1 className="mt-5 max-w-[12ch] text-5xl font-black leading-[1.02] tracking-tight sm:text-[64px]">Same catalog. Same budget. Very different carts.</h1>
             <p className="mt-6 max-w-[46ch] text-lg leading-relaxed text-ink-2 sm:text-[19px]">
-              Persona Cart Lab researches how real shopper archetypes behave, locks that evidence into AI shopping agents, and shows you exactly how each one discovers, compares and buys.
+              Rabbit Hop researches how real shopper archetypes behave, locks that evidence into AI shopping agents, and shows you exactly how each one discovers, compares and buys.
             </p>
             <div className="mt-8 flex flex-wrap gap-3.5">
               <button type="button" onClick={onLogin} className="btn btn-sun btn-raised px-6 py-3.5 text-base">
@@ -83,7 +90,7 @@ export function Landing({ archetypes, onLogin }: { archetypes: Archetype[]; onLo
         </ol>
       </section>
 
-      <footer className="mt-auto border-t-2 border-black px-6 py-5 text-center text-sm text-muted">Persona Cart Lab. A Meta Global AI Developer Hackathon project.</footer>
+      <footer className="mt-auto border-t-2 border-black px-6 py-5 text-center text-sm text-muted">Rabbit Hop. A Meta Global AI Developer Hackathon project.</footer>
     </div>
   );
 }
@@ -107,8 +114,8 @@ export function Login({ onLogin, onBack }: { onLogin: (name: string) => void; on
     <div className="flex min-h-screen items-center justify-center bg-lilac p-6">
       <div className="w-full max-w-[420px] overflow-hidden rounded-lg border-2 border-black bg-white shadow-[8px_8px_0_#000]">
         <div className="flex items-center gap-2.5 border-b-2 border-black bg-sun px-6 py-4">
-          <CartIcon />
-          <span className="text-lg font-black tracking-wide">PERSONA CART LAB</span>
+          <RabbitIcon />
+          <span className="text-lg font-black tracking-wide">RABBIT HOP</span>
         </div>
         <form onSubmit={submit} className="flex flex-col gap-4 px-6 pb-6 pt-7" noValidate>
           <div>

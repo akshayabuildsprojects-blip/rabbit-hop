@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { RunShopper } from "../../shared/types";
 import { useExperiment } from "./useExperiment";
-import { CartIcon } from "./Public";
+import { RabbitIcon } from "./Public";
 import { ExperimentTab, ScenariosTab, type PriorState, type RunLimit } from "./SetupTabs";
 import type { PriorChoice } from "../../shared/priorData";
 import { ResultsTab, type RepeatRequest } from "./ResultsTab";
@@ -165,9 +165,9 @@ export function Dashboard({ config, user, onLogout }: { config: AppConfig; user:
       <aside className="flex max-w-full flex-[1_1_232px] flex-col border-r-2 border-black bg-white">
         <div className="flex items-center gap-2.5 border-b-2 border-black bg-sun px-5 py-4">
           <span className="flex h-[34px] w-[34px] items-center justify-center rounded bg-black">
-            <CartIcon color="#FFE14D" size={18} />
+            <RabbitIcon color="#FFE14D" bg="#000" size={20} />
           </span>
-          <span className="font-black tracking-wide">CART LAB</span>
+          <span className="font-black tracking-wide">RABBIT HOP</span>
         </div>
         <nav aria-label="Lab sections" className="flex flex-col gap-2 px-4 py-4">
           <span className="mx-1 mb-0.5 mt-1 text-xs font-bold tracking-widest text-muted">SETUP</span>
