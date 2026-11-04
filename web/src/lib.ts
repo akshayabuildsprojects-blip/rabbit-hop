@@ -45,6 +45,7 @@ export const INFLUENCE_LABEL: Record<string, string> = {
   price: "Price",
   brand_prestige: "Prestige",
   dupe: "Dupe",
+  convenience: "Convenience",
 };
 
 export const TOOL_TAG: Record<string, { label: string; bg: string; fg?: string }> = {

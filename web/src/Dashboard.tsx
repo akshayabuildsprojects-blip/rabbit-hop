@@ -2,7 +2,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { RunShopper } from "../../shared/types";
 import { useExperiment } from "./useExperiment";
 import { CartIcon } from "./Public";
-import { ExperimentTab, ScenariosTab, type RunLimit } from "./SetupTabs";
+import { ExperimentTab, ScenariosTab, type PriorState, type RunLimit } from "./SetupTabs";
+import type { PriorChoice } from "../../shared/priorData";
 import { ResultsTab, type RepeatRequest } from "./ResultsTab";
 import { PersonaLibrary } from "./PersonaLibrary";
 import { api, colorOf, type AppConfig, type LibraryEntry } from "./lib";
@@ -42,8 +43,22 @@ export function Dashboard({ config, user, onLogout }: { config: AppConfig; user:
   const [queue, setQueue] = useState<{ current: number; total: number; store: string } | null>(null);
   const [openSim, setOpenSim] = useState<string | null>(null);
   const cancelled = useRef(false);
+  // Prior data per shopper. Shoppers with a built-in archetype history use it unless set otherwise.
+  const [priorFiles, setPriorFiles] = useState<{ personaId: string; fileName: string; rows: number }[]>([]);
+  const [priorPick, setPriorPick] = useState<Record<string, PriorState>>({});
+  useEffect(() => {
+    api<{ personaId: string; fileName: string; rows: number }[]>("/api/prior-data")
+      .then(setPriorFiles)
+      .catch(() => {});
+  }, []);
+  const priorOf = (id: string): PriorState => priorPick[id] ?? (priorFiles.some((f) => f.personaId === id) ? { source: "archetype" } : { source: "none" });
+  const priorChoices = (ids: string[]): Record<string, PriorChoice> =>
+    Object.fromEntries(ids.map((id) => {
+      const p = priorOf(id);
+      return [id, p.source === "upload" ? { source: "upload", fileName: p.fileName, csv: p.csv } : { source: p.source }];
+    }));
 
-  const setupKey = JSON.stringify({ selected: [...selected].sort(), scenarioId, stores: [...stores].sort(), limit: limit.by === "steps" ? ["steps", limit.steps] : ["minutes", limit.minutes], locked: library.filter((e) => selected.includes(e.persona_id)).map((e) => e.lockedVersion) });
+  const setupKey = JSON.stringify({ selected: [...selected].sort(), scenarioId, stores: [...stores].sort(), limit: limit.by === "steps" ? ["steps", limit.steps] : ["minutes", limit.minutes], locked: library.filter((e) => selected.includes(e.persona_id)).map((e) => e.lockedVersion), prior: [...selected].sort().map((id) => { const p = priorOf(id); return [id, p.source, p.source === "upload" ? `${p.fileName}:${p.csv?.length}` : ""]; }) });
   const [lastRun, setLastRun] = useState<{ key: string; simulationId: string } | null>(null);
   const canRepeat = !queue && exp.phase === "done" && lastRun?.key === setupKey && !!lastRun.simulationId;
 
@@ -53,7 +68,7 @@ export function Dashboard({ config, user, onLogout }: { config: AppConfig; user:
       .map((e) => ({ id: e.persona_id, name: e.persona_name, tagline: "", style: "", color: colorOf(e), traits: { trend: 0, price: 0, research: 0, prestige: 0 }, source: e.lockedVersion ? "locked" : "provisional", version: e.lockedVersion }));
 
   // Runs the given personas on each store in turn. simulationId joins an existing simulation (a repeat).
-  const runStores = async (o: { ids: string[]; storeIds: string[]; scenarioId: string; limit: { by: "steps" | "minutes"; steps?: number; minutes?: number }; simulationId?: string; allStores: string[] }) => {
+  const runStores = async (o: { ids: string[]; storeIds: string[]; scenarioId: string; limit: { by: "steps" | "minutes"; steps?: number; minutes?: number }; simulationId?: string; allStores: string[]; priorData?: Record<string, PriorChoice> }) => {
     const sc = config.scenarios.find((x) => x.id === o.scenarioId)!;
     let simId = o.simulationId ?? "";
     cancelled.current = false;
@@ -74,6 +89,7 @@ export function Dashboard({ config, user, onLogout }: { config: AppConfig; user:
           minutesPerShopper: o.limit.minutes ?? 5,
           stepsPerShopper: o.limit.steps ?? 30,
           ...(simId ? { simulationId: simId } : {}),
+          ...(!simId && o.priorData ? { priorData: o.priorData } : {}),
           context: {},
           mission: { objective: `${sc.title}: ${sc.why}`, budget: sc.budget, product_categories: [...new Set(sc.items.map((it) => it.category))] },
         },
@@ -92,7 +108,7 @@ export function Dashboard({ config, user, onLogout }: { config: AppConfig; user:
 
   const run = async (again = false) => {
     const ids = library.filter((e) => selected.includes(e.persona_id) && e.lockedVersion !== null).map((e) => e.persona_id);
-    const simId = await runStores({ ids, storeIds: stores, allStores: stores, scenarioId: scenario.id, limit: { by: limit.by, steps: limit.steps, minutes: limit.minutes }, simulationId: again && lastRun?.key === setupKey ? lastRun.simulationId : undefined });
+    const simId = await runStores({ ids, storeIds: stores, allStores: stores, scenarioId: scenario.id, limit: { by: limit.by, steps: limit.steps, minutes: limit.minutes }, simulationId: again && lastRun?.key === setupKey ? lastRun.simulationId : undefined, priorData: priorChoices(ids) });
     setLastRun({ key: setupKey, simulationId: simId });
   };
   const repeatFromResults = (r: RepeatRequest) => {
@@ -213,6 +229,9 @@ export function Dashboard({ config, user, onLogout }: { config: AppConfig; user:
               onStop={stop}
               iteration={null}
               onRunAgain={() => run(true)}
+              priorFiles={priorFiles}
+              priorOf={priorOf}
+              setPrior={(id, p) => setPriorPick({ ...priorPick, [id]: p })}
               exp={exp}
               onRun={() => run(false)}
               onOpenLibrary={() => setTab("personas")}

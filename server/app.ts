@@ -2,7 +2,7 @@ import express from "express";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { randomUUID } from "node:crypto";
+import { createHash, randomUUID } from "node:crypto";
 import type { AgentResult, ExperimentConfig, RunShopper, StreamMessage } from "../shared/types.js";
 import { CATALOG, SEPHORA_SEARCH } from "./data/catalog.js";
 import { TRENDS } from "./data/trends.js";
@@ -20,6 +20,7 @@ import { formatZodError } from "./personas/schema.js";
 import { BANDS, PARAMETER_ANCHORS } from "./personas/anchors.js";
 import { getScenario, SCENARIOS } from "../shared/scenarios.js";
 import { signatureOf } from "../shared/consistency.js";
+import { readPriorCsv, type PriorChoice, type PriorData } from "../shared/priorData.js";
 import { combosOf, deleteSimulation, groupSimulations, readSetup, SIM_ID, storeOf, summarize, writeSetup } from "./simulations.js";
 
 import { browserRouter } from "./browser/check.js";
@@ -70,6 +71,28 @@ export function createApp(opts: { dataDir?: string; getClient?: () => MetaClient
 
   // Screenshots and saved results from live-site runs.
   app.use("/api/runs", express.static(path.join(dataDir, "runs")));
+
+  // Prior data: built-in archetype shopping histories, one CSV per persona (data/prior-data).
+  const priorDir = path.join(dataDir, "prior-data");
+  const archetypeFile = (id: string) => (/^[\w-]{1,60}$/.test(id) ? path.join(priorDir, `${id}-history.csv`) : "");
+  app.get("/api/prior-data", (_req, res) => {
+    let files: string[] = [];
+    try {
+      files = fs.readdirSync(priorDir).filter((f) => f.endsWith("-history.csv"));
+    } catch {}
+    res.json(
+      files.map((f) => {
+        const { rows } = readPriorCsv(fs.readFileSync(path.join(priorDir, f), "utf8"));
+        return { personaId: f.replace(/-history\.csv$/, ""), fileName: f, rows: rows.length };
+      }),
+    );
+  });
+  app.get("/api/prior-data/:personaId", (req, res) => {
+    const f = archetypeFile(req.params.personaId);
+    if (!f || !fs.existsSync(f)) return res.status(404).json({ error: "No archetype history for this persona." });
+    const { rows } = readPriorCsv(fs.readFileSync(f, "utf8"));
+    res.json({ fileName: path.basename(f), rows });
+  });
 
   app.get("/api/config", (_req, res) => {
     res.json({
@@ -139,6 +162,31 @@ export function createApp(opts: { dataDir?: string; getClient?: () => MetaClient
         return res.status(400).json({ error: `Only approved and locked personas can run a scenario. Not locked: ${unlocked.map((s) => s.name).join(", ")}. Approve and lock them in Personas first.` });
     }
 
+    // Prior data per shopper: the archetype history, an uploaded CSV, or none. Resolved here for a new
+    // simulation; a repeat reuses the files saved with the simulation, so conditions stay identical.
+    const histories = new Map<string, PriorData & { sha: string; csv: string }>();
+    const sha = (t: string) => createHash("sha256").update(t).digest("hex");
+    const choices: Record<string, PriorChoice> = body.priorData && typeof body.priorData === "object" ? body.priorData : {};
+    const resolveChoice = (id: string, c: PriorChoice | undefined): string | null => {
+      if (!c || c.source === "none") return null;
+      let csv = "", fileName = "", source: PriorData["source"];
+      if (c.source === "archetype") {
+        const f = archetypeFile(id);
+        if (!f || !fs.existsSync(f)) return `There is no archetype history for ${id}.`;
+        csv = fs.readFileSync(f, "utf8");
+        fileName = path.basename(f);
+        source = "archetype";
+      } else if (c.source === "upload") {
+        csv = String(c.csv ?? "");
+        fileName = String(c.fileName ?? "upload.csv").replace(/[^\w. -]/g, "").slice(0, 80) || "upload.csv";
+        source = "upload";
+      } else return `Unknown prior data choice for ${id}.`;
+      const parsed = readPriorCsv(csv);
+      if (parsed.error) return `${fileName}: ${parsed.error}`;
+      histories.set(id, { source, fileName, rows: parsed.rows, sha: sha(csv), csv });
+      return null;
+    };
+
     const cfg: ExperimentConfig = {
       objective: mission.data.objective,
       budget: mission.data.budget,
@@ -173,13 +221,38 @@ export function createApp(opts: { dataDir?: string; getClient?: () => MetaClient
           shoppers.every((s) => versions.has(s.id) && versions.get(s.id) === s.version);
         if (!sameConditions) return res.status(400).json({ error: "This simulation's conditions have changed (personas, versions, scenario, store or limit). Start a new simulation instead." });
         simulationId = want;
+        for (const s of shoppers) {
+          const saved = st.priorData?.[s.id];
+          if (!saved || saved.source === "none") continue;
+          try {
+            const csv = fs.readFileSync(path.join(runsDir, simulationId, "prior-data", `${s.id}.csv`), "utf8");
+            const parsed = readPriorCsv(csv);
+            histories.set(s.id, { source: saved.source, fileName: saved.fileName, rows: parsed.rows, sha: sha(csv), csv });
+          } catch {
+            return res.status(400).json({ error: `This simulation's prior data for ${s.name} is missing. Start a new simulation instead.` });
+          }
+        }
       } else {
+        for (const s of shoppers) {
+          const err = resolveChoice(s.id, choices[s.id]);
+          if (err) return res.status(400).json({ error: err });
+        }
         simulationId = `sim-${runId}`;
+        if (histories.size) {
+          fs.mkdirSync(path.join(runsDir, simulationId, "prior-data"), { recursive: true });
+          for (const [id, h] of histories) fs.writeFileSync(path.join(runsDir, simulationId, "prior-data", `${id}.csv`), h.csv);
+        }
         const stores = (Array.isArray(body.stores) ? body.stores : [environment]).filter((x: any) => typeof x === "string" && RETAILER_SITES[x]);
         writeSetup(runsDir, {
           id: simulationId,
           createdAt: new Date().toISOString(),
-          setup: { scenarioId: scenario?.id ?? null, stores: stores.includes(environment) ? stores : [...stores, environment], personas: shoppers.map((s) => ({ id: s.id, version: s.version })), limit },
+          setup: { scenarioId: scenario?.id ?? null, stores: stores.includes(environment) ? stores : [...stores, environment], personas: shoppers.map((s) => ({ id: s.id, version: s.version })),
+            limit,
+            priorData: Object.fromEntries(shoppers.map((s) => {
+              const h = histories.get(s.id);
+              return [s.id, h ? { source: h.source, fileName: h.fileName, rows: h.rows.length, sha256: h.sha } : { source: "none" }];
+            })),
+          },
         });
       }
       let n = 1;
@@ -203,6 +276,7 @@ export function createApp(opts: { dataDir?: string; getClient?: () => MetaClient
                   maxSteps: stepsPerShopper,
                   maxMinutes: minutesPerShopper,
                   shotDir: path.join(runDir, p.id),
+                  ...(histories.has(p.id) ? { history: { source: histories.get(p.id)!.source, fileName: histories.get(p.id)!.fileName, rows: histories.get(p.id)!.rows, sha: histories.get(p.id)!.sha } } : {}),
                 })
               : live
                 ? await runLiveAgent(p, cfg, emit, controller.signal)

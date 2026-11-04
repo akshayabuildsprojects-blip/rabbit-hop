@@ -1,7 +1,9 @@
 import type { Category, ConsumerContext } from "../../shared/types";
 import { PRIORITY_LABEL, type Priority, type Scenario } from "../../shared/scenarios";
 import type { Experiment } from "./useExperiment";
-import { colorOf, money, TOOL_TAG, type AppConfig, type LibraryEntry } from "./lib";
+import { useState } from "react";
+import { digestHistory, readPriorCsv, PRIOR_COLUMNS, type PriorRow } from "../../shared/priorData";
+import { api, colorOf, money, TOOL_TAG, type AppConfig, type LibraryEntry } from "./lib";
 
 export const CATEGORIES: Category[] = ["cleanser", "serum", "moisturizer", "sunscreen", "lip", "complexion", "cheek", "eyes", "body"];
 
@@ -363,6 +365,17 @@ interface RunProps {
   onRun: () => void;
   onOpenJourney: (personaId: string) => void;
   onOpenLibrary: () => void;
+  priorFiles: { personaId: string; fileName: string; rows: number }[];
+  priorOf: (id: string) => PriorState;
+  setPrior: (id: string, p: PriorState) => void;
+}
+
+// What one shopper will use as prior data. Uploads keep the file text so the server can check and save it.
+export interface PriorState {
+  source: "none" | "archetype" | "upload";
+  fileName?: string;
+  csv?: string;
+  rows?: number;
 }
 
 export interface RunLimit {
@@ -371,7 +384,7 @@ export interface RunLimit {
   minutes: number;
 }
 
-export function ExperimentTab({ config, library, selected, setSelected, scenarioId, setScenarioId, limit, setLimit, canRepeat, stores, setStores, queue, onStop, iteration, onRunAgain, exp, onRun, onOpenJourney, onOpenLibrary }: RunProps) {
+export function ExperimentTab({ config, library, selected, setSelected, scenarioId, setScenarioId, limit, setLimit, canRepeat, stores, setStores, queue, onStop, iteration, onRunAgain, exp, onRun, onOpenJourney, onOpenLibrary, priorFiles, priorOf, setPrior }: RunProps) {
   const busy = exp.phase === "shopping" || exp.phase === "judging" || !!queue;
   const runPersonas = exp.setup?.personas ?? [];
   const scenario = config.scenarios.find((s) => s.id === scenarioId) ?? config.scenarios[0];
@@ -458,9 +471,11 @@ export function ExperimentTab({ config, library, selected, setSelected, scenario
         </section>
       </div>
 
+      <PriorDataSection shoppers={library.filter((e) => chosen.includes(e.persona_id))} files={priorFiles} priorOf={priorOf} setPrior={setPrior} busy={busy} />
+
       <section className="card flex flex-col gap-3 p-6" aria-labelledby="store-h">
         <h2 id="store-h" className="text-[15px] font-black tracking-wide">
-          3. WHERE THEY SHOP
+          4. WHERE THEY SHOP
         </h2>
         <div className="flex flex-wrap gap-3">
           {config.retailers.map((r) => {
@@ -483,7 +498,7 @@ export function ExperimentTab({ config, library, selected, setSelected, scenario
       <section className="card flex flex-col gap-3 p-6" aria-labelledby="dur-h">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h2 id="dur-h" className="text-[15px] font-black tracking-wide">
-            4. LIMIT PER SHOPPER
+            5. LIMIT PER SHOPPER
           </h2>
           <div className="flex gap-2" role="radiogroup" aria-label="Limit by">
             {(["steps", "minutes"] as const).map((b) => (
@@ -521,7 +536,7 @@ export function ExperimentTab({ config, library, selected, setSelected, scenario
 
       <section className="card flex flex-col gap-3 p-6" aria-labelledby="run-h">
         <h2 id="run-h" className="text-[15px] font-black tracking-wide">
-          5. RUN
+          6. RUN
         </h2>
         <div className="flex flex-wrap items-center gap-3">
           {busy ? (
@@ -616,5 +631,108 @@ export function ExperimentTab({ config, library, selected, setSelected, scenario
         </section>
       )}
     </>
+  );
+}
+
+const PRIOR_OPTIONS: { id: PriorState["source"]; label: string }[] = [
+  { id: "none", label: "None" },
+  { id: "archetype", label: "Archetype history" },
+  { id: "upload", label: "Upload CSV" },
+];
+
+// Step 3: the shopping history each shopper brings. Muse reads it as the persona's own past purchases.
+function PriorDataSection({ shoppers, files, priorOf, setPrior, busy }: { shoppers: LibraryEntry[]; files: { personaId: string; fileName: string; rows: number }[]; priorOf: (id: string) => PriorState; setPrior: (id: string, p: PriorState) => void; busy: boolean }) {
+  const [errors, setErrors] = useState<Record<string, string>>({});
+  const [preview, setPreview] = useState<{ id: string; text: string } | null>(null);
+
+  const upload = async (id: string, file: File | undefined) => {
+    if (!file) return;
+    const csv = await file.text();
+    const parsed = readPriorCsv(csv);
+    if (parsed.error) {
+      setErrors({ ...errors, [id]: `${file.name}: ${parsed.error}` });
+      return;
+    }
+    setErrors({ ...errors, [id]: "" });
+    setPrior(id, { source: "upload", fileName: file.name, csv, rows: parsed.rows.length });
+  };
+  const showPreview = async (id: string) => {
+    if (preview?.id === id) return setPreview(null);
+    const p = priorOf(id);
+    let rows: PriorRow[] = [];
+    if (p.source === "upload" && p.csv) rows = readPriorCsv(p.csv).rows;
+    else if (p.source === "archetype") rows = (await api<{ rows: PriorRow[] }>(`/api/prior-data/${encodeURIComponent(id)}`).catch(() => ({ rows: [] }))).rows;
+    setPreview({ id, text: rows.length ? digestHistory(rows) : "Could not read this history." });
+  };
+
+  return (
+    <section className="card flex flex-col gap-4 p-6" aria-labelledby="prior-h">
+      <h2 id="prior-h" className="text-[15px] font-black tracking-wide">
+        3. PRIOR DATA
+      </h2>
+      <p className="max-w-[72ch] text-sm text-ink-2">
+        A shopping history each shopper brings: what shoppers like this persona have bought before, what they bought again and what they returned. Muse plans with the full history and keeps a summary in mind while shopping. The judge never sees it.
+      </p>
+      {shoppers.length === 0 ? (
+        <p className="text-sm text-muted">Choose shoppers first.</p>
+      ) : (
+        <div className="flex flex-col gap-3">
+          {shoppers.map((e) => {
+            const id = e.persona_id;
+            const p = priorOf(id);
+            const file = files.find((f) => f.personaId === id);
+            const detail =
+              p.source === "archetype"
+                ? `${file?.fileName ?? ""}: ${file?.rows ?? 0} purchases, synthetic`
+                : p.source === "upload"
+                  ? p.fileName
+                    ? `${p.fileName}: ${p.rows} purchases`
+                    : "Choose a CSV file"
+                  : "Shops from the persona alone";
+            return (
+              <div key={id} className="box flex flex-col gap-2.5 p-3.5">
+                <div className="flex flex-wrap items-center justify-between gap-3">
+                  <span className="flex items-center gap-2 text-sm font-extrabold">
+                    <span className="swatch" style={{ background: colorOf(e) }} />
+                    {e.persona_name}
+                  </span>
+                  <div className="flex flex-wrap gap-2" role="radiogroup" aria-label={`Prior data for ${e.persona_name}`}>
+                    {PRIOR_OPTIONS.filter((o) => o.id !== "archetype" || file).map((o) =>
+                      o.id === "upload" ? (
+                        <label key={o.id} className={`chip min-h-9 cursor-pointer ${p.source === "upload" ? "bg-black text-white" : ""} ${busy ? "pointer-events-none opacity-55" : ""}`}>
+                          {o.label}
+                          <input type="file" accept=".csv,text/csv" className="sr-only" disabled={busy} onChange={(ev) => upload(id, ev.target.files?.[0])} />
+                        </label>
+                      ) : (
+                        <button key={o.id} type="button" role="radio" aria-checked={p.source === o.id} disabled={busy} onClick={() => setPrior(id, { source: o.id })} className={`chip min-h-9 ${p.source === o.id ? "bg-black text-white" : ""}`}>
+                          {o.label}
+                        </button>
+                      ),
+                    )}
+                  </div>
+                </div>
+                <div className="flex flex-wrap items-baseline justify-between gap-2 text-[13px]">
+                  <span className="text-ink-2">{detail}</span>
+                  {(p.source === "archetype" || (p.source === "upload" && p.csv)) && (
+                    <button type="button" onClick={() => showPreview(id)} className="font-bold underline">
+                      {preview?.id === id ? "Hide summary" : "What Muse sees"}
+                    </button>
+                  )}
+                </div>
+                {errors[id] && (
+                  <p role="alert" className="box bg-sun px-3 py-2 text-[13px] font-semibold">
+                    {errors[id]}
+                  </p>
+                )}
+                {preview?.id === id && <pre className="whitespace-pre-wrap rounded-md bg-lilac p-3 text-[12.5px] leading-relaxed">{preview.text}</pre>}
+              </div>
+            );
+          })}
+        </div>
+      )}
+      <p className="text-[13px] text-ink-2">
+        Archetype histories are synthetic and illustrative, not real customer data. An upload needs at least brand and product columns; the full format is {PRIOR_COLUMNS.join(", ")}. Prior data is saved with the simulation, so repeats use exactly the same history; changing it starts a new simulation.
+      </p>
+    </section>
   );
 }

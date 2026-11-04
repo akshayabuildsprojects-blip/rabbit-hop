@@ -56,7 +56,7 @@ export interface PersonaConfig {
   traits: Traits;
 }
 
-export type Influence = "trend" | "reviews" | "ingredients" | "price" | "brand_prestige" | "dupe";
+export type Influence = "trend" | "reviews" | "ingredients" | "price" | "brand_prestige" | "dupe" | "convenience";
 
 export interface BasketItem {
   productId: string;

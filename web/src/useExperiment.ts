@@ -28,6 +28,7 @@ export interface RunRequest {
   limitBy?: "steps" | "minutes";
   simulationId?: string;
   stores?: string[];
+  priorData?: Record<string, import("../../shared/priorData").PriorChoice>;
 }
 
 export interface RunSetup {

@@ -4,6 +4,7 @@ import { MODEL_ID } from "../llm.js";
 import fs from "node:fs";
 import path from "node:path";
 import { launchBrowser } from "./check.js";
+import { digestHistory, historyLines, HISTORY_FRAME, type PriorData } from "../../shared/priorData.js";
 
 // Autonomous shopping on the live retailer site with Meta Muse Spark computer use.
 // Muse Spark sees screenshots and returns actions; this harness executes them in a real
@@ -38,7 +39,7 @@ const VIEWPORT = { width: 1280, height: 800 };
 const FORBIDDEN = /(checkout|\/basket|\/cart|sign-?in|login|\/profile|myaccount|\/account|beautyinsider\/join)/i;
 const CATEGORIES: Category[] = ["cleanser", "serum", "moisturizer", "sunscreen", "lip", "complexion", "cheek", "eyes", "body"];
 const TIERS: Tier[] = ["value", "mid", "prestige", "luxury"];
-const INFLUENCES: Influence[] = ["trend", "reviews", "ingredients", "price", "brand_prestige", "dupe"];
+const INFLUENCES: Influence[] = ["trend", "reviews", "ingredients", "price", "brand_prestige", "dupe", "convenience"];
 
 export const FUNCTION_TOOLS = [
   {
@@ -182,11 +183,11 @@ export function describePlan(plan: ShopPlan): string {
 ${plan.items.map((i) => `- ${i.list_item}: first ${i.first_move}; need to see ${i.evidence_needed}; compare ${i.options_to_compare} option${i.options_to_compare === 1 ? "" : "s"}.`).join("\n")}`;
 }
 
-export const PROMPT_VERSION = "browse-v9";
+export const PROMPT_VERSION = "browse-v10";
 
 const MISSION_FRAME = `Your task is to behave exactly as this persona would. Your steps and your final basket will be judged on how faithfully they match this persona. Not on speed, not on finding the objectively best product, and not on spending the whole budget.`;
 
-export function planInstructions(persona: PersonaConfig, cfg: ExperimentConfig, site: RetailerSite) {
+export function planInstructions(persona: PersonaConfig, cfg: ExperimentConfig, site: RetailerSite, history?: PriorData) {
   return `${MISSION_FRAME}
 
 You are "${persona.name}".${persona.tagline ? ` ${persona.tagline}` : ""}
@@ -194,14 +195,14 @@ ${persona.style}
 
 Your mission:
 ${describeMission(cfg.mission)}
-
+${history ? `\n${HISTORY_FRAME}\n\nYour shopping history (${history.rows.length} purchases; date | store | product | category | price | origin | tier | what decided it | where you found it | rating | bought again | returned | note):\n${historyLines(history.rows)}\n` : ""}
 You are about to shop ${site.name}. Before you touch the page, decide how this persona would shop it and call make_plan.
 - Where would this persona start: the search box, the category menus, Best Sellers, New arrivals or Sale?
 - How would this persona search? Most real shoppers start generic (a plain product type such as "foundation", or a category) and narrow down with filters, sorting and what the store shows them. Start from a brand or a specific product only if this persona would genuinely already know it and walk in for it. Do not add brand names or words like "viral" to searches unless that is truly how this persona searches.
-- For each list item: what you need to see before buying, and how many options you would look at.`;
+- For each list item: what you need to see before buying, and how many options you would look at.${history ? "\n- Use your history: what you would buy again, what you returned or would avoid, your usual price range, and whether you would start from a brand or product you already know. A brand you trust is a reason to look for it; it is not a reason to skip comparing if this persona would compare." : ""}`;
 }
 
-export function browserInstructions(persona: PersonaConfig, cfg: ExperimentConfig, site: RetailerSite, plan?: ShopPlan) {
+export function browserInstructions(persona: PersonaConfig, cfg: ExperimentConfig, site: RetailerSite, plan?: ShopPlan, history?: PriorData) {
   const ctx = describeContext(cfg.context);
   const openRule =
     site.productOpen === "new_tab"
@@ -215,7 +216,7 @@ ${persona.style}
 
 2-4. Your mission:
 ${describeMission(cfg.mission)}
-${ctx.startsWith("- No specific") ? "" : `\nWho you are shopping as:\n${ctx}\n`}${plan ? `\nYour plan (you made it as this persona; follow it, and if you deviate, say why in a sentence):\n${describePlan(plan)}\n` : ""}
+${ctx.startsWith("- No specific") ? "" : `\nWho you are shopping as:\n${ctx}\n`}${history ? `\n${HISTORY_FRAME}\nSummary of your history:\n${digestHistory(history.rows)}\n` : ""}${plan ? `\nYour plan (you made it as this persona; follow it, and if you deviate, say why in a sentence):\n${describePlan(plan)}\n` : ""}
 5. Go. You are on the ${site.name} home page in a real browser.
 
 Shop the way this persona really would on this site:
@@ -363,6 +364,7 @@ export interface RunSettings {
   fresh_browser: true;
   temperature_applied: boolean;
   reasoning_effort_applied: boolean;
+  prior_data: { source: "none" | "archetype" | "upload"; file?: string; rows?: number; sha256?: string };
 }
 
 export const PAGE_SHIM = "globalThis.__name = globalThis.__name || function (f) { return f; };";
@@ -546,8 +548,10 @@ export async function runBrowserAgent(
     startUrl?: string;
     allowedHost?: string;
     shotDir?: string;
+    history?: PriorData & { sha?: string }; // prior data, shown to the shopper only (never to the judge)
   },
 ): Promise<AgentResult & { settings: RunSettings }> {
+  const history = opts.history && opts.history.rows.length ? opts.history : undefined;
   const site = RETAILER_SITES[opts.retailer ?? "sephora"];
   const allowedHost = opts.allowedHost ?? new URL(site.start).hostname.replace(/^www\./, "");
   const limitBy = opts.limitBy ?? "steps";
@@ -574,6 +578,7 @@ export async function runBrowserAgent(
     fresh_browser: true,
     temperature_applied: true,
     reasoning_effort_applied: true,
+    prior_data: history ? { source: history.source, file: history.fileName, rows: history.rows.length, ...(history.sha ? { sha256: history.sha } : {}) } : { source: "none" },
   };
   const log = (kind: ActivityEntry["kind"], detail: string, extra: Partial<ActivityEntry> = {}) => {
     activity.push({ t: Math.round((Date.now() - t0) / 1000), kind, detail, ...extra });
@@ -704,7 +709,7 @@ export async function runBrowserAgent(
     try {
       const pres = await call({
         model: MODEL_ID,
-        instructions: planInstructions(persona, cfg, site),
+        instructions: planInstructions(persona, cfg, site, history),
         tools: [PLAN_TOOL],
         tool_choice: "required",
         input: [{ role: "user", content: [{ type: "input_text", text: `This is the ${site.name} home page. Make your plan.` }, { type: "input_image", image_url: await shot() }] }],
@@ -764,7 +769,7 @@ export async function runBrowserAgent(
       stats.steps++;
       const res = await call({
         model: MODEL_ID,
-        instructions: browserInstructions(persona, cfg, site, plan),
+        instructions: browserInstructions(persona, cfg, site, plan, history),
         tools: [{ type: "computer" }, ...FUNCTION_TOOLS],
         input,
         ...(previous ? { previous_response_id: previous } : {}),
@@ -905,7 +910,7 @@ export async function runBrowserAgent(
       try {
         let req: Record<string, unknown> = {
           model: MODEL_ID,
-          instructions: browserInstructions(persona, cfg, site, plan),
+          instructions: browserInstructions(persona, cfg, site, plan, history),
           tools: decideTools,
           tool_choice: "required",
           input: [
@@ -943,7 +948,7 @@ Work through your shopping list in priority order. For each item, either add_to_
             outs.push({ type: "function_call_output", call_id: item.call_id, output: JSON.stringify(out) });
           }
           if (finished || !outs.length) break;
-          req = { model: MODEL_ID, instructions: browserInstructions(persona, cfg, site, plan), tools: decideTools, input: outs, previous_response_id: res.id };
+          req = { model: MODEL_ID, instructions: browserInstructions(persona, cfg, site, plan, history), tools: decideTools, input: outs, previous_response_id: res.id };
         }
       } catch (e: any) {
         log("error", `Decide step failed: ${String(e?.message ?? e).split("\n")[0]}`);

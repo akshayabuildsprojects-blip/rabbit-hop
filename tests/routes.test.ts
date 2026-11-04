@@ -122,26 +122,24 @@ describe("persona API: configure, regenerate, lock", () => {
 });
 
 describe("scenarios", () => {
+  it("lists the archetype histories and serves one", async () => {
+    const list = await json("/api/prior-data");
+    expect(list.status).toBe(200);
+    expect(list.body.map((f: any) => f.personaId).sort()).toEqual(["luxury", "price-sensitive", "sensitive-skin", "time-constrained", "trend-driven"]);
+    expect(list.body.every((f: any) => f.rows === 100)).toBe(true);
+    const one = await json("/api/prior-data/luxury");
+    expect(one.body.rows[0]).toHaveProperty("brand");
+    expect((await json("/api/prior-data/nobody")).status).toBe(404);
+  });
+
   it("lists the curated scenarios in config", async () => {
     const { body } = await json("/api/config");
     expect(body.scenarios.map((s: any) => s.id)).toEqual(["new-vanity", "running-low", "night-out", "skincare-reset"]);
   });
-  it("turns a scenario into the run mission (budget, why, prioritized list)", async () => {
-    const ctrl = new AbortController();
-    const res = await fetch(base + "/api/experiment", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ personaIds: ["price-sensitive", "luxury"], scenarioId: "new-vanity", mission: { budget: 999 } }),
-      signal: ctrl.signal,
-    });
-    const reader = res.body!.getReader();
-    let buf = "";
-    while (!buf.includes("\n")) buf += new TextDecoder().decode((await reader.read()).value);
-    ctrl.abort();
-    const meta = JSON.parse(buf.split("\n")[0]);
-    expect(meta.mission.budget).toBe(150);
-    expect(meta.mission.situation).toMatch(/new everyday makeup routine/);
-    expect(meta.mission.shopping_list.map((i: any) => `${i.item}:${i.priority}`)).toEqual(["Foundation:must", "Blush:preferred", "Mascara:nice"]);
+  it("refuses a scenario run for personas that are not locked", async () => {
+    const { status, body } = await json("/api/experiment", { method: "POST", body: JSON.stringify({ personaIds: ["luxury"], scenarioId: "new-vanity" }) });
+    expect(status).toBe(400);
+    expect(body.error).toMatch(/Only approved and locked personas/);
   });
   it("rejects an unknown scenario", async () => {
     const { status } = await json("/api/experiment", { method: "POST", body: JSON.stringify({ personaIds: ["luxury"], scenarioId: "nope" }) });

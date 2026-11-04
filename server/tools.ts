@@ -3,7 +3,7 @@ import { CATALOG, productById, SEPHORA_SEARCH } from "./data/catalog.js";
 import { TRENDS } from "./data/trends.js";
 
 const CATEGORIES: Category[] = ["cleanser", "serum", "moisturizer", "sunscreen", "lip", "complexion", "cheek", "eyes", "body"];
-const INFLUENCES: Influence[] = ["trend", "reviews", "ingredients", "price", "brand_prestige", "dupe"];
+const INFLUENCES: Influence[] = ["trend", "reviews", "ingredients", "price", "brand_prestige", "dupe", "convenience"];
 
 // OpenAI-compatible tool schemas, accepted by Meta Model API chat completions.
 export const TOOL_DEFS = [

@@ -72,7 +72,7 @@ describe("browser shopping agent", () => {
       expect(calls[1].input[0]).toMatchObject({ type: "computer_call_output", call_id: "c1", output: { type: "computer_screenshot" } });
       expect(calls[3].input.filter((i: any) => i.call_id).map((i: any) => i.call_id)).toEqual(["f1", "f2", "f3", "f4"]);
       expect(JSON.parse(calls[3].input[3].output).ok).toBe(false); // over budget
-      expect((r as any).settings).toMatchObject({ prompt_version: "browse-v9", fresh_browser: true, limit: { by: "steps" } });
+      expect((r as any).settings).toMatchObject({ prompt_version: "browse-v10", fresh_browser: true, limit: { by: "steps" } });
       expect(r.items.map((i) => i.name)).toEqual(["Glow Tint"]);
       expect(r.items[0].productId).toContain("/product/glow-tint");
       // Sephora-style store: the product tile opened in a new tab, and the purchase came from it.

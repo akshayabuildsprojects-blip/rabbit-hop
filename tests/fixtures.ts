@@ -123,6 +123,9 @@ export function tempDataDir(): string {
   const src = path.resolve(__dirname, "../data/persona-definitions");
   fs.mkdirSync(path.join(dir, "persona-definitions"));
   for (const f of fs.readdirSync(src)) fs.copyFileSync(path.join(src, f), path.join(dir, "persona-definitions", f));
+  const prior = path.resolve(__dirname, "../data/prior-data");
+  fs.mkdirSync(path.join(dir, "prior-data"));
+  for (const f of fs.readdirSync(prior)) fs.copyFileSync(path.join(prior, f), path.join(dir, "prior-data", f));
   return dir;
 }
 

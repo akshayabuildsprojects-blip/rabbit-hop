@@ -23,7 +23,13 @@ interface SimSummary {
   stores: StoreStatus[];
   repeats: number;
   runs: number;
-  setup: { scenarioId: string | null; stores: string[]; personas: { id: string; version: number | null }[]; limit: { by: "steps" | "minutes"; steps?: number; minutes?: number } } | null;
+  setup: {
+    scenarioId: string | null;
+    stores: string[];
+    personas: { id: string; version: number | null }[];
+    limit: { by: "steps" | "minutes"; steps?: number; minutes?: number };
+    priorData?: Record<string, { source: "none" | "archetype" | "upload"; fileName?: string; rows?: number }>;
+  } | null;
 }
 
 interface SavedRun {
@@ -349,6 +355,17 @@ function SimulationPage({ id, running, onBack, onDownload, onDelete, onRepeat }:
             {sim.setup ? `; limit ${sim.setup.limit.by === "steps" ? `${sim.setup.limit.steps} steps` : `${sim.setup.limit.minutes} min`}` : ""}
             ; stores: {sim.stores.map((s) => storeName(s.id)).join(", ")}
           </span>
+          {sim.setup?.priorData && (
+            <span className="text-sm text-ink-2">
+              Prior data:{" "}
+              {[...people.values()]
+                .map((p) => {
+                  const d = sim.setup!.priorData![p.id];
+                  return `${p.name}, ${!d || d.source === "none" ? "none" : `${d.source === "archetype" ? "archetype history" : "uploaded"} ${d.fileName} (${d.rows} purchases)`}`;
+                })
+                .join("; ")}
+            </span>
+          )}
           {running && <span className="text-sm font-bold">Running now: results update when this run finishes.</span>}
         </div>
         <div className="flex flex-wrap gap-2">
