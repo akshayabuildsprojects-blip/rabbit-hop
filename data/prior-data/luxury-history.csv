@@ -1,0 +1,101 @@
+date,store,brand,product,category,price_usd,origin,tier,main_driver,discovered_via,rating_given,repurchased,returned,note
+2024-11-02,Sephora,Chanel,Les Beiges Healthy Glow Foundation Hydration and Longwear,complexion,65,French,prestige,brand_prestige,beauty advisor,5,yes,no,"My foundation for years; the finish is skin, only better"
+2024-11-09,Nordstrom,Estée Lauder,Advanced Night Repair Serum,serum,82,US,prestige,reviews,editorial,5,yes,no,Night staple; skin looks rested
+2024-11-16,Neiman Marcus,La Mer,Crème de la Mer Moisturizing Cream,moisturizer,200,US,luxury,brand_prestige,beauty advisor,4,yes,no,The ritual of warming it is half the point
+2024-11-23,Sephora,Dior,Rouge Dior Lipstick (999 Satin),lip,49,French,prestige,brand_prestige,makeup artist,5,yes,no,The red every artist reaches for
+2024-11-30,Saks,Clé de Peau Beauté,Concealer,complexion,75,J-beauty,luxury,reviews,makeup artist,5,yes,no,"Artists' secret for a reason; tiny amount, total coverage"
+2024-12-07,Bergdorf Goodman,Guerlain,Météorites Light-Revealing Pearls,complexion,70,French,prestige,brand_prestige,beauty advisor,4,no,no,Heritage piece; the violet scent when you open it
+2024-12-14,Brand boutique,Hermès,Rouge Hermès Satin Lipstick,lip,80,French,luxury,brand_prestige,brand launch,4,no,no,"Refillable case is an object you keep; formula good, not better than Dior"
+2024-12-21,Saks,SK-II,Facial Treatment Essence (160 ml),serum,185,J-beauty,luxury,ingredients,beauty advisor,5,yes,no,Pitera; skin clearer within weeks
+2025-01-04,Sephora,Tom Ford,Lip Color (Cherry Lush),lip,60,US,luxury,brand_prestige,editorial,4,no,no,The compact clicks shut like jewelry
+2025-01-11,Olive Young US,Sulwhasoo,First Care Activating Serum,serum,89,K-beauty,prestige,ingredients,youtube,5,yes,no,Ginseng heritage; preps skin beautifully
+2025-01-18,Sephora,Westman Atelier,Baby Cheeks Blush Stick,cheek,48,US,prestige,reviews,makeup artist,5,no,no,Gucci Westman's own; melts into skin
+2025-01-25,Nordstrom,Charlotte Tilbury,Pillow Talk Lipstick,lip,35,UK,prestige,reviews,makeup artist,4,no,no,"Everyday nude, dependable"
+2025-02-01,Sephora,Chanel,Joues Contraste Powder Blush,cheek,50,French,prestige,brand_prestige,beauty advisor,5,no,no,Finely milled; the embossed pan
+2025-02-08,Brand site,Forest Essentials,Soundarya Radiance Cream with 24K Gold,moisturizer,80,Indian,luxury,ingredients,editorial,4,yes,no,"Ayurvedic luxury; saffron and gold, rich texture"
+2025-02-15,Sephora,Rare Beauty,Soft Pinch Liquid Blush,cheek,25,US,mid,trend,friend,3,no,no,"Everyone loves it; fine, but the Chanel finish is what I want"
+2025-02-22,Bergdorf Goodman,Sisley,Black Rose Cream Mask,moisturizer,170,French,luxury,brand_prestige,editorial,5,no,no,Plumping mask before events
+2025-03-01,Sephora,Hourglass,Ambient Lighting Powder,complexion,54,US,prestige,reviews,youtube,4,no,no,Soft focus without flatness
+2025-03-08,Saks,Clé de Peau Beauté,Radiant Fluid Foundation,complexion,125,J-beauty,luxury,reviews,makeup artist,3,no,yes,Beautiful but oxidized on me; returned
+2025-03-15,Nordstrom,YSL,Touche Éclat High Cover Radiant Concealer,complexion,40,French,prestige,brand_prestige,makeup artist,4,no,no,Click-pen classic
+2025-03-22,Brand boutique,Diptyque,Eau Rose Hand Cream,body,40,French,prestige,brand_prestige,brand launch,4,no,no,Rose scent lingers; the tube is lovely on a desk
+2025-03-29,Sephora,Dior,Forever Skin Glow Foundation,complexion,58,French,prestige,reviews,makeup artist,4,no,no,Good glow; still prefer Chanel
+2025-04-05,Sephora,Pat McGrath Labs,MatteTrance Lipstick (Elson),lip,39,US,prestige,reviews,makeup artist,4,no,no,Runway-artist formula; packaging is theatre
+2025-04-12,Olive Young US,The History of Whoo,Bichup First Care Moisture Anti-Aging Essence,serum,90,K-beauty,luxury,ingredients,youtube,4,no,no,Korean royal-court herbal line; elegant bottle
+2025-04-19,Neiman Marcus,Tom Ford,Eye Color Quad (Body Heat),eyes,95,US,luxury,brand_prestige,editorial,4,no,no,"Rich pigment, a palette I reach for at night"
+2025-04-26,Sephora,Tatcha,The Dewy Skin Cream,moisturizer,72,US,prestige,brand_prestige,beauty advisor,4,no,no,Japanese-inspired ritual; the purple jar
+2025-05-03,Brand site,Kama Ayurveda,Kumkumadi Miraculous Beauty Fluid,serum,45,Indian,prestige,ingredients,editorial,4,no,no,Saffron night oil from an Indian Vogue piece
+2025-05-10,Saks,Shiseido,Ultimune Power Infusing Serum,serum,90,J-beauty,prestige,reviews,beauty advisor,4,no,no,Skin feels stronger; bottle is beautiful
+2025-05-17,Sephora,Chanel,Les Beiges Healthy Glow Foundation Hydration and Longwear,complexion,65,French,prestige,brand_prestige,beauty advisor,5,yes,no,Repurchase; no reason to change
+2025-05-24,Brand boutique,Jo Malone London,English Pear & Freesia Cologne,body,165,UK,luxury,brand_prestige,friend,5,yes,no,My signature since a gift years ago
+2025-06-07,Nordstrom,Clarins,Double Serum,serum,95,French,prestige,ingredients,beauty advisor,4,yes,no,"Plant extracts, decades of heritage"
+2025-06-14,Sephora,Westman Atelier,Vital Skin Foundation Stick,complexion,70,US,prestige,reviews,makeup artist,4,no,no,"Emerging-luxury pick; luminous, a bit heavy in heat"
+2025-06-21,Brand site,Panpuri,Siamese Water Body Oil,body,58,Thai,prestige,brand_prestige,editorial,4,no,no,Thai spa luxury from a Bangkok hotel stay
+2025-06-28,Sephora,Dior,Addict Lip Glow,lip,40,French,prestige,brand_prestige,beauty advisor,4,yes,no,Effortless; color reacts to my lips
+2025-07-05,Saks,Decorté,Liposome Advanced Repair Serum,serum,140,J-beauty,luxury,ingredients,youtube,5,yes,no,Japanese formulation craft; skin bouncy
+2025-07-12,Sephora,Guerlain,Terracotta The Bronzing Powder,complexion,62,French,prestige,brand_prestige,beauty advisor,4,no,no,Classic summer bronze
+2025-07-19,Sephora,Charlotte Tilbury,Airbrush Flawless Foundation,complexion,49,UK,prestige,reviews,youtube,3,no,yes,Too matte and drying; returned
+2025-07-26,Olive Young US,Sulwhasoo,Perfecting Cushion,complexion,60,K-beauty,prestige,brand_prestige,youtube,4,no,no,Summer cushion; the case is beautiful
+2025-08-02,Nordstrom,Victoria Beckham Beauty,Satin Kajal Liner,eyes,30,UK,prestige,reviews,makeup artist,5,yes,no,"Soft, wearable liner"
+2025-08-09,Sephora,Givenchy,Prisme Libre Loose Powder,complexion,60,French,prestige,brand_prestige,beauty advisor,4,no,no,"Four-color powder; very pretty, fine performance"
+2025-08-16,Bergdorf Goodman,Christian Louboutin,Rouge Louboutin Silky Satin Lipstick,lip,90,French,luxury,brand_prestige,brand launch,3,no,no,The bullet is art; formula ordinary for the price
+2025-08-23,Sephora,Estée Lauder,Advanced Night Repair Serum,serum,82,US,prestige,reviews,editorial,5,yes,no,Repurchase
+2025-08-30,Brand site,Forest Essentials,Pure Rosewater Facial Mist,serum,25,Indian,mid,ingredients,friend,4,no,no,Steam-distilled rose water; lovely refresh
+2025-09-06,Neiman Marcus,La Mer,The Treatment Lotion,serum,125,US,luxury,brand_prestige,beauty advisor,3,no,no,Fine; not worth it next to SK-II
+2025-09-13,Sephora,Chanel,Rouge Allure Velvet Lipstick,lip,47,French,prestige,brand_prestige,beauty advisor,5,no,no,Fall red; magnetic case
+2025-09-20,Saks,Sensai,Cellular Performance Cream,moisturizer,160,J-beauty,luxury,ingredients,editorial,4,no,no,Koishimaru silk; texture is exceptional
+2025-09-27,Sephora,Hourglass,Vanish Seamless Finish Foundation Stick,complexion,52,US,prestige,reviews,youtube,3,no,no,"Coverage good, finish too flat"
+2025-10-04,Brand boutique,Hermès,Plein Air Healthy Glow Complexion Balm,complexion,80,French,luxury,trend,brand launch,4,no,no,Limited shade launch; I liked the restraint
+2025-10-11,Sephora,Dior,Diorshow Iconic Overcurl Mascara,eyes,32,French,prestige,brand_prestige,makeup artist,4,yes,no,Reliable curl
+2025-10-18,Saks,SK-II,Facial Treatment Essence (160 ml),serum,185,J-beauty,luxury,ingredients,beauty advisor,5,yes,no,Repurchase; non-negotiable
+2025-10-25,Nordstrom,Charlotte Tilbury,Magic Cream,moisturizer,100,UK,luxury,reviews,makeup artist,4,no,no,Great under makeup; backstage favorite
+2025-11-01,Sephora,Tom Ford,Traceless Soft Matte Foundation,complexion,95,US,luxury,brand_prestige,editorial,2,no,yes,Not worth $95; dull on my skin; returned
+2025-11-08,Olive Young US,Hera,Black Cushion Foundation,complexion,50,K-beauty,prestige,reviews,youtube,4,no,no,Korean prestige cushion; satin finish
+2025-11-15,Bergdorf Goodman,Chanel,N°1 de Chanel Revitalizing Serum,serum,125,French,luxury,trend,brand launch,4,no,no,Red camellia; bottle on my vanity is half the joy
+2025-11-22,Sephora,YSL,Libre Eau de Parfum,body,135,French,luxury,brand_prestige,beauty advisor,4,no,no,Holiday gift to myself
+2025-11-29,Neiman Marcus,Sisley,Phyto-Teint Nude Foundation,complexion,85,French,luxury,reviews,beauty advisor,4,no,no,"Breathable, natural"
+2025-12-06,Sephora,Chanel,Les Beiges Healthy Glow Foundation Hydration and Longwear,complexion,65,French,prestige,brand_prestige,beauty advisor,5,yes,no,Repurchase
+2025-12-13,Brand boutique,Guerlain,Météorites Holiday Limited Edition Pearls,complexion,72,French,luxury,trend,brand launch,4,no,no,Limited edition; bought for the case
+2025-12-20,Saks,Clé de Peau Beauté,Concealer,complexion,75,J-beauty,luxury,reviews,makeup artist,5,yes,no,Repurchase
+2026-01-03,Nordstrom,Bobbi Brown,Vitamin Enriched Face Base,moisturizer,68,US,prestige,reviews,makeup artist,4,no,no,Makeup-artist primer cream
+2026-01-10,Saks,Amorepacific,Time Response Skin Reserve Cream,moisturizer,400,K-beauty,luxury,ingredients,editorial,3,no,no,"Green-tea science; lovely, but not $400 better than Sensai"
+2026-01-17,Sephora,Pat McGrath Labs,Skin Fetish Sublime Perfection Foundation,complexion,70,US,prestige,reviews,makeup artist,4,no,no,Second-skin finish; tried it as an alternative to Chanel
+2026-01-24,Brand site,Suqqu,Designing Color Eyes Palette,eyes,65,J-beauty,prestige,reviews,youtube,5,no,no,Japanese artist palette; textures are sublime
+2026-01-31,Sephora,Victoria Beckham Beauty,Posh Lipstick,lip,38,UK,prestige,reviews,editorial,4,no,no,Emerging-luxury nude
+2026-02-07,Neiman Marcus,Estée Lauder,Double Wear Stay-in-Place Foundation,complexion,52,US,prestige,reviews,beauty advisor,3,no,no,Long wear for travel only; too heavy daily
+2026-02-14,Brand boutique,Diptyque,Do Son Eau de Toilette,body,150,French,luxury,brand_prestige,friend,5,no,no,Tuberose; a gift that became mine
+2026-02-21,Sephora,Chanel,Les Beiges Water-Fresh Tint,complexion,60,French,prestige,brand_prestige,beauty advisor,4,no,no,Spring alternative to my foundation
+2026-02-28,Saks,Shu Uemura,Ultime8 Sublime Beauty Cleansing Oil,cleanser,90,J-beauty,prestige,ingredients,makeup artist,5,yes,no,Artist-favorite cleansing oil
+2026-03-07,Olive Young US,Sulwhasoo,First Care Activating Serum,serum,89,K-beauty,prestige,ingredients,youtube,5,yes,no,Repurchase
+2026-03-14,Sephora,Lancôme,Absolue Soft Cream,moisturizer,260,French,luxury,brand_prestige,beauty advisor,3,no,yes,"Rose scent strong, nothing new; returned"
+2026-03-21,Nordstrom,Clarins,Lip Comfort Oil,lip,30,French,mid,reviews,friend,4,no,no,Easy everyday lip
+2026-03-28,Sephora,Westman Atelier,Lip Suede,lip,48,US,prestige,reviews,makeup artist,4,no,no,Emerging-luxury lipstick; gorgeous velvet
+2026-04-04,Brand site,Thann,Aromatic Wood Body Milk,body,36,Thai,mid,brand_prestige,editorial,4,no,no,"Thai spa brand; woody, calming"
+2026-04-11,Bergdorf Goodman,Sisley,Sisleÿa L'Intégral Anti-Âge Cream,moisturizer,500,French,luxury,brand_prestige,editorial,4,no,no,Once-a-year indulgence; texture is exquisite
+2026-04-18,Sephora,Dior,Rouge Dior Lipstick (999 Satin),lip,49,French,prestige,brand_prestige,makeup artist,5,yes,no,Repurchase
+2026-04-25,Saks,Koh Gen Do,Maifanshi Aqua Foundation,complexion,70,J-beauty,prestige,reviews,makeup artist,4,no,no,Japanese backstage foundation; watery and luminous
+2026-05-02,Brand site,Forest Essentials,Soundarya Radiance Cream with 24K Gold,moisturizer,80,Indian,luxury,ingredients,editorial,4,yes,no,Repurchase
+2026-05-09,Nordstrom,Jo Malone London,Peony & Blush Suede Cologne,body,165,UK,luxury,brand_prestige,beauty advisor,4,no,no,Spring layering scent
+2026-05-16,Sephora,Sunday Riley,Good Genes Lactic Acid Treatment,serum,85,US,prestige,reviews,editorial,4,no,no,Instant glow before events
+2026-05-23,Neiman Marcus,La Mer,Crème de la Mer Moisturizing Cream,moisturizer,200,US,luxury,brand_prestige,beauty advisor,4,yes,no,Repurchase for winter dryness
+2026-05-30,Olive Young US,Tamburins,Perfume Hand Cream,body,30,K-beauty,mid,trend,instagram,4,no,no,Design-led Korean brand; the sculptural tube
+2026-06-06,Saks,Clé de Peau Beauté,Lipstick,lip,70,J-beauty,luxury,brand_prestige,beauty advisor,4,no,no,"Weighty case, creamy formula"
+2026-06-13,Sephora,Guerlain,Abeille Royale Advanced Youth Watery Oil,serum,110,French,luxury,ingredients,beauty advisor,4,no,no,Honey science; light oil
+2026-06-20,Brand site,Panpuri,Siamese Water Body Oil,body,58,Thai,prestige,brand_prestige,editorial,4,yes,no,Repurchase; summer ritual
+2026-06-27,Nordstrom,111SKIN,Celestial Black Diamond Eye Mask,eyes,80,UK,luxury,reviews,editorial,4,no,no,Before a wedding; looked rested
+2026-07-04,Sephora,Charlotte Tilbury,Luxury Palette (Pillow Talk),eyes,55,UK,prestige,reviews,makeup artist,4,no,no,Easy everyday eyes
+2026-07-11,Brand boutique,Le Labo,Santal 33 Eau de Parfum,body,220,US,luxury,brand_prestige,friend,3,no,no,"Beautiful, but everyone wears it now"
+2026-07-18,Saks,Decorté,Liposome Advanced Repair Serum,serum,140,J-beauty,luxury,ingredients,youtube,5,yes,no,Repurchase
+2026-07-25,Sephora,Rodial,Dragon's Blood Sculpting Gel,moisturizer,95,UK,luxury,reviews,instagram,3,no,no,Nice gel; claims oversold
+2026-08-01,Sephora,Dior,Backstage Rosy Glow Blush,cheek,40,French,prestige,reviews,makeup artist,4,no,no,Artist pick over the viral liquid blushes
+2026-08-08,Olive Young US,Sulwhasoo,Concentrated Ginseng Rejuvenating Cream,moisturizer,230,K-beauty,luxury,ingredients,beauty advisor,4,no,no,Rich ginseng cream; heirloom jar
+2026-08-15,Brand boutique,Hermès,Rouge Hermès Satin Lipstick Refill,lip,58,French,luxury,brand_prestige,brand launch,4,yes,no,Refilled the case I keep
+2026-08-22,Sephora,Estée Lauder,Advanced Night Repair Serum,serum,82,US,prestige,reviews,editorial,5,yes,no,Repurchase
+2026-08-29,Bergdorf Goodman,Chanel,Hydra Beauty Micro Sérum,serum,130,French,luxury,ingredients,beauty advisor,4,no,no,Camellia micro-droplets; elegant
+2026-09-05,Saks,Shiseido,Benefiance Wrinkle Smoothing Cream,moisturizer,72,J-beauty,prestige,reviews,youtube,4,no,no,Dependable Japanese prestige cream
+2026-09-12,Nordstrom,Victoria Beckham Beauty,Cell Rejuvenating Priming Moisturizer,moisturizer,140,UK,luxury,ingredients,editorial,3,no,no,Good base; price hard to justify
+2026-09-19,Sephora,Chanel,Les Beiges Healthy Glow Foundation Hydration and Longwear,complexion,65,French,prestige,brand_prestige,beauty advisor,5,yes,no,Repurchase
+2026-09-26,Brand site,Kama Ayurveda,Kumkumadi Miraculous Beauty Fluid,serum,45,Indian,prestige,ingredients,editorial,4,yes,no,Repurchase; winter night oil
+2026-10-03,Sephora,YSL,All Hours Foundation,complexion,60,French,prestige,reviews,makeup artist,3,no,no,"Long wear, too matte; back to Chanel"
+2026-10-10,Brand boutique,Guerlain,Rouge G Customizable Lipstick and Case,lip,75,French,luxury,trend,brand launch,5,no,no,Mirror case I chose myself; collectible
+2026-10-17,Saks,Clé de Peau Beauté,Concealer,complexion,75,J-beauty,luxury,reviews,makeup artist,5,yes,no,Repurchase
