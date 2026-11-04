@@ -46,19 +46,21 @@ export function Dashboard({ config, user, onLogout }: { config: AppConfig; user:
   // Prior data per shopper. Shoppers with a built-in archetype history use it unless set otherwise.
   const [priorFiles, setPriorFiles] = useState<{ personaId: string; fileName: string; rows: number }[]>([]);
   const [priorPick, setPriorPick] = useState<Record<string, PriorState>>({});
+  const [usePrior, setUsePrior] = useState(false);
   useEffect(() => {
     api<{ personaId: string; fileName: string; rows: number }[]>("/api/prior-data")
       .then(setPriorFiles)
       .catch(() => {});
   }, []);
-  const priorOf = (id: string): PriorState => priorPick[id] ?? (priorFiles.some((f) => f.personaId === id) ? { source: "archetype" } : { source: "none" });
+  // When prior data is on, each shopper uses its existing file unless a new one is attached.
+  const priorOf = (id: string): PriorState => priorPick[id] ?? (priorFiles.some((f) => f.personaId === id) ? { source: "archetype" } : { source: "upload" });
   const priorChoices = (ids: string[]): Record<string, PriorChoice> =>
     Object.fromEntries(ids.map((id) => {
       const p = priorOf(id);
-      return [id, p.source === "upload" ? { source: "upload", fileName: p.fileName, csv: p.csv } : { source: p.source }];
+      return [id, !usePrior ? { source: "none" } : p.source === "upload" ? { source: "upload", fileName: p.fileName, csv: p.csv } : { source: p.source }];
     }));
 
-  const setupKey = JSON.stringify({ selected: [...selected].sort(), scenarioId, stores: [...stores].sort(), limit: limit.by === "steps" ? ["steps", limit.steps] : ["minutes", limit.minutes], locked: library.filter((e) => selected.includes(e.persona_id)).map((e) => e.lockedVersion), prior: [...selected].sort().map((id) => { const p = priorOf(id); return [id, p.source, p.source === "upload" ? `${p.fileName}:${p.csv?.length}` : ""]; }) });
+  const setupKey = JSON.stringify({ selected: [...selected].sort(), scenarioId, stores: [...stores].sort(), limit: limit.by === "steps" ? ["steps", limit.steps] : ["minutes", limit.minutes], locked: library.filter((e) => selected.includes(e.persona_id)).map((e) => e.lockedVersion), prior: usePrior ? [...selected].sort().map((id) => { const p = priorOf(id); return [id, p.source, p.source === "upload" ? `${p.fileName}:${p.csv?.length}` : ""]; }) : "none" });
   const [lastRun, setLastRun] = useState<{ key: string; simulationId: string } | null>(null);
   const canRepeat = !queue && exp.phase === "done" && lastRun?.key === setupKey && !!lastRun.simulationId;
 
@@ -230,6 +232,8 @@ export function Dashboard({ config, user, onLogout }: { config: AppConfig; user:
               iteration={null}
               onRunAgain={() => run(true)}
               priorFiles={priorFiles}
+              usePrior={usePrior}
+              setUsePrior={setUsePrior}
               priorOf={priorOf}
               setPrior={(id, p) => setPriorPick({ ...priorPick, [id]: p })}
               exp={exp}
