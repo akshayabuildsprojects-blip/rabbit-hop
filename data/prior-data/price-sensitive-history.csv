@@ -1,0 +1,101 @@
+date,store,brand,product,category,price_usd,origin,tier,main_driver,discovered_via,rating_given,repurchased,returned,note
+2024-11-02,Target,CeraVe,Hydrating Facial Cleanser (16 oz),cleanser,17,US,value,price,reddit,5,yes,no,Biggest size is the cheapest per ounce
+2024-11-09,Amazon,Minimalist,Niacinamide 10% + Zinc 1% Face Serum,serum,10,Indian,value,price,reddit,4,yes,no,Same percentage as pricier brands for a third of the cost
+2024-11-17,Target,e.l.f.,Halo Glow Liquid Filter,complexion,14,US,value,dupe,tiktok,5,no,no,Side-by-side swatches with Charlotte Tilbury convinced me
+2024-11-24,Amazon,Biore,UV Aqua Rich Watery Essence SPF50+,sunscreen,13,J-beauty,value,reviews,reddit,5,yes,no,Cheaper on Amazon than anywhere; feels like nothing
+2024-12-01,Target,Maybelline,Lash Sensational Sky High Mascara,eyes,13,US,value,reviews,tiktok,5,yes,no,Does what $30 mascaras do
+2024-12-08,Amazon,COSRX,Advanced Snail 96 Mucin Power Essence,serum,15,K-beauty,value,price,reddit,4,yes,no,Waited for a Lightning Deal
+2024-12-16,Walmart,Garnier,Micellar Cleansing Water,cleanser,8,French,value,dupe,youtube,4,yes,no,Bioderma dupe at half the price
+2024-12-23,Amazon,Srichand,Translucent Powder,complexion,10,Thai,value,reviews,youtube,5,yes,no,Sets as well as my old $40 powder
+2024-12-30,Target,CeraVe,Moisturizing Cream (16 oz),moisturizer,19,US,value,price,reddit,5,yes,no,Tub lasts months; cost per use is pennies
+2025-01-07,Ulta,Revolution,Conceal & Define Concealer,complexion,9,UK,value,dupe,tiktok,4,yes,no,Shape Tape dupe; checked wear reviews first
+2025-01-14,Amazon,Hada Labo,Gokujyun Premium Hyaluronic Lotion,serum,14,J-beauty,value,reviews,reddit,5,yes,no,Hydrating toner that outperforms pricier ones
+2025-01-21,Target,e.l.f.,Power Grip Primer,complexion,10,US,value,dupe,tiktok,4,yes,no,Milk Hydro Grip dupe; works the same on me
+2025-01-28,Amazon,Lakmé,Eyeconic Kajal,eyes,5,Indian,value,price,friend,5,yes,no,Smudge-proof for five dollars
+2025-02-05,Olive Young US,Beauty of Joseon,Relief Sun: Rice + Probiotics SPF50+,sunscreen,18,K-beauty,value,reviews,reddit,5,no,no,Best SPF for the money on every sunscreen thread
+2025-02-12,Target,Maybelline,Instant Age Rewind Eraser Concealer,complexion,11,US,value,reviews,youtube,4,yes,no,Reliable and always on sale
+2025-02-19,Amazon,Missha,Time Revolution The First Treatment Essence,serum,30,K-beauty,mid,dupe,reddit,4,no,no,"SK-II dupe for a fraction; same idea, fermented yeast"
+2025-02-27,Walmart,Wet n Wild,Photo Focus Foundation,complexion,7,US,value,price,youtube,2,no,yes,Patchy; cheap is not value if I will not use it
+2025-03-06,Target,NYX Professional Makeup,Butter Gloss,lip,6,US,value,price,store display,4,no,no,"Cheap gloss, decent"
+2025-03-13,Amazon,Plum,Green Tea Pore Cleansing Face Wash,cleanser,9,Indian,value,price,instagram,4,no,no,"Good gel cleanser, low price"
+2025-03-20,Target,La Roche-Posay,Anthelios Melt-In Milk Sunscreen SPF 60 (5 oz),sunscreen,30,French,mid,reviews,youtube,5,no,no,Bigger size during a Target Circle deal; worth it for daily SPF
+2025-03-28,Ulta,e.l.f.,Camo CC Cream,complexion,16,US,value,reviews,youtube,4,no,no,Coverage plus SPF in one
+2025-04-04,Amazon,Skin1004,Madagascar Centella Ampoule,serum,15,K-beauty,value,reviews,reddit,4,no,no,"Calming, big bottle"
+2025-04-11,Target,CeraVe,Hydrating Facial Cleanser (16 oz),cleanser,17,US,value,price,reddit,5,yes,no,Repurchase
+2025-04-19,Ulta,Supergoop!,Unseen Sunscreen SPF 40,sunscreen,19,US,mid,price,retailer promotion,4,no,no,Half off during Ulta's 21 Days of Beauty; would not pay full price
+2025-04-26,Amazon,Etude,SoonJung pH 6.5 Whip Cleanser,cleanser,12,K-beauty,value,reviews,reddit,4,no,no,"Gentle, lasts long"
+2025-05-03,Walmart,Milani,Baked Blush (Luminoso),cheek,10,US,value,dupe,youtube,5,no,no,Famous dupe for a prestige blush
+2025-05-10,Amazon,Minimalist,Salicylic Acid 2% Face Serum,serum,10,Indian,value,price,reddit,4,no,no,Same 2% as the $30 versions
+2025-05-18,Target,L'Oréal Paris,Lash Paradise Mascara,eyes,12,French,value,dupe,tiktok,4,no,no,Benefit dupe; close enough
+2025-05-25,Amazon,Byoma,Moisturizing Gel Cream,moisturizer,15,UK,value,reviews,tiktok,4,yes,no,Ceramides at drugstore price
+2025-06-01,Target,Good Molecules,Discoloration Correcting Serum,serum,12,US,value,ingredients,reddit,4,no,no,Tranexamic acid without the markup
+2025-06-08,Amazon,Biore,UV Aqua Rich Watery Essence SPF50+,sunscreen,13,J-beauty,value,reviews,reddit,5,yes,no,Repurchase
+2025-06-16,Target,NYX Professional Makeup,Fat Oil Lip Drip,lip,10,US,value,dupe,tiktok,3,no,no,Dior oil dupe; stickier than promised
+2025-06-23,Ulta,Physicians Formula,Butter Bronzer,complexion,16,US,value,reviews,youtube,4,yes,no,Lasts forever
+2025-06-30,Amazon,Dot & Key,Watermelon Cooling Sunscreen SPF 50,sunscreen,12,Indian,value,price,instagram,3,no,no,Fine; scent strong
+2025-07-08,Amazon,Lakmé,9 to 5 Primer + Matte Lip Color,lip,6,Indian,value,price,friend,4,no,no,"Long wear, tiny price"
+2025-07-15,Target,Maybelline,Lash Sensational Sky High Mascara,eyes,13,US,value,reviews,tiktok,5,no,no,Repurchase. Bought the two-pack
+2025-07-22,Target,Olay,Regenerist Micro-Sculpting Cream,moisturizer,30,US,mid,dupe,reddit,4,no,no,Reddit says it rivals luxury creams; good enough for me
+2025-07-29,Olive Young US,rom&nd,Juicy Lasting Tint,lip,12,K-beauty,value,reviews,tiktok,4,no,no,"Lasts all day, cheap"
+2025-08-06,Amazon,Bioderma,Sensibio H2O Micellar Water (2 x 500 ml),cleanser,25,French,mid,price,retailer promotion,5,no,no,Twin pack on Prime Day works out cheaper than Garnier per ml
+2025-08-13,Target,e.l.f.,Putty Blush,cheek,7,US,value,price,tiktok,4,no,no,Pigmented for seven dollars
+2025-08-20,Amazon,Kose,Softymo Speedy Cleansing Oil,cleanser,8,J-beauty,value,price,youtube,4,no,no,DHC-style oil for a third
+2025-08-28,Target,CeraVe,PM Facial Moisturizing Lotion,moisturizer,17,US,value,reviews,reddit,4,no,no,"Niacinamide plus ceramides, cheap"
+2025-09-04,Amazon,Round Lab,1025 Dokdo Toner,serum,18,K-beauty,value,reviews,reddit,4,no,no,"Big bottle, gentle"
+2025-09-11,Walmart,L.A. Girl,Pro Conceal HD Concealer,complexion,6,US,value,price,youtube,3,no,yes,Shade too ashy; returned
+2025-09-18,Amazon,The INKEY List,Hyaluronic Acid Serum,serum,9,UK,value,price,reddit,4,no,no,"Basic HA, honest price"
+2025-09-26,Target,e.l.f.,Power Grip Primer,complexion,10,US,value,dupe,tiktok,4,no,no,Repurchase
+2025-10-03,Amazon,Srichand,Translucent Powder,complexion,10,Thai,value,reviews,youtube,5,no,no,Repurchase
+2025-10-10,Ulta,Rare Beauty,Soft Pinch Liquid Blush,cheek,25,US,mid,reviews,tiktok,5,no,no,One bottle lasts a year; cost per use beats the drugstore blushes I kept replacing
+2025-10-18,Amazon,Minimalist,Niacinamide 10% + Zinc 1% Face Serum,serum,10,Indian,value,price,reddit,4,no,no,Repurchase
+2025-10-25,Target,Neutrogena,Hydro Boost Water Gel,moisturizer,20,US,value,reviews,youtube,4,no,no,Used a coupon
+2025-11-01,Olive Young US,Some By Mi,AHA BHA PHA 30 Days Miracle Toner,serum,15,K-beauty,value,reviews,reddit,3,no,no,"Fine, not miracle"
+2025-11-08,Amazon,Melano CC,Vitamin C Brightening Essence,serum,13,J-beauty,value,ingredients,reddit,4,no,no,Cheapest vitamin C that works
+2025-11-16,Target,Aveeno,Daily Moisturizing Lotion (18 oz),body,12,US,value,price,store display,4,no,no,Family size
+2025-11-23,Amazon,Himalaya,Purifying Neem Face Wash,cleanser,6,Indian,value,price,friend,4,no,no,Indian pharmacy staple
+2025-11-30,Target,Garnier,Micellar Cleansing Water,cleanser,8,French,value,dupe,youtube,4,no,no,Repurchase
+2025-12-08,Sephora,Laneige,Lip Sleeping Mask (Berry),lip,19,K-beauty,mid,price,retailer promotion,4,no,no,Waited for the Sephora Savings Event; one jar lasts a year
+2025-12-15,Amazon,Mediheal,Sheet Mask 10-Pack,moisturizer,15,K-beauty,value,price,reddit,4,no,no,Under two dollars a mask
+2025-12-22,Ulta,Revolution,Conceal & Define Concealer,complexion,9,UK,value,dupe,tiktok,4,no,no,Repurchase
+2025-12-29,Amazon,Smooth E,Babyface Foam,cleanser,12,Thai,value,reviews,youtube,4,no,no,Lasts months
+2026-01-06,Target,Burt's Bees,Beeswax Lip Balm (4-pack),lip,10,US,value,price,store display,4,yes,no,Multipack value
+2026-01-13,Amazon,Anua,Heartleaf 77% Soothing Toner,serum,20,K-beauty,value,price,tiktok,4,no,no,Waited for it to drop from $29
+2026-01-20,Target,Vanicream,Moisturizing Cream (1 lb),moisturizer,15,US,value,price,reddit,4,no,no,A pound of cream for fifteen dollars
+2026-01-28,Amazon,Hada Labo,Gokujyun Premium Hyaluronic Lotion,serum,14,J-beauty,value,reviews,reddit,5,no,no,Repurchase
+2026-02-04,Target,L'Oréal Paris,Infallible 24H Fresh Wear Foundation,complexion,15,French,value,dupe,youtube,4,no,no,Compared with Estée Double Wear; close for a third
+2026-02-11,Amazon,Banila Co,Clean It Zero Cleansing Balm Original,cleanser,15,K-beauty,value,price,retailer promotion,4,no,no,Black Friday price
+2026-02-18,Target,CeraVe,Moisturizing Cream (16 oz),moisturizer,19,US,value,price,reddit,5,no,no,Repurchase
+2026-02-26,Amazon,Mistine,Aqua Base Facial Sunscreen SPF 50,sunscreen,10,Thai,value,price,tiktok,3,no,no,"Cheap, slightly shiny"
+2026-03-05,Target,Good Molecules,Niacinamide Brightening Toner,serum,12,US,value,price,reddit,4,no,no,Cheap and gentle
+2026-03-12,Amazon,Biodance,Bio-Collagen Real Deep Mask (4-pack),moisturizer,19,K-beauty,value,reviews,tiktok,4,no,no,Bought only after it went on sale
+2026-03-20,Target,Maybelline,Fit Me Matte + Poreless Foundation,complexion,10,US,value,price,youtube,4,no,no,"Good shade range, cheap"
+2026-03-27,Amazon,Simple,Kind to Skin Micellar Water,cleanser,8,UK,value,price,store display,4,no,no,Cheap backup
+2026-04-03,Olive Young US,Torriden,DIVE-IN Low Molecular Hyaluronic Acid Serum,serum,16,K-beauty,value,reviews,reddit,5,no,no,On sale; plumping
+2026-04-10,Target,e.l.f.,Hydrating Camo Concealer,complexion,7,US,value,price,tiktok,4,no,no,"Creamy, cheap"
+2026-04-18,Amazon,Minimalist,SPF 50 Sunscreen,sunscreen,10,Indian,value,price,reddit,4,no,no,Light and cheap
+2026-04-25,Target,Neutrogena,Ultra Sheer Dry-Touch Sunscreen SPF 55 (twin pack),sunscreen,16,US,value,price,store display,3,no,no,Body SPF; twin pack value
+2026-05-02,Ulta,NYX Professional Makeup,Matte Finish Setting Spray,complexion,10,US,value,dupe,tiktok,4,no,no,Urban Decay dupe
+2026-05-09,Amazon,COSRX,Low pH Good Morning Gel Cleanser,cleanser,12,K-beauty,value,reviews,reddit,4,no,no,Cheap and gentle
+2026-05-17,Amazon,Canmake,Marshmallow Finish Powder,complexion,11,J-beauty,value,reviews,youtube,4,no,no,Japanese drugstore powder
+2026-05-24,Target,e.l.f.,Glow Reviver Lip Oil,lip,9,US,value,dupe,tiktok,4,no,no,Dior dupe that is actually close
+2026-05-31,Amazon,Beauty of Joseon,Relief Sun: Rice + Probiotics SPF50+ (2-pack),sunscreen,28,K-beauty,value,price,reddit,5,no,no,Two-pack cheaper per tube
+2026-06-08,Target,Bubble,Slam Dunk Hydrating Moisturizer,moisturizer,18,US,value,reviews,tiktok,3,no,no,Fine; prefer CeraVe for the price
+2026-06-15,Amazon,Lakmé,Eyeconic Kajal,eyes,5,Indian,value,price,friend,5,no,no,Repurchase
+2026-06-22,Target,La Roche-Posay,Toleriane Double Repair Face Moisturizer,moisturizer,20,French,mid,reviews,youtube,4,no,no,Pays off; lasts and works
+2026-06-29,Amazon,Kiss Me,Heroine Make Long & Curl Mascara Super WP,eyes,11,J-beauty,value,reviews,youtube,5,no,no,"Holds curl, cheaper than Sky High on sale"
+2026-07-07,Ulta,e.l.f.,Halo Glow Setting Powder,complexion,9,US,value,dupe,tiktok,4,no,no,Hourglass dupe
+2026-07-14,Amazon,COSRX,Advanced Snail 96 Mucin Power Essence,serum,15,K-beauty,value,price,reddit,4,no,no,Repurchase
+2026-07-21,Target,Maybelline,Instant Age Rewind Eraser Concealer,complexion,11,US,value,reviews,youtube,4,no,no,Repurchase
+2026-07-29,Amazon,Sugar Cosmetics,Matte As Hell Crayon Lipstick,lip,12,Indian,value,reviews,instagram,4,no,no,Long-wearing for the price
+2026-08-05,Target,L'Oréal Paris,Revitalift 1.5% Pure Hyaluronic Acid Serum,serum,25,French,mid,reviews,youtube,3,no,no,"Fine, but INKEY does the same for less"
+2026-08-12,Olive Young US,Peripera,Ink Velvet Lip Tint,lip,9,K-beauty,value,price,tiktok,4,no,no,Cheap K-tint
+2026-08-19,Amazon,Skinfood,Rice Mask Wash Off,moisturizer,12,K-beauty,value,reviews,youtube,4,no,no,Big tub
+2026-08-27,Target,CeraVe,AM Facial Moisturizing Lotion SPF 30,sunscreen,17,US,value,price,reddit,4,no,no,Two steps in one bottle
+2026-09-03,Amazon,The INKEY List,Oat Cleansing Balm,cleanser,12,UK,value,price,reddit,4,no,no,"Cheaper balm, works"
+2026-09-10,Target,Byoma,Moisturizing Gel Cream,moisturizer,15,UK,value,reviews,tiktok,4,no,no,Repurchase
+2026-09-18,Amazon,Senka,Perfect Whip Cleansing Foam,cleanser,9,J-beauty,value,price,youtube,4,no,no,Lasts ages
+2026-09-25,Target,Burt's Bees,Beeswax Lip Balm (4-pack),lip,10,US,value,price,store display,4,no,no,Repurchase
+2026-10-02,Amazon,Missha,M Perfect Cover BB Cream,complexion,12,K-beauty,value,reviews,youtube,4,no,no,"Base and SPF in one, cheap"
+2026-10-09,Target,CeraVe,Hydrating Facial Cleanser (16 oz),cleanser,17,US,value,price,reddit,5,no,no,Repurchase
+2026-10-17,Amazon,Biore,UV Aqua Rich Watery Essence SPF50+,sunscreen,13,J-beauty,value,reviews,reddit,5,no,no,Repurchase
+2026-10-24,Ulta,Physicians Formula,Butter Bronzer,complexion,16,US,value,reviews,youtube,4,no,no,Repurchase

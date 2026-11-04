@@ -1,0 +1,101 @@
+date,store,brand,product,category,price_usd,origin,tier,main_driver,discovered_via,rating_given,repurchased,returned,note
+2024-11-02,Sephora,Ilia,Super Serum Skin Tint SPF 40,complexion,48,US,prestige,convenience,colleague,5,yes,no,"Skin tint, serum and SPF in one step"
+2024-11-09,Amazon,Maybelline,Lash Sensational Sky High Mascara,eyes,13,US,value,reviews,tiktok,5,yes,no,Lasts a 12-hour day; Subscribe & Save
+2024-11-17,Target,Garnier,Micellar Cleansing Water,cleanser,8,French,value,convenience,friend,4,yes,no,One swipe removes everything at night
+2024-11-24,Olive Young US,Beauty of Joseon,Relief Sun: Rice + Probiotics SPF50+,sunscreen,18,K-beauty,value,reviews,colleague,5,yes,no,Doubles as my moisturizer
+2024-12-01,Sephora,Merit,The Minimalist Perfecting Complexion Stick,complexion,38,US,mid,convenience,instagram,4,yes,no,"Swipe and go, no brushes"
+2024-12-08,Sephora,Tower 28,BeachPlease Lip + Cheek Cream Blush,cheek,22,US,mid,convenience,youtube,4,yes,no,One product for lips and cheeks
+2024-12-16,Ulta,Urban Decay,All Nighter Setting Spray,complexion,36,US,mid,reviews,beauty advisor,5,yes,no,Makeup holds from 7 a.m. meetings to dinner
+2024-12-23,Amazon,Biore,UV Aqua Rich Watery Essence SPF50+,sunscreen,15,J-beauty,value,convenience,youtube,5,yes,no,Absorbs instantly; Subscribe & Save
+2024-12-30,Sephora,NARS,Radiant Creamy Concealer,complexion,32,US,mid,reviews,beauty advisor,5,yes,no,Creases less than anything I tried
+2025-01-07,Target,CeraVe,AM Facial Moisturizing Lotion SPF 30,sunscreen,17,US,value,convenience,friend,4,no,no,Moisturizer and SPF in one
+2025-01-14,Sephora,Glossier,Boy Brow,eyes,20,US,mid,convenience,colleague,4,yes,no,Brows in ten seconds
+2025-01-21,Amazon,TirTir,Mask Fit Red Cushion,complexion,29,K-beauty,mid,trend,tiktok,4,yes,no,"Viral, but it earned it: cushion is faster than foundation"
+2025-01-28,Sephora,Supergoop!,Glow Screen SPF 40,sunscreen,38,US,mid,convenience,youtube,4,yes,no,Sunscreen and primer in one step
+2025-02-05,Target,Clinique,Almost Lipstick (Black Honey),lip,24,US,mid,convenience,friend,5,yes,no,"Works on everyone, no mirror needed"
+2025-02-12,Amazon,Kiss Me,Heroine Make Long & Curl Mascara Super WP,eyes,12,J-beauty,value,reviews,youtube,5,yes,no,No smudging by afternoon
+2025-02-19,Sephora,Charlotte Tilbury,Hollywood Flawless Filter,complexion,49,UK,prestige,convenience,beauty advisor,4,no,no,"Primer, highlighter or light base"
+2025-02-27,Amazon,Lakmé,Eyeconic Kajal,eyes,5,Indian,value,reviews,colleague,5,yes,no,Stays put all day
+2025-03-06,Sephora,Ilia,Super Serum Skin Tint SPF 40,complexion,48,US,prestige,convenience,colleague,5,yes,no,Repurchase
+2025-03-13,Olive Young US,rom&nd,Juicy Lasting Tint,lip,12,K-beauty,value,reviews,tiktok,4,yes,no,Tint lasts through lunch
+2025-03-20,Amazon,Maybelline,Lash Sensational Sky High Mascara,eyes,13,US,value,reviews,tiktok,5,yes,no,Repurchase
+2025-03-28,Target,Missha,M Perfect Cover BB Cream,complexion,12,K-beauty,value,convenience,youtube,4,yes,no,BB cream for weekend errands
+2025-04-04,Sephora,Kosas,Revealer Concealer,complexion,30,US,mid,reviews,instagram,3,no,no,Needs setting; slows me down
+2025-04-11,Amazon,Srichand,Translucent Powder,complexion,10,Thai,value,reviews,youtube,5,yes,no,One dab stops shine for hours
+2025-04-19,Sephora,Lancôme,Teint Idole Ultra Wear Foundation,complexion,55,French,prestige,reviews,beauty advisor,4,yes,no,No touch-ups through long days
+2025-04-26,Target,Garnier,Micellar Cleansing Water,cleanser,8,French,value,convenience,friend,4,yes,no,Repurchase
+2025-05-03,Olive Young US,Anua,Heartleaf Pore Control Cleansing Oil,cleanser,22,K-beauty,mid,convenience,tiktok,4,yes,no,Removes makeup in one step in the shower
+2025-05-10,Sephora,Merit,Flush Balm,cheek,30,US,mid,convenience,instagram,4,no,no,Fingers only
+2025-05-18,Amazon,Hada Labo,Gokujyun Perfect Gel All-in-One,moisturizer,20,J-beauty,value,convenience,youtube,5,yes,no,"Toner, serum and moisturizer in one jar"
+2025-05-25,Sephora,Supergoop!,Glow Screen SPF 40,sunscreen,38,US,mid,convenience,youtube,4,no,no,Repurchase
+2025-06-01,Amazon,Biore,UV Aqua Rich Watery Essence SPF50+,sunscreen,15,J-beauty,value,convenience,youtube,5,yes,no,Repurchase
+2025-06-08,Sephora,Dr. Jart+,Cicapair Tiger Grass Color Correcting Treatment,complexion,52,K-beauty,prestige,convenience,beauty advisor,4,yes,no,Color correct and SPF in one
+2025-06-16,Target,e.l.f.,Camo CC Cream,complexion,16,US,value,convenience,tiktok,3,no,no,Fine for the gym bag
+2025-06-23,Sephora,Shiseido,Synchro Skin Self-Refreshing Foundation,complexion,49,J-beauty,prestige,reviews,beauty advisor,5,yes,no,Lasts all day without powder
+2025-06-30,Amazon,Laneige,Lip Glowy Balm,lip,18,K-beauty,mid,convenience,colleague,4,no,no,Balm and gloss in one
+2025-07-08,Target,Bioderma,Sensibio H2O Micellar Water,cleanser,17,French,value,convenience,friend,5,no,no,Night routine in one step
+2025-07-15,Sephora,Ilia,Super Serum Skin Tint SPF 40,complexion,48,US,prestige,convenience,colleague,5,yes,no,Repurchase
+2025-07-22,Amazon,Lakmé,9 to 5 Primer + Matte Lip Color,lip,6,Indian,value,reviews,colleague,4,yes,no,Primer built in; lasts through meetings
+2025-07-29,Sephora,Benefit,24-HR Brow Setter,eyes,26,US,mid,reviews,beauty advisor,4,no,no,Brows stay put
+2025-08-06,Target,CeraVe,Hydrating Cream-to-Foam Cleanser,cleanser,15,US,value,convenience,friend,4,no,no,Removes light makeup and cleans in one
+2025-08-13,Olive Young US,Beauty of Joseon,Relief Sun: Rice + Probiotics SPF50+,sunscreen,18,K-beauty,value,reviews,colleague,5,yes,no,Repurchase
+2025-08-20,Sephora,NARS,Radiant Creamy Concealer,complexion,32,US,mid,reviews,beauty advisor,5,yes,no,Repurchase
+2025-08-28,Amazon,Mistine,Aqua Base Facial Sunscreen SPF 50,sunscreen,10,Thai,value,price,tiktok,3,no,no,Cheap backup for my desk drawer
+2025-09-04,Sephora,Tower 28,BeachPlease Lip + Cheek Cream Blush,cheek,22,US,mid,convenience,youtube,4,yes,no,Repurchase
+2025-09-11,Target,La Roche-Posay,Anthelios Mineral Tinted Sunscreen SPF 50,sunscreen,38,French,mid,convenience,dermatologist,4,no,no,Tint plus SPF on no-makeup days
+2025-09-18,Amazon,Maybelline,Lash Sensational Sky High Mascara,eyes,13,US,value,reviews,tiktok,5,yes,no,Repurchase
+2025-09-26,Sephora,Charlotte Tilbury,Airbrush Flawless Setting Spray,complexion,38,UK,prestige,reviews,beauty advisor,3,no,no,Fine; the Urban Decay spray works better
+2025-10-03,Amazon,Biodance,Bio-Collagen Real Deep Mask,moisturizer,19,K-beauty,value,convenience,tiktok,4,no,no,Sleep in it; no extra steps
+2025-10-10,Sephora,Glossier,Boy Brow,eyes,20,US,mid,convenience,colleague,4,yes,no,Repurchase
+2025-10-18,Target,L'Oréal Paris,Infallible 24H Fresh Wear Foundation,complexion,15,French,value,reviews,youtube,3,no,yes,Long wear but patchy by noon; returned
+2025-10-25,Sephora,Fenty Beauty,Eaze Drop Blurring Skin Tint,complexion,34,US,mid,convenience,tiktok,4,no,no,"Fast, blendable with fingers"
+2025-11-01,Amazon,Kiss Me,Heroine Make Long & Curl Mascara Super WP,eyes,12,J-beauty,value,reviews,youtube,5,no,no,Repurchase
+2025-11-08,Sephora,Urban Decay,All Nighter Setting Spray,complexion,36,US,mid,reviews,beauty advisor,5,yes,no,Repurchase
+2025-11-16,Olive Young US,rom&nd,Juicy Lasting Tint,lip,12,K-beauty,value,reviews,tiktok,4,no,no,Repurchase
+2025-11-23,Sephora,Embryolisse,Lait-Crème Concentré,moisturizer,29,French,mid,convenience,beauty advisor,4,yes,no,Moisturizer and primer in one
+2025-11-30,Target,Byoma,Moisturizing Gel Cream,moisturizer,15,UK,value,convenience,tiktok,3,no,no,Fine; Hada Labo gel is faster
+2025-12-08,Amazon,Hada Labo,Gokujyun Perfect Gel All-in-One,moisturizer,20,J-beauty,value,convenience,youtube,5,yes,no,Repurchase
+2025-12-15,Sephora,Clinique,Almost Lipstick (Black Honey),lip,24,US,mid,convenience,friend,5,no,no,Repurchase
+2025-12-22,Amazon,Minimalist,SPF 50 Sunscreen,sunscreen,10,Indian,value,price,colleague,4,no,no,Light SPF for the office
+2025-12-29,Sephora,Laura Mercier,Translucent Loose Setting Powder,complexion,43,US,prestige,reviews,beauty advisor,5,no,no,"Sets once, done for the day"
+2026-01-06,Target,Garnier,Micellar Cleansing Water,cleanser,8,French,value,convenience,friend,4,no,no,Repurchase
+2026-01-13,Sephora,Ilia,Super Serum Skin Tint SPF 40,complexion,48,US,prestige,convenience,colleague,5,yes,no,Repurchase
+2026-01-20,Amazon,Laneige,Lip Sleeping Mask (Berry),lip,24,K-beauty,mid,convenience,colleague,4,no,no,Overnight; no effort
+2026-01-28,Sephora,Merit,The Minimalist Perfecting Complexion Stick,complexion,38,US,mid,convenience,instagram,4,no,no,Repurchase
+2026-02-04,Amazon,Srichand,Translucent Powder,complexion,10,Thai,value,reviews,youtube,5,no,no,Repurchase
+2026-02-11,Sephora,Shiseido,Synchro Skin Self-Refreshing Foundation,complexion,49,J-beauty,prestige,reviews,beauty advisor,5,no,no,Repurchase
+2026-02-18,Olive Young US,Anua,Heartleaf Pore Control Cleansing Oil,cleanser,22,K-beauty,mid,convenience,tiktok,4,no,no,Repurchase
+2026-02-26,Sephora,YSL,Touche Éclat High Cover Radiant Concealer,complexion,40,French,prestige,reviews,beauty advisor,3,no,no,Pretty but needs layering; back to NARS
+2026-03-05,Amazon,Biore,UV Aqua Rich Watery Essence SPF50+,sunscreen,15,J-beauty,value,convenience,youtube,5,no,no,Repurchase
+2026-03-12,Sephora,Charlotte Tilbury,Beauty Light Wand,cheek,40,UK,prestige,convenience,beauty advisor,4,no,no,Blush and highlight in one tap
+2026-03-20,Target,Missha,M Perfect Cover BB Cream,complexion,12,K-beauty,value,convenience,youtube,4,no,no,Repurchase
+2026-03-27,Sephora,Saie,Slip Tint Dewy Tinted Moisturizer,complexion,36,US,mid,convenience,instagram,3,no,no,Too sheer; still need concealer
+2026-04-03,Amazon,Maybelline,Lash Sensational Sky High Mascara,eyes,13,US,value,reviews,tiktok,5,yes,no,Repurchase
+2026-04-10,Sephora,Dr. Jart+,Cicapair Tiger Grass Color Correcting Treatment,complexion,52,K-beauty,prestige,convenience,beauty advisor,4,no,no,Repurchase
+2026-04-18,Amazon,DHC,Deep Cleansing Oil,cleanser,30,J-beauty,mid,convenience,youtube,4,no,no,One-step makeup removal
+2026-04-25,Sephora,Lancôme,Teint Idole Ultra Wear Foundation,complexion,55,French,prestige,reviews,beauty advisor,4,no,no,Repurchase
+2026-05-02,Amazon,Lakmé,Eyeconic Kajal,eyes,5,Indian,value,reviews,colleague,5,no,no,Repurchase
+2026-05-09,Sephora,Milk Makeup,Lip + Cheek Cream Blush Stick,cheek,26,US,mid,convenience,tiktok,4,no,no,Stick for both
+2026-05-17,Target,Simple,Kind to Skin Micellar Water,cleanser,8,UK,value,price,friend,4,no,no,Cheaper backup
+2026-05-24,Sephora,Supergoop!,Unseen Sunscreen SPF 40,sunscreen,38,US,mid,convenience,youtube,4,no,no,Primer and SPF
+2026-05-31,Amazon,Banila Co,Clean It Zero Cleansing Balm Original,cleanser,22,K-beauty,mid,convenience,tiktok,4,no,no,"Quick melt, no second step on lazy nights"
+2026-06-08,Sephora,Summer Fridays,Lip Butter Balm,lip,24,US,mid,trend,tiktok,4,no,no,Everyone at work had one; it is practical
+2026-06-15,Target,Pixi,Glow Tonic,serum,15,UK,value,convenience,youtube,3,no,no,One more step than I want
+2026-06-22,Sephora,Ilia,Super Serum Skin Tint SPF 40,complexion,48,US,prestige,convenience,colleague,5,yes,no,Repurchase
+2026-06-29,Amazon,Kose,Softymo Speedy Cleansing Oil,cleanser,8,J-beauty,value,price,youtube,4,no,no,Travel backup
+2026-07-07,Olive Young US,TirTir,Mask Fit Red Cushion,complexion,29,K-beauty,mid,trend,tiktok,4,no,no,Repurchase
+2026-07-14,Sephora,Charlotte Tilbury,Magic Cream,moisturizer,100,UK,prestige,reviews,beauty advisor,4,no,no,Works as primer too; pays for itself in time saved
+2026-07-21,Amazon,Sugar Cosmetics,Matte As Hell Crayon Lipstick,lip,12,Indian,value,reviews,instagram,4,no,no,Long wear crayon
+2026-07-29,Sephora,Urban Decay,All Nighter Setting Spray,complexion,36,US,mid,reviews,beauty advisor,5,no,no,Repurchase
+2026-08-05,Amazon,L'Oréal Paris,Telescopic Lift Mascara,eyes,13,French,value,reviews,youtube,3,no,no,Sky High is still faster
+2026-08-12,Sephora,Glossier,Boy Brow,eyes,20,US,mid,convenience,colleague,4,no,no,Repurchase
+2026-08-19,Amazon,Hada Labo,Gokujyun Perfect Gel All-in-One,moisturizer,20,J-beauty,value,convenience,youtube,5,no,no,Repurchase
+2026-08-27,Olive Young US,Peripera,Ink Velvet Lip Tint,lip,9,K-beauty,value,reviews,tiktok,4,no,no,Lasts all day
+2026-09-03,Sephora,NARS,Radiant Creamy Concealer,complexion,32,US,mid,reviews,beauty advisor,5,no,no,Repurchase
+2026-09-10,Amazon,Lakmé,9 to 5 Primer + Matte Lip Color,lip,6,Indian,value,reviews,colleague,4,no,no,Repurchase
+2026-09-18,Amazon,Smooth E,Babyface Foam,cleanser,12,Thai,value,reviews,youtube,4,no,no,"Gentle, quick"
+2026-09-25,Olive Young US,Beauty of Joseon,Relief Sun: Rice + Probiotics SPF50+,sunscreen,18,K-beauty,value,reviews,colleague,5,no,no,Repurchase
+2026-10-02,Sephora,Tower 28,BeachPlease Lip + Cheek Cream Blush,cheek,22,US,mid,convenience,youtube,4,no,no,Repurchase
+2026-10-09,Amazon,Maybelline,Lash Sensational Sky High Mascara,eyes,13,US,value,reviews,tiktok,5,no,no,Repurchase
+2026-10-17,Sephora,Ilia,Super Serum Skin Tint SPF 40,complexion,48,US,prestige,convenience,colleague,5,no,no,Repurchase
+2026-10-24,Amazon,Embryolisse,Lait-Crème Concentré,moisturizer,29,French,mid,convenience,beauty advisor,4,no,no,Repurchase

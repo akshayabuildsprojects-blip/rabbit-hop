@@ -1,0 +1,101 @@
+date,store,brand,product,category,price_usd,origin,tier,main_driver,discovered_via,rating_given,repurchased,returned,note
+2024-11-02,Target,Vanicream,Gentle Facial Cleanser,cleanser,10,US,value,ingredients,dermatologist,5,yes,no,"Free of fragrance, dyes and common irritants; no reaction"
+2024-11-09,Target,La Roche-Posay,Toleriane Hydrating Gentle Cleanser,cleanser,16,French,value,ingredients,dermatologist,5,yes,no,Short ingredient list
+2024-11-17,Amazon,EltaMD,UV Clear Broad-Spectrum SPF 46,sunscreen,41,US,mid,reviews,dermatologist,5,yes,no,Worth paying more for an SPF that never stings
+2024-11-24,Target,CeraVe,Moisturizing Cream,moisturizer,19,US,value,ingredients,dermatologist,4,yes,no,"Ceramides, fragrance-free"
+2024-12-01,Amazon,Aestura,Atobarrier 365 Cream,moisturizer,30,K-beauty,mid,ingredients,reddit,5,yes,no,Korean barrier cream people with reactive skin trust; patch-tested first
+2024-12-08,Target,Avène,Thermal Spring Water,serum,20,French,mid,reviews,youtube,4,yes,no,Calms skin after cleansing
+2024-12-16,Amazon,Curél,Intensive Moisture Care Cream,moisturizer,30,J-beauty,mid,ingredients,reddit,5,yes,no,Japanese ceramide cream; no fragrance
+2024-12-23,Target,La Roche-Posay,Toleriane Double Repair Face Moisturizer,moisturizer,20,French,value,ingredients,dermatologist,5,yes,no,Reliable; never a reaction
+2024-12-30,Sephora,Tower 28,SOS Daily Rescue Facial Spray,serum,28,US,mid,reviews,youtube,5,yes,no,Brand built around sensitive-skin standards
+2025-01-07,Amazon,Etude,SoonJung 2x Barrier Intensive Cream,moisturizer,20,K-beauty,value,ingredients,reddit,4,yes,no,Minimal formula; good reviews from people like me
+2025-01-14,Target,Bioderma,Sensibio H2O Micellar Water,cleanser,17,French,value,reviews,dermatologist,5,yes,no,Removes makeup without rubbing
+2025-01-21,Sephora,Clinique,Moisture Surge 100H Auto-Replenishing Hydrator,moisturizer,45,US,mid,ingredients,customer reviews,4,no,no,"Allergy tested, fragrance free; checked reviews for stinging first"
+2025-01-28,Target,Vanicream,Gentle Facial Cleanser,cleanser,10,US,value,ingredients,dermatologist,5,yes,no,Repurchase
+2025-02-05,Amazon,Paula's Choice,Skin Perfecting 2% BHA Liquid Exfoliant,serum,35,US,mid,reviews,reddit,2,no,no,Stung even every other day; stopped
+2025-02-12,Amazon,Illiyoon,Ceramide Ato Concentrate Cream,moisturizer,22,K-beauty,value,price,reddit,5,yes,no,"Same barrier ingredients as pricier creams, big tub, no fragrance"
+2025-02-19,Target,La Roche-Posay,Cicaplast Baume B5,moisturizer,17,French,value,ingredients,dermatologist,5,yes,no,"For dry, irritated patches"
+2025-02-27,Amazon,Hada Labo,Gokujyun Premium Hyaluronic Lotion,serum,14,J-beauty,value,ingredients,reddit,5,yes,no,Fragrance- and colorant-free
+2025-03-06,Sephora,Krave Beauty,Great Barrier Relief,serum,28,US,mid,ingredients,youtube,5,yes,no,Founder explains every ingredient
+2025-03-13,Amazon,Embryolisse,Lait-Crème Concentré,moisturizer,29,French,mid,trend,youtube,2,no,yes,Fragranced; made my cheeks red; returned
+2025-03-20,Target,CeraVe,Hydrating Facial Cleanser,cleanser,17,US,value,ingredients,dermatologist,4,no,no,Backup when Vanicream is out
+2025-03-28,Amazon,Smooth E,Babyface Foam,cleanser,12,Thai,value,reviews,youtube,4,yes,no,Thai non-foaming cleanser for sensitive skin; no reaction
+2025-04-04,Amazon,EltaMD,UV Clear Broad-Spectrum SPF 46,sunscreen,41,US,mid,reviews,dermatologist,5,yes,no,Repurchase
+2025-04-11,Target,Avène,Cicalfate+ Restorative Protective Cream,moisturizer,30,French,mid,ingredients,dermatologist,5,yes,no,For flare-ups of dryness
+2025-04-19,Amazon,Round Lab,1025 Dokdo Cleanser,cleanser,12,K-beauty,value,reviews,reddit,4,no,no,Gentle; checked the full ingredient list first
+2025-04-26,Sephora,Tower 28,BeachPlease Lip + Cheek Cream Blush,cheek,22,US,mid,ingredients,customer reviews,5,no,no,Blush I can trust: brand avoids common irritants
+2025-05-03,Amazon,Minimalist,Niacinamide 10% + Zinc 1% Face Serum,serum,10,Indian,value,ingredients,reddit,2,no,no,10% was too strong; tingling and redness
+2025-05-10,Target,La Roche-Posay,Toleriane Hydrating Gentle Cleanser,cleanser,16,French,value,ingredients,dermatologist,5,yes,no,Repurchase
+2025-05-18,Amazon,Aestura,Atobarrier 365 Cream,moisturizer,30,K-beauty,mid,ingredients,reddit,5,yes,no,Repurchase
+2025-05-25,Sephora,First Aid Beauty,Ultra Repair Cream,moisturizer,38,US,mid,reviews,customer reviews,4,yes,no,Colloidal oatmeal; good in winter
+2025-06-01,Amazon,Curél,Foaming Facial Wash,cleanser,14,J-beauty,value,ingredients,reddit,4,yes,no,"Ceramide-care cleanser, mild"
+2025-06-08,Target,Vanicream,Moisturizing Cream (1 lb),moisturizer,15,US,value,ingredients,dermatologist,5,yes,no,Face and body; nothing to react to
+2025-06-16,Olive Young US,Beauty of Joseon,Relief Sun: Rice + Probiotics SPF50+,sunscreen,18,K-beauty,value,reviews,reddit,4,no,no,Chemical filters but no stinging; patch-tested a week
+2025-06-23,Amazon,Bioderma,Sensibio H2O Micellar Water,cleanser,17,French,value,reviews,dermatologist,5,yes,no,Repurchase
+2025-06-30,Sephora,Rare Beauty,Soft Pinch Liquid Blush,cheek,25,US,mid,trend,tiktok,4,no,no,Viral; read the ingredients and irritation reviews first; fine on me
+2025-07-08,Amazon,Re'equil,Ceramide & Hyaluronic Acid Moisturiser,moisturizer,18,Indian,value,ingredients,reddit,4,yes,no,Indian derm-led brand; fragrance-free
+2025-07-15,Target,CeraVe,Hydrating Mineral Sunscreen SPF 30,sunscreen,17,US,value,ingredients,dermatologist,3,no,no,"Mineral, no sting; white cast"
+2025-07-22,Amazon,Skin1004,Madagascar Centella Ampoule,serum,15,K-beauty,value,ingredients,reddit,4,yes,no,Single-hero ingredient
+2025-07-29,Target,La Roche-Posay,Lipikar Balm AP+ Intense Repair Body Cream,body,24,French,mid,ingredients,dermatologist,5,yes,no,Body cream that does not itch
+2025-08-06,Sephora,Clinique,High Impact Mascara,eyes,26,US,mid,ingredients,customer reviews,4,no,no,Ophthalmologist tested; no watery eyes
+2025-08-13,Amazon,Hada Labo,Gokujyun Premium Hyaluronic Lotion,serum,14,J-beauty,value,ingredients,reddit,5,yes,no,Repurchase
+2025-08-20,Olive Young US,Etude,SoonJung pH 6.5 Whip Cleanser,cleanser,12,K-beauty,value,ingredients,reddit,4,no,no,"Low pH, minimal"
+2025-08-28,Amazon,EltaMD,UV Clear Broad-Spectrum SPF 46,sunscreen,41,US,mid,reviews,dermatologist,5,yes,no,Repurchase
+2025-09-04,Target,Aveeno,Calm + Restore Oat Gel Moisturizer,moisturizer,20,US,value,ingredients,youtube,3,no,no,Fine; prefer my usual
+2025-09-11,Amazon,The INKEY List,Oat Cleansing Balm,cleanser,12,UK,value,ingredients,reddit,4,no,no,"Oat, fragrance-free"
+2025-09-18,Target,Avène,Tolerance Control Soothing Skin Recovery Cream,moisturizer,40,French,mid,ingredients,dermatologist,5,no,no,Sterile packaging; very few ingredients
+2025-09-26,Amazon,Illiyoon,Ceramide Ato Concentrate Cream,moisturizer,22,K-beauty,value,ingredients,reddit,5,yes,no,Repurchase
+2025-10-03,Sephora,bareMinerals,Original Loose Powder Foundation SPF 15,complexion,36,US,mid,ingredients,friend,4,no,no,Mineral makeup; few ingredients
+2025-10-10,Amazon,Curél,Intensive Moisture Care Cream,moisturizer,30,J-beauty,mid,ingredients,reddit,5,yes,no,Repurchase
+2025-10-18,Target,La Roche-Posay,Cicaplast Baume B5,moisturizer,17,French,value,ingredients,dermatologist,5,no,no,Repurchase
+2025-10-25,Amazon,Minimalist,SPF 50 Sunscreen,sunscreen,10,Indian,value,ingredients,reddit,4,yes,no,Fragrance-free; light
+2025-11-01,Sephora,Krave Beauty,Matcha Hemp Hydrating Cleanser,cleanser,17,US,value,ingredients,youtube,4,no,no,Gentle second cleanser
+2025-11-08,Amazon,Biore,UV Aqua Rich Watery Essence SPF50+,sunscreen,13,J-beauty,value,trend,tiktok,2,no,yes,Alcohol in it; stung around eyes; returned
+2025-11-16,Target,Vanicream,Gentle Facial Cleanser,cleanser,10,US,value,ingredients,dermatologist,5,yes,no,Repurchase
+2025-11-23,Olive Young US,Torriden,DIVE-IN Low Molecular Hyaluronic Acid Serum,serum,22,K-beauty,value,reviews,reddit,4,no,no,No essential oils; reviews from sensitive skin
+2025-11-30,Target,La Roche-Posay,Toleriane Double Repair Face Moisturizer,moisturizer,20,French,value,ingredients,dermatologist,5,yes,no,Repurchase
+2025-12-08,Sephora,Tower 28,ShineOn Lip Jelly,lip,16,US,value,ingredients,customer reviews,4,no,no,Lip gloss without fragrance
+2025-12-15,Amazon,Simple,Kind to Skin Micellar Water,cleanser,8,UK,value,ingredients,friend,4,yes,no,"No perfume, no dyes"
+2025-12-22,Sephora,Clinique,Almost Lipstick (Black Honey),lip,24,US,mid,ingredients,friend,4,no,no,Clinique's allergy testing is why I trust it
+2025-12-29,Amazon,Dr. Jart+,Ceramidin Cream,moisturizer,48,K-beauty,prestige,reviews,youtube,3,no,no,"Good, but my $22 cream does the same"
+2026-01-06,Target,Avène,Thermal Spring Water,serum,20,French,mid,reviews,youtube,4,yes,no,Repurchase
+2026-01-13,Amazon,Re'equil,Ceramide & Hyaluronic Acid Moisturiser,moisturizer,18,Indian,value,ingredients,reddit,4,no,no,Repurchase
+2026-01-20,Sephora,First Aid Beauty,Ultra Repair Cream,moisturizer,38,US,mid,reviews,customer reviews,4,no,no,Repurchase
+2026-01-28,Amazon,Kama Ayurveda,Kumkumadi Miraculous Beauty Fluid,serum,45,Indian,prestige,trend,instagram,1,no,yes,Strong fragrance and essential oils; reacted; returned
+2026-02-04,Olive Young US,Round Lab,Birch Juice Moisturizing Sunscreen,sunscreen,20,K-beauty,value,reviews,reddit,4,no,no,Gentle; read sensitive-skin reviews first
+2026-02-11,Target,Bioderma,Sensibio Gel Moussant,cleanser,15,French,value,ingredients,dermatologist,4,no,no,Soap-free gel
+2026-02-18,Amazon,Hada Labo,Gokujyun Premium Hyaluronic Lotion,serum,14,J-beauty,value,ingredients,reddit,5,no,no,Repurchase
+2026-02-26,Amazon,EltaMD,UV Clear Broad-Spectrum SPF 46,sunscreen,41,US,mid,reviews,dermatologist,5,yes,no,Repurchase
+2026-03-05,Amazon,Smooth E,Babyface Foam,cleanser,12,Thai,value,reviews,youtube,4,yes,no,Repurchase
+2026-03-12,Target,La Roche-Posay,Anthelios Mineral Tinted Sunscreen SPF 50,sunscreen,38,French,mid,ingredients,dermatologist,4,no,no,Mineral tint replaces foundation on calm days
+2026-03-20,Amazon,COSRX,Advanced Snail 96 Mucin Power Essence,serum,25,K-beauty,mid,reviews,reddit,4,no,no,Some people react; patch-tested a week; fine
+2026-03-27,Sephora,Tower 28,SOS Daily Rescue Facial Spray,serum,28,US,mid,reviews,youtube,5,no,no,Repurchase
+2026-04-03,Amazon,Curél,Foaming Facial Wash,cleanser,14,J-beauty,value,ingredients,reddit,4,no,no,Repurchase
+2026-04-10,Target,Vanicream,Daily Facial Moisturizer,moisturizer,14,US,value,ingredients,dermatologist,4,no,no,Lighter option for summer
+2026-04-18,Amazon,Real Barrier,Extreme Cream,moisturizer,28,K-beauty,mid,ingredients,reddit,4,no,no,Barrier cream; tried after reading long reviews
+2026-04-25,Target,Avène,Cicalfate+ Restorative Protective Cream,moisturizer,30,French,mid,ingredients,dermatologist,5,no,no,Repurchase
+2026-05-02,Amazon,Dr. Sheth's,Ceramide & Vitamin C Sunscreen SPF 50,sunscreen,15,Indian,value,ingredients,reddit,3,no,no,Fine; vitamin C made me cautious
+2026-05-09,Sephora,Clinique,Even Better Clinical Serum Foundation SPF 25,complexion,42,US,mid,ingredients,customer reviews,4,no,no,Foundation that does not break me out
+2026-05-17,Amazon,Aestura,Atobarrier 365 Cream,moisturizer,30,K-beauty,mid,ingredients,reddit,5,no,no,Repurchase
+2026-05-24,Target,La Roche-Posay,Toleriane Hydrating Gentle Cleanser,cleanser,16,French,value,ingredients,dermatologist,5,no,no,Repurchase
+2026-05-31,Amazon,Canmake,Marshmallow Finish Powder,complexion,11,J-beauty,value,reviews,youtube,3,no,no,Read ingredients carefully; ok
+2026-06-08,Sephora,Krave Beauty,Great Barrier Relief,serum,28,US,mid,ingredients,youtube,5,no,no,Repurchase
+2026-06-15,Amazon,Skin1004,Madagascar Centella Ampoule,serum,15,K-beauty,value,ingredients,reddit,4,no,no,Repurchase
+2026-06-22,Target,La Roche-Posay,Lipikar Balm AP+ Intense Repair Body Cream,body,24,French,mid,ingredients,dermatologist,5,no,no,Repurchase
+2026-06-29,Amazon,The INKEY List,Ceramide Night Treatment,moisturizer,15,UK,value,ingredients,reddit,3,no,no,Fine; not better than my usual
+2026-07-07,Target,Vanicream,Moisturizing Cream (1 lb),moisturizer,15,US,value,ingredients,dermatologist,5,no,no,Repurchase
+2026-07-14,Olive Young US,Anua,Heartleaf 77% Soothing Toner,serum,29,K-beauty,mid,reviews,reddit,4,no,no,Checked for essential oils first; calming
+2026-07-21,Target,Bioderma,Sensibio H2O Micellar Water,cleanser,17,French,value,reviews,dermatologist,5,no,no,Repurchase
+2026-07-29,Amazon,Kiss Me,Heroine Make Long & Curl Mascara Super WP,eyes,11,J-beauty,value,reviews,youtube,3,no,no,"Tubing; removes with water, but waterproof formula dries my lashes"
+2026-08-05,Target,Byoma,Moisturizing Gel Cream,moisturizer,15,UK,value,ingredients,tiktok,3,no,no,Skipped a viral pick until the ingredient list checked out
+2026-08-12,Amazon,Illiyoon,Ceramide Ato Concentrate Cream,moisturizer,22,K-beauty,value,ingredients,reddit,5,no,no,Repurchase
+2026-08-19,Target,CeraVe,Moisturizing Cream,moisturizer,19,US,value,ingredients,dermatologist,4,no,no,Repurchase
+2026-08-27,Amazon,Curél,Intensive Moisture Care Cream,moisturizer,30,J-beauty,mid,ingredients,reddit,5,no,no,Repurchase
+2026-09-03,Amazon,Smooth E,Babyface Foam,cleanser,12,Thai,value,reviews,youtube,4,no,no,Repurchase
+2026-09-10,Amazon,Simple,Kind to Skin Micellar Water,cleanser,8,UK,value,ingredients,friend,4,no,no,Repurchase
+2026-09-18,Amazon,EltaMD,UV Clear Broad-Spectrum SPF 46,sunscreen,41,US,mid,reviews,dermatologist,5,no,no,Repurchase
+2026-09-25,Olive Young US,Etude,SoonJung 2x Barrier Intensive Cream,moisturizer,20,K-beauty,value,ingredients,reddit,4,no,no,Repurchase
+2026-10-02,Target,Avène,Thermal Spring Water,serum,20,French,mid,reviews,youtube,4,no,no,Repurchase
+2026-10-09,Amazon,Minimalist,SPF 50 Sunscreen,sunscreen,10,Indian,value,ingredients,reddit,4,no,no,Repurchase
+2026-10-17,Target,Vanicream,Gentle Facial Cleanser,cleanser,10,US,value,ingredients,dermatologist,5,no,no,Repurchase
+2026-10-24,Target,La Roche-Posay,Toleriane Double Repair Face Moisturizer,moisturizer,20,French,value,ingredients,dermatologist,5,no,no,Repurchase
