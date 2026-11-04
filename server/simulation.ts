@@ -1,6 +1,6 @@
 // Scripted agents used only when MODEL_API_KEY is not set, so the UI can be
 // developed and tested offline. Live runs always use Muse Spark (agent.ts).
-import type { AgentEvent, AgentResult, ExperimentConfig, Persona, Product } from "../shared/types.js";
+import type { AgentEvent, AgentResult, ExperimentConfig, PersonaConfig, Product } from "../shared/types.js";
 import { CATALOG, productById } from "./data/catalog.js";
 import { TRENDS } from "./data/trends.js";
 import { ShoppingSession } from "./tools.js";
@@ -8,7 +8,7 @@ import { ShoppingSession } from "./tools.js";
 type Emit = (e: AgentEvent) => void;
 const wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-export async function runSimulatedAgent(persona: Persona, cfg: ExperimentConfig, emit: Emit): Promise<AgentResult> {
+export async function runSimulatedAgent(persona: PersonaConfig, cfg: ExperimentConfig, emit: Emit): Promise<AgentResult> {
   const s = new ShoppingSession(cfg.budget);
   const call = async (thought: string, tool: string, args: Record<string, unknown>) => {
     await wait(350 + Math.random() * 500);
@@ -21,8 +21,14 @@ export async function runSimulatedAgent(persona: Persona, cfg: ExperimentConfig,
   const fits = (p: Product) => s.total + p.price <= cfg.budget && !s.items.some((i) => i.productId === p.id);
   const usedCats = () => new Set(s.items.map((i) => i.category));
 
-  switch (persona.id) {
-    case "trend-chaser": {
+  // Pick a scripted strategy from the persona's strongest trait.
+  const t = persona.traits;
+  const strategy = ([["trend", t.trend], ["research", t.research], ["price", t.price], ["prestige", t.prestige]] as const)
+    .slice()
+    .sort((a, b) => b[1] - a[1])[0][0];
+
+  switch (strategy) {
+    case "trend": {
       await call("First stop, the feed. What is everyone obsessed with this week?", "view_trend_feed", {});
       await call("Sorting by buzz so I can grab the viral stuff before it sells out.", "search_catalog", { sort: "viral" });
       const viral = CATALOG.slice().sort((a, b) => b.viralScore - a.viralScore);
@@ -34,7 +40,7 @@ export async function runSimulatedAgent(persona: Persona, cfg: ExperimentConfig,
       }
       break;
     }
-    case "beauty-researcher": {
+    case "research": {
       await call("Starting with the highest-rated products, not the loudest ones.", "search_catalog", { sort: "rating" });
       for (const cat of ["sunscreen", "moisturizer", "serum", "cleanser", "lip"] as const) {
         const options = CATALOG.filter((p) => p.category === cat).sort((a, b) => b.rating / Math.log(b.price + 5) - a.rating / Math.log(a.price + 5));
@@ -45,7 +51,7 @@ export async function runSimulatedAgent(persona: Persona, cfg: ExperimentConfig,
       }
       break;
     }
-    case "dupe-hunter": {
+    case "price": {
       await call("Checking what is viral so I know what to dupe.", "view_trend_feed", {});
       const viralIds = [...new Set(TRENDS.flatMap((t) => t.productIds))].map((id) => productById.get(id)!).filter((p) => !p.dupeOf);
       for (const p of viralIds) {

@@ -1,0 +1,1435 @@
+{
+  "schema_version": 1,
+  "persona_id": "trend-driven",
+  "persona_name": "Trend-Driven Beauty Shopper",
+  "description": "Discovers beauty primarily through social video and creator content focused on new launches and visible results. Validates trending candidates through general search, video tutorials, and ratings and reviews before buying. Compares broadly across options and typically closes through a separate search or marketplace touchpoint rather than immediate social checkout.",
+  "primary_motivation": "Staying current with beauty trends and discovering new products through social visibility and new launches, validated by proof of result.",
+  "behavioral_parameters": {
+    "note": "Simulation settings informed by qualitative research. Not scientifically validated population measurements.",
+    "trend_sensitivity": 0.9,
+    "influencer_trust": 0.6,
+    "price_sensitivity": 0.65,
+    "brand_loyalty": 0.35,
+    "research_depth": 0.7,
+    "novelty_seeking": 0.85,
+    "impulse_buying_tendency": 0.65,
+    "product_quality_priority": 0.6,
+    "convenience_priority": 0.4,
+    "prestige_priority": 0.3
+  },
+  "shopping_behavior": {
+    "preferred_discovery_channels": [
+      "Instagram",
+      "TikTok",
+      "YouTube",
+      "creator videos and social search"
+    ],
+    "trusted_information_sources": [
+      "ratings and reviews",
+      "friends and family and word-of-mouth",
+      "general search results",
+      "qualified experts",
+      "known and trusted creators, especially video tutorials"
+    ],
+    "product_evaluation_criteria": [
+      "newness and social visibility",
+      "demonstrated result in tutorial or video",
+      "price",
+      "effectiveness and noticeable results",
+      "ratings and recent review volume",
+      "shade and ingredient clarity"
+    ],
+    "purchase_triggers": [
+      "new launch or trending visibility",
+      "creator or peer demonstration showing result and naming the item",
+      "corroborating reviews and social proof",
+      "interactive try-on or timely promotion"
+    ],
+    "rejection_criteria": [
+      "price perceived as too high without promotion or value justification",
+      "unproven or poor effectiveness signals",
+      "poor review sentiment or lack of recent reviews",
+      "inability to verify shade, ingredients, or usage details"
+    ],
+    "comparison_strategy": "Browse many alternatives and move across touchpoints serving different functions, using social for inspiration and general search and marketplace listings for validation and comparison on price, effectiveness, and reviews.",
+    "typical_shopping_sequence": [
+      "Discover trending item in social feed, social search, or creator video",
+      "Seek creator and peer validation through demonstrations and social proof",
+      "Verify via general search and video tutorials for details and application",
+      "Check ratings, review volume, price, and effectiveness signals",
+      "Compare across multiple options and listings",
+      "Purchase through preferred fulfillment touchpoint after validation"
+    ]
+  },
+  "decision_rules": [
+    {
+      "rule": "When a trending or newly launched item appears in social discovery, treat it as a candidate for exploration and initiate external validation before deciding.",
+      "rationale": "Social is a major entry point and discovery often starts in feeds or creator video before branching to validation.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "After social discovery, verify the exact item name and details through general search and marketplace listings before purchasing.",
+      "rationale": "Most shoppers search general search after social discovery rather than buying immediately in-app.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "Prioritize items with substantial and recent review volume and deprioritize items with consistently poor sentiment on effectiveness.",
+      "rationale": "Ratings and reviews are the top purchase influence and review volume and recency inform rejection.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "Weight demonstrations from known or qualified voices more heavily than single unfamiliar endorsements and seek corroboration across reviews or personal contacts.",
+      "rationale": "Creator trust is tiered with qualified experts and known trusted creators moving intent more than generic viral claims.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "Compare price against effectiveness signals and prefer available promotions or lower-cost alternatives when efficacy is unproven.",
+      "rationale": "Price and effectiveness dominate new-product decisions and deal-seeking coexists with novelty desire.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When evaluating, prefer items with clear video demonstration of result and application, then confirm shade and usage details in text listings.",
+      "rationale": "Tutorial structure and result-first demonstration characterize persuasive social content and signal relevance for this archetype.",
+      "basis": "modeling_assumption"
+    },
+    {
+      "rule": "If shade, ingredient, or usage information cannot be verified in search or listing details, defer purchase and continue browsing alternatives.",
+      "rationale": "Missing verifiable detail is inferred to cause drop-off when social search fails and shoppers switch to search.",
+      "basis": "modeling_assumption"
+    },
+    {
+      "rule": "Allow faster progression to purchase for low-consideration trending items with strong social proof, and require deeper cross-source research for higher-consideration items.",
+      "rationale": "Both impulse and extensive browsing occur, with impulse more likely for low-stakes trend items.",
+      "basis": "modeling_assumption"
+    }
+  ],
+  "parameter_context": {
+    "trend_sensitivity": {
+      "score": 0.9,
+      "band": "high",
+      "definition": "How strongly current trends, viral products and what is popular right now shape what the shopper looks at and wants.",
+      "interpretation": "High - actively seeks out what is trending; trend status is a primary reason to consider a product",
+      "rationale": "Score 0.90 is high; staying current via social visibility is primary motivation, with feed or creator video as usual entry",
+      "shopping_manifestation": "Trend status drives consideration set; non-trending items need stronger other proof to enter",
+      "observable_actions": [
+        "Starts from Trending Products / trending-now assortments and social feeds",
+        "Treats viral visibility and new launch as candidate for exploration",
+        "Prioritizes items with recent buzz and tutorial visibility for first click"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora opens Trending Products taking social media by storm as exploration list rather than buying proven core first",
+        "ulta": "On Ulta scans Trending-now and new arrivals and bestseller filters to catch what is popular right now"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+          "note": "90% say social influences journey and 41% bought based on TikTok/YouTube in last six months; high-frequency buyers over-index on TikTok and Instagram"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "38% recalled finding a product they later bought on social, rising to 62% of Gen Z; discovery increasingly social-led"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://yougov.com/en-us/articles/54186-tiktok-made-me-buy-it-whos-discovering-new-products-on-social-media-in-2026",
+          "note": "TikTok cited as first place users hear about new products while commerce-enabled content helps turn discovery into purchase"
+        }
+      ]
+    },
+    "influencer_trust": {
+      "score": 0.6,
+      "band": "medium",
+      "definition": "How much weight the shopper gives to creators, influencers and celebrity endorsements versus other sources.",
+      "interpretation": "Medium - uses creator content as one input, usually checked against reviews or other sources",
+      "rationale": "Score 0.60 is medium; report refines high trust assumption to selective, expertise-weighted trust with low TikTok trust plus high search follow-up",
+      "shopping_manifestation": "Demonstration inspires but does not decide; corroboration across reviews or contacts is required",
+      "observable_actions": [
+        "Seeks creator and peer demonstrations showing result and naming item",
+        "Weights known or qualified voices more than single unfamiliar endorsements",
+        "Corroborates endorsement with ratings, recent reviews, and friends/expert signals"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora watches creator demos then checks Gallery See it in Real Life posts, Q&A, and Verified Purchase reviews before deciding",
+        "ulta": "On Ulta uses TikTok/YouTube for technique inspiration but verifies exact name and shade via listings, barcode scan results, and community reviews"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "Only 9% rate TikTok creators very trustworthy vs 30% for Google and 54% for word-of-mouth; YouTube creators outscore TikTok"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+          "note": "61% are more likely to purchase if a creator they know and trust posts about it, but influencer recs drive only 2% of final decisions though key for discovery"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Qualified experts like dermatologists are most trusted, followed by self-declared experts; friends/family influence 93%"
+        }
+      ]
+    },
+    "price_sensitivity": {
+      "score": 0.65,
+      "band": "medium",
+      "definition": "How much price, discounts and cost per use influence consideration and choice.",
+      "interpretation": "Medium - compares prices and notices deals, but pays more when product is clearly better or more wanted",
+      "rationale": "Score 0.65 is medium upper bound; price is central even for novelty seekers but tolerance can stretch for highly desired launches with clear results",
+      "shopping_manifestation": "Hunts value to justify trend trial; price alone does not separate from price-sensitive archetype",
+      "observable_actions": [
+        "Compares price against effectiveness signals",
+        "Prefers promotions or lower-cost alternatives when efficacy is unproven",
+        "Uses points, samples, and dupe-talk to rationalize trial"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora weighs price vs effectiveness and favors Beauty Insider Cash, Rewards Bazaar samples, and promotions when reviews are mixed",
+        "ulta": "On Ulta compares dollars-off Rewards redemption from low thresholds and promotion availability before committing to premium viral price"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+          "note": "72% cite price and 55% cite effectiveness as most important when deciding on a new beauty product"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+          "note": "65% look for deals/wait for promotions and 53% are open to dupes; 24% traded down in last 12 months"
+        }
+      ]
+    },
+    "brand_loyalty": {
+      "score": 0.35,
+      "band": "medium",
+      "definition": "How much the shopper sticks with known brands versus switching.",
+      "interpretation": "Medium, at low boundary - has some openness to favorites but switches freely for a compelling trending reason",
+      "rationale": "Score 0.35 sits at medium threshold; persona hypotheses note exploration alongside routine stickiness, with switching normal across makeup and skincare",
+      "shopping_manifestation": "Brand familiarity carries little weight; new-brand trial is routine when trend and proof align",
+      "observable_actions": [
+        "Compares familiar and unfamiliar brands side-by-side",
+        "Does not default to repurchase; tests new brands when demos and reviews align",
+        "Returns to proven brand if viral shade or proof fails"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora compares a familiar foundation against an unfamiliar viral launch on Trending Products, choosing based on review proof and shade clarity rather than brand name",
+        "ulta": "On Ulta filters across mass and prestige brands by rating and new arrivals, switching to an unfamiliar viral brand if GLAMLab and reviews verify match"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "73% tend to stick with known brands yet only 34% rarely switch and up to 53% of purchases are from a brand not purchased in prior 12 months, showing loyalty-experimentation coexistence"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Low switching barrier assumed for this persona driven by launches and creator drops; inferred from medium loyalty score, not a segment-specific rate"
+        }
+      ]
+    },
+    "research_depth": {
+      "score": 0.7,
+      "band": "high",
+      "definition": "How much information the shopper gathers before buying: reviews, ingredients, details, comparisons.",
+      "interpretation": "High - reads reviews and details thoroughly and compares several options before committing",
+      "rationale": "Score 0.70 is high; typical sequence is discovery to creator validation to search/video verification to rating and comparison",
+      "shopping_manifestation": "Quick impression never suffices; substantial recent review volume is required",
+      "observable_actions": [
+        "Verifies exact item name and details through general search and marketplace listings",
+        "Checks rating, review volume/recency, key reviews, ingredients, shade and usage",
+        "Browses many alternatives across touchpoints before purchase"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora checks Ratings & Reviews with photos/videos, Q&A, and Gallery See it in Real Life plus ingredient and usage details before deciding",
+        "ulta": "On Ulta uses category filters by brand, price, rating, bestsellers and new arrivals plus barcode scan results and reviews to compare broadly"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "72% search Google after TikTok discovery; only 7% buy immediately in-app, showing verification relay"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Shoppers browse on average 19 makeup products before purchase and about half conduct extensive research"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+          "note": "Google dominates skincare concerns and ingredients while social leads tutorials, supporting split verification by task"
+        }
+      ]
+    },
+    "novelty_seeking": {
+      "score": 0.85,
+      "band": "high",
+      "definition": "How attracted the shopper is to new launches, new brands and untried products.",
+      "interpretation": "High - drawn to what is new; newness itself is a reason to consider a product",
+      "rationale": "Score 0.85 is high; primary motivation is staying current via new launches and visible results",
+      "shopping_manifestation": "Actively hunts new drops; proven core items are fallback, not default",
+      "observable_actions": [
+        "Scans new launches, new arrivals, and limited-edition flags first",
+        "Treats launch or trending visibility as purchase trigger",
+        "Prefers trying untried textures, shades, and brands over repurchasing"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora treats Trending Products described as taking social media by storm with New and Limited Edition flags as exploration list",
+        "ulta": "On Ulta scans new arrivals and Trending assortments for breadth, filtering by new arrivals to surface latest launches"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Novelty/self-expression remains powerful alongside deal-seeking; social discovery leading to purchase is common and routines open to change"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://yougov.com/en-us/articles/54186-tiktok-made-me-buy-it-whos-discovering-new-products-on-social-media-in-2026",
+          "note": "31% use social more for beauty research than two years ago; TikTok cited as first place users hear about new products"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "Top videos name specific product and open on result, supporting new-launch demonstration as trigger"
+        }
+      ]
+    },
+    "impulse_buying_tendency": {
+      "score": 0.65,
+      "band": "medium",
+      "definition": "How likely the shopper is to buy something unplanned or decide quickly in the moment.",
+      "interpretation": "Medium - occasionally adds unplanned trending items when appealing and low risk, but not habitually",
+      "rationale": "Score 0.65 is medium upper bound; impulse is tempered by high research depth and verification relay rather than immediate in-app buying",
+      "shopping_manifestation": "Impulse is conditional on low risk plus corroborated hype; otherwise deliberate comparison dominates",
+      "observable_actions": [
+        "Fast-tracks low-cost viral minis with strong social proof to pickup/delivery",
+        "Slows down for high-cost or skin-active products requiring cross-source research",
+        "Adds unplanned trending finds discovered during Trending/new-arrivals browse"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora may quickly add a low-cost viral lip or mask with strong Gallery proof via pickup, but researches serum shades and ingredients thoroughly",
+        "ulta": "On Ulta uses fast pickup/same-day for validated low-consideration viral items, while requiring deeper review and shade checks for foundation"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "68% of purchases on social-selling platforms are impulse while beauty overall is becoming more research-driven, showing both modes occur"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+          "note": "Even loyal customers are susceptible to impulse especially when promoted by an influencer in right place/time; 63% admit impulsive personal-care purchases in Snapchat-skewed sample"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Persona allows faster progression for low-consideration trending items with strong proof and deeper research for higher-consideration items"
+        }
+      ]
+    },
+    "product_quality_priority": {
+      "score": 0.6,
+      "band": "medium",
+      "definition": "How much demonstrated performance and formulation quality drive the choice.",
+      "interpretation": "Medium - wants products that work, balanced against price, trend, or convenience",
+      "rationale": "Score 0.60 is medium; effectiveness and noticeable results are evaluation criteria but share weight with newness, visibility, and price",
+      "shopping_manifestation": "Accepts adequate-plus performance if trend desirability and proof are strong; rejects unproven efficacy",
+      "observable_actions": [
+        "Requires video demonstration of result plus corroborating review sentiment on effectiveness",
+        "Deprioritizes items with consistently poor efficacy sentiment",
+        "Balances performance against novelty and price rather than demanding highest formulation"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora leans on review photos/videos showing product in action and Gallery proof to judge visible result before buying trend",
+        "ulta": "On Ulta relies on GLAMLab preview plus rating and review content on wear and finish to confirm trending base or color payoff"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+          "note": "55% cite effectiveness as most important for new product; 56% will pay more for noticeable results"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Reviews/ratings are top purchase influence with nearly half relying on them; 58% care about volume and 49% check recent reviews for efficacy"
+        }
+      ]
+    },
+    "convenience_priority": {
+      "score": 0.4,
+      "band": "medium",
+      "definition": "How much ease, speed, simplicity and fit with a routine matter.",
+      "interpretation": "Medium - prefers reasonably easy paths but will make effort across touchpoints when worth it",
+      "rationale": "Score 0.40 is medium; detailed validation sequence and 19-product browse tolerance outweigh need for fastest option",
+      "shopping_manifestation": "Friction is not a primary rejection trigger; effort is spent to verify shade, ingredients, and proof",
+      "observable_actions": [
+        "Relay across social, search, and retailer listings for validation",
+        "Uses store pickup or fast delivery to close after research",
+        "Accepts multi-step comparison rather than demanding one-click simplicity"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora completes research then uses Buy Online Pick Up In Store or Fast Delivery to get trending item quickly without demanding only the simplest listing",
+        "ulta": "On Ulta uses 2-hour pickup or Same Day Delivery where eligible after comparison, tolerating filter and shade-tool steps first"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "Consumers move across touchpoints serving different functions and multi-retailer browsing expands discovery, implying willingness to expend effort for validation"
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.sephora.com/beauty/pick-up-delivery-options?icid2=ease_and_convenience_landing_page_link_internal",
+          "note": "Sephora offers Buy Online Pick Up In Store, curbside, Fast Delivery and Same-Day options for closing after validation"
+        }
+      ]
+    },
+    "prestige_priority": {
+      "score": 0.3,
+      "band": "low",
+      "definition": "How much brand status, exclusivity, packaging and premium positioning matter.",
+      "interpretation": "Low - indifferent to prestige; mass and drugstore-style brands are fine",
+      "rationale": "Score 0.30 is low; trend premium if any ties to noticeable results and newness, not heritage or premium presentation",
+      "shopping_manifestation": "Prestige is not part of value; visible result and social proof matter more",
+      "observable_actions": [
+        "Compares mass and prestige alternatives equally on proof and price",
+        "Accepts dupes when efficacy is similar",
+        "Does not pay premium for packaging or exclusivity alone"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora evaluates Only at Sephora exclusives and mass-priced trends on same effectiveness and review criteria",
+        "ulta": "On Ulta freely mixes mass and prestige in comparison, favoring Conscious Beauty or review proof over prestige badge"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "63% do not think premium performs better than mass, blurring trend vs price motives around dupes"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+          "note": "Willingness to pay more is conditional on noticeable results rather than heritage; 65% look for deals while novelty remains powerful"
+        }
+      ]
+    }
+  },
+  "shopping_decision_rules": [
+    {
+      "scenario_id": "viral_mixed_reviews",
+      "investigate_first": "Open viral item's demos and reviews first to assess visible result and corroboration level",
+      "information_sought": [
+        "Recent review volume and sentiment on effectiveness",
+        "Video demos showing result and application",
+        "Shade, ingredient, and usage clarity"
+      ],
+      "conflict_weighing": "Trend interest initiates exploration but poor effectiveness sentiment and thin review volume outweigh virality; requires corroborating demos and recent proof to override weak ratings",
+      "purchase_triggers": [
+        "Strong recent proof plus verifiable details and clear result demo",
+        "Corroboration across qualified voices and peer reviews"
+      ],
+      "rejection_triggers": [
+        "Consistently poor efficacy sentiment or lack of recent reviews",
+        "Inability to verify shade, ingredients, or usage"
+      ],
+      "influencing_parameters": [
+        "trend_sensitivity",
+        "research_depth",
+        "product_quality_priority",
+        "influencer_trust"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+          "note": "Price (72%) and effectiveness (55%) dominate new-product decisions; 58% care about volume and 49% check recent reviews"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "No segment test shows systematic tolerance for mixed reviews because viral; treat as inference requiring corroboration"
+        }
+      ]
+    },
+    {
+      "scenario_id": "popular_price_premium",
+      "investigate_first": "Verify trending premium item's result proof, then locate comparable popular alternative for price gap",
+      "information_sought": [
+        "Effectiveness proof vs price gap",
+        "Promotion, points, or dupe availability",
+        "Visible result difference in demos and reviews"
+      ],
+      "conflict_weighing": "Compares price against effectiveness signals; pays premium only when result is clearly better or more wanted, otherwise prefers value",
+      "purchase_triggers": [
+        "Noticeable result advantage plus promotion or points justification",
+        "Strong social plus review proof that premium delivers"
+      ],
+      "rejection_triggers": [
+        "Price perceived as too high without promotion or value justification",
+        "Equal proof at lower price"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "trend_sensitivity",
+        "prestige_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+          "note": "72% cite price as most important for new product; 65% wait for deals while premium not assumed superior by 63%"
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.sephora.com/beauty/loyalty-program",
+          "note": "Sephora Insider Cash/Bazaar and Ulta dollars-off redemption provide value levers for conditional premium"
+        }
+      ]
+    },
+    {
+      "scenario_id": "similar_different_prices",
+      "investigate_first": "Check both similar items' details and review recency side-by-side",
+      "information_sought": [
+        "Side-by-side effectiveness and review comparison",
+        "Ingredient, shade, and usage parity",
+        "Cost-per-use and promotion differences"
+      ],
+      "conflict_weighing": "When performance and proof are similar, price and promotion decide; when clearly better, quality can justify higher price",
+      "purchase_triggers": [
+        "Clear effectiveness or texture advantage for higher price, or lower price with equal proof"
+      ],
+      "rejection_triggers": [
+        "Unproven efficacy at higher price",
+        "Missing detail clarity on either option"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "research_depth"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+          "note": "Value reframing widespread with dupe openness 53%; willingness to pay more conditional on noticeable results"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Medium price sensitivity means compare and notice deals but pay more when clearly better"
+        }
+      ]
+    },
+    {
+      "scenario_id": "familiar_vs_trending_brand",
+      "investigate_first": "Investigate trending unfamiliar brand's demos and shade tools first, then compare to familiar baseline",
+      "information_sought": [
+        "Shade match and result proof for trending brand",
+        "Review depth for unfamiliar vs familiar",
+        "Ingredient and routine fit"
+      ],
+      "conflict_weighing": "Familiarity carries little weight; trending new brand wins if shade and proof verify, familiar wins if viral proof is thin",
+      "purchase_triggers": [
+        "Verified shade plus recent proof for trending pick",
+        "Qualified demo corroboration"
+      ],
+      "rejection_triggers": [
+        "Unverifiable shade or thin review base for viral brand",
+        "Familiar proven proof remaining stronger"
+      ],
+      "influencing_parameters": [
+        "brand_loyalty",
+        "novelty_seeking",
+        "trend_sensitivity",
+        "research_depth"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Loyalty-exploration coexistence with up to 53% purchases from new brand; sampling lowers barrier"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Shopper over-represented among switchers via launches assumed, not segment-tested"
+        }
+      ]
+    },
+    {
+      "scenario_id": "influencer_vs_weak_reviews",
+      "investigate_first": "Assess endorser familiarity and demo specificity, then check overall ratings and recent reviews",
+      "information_sought": [
+        "Credibility of endorser (known, qualified, tutorial structure)",
+        "Corroborating reviews and peer demos",
+        "Effectiveness sentiment beyond single video"
+      ],
+      "conflict_weighing": "Single endorsement is inspiration only; requires corroboration across reviews, qualified voices, or friends before outweighing weak ratings",
+      "purchase_triggers": [
+        "Multiple corroborating demos plus review support",
+        "Expert or peer confirmation of result"
+      ],
+      "rejection_triggers": [
+        "Weak ratings persist without corroboration",
+        "Only single unfamiliar endorsement with no peer volume"
+      ],
+      "influencing_parameters": [
+        "influencer_trust",
+        "research_depth",
+        "product_quality_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "TikTok creators least trusted at 9% very trustworthy; experts and word-of-mouth outrank; influencer recs drive 2% of final decisions"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+          "note": "Trusted known creator moves intent for 61% but still checked against other sources per medium trust"
+        }
+      ]
+    },
+    {
+      "scenario_id": "new_limited_reviews",
+      "investigate_first": "Check what proof exists (reviews, Q&A, videos) and whether details verify",
+      "information_sought": [
+        "Available early reviews, photos, Q&A",
+        "Additional tutorials and search verification",
+        "Shade, ingredient, usage verifiability"
+      ],
+      "conflict_weighing": "Newness attracts but thin base demands caution; low price risk plus early demo clarity can allow trial, otherwise wait for more volume",
+      "purchase_triggers": [
+        "Clear early demo plus verifiable details and low-risk price or mini/sample option",
+        "Timely promotion or try-on confirmation"
+      ],
+      "rejection_triggers": [
+        "Cannot verify shade, ingredients, or usage",
+        "No corroborating tutorials or review growth"
+      ],
+      "influencing_parameters": [
+        "novelty_seeking",
+        "research_depth",
+        "impulse_buying_tendency",
+        "price_sensitivity"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "New launch and tutorial naming act as triggers; AR/try-on and influencer placement can trigger impulse but research burden remains high"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+          "note": "Low-stakes dupe/trend queries favor TikTok while ingredient/efficacy queries favor Google/longer tutorials"
+        }
+      ]
+    },
+    {
+      "scenario_id": "discounted_alternative",
+      "investigate_first": "Verify discounted item is same shade/formula need and check its proof level vs full-price trend",
+      "information_sought": [
+        "Discount depth vs original price and value justification",
+        "Effectiveness parity via demos and reviews",
+        "Shade and detail clarity for discounted pick"
+      ],
+      "conflict_weighing": "Discount makes alternative worth exploring but does not auto-win; must still show comparable effectiveness and verifiable details",
+      "purchase_triggers": [
+        "Comparable proof at lower price plus verifiable details",
+        "Promotion that rationalizes trial of unproven trend"
+      ],
+      "rejection_triggers": [
+        "Discounted alternative shows poorer efficacy or missing details",
+        "Full-price trend shows clearly superior proven result"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "trend_sensitivity"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+          "note": "65% look for deals and 53% open to dupes, yet effectiveness remains co-decider at 55%"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Prefers lower-cost alternative when efficacy unproven; stretches only for highly desired launch with clear results"
+        }
+      ]
+    }
+  ],
+  "expected_observable_actions": {
+    "discovery": [
+      "Enters via social feed, social search, or creator video featuring new launch or trending item",
+      "Searches within social and then verifies exact item name via general search",
+      "Follows tutorial/process videos that name specific products and show result first"
+    ],
+    "browsing": [
+      "Opens Trending Products / new arrivals / bestsellers lists for breadth before narrowing",
+      "Opens many product pages (around teens for makeup) to compare alternatives",
+      "Scrolls ratings, recent reviews, photos/videos, Q&A, and shade/ingredient details",
+      "Uses try-on and shade-matching tools to preview visible result"
+    ],
+    "comparison": [
+      "Compares viral vs non-viral options side-by-side on price, effectiveness, and review volume",
+      "Weights video demonstration plus corroborating reviews over single endorsement",
+      "Checks dupes and promotions when efficacy is unproven or price feels high",
+      "Defers when shade, ingredients, or usage cannot be verified"
+    ],
+    "purchase": [
+      "Closes through separate search or marketplace/retailer touchpoint after validation, not immediate social checkout",
+      "Uses fast fulfillment (store pickup, same-day/fast delivery) for validated low-consideration viral picks",
+      "Redeems points, samples, or promotions to rationalize trial of unproven trends"
+    ],
+    "rejection_or_substitution": [
+      "Rejects on price perceived as too high without promotion or value justification",
+      "Rejects on poor effectiveness sentiment, low or stale review volume, or unproven claims",
+      "Substitutes with lower-cost alternative or proven item when viral proof fails to corroborate"
+    ]
+  },
+  "behavioral_scenarios": [
+    {
+      "scenario_id": "viral_mixed_reviews_sephora",
+      "title": "Viral new launch with mixed reviews vs proven core item",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Viral glossy lip tint seen in multiple tutorials",
+          "price_usd": 24,
+          "popularity": "Very high social views and Trending page placement",
+          "brand_reputation": "New indie brand with buzz but limited heritage",
+          "social_influence": "Multiple creator demos naming exact shade",
+          "customer_reviews": "4.1 stars, 2,340 reviews, many recent but mixed on wear time and shade match",
+          "performance_claims": "High-shine, 8-hour wear with visible plumping in videos",
+          "novelty": "Launched 3 weeks ago, flagged New and Trending"
+        },
+        {
+          "label": "Product B",
+          "description": "Non-viral glossy tint in similar shade range",
+          "price_usd": 22,
+          "popularity": "Moderate sales, low social mentions",
+          "brand_reputation": "Established brand with steady reputation",
+          "social_influence": "Few creator mentions",
+          "customer_reviews": "4.6 stars, 15,200 reviews, consistent positive on wear and shade clarity",
+          "performance_claims": "Moderate shine, 6-hour wear, sheer color",
+          "novelty": "Core assortment for 2 years, not flagged as new"
+        }
+      ],
+      "expected_journey": [
+        "Encounter viral lip tint in social feed and Sephora Trending Products list",
+        "Watch tutorial/demo clips for visible result and shade",
+        "Open both listings to check rating, recent review volume, photos/videos, and shade details",
+        "Use Virtual Artist and See it in Real Life posts for result proof",
+        "Compare price vs effectiveness signals and promotion availability",
+        "Purchase validated option via preferred fulfillment or defer if proof missing"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "trend_sensitivity",
+          "effect": "Makes Product A the initial candidate to explore; drives opening Trending page and tutorial views first"
+        },
+        {
+          "parameter": "novelty_seeking",
+          "effect": "Makes newness itself attractive; favors exploring Product A despite shorter history"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "Requires corroboration of wear and shade before buying; prevents immediate checkout on hype alone"
+        },
+        {
+          "parameter": "influencer_trust",
+          "effect": "Requires creator demo to be backed by review volume and photos/videos; single endorsement insufficient"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Chooses viral Product A after validation and closes via pickup or fast delivery",
+          "conditions": "If Product A shows recent photo/video proof of result, verifiable shade details, and sufficient positive volume on effectiveness"
+        },
+        {
+          "outcome": "Defers viral pick and chooses proven Product B or continues browsing alternatives",
+          "conditions": "If Product A shows poor wear sentiment, missing shade clarity, or inability to verify details while Product B shows clear proof"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "popular_price_premium_ulta",
+      "title": "Premium trending favorite vs affordable dupe alternative",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Trending baked blush duo with tutorial glow result",
+          "price_usd": 38,
+          "popularity": "High - bestseller flag plus creator features",
+          "brand_reputation": "Prestige-leaning trending brand with strong social buzz",
+          "social_influence": "Strong creator and peer demo volume",
+          "customer_reviews": "4.4 stars, 5,800 reviews, positive on pigment with some notes on fallout",
+          "performance_claims": "Intense pigment and luminous finish shown in demos",
+          "novelty": "New shade drop this season, high social visibility"
+        },
+        {
+          "label": "Product B",
+          "description": "Dupe-positioned blush in similar tone",
+          "price_usd": 12.99,
+          "popularity": "High sales, low trend framing",
+          "brand_reputation": "Mass brand widely available and well reviewed",
+          "social_influence": "Some dupe-talk mentions",
+          "customer_reviews": "4.5 stars, 21,000 reviews, consistent on blendability and value",
+          "performance_claims": "Buildable color, natural finish",
+          "novelty": "Existing shade, low novelty"
+        }
+      ],
+      "expected_journey": [
+        "Spot trending blush duo in TikTok/YouTube inspiration",
+        "Verify exact name and shade via Ulta listing and barcode/review lookup",
+        "Compare premium trending option vs mass alternative on rating and demonstrated result",
+        "Trial via GLAMLab and shade matcher for finish preview",
+        "Weigh price against effectiveness and Rewards value",
+        "Purchase validated choice with pickup/same-day or keep comparing"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "trend_sensitivity",
+          "effect": "Prioritizes investigating premium trending Product A first because trend status is a primary cue"
+        },
+        {
+          "parameter": "price_sensitivity",
+          "effect": "Compares prices and notices deal/points value but will pay more if effectiveness is clearly demonstrated"
+        },
+        {
+          "parameter": "product_quality_priority",
+          "effect": "Keeps mass dupe in consideration as rationalization if premium efficacy is unproven"
+        },
+        {
+          "parameter": "prestige_priority",
+          "effect": "Low prestige need means mass brand is fully acceptable; premium framing alone does not decide"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Purchases premium trending Product A despite higher price",
+          "conditions": "If demos plus reviews confirm noticeable result and shade match for Product A and promotion or points help justify price"
+        },
+        {
+          "outcome": "Switches to lower-cost Product B as better value for similar result",
+          "conditions": "If effectiveness signals are similar or Product A reviews flag fallout while Product B shows equal proof at lower price"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "similar_different_prices_sephora",
+      "title": "Two similar viral serums at different prices",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Viral brightening serum with tutorial before/after",
+          "price_usd": 32,
+          "popularity": "High social mentions",
+          "brand_reputation": "Known skincare brand with moderate buzz",
+          "social_influence": "Moderate creator demos",
+          "customer_reviews": "4.3 stars, 3,100 reviews, recent positives on glow, some stickiness complaints",
+          "performance_claims": "Visible brightness in 2 weeks per demos",
+          "novelty": "New formulation launched 2 months ago"
+        },
+        {
+          "label": "Product B",
+          "description": "Similar brightening serum with same key ingredient story",
+          "price_usd": 48,
+          "popularity": "High social mentions",
+          "brand_reputation": "Comparable known brand with similar positioning",
+          "social_influence": "Moderate creator demos",
+          "customer_reviews": "4.3 stars, 2,900 reviews, similar glow proof, lighter texture praised",
+          "performance_claims": "Visible brightness in 2-3 weeks",
+          "novelty": "New formulation launched 1 month ago"
+        }
+      ],
+      "expected_journey": [
+        "Discover two similar viral serums via social search",
+        "Open both Sephora listings to compare ingredients, usage, and review recency",
+        "Check Gallery real-life photos and Q&A for result on similar concerns",
+        "Compare price per use and Rewards Bazaar sampling vs full-size commitment",
+        "Select option with stronger proof or defer if neither verifies"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "novelty_seeking",
+          "effect": "Treats both as worthy because both are new and visible; does not default to one brand"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "Drives side-by-side check of effectiveness signals before price decides"
+        },
+        {
+          "parameter": "price_sensitivity",
+          "effect": "Price becomes tie-breaker when proof is similar; favors lower cost or promotion"
+        },
+        {
+          "parameter": "brand_loyalty",
+          "effect": "Low brand loyalty means familiarity does not override review and demo proof"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Chooses lower-priced Product A after verifying details",
+          "conditions": "If both show similar effectiveness and shade/ingredient clarity, lower price and better value signals win"
+        },
+        {
+          "outcome": "Chooses higher-priced Product B as clearly better wanted result",
+          "conditions": "If higher-priced Product B shows clearly stronger recent proof, texture preference, or usable promotion while A shows stickiness or weak proof"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "familiar_vs_trending_brand_ulta",
+      "title": "Unfamiliar viral brand vs familiar steady brand",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Viral matte foundation with full-coverage demo",
+          "price_usd": 29.5,
+          "popularity": "Very high short-term views",
+          "brand_reputation": "Unfamiliar brand with sudden viral spike",
+          "social_influence": "High single-platform virality, one major creator plus duets",
+          "customer_reviews": "4.2 stars, 1,150 reviews, mostly recent, positive on coverage but limited shade feedback",
+          "performance_claims": "Full coverage, 12-hour wear in demos",
+          "novelty": "New launch, first heard on TikTok"
+        },
+        {
+          "label": "Product B",
+          "description": "Steady matte foundation in matching shade",
+          "price_usd": 27.99,
+          "popularity": "Steady high sales, low viral spike",
+          "brand_reputation": "Familiar brand previously purchased",
+          "social_influence": "Low recent creator buzz",
+          "customer_reviews": "4.5 stars, 18,400 reviews, strong on shade range and wear",
+          "performance_claims": "Medium-full coverage, 10-hour wear",
+          "novelty": "Core range, low novelty"
+        }
+      ],
+      "expected_journey": [
+        "See unfamiliar brand's viral foundation in creator video",
+        "Search exact name and compare against familiar brand's steady seller on Ulta",
+        "Filter and compare by rating, bestsellers, new arrivals, and review content",
+        "Use GLAMLab, Shade Matcher and Skin Analysis to reduce mismatch risk",
+        "Purchase trending pick if shade and proof verify, otherwise stay with familiar"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "trend_sensitivity",
+          "effect": "Pulls attention to unfamiliar viral Product A first despite no history"
+        },
+        {
+          "parameter": "brand_loyalty",
+          "effect": "Low switching barrier; familiarity carries little weight against compelling trend proof"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "Requires shade verification and broader review corroboration because viral spike is narrow"
+        },
+        {
+          "parameter": "influencer_trust",
+          "effect": "Treats single-creator spike as inspiration only until checked against reviews and shade tools"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Tries unfamiliar viral Product A over familiar brand",
+          "conditions": "If shade match verifies via tools plus recent reviews confirm coverage and wear for similar skin needs"
+        },
+        {
+          "outcome": "Stays with familiar Product B and defers viral trial",
+          "conditions": "If shade cannot be verified or reviews lack depth for match while familiar Product B remains clear and proven"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "influencer_vs_weak_reviews_sephora",
+      "title": "Single-creator endorsement vs weak review base",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Influencer-pushed setting spray with glossy finish demo",
+          "price_usd": 26,
+          "popularity": "High in creator audience, low elsewhere",
+          "brand_reputation": "Mid-tier brand amplified by one large creator",
+          "social_influence": "One strong endorsement, limited duets or peer reposts",
+          "customer_reviews": "3.6 stars, 620 reviews, complaints about mist and longevity",
+          "performance_claims": "24-hour hold and glow shown in single demo",
+          "novelty": "Limited-edition drop tied to creator"
+        },
+        {
+          "label": "Product B",
+          "description": "Comparable setting spray with extensive proof",
+          "price_usd": 28,
+          "popularity": "High sustained sales",
+          "brand_reputation": "Well-known brand with broad review base",
+          "social_influence": "Moderate organic mentions",
+          "customer_reviews": "4.6 stars, 9,800 reviews, consistent hold and fine mist praised",
+          "performance_claims": "16-hour hold, fine mist",
+          "novelty": "Core item, not new"
+        }
+      ],
+      "expected_journey": [
+        "Encounter influencer-endorsed setting spray with strong demo",
+        "Notice weak overall rating and thin recent review volume",
+        "Seek qualified voices, peer comments, and additional video tutorials",
+        "Compare against alternative with stronger ratings and demo proof",
+        "Reject or defer if corroboration fails"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "influencer_trust",
+          "effect": "Uses creator content as one input but checks it against reviews and other sources"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "Prioritizes substantial recent review volume and deprioritizes poor effectiveness sentiment even when item is trendy"
+        },
+        {
+          "parameter": "trend_sensitivity",
+          "effect": "Trend interest initiates exploration but does not override unproven efficacy"
+        },
+        {
+          "parameter": "product_quality_priority",
+          "effect": "Balances desire for glow result against need for actual hold performance"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Reconsiders Product A but still compares closely before any purchase",
+          "conditions": "If additional qualified demos and recent reviews corroborate result and explain low rating as shade or batch issue"
+        },
+        {
+          "outcome": "Rejects influencer pick and selects higher-rated Product B or continues browsing",
+          "conditions": "If poor sentiment persists and no corroborating proof emerges while alternative shows stronger proof"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "new_limited_reviews_ulta",
+      "title": "Just-launched item with thin reviews vs proven alternative",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "New jelly blush with bouncy texture demo",
+          "price_usd": 19,
+          "popularity": "Rising views, low sales history",
+          "brand_reputation": "Emerging brand with first major launch",
+          "social_influence": "Early creator seeding, high novelty framing",
+          "customer_reviews": "4.8 stars but only 87 reviews, very recent, limited photos",
+          "performance_claims": "Sheer buildable flush shown in launch videos",
+          "novelty": "Launched 5 days ago, flagged new and limited"
+        },
+        {
+          "label": "Product B",
+          "description": "Cream blush in similar shade with full detail clarity",
+          "price_usd": 24,
+          "popularity": "Steady popularity",
+          "brand_reputation": "Established brand with broad shade system",
+          "social_influence": "Low recent buzz",
+          "customer_reviews": "4.4 stars, 7,400 reviews, solid blend and wear feedback",
+          "performance_claims": "Natural finish, 8-hour wear",
+          "novelty": "Not new, core assortment"
+        }
+      ],
+      "expected_journey": [
+        "Spot just-launched jelly blush with limited reviews via social and new-arrivals browse",
+        "Check available ratings, Q&A, and any early photos/videos",
+        "Search for additional tutorials and general search verification",
+        "Assess price risk and promotion for unproven efficacy",
+        "Trial low-risk mini or defer full-size until more proof accumulates"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "novelty_seeking",
+          "effect": "Strong pull to consider Product A because newness itself is a reason to explore"
+        },
+        {
+          "parameter": "impulse_buying_tendency",
+          "effect": "Allows faster progression for low-cost trending item if early social proof is strong, otherwise requires deeper research"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "Flags thin review volume as risk; seeks recent reviews and verifiable shade/ingredient details"
+        },
+        {
+          "parameter": "price_sensitivity",
+          "effect": "Price awareness favors low-risk trial or promotion when efficacy is unproven"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Impulse-tries new Product A as low-consideration trial, often with fast fulfillment",
+          "conditions": "If early demos clearly show result and shade/usage details verify and price risk is low with promotion or points"
+        },
+        {
+          "outcome": "Defers new launch and selects proven Product B or waits for more review volume",
+          "conditions": "If details cannot be verified or no corroborating tutorials/reviews emerge"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    }
+  ],
+  "retailer_behavior": {
+    "sephora": {
+      "display_name": "Sephora",
+      "discovery": [
+        "Arrives from social feed or creator video, then verifies via general search and Sephora Trending Products exploration",
+        "Uses TikTok Shop livestreams and drops for inspiration but closes elsewhere to accrue loyalty"
+      ],
+      "browsing": [
+        "Browses Trending Products page for what's taking social media by storm with Only at Sephora, New, Limited Edition flags",
+        "Opens many listings to read Ratings & Reviews, Q&A, and Gallery See it in Real Life posts",
+        "Uses Virtual Artist for eyes, lips, cheeks preview plus tutorials and side-by-side swatch comparison"
+      ],
+      "comparison": [
+        "Compares price vs effectiveness using Verified Purchase reviews and photo/video proof showing product in action",
+        "Weighs Beauty Insider Cash and Rewards Bazaar sampling for unproven trends vs full-size commitment",
+        "Defers when Highlights, ingredients, or usage cannot be verified in listing details"
+      ],
+      "purchase": [
+        "Closes after validation via Buy Online Pick Up In Store, Curbside, Fast Delivery or Insiders free standard shipping",
+        "Redeems 500 points for $10 Cash or Bazaar samples to lower trial risk",
+        "Avoids TikTok Shop checkout for points accrual since those orders do not count toward VIB/Rouge"
+      ],
+      "relevant_site_features": [
+        {
+          "feature": "Trending Products page with social-by-storm framing and New/Only at Sephora/Limited Edition flags",
+          "relevance": "Provides trend-led exploration list matching newness and visibility triggers",
+          "verified": true,
+          "source_url": "https://www.sephora.com/buy/trending-products"
+        },
+        {
+          "feature": "Ratings & Reviews with five-star scale, photo/video reviews, Q&A, Verified Purchase badge",
+          "relevance": "Supplies review volume, recency, and visible proof for effectiveness validation",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Beauty Insider Community Gallery with See it in Real Life product-tagged posts",
+          "relevance": "Offers peer demonstration and real-life result proof beyond creator video",
+          "verified": true,
+          "source_url": "https://www.sephora.com/beauty/community-faq?icid2=customer_service_beauty_insider_community_faqs_action_link"
+        },
+        {
+          "feature": "Virtual Artist facial-recognition try-on for eyes, lips, cheeks plus looks and swatch comparison",
+          "relevance": "Lets shopper preview visible result and shade before committing to trending color",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Beauty Insider rewards (1 pt per $1, VIB $350, Rouge $1000, 500 pts for $10 Cash, Bazaar 50-100k pts)",
+          "relevance": "Provides promotion/value lever to rationalize unproven trend trial",
+          "verified": true,
+          "source_url": "https://www.sephora.com/beauty/loyalty-program"
+        },
+        {
+          "feature": "Buy Online Pick Up In Store, Curbside, Fast Delivery, Same-Day Unlimited",
+          "relevance": "Enables fast fulfillment touchpoint after validation",
+          "verified": true,
+          "source_url": "https://www.sephora.com/beauty/pick-up-delivery-options?icid2=ease_and_convenience_landing_page_link_internal"
+        }
+      ],
+      "differences_from_other_retailers": "Centralizes peer proof in Community Gallery and See it in Real Life with Verified Purchase badge and photo-video guidance; Trending framing maps directly to social-visibility triggers, while TikTok Shop discovery does not earn Insider points or status.",
+      "evidence": [
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.sephora.com/buy/trending-products",
+          "note": "Sephora maintains Trending Products described as latest products taking social media by storm with Only at Sephora, New and Limited Edition flags"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Product pages have Ratings & Reviews with five-star scale, photo/video option, Q&A and Verified Purchase badge (non-US source removed)"
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.sephora.com/beauty/community-faq?icid2=customer_service_beauty_insider_community_faqs_action_link",
+          "note": "Community Gallery posts tagged to products appear on product pages under See it in Real Life"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "72% search Google after TikTok discovery and only 7% buy immediately, indicating verification relay"
+        }
+      ]
+    },
+    "ulta": {
+      "display_name": "Ulta Beauty",
+      "discovery": [
+        "Arrives from TikTok/YouTube inspiration, verifies exact item name and shade through Ulta listings and app search",
+        "Uses TikTok Shop perfume-style launches for awareness but validates and closes on Ulta touchpoints"
+      ],
+      "browsing": [
+        "Scans new arrivals and Trending-now assortments then narrows via brand, price, rating, bestsellers, new arrivals filters",
+        "Reads listings plus barcode-scan reviews/ratings for in-store to online verification",
+        "Uses GLAMLab try-on, Foundation Shade Matcher and Skin Analysis for shade and result preview"
+      ],
+      "comparison": [
+        "Compares mass and prestige alternatives on rating, review content, and demonstrated result",
+        "Values points redeemable from 100 pts for $3 up to greater value at higher tiers when weighing price vs proof",
+        "Checks Conscious Beauty pillars (Clean, Vegan, Cruelty Free, Sustainable Packaging, Give Back) where relevant"
+      ],
+      "purchase": [
+        "Closes via free 2-hour in-store/curbside pickup or Same Day Delivery via DoorDash where eligible",
+        "Redeems Rewards points for dollars off starting at low thresholds to offset viral premium",
+        "Allows faster progression for low-consideration viral items with strong proof; deeper research for high-consideration items"
+      ],
+      "relevant_site_features": [
+        {
+          "feature": "Category browse with filters by brand, price, rating, bestsellers, new arrivals and Conscious Beauty pillars",
+          "relevance": "Supports broad comparison across many alternatives and value pillars",
+          "verified": true,
+          "source_url": "https://play.google.com/store/apps/details/Ulta_Beauty_Shop_Makeup_Skin_Hair_Perfume?id=com.ulta&hl=en-US"
+        },
+        {
+          "feature": "GLAMLab virtual try-on with foundation matching, AI skin analysis and hair colour testing",
+          "relevance": "Reduces shade mismatch risk on trending base and color products",
+          "verified": true,
+          "source_url": "https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai"
+        },
+        {
+          "feature": "App barcode scanning to view product info, reviews and ratings plus Shade Matcher and Skin Analysis",
+          "relevance": "Enables in-store to online verification of exact viral item",
+          "verified": true,
+          "source_url": "https://play.google.com/store/apps/details/Ulta_Beauty_Shop_Makeup_Skin_Hair_Perfume?id=com.ulta&hl=en-US"
+        },
+        {
+          "feature": "Ulta Beauty Rewards (1 pt/$1 Member, 1.25x Platinum $500, 1.5x Diamond $1200, redeem 100 pts $3 to 2000 pts $125)",
+          "relevance": "Provides tangible dollars-off to justify trend trial when reviews are mixed",
+          "verified": true,
+          "source_url": "https://www.ulta.com/rewards/all?ref=blog.giift.com&srsltid=AfmBOoqqAs6ACQhNuIyJvw2TBk2IOaYkNOje9KOVsC4AZcLs_H7GHzVv"
+        },
+        {
+          "feature": "Free store/curbside Pickup typically ready in 2 hours",
+          "relevance": "Matches preferred fast fulfillment after validation",
+          "verified": true,
+          "source_url": "https://www.ulta.com/guestservices/ways-to-shop/pickup?srsltid=AfmBOooOBCd1bVc1edjbT8jtxpvbgNOzFlrEorC0YgCIGJR03Ugd-A5h"
+        },
+        {
+          "feature": "Same Day Delivery from local store via DoorDash with address eligibility check",
+          "relevance": "Offers immediate gratification option for validated low-risk viral picks",
+          "verified": true,
+          "source_url": "https://www.ulta.com/guestservices/ways-to-shop/same-day-delivery?srsltid=AfmBOorXnU33horAg-TmuP-QpWY_lXx-YHvThENjIElC6qOeRCs546Kg"
+        }
+      ],
+      "differences_from_other_retailers": "Centralizes shade and skin matching in GLAMLab plus Skin Analysis and barcode-plus-reviews flow; filter-driven breadth across mass and prestige plus explicit 2-hour pickup and DoorDash same-day delivery support fast close after research.",
+      "evidence": [
+        {
+          "type": "retailer_specific",
+          "source_url": "https://play.google.com/store/apps/details/Ulta_Beauty_Shop_Makeup_Skin_Hair_Perfume?id=com.ulta&hl=en-US",
+          "note": "Ulta app lets shoppers filter by brand, price, rating, bestsellers and new arrivals and surfaces Conscious Beauty pillars"
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai",
+          "note": "GLAMLab provides virtual try-on for lips, eyes, foundation with face detection plus foundation matching and skin analysis"
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.ulta.com/guestservices/ways-to-shop/pickup?srsltid=AfmBOooOBCd1bVc1edjbT8jtxpvbgNOzFlrEorC0YgCIGJR03Ugd-A5h",
+          "note": "Pickup is free with no minimum typically ready in 2 hours; Same Day Delivery via DoorDash for $6.95 where eligible"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "After TikTok discovery 48% buy on Amazon, 10% at Sephora, 9% TikTok Shop, showing separate fulfillment touchpoint"
+        }
+      ]
+    }
+  },
+  "research_evidence": {
+    "baseline_assessment": [
+      {
+        "hypothesis": "H1. Motivation: Staying current with beauty trends and discovering new products.",
+        "verdict": "supported",
+        "note": "Social discovery leading to purchase is common and novelty remains powerful alongside deal-seeking."
+      },
+      {
+        "hypothesis": "H2. High trend sensitivity, influencer trust, novelty seeking, and social-media engagement.",
+        "verdict": "refined",
+        "note": "Engagement and novelty-seeking hold but influencer trust is selective and tiered with experts and personal contacts trusted more."
+      },
+      {
+        "hypothesis": "H3. Discovers products through TikTok, Instagram, YouTube, and beauty creators.",
+        "verdict": "supported",
+        "note": "Instagram is most-used across ages with TikTok and YouTube contributing first searches and recent purchases."
+      },
+      {
+        "hypothesis": "H4. Values viral popularity, social proof, and new launches.",
+        "verdict": "supported",
+        "note": "Virality functions as a discovery cue while ratings, personal contacts, and testing drive the final choice."
+      },
+      {
+        "hypothesis": "H5. May tolerate higher prices or mixed reviews for highly desirable trending products.",
+        "verdict": "insufficient_evidence",
+        "note": "No segment-specific test was found and adjacent evidence shows price and effectiveness dominate new-product decisions."
+      },
+      {
+        "hypothesis": "H6. Shopping journey: Social discovery → Influencer validation → Product research → Purchase",
+        "verdict": "refined",
+        "note": "Sequence holds but requires search verification and multi-option marketplace close rather than immediate in-app purchase."
+      }
+    ],
+    "supporting_sources": [
+      {
+        "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+        "title": "Discovered on Social, Decided Everywhere",
+        "published_date": null,
+        "used_for": "Social entry points, platform mix, Google-after-TikTok verification, and tutorial-led evaluation"
+      },
+      {
+        "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+        "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+        "published_date": null,
+        "used_for": "Browsing breadth, review importance, loyalty-switching coexistence, and AI-assisted shopping"
+      },
+      {
+        "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+        "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+        "published_date": null,
+        "used_for": "Social influence across journey, creator purchase rates, loyalty-exploration tension, and impulse alongside deal-seeking"
+      },
+      {
+        "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+        "title": "57% of beauty consumers don’t start with Google Search",
+        "published_date": null,
+        "used_for": "Split between general search first and social and AI entry points"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+        "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+        "published_date": null,
+        "used_for": "Demand for proof of effectiveness and value framing"
+      }
+    ],
+    "evidence_summary": "Large surveys converge on social-led discovery with Instagram most-used, TikTok and YouTube contributing first searches, and 38% recalling a later purchase from social discovery. The modal path is social discovery to general-search verification to marketplace close, with ratings, personal contacts, and experts outweighing single-creator claims for final choice. Price and effectiveness remain central to new-product decisions, loyalty coexists with frequent switching, and no segment-specific evidence confirms tolerance of higher prices or mixed reviews because an item is viral.",
+    "research_date": "2026-11-03",
+    "research_report_path": "research-reports/trend-driven/2026-11-03T04-34-18-985Z.md",
+    "research_response_id": "resp_6ae9644b6172ccda5e3c4bae",
+    "assumptions": [
+      "Entry is usually a social feed, in-social search, or creator video rather than a planned store visit, then branches to external validation.",
+      "Viral visibility acts as an initial relevance cue even when final validation comes from reviews, search, or personal contacts.",
+      "Evaluation focuses on video demonstration for look and application, followed by search for exact name, shade details, and review volume.",
+      "Price tolerance may stretch for a highly desired launch but deals and lower-cost alternatives are still used to rationalize the choice.",
+      "This archetype is over-represented among brand switchers and new-brand triers driven by launches and creator drops.",
+      "Creator demonstration inspires interest but single-creator claims are discounted until corroborated by reviews, expert voices, or personal contacts.",
+      "Poor review sentiment or missing shade and ingredient detail causes drop-off after social exposure.",
+      "Low-cost high-hype items skew toward impulse while higher-cost or efficacy-dependent items skew toward deliberate research; no systematic tolerance of higher prices or mixed reviews for viral items is assumed."
+    ],
+    "limitations": [
+      "No direct evidence isolates trend-driven shoppers as a defined segment with distinct rates for discovery, price tolerance, or review use.",
+      "No experiment shows willingness to accept higher prices or mixed reviews because a product is viral.",
+      "Many sources are vendor or media-affiliated with thin method disclosure and possible framing bias.",
+      "Some samples skew toward social-engaged users, overstating social and impulse behavior.",
+      "Secondary summaries sometimes report toplines without questionnaires or weights.",
+      "Scores are simulation settings from 0 to 1 and are not validated population measurements.",
+      "Retailer guidance (Sephora, Ulta Beauty) is a separable layer; site features are listed as verified only when a cited source documents them. Behavioral scenarios are hypothetical reference cases.",
+      "US-only cleanup: 2 non-US Sephora source(s) removed (www.sephora.com/ca/en, admin.sephora.sg/pages/virtual-artist-sg); 2 site feature(s) now unverified; 1 evidence item(s) downgraded to inferred."
+    ],
+    "retailer_research": {
+      "report_path": "research-reports/trend-driven/2026-11-03T15-50-32-147Z-retailers.md",
+      "response_id": "resp_6aea02c9d6e9717f93f445c8",
+      "research_date": "2026-11-03",
+      "web_search_calls": 31,
+      "sources": [
+        {
+          "url": "https://www.sephora.com/beauty/loyalty-program",
+          "title": "About Beauty Insider Loyalty Program | Sephora"
+        },
+        {
+          "url": "https://www.sephora.com/buy/trending-products",
+          "title": "Trending Products | Sephora"
+        },
+        {
+          "url": "https://www.sephora.com/beauty/community-faq?icid2=customer_service_beauty_insider_community_faqs_action_link",
+          "title": "Beauty Insider Community FAQs"
+        },
+        {
+          "url": "https://www.sephora.com/beauty/pick-up-delivery-options?icid2=ease_and_convenience_landing_page_link_internal",
+          "title": "In-Store Pick Up & Delivery Options | Sephora"
+        },
+        {
+          "url": "https://www.ulta.com/rewards/all?ref=blog.giift.com&srsltid=AfmBOoqqAs6ACQhNuIyJvw2TBk2IOaYkNOje9KOVsC4AZcLs_H7GHzVv",
+          "title": "Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty"
+        },
+        {
+          "url": "https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai",
+          "title": "How Ulta Beauty is giving omnichannel retail a fresh face | Google Cloud Blog"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details/Ulta_Beauty_Shop_Makeup_Skin_Hair_Perfume?id=com.ulta&hl=en-US",
+          "title": "Ulta Beauty: Makeup & Skincare - Apps on Google Play"
+        },
+        {
+          "url": "https://www.ulta.com/guestservices/ways-to-shop/pickup?srsltid=AfmBOooOBCd1bVc1edjbT8jtxpvbgNOzFlrEorC0YgCIGJR03Ugd-A5h",
+          "title": "Ulta Beauty Store Pickup & Curbside | How Pickup Works"
+        },
+        {
+          "url": "https://www.ulta.com/guestservices/ways-to-shop/same-day-delivery?srsltid=AfmBOorXnU33horAg-TmuP-QpWY_lXx-YHvThENjIElC6qOeRCs546Kg",
+          "title": "Same Day Delivery"
+        },
+        {
+          "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "title": "Discovered on Social, Decided Everywhere"
+        },
+        {
+          "url": "https://digiday.com/marketing/why-sephora-released-a-beauty-set-exclusively-on-tiktok-shop/",
+          "title": "Why Sephora released a beauty set exclusively on TikTok Shop"
+        },
+        {
+          "url": "https://yougov.com/en-us/articles/54186-tiktok-made-me-buy-it-whos-discovering-new-products-on-social-media-in-2026",
+          "title": "TikTok made me buy it: Who’s discovering new products on social media in 2026?"
+        }
+      ],
+      "enriched_at": "2026-11-03T15:50:32.147Z"
+    },
+    "baseline_snapshot": {
+      "motivation": "Staying current with beauty trends and discovering new products.",
+      "characteristics": [
+        "High trend sensitivity, influencer trust, novelty seeking, and social-media engagement.",
+        "Discovers products through TikTok, Instagram, YouTube, and beauty creators.",
+        "Values viral popularity, social proof, and new launches.",
+        "May tolerate higher prices or mixed reviews for highly desirable trending products."
+      ],
+      "shopping_journey": [
+        "Social discovery",
+        "Influencer validation",
+        "Product research",
+        "Purchase"
+      ]
+    }
+  },
+  "metadata": {
+    "status": "locked",
+    "version": 1,
+    "model": "muse-spark-1.3",
+    "generated_at": "2026-11-03T04:36:08.919Z",
+    "edited_at": "2026-11-03T15:50:32.147Z",
+    "approved_at": "2026-11-04T02:20:10.678Z",
+    "content_hash": "sha256:870da416bf3286ab920d1ce590b9fc3e443e8164929a9773dc652fca5a0a568f"
+  }
+}

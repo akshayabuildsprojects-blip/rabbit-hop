@@ -1,0 +1,1433 @@
+{
+  "persona_id": "time-constrained",
+  "research_date": "2026-11-03",
+  "performed_at": "2026-11-03T17:23:10.070Z",
+  "model": "muse-spark-1.3",
+  "response_id": "resp_6aea187f54ed391451214820",
+  "web_search_calls": 30,
+  "report_text": "Mapping verified Sephora and Ulta tools to your time-pressed routine — gathering retailer evidence now.\n\nInitial loyalty and fulfillment signals found — now digging into replenishment and review tools.\n\nRetailer mechanics covered — now checking time-scarcity and convenience research for the persona.\n\nI've got the core patterns — now pulling the exact source pages to verify every detail.\n\n## 1. Sephora: site features and shopping tools\n\n- **[Retailer-specific]** Beauty Insider is the free US rewards program with Insider / VIB / Rouge tiers, free standard shipping for members with no order minimum, points on purchases and seasonal savings events. ([Beauty Insider | Sephora](https://www.sephora.com/beauty/beauty-insider)), ([About Beauty Insider Loyalty Program | Sephora](https://www.sephora.com/beauty/beauty-insider)), ([Sephora Beauty Insider Guide: Tiers, Points and Value | Price Scout](https://price-scout.app/blog/sephora-beauty-insider-guide))\n- **[Retailer-specific]** Fulfillment built for speed: Buy Online, Pick Up In Store available at all Sephora locations, Buy Online Pick Up Curbside at most locations, Fast Delivery store-to-door today / tomorrow or scheduled 2-hour window, Same-Day Unlimited subscription, plus free shipping for Beauty Insiders. ([In-Store Pick Up & Delivery Options | Sephora](https://www.sephora.com/beauty/pick-up-delivery-options)), ([Buy Online & Pick Up In Store FAQs | Sephora](https://www.sephora.com/beauty/buy-online-pick-up-in-store-faqs)), ([Same-Day Delivery FAQ | Sephora](https://www.sephora.com/beauty/same-day-delivery-faq))\n- **[Retailer-specific]** Auto-Replenishment subscription for go-to products: save 5% on every subscription delivery with free shipping, Beauty Insider members only, choose frequency, pause or cancel anytime with pre-shipment reminder email. ([Beauty Subscriptions: Auto-Replenishment Program | Sephora](https://www.sephora.com/beauty/subscriptions)), ([Save Up to 30% With Sephora Auto-Replenish | Slickdeals](https://daily.slickdeals.net/sephora-promo-codes/)), ([Beauty Insider Program & Rewards Bazaar | Sephora Community](https://community.sephora.com/t5/Beauty-Insider-Program-Rewards/Beauty-Insider-Program-Rewards-Bazaar/idi-p/6230627))\n- **[Retailer-specific]** Virtual Artist AR try-on for lips, eyeshadow, blush and lashes via app / site, using live camera, model or uploaded photo to check shade without in-store swatching. ([Sephora Launches Virtual Artist For The Sephora to Go App | PR Newswire](https://www.prnewswire.com/news-releases/sephora-launches-virtual-artist-for-the-sephora-to-go-app-300248621.html)), ([Sephora's Virtual Artist brings augmented reality to large beauty audience | Retail Dive](https://www.retaildive.com/ex/mobile-commerce-daily/sephoras-virtual-artist-brings-augmented-reality-to-large-beauty-audience))\n- **[Retailer-specific]** Ratings & Reviews with Verified Purchase badge, star-rating filter, verified-purchaser-only view, and topic / keyword search to isolate wear, fading, ease and shade-match comments. ([Customer Service - Ratings & Reviews | Sephora](https://www.sephora.com/beauty/ratings-and-reviews)), ([Re: Too Many Free sample Reviews | Sephora Community](https://community.sephora.com/t5/Customer-Support/Re-Too-Many-Free-sample-Reviews/m-p/6991071))\n- **[Retailer-specific]** Discovery shortcuts that reduce browsing: Bestsellers hub, Trending Products page for social-taking-by-storm products, and New Makeup / Bestselling Makeup categorizations. ([Top Beauty Gifts - Bestsellers | Sephora](https://www.sephora.com/beauty/bestsellers)), ([Trending Products | Sephora](https://www.sephora.com/beauty/trending-products)), ([5 of the Best Makeup Brands in 2026 | Sephora](https://www.sephora.com/beauty/best-makeup-brands))\n\n## 2. Ulta Beauty: site features and shopping tools\n\n- **[Retailer-specific]** Ulta Beauty Rewards is free to join and spans Member (free, 1 pt / $1), Platinum ($500 / year, 1.25 pts / $1) and Diamond ($1,200 / year, 1.5 pts / $1), with points redeemable for discounts starting at 100 pts = $3.00 and birthday and bonus-points offers. ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all)), ([Ulta Beauty Rewards: Digital Transformation and Loyalty | MyHubble](https://myhubble.money/blog/ulta-beauty-rewards-digital-transformation-and-loyalty/))\n- **[Retailer-specific]** Replenish & Save auto-replenishment: 5% off every subscription order plus free shipping, automatic shipments at chosen frequency, Replenish Manager to pause / skip / cancel, reminder email before shipment, requires free Rewards account. ([Ulta Beauty Replenish & Save | Auto-Replenishment & Savings](https://www.ulta.com/guestservices/ways-to-shop/replenish-and-save)), ([Guide to Ulta Beauty's Replenish & Save program | Ulta Beauty](https://www.ulta.com/guestservices/ways-to-shop/replenish-and-save)), ([Replenish & Save Terms & Conditions | Ulta Beauty](https://www.ulta.com/guestservices/terms/replenish-and-save))\n- **[Retailer-specific]** Flexible fulfillment: Buy Online Pick Up In Store or Curbside ready in 2 hours or less if ordered by 6pm local, Same Day Delivery via DoorDash in select locations, plus Ship to Home, with split-cart options for pickup + ship. ([Ulta Beauty Store Pickup & Curbside | How Pickup Works](https://www.ulta.com/guestservices/ways-to-shop/store-pickup)), ([Same Day Delivery | Ulta Beauty](https://www.ulta.com/guestservices/ways-to-shop/same-day-delivery)), ([Ulta Beauty Guest Services | Help with Orders, Shipping & Returns](https://www.ulta.com/guestservices/help))\n- **[Retailer-specific]** GLAMlab virtual try-on with Foundation Shade Matcher and Skin Analysis for foundation, lip, eye and hair-color preview without in-store testing. ([ULTA Beauty Collection - Wild Berry Automatic Retractable Lip Liner - GLAMLab | Ulta Beauty](https://www.ulta.com/p/wild-berry-automatic-retractable-lip-liner-pimprod2041996)), ([15% Off at Ulta Beauty When You Download the App | Technologist Magazine](https://technologistmag.com/ulta-promo-codes/))\n- **[Retailer-specific]** Product-page Reviews with Ratings Distribution summary, star breakdown and Verified Buyer flag to weight consistent performance and wear reports. ([ColourPop - Translucent No Filter Loose Setting Powder | Ulta Beauty](https://www.ulta.com/p/translucent-no-filter-loose-setting-powder-pimprod2007107)), ([Morphe - Velvet Lip Filter Hydroplump Soft Matte Lipstick | Ulta Beauty](https://www.ulta.com/p/velvet-lip-filter-hydroplump-soft-matte-lipstick-pimprod2039734))\n- **[Retailer-specific]** Shortlist aids: Best Sellers filters, Only at Ulta exclusives hub, New arrivals and 2026 Trending Beauty Gift Guide calling out most popular and TikTok-trending gifts. ([Cosmetics, Fragrance, Skincare, and Beauty Gifts - Best Sellers | Ulta Beauty](https://www.ulta.com/shop/makeup/best-sellers)), ([Trending Beauty Gifts for Holiday 2026 | Ulta Beauty](https://www.ulta.com/featured/trending-gifts)), ([Only at Ulta | Exclusive Products | Ulta Beauty](https://www.ulta.com/featured/only-at-ulta))\n\n## 3. Retailer-specific evidence on how shoppers discover, evaluate and buy\n\n- **[Retailer-specific]** Loyalty drives repeat behaviour at both retailers: Ulta reported 46.7 million active loyalty members with reactivated and retained members driving growth and ~95% of sales from members. ([Ulta Beauty, Inc (ULTA) Q4 2025 Earnings Call Transcript | AlphaStreet](https://news.alphastreet.com/ulta-beauty-inc-ulta-q4-2025-earnings-call-transcript/)), ([Ulta Beauty Rewards: Digital Transformation and Loyalty | MyHubble](https://myhubble.money/blog/ulta-beauty-rewards-digital-transformation-and-loyalty/))\n- **[Retailer-specific]** Sephora's Beauty Insider community, ratings & reviews, gallery and Q&A were folded directly into sephora.com shopping, with peer reviews, photos and product Q&A supporting decisions and personalization from purchase history and stated preferences. ([Sephora Loyalty Program: Beauty Insider Breakdown | Joy](https://joy.so/blog/sephora-loyalty-program/)), ([Sephora's Beauty Insider Community: The 80%-of-Sales Engine | Social+](https://social.plus/blog/sephora-beauty-insider-community))\n- **[Retailer-specific]** Both retailers blur online-offline for speed: analysts note buy online pick up in store, curbside and same-day delivery plus real-time local inventory and Shop My Store reduce friction when speed matters. ([Which Beauty Brands Have the Best Ecommerce Experience? | TCF Ecommerce](https://tcfecommerce.com/blog/beauty-brands-ecommerce-experience/)), ([Top 12 Ulta Competitors & Alternatives [2026] | Latterly](https://latterly.org/ulta-competitors-and-alternatives))\n- **[General beauty retail]** Reviews dominate evaluation: nearly half of shoppers rely on ratings and reviews when deciding, 41% of US beauty shoppers rely more on reviews than pre-pandemic, and volume plus recency plus user imagery aid efficacy judgments. ([New Health & Beauty research: 5 shopper trends | Criteo](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends/)), ([Stat: Inter-Covid beauty purchases rely on reviews | LSNGLOBAL](https://www.lsnglobal.com/article/view/stat-intercovid-beauty-purchases-rely-on-reviews-27417))\n- **[General beauty retail]** Proof over prestige for new products: US shoppers say price (72%) and effectiveness (55%) matter most for a new beauty purchase, only 2% name influencer recommendations as deciding factor though influencers remain key for discovery. ([Is Your Brand Really Worth It? Beauty Shoppers Want Proof | PR Newswire](https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302551234.html)), ([Who's Really Influencing the Way You Shop for Beauty? | Allure via EN.REDTRAM](https://en.redtram.com/who-s-really-influencing-the-way-you-shop-for-beauty/))\n- **[General beauty retail]** Overload triggers deferral: 76% feel overwhelmed by too many choices and 85% abandon carts due to indecision in recent Kantar research, consistent with choice-overload work showing stall / no-choice when assortments are complex and preferences uncertain. ([Why Too Much Choice Is Making People Buy Less | LBBOnline](https://www.lbbonline.com/news/why-too-much-choice-is-making-people-buy-less)), ([Choice overload in UX: how to help visitors decide | Medium](https://medium.com/design-psychology/choice-overload-in-ux-how-to-help-visitors-decide-without-hiding-the-options-3f2a1a0b1a1a))\n- **[General beauty retail]** Convenience commands a premium but within bounds: >60% of Gen Z will pay more for convenience because time equals dollars, and Morgan Stanley finds shoppers will spend ~5% more when they perceive convenience; Mintel finds >60% will pay more for things that simplify lives. ([The New Rules for Winning Millennial and Gen Z Consumers | Porch Group Media](https://www.porchgroupmedia.com/blog/new-rules-for-winning-millennial-gen-z-consumers/)), ([Customers are splurging in order to skip chores | Moneywise](https://moneywise.com/news/customers-are-splurging-in-order-to-skip-chores)), ([The Luxury Of Time: Why Consumers Pay For Convenience | BusinessConnectIndia](https://businessconnectindia.in/the-luxury-of-time-why-consumers-pay-for-convenience/))\n\n## 4. How this persona's traits show up at Sephora\n\n- **[Inference]** Screens by long-wear, easy-application and multifunctional cues first, then opens only 2-4 familiar or top-rated options from Bestsellers / Trending; research_depth 0.45 means skim ratings distribution and negative comments about fading or difficulty rather than deep-compare dozens.\n- **[Inference]** Uses Verified Purchase filter plus topic search for wear-time and application proof as stop-rule: if one option shows consistent longevity + ease with no red-flag reviews about touch-ups or tutorials needed, she stops and buys; if evidence stays thin or choice feels overwhelming, she defers and keeps the reliable fallback, reflecting brand_loyalty 0.70, novelty_seeking 0.25 and impulse 0.20.\n- **[Retailer-specific]** Verifies shade and finish quickly via Virtual Artist live / photo try-on and Bestsellers consensus instead of sampling widely in-store, saving a trip. ([Sephora Launches Virtual Artist For The Sephora to Go App | PR Newswire](https://www.prnewswire.com/news-releases/sephora-launches-virtual-artist-for-the-sephora-to-go-app-300248621.html)), ([Top Beauty Gifts - Bestsellers | Sephora](https://www.sephora.com/beauty/bestsellers))\n- **[Inference]** Scenario A ($45 long-wear foundation vs $20 needing touch-ups): investigates wear claims and reapplication burden; chooses $45 only if reviews / demonstrations verify all-day wear and ease, otherwise takes acceptable $20 — convenience_vs_price resolved by verified time saved, not price alone, consistent with price_sensitivity 0.55 + convenience_priority 0.90 + quality 0.85.\n- **[Inference]** Scenarios B/C/D: prefers one lip-and-cheek over two steps if practical benefit is corroborated; rejects viral complicated application vs reliable conventional option even if rated effective; stays with familiar trusted product over new launch unless clear credible proof of fewer steps / more consistent results with no added complexity — trend_sensitivity 0.35 and influencer_trust 0.35 require search + review corroboration.\n- **[Retailer-specific]** Converts replenishment need into Auto-Replenish + Buy Online Pick Up / Fast Delivery / Same-Day Unlimited when availability is certain, earning Beauty Insider points while avoiding stock uncertainty. ([Beauty Subscriptions: Auto-Replenishment Program | Sephora](https://www.sephora.com/beauty/subscriptions)), ([In-Store Pick Up & Delivery Options | Sephora](https://www.sephora.com/beauty/pick-up-delivery-options))\n\n## 5. How this persona's traits show up at Ulta Beauty\n\n- **[Inference]** Leverages breadth efficiently: filters to Best Sellers and drugstore-to-prestige overlap to find good-enough, low-friction options fast, shortlisting 2-4 familiar or highly rated items on longevity, ease and routine fit — prestige_priority 0.20 means prestige is irrelevant except as performance cue.\n- **[Retailer-specific]** Checks Ratings Distribution + Verified Buyer on ulta.com for consensus on wear and difficulty, plus GLAMlab / Foundation Shade Matcher to reduce shade guesswork that would create effort or returns. ([ColourPop - Translucent No Filter Loose Setting Powder | Ulta Beauty](https://www.ulta.com/p/translucent-no-filter-loose-setting-powder-pimprod2007107)), ([ULTA Beauty Collection - Wild Berry Automatic Retractable Lip Liner - GLAMLab | Ulta Beauty](https://www.ulta.com/p/wild-berry-automatic-retractable-lip-liner-pimprod2041996))\n- **[Inference]** Scenario E (inconsistent inexpensive vs premium with strong reliability reviews): investigates consistency; pays premium only if strong reliability reviews justify time saved and fewer repurchases, otherwise stays affordable-acceptable — willingness to pay for function, not luxury.\n- **[Retailer-specific]** Defaults to Replenish & Save (5% + free shipping) + 2-hour Pickup / Curbside or Same Day Delivery via DoorDash when running low, managing via Replenish Manager with reminder emails to avoid monitoring effort. ([Ulta Beauty Replenish & Save | Auto-Replenishment & Savings](https://www.ulta.com/guestservices/ways-to-shop/replenish-and-save)), ([Ulta Beauty Store Pickup & Curbside | How Pickup Works](https://www.ulta.com/guestservices/ways-to-shop/store-pickup)), ([Same Day Delivery | Ulta Beauty](https://www.ulta.com/guestservices/ways-to-shop/same-day-delivery))\n- **[Inference]** Treats Ulta Beauty Rewards points as effort dividend: stays loyal because points accrue on habitual repurchases and redeem as dollars off, reinforcing brand_loyalty 0.70 without chasing novelty — research_depth caps when no new practical information emerges.\n- **[General beauty retail]** Uses professional / detailed description + wear-time demos over creator hype: effectiveness is top criterion for 77% in one skincare survey and reviews tie at 53.4%, so she follows social video only for initial spotting then validates via search and customer reviews. ([5 Factors Influencing Readers' Shopping Decisions | NewBeauty](https://www.newbeauty.com/skincare-shopping-decisions-survey/)), ([US beauty consumers prioritize ingredient transparency | Personal Care Insights](https://www.personalcareinsights.com/news/us-beauty-consumers-prioritize-ingredient-transparency-over-brand-image.html))\n\n## 6. Sephora versus Ulta Beauty for this persona\n\n- **[Retailer-specific]** Replenishment edge is parity on paper (both 5% + free shipping auto-programs) but Ulta's Replenish & Save + Rewards points on initial and base points on recurring orders plus Diamond free shipping $25+ bundles savings + loyalty in one flow, while Sephora pairs 5% Auto-Replenish with Beauty Insider free shipping no minimum on every order. ([Ulta Beauty Replenish & Save | Auto-Replenishment & Savings](https://www.ulta.com/guestservices/ways-to-shop/replenish-and-save)), ([In-Store Pick Up & Delivery Options | Sephora](https://www.sephora.com/beauty/pick-up-delivery-options))\n- **[Retailer-specific]** Speed fulfillment is comparable: Sephora offers all-store BOPIS + most-store curbside + Fast Delivery scheduled 2-hour window + Same-Day Unlimited subscription; Ulta offers 2-hour BOPIS / curbside until 6pm + Same Day Delivery via DoorDash — she picks lowest-friction certain-availability option per mission, not a retailer on principle. ([In-Store Pick Up & Delivery Options | Sephora](https://www.sephora.com/beauty/pick-up-delivery-options)), ([Ulta Beauty Guest Services | Help with Orders, Shipping & Returns](https://www.ulta.com/guestservices/help))\n- **[Retailer-specific]** Try-on fit differs: Sephora Virtual Artist emphasizes artistry looks across prestige brands; Ulta GLAMlab + Foundation Shade Matcher + Skin Analysis spans drugstore to prestige plus hair color / lash try-ons, slightly more useful when she mixes price tiers for routine simplification. ([Sephora Launches Virtual Artist For The Sephora to Go App | PR Newswire](https://www.prnewswire.com/news-releases/sephora-launches-virtual-artist-for-the-sephora-to-go-app-300248621.html)), ([15% Off at Ulta Beauty When You Download the App | Technologist Magazine](https://technologistmag.com/ulta-promo-codes/))\n- **[Inference]** Assortment psychology: Sephora's prestige-heavy Bestsellers / Trending signal quality consensus fast (fits quality_priority 0.85); Ulta's mass-prestige breadth + Best Sellers + Only at Ulta makes affordable-acceptable longevity easier to find — she will cross-shop identical products where everyday price is typically same and choose on availability + fulfillment. ([Top Beauty Gifts - Bestsellers | Sephora](https://www.sephora.com/beauty/bestsellers)), ([Cosmetics, Fragrance, Skincare, and Beauty Gifts - Best Sellers | Ulta Beauty](https://www.ulta.com/shop/makeup/best-sellers))\n- **[Inference]** Novelty handling is same rule both places: require corroborated practical benefit before shortlisting a new / viral item; otherwise familiar repurchase wins — novelty_seeking 0.25 and trend_sensitivity 0.35 mean virality alone never outweighs effort risk.\n- **[Inference]** Effort stop-rule travels: cap at small shortlist of familiar / top-rated, skim negatives on wear / difficulty, satisfice on reliable-and-easy-enough; if no option meets longevity + ease + acceptable price for time saved, defer — distinct from exhaustive comparison or prestige-seeking.\n\n## 7. Evidence quality and gaps\n\n- **[General beauty retail]** Strength: US nationally representative data on price / effectiveness primacy, review reliance and convenience premium from Criteo, Consumer Collective via PR Newswire, Porch / PwC and Morgan Stanley via Moneywise provide directional support for willingness to pay for time saved. ([New Health & Beauty research: 5 shopper trends | Criteo](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends/)), ([Is Your Brand Really Worth It? Beauty Shoppers Want Proof | PR Newswire](https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302551234.html))\n- **[Retailer-specific]** Strength: official ulta.com and sephora.com help / loyalty / fulfillment pages verify existence and mechanics of Rewards, Replenish & Save / Auto-Replenish, BOPIS / curbside / same-day, Virtual Artist / GLAMlab, and verified-review filters — no feature listed without citation.\n- **[General beauty retail]** Limitation: choice-overload / decision-fatigue evidence leans on general e-commerce and Kantar 2026 press summaries, not Sephora / Ulta basket data; effect is conditional on complexity and familiarity, so cannot quantify her exact shortlist cutoff. ([Why Too Much Choice Is Making People Buy Less | LBBOnline](https://www.lbbonline.com/news/why-too-much-choice-is-making-people-buy-less))\n- **[Retailer-specific]** Gap: no retailer-published data found on actual use of long-wear / multifunctional filters, wear-time search terms, or Auto-Replenish / Replenish & Save adoption and retention — cannot verify how often time-constrained shoppers use those tools vs standard repurchase.\n- **[Retailer-specific]** Gap: loyalty sales-penetration figures come from earnings coverage and loyalty analyses (Ulta ~95%, Sephora ~80%) rather than primary filings reviewed here; treat as directional and verify against 10-K / investor materials before modeling spend lift.\n- **[Inference]** Gap for simulation: where premium for speed vs premium for reliable performance diverges is not separated in sources — test where she pays for fulfillment speed versus verified wear separately, and do not assume luxury intent from higher basket.",
+  "annotations": [],
+  "sources": [
+    {
+      "url": "https://www.ulta.com/guestservices/ways-to-shop/replenish-and-save",
+      "title": "Ulta Beauty Replenish & Save | Auto-Replenishment & Savings"
+    },
+    {
+      "url": "https://news.alphastreet.com/ulta-beauty-inc-ulta-q4-2025-earnings-call-transcript/",
+      "title": "Ulta Beauty, Inc (ULTA) Q4 2025 Earnings Call Transcript - Alphastreet"
+    },
+    {
+      "url": "https://joy.so/blog/sephora-loyalty-program/",
+      "title": "Sephora Loyalty Program: Beauty Insider Breakdown"
+    }
+  ],
+  "considered_results": [
+    {
+      "url": "https://www.sephora.com/about-beauty-insider?icid2=alltiers-050219-lp-desktop-image-02-ufe",
+      "title": "Beauty Insider | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.price-scout.app/blog/sephora-beauty-insider-guide",
+      "title": "Sephora Beauty Insider Guide: Tiers, Points and Value | Price Scout",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.99minds.io/blog/sephoras-beauty-insider/",
+      "title": "Sephora Beauty Insider: How the Loyalty Program Works in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "http://yotpo.com/blog/free-makeup-samples/",
+      "title": "Free Makeup Samples in 2026: 13 Ways | Yotpo",
+      "snippet": ""
+    },
+    {
+      "url": "https://thepointsguy.com/loyalty-programs/sephora-beauty-insider",
+      "title": "Sephora Beauty Insider, explained: Is Rouge status worth it?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/beauty/loyalty-program",
+      "title": "About Beauty Insider Loyalty Program | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://joy.so/blog/sephora-loyalty-program/",
+      "title": "Sephora Loyalty Program: Beauty Insider Breakdown",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sitetrail.com/sephora-loyalty-that-rests-on-more-than-discounts/",
+      "title": "Sephora: loyalty that rests on more than discounts",
+      "snippet": ""
+    },
+    {
+      "url": "https://blissnblush.com/sephora-beauty-insider-benefits/",
+      "title": "Everything You Need to Know About Sephora’s Beauty Insider Program",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.candybar.co/sephora-beauty-insider/",
+      "title": "How Sephora’s Beauty Insider Program Led It To Conquer The Beauty Industry",
+      "snippet": ""
+    },
+    {
+      "url": "http://simplycodes.com/store/sephora.com",
+      "title": "Sephora Promo Codes - 50% Off (+5 Codes) Nov 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.brandvm.com/post/sephoras-marketing-success-transforming-beauty-retail",
+      "title": "Sephora Marketing Strategy: How Beauty Retail Became Omnichannel",
+      "snippet": ""
+    },
+    {
+      "url": "https://appfinder.site/app/sephora.html",
+      "title": "Sephora — Download & Review — AppFinder",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.latterly.org/sephora-marketing-mix/",
+      "title": "Sephora Marketing Mix: Omnichannel Innovation and Customer Experience",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ehousestudio.com/blog/sephora-the-best-customer-experience",
+      "title": "Sephora: The Best Customer Experience",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.latterly.org/sephora-business-model/",
+      "title": "Sephora Business Model: Beauty Insider Loyalty And Sephora Collection",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-makeup-stores/compare/luminess-vs-sephora.php",
+      "title": "Luminess vs Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-makeup-stores/reviews/sephora",
+      "title": "Sephora Review for November 2026 | Best Makeup Stores",
+      "snippet": ""
+    },
+    {
+      "url": "https://simicart.com/blog/sephora-app-analysis/",
+      "title": "Sephora App: Deep Analysis And Key Take Away To Build an eCommerce app",
+      "snippet": ""
+    },
+    {
+      "url": "https://sephora-makeup-skin-care-beauty-shopping.en.download.it/android",
+      "title": "Sephora - Makeup Skin Care Beauty Shopping APK",
+      "snippet": ""
+    },
+    {
+      "url": "https://reviewed.app/app/sephora-buy-makeup-skincare/?gclid=EAIaIQobChMIvfOtneCtjgMVuqpaBR08ug6TEAAYASAAEgJ5xvD_BwE",
+      "title": "Sephora: Buy Makeup & Skincare App - Reviewed",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/rewards/all?ref=blog.giift.com&srsltid=AfmBOoqqAs6ACQhNuIyJvw2TBk2IOaYkNOje9KOVsC4AZcLs_H7GHzVv",
+      "title": "Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.groupon.com/coupons/blog/ultamate-ulta-rewards",
+      "title": "Ulta Rewards: How to Sign Up & Save",
+      "snippet": ""
+    },
+    {
+      "url": "https://sflsg.com/get-your-ulta-beauty-birthday-gift/",
+      "title": "Get your Ulta Beauty Birthday Gift",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.myhubble.money/blogs/ulta-beauty-rewards---digital-transformation-and-loyalty-rewards-flywheel",
+      "title": "Ulta Beauty Rewards: Digital Transformation and Loyalty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.groupon.com/coupons/blog/ulta-beauty-credit-card",
+      "title": "Ulta Credit Card: Earn Points & Save on Beauty Supplies",
+      "snippet": ""
+    },
+    {
+      "url": "https://hr-consultancy.vwv.co.uk/guide-ulta-credit-cards-2026-bo8y.html",
+      "title": "The Ultimate Guide To Ulta Credit Cards In 2026: Rewards, Perks, And Financial Evaluation",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mypoints.com/shop-by-brand/UltaCom?coupon=1691443470",
+      "title": "Best ULTA Beauty Coupons, Promo Codes, Coupons & Free Shipping Deals 11/3/2026, 3:43:59 AM 2026.",
+      "snippet": ""
+    },
+    {
+      "url": "https://stackable.deals/retailers/ulta",
+      "title": "The Best Way to Buy at Ulta in 2026 | Stackable",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mageloyalty.com/blog/ulta-beauty-rewards-program",
+      "title": "Ulta Beauty Rewards: Points Value, Tiers and Expiry",
+      "snippet": ""
+    },
+    {
+      "url": "https://joy.so/blog/ulta-loyalty-program/",
+      "title": "Ulta Loyalty Program: The Strategy Behind 95% Sales",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.joinkudos.com/blog/ulta-credit-card-review?utm_source=null&utm_medium=null&utm_campaign=null&utm_content=null&gclid=null",
+      "title": "Ulta Beauty Rewards Mastercard Review 2026: Worth It?",
+      "snippet": ""
+    },
+    {
+      "url": "https://simplycodes.com/store/ulta.com",
+      "title": "ULTA Promo Codes - 30% Off Sitewide (+2 Codes) Nov 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.latterly.org/ulta-beauty-business-model/",
+      "title": "Ulta Beauty Business Model: Omnichannel Retail With Salons and Ultamate Rewards",
+      "snippet": ""
+    },
+    {
+      "url": "https://ulta-beauty.en.download.it/android",
+      "title": "Ulta Beauty APK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/automatic-retractable-lip-liner-pimprod2046623?sku=2618737&pr_rd_page=20",
+      "title": "ULTA Beauty Collection - Wild Berry Automatic Retractable Lip Liner | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/velvet-matte-lip-crayon-pimprod2046747?sku=2617503&pr_rd_page=3",
+      "title": "ULTA Beauty Collection - Earth Velvet Matte Lip Crayon | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/automatic-retractable-lip-liner-pimprod2046623?sku=2618723&pr_rd_page=7",
+      "title": "ULTA Beauty Collection - Bloom Automatic Retractable Lip Liner | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/automatic-retractable-lip-liner-pimprod2046623?sku=2618732&pr_rd_page=5",
+      "title": "ULTA Beauty Collection - Raspberry Automatic Retractable Lip Liner | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://appfelstrudel.com/a/1314833301/alternative-to-ipekyol.html",
+      "title": "Top 10 Apps like IPEKYOL in 2026 for iPhone & iPad",
+      "snippet": ""
+    },
+    {
+      "url": "https://appfelstrudel.com/a/6502933155/alternative-to-ration-home.html",
+      "title": "Top 10 Apps like Ration Home in 2026 for iPhone & iPad",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.coupons.com/coupon-codes/sephora",
+      "title": "20% OFF Sephora Promo Codes & Coupons November 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://daily.slickdeals.net/stores/sephora-promo-codes/",
+      "title": "Sephora Promo Codes: 20% Off in November 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.groupon.com/coupons/sephora?did=4114668&p=1&utm_source=channel_occasions_im&utm_medium=email&t_division=chicago&date=20221106&uu=e3a4883c-d6fc-11ec-941a-0242ac120002&CID=US&tx=0&s=body&c=image&d=deal&utm_campaign=1ede53a1-6a3c-467d-9c36-3539ecc9f452_0_20221106_treatment1",
+      "title": "Sephora Promo Code & Coupons",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/beauty/same-day-unlimited-faq?icid2=customer_service_same_day_unlimited_action_link",
+      "title": "Same Day Unlimited FAQ",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.groupon.ie/discount-codes/sephora",
+      "title": "Sephora Discount Code & Voucher Code November 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-beauty-stores/reviews/sephora",
+      "title": "Sephora Review for November 2026 | Best Beauty Stores",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/Insiders/Empties/m-p/6802249",
+      "title": "Beauty Insider Program & Rewards Bazaar | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/Insiders/Love-for-Brushes/m-p/4827047/highlight/true",
+      "title": "Beauty Insider Program & Rewards Bazaar | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/beauty/auto-replenish",
+      "title": "Beauty Subscriptions: Auto-Replenishment Program | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/guestservices/ways-to-shop/replenish-and-save",
+      "title": "Ulta Beauty Replenish & Save | Auto-Replenishment & Savings",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/discover/beauty-education/your-guide-to-replenish-and-save",
+      "title": "Guide to Ulta Beauty's Replenish & Save program | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/guestservices/ways-to-shop/replenish-and-save/terms-and-conditions",
+      "title": "Replenish & Save Terms & Conditions | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/brand/prada?category=travel-size-mini%2Ctravel-size-fragrance%2Cwomens",
+      "title": "Prada - Women's - 12 Products | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "http://ulta.com/brand/prada?category=gifts%2Cby-price%0D",
+      "title": "Prada - By Price - 7 Products | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/beauty/savings-event-faqs",
+      "title": "Savings Event FAQs",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/beauty/pick-up-delivery-options?icid2=ease_and_convenience_landing_page_link_internal",
+      "title": "In-Store Pick Up & Delivery Options | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://getcho.app/blog/sephora-same-day-delivery-with-getcho",
+      "title": "Get Your Sephora Order with Same-Day Delivery from Getcho",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/beauty/same-day-delivery-faq?icid2=related-pages:lem:same-day delivery faq",
+      "title": "Same-Day Delivery FAQ",
+      "snippet": ""
+    },
+    {
+      "url": "https://unihop.app/stores/sephora",
+      "title": "Sephora Delivery | UniHop",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/beauty/third-party-delivery-faq?icid2=customer_service_third_party_delivery_faqs_page_action_link",
+      "title": "Third Party Delivery FAQ",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-makeup-stores/reviews/sephora",
+      "title": "Sephora Review for November 2026 | Best Makeup Stores",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/beauty/in-store-pick-up-faq",
+      "title": "In-Store Pick Up FAQ | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/happening/stores/cambridge-cambridgeside-galleria",
+      "title": "Beauty Store & Services in CAMBRIDGE | Sephora CAMBRIDGESIDE",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/happening/stores/weston",
+      "title": "Beauty Store & Services in WOODBRIDGE | Sephora COLOSSUS",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/happening/stores/towson",
+      "title": "Beauty Store & Services in TOWSON | Sephora TOWSON",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/happening/stores/malibu",
+      "title": "Beauty Store & Services in MALIBU | Sephora MALIBU",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/guestservices/all",
+      "title": "Ulta Beauty Guest Services | Help with Orders, Shipping & Returns",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.dejavu.org/cgi-bin/get.cgi?ver=95&url=https%3A%2F%2Fwww.ulta.com%2Fguestservices%2Fall",
+      "title": "Ulta Beauty Guest Services | Help with Orders, Shipping & Returns",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.dontpayfull.com/explore/ulta-free-shipping",
+      "title": "How to Get Free Shipping at Ulta Beauty (Every Method, Verified)",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/blog/how-to-get-free-shipping-on-ulta-in-a-legit-way",
+      "title": "How To Get Free Shipping on Ulta in a Legit Way",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/guestservices/ways-to-shop/same-day-delivery?srsltid=AfmBOorXnU33horAg-TmuP-QpWY_lXx-YHvThENjIElC6qOeRCs546Kg",
+      "title": "Same Day Delivery",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/blog/how-long-does-ulta-take-to-ship",
+      "title": "How Long Does Ulta Take to Ship? A Simple Playbook",
+      "snippet": ""
+    },
+    {
+      "url": "https://worldlocationmap.com/ulta-beauty-bwikjf4",
+      "title": "Ulta Beauty - Locations from All Over the World",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/guestservices/ways-to-shop/pickup?srsltid=AfmBOooOBCd1bVc1edjbT8jtxpvbgNOzFlrEorC0YgCIGJR03Ugd-A5h",
+      "title": "Ulta Beauty Store Pickup & Curbside | How Pickup Works",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ultrabeauty.com.au/help-centre/terms-and-policies/shipping-terms-and-conditions",
+      "title": "Shipping Terms & Conditions | Ultra Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://worldlocationmap.com/ulta-beauty-zoaoyik",
+      "title": "Ulta Beauty - Locations from All Over the World",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/guestservices/ways-to-shop/all",
+      "title": "Ways to Shop Ulta Beauty | Online, In-Store, Pickup & Delivery",
+      "snippet": ""
+    },
+    {
+      "url": "https://worldlocationmap.com/ulta-beauty-ir2zfpa",
+      "title": "Ulta Beauty - Locations from All Over the World",
+      "snippet": ""
+    },
+    {
+      "url": "https://kohls.sjv.io/c/403950/362118/5349?subId1=kclsubid&subId2=unicorn&u=https%3A%2F%2Fwww.kohls.com%2Fproduct%2Fprd-6606353%2Fsephora-collection-exfoliating-lip-scrub.jsp%3Fcolor%3DDragonfruit%26topSkuId%3D79825229",
+      "title": "SEPHORA COLLECTION Exfoliating Lip Scrub",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.me/qa-en/general-conditions-publication-reviews",
+      "title": "Beauty Products, Makeup, Perfume & Skincare ≡ Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/beauty/ratings-reviews?icid2=customer_service_ratings_reviews-write-review",
+      "title": "Customer Service - Ratings & Reviews | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-6606353/sephora-collection-exfoliating-lip-scrub.jsp?color=Dragonfruit&topSkuId=79825229&clickId=&irgwc=1&afsrc=1&utm_campaign=362118&utm_source=403950&cid=affiliate-_-403950&utm_content=ONLINE_TRACKING_LINK&utm_medium=affiliate",
+      "title": "SEPHORA COLLECTION Exfoliating Lip Scrub",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-7191815/sephora-collection-lift-firm-plumping-day-cream-with-peptides-hyaluronic-acid.jsp",
+      "title": "SEPHORA COLLECTION Lift & Firm - Plumping Day Cream with Peptides + Hyaluronic Acid",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/Insiders/Too-Many-Free-sample-Reviews/m-p/5412329/highlight/true",
+      "title": "Re: Too Many “Free sample” Reviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-8290757/sephora-collection-transformation-smoothing-face-mask-with-peptides.jsp?skuid=20957973",
+      "title": "SEPHORA COLLECTION Transformation Smoothing Face Mask with Peptides",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-5099388/product.jsp",
+      "title": "SEPHORA COLLECTION Outrageous Plump Intense Hydrating Lip Gloss",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-6606353/clean-lip-scrub.jsp?prdPV=1",
+      "title": "SEPHORA COLLECTION Exfoliating Lip Scrub",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-6178827/sephora-collection-sephora-colorful-waterproof-eyeshadow-eyeliner-multi-stick.jsp?color=Fawn Shimmer&prdPV=12",
+      "title": "SEPHORA COLLECTION Sephora Colorful Waterproof Eyeshadow & Eyeliner Multi-Stick",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-5277996/mini-daily-brush-cleaner.jsp?prdPV=3",
+      "title": "SEPHORA COLLECTION Daily Brush Cleaner",
+      "snippet": ""
+    },
+    {
+      "url": "https://realreviews.io/reviews/ulta.com?redis=1",
+      "title": "Ulta.com Reviews – Legit & Reliable or Scam? 42 Verified Ratings",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/supplier/ulta-beauty-trustpilot",
+      "title": "Ulta Beauty Trustpilot Reviews: Find Trusted Suppliers & Products",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ubuy.com.pk/en/product/7T2B55U8C-ulta-beauty-complexion-crush-medium-coverage-foundation-medium-to-tan-olive",
+      "title": "Ulta Beauty Complexion Crush Medium Coverage Pakistan | Ubuy",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.a.ubuy.com.kw/en/product/Q1Y1CVK-ulta-beauty-full-coverage-waterproof-liquid-concealer-0-16-fl-oz-medium-warm",
+      "title": "Ulta Beauty Full Coverage Waterproof Liquid Kuwait | Ubuy",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.a.ubuy.com.kw/en/product/8YKP84-ulta-beauty-juice-infused-lip-oil-red-apple",
+      "title": "Ulta Beauty Juice Infused Lip Oil ~ Red Apple",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/no-filter-loose-setting-powder-pimprod2030981?sku=2592771&pr_rd_page=16",
+      "title": "ColourPop - Translucent No Filter Loose Setting Powder | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/color-punch-automatic-eyeliner-pimprod2032271?sku=2585731&pr_rd_page=2",
+      "title": "ULTA Beauty Collection - Playful Pink Color Punch Automatic Eyeliner | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/sculpting-brow-pencil-pimprod2007627?sku=2543405&pr_rd_page=17",
+      "title": "ULTA Beauty Collection - Soft Brown Sculpting Brow Pencil | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ubuy.com.bd/en/product/7T2B55U8C-ulta-beauty-complexion-crush-medium-coverage-foundation-medium-to-tan-olive",
+      "title": "Ulta Beauty Complexion Crush Medium Coverage Bangladesh | Ubuy",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/lip-filter-hydroplump-soft-matte-lipstick-pimprod2054242?sku=2646200&pr_rd_page=5",
+      "title": "Morphe - Velvet Lip Filter Hydroplump Soft Matte Lipstick | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.u-buy.co.nz/product/FBTBZX7U6-ulta-beauty-juice-infused-lip-oil-pineapple",
+      "title": "Ulta Beauty Juice Infused Lip Oil ~ Pineapple",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/color-punch-automatic-eyeliner-pimprod2032271?sku=2585733&pr_rd_page=3",
+      "title": "ULTA Beauty Collection - Youthful Yellow Color Punch Automatic Eyeliner | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/bestsellers?filter=fh_location=//c1/en_GB/department>{hair;skincare;body;makeup;fragrance;lifestyle;travel;gifts}/hisandhers>{0}/!secondid<{p183315}/%26p_fh_ga_itemquantity_uk_last7days%3E50%2F%21exclude_countries%3E%7Bie%7D%2F%21site_exclude%3E%7B79%7D%2F%21brand=a70%26device=desktop%26site_area=cms%26date_time=20260722T225254%26fh_view_size=40%26fh_start_index=320",
+      "title": "Sephora Beauty Best Sellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/brands/sephora-collection/bestsellers?filter=fh_location=//c1/en_GB/brand={a5189}/range>{a14515}/!exclude_countries>{gb}/%26fh_view_size=40%26site_area=brand%26device=desktop%26fh_sort_by=-discount_level",
+      "title": "Sephora Collection Bestsellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/product/saieglow-tm-bestsellers-kit-P520673?skuId=2945202&icid2=springsale_savingsevent0426_fy264901_lp_041026_valuesets_productlist_us_ca",
+      "title": "The Saieglow™ Bestsellers Kit - Saie | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.sephora.co.uk/bestsellers?filter=fh_location=//c1/en_GB/department>{hair;skincare;body;makeup;fragrance;lifestyle;travel;gifts}/hisandhers>{0}/!secondid<{p183315}/%26p_fh_ga_itemquantity_uk_last7days%3E50%2F%21exclude_countries%3E%7Bde%7D%2F%21uk_only=1%2F%21site_exclude%3E%7B79%7D%2F%21brand%3Da70%26device=desktop%26site_area=cms%26date_time=20260804T035625%26fh_view_size=40%26fh_start_index=440",
+      "title": "Sephora Beauty Best Sellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/product/saieglow-tm-bestsellers-kit-P520673?skuId=2945202",
+      "title": "The Saieglow™ Bestsellers Kit - Saie | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.buzzfeed.com/sarakmiranda968/sephora-makeup-bestsellers-youll-be-glad-you-an",
+      "title": "27 Makeup Products From Sephora’s “Bestsellers” Section You’ll Be Glad You Finally Bought",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/bestsellers?filter=fh_location=//c1/en_GB/department>{hair;skincare;body;makeup;fragrance;lifestyle;travel;gifts}/hisandhers>{0}/!secondid<{p183315}/%26p_fh_ga_itemquantity_uk_last7days%3E50%2F%21exclude_countries%3E%7Bus%7D%2F%21uk_only=1%2F%21site_exclude%3E%7B79%7D%2F%21brand%3Da70%26device=desktop%26site_area=cms%26date_time=20260804T171909%26fh_view_size=40%26fh_start_index=400",
+      "title": "Sephora Beauty Best Sellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/bestsellers?filter=fh_location=//c1/en_GB/department>{body;skincare;makeup;fragrance;hair;travel}/hisandhers>{0}/brand>{a1605}|!secondid<{p183315}/%26fh_view_size=40%26date_time=20260722T225254%26site_area=cms%26device=desktop%26p_fh_ga_itemquantity_uk_last7days%3E50%2F%21exclude_countries%3E%7Bie%7D%2F%21site_exclude%3E%7B79%7D%2F%21brand=a70%26fh_refview=lister%26fh_reffacet=brand#inline-facets",
+      "title": "Sephora Beauty Best Sellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/bestsellers?filter=fh_location=//c1/en_GB/department>{hair;skincare;body;makeup;fragrance;lifestyle;travel;gifts}/hisandhers>{0}/!secondid<{p183315}/%26p_fh_ga_itemquantity_uk_last7days%3E50%2F%21exclude_countries%3E%7Bie%7D%2F%21site_exclude%3E%7B79%7D%2F%21brand=a70%26device=desktop%26site_area=cms%26date_time=20260722T225254%26fh_view_size=40%26fh_start_index=200",
+      "title": "Sephora Beauty Best Sellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.sephora.co.uk/bestsellers?filter=fh_location=//c1/en_GB/department>{body;skincare;makeup;fragrance;hair;travel}/hisandhers>{0}/brand>{a1605}|!secondid<{p183315}/%26p_fh_ga_itemquantity_uk_last7days%3E50%2F%21exclude_countries%3E%7Bus%7D%2F%21uk_only=1%2F%21site_exclude%3E%7B79%7D%2F%21brand%3Da70%26fh_view_size=40%26date_time=20260801T164534%26site_area=cms%26device=desktop%26fh_refview=lister%26fh_reffacet=brand#inline-facets",
+      "title": "Sephora Beauty Best Sellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/bestsellers?filter=fh_location=//c1/en_GB/department>{body;skincare;makeup;fragrance;hair;travel}/hisandhers>{0}/badge>{savings}|!secondid<{p183315}/%26p_fh_ga_itemquantity_uk_last7days%3E50%2F%21exclude_countries%3E%7Bde%7D%2F%21uk_only=1%2F%21site_exclude%3E%7B79%7D%2F%21brand%3Da70%26fh_view_size=40%26date_time=20260808T152325%26site_area=cms%26device=desktop%26fh_refview=lister%26fh_reffacet=badge#inline-facets",
+      "title": "Sephora Beauty Best Sellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/bestsellers?filter=fh_location=//c1/en_GB/department>{hair;skincare;body;makeup;fragrance;lifestyle;travel;gifts}/hisandhers>{0}/!secondid<{p183315}/%26p_fh_ga_itemquantity_uk_last7days%3E50%2F%21exclude_countries%3E%7Bus%7D%2F%21uk_only=1%2F%21site_exclude%3E%7B79%7D%2F%21brand%3Da70%26device=desktop%26site_area=cms%26date_time=20260629T003744%26fh_view_size=40%26fh_start_index=160",
+      "title": "Best Sellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/shop/top-beauty-gifts?sortBy=BEST_SELLING&icid2=rwd+soft+link_gifts+bestsellers_081121",
+      "title": "Top Beauty Gifts | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "http://sephora.com/shop/top-beauty-gifts?icid2=rwd soft link_gifts bestsellers_081121",
+      "title": "Top Beauty Gifts | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/shop/top-beauty-gifts?sortBy=BEST_SELLING&icid2=rwd%20soft%20link_gifts%20bestsellers_081121",
+      "title": "Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com.au/bestsellers/clean?wishlist=261446",
+      "title": "Sephora Bestsellers | Sephora Australia",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/shop/top-beauty-gifts?icid2=seop_linkgroup",
+      "title": "Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/beauty/best-makeup-brands",
+      "title": "5 of the Best Makeup Brands in 2026 | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/sephora-top-selling-skin-care-products",
+      "title": "Sephora Top Selling Skin Care Products 2025",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/buy/trending-products",
+      "title": "Trending Products | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://m.feelunique.com/c/bestsellers",
+      "title": "Sephora Beauty Best Sellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/bestsellers?filter=fh_location=//c1/en_GB/department>{hair;skincare;body;makeup;fragrance;lifestyle;travel;gifts}/hisandhers>{0}/!secondid<{p183315}/%26p_fh_ga_itemquantity_uk_last7days%3E50%2F%21exclude_countries%3E%7Bus%7D%2F%21uk_only=1%2F%21site_exclude%3E%7B79%7D%2F%21brand%3Da70%26device=desktop%26site_area=cms%26date_time=20260804T171909%26fh_view_size=40%26fh_start_index=480",
+      "title": "Sephora Beauty Best Sellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/sephora-best-selling-beauty-must-haves",
+      "title": "Sephora Best Selling Beauty Must Haves 2025",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/bestsellers?filter=fh_location=//c1/en_GB/department>{body;skincare;makeup;fragrance;hair;travel}/hisandhers>{0}/brand>{a633}|!secondid<{p183315}/%26p_fh_ga_itemquantity_uk_last7days%3E50%2F%21exclude_countries%3E%7Bde%7D%2F%21uk_only=1%2F%21site_exclude%3E%7B79%7D%2F%21brand%3Da70%26fh_view_size=40%26date_time=20260808T152325%26site_area=cms%26device=desktop%26fh_refview=lister%26fh_reffacet=brand#inline-facets",
+      "title": "Sephora Beauty Best Sellers | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mylifestylenhack.com/your-go-to-guide-for-the-hottest-new-arrivals-best-selling-ulta-beauty-picks/",
+      "title": "Your Go-To Guide for the Hottest New Arrivals & Best-Selling Ulta Beauty Picks - MylifestyleNhack",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/discover/lifestyle/exclusive-products",
+      "title": "Only at Ulta | Exclusive Products | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/best-selling-products-at-ulta",
+      "title": "Best Selling Products at Ulta in 2025",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/bestsellers-set-pimprod2061792?sku=2661216",
+      "title": "HOURGLASS -  The Bestsellers Set | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.rankandstyle.com/articles/ulta-best-sellers",
+      "title": "Ulta Best-Sellers: Viral TikTok Hits & Cult Classic Beauty Must-Haves",
+      "snippet": ""
+    },
+    {
+      "url": "https://benable.com/Tap444/15-viral-ulta-beauty-favorites-7a",
+      "title": "Viral Ulta Beauty Favorites",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/ulta-beauty-best-selling-products",
+      "title": "Ulta Beauty Best Selling Products 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.newbeauty.com/view/ulta-beauty-new-arrivals-august-2025",
+      "title": "The Very Best of Ulta Beauty's Newest Arrivals | NewBeauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/discover/lifestyle/best-holiday-gifts/trending-beauty-gifts",
+      "title": "Trending Beauty Gifts for Holiday 2026 | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/how-can-i-find-ultas-best-selling-products-that-align-with-current-viral-beauty-trends",
+      "title": "how can i find ultas best selling products that align with current viral beauty trends",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/brand/peach-lily?category=skin-care,moisturizers",
+      "title": "PEACH & LILY - Moisturizers - 14 Products | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/featured/wk3726_tarte_shapetape_gwp",
+      "title": "Cosmetics, Fragrance, Skincare, and Beauty Gifts | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://news.alphastreet.com/ulta-beauty-inc-ulta-q4-2025-earnings-call-transcript/",
+      "title": "Ulta Beauty, Inc (ULTA) Q4 2025 Earnings Call Transcript - Alphastreet",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.42signals.com/blog/sephora-vs-ulta-beauty-retail-war/",
+      "title": "Sephora vs Ulta: Who's Winning the Beauty Retail War?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.MarketBeat.com/earnings/reports/2026-3-12-ulta-beauty-inc-stock/",
+      "title": "Ulta Beauty (ULTA) Q4 2026 Earnings Results & Call Transcript",
+      "snippet": ""
+    },
+    {
+      "url": "https://businessmodelanalyst.com/ulta-beauty-target-market/",
+      "title": "Ulta Beauty Target Market: Who Actually Shops There (2026)",
+      "snippet": ""
+    },
+    {
+      "url": "https://news.alphastreet.com/ulta-beauty-ulta-has-a-loyalty-and-services-engine-bigger-than-a-soft-consumer-retail-trade/",
+      "title": "Ulta Beauty (ULTA) Has a Loyalty-and-Services Engine Bigger Than a Soft-Consumer Retail Trade - Alphastreet",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ainvest.com/news/ulta-beauty-strategic-independence-catalyst-rating-long-term-creation-2508/",
+      "title": "Ulta Beauty's Strategic Independence: A Catalyst for Re-Rating and Long-Term Value Creation",
+      "snippet": ""
+    },
+    {
+      "url": "https://dcfanalyst.com/products/ulta-ansoff-analysis",
+      "title": "Ulta Beauty, Inc. (ULTA) Ansoff Matrix | DCF Analyst",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.myhubble.money/blogs/ulta-beauty-rewards---digital-transformation-and-loyalty-rewards-flywheel",
+      "title": "Ulta Beauty Rewards: Digital Transformation and Loyalty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mitrade.com/au/insights/news/live-news/article-8-1547176-20260313",
+      "title": "Ulta Beauty (ULTA) Q4 2025 Earnings Transcript",
+      "snippet": ""
+    },
+    {
+      "url": "https://markets.financialcontent.com/tamarsecurities/article/predictstreet-2026-1-1-ulta-beauty-ulta-the-2026-research-feature-a-new-era-of-global-expansion",
+      "title": "Tamar Securities Financial Portal\n\n - Ulta Beauty (ULTA): The 2026 Research Feature – A New Era of Global Expansion",
+      "snippet": ""
+    },
+    {
+      "url": "https://markets.financialcontent.com/pentictonherald/article/predictstreet-2026-1-1-ulta-beauty-ulta-the-2026-research-feature-a-new-era-of-global-expansion",
+      "title": "Penticton Herald: Finance - Ulta Beauty (ULTA): The 2026 Research Feature – A New Era of Global Expansion",
+      "snippet": ""
+    },
+    {
+      "url": "http://business.theantlersamerican.com/theantlersamerican/article/predictstreet-2026-1-1-ulta-beauty-ulta-the-2026-research-feature-a-new-era-of-global-expansion",
+      "title": "User | poteaudailynews.com - Ulta Beauty (ULTA): The 2026 Research Feature – A New Era of Global Expansion",
+      "snippet": ""
+    },
+    {
+      "url": "https://joy.so/blog/sephora-loyalty-program/",
+      "title": "Sephora Loyalty Program: Beauty Insider Breakdown",
+      "snippet": ""
+    },
+    {
+      "url": "https://fastercapital.com/keyword/beauty-insider-and-customer-satisfaction-and-sephoras-beauty-insider-program-and-loyalty-programs.html",
+      "title": "Beauty Insider And Customer Satisfaction And Sephoras Beauty Insider Program And Loyalty Programs",
+      "snippet": ""
+    },
+    {
+      "url": "https://wployalty.net/sephora-loyalty-program-case-study/",
+      "title": "Sephora Loyalty Program Case Study: 5 Strategies That Work",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sachebeautystudio.com/how-sephora-is-using-technology-to-transform-online-beauty-shopping/",
+      "title": "How Sephora Is Using Technology to Transform Online Beauty Shopping",
+      "snippet": ""
+    },
+    {
+      "url": "https://fastercapital.com/keyword/beauty-insider-community-and-influencer-marketing-and-sephoras-beauty-insider-community.html",
+      "title": "Beauty Insider Community And Influencer Marketing And Sephoras Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.social.plus/blog/the-magic-of-sephoras-community-led-path-to-success",
+      "title": "Sephora's Beauty Insider Community: The 80%-of-Sales Engine",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.inc/deep-dives/community-growth-sephora",
+      "title": "Community Growth at: Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://mckinseyonmarketingandsales.com/sephora-marketing-strategy/",
+      "title": "Uncover the Secret Sephora Marketing Strategy for Beauty Retail Domination",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.rajivgopinath.com/blogs/media-planning-hub/channel-and-platform-planning/media-planning-for-omnichannel-retailers",
+      "title": "Media Planning for Omnichannel Retailers",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.wearephaedon.com/insights/loyalty-insider-how-sephora-built-the-loyalty-program-every-beauty-brand-copies/",
+      "title": "Loyalty Insider: How Sephora Built the Loyalty Program Every Beauty Brand Copies",
+      "snippet": ""
+    },
+    {
+      "url": "https://fastercapital.com/keyword/sephoras-beauty-insider-community-fosters.html",
+      "title": "Sephoras Beauty Insider Community Fosters",
+      "snippet": ""
+    },
+    {
+      "url": "https://themarketingagency.ca/blog/sephora-case-study/",
+      "title": "Sephora Case Study: Digital Transformation | The Marketing Agency",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260917884203/en/New-Research-by-Iridio-Reveals-Americans-are-Paying-a-Time-Convenience-and-Lifestyle-Tax-to-Afford-Groceries",
+      "title": "New Research by Iridio Reveals Americans are Paying a \"Time, Convenience and Lifestyle Tax\" to Afford Groceries",
+      "snippet": ""
+    },
+    {
+      "url": "https://PORCHGROUPMEDIA.COM/blog/younger-generations-are-gaining-spending-power/",
+      "title": "The New Rules for Winning Millennial and Gen Z Consumers",
+      "snippet": ""
+    },
+    {
+      "url": "https://businessconnectindia.in/consumers-paying-for-convenience/",
+      "title": "The Luxury Of Time: Why Consumers Pay For Convenience",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.farminglife.com/must-read/gen-z-hit-hardest-by-corner-shop-convenience-pricing-8548410",
+      "title": "Gen Z hit hardest by corner shop convenience pricing",
+      "snippet": ""
+    },
+    {
+      "url": "https://massmarketretailers.com/new-research-by-iridio-reveals-americans-are-paying-a-time-convenience-and-lifestyle-tax-to-afford-groceries/",
+      "title": "New research by Iridio reveals Americans are paying a “Time, Convenience and Lifestyle Tax” to afford groceries",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.morningstar.com/news/business-wire/20260917884203/new-research-by-iridio-reveals-americans-are-paying-a-time-convenience-and-lifestyle-tax-to-afford-groceries",
+      "title": "New Research by Iridio Reveals Americans are Paying a \"Time, Convenience and Lifestyle Tax\" to Afford Groceries",
+      "snippet": ""
+    },
+    {
+      "url": "https://s1.q4cdn.com/664789261/files/doc_news/New-Research-by-Iridio-Reveals-Americans-are-Paying-a-Time-Convenience-and-Lifestyle-Tax-to-Afford-Groceries-2026.pdf",
+      "title": "NEWS RELEASE",
+      "snippet": ""
+    },
+    {
+      "url": "https://Www.supermarketnews.com/grocery-trends-data/grocery-shoppers-weigh-convenience-trust-and-time-alongside-price-report",
+      "title": "Grocery shoppers weigh other factors alongside price",
+      "snippet": ""
+    },
+    {
+      "url": "https://europe-data.com/majority-of-spanish-consumers-regularly-buy-convenience-food-products/",
+      "title": "Majority of Spanish regularly buy convenience food products",
+      "snippet": ""
+    },
+    {
+      "url": "https://moneywise.com/news/americans-are-willing-to-pay-up-to-save-time-and-companies-are-taking-notice-how-much-are-you-willing-to-pay-for-some-relief-with-household-chores",
+      "title": "Customers are splurging in order to skip chores",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.packagingtechtoday.com/markets/new-research-by-iridio-reveals-americans-are-paying-a-time-convenience-and-lifestyle-tax-to-afford-groceries/",
+      "title": "Packaging Technology Today",
+      "snippet": ""
+    },
+    {
+      "url": "https://lifestyle.sli.mg/story/810029/new-research-by-iridio-reveals-americans-are-paying-a-time-convenience-and-lifestyle-tax-to-afford-groceries/",
+      "title": "New Research by Iridio Reveals Americans are Paying a \"Time, Convenience and Lifestyle Tax\" to Afford Groceries | lifestyle.sli.mg",
+      "snippet": ""
+    },
+    {
+      "url": "https://en.redtram.com/lifestyle/623973004/",
+      "title": "Who’s Really Influencing the Way You Shop for Beauty?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image",
+      "snippet": ""
+    },
+    {
+      "url": "https://gitnux.org/customer-experience-in-the-cosmetic-industry-statistics/",
+      "title": "Customer Experience In The Cosmetic Industry Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.lsnglobal.com/news/article/26694/stat-inter-covid-beauty-purchases-rely-on-reviews",
+      "title": "Stat: Inter-Covid beauty purchases rely on reviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+      "title": "5 Factors Influencing Readers' Shopping Decisions",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.retaildive.com/news/retail-beauty-sephora-product-incentivized-reviews/761081/",
+      "title": "Retail’s love affair with incentivized reviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://hello.wunderkind.co/hubfs/PDFS%20-%20Content/2025-Beauty-Consumer-Insights-Report.pdf?hsLang=en",
+      "title": "2025 C onsumer",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.wunderkind.co/blog/beauty-shoppers-dont-want-more-personalization.-they-want-brands-to-remember-them",
+      "title": "Beauty Shoppers Don’t Want More Personalization. They Want Brands to Remember Them",
+      "snippet": ""
+    },
+    {
+      "url": "https://cosmeticsbusiness.com/influencer-reviews-trumped-by-authentic-customers-online-say-beauty-shoppers--178522",
+      "title": "Influencer reviews trumped by ‘authentic’ customers online, say beauty shoppers",
+      "snippet": ""
+    },
+    {
+      "url": "https://lbbonline.com/news/Paradox-of-Too-Many-Choices",
+      "title": "Why Too Much Choice Is Making People Buy Less",
+      "snippet": ""
+    },
+    {
+      "url": "https://medium.com/@blogchoice/choice-overload-in-ux-how-to-help-visitors-decide-without-hiding-the-options-986bb45b2483",
+      "title": "Choice overload in UX: how to help visitors decide without hiding the options",
+      "snippet": ""
+    },
+    {
+      "url": "https://dergipark.org.tr/tr/download/article-file/5059665",
+      "title": "The Impact of Choice Overload and Decision Fatigue on Cart",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.gingeritsolutions.com/blog/the-paradox-of-choice-in-ux/",
+      "title": "The Paradox of Choice in UX: How It Affects Conversions",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.winsomemarketing.com/resources/winsome-marketing-decision-fatigue-in-e-commerce-how-many-product-options-are-too-many",
+      "title": "Decision Fatigue in E-commerce: How Many Product Options Are Too Many? — Winsome",
+      "snippet": ""
+    },
+    {
+      "url": "http://fourweekmba.com/option-paralysis/",
+      "title": "Option Paralysis - FourWeekMBA",
+      "snippet": ""
+    },
+    {
+      "url": "https://marychuks.com/choice-overload-digital-shops-product-comparison/",
+      "title": "Choice Overload in Digital Shops: Help Customers Compare",
+      "snippet": ""
+    },
+    {
+      "url": "https://neurolaunch.com/choice-overload-psychology/",
+      "title": "Choice Overload: When Too Many Options Hinder Decisions",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.advergize.com/glossary/decision-fatigue/",
+      "title": "What Is Decision Fatigue?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.numberanalytics.com/blog/guide-choice-overload-behavioral-econ",
+      "title": "A Guide to Choice Overload in Behavioral Econ",
+      "snippet": ""
+    },
+    {
+      "url": "https://richwoman.co/article/overthinking-the-reason-you-struggle-with-simple-shopping-choices-and-the-price-you-pay-for-i",
+      "title": "Overthinking Simple Shopping Choices and the Price You Pay",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.tasmanic.eu/blog/choice-overload/",
+      "title": "Choice overload: how to prevent choice stress in your customers",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-makeup-stores/compare/ulta-vs-sephora.php",
+      "title": "Ulta vs Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.rankandstyle.com/articles/ulta-vs-sephora",
+      "title": "Ulta vs. Sephora: Which Beauty Store Is Best for You?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.latterly.org/ulta-competitors/",
+      "title": "Top 12 Ulta Competitors & Alternatives [2026] - Latterly.org",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.latterly.org/ulta-beauty-competitors/",
+      "title": "Top 12 Ulta Beauty Competitors & Alternatives [2026] - Latterly.org",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.tcfecommerce.com/blog/best-beauty-ecommerce-experiences",
+      "title": "Which Beauty Brands Have the Best Ecommerce Experience? (+ Lessons Learned)",
+      "snippet": ""
+    },
+    {
+      "url": "https://versuscraft.com/ulta-beauty-vs-sephora/",
+      "title": "Ulta Beauty Vs Sephora: Which Beauty Retailer Wins? - Versuscraft",
+      "snippet": ""
+    },
+    {
+      "url": "https://trustedbuyerreport.com/blog/ulta-beauty-vs-sephora-2026-review",
+      "title": "Ulta Beauty vs Sephora 2026: Which Is Better?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-makeup-stores/detailed-reviews.php",
+      "title": "The 10 Best Makeup Stores for 2026 | Free Buyers Guide",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.latterly.org/ulta-beauty-swot-analysis/",
+      "title": "Ulta Beauty SWOT Analysis: Omnichannel Growth and Salon Differentiation",
+      "snippet": ""
+    },
+    {
+      "url": "https://peertube.ntc.dsausa.org/blog/ultimate-ulta-beauty-curbside-pickup-this-is-the-future-of-beauty-shopping-docx-beef31",
+      "title": "Ulta Beauty Curbside Pickup: This Is The Future Of Beauty Shopping. - The Daily Commons beef31docxultimate",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.lemon8-app.com/@melanin_j8/7589072130529116686?region=us",
+      "title": "Ulta vs Sephora: Which Beauty Retailer Should You Choose?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.beautylish.com/t/yxgpyc/do-you-like-sephora-or-ulta",
+      "title": "Do You Like Sephora Or Ulta.",
+      "snippet": ""
+    },
+    {
+      "url": "https://cosupport.ai/articles/sephora-beauty-assistant-teaches-personalization-support",
+      "title": "What Sephora’s Beauty Assistant Teaches About Personalization in Support",
+      "snippet": ""
+    },
+    {
+      "url": "https://inviai.com/en/ai-in-the-beauty-industry",
+      "title": "AI in the Beauty Industry",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.wix.com/blog/ar-and-vr-web-design",
+      "title": "AR and VR web design: are they living up to the hype?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www2.multivu.com/players/English/7749651-sephora-virtual-artist-to-go-app/",
+      "title": "SEPHORA LAUNCHES VIRTUAL ARTIST FOR THE SEPHORA TO GO APP",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.trackmind.com/sephora-augmented-reality-artificial-intelligence-future-beauty-industry-2/",
+      "title": "Sephora: AR, AI & Future of Beauty | Trackmind",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/sephora-launches-virtual-artist-for-the-sephora-to-go-app-300213051.html",
+      "title": "Sephora Launches Virtual Artist For The Sephora to Go App",
+      "snippet": ""
+    },
+    {
+      "url": "https://digitaimind.com/blog/ai-and-ar-in-marketing/",
+      "title": "How AI and AR are Creating Immersive Marketing Experiences -",
+      "snippet": ""
+    },
+    {
+      "url": "https://webflow-prod.glamar.io/blog/virtual-try-ons-examples",
+      "title": "12 Virtual try-ons examples in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.retaildive.com/ex/mobilecommercedaily/sephoras-virtual-artist-brings-augmented-reality-to-larger-beauty-audience?ref=blog.giift.com",
+      "title": "Sephora’s Virtual Artist brings augmented reality to large beauty audience | Retail Dive",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.retaildive.com/ex/mobilecommercedaily/sephora-accelerates-ar-ai-sales-tactics-with-new-products-features",
+      "title": "Sephora accelerates AR, AI sales tactics with new products, features | Retail Dive",
+      "snippet": ""
+    },
+    {
+      "url": "https://medium.com/@s5518754/reducing-risk-online-how-ar-is-transforming-beauty-shopping-7520b15c9590",
+      "title": "Reducing Risk Online: How AR is Transforming Beauty Shopping",
+      "snippet": ""
+    },
+    {
+      "url": "https://fiveable.me/key-terms/e-commerce-strategies/sephora-virtual-artist",
+      "title": "Sephora Virtual Artist - Vocab, Definition, and Must Know Facts | Fiveable",
+      "snippet": ""
+    },
+    {
+      "url": "https://phoneky.co.uk/android/?id=d1d298967",
+      "title": "Ulta Beauty: Makeup & Skincare Android App APK (com.ulta) by ULTA - Download on PHONEKY",
+      "snippet": ""
+    },
+    {
+      "url": "http://ulta.andro.io/es",
+      "title": "Ulta Beauty: Shop Makeup, Skin, Hair & Perfume",
+      "snippet": ""
+    },
+    {
+      "url": "https://phoneky.com/android/?id=d1d298967",
+      "title": "Ulta Beauty: Makeup & Skincare Android App APK (com.ulta) by ULTA - Download on PHONEKY",
+      "snippet": ""
+    },
+    {
+      "url": "https://th.phoneky.com/iphone/?id=n1n220262",
+      "title": "Ulta Beauty Makeup  Skincare iPhone แอป โดย Ulta Salon, Cosmetics & Fragrance, Inc - ดาวน์โหลดบน PHONEKY",
+      "snippet": ""
+    },
+    {
+      "url": "https://ulta-beauty.gr.aptoide.com/app",
+      "title": "Ulta Beauty - Λήψη APK για Android | Aptoide",
+      "snippet": ""
+    },
+    {
+      "url": "https://ulta-beauty.ua.aptoide.com/app",
+      "title": "Ulta Beauty - Завантажити APK для Android",
+      "snippet": ""
+    },
+    {
+      "url": "https://anderbot.com/vn/ios/ulta-beauty-makeup-skincare/",
+      "title": "Ulta Beauty: Makeup & Skincare Tải miễn phí cho iPhone/iPad",
+      "snippet": ""
+    },
+    {
+      "url": "http://ulta-beauty.appstor.io//zh",
+      "title": "Ulta Beauty: Makeup & Skincare 的 iPhone 应用程序 - 下载的iOS从  Ulta Salon, Cosmetics & Fragrance, Inc",
+      "snippet": ""
+    },
+    {
+      "url": "https://technologistmag.com/ulta-promo-codes-up-to-20-off-in-october-2026/",
+      "title": "Ulta Promo Codes: Up to 20% Off in October 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.cnbeautybay.com/news/makeup-market-research-which-categories-offer-the-best-repeat-purchase-potential.html",
+      "title": "Makeup Market Research: Which Categories Offer the Best Repeat-Purchase Potential?",
+      "snippet": ""
+    },
+    {
+      "url": "https://marketintelo.com/report/eyebrow-products-market",
+      "title": "Eyebrow Products Market Research Report 2034",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.bonafideresearch.com/product/230418976/middle-east-and-africa-color-cosmetics-market",
+      "title": "Middle East & Africa Color Cosmetics Market Outlook, 2031",
+      "snippet": ""
+    },
+    {
+      "url": "https://dataintelo.com/report/beauty-care-products-market",
+      "title": "Beauty Care Products Market",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.marketresearch.com/Bonafide-Research-Marketing-Pvt-Ltd-v4230/Middle-East-Africa-Paints-Coatings-43816866/",
+      "title": "Middle East & Africa Paints & Coatings Market Outlook, 2031",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.bonafideresearch.com/product/230699996/middle-east-and-africa-paints-and-coatings-market",
+      "title": "Middle East & Africa Paints & Coatings Market Outlook, 2031",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.actualmarketresearch.com/product/middle-east-and-africa-color-cosmetics-market",
+      "title": "Middle East & Africa Color Cosmetics Market Outlook, 2031",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.marketresearch.com/Bonafide-Research-Marketing-Pvt-Ltd-v4230/Middle-East-Africa-Color-Cosmetics-43816443/",
+      "title": "Middle East & Africa Color Cosmetics Market Outlook, 2031",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.emergenresearch.com/industry-report/mascara-market?srsltid=AfmBOoqCRNwVXkUSN0Wh2cck5yt1nKU79QE9NZ1n1_14iFm8VfQd0Dax",
+      "title": "Mascara Market Size, Share & Trends | Industry Report 2035",
+      "snippet": ""
+    },
+    {
+      "url": "https://pmarketresearch.com/worldwide-hair-preparation-market-research-2024-by-type-application-participants-and-countries-forecast-to-2030/",
+      "title": "Worldwide Hair Preparation Market Research Report 2026, Forecast to 2032 – PW Consulting",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405844024083166",
+      "title": "Factors affecting consumers’ repurchase intention toward skin care cosmetics: A cross - sectional study in Vietnam - ScienceDirect",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/eye-makeup-trends-2026",
+      "title": "Eye Makeup Trends 2026: What's Next?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.knowde.com/b/technologies-cosmetic-ingredients-functionals-emulsifiers-solubilizers/f/f_labeling-claims-clean-at-sephora/products/7",
+      "title": "Emulsifiers, Solubilizers & Dispersants - Functionals - Cosmetic Ingredients - Knowde - 7",
+      "snippet": ""
+    },
+    {
+      "url": "https://goldn.com/blog/posts/understanding-retailer-labels-for-clean-and-green-cosmetics/",
+      "title": "Understanding Retailer Labels for Clean and Green Cosmetics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.knowde.com/stores/tinci-materials/products?filters=labeling-claims-clean-at-sephora&category=technologies-cosmetic-ingredients-cosmetic-actives",
+      "title": "Cosmetic Actives - Cosmetic Ingredients - Tinci Materials - Knowde",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.knowde.com/stores/artec-chemical-group/products?filters=labeling-claims-ulta-beauty-s-conscious-beauty&category=technologies-cosmetic-ingredients",
+      "title": "Cosmetic Ingredients - Artec Chemical Group - Knowde",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautymatter.com/articles/ulta-reinforces-commitment-to-conscious-beauty",
+      "title": "| BeautyMatter",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.knowde.com/stores/carrubba-inc/products?filters=labeling-claims-clean-at-sephora&category=technologies-cosmetic-ingredients-functionals",
+      "title": "Functionals - Cosmetic Ingredients - Carrubba, Inc. - Knowde",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.knowde.com/stores/protameen-chemicals/products?filters=labeling-claims-clean-at-sephora&category=technologies-cosmetic-ingredients-surfactants-cleansers",
+      "title": "Surfactants & Cleansers - Cosmetic Ingredients - Protameen Chemicals - Knowde",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.knowde.com/stores/alzo-international-inc/products?filters=labeling-claims-clean-at-sephora&category=technologies-cosmetic-ingredients-functionals-rheology-modifiers",
+      "title": "Rheology Modifiers - Functionals - Cosmetic Ingredients - ALZO International Inc. - Knowde",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.knowde.com/stores/alzo-international-inc/products?category=technologies-cosmetic-ingredients-functionals-visual-modifiers&filters=labeling-claims-clean-at-sephora",
+      "title": "Visual Modifiers - Functionals - Cosmetic Ingredients - ALZO International Inc. - Knowde",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.knowde.com/stores/carrubba-inc/products?filters=labeling-claims-clean-at-sephora&category=technologies-cosmetic-ingredients&page=5",
+      "title": "Cosmetic Ingredients - Carrubba, Inc. - Knowde - 5",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.knowde.com/stores/protameen-chemicals/products?filters=labeling-claims-clean-at-sephora&category=technologies-cosmetic-ingredients-functionals-conditioners",
+      "title": "Conditioners & Emollients - Functionals - Cosmetic Ingredients - Protameen Chemicals - Knowde",
+      "snippet": ""
+    },
+    {
+      "url": "https://foodgressing.com/sephora-sale-vib-fall-2026-savings-event-code-levels/",
+      "title": "Sephora Sale VIB Fall 2026: Savings Event – Code, Levels",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.price-scout.app/blog/sephora-beauty-insider-guide",
+      "title": "Sephora Beauty Insider Guide: Tiers, Points and Value | Price Scout",
+      "snippet": ""
+    },
+    {
+      "url": "https://hotlineskin.substack.com/p/the-big-sephora-savings-event-post",
+      "title": "The Big Sephora Savings Event Post 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.trendsicle.com/sales/sephora-beauty-insider-tiers/",
+      "title": "Sephora Beauty Insider Tiers 2026: VIB, Rouge & Reset Date",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.retailmenot.com/view/sephora.com?c=9184641",
+      "title": "Sephora Promo Codes - 20% off Code - November 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.99minds.io/blog/sephoras-beauty-insider/",
+      "title": "Sephora Beauty Insider: How the Loyalty Program Works in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautydealsbff.com/sephora-fall-savings-event-2026-rouge-members-20-off/",
+      "title": "Sephora Fall Savings Event 2026 Rouge Members 20% OFF",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.under30ceo.com/sephora-rouge-benefits/",
+      "title": "Sephora Rouge Benefits: Complete Guide",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/beauty/loyalty-program?icid2=customer_service_about_bifaq-points-kohls",
+      "title": "About Beauty Insider Loyalty Program | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://thefreebieguy.com/sephora-savings-event/",
+      "title": "Sephora Savings Event Live Now | Rare Savings on Prestige Beauty!",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautydealsbff.com/sephora-rouge-exclusive-free-beauty-bag-with-150-purchase/",
+      "title": "Sephora Rouge Exclusive FREE Beauty Bag with $150 purchase",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://pr.holladayjournal.com/article/Is-Your-Brand-Really-Worth-It-Beauty-Shoppers-Want-Proof-New-Report-Finds/6ae1f2b1282cc2aea3185144",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.theconsumercollective.co/insights",
+      "title": "Insights | Consumer Collective",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.promarketer.ca/post/skincare-trends-2026",
+      "title": "Skincare Trends 2026",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.mckinsey.com/de/~/media/mckinsey/locations/europe%20and%20middle%20east/deutschland/news/presse/2026/2026-07-27%20state%20of%20beauty/from-aisle-to-algorithm.pdf",
+      "title": "Consumer Packaged Goods Practice",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.iwaymagazine.com/blogs/beauty/tagged/skin-cycling",
+      "title": "Beauty – Etiquetado \"skin cycling\" – iWay Magazine",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.iwaymagazine.com/blogs/beauty/skinimalism-in-2026-how-less-is-more-for-skin-barrier-health",
+      "title": "Skinimalism in 2026: How Less Is More for Skin Barrier Health",
+      "snippet": ""
+    },
+    {
+      "url": "https://yourlifestylegirl.com/category/beauty/hair-care/page/2/",
+      "title": "Hair Care - Page 2 of 20 - Yourlifestylegirl",
+      "snippet": ""
+    },
+    {
+      "url": "https://newsletters.looklook.app/api/v1/file/810cc926-bf53-4daa-8bdb-c80760bb505c.pdf",
+      "title": "January 2026 BeautyVerse Momentum Tracker",
+      "snippet": ""
+    },
+    {
+      "url": "https://adindex.ru/publication/analitics/search/343583/img/NIQ-State-of-Beauty-2026.pdf",
+      "title": "Beauty Goes Digital",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/wp-content/uploads/2026/06/2026-Global-Health-Beauty-Pulse.pdf",
+      "title": "Health & Beauty Pulse 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://tfl-web-staging-craftassetsbucket-vkcfwvra.s3.eu-west-2.amazonaws.com/Media/future-forecast-2026_2026-09-10-133007_hlvy.pdf",
+      "title": "F u t ure",
+      "snippet": ""
+    }
+  ],
+  "inline_citations": [
+    {
+      "url": "https://www.ulta.com/guestservices/ways-to-shop/replenish-and-save",
+      "title": "Ulta Beauty Replenish & Save | Auto-Replenishment & Savings"
+    },
+    {
+      "url": "https://news.alphastreet.com/ulta-beauty-inc-ulta-q4-2025-earnings-call-transcript/",
+      "title": "Ulta Beauty, Inc (ULTA) Q4 2025 Earnings Call Transcript - Alphastreet"
+    },
+    {
+      "url": "https://joy.so/blog/sephora-loyalty-program/",
+      "title": "Sephora Loyalty Program: Beauty Insider Breakdown"
+    }
+  ],
+  "citation_method": "inline_links",
+  "citation_map": [],
+  "usage": {
+    "input_tokens": 865224,
+    "input_tokens_details": {
+      "cached_tokens": 702601
+    },
+    "output_tokens": 10925,
+    "output_tokens_details": {
+      "reasoning_tokens": 3904
+    },
+    "total_tokens": 876149
+  }
+}

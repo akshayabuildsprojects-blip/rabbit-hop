@@ -1,0 +1,929 @@
+{
+  "persona_id": "luxury",
+  "research_date": "2026-11-03",
+  "performed_at": "2026-11-03T19:23:22.378Z",
+  "model": "muse-spark-1.3",
+  "response_id": "resp_6aea34aa08c6297cf06340a8",
+  "web_search_calls": 22,
+  "report_text": "Mapping your luxury shopper's prestige journey at Sephora and Ulta — verifying site tools and evidence.\n\nI've gathered initial signals on loyalty programs, try-on tools, and prestige trends — now pulling exact sources to finalize your profile.\n\nI've confirmed the core loyalty and discovery features — now checking the last prestige assortment details to complete the comparison.\n\n## 1. Sephora: site features and shopping tools\n- **[Retailer-specific]** Beauty Insider is the free US rewards program with three spend tiers: Insider, VIB at $350/year and Rouge at $1,000/year, earning 1 point per dollar on Sephora merchandise including Sephora at Kohl's and linked delivery partners. ([About Beauty Insider Loyalty Program | Sephora](https://www.sephora.com/beauty/loyalty-program))\n- **[Retailer-specific]** Beauty Insider Cash lets all members redeem 500 points for $10 off on qualifying $10+ purchases in-store and online, once per transaction. ([About Beauty Insider Loyalty Program | Sephora](https://www.sephora.com/beauty/loyalty-program))\n- **[Retailer-specific]** Rewards Bazaar offers Rewards from 50 to 100,000 points, typically described as deluxe samples, bundles or experiences, with 100-point deluxe-size samples and online three-for-250 offers and new rewards added Tuesdays and Thursdays. ([About Beauty Insider Loyalty Program | Sephora](https://www.sephora.com/beauty/loyalty-program))\n- **[Retailer-specific]** Trending Products page curates what is taking social media by storm across makeup, skincare, fragrance and haircare, providing a prestige-filtered launch and virality entry point. ([Trending Products | Sephora](https://www.sephora.com/buy/trending-products))\n- **[Retailer-specific]** Site merchandising flags ONLY AT SEPHORA, NEW and LIMITED EDITION, including Sephora Favorites sampler and value sets, supporting curated discovery of exclusives and limited releases. ([Trending Products | Sephora](https://www.sephora.com/buy/trending-products))\n- **[Inference]** For this persona, Bazaar deluxe samples and choose-with-order samples function as low-risk trial for texture, finish and scent before committing to full-size prestige, consistent with high research_depth (0.80) and prestige_priority (0.90).\n\n## 2. Ulta Beauty: site features and shopping tools\n- **[Retailer-specific]** Ulta Beauty Rewards is free with three tiers: Member free, Platinum at $500/year and Diamond at $1,200/year, earning 1, 1.25 and 1.5 points per $1 respectively, with points never expiring for Platinum/Diamond. ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n- **[Retailer-specific]** Points redeem for dollars-off starting at 100 points = $3.00 up to 2,000 points = $125.00, usable on qualifying products and beauty services in-store and at checkout online. ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n- **[Retailer-specific]** Program includes birthday perks including 2X points month and choice of birthday gift, plus $10 coupon for Platinum/Diamond, $25 off beauty service and full-size gift and free shipping $25+ for Diamond. ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n- **[Retailer-specific]** Diamond includes early access to new product launches and exclusive deals, gifts and early access for Platinum/Diamond, relevant to limited-edition urgency. ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n- **[Retailer-specific]** Ulta positions prestige discovery via Global Beauty and prestige assortment expansion, exemplified by Japanese prestige brand DECORTÉ launching its Liposome collection in 400 stores building on Ulta.com presence and citing sensorial experience and heritage. ([DECORTÉ Announces Partnership with Ulta Beauty, Bringing Its Signature Liposome Skincare to Select Stores Nationwide](https://www.prnewswire.com/news-releases/decorte-announces-partnership-with-ulta-beauty-bringing-its-signature-liposome-skincare-to-select-stores-nationwide-302925877.html))\n- **[Inference]** No verified evidence was found in searched sources for Ulta review-filter design, shade-finder accuracy or sampling specifics, so those tools are not listed as verified for this persona.\n\n## 3. Retailer-specific evidence on how shoppers discover, evaluate and buy\n- **[General beauty retail]** Globally reviews and ratings are the top purchase influence with nearly half relying on them, plus friends/family, in-store testing and search engines, and US shoppers browse an average of 19 makeup and 12 fragrance products before purchase. ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/))\n- **[General beauty retail]** Only 34% rarely switch brands and up to 53% of purchases come from a brand not purchased in prior 12 months, with discovery strongest in the US, and shoppers discover more brands when browsing across multiple retailers. ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/))\n- **[General beauty retail]** Detailed product descriptions, authentic reviews and clear benefits help shoppers decide, and stronger product content also feeds AI-assisted discovery where 38% use AI and 57% of those say AI recommendations influence purchase. ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/))\n- **[General beauty retail]** In prestige beauty, experience, design and emotional connection are part of the purchase equation, but luxury positioning alone is insufficient and pricing must be justified by formulation quality, performance outcomes or cultural relevance. ([How Sophisticated Are Beauty Shoppers About Price And Value?](https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/))\n- **[General beauty retail]** Shoppers have learned high price does not guarantee high quality, cited as top frustration, and evaluate Will this work for my needs first, then secondary factors like price, with benefit-aligned ingredients, packaging/design and creator validation as proof points. ([How Sophisticated Are Beauty Shoppers About Price And Value?](https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/))\n- **[Retailer-specific]** Sephora and Ulta both monetize discovery through loyalty visibility: Sephora ties VIB/Rouge status and Bazaar access to annual spend, while Ulta ties accelerated earn and early access to Platinum/Diamond spend, reinforcing multi-retailer browsing to stay in consideration. ([About Beauty Insider Loyalty Program | Sephora](https://www.sephora.com/beauty/loyalty-program)) ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n\n## 4. How this persona's traits show up at Sephora\n- **[Inference]** Curated discovery: with novelty_seeking 0.55 and trend_sensitivity 0.40, she browses Trending Products and ONLY AT SEPHORA / LIMITED EDITION edits to filter mass virality for prestige relevance, rather than following every viral item. ([Trending Products | Sephora](https://www.sephora.com/buy/trending-products))\n- **[Inference]** Deep evaluation (research_depth 0.80): she completes multi-signal check — description and claimed benefits, multiple detailed reviews, comparison of several prestige alternatives, plus expert/sensory evidence — before purchase feels justified, consistent with browsing ~19 products pre-purchase behavior. ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/))\n- **[Retailer-specific]** Scenario A/C behavior: for $65 vs $35 foundation or limited edition with few reviews, she does not choose on price or scarcity alone; she compares formulation, finish, sensory evidence and performance proof in descriptions and reviews and intensifies investigation for shade/texture/artist validation, delaying if corroboration is missing. ([How Sophisticated Are Beauty Shoppers About Price And Value?](https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/)) ([Trending Products | Sephora](https://www.sephora.com/buy/trending-products))\n- **[Inference]** Scenario D: viral affordable blush vs premium MUA-recommended blush — with influencer_trust 0.45 she considers viral only if corroborated by professional/editorial/detailed-review evidence on finish and wear; otherwise retains premium shortlist. Evidence-supported that social proof aids justification, hypothetical in exact threshold.\n- **[Retailer-specific]** Scenario B/E: established luxury lipstick vs emerging innovative formula, and elegant expensive skincare vs cheaper stronger-performance option — she shortlists both, favors emerging/cheaper only if superior craft/desirability/experience is shown, otherwise rejects expensive option that fails quality/desirability advantage. ([How Sophisticated Are Beauty Shoppers About Price And Value?](https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/))\n- **[Retailer-specific]** Trial and confidence: she uses Rewards Bazaar deluxe samples and Beauty Insider Cash / Rouge $100 reward mechanics to test and to justify prestige spend, preferring rewarding, inspiring journey over convenience (convenience_priority 0.35). ([About Beauty Insider Loyalty Program | Sephora](https://www.sephora.com/beauty/loyalty-program))\n\n## 5. How this persona's traits show up at Ulta Beauty\n- **[Inference]** Multi-retailer prestige hunting: with brand_loyalty 0.45 she remains open to established and emerging prestige, using Ulta's prestige/Global Beauty assortment to compare premium-to-premium on quality, desirability, reputation and experience. ([DECORTÉ Announces Partnership with Ulta Beauty, Bringing Its Signature Liposome Skincare to Select Stores Nationwide](https://www.prnewswire.com/news-releases/decorte-announces-partnership-with-ulta-beauty-bringing-its-signature-liposome-skincare-to-select-stores-nationwide-302925877.html))\n- **[Retailer-specific]** Value justification not discount chasing: with price_sensitivity 0.35 and product_quality_priority 0.90, she treats Ulta's $3–$125 redemption ladder and 1–1.5x earn as confidence-building benefit, not reason to trade down to non-prestige; under budget she buys fewer items, one hero or mini/trial size. ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n- **[General beauty retail]** Packaging/sensory check: unboxing, design and sensorial textures shape perceived quality, but she deprioritizes attractive packaging if functionality evidence (application, wear, flaws) is negative, requiring performance proof first. ([How Sophisticated Are Beauty Shoppers About Price And Value?](https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/))\n- **[Inference]** Heritage vs innovation: she treats heritage as tie-breaker only after comparing formulation, texture, finish and reputation; innovative prestige wins only with stronger credible performance/experience proof — evidence-supported principle, hypothetical in weighting.\n- **[Retailer-specific]** Exclusivity discipline (impulse 0.35): Diamond early access and exclusive gifts create urgency, but she requires at least basic performance/sensory corroboration before valuing exclusivity, otherwise investigates or defers. ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n- **[Inference]** Scenario E at Ulta: elegant expensive skincare vs cheaper stronger-evidence option — she rejects premium if $ premium shows no meaningful sensory/performance advantage, consistent with high price ≠ high quality learning. Hypothetical in store-specific execution.\n\n## 6. Sephora versus Ulta Beauty for this persona\n- **[Retailer-specific]** Curation signal: Sephora's verified ONLY AT SEPHORA / LIMITED EDITION / Trending merchandising maps more directly to her prestige-launch filter than Ulta's verified strengths in tiered dollars-off and prestige expansion via Global Beauty. ([Trending Products | Sephora](https://www.sephora.com/buy/trending-products)) ([DECORTÉ Announces Partnership with Ulta Beauty, Bringing Its Signature Liposome Skincare to Select Stores Nationwide](https://www.prnewswire.com/news-releases/decorte-announces-partnership-with-ulta-beauty-bringing-its-signature-liposome-skincare-to-select-stores-nationwide-302925877.html))\n- **[Retailer-specific]** Rewards psychology: Sephora rewards with samples/experiences and $10 Cash / $100 Rouge Reward; Ulta rewards with direct dollars-off ladder and beauty-service credit, the former better matching indulgent experience, the latter better for mixed-basket value while staying prestige. ([About Beauty Insider Loyalty Program | Sephora](https://www.sephora.com/beauty/loyalty-program)) ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n- **[Inference]** Where she buys: she prefers the source offering more rewarding, inspiring and confidence-building journey with sampling/returns support over convenience or price alone, so Sephora edges for exclusive discovery rituals, Ulta for prestige-plus-service and early access. Hypothetical, to be tested in simulation.\n- **[General beauty retail]** Both benefit from her cross-retailer comparison habit, since shoppers browsing multiple sites discover more brands and evaluate more items before checkout. ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/))\n- **[Inference]** Versus adjacent personas: unlike Trend-Driven she filters virality through MUA/editorial curation; unlike Sensitive-Skin/Time-Constrained quality means finish, texture and craft not tolerability/ease; unlike Price-Sensitive she weighs desirability/experience against price not cost-per-use. Hypothetical distinctions for simulation.\n\n## 7. Evidence quality and gaps\n- **[General beauty retail]** Strong general evidence on research-driven prestige evaluation, price justification and emotional/experiential value from trade press and 4,500+ shopper survey, but not Sephora/Ulta-split. ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)) ([How Sophisticated Are Beauty Shoppers About Price And Value?](https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/))\n- **[Retailer-specific]** Verified retailer evidence limited to loyalty terms and Sephora trending/exclusivity flags and one Ulta prestige partnership; no verified US retailer-specific data found on review-filter use, try-on conversion, or MUA recommendation placement. ([About Beauty Insider Loyalty Program | Sephora](https://www.sephora.com/beauty/loyalty-program)) ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n- **[Inference]** No credible US source verified exact return windows, free-sample quantities, or mini/deluxe trial assortments in this search, so sampling/shade-match/return tactics are modeled as investigation needs, not listed as guaranteed features.\n- **[Inference]** Willingness-to-pay premiums for packaging/exclusivity is supported as directional insight but specific uplift rates and dupe-equivalence thresholds were not verified; do not hard-code statistics in simulation.\n- **[Inference]** All decision-rule weightings linking scores (e.g., research_depth 0.80 requiring multi-signal check, prestige_priority 0.90 overriding convenience) are hypotheses to test, not empirical findings, and should be varied under restricted budget missions.",
+  "annotations": [],
+  "sources": [
+    {
+      "url": "https://www.sephora.com/beauty/loyalty-program",
+      "title": "About Beauty Insider Loyalty Program | Sephora"
+    },
+    {
+      "url": "https://www.sephora.com/buy/trending-products",
+      "title": "Trending Products | Sephora"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/decorte-announces-partnership-with-ulta-beauty-bringing-its-signature-liposome-skincare-to-select-stores-nationwide-302925877.html",
+      "title": "DECORTÉ Announces Partnership with Ulta Beauty, Bringing Its Signature Liposome Skincare to Select Stores Nationwide"
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know"
+    },
+    {
+      "url": "https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/",
+      "title": "How Sophisticated Are Beauty Shoppers About Price And Value?"
+    }
+  ],
+  "considered_results": [
+    {
+      "url": "https://www.99minds.io/blog/sephoras-beauty-insider/",
+      "title": "Sephora Beauty Insider: How the Loyalty Program Works in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/beauty/loyalty-program",
+      "title": "About Beauty Insider Loyalty Program | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/about-beauty-insider?icid2=alltiers-050219-lp-desktop-image-02-ufe",
+      "title": "Beauty Insider | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.rakuten.com/blog/7-proven-ways-to-maximize-sephora-rewards-in-2026/",
+      "title": "7 Proven Ways to Maximize Sephora Rewards in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://lji.io/guides/ulta-vs-sephora",
+      "title": "Ulta vs Sephora: Rewards, Tiers and Perks Compared (2026)",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.price-scout.app/blog/sephora-beauty-insider-guide",
+      "title": "Sephora Beauty Insider Guide: Tiers, Points and Value | Price Scout",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.groupon.com/coupons/blog/sephora-beauty-insider-rewards?srsltid=AfmBOoriHj6ZVpdjvpWjQQ1WfpsZ-w8d4RiumnvtzQ9CidT2bX0g_FK2",
+      "title": "Sephora Beauty Insider Rewards Program",
+      "snippet": ""
+    },
+    {
+      "url": "https://thepointsguy.com/loyalty-programs/sephora-beauty-insider",
+      "title": "Sephora Beauty Insider, explained: Is Rouge status worth it?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.thepointcalculator.com/us/sephora-rewards-points/",
+      "title": "Sephora Rewards Guide: How to Earn & Redeem Points",
+      "snippet": ""
+    },
+    {
+      "url": "https://discover.shopback.com/stores/sephora",
+      "title": "Cheapest way to buy from Sephora in the US (2026)",
+      "snippet": ""
+    },
+    {
+      "url": "https://loyally.ai/blog/posts/what-is-sephoras-beauty-insider-loyalty-program-and-how-does-it-work",
+      "title": "What is Sephora's Beauty Insider Loyalty Program and How Does It Work",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/rewards/all?ref=blog.giift.com&srsltid=AfmBOoqqAs6ACQhNuIyJvw2TBk2IOaYkNOje9KOVsC4AZcLs_H7GHzVv",
+      "title": "Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.groupon.com/coupons/blog/ultamate-ulta-rewards",
+      "title": "Ulta Rewards: How to Sign Up & Save",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.groupon.com/coupons/blog/ulta-beauty-credit-card",
+      "title": "Ulta Credit Card: Earn Points & Save on Beauty Supplies",
+      "snippet": ""
+    },
+    {
+      "url": "https://trustedbuyerreport.com/blog/ulta-beauty-vs-sephora-2026-review",
+      "title": "Ulta Beauty vs Sephora 2026: Which Is Better?",
+      "snippet": ""
+    },
+    {
+      "url": "https://joy.so/blog/ulta-loyalty-program/",
+      "title": "Ulta Loyalty Program: The Strategy Behind 95% Sales",
+      "snippet": ""
+    },
+    {
+      "url": "https://stackable.deals/retailers/ulta",
+      "title": "The Best Way to Buy at Ulta in 2026 | Stackable",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.myhubble.money/blogs/ulta-beauty-rewards---digital-transformation-and-loyalty-rewards-flywheel",
+      "title": "Ulta Beauty Rewards: Digital Transformation and Loyalty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mypoints.com/shop-by-brand/UltaCom?coupon=1691443470",
+      "title": "Best ULTA Beauty Coupons, Promo Codes, Coupons & Free Shipping Deals 11/3/2026, 3:43:59 AM 2026.",
+      "snippet": ""
+    },
+    {
+      "url": "https://hr-consultancy.vwv.co.uk/guide-ulta-credit-cards-2026-bo8y.html",
+      "title": "The Ultimate Guide To Ulta Credit Cards In 2026: Rewards, Perks, And Financial Evaluation",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mageloyalty.com/blog/ulta-beauty-rewards-program",
+      "title": "Ulta Beauty Rewards: Points Value, Tiers and Expiry",
+      "snippet": ""
+    },
+    {
+      "url": "https://businessmodelanalyst.com/ulta-beauty-target-market/",
+      "title": "Ulta Beauty Target Market: Who Actually Shops There (2026)",
+      "snippet": ""
+    },
+    {
+      "url": "https://rebatekey.com/blog/unlock-your-rewards-which-loyalty-program-right-you/",
+      "title": "Unlock Your Rewards: Which Loyalty Program is Right for You?",
+      "snippet": ""
+    },
+    {
+      "url": "http://apenaut.me/virtual-library/9NPgoq/06Z722/sephora__color__matching.pdf",
+      "title": "Sephora Color Matching",
+      "snippet": ""
+    },
+    {
+      "url": "http://edapikepa.org/scholarship/9NPgoq/06Z722/SephoraColorMatching.pdf",
+      "title": "Sephora Color Matching",
+      "snippet": ""
+    },
+    {
+      "url": "https://msd.bcinewmedia.com/fulldisplay/9NPgoq/06Z722/sephora-color__matching.pdf",
+      "title": "Sephora Color Matching",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.viaapk.com/app/com.sephora",
+      "title": "Sephora: Buy Makeup & Skincare - Free APK Download - ViaAPK",
+      "snippet": ""
+    },
+    {
+      "url": "https://study.arid.my/browse/9NPgoq/06Z722/SephoraColorMatching.pdf",
+      "title": "Sephora Color Matching",
+      "snippet": ""
+    },
+    {
+      "url": "http://edapikepa.org/fulldisplay/9NPgoq/06Z722/SephoraColorMatching.pdf",
+      "title": "Sephora Color Matching",
+      "snippet": ""
+    },
+    {
+      "url": "https://necolebitchie.com/does-sephora-offer-makeup-matching-services/",
+      "title": "Does Sephora Offer Makeup Matching Services?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.basedlabs.ai/tools/sephora-virtual-try-on",
+      "title": "sephora virtual try on",
+      "snippet": ""
+    },
+    {
+      "url": "https://sephora-beauty-shop.mileapps.com/",
+      "title": "Sephora: Buy Makeup & Skincare Download - Mileapps",
+      "snippet": ""
+    },
+    {
+      "url": "https://sephora-beauty-shopping.en.uptodown.com/android",
+      "title": "SEPHORA - Beauty Shopping",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.appbrain.com/app/sephora-beauty-shopping/com.sephora.digital",
+      "title": "SEPHORA - Beauty Shopping",
+      "snippet": ""
+    },
+    {
+      "url": "http://ulta.andro.io/es",
+      "title": "Ulta Beauty: Shop Makeup, Skin, Hair & Perfume",
+      "snippet": ""
+    },
+    {
+      "url": "https://th.phoneky.com/iphone/?id=n1n220262",
+      "title": "Ulta Beauty Makeup  Skincare iPhone แอป โดย Ulta Salon, Cosmetics & Fragrance, Inc - ดาวน์โหลดบน PHONEKY",
+      "snippet": ""
+    },
+    {
+      "url": "https://ulta-beauty.nl.aptoide.com/app",
+      "title": "Ulta Beauty - APK voor Android downloaden",
+      "snippet": ""
+    },
+    {
+      "url": "https://anderbot.com/vn/ios/ulta-beauty-makeup-skincare/",
+      "title": "Ulta Beauty: Makeup & Skincare Tải miễn phí cho iPhone/iPad",
+      "snippet": ""
+    },
+    {
+      "url": "https://cn.phoneky.com/iphone/?id=n1n220262",
+      "title": "Ulta Beauty Makeup  Skincare iPhone 应用程序 由Ulta Salon, Cosmetics & Fragrance, Inc - 在PHONEKY上下载",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.appbrain.com/app/ulta-beauty-makeup-skincare/com.ulta",
+      "title": "Ulta Beauty: Makeup & Skincare for Android - Free",
+      "snippet": ""
+    },
+    {
+      "url": "https://onlinetechguru.co.uk/ulta-promo-codes-up-to-20-off-in-october-2026/",
+      "title": "Ulta Promo Codes: Up to 20% Off in October 2026",
+      "snippet": ""
+    },
+    {
+      "url": "http://ulta-beauty.appstor.io//zh",
+      "title": "Ulta Beauty: Makeup & Skincare 的 iPhone 应用程序 - 下载的iOS从  Ulta Salon, Cosmetics & Fragrance, Inc",
+      "snippet": ""
+    },
+    {
+      "url": "https://technologistmag.com/ulta-promo-codes-up-to-20-off-in-october-2026/",
+      "title": "Ulta Promo Codes: Up to 20% Off in October 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-makeup-stores/reviews/sephora",
+      "title": "Sephora Review for November 2026 | Best Makeup Stores",
+      "snippet": ""
+    },
+    {
+      "url": "https://nz.trustpilot.com/review/www.sephora.com?page=6",
+      "title": "Sephora Reviews | Read Customer Service Reviews of www.sephora.com | 6 of 88",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mywot.com/scorecard/sephora.com/false",
+      "title": "Is sephora.com Safe? sephora Reviews & Safety Check | WOT",
+      "snippet": ""
+    },
+    {
+      "url": "https://realreviews.io/reviews/sephora.com?redis=1",
+      "title": "Sephora.com Reviews – Legit & Reliable or Scam? 23 Verified Ratings",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-beauty-stores/reviews/sephora",
+      "title": "Sephora Review for November 2026 | Best Beauty Stores",
+      "snippet": ""
+    },
+    {
+      "url": "https://app.wanderlog.com/place/details/479431/sephora",
+      "title": "SEPHORA, San Jose, CA - Reviews, Ratings, Tips and Why You Should Go – Wanderlog",
+      "snippet": ""
+    },
+    {
+      "url": "https://Wanderlog.com/place/details/1813652/sephora",
+      "title": "SEPHORA, Palm Springs, CA - Reviews, Ratings, Tips and Why You Should Go – Wanderlog",
+      "snippet": ""
+    },
+    {
+      "url": "https://wanderlog.com/place/details/8207936/sephora",
+      "title": "SEPHORA, Kissimmee, FL - Reviews, Ratings, Tips and Why You Should Go – Wanderlog",
+      "snippet": ""
+    },
+    {
+      "url": "https://extensionembed.wanderlog.com/place/details/8544344/sephora",
+      "title": "SEPHORA, Hollywood, FL - Reviews, Ratings, Tips and Why You Should Go – Wanderlog",
+      "snippet": ""
+    },
+    {
+      "url": "https://extensionembed.wanderlog.com/place/details/47924/sephora",
+      "title": "SEPHORA, Boston, MA - Reviews, Ratings, Tips and Why You Should Go – Wanderlog",
+      "snippet": ""
+    },
+    {
+      "url": "https://Wanderlog.com/place/details/4003517/sephora",
+      "title": "SEPHORA, Toronto, ON - Reviews, Ratings, Tips and Why You Should Go – Wanderlog",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-perfume-stores/reviews/ulta.php",
+      "title": "Ulta Review for November 2026 | Best Perfume Stores",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-hair-care-products/reviews/ulta.php",
+      "title": "Ulta Review for November 2026 | Best Hair Care Products",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-makeup-stores/reviews/ulta.php",
+      "title": "Ulta Review for November 2026 | Best Makeup Stores",
+      "snippet": ""
+    },
+    {
+      "url": "https://realreviews.io/reviews/ulta.com?redis=1",
+      "title": "Ulta.com Reviews – Legit & Reliable or Scam? 42 Verified Ratings",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.resellerratings.com/amp/store/ulta_com",
+      "title": "ULTA Salon, Cosmetics & Fragrance Inc. Reviews | 11 Reviews of Ulta.com | ResellerRatings",
+      "snippet": ""
+    },
+    {
+      "url": "https://nz.trustpilot.com/review/www.ulta.com?page=8",
+      "title": "Ulta Beauty Reviews | Read Customer Service Reviews of www.ulta.com | 8 of 113",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/forever-velvet-veil-makeup-primer-pimprod2060250?sku=2660719",
+      "title": "Dior -  Forever Velvet Veil Makeup Primer | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "http://ulta-beauty.appstor.io/app-reviews?page=3",
+      "title": "Ulta Beauty: Makeup & Skincare   App Reviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mywot.com/scorecard/ulta.com/false/de",
+      "title": "Is ulta.com Safe?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/jelly-gloss-lip-gel-pimprod2052912?sku=2630715&pr_rd_page=12",
+      "title": "ULTA Beauty Collection - So Plum Jelly Gloss Lip Gel | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/sculpting-brow-pencil-pimprod2007627?sku=2543402&pr_rd_page=3",
+      "title": "ULTA Beauty Collection - Medium Brown Sculpting Brow Pencil | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com.au/products/glasshouse-fragrances-gingerbread-house-soy-candle-holiday-limited-edition/v/380-g?acn=iosshareurl",
+      "title": "Sephora Australia | Sephora Australia",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com.au/products/burberry-beauty-festive-eye-palette-holiday-limited-edition/v/undefined",
+      "title": "Sephora Australia | Sephora Australia",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/buy/trending-products",
+      "title": "Trending Products | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/beauty/trending-perfume-fragrance",
+      "title": "Trending Fragrances | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://milled.com/Sephora/this-just-in-gPSWUqke3JhMsh6V",
+      "title": "🌟 THIS JUST IN 🌟",
+      "snippet": ""
+    },
+    {
+      "url": "https://Www.sephora.com.au/products/huda-beauty-lip-contour-blushed-pink-duo-limited-edition",
+      "title": "Sephora Australia | Sephora Australia",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com.au/products/hugo-boss-boss-bottled-pacific-eau-de-toilette-limited-edition/v/100ml?waitlist=249994",
+      "title": "Sephora Australia | Sephora Australia",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.glossy.co/beauty/ulta-beauty-bets-on-the-growing-scalp-care-market-with-prestige-hair-care-brand-nutrire/",
+      "title": "Ulta Beauty bets on scalp care with prestige hair-care brand Nutrire",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.webull.com/news/15470779526562816",
+      "title": "Ulta Beauty (ULTA) Broadens Prestige Hair Care With New Exclusive Partnerships",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/decorte-announces-partnership-with-ulta-beauty-bringing-its-signature-liposome-skincare-to-select-stores-nationwide-302925877.html",
+      "title": "DECORTÉ Announces Partnership with Ulta Beauty, Bringing Its Signature Liposome Skincare to Select Stores Nationwide",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautymatter.com/articles/ulta-beauty-beats-q2-estimates-continuing-winning-streak",
+      "title": "Ulta Beauty Beats Wall Street Expectations as Fragrance and K-Beauty Drive Growth",
+      "snippet": ""
+    },
+    {
+      "url": "https://simplywall.st/stocks/us/retail/nasdaq-ulta/ulta-beauty/news/ulta-beauty-ulta-broadens-prestige-hair-care-with-new-exclus",
+      "title": "Ulta Beauty (ULTA) Broadens Prestige Hair Care With New Exclusive Partnerships",
+      "snippet": ""
+    },
+    {
+      "url": "https://simplywall.st/stocks/us/retail/nasdaq-ulta/ulta-beauty/news/is-ulta-beauty-ulta-a-bargain-as-new-brand-launches-test-its",
+      "title": "Is Ulta Beauty (ULTA) A Bargain As New Brand Launches Test Its Valuation?",
+      "snippet": ""
+    },
+    {
+      "url": "http://ulta.com/?CAPCID=23696971110&CA_6C15C=330000200000040787&cadevice=c&cmpid=PS_Brand!google!ULTA_Brand",
+      "title": "Ulta Beauty | Makeup, Skin Care, Fragrance, Hair Care & Beauty Products",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/ultas-q1-2026-beauty-brands.html",
+      "title": "Diving into Ulta’s Q1 2026 results: Trends and opportunities for beauty brands on the horizon",
+      "snippet": ""
+    },
+    {
+      "url": "https://en.prnasia.com/releases/global/proya-partners-with-ulta-beauty-joining-the-retailer-s-prestige-skincare-portfolio-later-this-year-544570.shtml",
+      "title": "PROYA Partners with Ulta Beauty: Joining The Retailer's Prestige Skincare Portfolio Later This Year",
+      "snippet": ""
+    },
+    {
+      "url": "https://intellectia.ai/news/stock/ulta-beauty-highlights-partnership-with-rare-beauty",
+      "title": "Ulta Beauty Highlights Partnership with Rare Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/promotion/sale?category=fragrance&gn=ULTA_NESTED_CATEGORIES--Fragrance+%3E+Women%27s+Fragrance+%3E+Perfume",
+      "title": "Products On Sale | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://lifestyle.thedailyhaze.com/story/818252/proya-partners-with-ulta-beauty-joining-the-retailers-prestige-skincare-portfolio-later-this-year/",
+      "title": "PROYA Partners with Ulta Beauty: Joining The Retailer's Prestige Skincare Portfolio Later This Year | lifestyle.thedailyhaze.com",
+      "snippet": ""
+    },
+    {
+      "url": "https://virtualexhibitors.ins1.org/files/textbooks/Files/does-sephora-give-free-samples-in-store.pdf",
+      "title": "Does Sephora Give Free Samples In Store - virtualexhibitors.ins1.org",
+      "snippet": ""
+    },
+    {
+      "url": "https://reviewservice.org/en/shops/sephora/",
+      "title": "Sephora - Comprehensive Trust Assessment",
+      "snippet": ""
+    },
+    {
+      "url": "https://tare.arq.com.mx/pdf/textbook-solutions/Files:H1N4/filedownload.ashx/Does-Sephora-Give-Free-Samples-In-Store.pdf",
+      "title": "Does Sephora Give Free Samples In Store - tare.arq.com.mx",
+      "snippet": ""
+    },
+    {
+      "url": "https://fabalabse.com/futbol/how-do-you-use-sephora-at-kohls/",
+      "title": "How do you use Sephora at Kohls? Leia aqui: Can you use Sephora card at Kohl’s – Fabalabse",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.thelist.com/156228/dont-go-shopping-at-sephora-until-you-read-this/",
+      "title": "Don't Go Shopping At Sephora Until You Read This",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.morewithlesstoday.com/save-money-at-sephora/",
+      "title": "Save Money at Sephora: Discounts Promo Codes and Savings Tips",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.dealmuse.world/sephora.html",
+      "title": "Sephora Promo Codes & Discount Codes That Actually Work",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/product/deluxe-sample-set-P374626",
+      "title": "Deluxe sample set - SEPHORA COLLECTION | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.apartstyle.com/post/ulta-vs-sephora",
+      "title": "Ulta vs. Sephora: Which brand is better? [2026 updated]",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.lemon8-app.com/discover/sephora exchange?region=us",
+      "title": "46 top Sephora Exchange ideas in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.hercampus.com/school/wilfrid-laurier/sephora-hacks-everyone-should-know/",
+      "title": "Sephora Hacks Everyone Should Know",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.classicallycontemporary.com/2014/09/is-shopping-at-sephora-really-worth-it.html?m=1",
+      "title": "Is Shopping At Sephora Really Worth It?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ubuy.co.de/en/brand/ulta-beauty",
+      "title": "Buy Ulta Beauty Products Online at Best Prices in Germany | Ubuy",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ubuy.tt/hi/brand/ulta-beauty",
+      "title": "उल्ता सौंदर्य उत्पादों को Trinidad and Tobago में सर्वोत्तम मूल्य पर ऑनलाइन खरीदें |. उबुय",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ubuy.ba/en/brand/ulta-beauty",
+      "title": "Buy Ulta Beauty Products Online at Best Prices in Bosnia and Herzegovina | Ubuy",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ubuy.ee/ru/brand/ulta-beauty",
+      "title": "Купить продукты Ульта Бьюти в Интернете по лучшим ценам в Estonia |. Убуй",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ubuy.bg/ru/brand/ulta-beauty",
+      "title": "Купить продукты Ульта Бьюти в Интернете по лучшим ценам в Bulgaria |. Убуй",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.bradsdeals.com/stores/ulta?exp_deal_id=576251",
+      "title": "Brad's Deals: Ulta Discounts and Coupons - October 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.interviewarea.com/q-and-a/can-i-return-used-makeup-at-ulta",
+      "title": "Can I return used makeup at Ulta?",
+      "snippet": ""
+    },
+    {
+      "url": "https://necolebitchie.com/does-ulta-have-fragrance-samples/",
+      "title": "Does Ulta Have Fragrance Samples?",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.topfashiontrends.net/how-to-shop-ulta-beauty-15-ways-to-save/",
+      "title": "How to Shop Ulta Beauty: 15 Ways to Save",
+      "snippet": ""
+    },
+    {
+      "url": "https://necolebitchie.com/does-ulta-give-samples-of-makeup/",
+      "title": "Does Ulta Give Samples of Makeup?",
+      "snippet": ""
+    },
+    {
+      "url": "https://sephora.in/page/faqs-clean-sephora",
+      "title": "faqs clean sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://dralysia.substack.com/p/clean-beauty-is-not-just-a-label",
+      "title": "Your \"Clean Beauty Products Are Not as Clean as You Think",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.inside-sephora.com/sites/default/files/2025-10/Sephora%20Public%20Chemicals%20Policy%202023.pdf",
+      "title": "Sustainable Packaging Guide",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ecoenclose.com/resources/retailer-guide/sephora",
+      "title": "Guide to Sephora's Packaging and Sustainability Requirements | EcoEnclose",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.globalcosmeticsnews.com/sephora-creates-more-product-transparency-with-launch-of-clean-at-sephora-category/",
+      "title": "Sephora creates more product transparency with launch of Clean at Sephora category",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautyhealingorganic.com/clean-beauty-sephora-guide/",
+      "title": "The Smart Shopper's Guide to Clean Beauty at Sephora (What the Labels Don't Tell You) - Organic Skincare & Clean Beauty Guide",
+      "snippet": ""
+    },
+    {
+      "url": "https://naturesglowemporium.com/blogs/organic-lifestyle-and-wellness/sephora-clean-a-step-in-the-right-direction-or-just-a-marketing-ploy",
+      "title": "Sephora Clean: A Step in the Right Direction or Just a Marketing Ploy?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/supplier/sephora-manufacturer",
+      "title": "Sephora Manufacturer: Verified Beauty Suppliers & Products",
+      "snippet": ""
+    },
+    {
+      "url": "http://lani-loves.com/what-does-clean-at-sephora-mean/",
+      "title": "What Does “Clean at Sephora” Mean?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.craftedidea.com/the-ultimate-clean-at-sephora-list-discover-eco-friendly-beauty-products-for-2025/",
+      "title": "The Ultimate Clean at Sephora List: Discover Eco-Friendly Beauty Products for 2025",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.legal500.com/intelligence/united-states/consumer-protection/sephora-prevails-in-consumer-challenge-of-clean-at-sephora-claims",
+      "title": "Sephora Prevails In Consumer Challenge Of \"Clean At Sephora\" Claims",
+      "snippet": ""
+    },
+    {
+      "url": "https://consciousbunny.com/clean-brands-at-sephora/",
+      "title": "All 120+ Clean Brands At Sephora Who Are Seal Approved",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/",
+      "title": "How Sophisticated Are Beauty Shoppers About Price And Value?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.researchgate.net/publication/379810887_Luxury_beauty_products_purchase_behaviour_of_affluent_consumers_the_role_of_brand_consciousness_and_brand_distinctiveness_in_Zimbabwe",
+      "title": "Luxury beauty products purchase behaviour of affluent consumers: the role of brand consciousness and brand distinctiveness in Zimbabwe",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.historytools.org/consumer/why-is-sephora-so-expensive&",
+      "title": "Why Is Sephora So Expensive? (10 Reasons Why) - History Tools",
+      "snippet": ""
+    },
+    {
+      "url": "https://vocal.media/journal/why-customers-prefer-premium-beauty-brands",
+      "title": "Why Customers Prefer Premium Beauty Brands",
+      "snippet": ""
+    },
+    {
+      "url": "https://fastercapital.com/content/Makeup-pricing-model--Marketing-Makeup--How-Pricing-Models-Impact-Consumer-Behavior.html",
+      "title": "Makeup pricing model: Marketing Makeup: How Pricing Models Impact Consumer Behavior - FasterCapital",
+      "snippet": ""
+    },
+    {
+      "url": "https://bharathorizon.com/lifestyle/beauty/beauty-brands-race-upmarket-as-competition-squeezes-margins.html",
+      "title": "Beauty Revolution: Why Indian Brands Are Going Luxury",
+      "snippet": ""
+    },
+    {
+      "url": "http://fastercapital.com/content/Beauty-product-pricing--The-Psychology-of-Beauty-Product-Pricing--Why-We-Pay-What-We-Do.html",
+      "title": "Beauty product pricing: The Psychology of Beauty Product Pricing: Why We Pay What We Do",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.marketresearch.com/Mordor-Intelligence-LLP-v4018/Premium-Cosmetics-Share-Trends-Statistics-43552276/",
+      "title": "Premium Cosmetics - Market Share Analysis, Industry Trends & Statistics, Growth Forecasts (2026 - 2031)",
+      "snippet": ""
+    },
+    {
+      "url": "https://fastercapital.com/content/Beauty-product-demand--Luxury-vs--Affordable--Understanding-Consumer-Preferences-in-Beauty.html",
+      "title": "Beauty product demand: Luxury vs: Affordable: Understanding Consumer Preferences in Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautymatter.com/articles/the-new-consumer-priorities-driving-beauty-growth",
+      "title": "Beauty Consumers Prioritize Wellness, Value, and AI in 2026, Circana Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://journal.rouleur.cc/tag/ouai/feed/",
+      "title": "ouai Archives • rouleur.cc",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.rjwave.org/jaafr/papers/JAAFR2601478.pdf",
+      "title": "© 2026 JAAFR \\| Volume 4, Issue 1 January 2026 \\| ISSN: 2984-889X \\| JAAFR.ORG “The Scent of Choice - Understanding Consumer Preferences and Buying Behaviour in the",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.fashionbi.com/insights/sephora-fy2024-results-profit-surge-and-global-expansion-drive-momentum",
+      "title": "Sephora FY2024 Results: Profit Surge and Global Expansion Drive",
+      "snippet": ""
+    },
+    {
+      "url": "https://businessmodelanalyst.com/ulta-beauty-swot-analysis/?scrape=true&cacheburst=1735059012",
+      "title": "Ulta Beauty SWOT Analysis (2026)",
+      "snippet": ""
+    },
+    {
+      "url": "https://heraldwire.com/ulta-beauty-projects-weaker-6-7-sales-growth-after-profit-slips-on-rising-costs/",
+      "title": "Ulta Beauty Projects Weaker 6-7% Sales Growth After Profit Slips on Rising Costs - The Herald Wire",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.42signals.com/blog/sephora-vs-ulta-beauty-retail-war/",
+      "title": "Sephora vs Ulta: Who's Winning the Beauty Retail War?",
+      "snippet": ""
+    },
+    {
+      "url": "https://businessmodelanalyst.com/ulta-beauty-target-market/",
+      "title": "Ulta Beauty Target Market: Who Actually Shops There (2026)",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ainvest.com/news/target-ulta-empty-spaces-real-beauty-opportunity-rally-priced-2608/",
+      "title": "Target: Ulta's Empty Spaces Are A Real Beauty Opportunity That The Rally Has Already Priced",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.gcimagazine.com/brands-products/devices-tech/article/22933633/tiktok-amazon-are-rapidly-reshaping-beauty-retail-brands-need-to-be-ready",
+      "title": "TikTok & Amazon Are Rapidly Reshaping Beauty Retail. Brands Need to Be Ready.",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.beautyindependent.com/clinical-skincare-body-care-dominated-2025-online-sales-sephora-ulta-beauty/",
+      "title": "Clinical Skincare, Body Care Dominated 2025 Online Sales At Sephora And Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionista.com/2025/10/retail-partnerships-fashion-beauty-lifestyle-launchmetrics-data-2025",
+      "title": "New Report Highlights Which Fashion and Beauty Retailers Are Most Impactful as Brand Partners",
+      "snippet": ""
+    },
+    {
+      "url": "https://beauty-scale.co/articles/article-prestige-beauty-retail-s-4-2b-gap-why-bluemercury-s-moment-is-also-a-d",
+      "title": "Prestige Beauty Retail's $4.2B Gap: Why Bluemercury's Moment Is Also a Distribution Reckoning",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.morningstar.com/news/marketwatch/20251205247/the-one-thing-people-are-still-buying-beauty-products-and-ulta-just-proved-it",
+      "title": "The one thing people are still buying? Beauty products, and Ulta just proved it.",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/sephora-trending-products-2026",
+      "title": "Sephora Trending Products 2026: Skincare & K-Beauty Insights",
+      "snippet": ""
+    },
+    {
+      "url": "https://lani-loves.com/can-you-use-20forvib-in-store-at-sephora/",
+      "title": "Can You Use 20forvib In-Store at Sephora? | Lani-Loves.com",
+      "snippet": ""
+    },
+    {
+      "url": "https://necolebitchie.com/is-charlotte-tilbury-in-sephora/",
+      "title": "Is Charlotte Tilbury in Sephora?",
+      "snippet": ""
+    },
+    {
+      "url": "https://mycs-admin.myconferencesuite.com/blog/sephora-shopping-your-guide-to-scsaosc-caetano-1767647281",
+      "title": "Sephora Shopping: Your Guide To SCSAOSC Caetano",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.perfumestores.de/s/en/Sephora+Free+Perfume+Samples/10537",
+      "title": "Does Sephora Give Free Samples of Perfume?",
+      "snippet": ""
+    },
+    {
+      "url": "https://parfum.to/en/blog/how-to-get-perfume-refilled-at-sephora",
+      "title": "How To Get Perfume Refilled At Sephora: Complete Step-by-Step Guide | Luxury Parfum Blog",
+      "snippet": ""
+    },
+    {
+      "url": "https://parfum.to/en/blog/how-much-does-it-cost-to-refill-perfume-at-sephora",
+      "title": "How to How Much Does It Cost To Refill Perfume At Sephora: Complete Step-by-Step Guide | Luxury Parfum Blog",
+      "snippet": ""
+    },
+    {
+      "url": "https://necolebitchie.com/how-to-get-free-makeup-samples-from-sephora/",
+      "title": "How to Get Free Makeup Samples from Sephora?",
+      "snippet": ""
+    },
+    {
+      "url": "https://necolebitchie.com/how-to-get-free-perfume-samples-at-sephora/",
+      "title": "How to Get Free Perfume Samples at Sephora?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.latterly.org/sephora-marketing-strategy/",
+      "title": "Sephora Marketing Strategy: Beauty Insider Rewards Powering Omnichannel Growth",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.thecozyguide.com/dsr/guide-to-avoiding-overpriced-beauty-products-at-sephora",
+      "title": "Smart Shopping: Avoiding Overpriced Beauty Products at Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://imyam.com/free-sample-from-sephora/",
+      "title": "Find Out How to Receive a Free Sample from Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "http://lani-loves.com/unlocking-perks-how-to-check-if-your-local-sephora-store-offers-amazing-rewards/",
+      "title": "Unlocking Perks: How to Check if Your Local Sephora Store Offers Amazing Rewards",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.datainsightsmarket.com/companies/ULTA",
+      "title": "Ulta Beauty, Inc.",
+      "snippet": ""
+    },
+    {
+      "url": "https://simplify.jobs/p/6ace44f2-bc8e-434c-afc1-899fda62bf20/Beauty-Advisor",
+      "title": "Beauty Advisor @ Ulta Beauty | Simplify",
+      "snippet": ""
+    },
+    {
+      "url": "https://simplify.jobs/p/26bea4a0-1df6-45dd-a8b3-33b9ffdac80a/Beauty-Advisor",
+      "title": "Beauty Advisor @ Ulta Beauty | Simplify",
+      "snippet": ""
+    },
+    {
+      "url": "https://simplify.jobs/p/0df57475-4399-4b08-a136-c2609d7ed011/Beauty-Advisor",
+      "title": "Beauty Advisor @ Ulta Beauty | Simplify",
+      "snippet": ""
+    },
+    {
+      "url": "https://simplify.jobs/p/353cf06c-907e-4725-a0c3-66a37fb6eced/Beauty-Advisor",
+      "title": "Beauty Advisor @ Ulta Beauty | Simplify",
+      "snippet": ""
+    },
+    {
+      "url": "https://simplify.jobs/p/7aa407a3-470b-4311-a70e-2ec03de3c3fc/Beauty-Advisor",
+      "title": "Beauty Advisor @ Ulta Beauty | Simplify",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "snippet": ""
+    },
+    {
+      "url": "https://gitnux.org/cosmetics-industry-statistics/",
+      "title": "Cosmetics Industry Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image",
+      "snippet": ""
+    },
+    {
+      "url": "https://seosandwitch.com/beauty-ecommerce-seo-statistics/",
+      "title": "Latest Beauty Ecommerce SEO Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://gitnux.org/singapore-beauty-industry-statistics/",
+      "title": "Singapore Beauty Industry Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://smartbeautyspend.com/beauty-brands-what-consumers-demand-in-2026/",
+      "title": "Beauty Consumers 2026: What They Demand",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.webtonic.io/blog/beauty-skincare-reddit-ads-statistics",
+      "title": "Beauty Reddit Ads Statistics | Web Tonic™",
+      "snippet": ""
+    },
+    {
+      "url": "https://gitnux.org/poland-cosmetics-industry-statistics/",
+      "title": "Poland Cosmetics Industry Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.wunderkind.co/blog/beauty-shoppers-dont-want-more-personalization.-they-want-brands-to-remember-them",
+      "title": "Beauty Shoppers Don’t Want More Personalization. They Want Brands to Remember Them",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://gitnux.org/customer-experience-in-the-cosmetic-industry-statistics/",
+      "title": "Customer Experience In The Cosmetic Industry Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://fastercapital.com/content/Beauty-market-research--Skin-Deep--Exploring-Consumer-Behavior-in-Beauty-Purchases.html",
+      "title": "Beauty market research: Skin Deep: Exploring Consumer Behavior in Beauty Purchases",
+      "snippet": ""
+    }
+  ],
+  "inline_citations": [
+    {
+      "url": "https://www.sephora.com/beauty/loyalty-program",
+      "title": "About Beauty Insider Loyalty Program | Sephora"
+    },
+    {
+      "url": "https://www.sephora.com/buy/trending-products",
+      "title": "Trending Products | Sephora"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/decorte-announces-partnership-with-ulta-beauty-bringing-its-signature-liposome-skincare-to-select-stores-nationwide-302925877.html",
+      "title": "DECORTÉ Announces Partnership with Ulta Beauty, Bringing Its Signature Liposome Skincare to Select Stores Nationwide"
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know"
+    },
+    {
+      "url": "https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/",
+      "title": "How Sophisticated Are Beauty Shoppers About Price And Value?"
+    }
+  ],
+  "citation_method": "inline_links",
+  "citation_map": [],
+  "usage": {
+    "input_tokens": 502290,
+    "input_tokens_details": {
+      "cached_tokens": 404609
+    },
+    "output_tokens": 7682,
+    "output_tokens_details": {
+      "reasoning_tokens": 2774
+    },
+    "total_tokens": 509972
+  }
+}

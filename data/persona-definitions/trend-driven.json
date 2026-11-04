@@ -1,0 +1,23 @@
+{
+  "persona_id": "trend-driven",
+  "order": 1,
+  "persona_name": "Trend-Driven Beauty Shopper",
+  "initial_description": "Stays current with beauty trends; discovery is driven by social media, creators and new launches.",
+  "baseline": {
+    "motivation": "Staying current with beauty trends and discovering new products.",
+    "characteristics": [
+      "High trend sensitivity, influencer trust, novelty seeking, and social-media engagement.",
+      "Discovers products through TikTok, Instagram, YouTube, and beauty creators.",
+      "Values viral popularity, social proof, and new launches.",
+      "May tolerate higher prices or mixed reviews for highly desirable trending products."
+    ],
+    "shopping_journey": [
+      "Social discovery",
+      "Influencer validation",
+      "Product research",
+      "Purchase"
+    ]
+  },
+  "ui_color": "#FF8FB1",
+  "note": "Baseline behavioral hypotheses, not validated consumer findings. Research substantiates, challenges and refines them. Income, geography and budget are set per session, never here."
+}

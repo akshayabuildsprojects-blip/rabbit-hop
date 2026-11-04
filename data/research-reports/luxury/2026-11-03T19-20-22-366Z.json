@@ -1,0 +1,900 @@
+{
+  "persona_id": "luxury",
+  "research_date": "2026-11-03",
+  "performed_at": "2026-11-03T19:20:22.366Z",
+  "model": "muse-spark-1.3",
+  "response_id": "resp_6aea33f72c0a2265c3174041",
+  "web_search_calls": 23,
+  "report_text": "Mapping how luxury beauty shoppers discover and decide — gathering prestige-behavior evidence to test your hypotheses.\n\nFirst signals show prestige, packaging, and scarcity shape luxury buying — now digging into discovery, influencers, and price trade-offs.\n\nI've mapped the core prestige drivers — now opening the underlying research to verify the specifics.\n\nCore evidence is verified — now checking the remaining prestige signals before drafting your profile.\n\n## 1. Product discovery channels and shopping entry points\n- **[Evidence]** Curated prestige and specialty retail remain central entry points, but shopping is omnichannel. Mintel notes Amazon is a leading retailer for luxury beauty while conventional beauty channels remain key to shopping experiences, and that most luxury shoppers are retail omnivores with Prestige Purists relying on curation from preferred retailers ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734)). NIQ similarly finds specialty retailers remain highly influential while ecommerce and social platforms increasingly compete on convenience and discovery ([Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds](https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/)).\n- **[Evidence]** Social commerce on TikTok and Instagram is a verified discovery-to-purchase path for some luxury fashion and beauty shoppers, but should be treated as a qualitative signal not a population estimate. A WPP/YouGov UK survey of 2,111 adults in February 2025 found 27% of fashion and beauty shoppers who follow influencers had purchased luxury items directly through TikTok or Instagram ([Over a quarter of UK shoppers buy luxury fashion and beauty items directly through social media, a new WPP survey reveals](https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media)).\n- **[Evidence]** Discovery spans multiple retailers and AI-assisted entry points. Criteo commerce data finds shoppers discover more brands when browsing across multiple retail sites, and its June 2026 survey of 4,595 shoppers finds 38% already use AI assistants while shopping for beauty and personal care ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)).\n- **[Evidence]** Professional and editorial contexts are distinct prestige entry points versus mass algorithmic feeds. Mintel lists expert validation and inspirational plus convenient retail experiences as supports for uniqueness and emotional affinity, and notes professional settings lend credibility and exclusivity many shoppers seek ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734)). This contrasts with the Trend-Driven archetype whose entry is primarily viral feeds.\n- **[Assumption]** For modeling, assume entry is typically curated browsing — prestige assortment, launch edit, or limited-edition curation — followed by widening to reviews and comparisons, rather than starting from a price-sorted or problem-solution search as Price-Sensitive, Sensitive-Skin, or Time-Constrained shoppers would.\n\n## 2. Influence of social media, creators, trends and social proof\n- **[Evidence]** In-depth product reviews and user-generated content are the most effective influencer content among follower-shoppers, at 49% and 32% respectively in the WPP/YouGov follower subsample (n=479), underscoring genuine engagement over hype ([Over a quarter of UK shoppers buy luxury fashion and beauty items directly through social media, a new WPP survey reveals](https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media)).\n- **[Evidence]** Even among influencer-followers, friends/family recommendations (63%) and expert reviews (48%) remain highly trusted, and micro-influencers are trusted by 24% for targeted engagement ([Over a quarter of UK shoppers buy luxury fashion and beauty items directly through social media, a new WPP survey reveals](https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media)). This supports selective rather than automatic trend-following.\n- **[Evidence]** Mass brands excel at driving viral trends on TikTok, Instagram and Xiaohongshu and maximizing influencer ecosystems, while prestige must counter with distinctive stories and demonstrable distinction ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)). This is the key behavioral line versus Trend-Driven: both see launches, but luxury filters mass virality through curation and expert validation.\n- **[Assumption]** Assume viral affordable blush buzz alone does not create consideration unless corroborated by prestige creators, makeup artists, or detailed reviews addressing formulation, finish and wear experience; treat TikTok/Reddit/YouTube anecdotes as qualitative signals only.\n\n## 3. Product evaluation and habits\n- **[Evidence]** Evaluation is research-intensive. BoF-McKinsey reports half of global consumers conduct extensive research before purchasing, and Criteo finds reviews and ratings are the top global purchase influence with nearly half relying on them, plus friends/family, in-store testing and search engines ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/); ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)).\n- **[Evidence]** Comparison depth is substantial: US shoppers browse an average of 19 makeup products and 12 fragrances before purchase in Criteo commerce data, and more than half of cosmetics and perfume purchases involve an online touchpoint ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)).\n- **[Evidence]** What is evaluated includes sensory, functional and design elements, not just claims. BoF-McKinsey proprietary review analysis links product experience including design, formulation texture and scent to emotional attachment, with higher-priced heroes scoring higher when they deliver; sensory elements such as application, texture and smell plus elevated packaging matter, especially in self-service environments such as Sephora ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)).\n- **[Evidence]** Evidence standards are rising: Mintel describes tablestakes as expert-driven, evidence-based communication with dermatological and clinical claims, and BoF-McKinsey prescribes transparency around claims, clinical trials for superior performance or new ingredients, and communication of longer wear, science-backed trials and ingredient quality ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734); ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)).\n- **[Assumption]** Assume quality for this archetype means formulation craft, texture, finish and sensory experience, distinct from Sensitive-Skin tolerability testing or Time-Constrained wear-time and ease checks; model label scrutiny as focused on finishes, ingredients with sensorial payoff, and claimed benefits rather than irritation-risk screening.\n\n## 4. Price sensitivity and perceived value\n- **[Evidence]** The shopper is value-sensitive rather than price-insensitive. BoF-McKinsey states even those not price-sensitive are still value-sensitive, and NIQ finds price sensitivity is lower in prestige but shoppers still want to feel rewarded to justify premium spending ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/); ([Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds](https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/)).\n- **[Evidence]** High price alone does not signal quality. Only 14% of US beauty buyers believe higher prices indicate better quality products according to Circana cited by EMARKETER, and Ipsos October 2025 data show quality materials as a luxury definer fell from 55% in 2021 to 49% in 2025 while expensive as a definer rose to 62% ([Shoppers define luxury more by price than quality](https://www.emarketer.com/content/shoppers-define-luxury-more-by-price-than-quality)).\n- **[Evidence]** Skepticism toward premium performance is widespread: 63% say premium beauty is not higher-performing than mass, and mass/masstige now hold share via efficacy, innovation and virality at accessible prices ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)). Mintel similarly finds 75% of luxury beauty consumers agree quality beauty does not have to be expensive ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734)).\n- **[Evidence]** Investment is unlocked by exclusive, credible benefits. Mintel advises brands must balance attainability with exclusive, credible benefits to encourage investment, and BoF-McKinsey recommends smaller and therefore cheaper formats, limited editions, sampling and better loyalty to open aperture while retaining clients via high-touch care ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734); ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)).\n- **[Assumption]** Versus Price-Sensitive, assume tradeoff is desirability plus experience against price, not cost-per-use minimization; under a tight mission budget model realistic compromise as fewer items, one hero product, or trial/mini size rather than trading down to a mass dupe by default.\n\n## 5. Brand loyalty versus willingness to experiment\n- **[Evidence]** Loyalty is conditional and generally low. Only 34% of shoppers say they rarely switch from preferred beauty brands in Criteo data, with up to 53% of purchases in fragrance, skincare and makeup coming from shoppers buying a brand not purchased in prior 12 months ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)). Mintel states brand loyalty is generally low ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734)).\n- **[Evidence]** Segmentation shows heterogeneity, not blanket prestige loyalty. Mintel identifies Balanced Enthusiasts as the largest group finding ways to make aspirations attainable, Prestige Purists who almost exclusively prefer luxury and believe in exclusivity and benefits, Pragmatic Skeptics who must be convinced a luxury product cannot be duped, and Beauty Bystanders using name brands as quality shortcuts ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734)).\n- **[Evidence]** Openness to dupes pressures loyalty: over 50% of global consumers are open to buying dupes, rising to nearly 60% for colour cosmetics, with nearly a third having consciously bought dupes; quality of dupes concerns 50% ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)).\n- **[Assumption]** Assume loyalty here is identity- and heritage/desirability-based rather than inertia or fear of irritation, unlike Sensitive-Skin loyalty; model switching as willing when an emerging prestige brand proves superior craft or desirability, and as resistant when heritage prestige still signals unique experience.\n\n## 6. Trust in influencers, experts, communities and independent reviews\n- **[Evidence]** Hierarchy favors verifiable and close sources: friends/family 63% and expert reviews 48% remain highly trusted even among influencer-followers, above micro-influencers at 24% ([Over a quarter of UK shoppers buy luxury fashion and beauty items directly through social media, a new WPP survey reveals](https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media)).\n- **[Evidence]** Globally reviews and ratings are the top purchase influence, with in-store testing and search engines also important for confidence, and US shoppers examining many alternatives before committing ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)).\n- **[Evidence]** Expert and scientific endorsement is tablestakes for luxury credibility. Mintel flags expert-driven, evidence-based communication as tablestakes with growth in dermatological and clinical claims; BoF-McKinsey calls for transparency, clinical trials and ingredient-quality communication to differentiate from dupes ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734); ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)).\n- **[Assumption]** Assume professional makeup artist and curated editorial recommendations carry more weight than mass-viral creator volume for this shopper; model community discussion as confidence-building input to be cross-checked against expert and sensory evidence, not as sole proof.\n\n## 7. Purchase triggers and rejection criteria\n- **[Evidence]** Triggers center on uniqueness and emotional affinity as core luxury value propositions, supported by evidence-driven communication and inspirational plus convenient retail ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734)). Sensory appeal and design drive attachment via look, feel and smell ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)).\n- **[Evidence]** Scarcity and uniqueness can heighten luxury purchase intention, moderated by fear of missing out and social comparison, with limited editions, exclusive releases and restricted availability creating urgency; effects vary by individual susceptibility ([urgency in luxury marketing strategies – Science](https://scienmag.com/tag/urgency-in-luxury-marketing-strategies/feed/)).\n- **[Evidence]** Rejection is driven by failure to prove worth: 63% do not see premium as higher-performing, mass challengers match prestige codes on ingredients, packaging, performance and science, and over half are open to dupes ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)). Functional flaws such as clogged pumps, shattering packaging or rubbing-off text can undermine a product despite premium positioning ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)).\n- **[Assumption]** Assume a limited edition with high desirability but thin reviews triggers intensified investigation rather than automatic purchase — seeking shade/texture evidence, artist validation, and return/sample options — distinct from impulse buying on scarcity alone.\n\n## 8. Typical shopping decision sequence\n- **[Assumption]** Curated discovery: browse prestige assortment, launch edits and limited releases for desirable houses and emerging prestige entrants; inspiration may come from social or editorial but is filtered for prestige relevance.\n- **[Assumption]** Brand and product evaluation: inspect descriptions for formulation, finishes, ingredients and claimed benefits; weight brand reputation, heritage cues and aesthetic presentation alongside expert and detailed-review evidence.\n- **[Assumption]** Premium-to-premium comparison: compare shortlisted prestige alternatives on perceived quality, desirability, reputation and experience, including whether a higher price offers meaningful advantage over a cheaper prestige or mass-looking alternative; check sensory and design differentiation.\n- **[Assumption]** Purchase where trust and experience justify spend: choose retailer offering rewarding, inspiring and frictionless journey with sampling, shade-matching, or easy returns; NIQ finds trust plus me-time appeal is the top driver and that shoppers expect quality at prestige so differentiation comes from indulgent, confidence-building experience and rewards ([Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds](https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/)), while Criteo shows evaluation across multiple touchpoints before checkout ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)).\n\n## 9. Impulse purchasing versus deliberate research\n- **[Evidence]** The balance tilts deliberate for considered beauty: half conduct extensive research, reviews are the top influence, and US evaluation averages many browsed alternatives before purchase ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/); ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)).\n- **[Evidence]** Scarcity messaging can accelerate decisions via urgency and fear of missing out, but does not guarantee purchase and interacts with uniqueness perceptions and individual differences ([urgency in luxury marketing strategies – Science](https://scienmag.com/tag/urgency-in-luxury-marketing-strategies/feed/)).\n- **[Assumption]** Assume moderate impulse potential concentrated on limited editions, giftable sets, or a hero product with strong prior brand affinity, but default is comparison and justification; model impulse as higher than Time-Constrained routine replenishment logic yet lower than Trend-Driven virality response.\n- **[Evidence]** No direct evidence found for a luxury-beauty-specific impulse rate that separates prestige impulse from general beauty deliberation; the gap means impulse propensity should be modeled as situational and assortment-dependent rather than a fixed trait.\n\n## 10. Factors influencing purchase confidence\n- **[Evidence]** Detailed product descriptions, authentic reviews and clear benefits help shoppers decide confidently, alongside friends/family input, in-store testing and search ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)).\n- **[Evidence]** Trust in the retailer and overall experience matters as much as assortment: trust and me-time appeal rank as the top driver, with shoppers favoring retailers they enjoy and would recommend; seamless online-to-store navigation and frictionless returns support repeat engagement ([Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds](https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/)).\n- **[Evidence]** Science and craft proof build confidence: transparency, clinical trials for superior performance or new ingredients, and communication of wear, ingredient quality, texture and scent help premium justify price over dupes ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)).\n- **[Evidence]** Lower-risk trial routes support confidence without full-size commitment: prestige strategies cited include smaller cheaper formats, minis, travel sizes, sampling and loyalty mechanics to let shoppers try before committing ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)). No direct evidence found verifying distinct Ulta versus Sephora luxury sampling features, so name a site feature only if verified in-session.\n- **[Assumption]** Assume confidence threshold is relatively high: purchase feels justified after converging signals on quality, desirability, exclusivity where relevant, and experience, not on price or convenience alone.\n\n## 11. Evidence quality and gaps\n- Strengths: recent large-scale sources converge — Mintel US Luxury Beauty Consumer 2025 for motivations, segmentation and channel curation; NIQ Prestige Beauty Choice Advisor May 2026 for trust/experience drivers; Criteo Health & Beauty Pulse June 2026 (N=4,595 commerce plus survey) for research depth and multi-retailer behavior; BoF-McKinsey State of Fashion: Beauty Volume 2 June 2025 for 63% premium-skepticism, dupe openness and sensory/design findings; WPP/YouGov February 2025 (n=2,111 UK) for social-commerce and trust hierarchy; Ipsos October 2025 via EMARKETER and Circana for price-quality decoupling; peer-reviewed scarcity work summarized via Abdrabbo et al. 2025 for urgency effects.\n- Limitations: Mintel full data are paywalled with only summary findings visible; WPP is UK-only and conditional on following influencers; Criteo and BoF-McKinsey are global beauty not luxury-only cuts; Ipsos/Circana figures are US-general; scarcity study is general luxury not beauty-specific; Reddit/TikTok/YouTube observations are qualitative and non-representative.\n- Gaps: No direct evidence found on beauty-specific willingness-to-pay premiums by formulation attribute, on heritage versus innovative formulation tradeoffs, on professional makeup artist versus general influencer lift for prestige, or on verified Sephora versus Ulta luxury assortment, curation or sampling feature differences. No direct evidence found for a luxury-specific extensive-research rate or impulse rate to calibrate 0.40 impulse or 0.70 research-depth scores; those remain modeling assumptions. Limited-edition beauty purchase lift is inferred from general luxury scarcity plus Mintel uniqueness/exclusivity findings, not a beauty-only experiment.\n\n## 12. Baseline hypotheses check\n- **H1. Motivation: Acquiring desirable, premium beauty products that offer superior perceived quality, exclusivity, prestige, and elevated product experiences. — Supported.** Mintel finds uniqueness and emotional affinity are core luxury value propositions and brand name plus exclusivity underlie luxury perceptions ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734)), and NIQ finds prestige shoppers seek indulgent, inspiring, confidence-building experiences beyond product ([Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds](https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/)).\n- **H2. Values premium formulations, product performance, brand reputation, heritage, and aesthetic presentation. — Refined.** Evidence strongly supports formulations, performance proof, reputation and aesthetics via expert/evidence tablestakes and sensory/design attachment ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)), but heritage specifically lacks direct quantitative support in the retrieved sources; restate as values demonstrated performance, reputation and aesthetic/sensory presentation, with heritage as a secondary cue for some segments.\n- **H3. Willing to pay substantial premiums when perceived quality, exclusivity, or desirability justifies the price. — Supported.** Mintel frames investment as conditional on exclusive, credible benefits and NIQ notes lower price sensitivity but need to feel rewarded to justify premium ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734); ([Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds](https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/)), while BoF-McKinsey shows premiums must demonstrate clear value versus dupes ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)).\n- **H4. Considers packaging, product design, and the overall shopping experience as part of product value. — Supported.** Sensory elements and elevated packaging plus self-service presentation aid sale, and review analysis links design/texture/scent to attachment ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)); NIQ finds experience and trust differentiate prestige choice ([Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds](https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/)).\n- **H5. Follows prestige beauty launches, professional makeup artists, luxury beauty creators, and curated editorial recommendations. — Insufficient evidence.** Sources confirm curation reliance and expert/UGC trust hierarchies ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734); ([Over a quarter of UK shoppers buy luxury fashion and beauty items directly through social media, a new WPP survey reveals](https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media)), but no retrieved study isolates makeup-artist or editorial following rates for luxury shoppers.\n- **H6. May be loyal to established prestige brands while remaining open to emerging premium brands. — Supported.** Only 34% rarely switch and up to 53% of category purchases involve a brand not bought in prior year ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)), with Mintel segments ranging from Prestige Purists to experiment-prone Balanced Enthusiasts and Pragmatic Skeptics requiring proof a product cannot be duped ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734)).\n- **H7. Interested in product craftsmanship, formulation, texture, finish, and sensory experience. — Supported.** Product experience including design, texture and scent drives emotional attachment and differentiation, with calls to communicate application, texture, smell and ingredient quality ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)).\n- **H8. Selective about social-media trends rather than automatically following mass-market virality. — Supported.** In-depth reviews outrank hype content and expert/friend sources outrank influencers, while mass brands dominate virality that prestige must filter through distinct value ([Over a quarter of UK shoppers buy luxury fashion and beauty items directly through social media, a new WPP survey reveals](https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media); ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)).\n- **H9. May value exclusivity, limited editions, and product scarcity. — Supported but narrow.** Uniqueness/exclusivity underpin luxury perceptions ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734)) and general luxury scarcity heightens purchase intention via uniqueness/FoMO ([urgency in luxury marketing strategies – Science](https://scienmag.com/tag/urgency-in-luxury-marketing-strategies/feed/)), but beauty-specific limited-edition lift lacks a dedicated estimate.\n- **H10. Compares premium alternatives using quality, desirability, reputation, and product experience. — Supported.** Extensive research, multi-product browsing, and evaluation on sensory, functional and design plus science-backed performance indicate premium-to-premium comparison on those dimensions ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/); ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)).\n- **H11. Does not necessarily equate high price with high quality and may reject an expensive product that fails expectations. — Supported.** Just 14% equate higher price with better quality ([Shoppers define luxury more by price than quality](https://www.emarketer.com/content/shoppers-define-luxury-more-by-price-than-quality)), 63% do not rate premium higher-performing ([Customers Want Beauty Brands to Prove Their Worth](https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/)), and 75% agree quality need not be expensive ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734)).\n- **H12. Shopping journey: Curated discovery → Brand/product evaluation → Compare premium alternatives → Purchase — Refined.** Steps are each evidenced — curated/specialty discovery, deep evaluation, multi-brand comparison, trust/experience-led retailer choice ([US Luxury Beauty Consumer: 2025 | Mintel Store](https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734); ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/); ([Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds](https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/)) — but no source validates this exact linear sequence, so model it as typical with loops for re-research and trial via minis/sampling.",
+  "annotations": [],
+  "sources": [
+    {
+      "url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+      "title": "US Luxury Beauty Consumer: 2025 | Mintel Store"
+    },
+    {
+      "url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds"
+    },
+    {
+      "url": "https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media",
+      "title": "Over a quarter of UK shoppers buy luxury fashion and beauty items directly through social media, a new WPP survey reveals"
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know"
+    },
+    {
+      "url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+      "title": "Customers Want Beauty Brands to Prove Their Worth"
+    },
+    {
+      "url": "https://www.emarketer.com/content/shoppers-define-luxury-more-by-price-than-quality",
+      "title": "Shoppers define luxury more by price than quality"
+    },
+    {
+      "url": "https://scienmag.com/tag/urgency-in-luxury-marketing-strategies/feed/",
+      "title": "urgency in luxury marketing strategies – Science"
+    }
+  ],
+  "considered_results": [
+    {
+      "url": "https://daoinsights.com/works/china-prestige-beauty/",
+      "title": "L’Oréal’s Q3 suggests China's consumers are still buying lux beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://uk.advfn.com/market-news/article/20692/prestige-beauty-overtakes-luxury-handbags-as-chinese-consumer-preferences-shift",
+      "title": "Prestige Beauty Overtakes Luxury Handbags as Chinese Consumer Preferences Shift",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260528890231/en/Trust-and-Experience-Are-Reshaping-Prestige-Beauty-Retail-NIQ-Finds",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://blog.worlddatalab.com/press-releases/the-world-has-660-million-potential-luxury-beauty-buyers-world-data-lab-maps-where-they-are",
+      "title": "The World Has 660 Million Potential Luxury Beauty Buyers, World Data Lab Maps Where They Are",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.vitaminrush.com/358060/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=191885",
+      "title": "US Luxury Beauty Consumer: 2025 | Mintel Store",
+      "snippet": ""
+    },
+    {
+      "url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=191034",
+      "title": "US Luxury Beauty Consumer: 2025 | Mintel Store",
+      "snippet": ""
+    },
+    {
+      "url": "https://pharmuna.com/blogs/what-is-the-role-of-packaging-in-luxury-skincare-lines-1093081.html",
+      "title": "What is the Role of Packaging in Luxury Skincare Lines",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.industrysavant.com/2026/01/the-unboxing-effect-how-custom-luxury.html",
+      "title": "The Unboxing Effect: How Custom Luxury Packaging Drives Brand Valuation in Saturated Markets",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mdpi.com/2071-1050/16/13/5716",
+      "title": "Exploring the Multisensory Attractiveness of Cosmetic Packaging: A Study of Visual and Tactile Design Elements and Attractiveness Factors",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.scienceijsar.com/sites/default/files/article-pdf/IJSAR-2969.pdf",
+      "title": "Microsoft Word - IJSAR-2969",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mdpi.com/0718-1876/21/11/399",
+      "title": "Opening Mechanisms and Visual Configurations in Cosmetic E-Commerce Packaging: Effects on Purchase Intention",
+      "snippet": ""
+    },
+    {
+      "url": "https://kmbs.konicaminolta.us/blog/unlocking-the-science-of-packaging-that-sells/",
+      "title": "Unlocking the Science of Packaging That Sells",
+      "snippet": ""
+    },
+    {
+      "url": "https://moxygal.com/services/neuroscience-based-luxury-how-scent-touch-and-color-psychology-drive-premium-purchases/",
+      "title": "Neuroscience-Based Luxury: How Scent, Touch and Color Psychology Drive Premium Purchases",
+      "snippet": ""
+    },
+    {
+      "url": "https://caratx.com/blog/the-power-of-packaging-how-luxury-presentation-improve-jewelry-sales-and-customer-experience",
+      "title": "The Power of Packaging: How Luxury Presentation Im... | Blog",
+      "snippet": ""
+    },
+    {
+      "url": "https://nutraceuticalbusinessreview.com/packaging-affects-the-senses-133171",
+      "title": "Packaging affects the senses",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.bestpackworld.com/luxury-vs-standard-cosmetic-packaging-a-strategic-guide-to-what-actually-sells.html",
+      "title": "Luxury Vs Standard Cosmetic Packaging: a Strategic Guide to What Actually Sells",
+      "snippet": ""
+    },
+    {
+      "url": "https://psycnet.apa.org/record/2015-11338-006",
+      "title": "Cosmetic scents by visual and olfactory senses versus purchase intention.",
+      "snippet": ""
+    },
+    {
+      "url": "https://lussopack.com/blog/how-luxury-packaging-influences-consumer-behaviour/",
+      "title": "How Luxury Packaging Impacts Consumer Behavior | Lussopack",
+      "snippet": ""
+    },
+    {
+      "url": "https://cosmeticsbusiness.com/brand-loyalty-in-question-amid-growing-skin-care",
+      "title": "Brand loyalty in question amid growing ‘skin care switcher’ consumer segment",
+      "snippet": ""
+    },
+    {
+      "url": "https://trends.glance.com/story/articles/Auto/US/en/rapid-read/s-c06640630b-3a4fe884-758d-5bb7-be2a-8c0c80eb067e",
+      "title": "AI Firm Highlights 'Skin Care Switcher' Trend Impacting Brand Loyalty in U.S.",
+      "snippet": ""
+    },
+    {
+      "url": "https://trends.glance.com/story/articles/Auto/US/en/rapid-read/s-c06640630b-d1f994d0-fcf8-5764-ae61-b3fe906dc503",
+      "title": "Sephora and Ulta Beauty Adapt to 'Skin Care Switcher' Trend Amid Changing Consumer Behavior",
+      "snippet": ""
+    },
+    {
+      "url": "https://trends.glance.com/story/articles/Auto/US/en/rapid-read/s-c06640630b-dc50b71f-6684-5f12-879a-834fc48caafe?utm_source=g&summary=false&utm_medium=v&sr=Glance&gpid=%24GPID&sdkv=%24BUILD_VERSION&gl_imp_id=%24IMP_ID&media_version=7050505&wpid=glc_387504&country_code=PH&byte=true&isSupportPAW=true",
+      "title": "Becausal Highlights Rise of 'Skin Care Switcher' Consumers Impacting Brand Loyalty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.firstinsight.com/press-coverage/gen-z-trading-down-on-household-staples-to-splurge-on-health-wellness-and-beauty",
+      "title": "Gen Z Trading Down On Household Staples to Splurge on Health, Wellness and Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.beautyindependent.com/beauty-vibes-economy-industry-growth-data-doesnt-match-many-brands-reality/",
+      "title": "Beauty’s \"Vibes Economy\": Industry Growth Data Doesn’t Match Many Brands’ Reality",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.passionateinmarketing.com/health-beauty-shoppers-increasingly-turn-to-ai-for-product-discovery-and-restocking-criteo-study-reveals/",
+      "title": "Criteo Study Highlights AI Beauty Shopping Trends",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/gen-z-beauty-loyalty-trends-kyra.html",
+      "title": "Report reveals Gen Z’s beauty routines shift with trends and",
+      "snippet": ""
+    },
+    {
+      "url": "https://jddt.in/index.php/jddt/article/download/807/673/1500",
+      "title": "e-ISSN: 2320-4230, p-ISSN: 2961-6085",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.glisten-beauty.com/prestige-illusion-when-smaller-price-tag-outshines-luxury-label/",
+      "title": "The Prestige Illusion: When a Smaller Price Tag Outshines a Luxury Label",
+      "snippet": ""
+    },
+    {
+      "url": "https://farmpep.net/sites/default/files/nlaf/attachments/TLICBM368.pdf",
+      "title": "Microsoft Word - TLICBM368.doc",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.myacme.org/ACMEProceedings09/p49.pdf",
+      "title": "ICIS 206 Proceedings Template",
+      "snippet": ""
+    },
+    {
+      "url": "https://jehss.org/index.php/ojs/article/download/12/10",
+      "title": "Journal of Education, Humanities and Social Sciences  ASSSD 2025 Volume 60 (2025) From Desire to Purchase: The Mechanism of How Integrated Marketing Strategies on Short Video Platforms Affect",
+      "snippet": ""
+    },
+    {
+      "url": "http://db.koreascholar.com/ASP/Article/325897?Key=%2AQ1Oq%20b9SVUEAql1yQno1Dw%5E%5E&ReturnUrl=%2FASP%2FAdvancedSearchResult%3FKey%3D%252AQ1Oq%2520b9SVUEAql1yQno1Dw%255E%255E%26kwd%3Dtheory%2520of%2520luxury&Mode=Advanced",
+      "title": "",
+      "snippet": ""
+    },
+    {
+      "url": "https://db.koreascholar.com/Article/Detail/325897",
+      "title": "UNDERSTANDING SCARCITY EFFECT ON LUXURY BRANDS USING THE THEORY OF AGONISTIC BEHAVIOUR",
+      "snippet": ""
+    },
+    {
+      "url": "https://scienmag.com/tag/urgency-in-luxury-marketing-strategies/feed/",
+      "title": "urgency in luxury marketing strategies – Science",
+      "snippet": ""
+    },
+    {
+      "url": "https://db.koreascholar.com/Search/Result?field=k&query=scarcity",
+      "title": "검색결과 - koreascholar",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.springerprofessional.de/limited-quantity-scarcity-messages-for-luxury-brands-consider-cu/16589488",
+      "title": "Limited-Quantity Scarcity Messages for Luxury Brands: Consider Customers in Cognitive and Emotional Consumption: An Abstract",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.researchgate.net/figure/Interaction-between-scarcity-message-and-NFU-for-conspicuous-LE-product-on-WOMNote-LTS_fig2_281672199",
+      "title": "Interaction between scarcity message and NFU for conspicuous LE product... | Download Scientific Diagram",
+      "snippet": ""
+    },
+    {
+      "url": "https://ajbr.co.nz/ajbr/ajbr230157.pdf",
+      "title": "Asian Journal of Business Research  Volume 13 Issue 3, 2023 ISSN 2463-4522  e-ISSN 1178-8933  DOI: 10.14707/ajbr.230157 Research Paper",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.koreascience.or.kr/search.page?keywords=%EA%B5%AC%EB%A7%A4%EB%8F%99%EA%B8%B0",
+      "title": "Search | Korea Science",
+      "snippet": ""
+    },
+    {
+      "url": "https://tesi.luiss.it/id/eprint/36854/contents",
+      "title": "Microsoft Word - Tesi_v11.docx",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.thewhyweproject.com/articles/why-luxury-brands-hold-their-prices",
+      "title": "Why Luxury Brands Hold Their Prices",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.glossy.co/beauty/sephora-is-bringing-prestige-beauty-shopping-into-googles-ai-ecosystem/",
+      "title": "Sephora brings prestige beauty shopping to Google’s AI ecosystem",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.europesays.com/3035988/",
+      "title": "Sephora brings prestige beauty shopping to Google’s AI ecosystem",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.vitaminrush.com/361068/sephora-brings-prestige-beauty-shopping-to-googles-ai-ecosystem/",
+      "title": "Sephora brings prestige beauty shopping to Google’s AI ecosystem",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kleecks.com/sephora-on-chatgpt-what-it-means-for-brand-visibility-in-ai-search/",
+      "title": "Sephora on ChatGPT: what it means for brand visibility in AI Search",
+      "snippet": ""
+    },
+    {
+      "url": "https://thinkinsights.net/print/pdf/node/29114",
+      "title": "Sephora's Beauty Retail Playbook",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.latterly.org/sephora-business-model/",
+      "title": "Sephora Business Model: Beauty Insider Loyalty And Sephora Collection",
+      "snippet": ""
+    },
+    {
+      "url": "https://daxueconsulting.com/sephora-in-china/",
+      "title": "Sephora in China: stores, losses, LVMH buyout and strategy",
+      "snippet": ""
+    },
+    {
+      "url": "https://beauty-scale.co/articles/article-sephora-s-google-ai-integration-how-agentic-commerce-is-redrawing-the-",
+      "title": "Sephora's Google AI Integration: How Agentic Commerce Is Redrawing the $430B Prestige Beauty Distribution Map",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.latterly.org/sephora-marketing-mix/",
+      "title": "Sephora Marketing Mix: Omnichannel Innovation and Customer Experience",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.bebolddigital.com/news/sephora-google-ai-beauty-shopping",
+      "title": "Sephora Brings Beauty Shopping to Google AI",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.latterly.org/sephora-swot-analysis/",
+      "title": "Sephora SWOT Analysis: Beauty Retail Powerhouse with Digital Loyalty Edge",
+      "snippet": ""
+    },
+    {
+      "url": "https://tipidnation.com/blog/sephora-vs-maybelline-vs-cerave-philippines",
+      "title": "Sephora vs Maybelline vs CeraVe: Best Beauty Shopping Philippines",
+      "snippet": ""
+    },
+    {
+      "url": "http://skywire.co.uk/news/more-than-a-quarter-of-uk-fashion-and-beauty-shoppers-purchase-directly-through-social-media",
+      "title": "More than a quarter of UK fashion and beauty shoppers ‘purchase directly through social media’",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media",
+      "title": "Over a quarter of UK shoppers buy luxury fashion and beauty items directly through social media, a new WPP survey reveals",
+      "snippet": ""
+    },
+    {
+      "url": "https://MarketingReport.one/retail/over-a-quarter-of-uk-shoppers-buy-luxury-fashion-and-beauty-items-directly-through-social-media-wpp-survey.html",
+      "title": "Over a quarter of UK shoppers buy luxury fashion and beauty items directly through social media, WPP survey",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.netinfluencer.com/yougov-survey-nearly-a-third-of-influencer-followers-buy-on-social-platforms/",
+      "title": "Research Shows Nearly A Third Of Influencer Followers Buy On Social Platforms",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.marketing-interactive.com/beauty-luxury-and-wellness-are-playing-a-new-game-of-trust-in-singapore-and-malaysia",
+      "title": "Beauty, luxury and wellness are playing a new game of trust",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.majcafe.com/love-trust-and-follow-them-the-role-of-social-media-influencers-on-luxury-cosmetics-brands-purchase-intention-among-malaysian-urban-women/",
+      "title": "Love, Trust and Follow Them? The Role of Social Media Influencers on Luxury Cosmetics Brands’ Purchase Intention Among Malaysian Urban Women – MAJCAFE",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.decisionmarketing.co.uk/news/influencers-driving-luxury-shoppers-to-social-commerce",
+      "title": "Influencers driving luxury shoppers to social commerce - DecisionMarketing",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionunited.ca/news/fashion/uk-shoppers-buying-luxury-fashion-directly-through-social-media/2025030538961",
+      "title": "UK shoppers buying luxury fashion directly through social media",
+      "snippet": ""
+    },
+    {
+      "url": "https://influencermarketinghub.com/luxury-shopping-goes-social/",
+      "title": "Luxury Shopping Goes Social: 27% of Shoppers Buy Through Influencers on TikTok and Instagram",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mediapost.com:443/publications/article/403643/report-the-growing-impact-of-social-commerce.html?edition=137540",
+      "title": "Report: The Growing Impact Of Social Commerce 02/24/2025",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.koreascience.or.kr/search.page?keywords=Social+Media+Trust&pageSize=10&pageNo=10",
+      "title": "Search | Korea Science",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.webtonic.io/blog/beauty-skincare-reddit-ads-statistics",
+      "title": "Beauty Reddit Ads Statistics | Web Tonic™",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://gitnux.org/poland-cosmetics-industry-statistics/",
+      "title": "Poland Cosmetics Industry Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://martech.zone/robo-research-online-buy-offline/",
+      "title": "ROBO: How Today's Shoppers Research Online And Buy Offline | Martech Zone",
+      "snippet": ""
+    },
+    {
+      "url": "https://hello.wunderkind.co/hubfs/PDFS%20-%20Content/2025-Beauty-Consumer-Insights-Report.pdf?hsLang=en",
+      "title": "2025 C onsumer",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.wunderkind.co/blog/beauty-shoppers-dont-want-more-personalization.-they-want-brands-to-remember-them",
+      "title": "Beauty Shoppers Don’t Want More Personalization. They Want Brands to Remember Them",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.passionateinmarketing.com/health-beauty-shoppers-increasingly-turn-to-ai-for-product-discovery-and-restocking-criteo-study-reveals/",
+      "title": "Criteo Study Highlights AI Beauty Shopping Trends",
+      "snippet": ""
+    },
+    {
+      "url": "https://fastercapital.com/content/Beauty-market-research--Skin-Deep--Exploring-Consumer-Behavior-in-Beauty-Purchases.html",
+      "title": "Beauty market research: Skin Deep: Exploring Consumer Behavior in Beauty Purchases",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.wunderkind.co/original-research/state-of-beauty-ecommerce",
+      "title": "The State of Beauty Ecommerce",
+      "snippet": ""
+    },
+    {
+      "url": "https://gitnux.org/customer-experience-in-the-cosmetic-industry-statistics/",
+      "title": "Customer Experience In The Cosmetic Industry Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+      "title": "US Luxury Beauty Consumer: 2025 | Mintel Store",
+      "snippet": ""
+    },
+    {
+      "url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=191108",
+      "title": "US Luxury Beauty Consumer: 2025 | Mintel Store",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260528890231/en/Trust-and-Experience-Are-Reshaping-Prestige-Beauty-Retail-NIQ-Finds",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.vitaminrush.com/358060/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.stockwatch.com/news/item/u-b20260528890231-u!niq-20260528/u/niq",
+      "title": "Stockwatch",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260528890231/en",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.marketnewsdesk.com/index.php/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://lifestyle.kynt1450.com/story/245857/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds – KYNT-AM",
+      "snippet": ""
+    },
+    {
+      "url": "https://lifestyle.mauisky.com/story/153670/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://lifestyle.washingtonguardian.com/story/692225/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.advfn.com/stock-market/NYSE/NIQ/stock-news/98623792/trust-and-experience-are-reshaping-prestige-beauty",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://business.theeveningleader.com/theeveningleader/article/bizwire-2026-5-28-trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.geneonline.com/niq-report-prestige-beauty-purchases-driven-by-trust-and-personalized-service/",
+      "title": "NIQ Report: Prestige Beauty Purchases Driven by Trust and Personalized Service - GeneOnline News",
+      "snippet": ""
+    },
+    {
+      "url": "https://ir.iba.edu.pk/sbselp/81",
+      "title": "Decoding the Premium Beauty Consumers",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.oxfordjss.org/_files/ugd/a9c49e_6dafb35860654641bee4de918657d2a7.pdf",
+      "title": "Aashi Bansal",
+      "snippet": ""
+    },
+    {
+      "url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.emarketer.com/content/shoppers-define-luxury-more-by-price-than-quality",
+      "title": "Shoppers define luxury more by price than quality",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.researchgate.net/figure/Strategies-of-experiential-marketing-used-by-luxury-cosmetics-companies_tbl1_358458219",
+      "title": "Strategies of experiential marketing used by luxury cosmetics companies",
+      "snippet": ""
+    },
+    {
+      "url": "https://ajird.journalspark.org/index.php/ajird/article/download/1710/1654/1855",
+      "title": "American Journal of Interdisciplinary Research and Development",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.glisten-beauty.com/blind-radiance-study-price-perception-skin/",
+      "title": "Stripped of Labels: What a Blind Radiance Study Revealed About Price, Perception, and Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.glisten-beauty.com/prestige-illusion-when-smaller-price-tag-outshines-luxury-label/",
+      "title": "The Prestige Illusion: When a Smaller Price Tag Outshines a Luxury Label",
+      "snippet": ""
+    },
+    {
+      "url": "https://hatyaiac.com/Conference/conference2025/proceedings/doc/02%20%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%20(So)/%5BI009So-OP%5D%20Parin%20Jeasuwan%20(213-223).pdf",
+      "title": "Exploring the Impact of Mass Communication, Brand Perception, Materialistic Values, and Brand Value on Purchase Intention in the Thai Skincare Market: A Proposed Framework",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+      "title": "Customers Want Beauty Brands to Prove Their Worth",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.statista.com/statistics/1619966/leading-pricing-factors-driving-beauty-brand-purchases/?srsltid=AfmBOooDMQaOc_odP8CpxUvWOMdV1ekOFTecABTIHhl6CR7q4oyqk9Vy",
+      "title": "Leading pricing factors driving beauty brand purchases | Statista",
+      "snippet": ""
+    },
+    {
+      "url": "https://aims-international.org/aims22/22AProceedings/PDF/A431-Done.pdf",
+      "title": "Impact of Social Media Marketing Activities on Brand Equity, Loyalty & Premium Pricing in India",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.contouredcontent.com/blog-post-2.html",
+      "title": "The Economics Behind Beauty's Longer Buying Journey",
+      "snippet": ""
+    },
+    {
+      "url": "https://insiderph.com/filipino-buyers-prioritize-value-as-impulse-spending-slows",
+      "title": "Filipino buyers prioritize value as impulse spending slows",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/personalized-aesthetic-plans-vs-impulse-buys-a-smart-choice-1660624.html",
+      "title": "Personalized Aesthetic Plans vs Impulse Buys  A Smart Choice",
+      "snippet": ""
+    },
+    {
+      "url": "https://partnercentric.com/blog/impulse-buying-statistics/",
+      "title": "Consumer Behavior Survey & Statistics | PartnerCentric",
+      "snippet": ""
+    },
+    {
+      "url": "https://postgoo.com/posts/6a1983d3cafdd134cef0518c?type=article",
+      "title": "Planned and Impulse Buying Statistics: What Makes a Consumer Decide to Purchase?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.gcimagazine.com/consumers-markets/news/22965682/consumers-are-buying-less-but-expecting-more-heres-what-that-means-for-beauty",
+      "title": "Consumers Are Buying Less but Expecting More. Here's What That Means for Beauty.",
+      "snippet": ""
+    },
+    {
+      "url": "https://journals.researchsynergypress.com/index.php/jhasib/article/download/3927/2237/28227",
+      "title": "Role of Halal Awareness and Influencer Credibility on Impulsive Buying",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/selective-shoppers-want-quality-and-cultural-currency-not-just-low-prices-302921395.html",
+      "title": "Selective Shoppers Want Quality and Cultural Currency, Not Just Low Prices",
+      "snippet": ""
+    },
+    {
+      "url": "https://jurnal.dokicti.org/index.php/equivalent/article/download/1447/805",
+      "title": "E-ISSN: 2985-8089 │ P-ISSN: 2986-8777",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.tripurastarnews.com/9-in-10-shoppers-research-extensively-yet-70-buy-on-impulse-google-unpacks-indias-two-speed-festive-consumer/",
+      "title": "9 In 10 Shoppers Research Extensively, Yet 70% Buy On Impulse: Google Unpacks India’s ‘Two-Speed’ Festive Consumer.",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.boldsky.com/insync/google-trends-what-indians-are-googling-watching-and-impulse-buying-this-festive-season-173247.html",
+      "title": "Google Trends: What Indians Are Googling, Watching And Impulse-Buying This Festive Season",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.gcimagazine.com/21850468",
+      "title": "Impulse Control | Global Cosmetic Industry",
+      "snippet": ""
+    },
+    {
+      "url": "https://arksale.in/2026/01/14/beyond-the-hype-4-counter-intuitive-trends-shaping-the-future-of-beauty/",
+      "title": "Beyond the Hype: 4 Counter-Intuitive Trends Shaping the Future of Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautifulfashionblog.com:443/a/12756/",
+      "title": "High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices – Beautiful Fashion",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+      "title": "Customers Want Beauty Brands to Prove Their Worth",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.beautyindependent.com/the-ordinary-takes-luxury-markups-new-pop-up-justified/",
+      "title": "The Ordinary Takes On Luxury Markups With New Pop-Up. Is It Justified?",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+      "title": "High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautycorner.com.au/consumer-shift-mass-beauty-brands-challenge-premium-market-dominance/",
+      "title": "Consumer Shift: Mass Beauty Brands Challenge Premium Market Dominance – Beauty Corner",
+      "snippet": ""
+    },
+    {
+      "url": "https://simplyputcreative.substack.com/p/beyond-beauty-math-what-actually",
+      "title": "Beyond \"Beauty Math\": What Actually Makes a Product Worth Your Money?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businessoffashion.com/articles/beauty/inside-industry-perspectives-on-the-convergence-of-beauty-and-wellbeing/?utm_source=newsletter_dailydigest&utm_medium=email&utm_campaign=Daily_Digest_291025&utm_content=sponsored_cta",
+      "title": "Inside Industry Perspectives on the Convergence of Beauty and Wellbeing",
+      "snippet": ""
+    },
+    {
+      "url": "https://retailtimes.co.uk/new-bof-report-reveals-63-of-consumers-do-not-see-the-value-in-luxury-beauty-products/",
+      "title": "New BoF report reveals 63% of consumers do not see the value in luxury beauty products",
+      "snippet": ""
+    },
+    {
+      "url": "https://fxmag.com/business/expensive-serum-cheap-cleansing-gel-this-is-how-consumers-are-changing-the-beauty-market",
+      "title": "Expensive serum, cheap cleansing gel. This is how consumers are changing the beauty market",
+      "snippet": ""
+    },
+    {
+      "url": "https://bitcoinethereumnews.com/finance/luxury-skincare-costs-too-much-brandefy-has-a-fix-for-that-dupes/",
+      "title": "Luxury Skincare Costs Too Much. Brandefy Has A Fix For That: Dupes",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mckinsey.de/~/media/mckinsey/locations/europe%20and%20middle%20east/deutschland/news/presse/2025/state%20of%20beauty/the-state-of-fashion-beauty-june-2025.pdf",
+      "title": "Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.fashionabc.org/wiki/shiseido",
+      "title": "Shiseido",
+      "snippet": ""
+    },
+    {
+      "url": "https://businessabc.net/wiki/shiseido",
+      "title": "Shiseido",
+      "snippet": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Guerlain",
+      "title": "Guerlain",
+      "snippet": ""
+    },
+    {
+      "url": "https://hbswk.hbs.edu/item/building-a-powerful-prestige-brand",
+      "title": "Building a Powerful Prestige Brand",
+      "snippet": ""
+    },
+    {
+      "url": "https://hbswk.hbs.edu/item/1759.html",
+      "title": "Building a Powerful Prestige Brand",
+      "snippet": ""
+    },
+    {
+      "url": "https://peoplewhomatter.in/article/forest-essentials-luxury-ayurveda-brand",
+      "title": "Forest Essentials: How Ayurveda Became Luxury",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.safecosmetics.org/blog/top-black-owned-beauty-brand-founders-saliah-najiyyah-and-kareemah-mustafa/",
+      "title": "Top Black-Owned Beauty Brand Sabreen Cosmetics Founders: Saliah, Najiyyah, and Kareemah Mustafa",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.pharmacyclub.net/us/brands/selahatin",
+      "title": "SELAHATIN | PharmacyClub | Buy the best pharma-cosmetics online",
+      "snippet": ""
+    },
+    {
+      "url": "https://loyverse.com/blog/story-of-kaeme-or-how-to-create-a-new-cosmetics-brand-in-ghana",
+      "title": "The story of KAEME or how to create a new cosmetics brand in",
+      "snippet": ""
+    },
+    {
+      "url": "https://khrishaperfumery.com.au/blogs/journal/pierre-montale-the-niche-house-that-brought-oud-to-paris",
+      "title": "Pierre Montale: The Niche House That Brought Oud to Paris – Khrisha Perfumery",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.tasteluxe.co/",
+      "title": "A Taste of Cookie | Luxury Cosmetics & Clothing Wholesale",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.scribd.com/document/597498654/The-brand-analysis-of-Chanel",
+      "title": "Chanel Brand Analysis and Strategies",
+      "snippet": ""
+    },
+    {
+      "url": "https://thepowderroom.pk/products/sephora-favorites-makeup-must-haves-set-the-powder-room",
+      "title": "Sephora Favorites Makeup Must Haves Set - The Powder Room - Selling th",
+      "snippet": ""
+    },
+    {
+      "url": "https://confido.pk/product/sephora-favorites-makeup-must-haves-set/",
+      "title": "Sephora Favorites Makeup Must Haves Set – Confido",
+      "snippet": ""
+    },
+    {
+      "url": "https://rabeauty.pk/products/sephora-favourites-makeup-must-haves-set",
+      "title": "Sephora Favourites Makeup Must Haves Set",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionide.com/vetted/14-best-luxury-advent-calendars-for-indulgent-holiday-gifting-in-2027/",
+      "title": "14 Best Luxury Advent Calendars for Indulgent Holiday Gifting in 2027",
+      "snippet": ""
+    },
+    {
+      "url": "https://skinstorepakistan.com/products/sephora-favorites-holiday-must-haves",
+      "title": "Sephora Favorites Holiday Must-Haves.",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.colorshow.pk/collections/lip-oil/products/sephora-favorites-makeup-must-haves-set",
+      "title": "Sephora Favorites Makeup Must Haves Set",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.colorshow.pk/products/sephora-favorites-makeup-must-haves-set",
+      "title": "Sephora Favorites Makeup Must Haves Set",
+      "snippet": ""
+    },
+    {
+      "url": "https://fastercapital.com/keyword/sephora-play-and-glam-bag.html",
+      "title": "Sephora Play And Glam Bag",
+      "snippet": ""
+    },
+    {
+      "url": "https://beauty-talk.club/posts/2421-sephora-favorites-holiday-mini-deluxe-cologne",
+      "title": "Sephora Favorites Holiday Mini Deluxe Cologne Edition 2026: Release Date, Products & Price | Beauty Talk Club",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.fluxst.pk/products/sephora-favorites-holiday-must-haves-set-1",
+      "title": "Sephora Favorites Holiday Must Haves Set",
+      "snippet": ""
+    },
+    {
+      "url": "https://shopmaybeauty.com/products/sephora-favorites-makeup-must-haves-set",
+      "title": "Sephora Favorites Makeup Must Haves Set\n – May Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+      "title": "Customers Want Beauty Brands to Prove Their Worth",
+      "snippet": ""
+    },
+    {
+      "url": "https://pug-deer-m8mx.squarespace.com/articles/state-of-beauty-what-brands-must-know",
+      "title": "State of Beauty: What Brands Must Know — Selfnamed",
+      "snippet": ""
+    },
+    {
+      "url": "https://beyondlink.live/customers-want-beauty-brands-to-prove-their-worth/",
+      "title": "Customers Want Beauty Brands to Prove Their Worth",
+      "snippet": ""
+    },
+    {
+      "url": "https://chomoicreative.medium.com/the-beauty-industry-is-already-overusing-ai-and-its-starting-to-show-fc23b76bb28c",
+      "title": "The Beauty Industry is Already Overusing AI and it’s Starting to Show",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.nssgclub.com/en/beauty/43129/luxury-skincare-future-trends-2025",
+      "title": "What does the future hold for luxury skincare?",
+      "snippet": ""
+    },
+    {
+      "url": "https://yourbusinessbureau.com/start-a-business/business-planning/business-of-fashion/",
+      "title": "Business of Fashion (BoF): What It Is, How It Works, and Who It’s For",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prurgent.com/2026-01-05/pressrelease473436.htm",
+      "title": "Beauty’s $590 Billion Future: New McKinsey Report Outlines the Roadmap to 2030",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautycorner.com.au/consumer-shift-mass-beauty-brands-challenge-premium-market-dominance/",
+      "title": "Consumer Shift: Mass Beauty Brands Challenge Premium Market Dominance – Beauty Corner",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businessoffashion.com/articles/beauty/milan-beauty-week-cosmetica-italia-strategy/",
+      "title": "Inside ‘Made in Italy’ Beauty’s Strategy to Go Global",
+      "snippet": ""
+    },
+    {
+      "url": "https://pug-deer-m8mx.squarespace.com/articles/tag/Industry",
+      "title": "Welcome to the natural cosmetics blog | Selfnamed.com",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.futureofsmell.com/blog/h2-fragrance-trends-2025-insights-and-outlook",
+      "title": "H2 Fragrance Trends 2025 - Insights on Global Fragrance Market — Future of Smell",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.blog.selfnamed.com/business/tag/Trends",
+      "title": "Trends — Selfnamed Blog - Business — Selfnamed Insights",
+      "snippet": ""
+    }
+  ],
+  "inline_citations": [
+    {
+      "url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+      "title": "US Luxury Beauty Consumer: 2025 | Mintel Store"
+    },
+    {
+      "url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds"
+    },
+    {
+      "url": "https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media",
+      "title": "Over a quarter of UK shoppers buy luxury fashion and beauty items directly through social media, a new WPP survey reveals"
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know"
+    },
+    {
+      "url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+      "title": "Customers Want Beauty Brands to Prove Their Worth"
+    },
+    {
+      "url": "https://www.emarketer.com/content/shoppers-define-luxury-more-by-price-than-quality",
+      "title": "Shoppers define luxury more by price than quality"
+    },
+    {
+      "url": "https://scienmag.com/tag/urgency-in-luxury-marketing-strategies/feed/",
+      "title": "urgency in luxury marketing strategies – Science"
+    }
+  ],
+  "citation_method": "inline_links",
+  "citation_map": [],
+  "usage": {
+    "input_tokens": 559636,
+    "input_tokens_details": {
+      "cached_tokens": 465876
+    },
+    "output_tokens": 12336,
+    "output_tokens_details": {
+      "reasoning_tokens": 4289
+    },
+    "total_tokens": 571972
+  }
+}

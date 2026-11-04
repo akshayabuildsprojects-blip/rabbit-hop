@@ -1,0 +1,101 @@
+date,store,brand,product,category,price_usd,origin,tier,main_driver,discovered_via,rating_given,repurchased,returned,note
+2024-11-03,Sephora,Rare Beauty,Soft Pinch Liquid Blush (Joy),cheek,25,US,mid,trend,tiktok,5,yes,no,One dot is enough; lived up to the hype
+2024-11-10,Amazon,TirTir,Mask Fit Red Cushion,complexion,29,K-beauty,mid,trend,tiktok,4,no,no,Bought after the shade range expanded; good match
+2024-11-18,Sephora,Summer Fridays,Lip Butter Balm (Vanilla),lip,24,US,mid,trend,instagram,5,yes,no,Everyone had one in their bag
+2024-11-24,Olive Young US,Beauty of Joseon,Relief Sun: Rice + Probiotics SPF50+,sunscreen,18,K-beauty,value,reviews,tiktok,5,yes,no,No white cast; the K-beauty sunscreen everyone recommends
+2024-12-02,Sephora,Charlotte Tilbury,Hollywood Flawless Filter,complexion,49,UK,prestige,trend,instagram,4,no,no,"Pretty glow, pricey for how fast it goes"
+2024-12-09,Amazon,Biodance,Bio-Collagen Real Deep Mask,moisturizer,19,K-beauty,value,trend,tiktok,5,yes,no,Glass skin the next morning
+2024-12-15,Sephora,Dior,Addict Lip Glow Oil,lip,40,French,prestige,trend,tiktok,4,no,no,Holiday splurge; gorgeous packaging
+2024-12-21,Target,e.l.f.,Halo Glow Liquid Filter,complexion,14,US,value,dupe,tiktok,5,yes,no,Basically the Charlotte Tilbury glow for a third of the price
+2025-01-05,Sephora,Glow Recipe,Watermelon Glow Niacinamide Dew Drops,serum,35,US,mid,trend,tiktok,4,no,no,"Dewy, but the glow is mostly shimmer"
+2025-01-12,Amazon,COSRX,Advanced Snail 96 Mucin Power Essence,serum,25,K-beauty,mid,reviews,youtube,4,no,no,Texture is strange; skin felt bouncy
+2025-01-19,Amazon,Srichand,Translucent Powder,complexion,10,Thai,value,trend,tiktok,5,yes,no,Thai cult powder a creator swore by; sets without flashback
+2025-01-26,Sephora,Fenty Beauty,Gloss Bomb Universal Lip Luminizer (Fenty Glow),lip,21,US,mid,trend,instagram,4,no,no,Classic for a reason
+2025-02-02,Olive Young US,Anua,Heartleaf 77% Soothing Toner,serum,29,K-beauty,mid,trend,tiktok,4,no,no,Very gentle; did not see dramatic change
+2025-02-09,Sephora,Fenty Beauty,Pro Filt'r Soft Matte Longwear Foundation,complexion,40,US,mid,reviews,youtube,3,no,yes,Shade too dark in daylight; returned
+2025-02-16,Amazon,Minimalist,Niacinamide 10% + Zinc 1% Face Serum,serum,10,Indian,value,price,instagram,4,no,no,Indian creator rec; does what the pricier ones do
+2025-02-23,Sephora,Merit,Flush Balm (Cheeky),cheek,30,US,mid,trend,instagram,4,no,no,Clean-girl look in one swipe
+2025-03-02,Olive Young US,rom&nd,Juicy Lasting Tint,lip,12,K-beauty,value,trend,tiktok,5,no,no,"Juicy finish, stains all day"
+2025-03-09,Sephora,Kosas,Revealer Concealer,complexion,30,US,mid,reviews,youtube,4,no,no,"Creamy, needs setting"
+2025-03-16,Amazon,Biore,UV Aqua Rich Watery Essence SPF50+,sunscreen,15,J-beauty,value,reviews,tiktok,5,no,no,Japanese sunscreen that feels like nothing
+2025-03-23,Sephora,Rhode,Peptide Lip Treatment (Salted Caramel),lip,18,US,mid,trend,tiktok,4,no,no,Wanted the phone-case moment
+2025-03-30,Sephora,Laneige,Lip Sleeping Mask (Berry),lip,24,K-beauty,mid,reviews,friend,5,no,no,Wake up with soft lips
+2025-04-06,Ulta,Too Faced,Better Than Sex Mascara,eyes,29,US,mid,trend,store display,3,no,no,Volume but smudged by evening
+2025-04-13,Olive Young US,Medicube,Zero Pore Pads 2.0,serum,25,K-beauty,mid,trend,tiktok,4,no,no,Fun to use; pores looked smaller for a day
+2025-04-20,Sephora,Sol de Janeiro,Brazilian Bum Bum Cream,body,48,US,prestige,trend,tiktok,5,no,no,The smell is the point
+2025-04-27,Amazon,Sugar Cosmetics,Matte As Hell Crayon Lipstick,lip,12,Indian,value,trend,instagram,4,no,no,Bold matte from an Indian brand I saw on reels
+2025-05-04,Sephora,Tower 28,BeachPlease Lip + Cheek Cream Blush,cheek,22,US,mid,trend,tiktok,4,no,no,Sheer and easy
+2025-05-11,Target,La Roche-Posay,Anthelios Melt-In Milk Sunscreen SPF 60,sunscreen,38,French,mid,reviews,youtube,4,no,no,Derm-approved; slightly heavy for daily
+2025-05-18,Olive Young US,Beauty of Joseon,Relief Sun: Rice + Probiotics SPF50+,sunscreen,18,K-beauty,value,reviews,tiktok,5,yes,no,Repurchase; still the best
+2025-05-25,Sephora,Milk Makeup,Hydro Grip Primer,complexion,38,US,mid,trend,tiktok,3,no,no,Grippy but pilled with my sunscreen
+2025-06-01,Amazon,Skin1004,Madagascar Centella Hyalu-Cica Water-Fit Sun Serum,sunscreen,20,K-beauty,value,trend,tiktok,4,no,no,"Feels like serum, not sunscreen"
+2025-06-08,Sephora,Charlotte Tilbury,Pillow Talk Lipstick,lip,35,UK,prestige,brand_prestige,instagram,5,no,no,The shade everyone means by 'my lips but better'
+2025-06-15,Target,e.l.f.,Glow Reviver Lip Oil,lip,9,US,value,dupe,tiktok,4,no,no,Dior Lip Glow Oil dupe for everyday
+2025-06-22,YesStyle,Canmake,Cream Cheek,cheek,8,J-beauty,value,trend,youtube,4,no,no,"Tiny Japanese cream blush, very natural"
+2025-06-29,Sephora,Rare Beauty,Positive Light Liquid Luminizer,complexion,25,US,mid,trend,tiktok,4,no,no,Wanted the full Rare Beauty set
+2025-07-06,Amazon,Dot & Key,Watermelon Cooling Sunscreen SPF 50,sunscreen,12,Indian,value,trend,instagram,3,no,no,Cooling feel; scent is strong
+2025-07-13,Olive Young US,Torriden,DIVE-IN Low Molecular Hyaluronic Acid Serum,serum,22,K-beauty,mid,reviews,tiktok,5,no,no,Plump without stickiness
+2025-07-20,Sephora,Sol de Janeiro,Cheirosa 62 Perfume Mist,body,38,US,mid,trend,tiktok,5,no,no,Summer scent everyone asked about
+2025-07-27,Sephora,Summer Fridays,Lip Butter Balm (Pink Sugar),lip,24,US,mid,trend,instagram,5,yes,no,New flavor drop; had to have it
+2025-08-03,Amazon,Embryolisse,Lait-Crème Concentré,moisturizer,29,French,mid,trend,youtube,4,no,no,French makeup-artist secret primer
+2025-08-10,Sephora,Kosas,Wet Lip Oil Gloss,lip,22,US,mid,trend,instagram,4,no,no,Not sticky; nice wet look
+2025-08-17,Amazon,Hada Labo,Gokujyun Premium Hyaluronic Lotion,serum,16,J-beauty,value,reviews,youtube,4,no,no,Japanese hydrating lotion; layers well
+2025-08-24,Sephora,Benefit,Roller Lash Mascara,eyes,29,US,mid,reviews,store display,4,no,no,Good curl hold
+2025-08-31,Olive Young US,Anua,Heartleaf Pore Control Cleansing Oil,cleanser,22,K-beauty,mid,trend,tiktok,5,yes,no,Melts everything; first step of double cleanse
+2025-09-07,Sephora,Rhode,Pocket Blush (Sleepy Girl),cheek,25,US,mid,trend,tiktok,4,no,no,Cute but sheer
+2025-09-14,Sephora,Dr. Jart+,Cicapair Tiger Grass Color Correcting Treatment,complexion,52,K-beauty,prestige,reviews,youtube,4,no,no,Green-to-beige magic on redness
+2025-09-21,Amazon,Lakmé,Eyeconic Kajal,eyes,5,Indian,value,price,friend,5,yes,no,Smudge-proof kajal a friend brought from India
+2025-09-28,Sephora,Makeup by Mario,SoftSculpt Shaping Stick,complexion,30,US,mid,trend,tiktok,4,no,no,Easy contour
+2025-10-05,Olive Young US,rom&nd,Glasting Water Tint,lip,12,K-beauty,value,trend,tiktok,4,no,no,"Glassy finish, transfers a bit"
+2025-10-12,Sephora,Charlotte Tilbury,Airbrush Flawless Setting Spray,complexion,38,UK,prestige,trend,instagram,3,no,no,"Fine, not life changing"
+2025-10-19,Amazon,Smooth E,Babyface Foam,cleanser,12,Thai,value,reviews,youtube,4,no,no,Non-foaming Thai cleanser; gentle
+2025-10-26,Sephora,Dior,Backstage Rosy Glow Blush,cheek,40,French,prestige,trend,tiktok,4,no,no,Color-reacting blush; luxury treat
+2025-11-02,Olive Young US,Medicube,Collagen Night Wrapping Mask,moisturizer,34,K-beauty,mid,trend,tiktok,3,no,no,Peel-off was fun; results meh
+2025-11-09,Ulta,Makeup Revolution,Conceal & Define Concealer,complexion,9,UK,value,dupe,tiktok,4,no,no,Shape Tape dupe that actually holds
+2025-11-16,Sephora,Drunk Elephant,Protini Polypeptide Cream,moisturizer,68,US,prestige,reviews,youtube,4,no,no,Bouncy skin; pricey
+2025-11-23,Amazon,Kama Ayurveda,Kumkumadi Miraculous Beauty Fluid,serum,45,Indian,prestige,trend,instagram,4,no,no,Ayurvedic saffron oil having a moment
+2025-11-30,Olive Young US,Peripera,Ink Mood Glowy Tint,lip,11,K-beauty,value,trend,tiktok,4,no,no,Black Friday haul add-on
+2025-11-30,Olive Young US,Banila Co,Clean It Zero Cleansing Balm Original,cleanser,22,K-beauty,mid,reviews,tiktok,4,no,no,Black Friday haul
+2025-12-07,Sephora,Charlotte Tilbury,Magic Cream,moisturizer,100,UK,luxury,trend,instagram,3,no,no,"Splurged on the hype; nice, not $100 nice"
+2025-12-14,Amazon,Srichand,Translucent Powder,complexion,10,Thai,value,reviews,tiktok,5,yes,no,Repurchase; nothing beats it under $15
+2025-12-21,Sephora,Rare Beauty,Soft Pinch Liquid Blush (Hope),cheek,25,US,mid,trend,tiktok,5,yes,no,Second shade of my favorite
+2026-01-04,Amazon,Anessa,Perfect UV Sunscreen Skincare Milk SPF50+,sunscreen,30,J-beauty,mid,reviews,youtube,5,no,no,Japanese gold-standard sunscreen
+2026-01-11,Sephora,Glossier,Cloud Paint (Puff),cheek,22,US,mid,trend,instagram,4,no,no,Classic; finally tried it
+2026-01-18,Amazon,Plum,Green Tea Pore Cleansing Face Wash,cleanser,9,Indian,value,price,instagram,4,no,no,Cheap and clarifying
+2026-01-25,Olive Young US,Round Lab,Birch Juice Moisturizing Sunscreen,sunscreen,20,K-beauty,value,reviews,tiktok,4,no,no,"Hydrating, good for winter"
+2026-02-01,Sephora,Rare Beauty,Liquid Touch Weightless Foundation,complexion,32,US,mid,trend,tiktok,3,no,no,Fine; not as good as the blush
+2026-02-08,Target,La Roche-Posay,Cicaplast Baume B5,moisturizer,17,French,value,reviews,youtube,5,no,no,Fixes dry patches overnight
+2026-02-15,Olive Young US,Mixsoon,Bean Essence,serum,25,K-beauty,mid,trend,tiktok,4,no,no,Gentle exfoliating essence
+2026-02-22,Sephora,Saie,Glowy Super Gel,complexion,36,US,mid,trend,instagram,3,no,yes,Too glittery on me; returned
+2026-03-01,Amazon,Kay Beauty,Hydrating Foundation,complexion,18,Indian,value,trend,instagram,3,no,yes,Shade range limited for undertone; returned
+2026-03-08,Sephora,Laneige,Lip Glowy Balm (Berry),lip,18,K-beauty,mid,trend,tiktok,4,no,no,Grab-and-go gloss balm
+2026-03-15,YesStyle,Heroine Make,Long & Curl Mascara Super WP,eyes,12,J-beauty,value,reviews,youtube,5,yes,no,Holds a curl through humidity
+2026-03-22,Sephora,Ilia,Super Serum Skin Tint SPF 40,complexion,48,US,prestige,reviews,youtube,4,no,no,Skin tint plus SPF; nice for spring
+2026-03-29,Olive Young US,CLIO,Kill Cover Mesh Glow Cushion,complexion,30,K-beauty,mid,trend,tiktok,4,no,no,Cushion era continues
+2026-04-05,Amazon,Minimalist,Salicylic Acid 2% Face Serum,serum,10,Indian,value,price,instagram,4,no,no,Second Minimalist pick; clears texture
+2026-04-12,Sephora,Charlotte Tilbury,Beauty Light Wand,cheek,40,UK,prestige,trend,tiktok,4,no,no,Viral highlighter wand
+2026-04-19,Target,Pixi,Glow Tonic,serum,15,UK,value,reviews,youtube,4,no,no,Gentle exfoliating toner
+2026-04-26,Sephora,Supergoop!,Unseen Sunscreen SPF 40,sunscreen,38,US,mid,reviews,youtube,4,no,no,Invisible primer-sunscreen
+2026-05-03,Amazon,DHC,Deep Cleansing Oil,cleanser,30,J-beauty,mid,reviews,youtube,4,no,no,Japanese classic cleansing oil
+2026-05-10,Olive Young US,Beauty of Joseon,Glow Serum: Propolis + Niacinamide,serum,17,K-beauty,value,trend,tiktok,4,no,no,Honey glow serum
+2026-05-17,Sephora,Caudalie,Beauty Elixir,serum,54,French,prestige,trend,tiktok,4,no,no,Makeup-artist mist everyone was spraying
+2026-05-24,Amazon,Mistine,Aqua Base Facial Sunscreen SPF 50,sunscreen,10,Thai,value,trend,tiktok,3,no,no,Thai drugstore SPF creators rave about; slightly shiny
+2026-05-31,Sephora,Milk Makeup,Cooling Water Jelly Tint,cheek,24,US,mid,trend,tiktok,4,no,no,Bouncy jelly blush
+2026-06-07,Amazon,Mamaearth,Ubtan Face Wash,cleanser,8,Indian,value,trend,instagram,3,no,no,Turmeric face wash; fine
+2026-06-14,Olive Young US,Numbuzin,No.3 Skin Softening Serum,serum,24,K-beauty,mid,trend,tiktok,4,no,no,Smooths texture
+2026-06-21,Sephora,Drunk Elephant,D-Bronzi Anti-Pollution Sunshine Drops,complexion,36,US,mid,trend,instagram,4,no,no,Bronzed summer glow
+2026-06-28,Target,Bioderma,Sensibio H2O Micellar Water,cleanser,17,French,value,reviews,youtube,5,yes,no,Makeup-removal staple
+2026-07-12,Amazon,Thann,Aromatic Wood Shower Gel,body,20,Thai,mid,trend,instagram,4,no,no,Thai spa brand from a travel creator
+2026-07-19,Sephora,Tatcha,The Dewy Skin Cream,moisturizer,72,US,prestige,brand_prestige,tiktok,4,no,no,Japanese-inspired luxe cream; pretty jar
+2026-07-26,Olive Young US,Laneige,Water Bank Blue Hyaluronic Cream,moisturizer,40,K-beauty,mid,reviews,tiktok,4,no,no,Light gel-cream for summer
+2026-08-02,Sephora,Lancôme,Lash Idôle Mascara,eyes,29,French,mid,reviews,youtube,4,no,no,"Lifted, separated lashes"
+2026-08-09,Ulta,Kulfi,Underlined Kajal Eyeliner,eyes,20,US,mid,trend,instagram,5,no,no,South Asian-founded brand; creamy kajal
+2026-08-16,Amazon,Melano CC,Vitamin C Brightening Essence,serum,15,J-beauty,value,reviews,youtube,4,no,no,Cheap Japanese vitamin C
+2026-08-23,Sephora,Charlotte Tilbury,Pillow Talk Big Lip Plumpgasm,lip,35,UK,prestige,trend,tiktok,3,no,yes,Tingle too strong; returned
+2026-08-30,Target,e.l.f.,Power Grip Primer,complexion,10,US,value,dupe,tiktok,5,yes,no,Milk Hydro Grip dupe that works better for me
+2026-09-06,Olive Young US,dasique,Shadow Palette (Rose Milk Tea),eyes,34,K-beauty,mid,trend,instagram,4,no,no,Soft K-beauty eye palette
+2026-09-13,Target,BYOMA,Moisturizing Gel Cream,moisturizer,15,UK,value,trend,tiktok,4,no,no,Barrier gel cream in the viral packaging
+2026-09-20,Amazon,Lakmé,9 to 5 Primer + Matte Lip Color,lip,6,Indian,value,price,friend,4,no,no,"Indian drugstore lipstick, long wear"
+2026-09-27,Amazon,Nuxe,Huile Prodigieuse Multi-Purpose Dry Oil,body,39,French,mid,trend,instagram,4,no,no,French pharmacy dry oil for hair and body
+2026-10-04,Sephora,Rhode,Peptide Glazing Fluid,serum,29,US,mid,trend,tiktok,4,no,no,Bought when Rhode landed at Sephora
+2026-10-11,Sephora,Benefit,Benetint Cheek & Lip Stain,cheek,24,US,mid,trend,tiktok,4,no,no,Old classic going viral again

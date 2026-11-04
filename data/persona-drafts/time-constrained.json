@@ -1,0 +1,1404 @@
+{
+  "schema_version": 1,
+  "persona_id": "time-constrained",
+  "persona_name": "Time-Constrained Professional",
+  "description": "Screens need-led shortlists for ease of application, long wear and step reduction, verifying with reviews and demonstrations before buying. Compares only a few familiar or top-rated options and defaults to repurchase when performance has been consistent. Adopts social discoveries only with corroborated practical benefit and defers when choices are overwhelming or evidence is thin.",
+  "primary_motivation": "Finding dependable beauty products that simplify daily routines, save time, and deliver consistent results.",
+  "behavioral_parameters": {
+    "note": "Simulation settings informed by qualitative research. Not scientifically validated population measurements.",
+    "trend_sensitivity": 0.35,
+    "influencer_trust": 0.35,
+    "price_sensitivity": 0.55,
+    "brand_loyalty": 0.7,
+    "research_depth": 0.45,
+    "novelty_seeking": 0.25,
+    "impulse_buying_tendency": 0.2,
+    "product_quality_priority": 0.85,
+    "convenience_priority": 0.9,
+    "prestige_priority": 0.2
+  },
+  "shopping_behavior": {
+    "preferred_discovery_channels": [
+      "physical store browsing for inspiration",
+      "friends and family recommendations",
+      "online retail browsing",
+      "targeted search engines",
+      "social video for initial spotting with search follow-up"
+    ],
+    "trusted_information_sources": [
+      "customer reviews and ratings",
+      "professional recommendations",
+      "friends and family",
+      "detailed product descriptions and benefit clarity",
+      "wear-time demonstrations showing application and duration",
+      "search validation over creator claims alone"
+    ],
+    "product_evaluation_criteria": [
+      "proven effectiveness and consistent results",
+      "wear duration and reduced need for reapplication",
+      "ease and speed of application",
+      "multifunctional step reduction",
+      "customer review consensus",
+      "professional endorsement"
+    ],
+    "purchase_triggers": [
+      "running low and need for replenishment",
+      "routine friction needing simplification",
+      "credible proof of fewer steps or longer wear",
+      "acceptable price for verified time saved",
+      "certain availability with low-friction fulfillment"
+    ],
+    "rejection_criteria": [
+      "inconsistent performance or short wear",
+      "difficult application or removal needing tutorials or tools",
+      "uncertain match requiring extensive guesswork",
+      "viral claims without time or effort specifics",
+      "quality decline or unjustified price increase",
+      "overwhelming choice without clear practical advantage"
+    ],
+    "comparison_strategy": "Shortlist 2-4 familiar or highly rated options on longevity, ease and routine fit, skim ratings distribution and negative comments about wear or difficulty, then satisfice on reliable and easy enough.",
+    "typical_shopping_sequence": [
+      "Identify need from low stock or routine friction",
+      "Screen for convenience and performance including long-wear and multifunctional ease",
+      "Shortlist small set of familiar or top-rated options",
+      "Verify wear and application via reviews and demonstrations",
+      "Select reliable product meeting good-enough threshold",
+      "Purchase via lowest-friction channel with certain availability"
+    ]
+  },
+  "decision_rules": [
+    {
+      "rule": "When comparing a higher-priced reliable long-wear option against a lower-priced option needing frequent upkeep, choose the higher-priced option only if reviews or demonstrations verify wear duration and ease; otherwise choose the lower-priced acceptable option.",
+      "rationale": "Majority state willingness to pay more for ease but most still prioritize lower cost, with proven efficacy justifying premium more reliably.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When weighing a familiar trusted option against a new launch promising superior performance, stay with the familiar option unless the new option shows clear credible evidence of meaningful time savings or more consistent results with no added complexity.",
+      "rationale": "When overwhelmed shoppers rely on familiar brands and reviews to eliminate options and defer excessive choice.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When weighing longevity against affordability, prioritize the option with evidenced longer wear and fewer touch-ups if the price gap is justified by time saved; otherwise prioritize the affordable option with acceptable wear.",
+      "rationale": "Long-wear and reduced reapplication drive demand while cost remains a top rejection and loyalty-break factor.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When weighing quality against application complexity, reject options requiring tutorials, special tools, or complicated steps even if rated effective, in favor of a simpler option with consistent adequate performance.",
+      "rationale": "Effectiveness dominates evaluation while inconsistent performance and difficult application or removal are common rejection cues.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When a socially popular option competes with a conventional reliable option, consider the popular option only for its demonstrated practical utility and require corroboration in customer reviews or search validation before shortlisting; otherwise reject it for effort risk.",
+      "rationale": "Creators drive discovery more than decision while customer reviews act as fact-checkers and price and effectiveness dominate buying.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When research effort rises without new practical information, cap comparison to a small shortlist of familiar or top-rated options and avoid expanding search unless a large practical gain is likely.",
+      "rationale": "Models selective research and desire for fewer more relevant recommendations without a validated time threshold.",
+      "basis": "modeling_assumption"
+    },
+    {
+      "rule": "Stop researching and decide when one option shows consistent ratings on longevity and ease, no red-flag reviews about fading, inconsistent performance or difficult application, and acceptable price for time saved; if no option meets this, defer and retain the reliable fallback rather than gamble.",
+      "rationale": "Operationalizes a good-enough verified threshold for moving to purchase under limited time.",
+      "basis": "modeling_assumption"
+    }
+  ],
+  "parameter_context": {
+    "trend_sensitivity": {
+      "score": 0.35,
+      "band": "medium",
+      "definition": "How strongly current trends, viral products and what is popular right now shape what the shopper looks at and wants.",
+      "interpretation": "Medium: notices trends and may check a trending item, but only pursues it if it fits a need",
+      "rationale": "Trend is treated as scouting signal, not proof of time savings or reliability",
+      "shopping_manifestation": "Conditional trend following: considers popular option only for demonstrated practical utility",
+      "observable_actions": [
+        "May open Trending page item when need aligns",
+        "Screens viral claims for step or wear benefit",
+        "Ignores trending label without corroborated utility"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora glances at Trending Products page but only clicks items matching long-wear or multipurpose need",
+        "ulta": "On Ulta notices Trending Gifts or TikTok callouts but requires Best Sellers consensus and wear reviews before shortlisting"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+          "note": "41% made beauty purchase based on TikTok or YouTube in last six months, showing social drives discovery but needs validation"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/a-close-look-at-the-global-beauty-industry-in-2025",
+          "note": "Discovery is multi-touchpoint with physical retail most common followed by friends and online retail"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Low-to-medium sensitivity means trend status alone does not create want without need fit"
+        }
+      ]
+    },
+    "influencer_trust": {
+      "score": 0.35,
+      "band": "medium",
+      "definition": "How much weight the shopper gives to creators, influencers and celebrity endorsements versus other sources.",
+      "interpretation": "Medium: uses creator content as one input, usually checked against reviews or other sources",
+      "rationale": "Demonstrations of longevity and difficulty are useful, but virality alone does not prove reliable time savings",
+      "shopping_manifestation": "Social discovery only enters shortlist with corroborated practical benefit",
+      "observable_actions": [
+        "Watches wear-time or application demos for practical cues",
+        "Validates creator claim via ratings distribution and search",
+        "Discounts follower count or aesthetic packaging as proof"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora spots product on Trending Products then validates via Verified Purchase reviews and topic search for wear before shortlisting",
+        "ulta": "On Ulta treats TikTok-trending gift callouts as initial spotting and requires Verified Buyer consensus on wear before considering"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+          "note": "Only 2% name influencer recommendations as driver for buying new product while price and effectiveness dominate; influencers key for discovery not decision"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://en.redtram.com/lifestyle/623973004/",
+          "note": "Customer reviews 42% slightly outweigh influencer video reviews 41%; creators as scouts and reviews as fact-checkers"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Medium trust means uses creator wear demos as one input checked against reviews and search"
+        }
+      ]
+    },
+    "price_sensitivity": {
+      "score": 0.55,
+      "band": "medium",
+      "definition": "How much price, discounts and cost per use influence consideration and choice.",
+      "interpretation": "Medium: compares prices and notices deals, but pays more when product is clearly better or more wanted",
+      "rationale": "Premium must buy verified time savings or reliable wear, not speed or prestige alone; otherwise cost leads",
+      "shopping_manifestation": "Context-sensitive tradeoff: prioritizes evidenced longer wear if gap justified, otherwise affordable acceptable wear",
+      "observable_actions": [
+        "Compares price gap against touch-ups and steps avoided",
+        "Chooses higher-priced only with verified wear and ease",
+        "Chooses cheaper acceptable option when evidence equivalent"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora weighs $45 long-wear versus $20 option by checking review consensus on reapplication burden before justifying gap",
+        "ulta": "On Ulta compares premium reliability reviews versus inconsistent cheap option and pays premium only if fewer repurchases and touch-ups proven"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.emarketer.com/content/consumers-still-value-convenience-but-not-any-price",
+          "note": "61% say lower cost matters more than convenience and 90% would accept slower shipping for savings; delivery cost outranks speed"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.businesswire.com/news/home/20261102856593/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International",
+          "note": "One-third will pay 20% or more for proven efficacy; quality remains stronger driver of premium than ease alone"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Medium sensitivity means compares prices but pays more when clearly better or more wanted for time saved"
+        }
+      ]
+    },
+    "brand_loyalty": {
+      "score": 0.7,
+      "band": "high",
+      "definition": "How much the shopper sticks with known brands versus switching.",
+      "interpretation": "High: defaults to trusted brands and needs strong reason to switch",
+      "rationale": "Repurchase saves research and application learning cost; loyalty is performance-rooted rather than emotional or prestige-driven",
+      "shopping_manifestation": "Habitual repurchase of proven products; reluctance to expand shortlist beyond familiar or highly rated options",
+      "observable_actions": [
+        "Repurchases same product when wear and ease have been consistent",
+        "Shortlists familiar brands first when overwhelmed",
+        "Requires clear credible time or performance gain to try another brand"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora reorders previous foundation via account history or Bestsellers familiar pick and uses ratings filter to confirm no quality decline before repurchasing",
+        "ulta": "On Ulta stays with familiar brand repurchase and checks Ratings Distribution for consistency, treating points accrual as dividend for staying loyal rather than exploring novelty"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Only 34% rarely switch and up to 53% of purchases come from brands not purchased in prior 12 months, but familiar brands help 50% of overwhelmed shoppers decide, supporting habitual repurchase to save effort"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+          "note": "Skincare loyalty is quality-rooted with 55% citing quality and repurchase driven by consistent efficacy; defaults to repurchase to avoid re-research"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "High loyalty means she defaults to trusted repurchase and needs strong practical proof to switch"
+        }
+      ]
+    },
+    "research_depth": {
+      "score": 0.45,
+      "band": "medium",
+      "definition": "How much information the shopper gathers before buying: reviews, ingredients, details, comparisons.",
+      "interpretation": "Medium: checks a few signals before buying",
+      "rationale": "Bounded research balances confidence against time cost; further searching must promise large practical gain",
+      "shopping_manifestation": "Selective verification of longevity, ease and routine fit; stops at reliable-and-easy-enough threshold",
+      "observable_actions": [
+        "Shortlists 2-4 options and skims rating and negative reviews",
+        "Verifies wear and application via demos and detailed descriptions",
+        "Caps research when no new practical information emerges"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora opens 2-4 familiar or top-rated items, checks star filter and wear-topic comments, then decides without deep ingredient comparison",
+        "ulta": "On Ulta checks star breakdown and Verified Buyer notes on difficulty and quickly uses shade matcher rather than sampling widely"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Shoppers browse average 19 makeup products and reviews are top influence, indicating extensive category norm"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+          "note": "When overwhelmed 48% turn to reviews and 50% to familiar brands; shoppers want fewer more relevant recommendations and clarity"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Medium depth means checks a few signals then satisfices rather than exhaustive comparison"
+        }
+      ]
+    },
+    "novelty_seeking": {
+      "score": 0.25,
+      "band": "low",
+      "definition": "How attracted the shopper is to new launches, new brands and untried products.",
+      "interpretation": "Low: prefers proven, familiar products; new launches are reason for caution",
+      "rationale": "New products add learning cost and uncertainty that conflict with routine simplification",
+      "shopping_manifestation": "Avoids experimentation unless new option shows credible fewer steps or more consistent results with no added complexity",
+      "observable_actions": [
+        "Skips new arrivals unless clear time or performance advantage shown",
+        "Requires high-volume consistency before trying new launch",
+        "Rejects unfamiliar shade match or complex application without large evidenced gain"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora stays in Bestsellers rather than New Makeup unless new item shows consistent longevity proof",
+        "ulta": "On Ulta bypasses Only at Ulta exclusives and new arrivals unless reviews prove meaningful routine simplification"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.businesswire.com/news/home/20261102856593/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International",
+          "note": "Efficacy overtakes novelty as driver of value; proven efficacy credentials justify premium more than newness"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Low novelty means prefers proven familiar products; new launches are reason for caution"
+        }
+      ]
+    },
+    "impulse_buying_tendency": {
+      "score": 0.2,
+      "band": "low",
+      "definition": "How likely the shopper is to buy something unplanned or decide quickly in the moment.",
+      "interpretation": "Low: sticks to planned purchase; rarely adds unplanned items",
+      "rationale": "Unplanned experimentation creates effort and uncertainty that outweighs novelty reward",
+      "shopping_manifestation": "Deliberate need-led buying; postpones rather than gambles on uncertain discovery",
+      "observable_actions": [
+        "Buys only need-triggered shortlist items",
+        "Defers uncertain extras rather than adding to cart",
+        "Adds at most a clearly simple low-risk replenishment add-on"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora completes planned foundation replenishment without adding trending extras from Trending Products page",
+        "ulta": "On Ulta ignores gift-guide impulse prompts unless item is a simple one-step replenishment need already on list"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Category trend toward more scrutiny and researching before deciding what earns a place in routines"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Low impulse means sticks to planned replenishment and avoids unplanned hauls"
+        }
+      ]
+    },
+    "product_quality_priority": {
+      "score": 0.85,
+      "band": "high",
+      "definition": "How much demonstrated performance and formulation quality drive the choice.",
+      "interpretation": "High: performance and formulation quality are deciding factors",
+      "rationale": "Dependable results reduce rework and routine friction; quality decline breaks loyalty",
+      "shopping_manifestation": "Requires demonstrated long wear and ease; vague clean or viral claims without time specifics do not move to buy",
+      "observable_actions": [
+        "Prioritizes proven effectiveness and consistent results",
+        "Checks wear duration and need for reapplication",
+        "Rejects inconsistent or fading options even if cheaper or viral"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora isolates wear and fading comments via ratings keyword search and rejects options with repeated inconsistency reports",
+        "ulta": "On Ulta weights Ratings Distribution and Verified Buyer reports on consistency to confirm reliable wear before buying"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+          "note": "Effectiveness 77% with reviews and ingredients tied at 53.4% and professional recommendations 52.8% dominate evaluation"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report",
+          "note": "Inconsistent performance, smudging, short wear and difficult application are core rejection cues"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "High quality means performance and formulation consistency are deciding factors"
+        }
+      ]
+    },
+    "convenience_priority": {
+      "score": 0.9,
+      "band": "high",
+      "definition": "How much ease, speed, simplicity and fit with a routine matter.",
+      "interpretation": "High: chooses easiest, fastest, most streamlined option; friction is reason to reject",
+      "rationale": "Time scarcity makes step reduction, long wear and simple application the primary value, not prestige or trendiness",
+      "shopping_manifestation": "Screens need-led shortlists for ease, wear duration and step reduction; pays more only when verified time is saved",
+      "observable_actions": [
+        "Screens for long-wear, multifunctional and easy-application cues first",
+        "Rejects options needing tutorials, tools or frequent touch-ups",
+        "Chooses certain-availability low-friction fulfillment"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora filters to long-wear and multipurpose descriptors, previews shade quickly and picks Buy Online Pick Up or fast delivery with certain availability when running low",
+        "ulta": "On Ulta prioritizes 2-hour pickup or same-day options with certain stock and favors one lip-and-cheek stick over two steps when wear is acceptable"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.mintel.com/insights/consumer-research/convenience-as-the-new-consumer-currency/",
+          "note": "Over 60% will pay more for things that make life easier and 42% prioritise convenience over price, supporting ease and speed as central"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game",
+          "note": "Simplification without compromising results, multifunctional heroes and fewer steps support routine simplification motive"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "High convenience means friction is a reason to reject even effective options"
+        }
+      ]
+    },
+    "prestige_priority": {
+      "score": 0.2,
+      "band": "low",
+      "definition": "How much brand status, exclusivity, packaging and premium positioning matter.",
+      "interpretation": "Low: indifferent to prestige; mass and drugstore-style brands are fine",
+      "rationale": "Willingness to pay is for function and time saved, not status or presentation",
+      "shopping_manifestation": "Prestige treated at most as quality cue, never as standalone value",
+      "observable_actions": [
+        "Mixes mass and prestige tiers based on wear and ease",
+        "Ignores premium packaging or exclusivity claims without performance proof",
+        "Chooses affordable acceptable option when wear evidence is equivalent"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora evaluates prestige Bestsellers for quality consensus but will choose simpler mass-equivalent if verified easier with equal wear",
+        "ulta": "On Ulta comfortably shortlists drugstore-to-prestige overlap on Best Sellers for good-enough longevity without prestige filter"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+          "note": "Brand reputation influences trial and loyalty but prestige alone does not drive this archetype; pays for fewer better easier not for exclusivity"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Low prestige means mass and drugstore-style brands are fine when performance and ease hold"
+        }
+      ]
+    }
+  },
+  "shopping_decision_rules": [
+    {
+      "scenario_id": "viral_mixed_reviews",
+      "investigate_first": "Whether viral buzz reflects practical time or wear benefit or just aesthetic hype",
+      "information_sought": [
+        "Application steps and tools required",
+        "Wear duration and touch-up need in reviews",
+        "Negative comments on difficulty or short wear"
+      ],
+      "conflict_weighing": "Social proof is treated as discovery only; review consensus on wear and ease outweighs hype volume. Requires corroboration in customer reviews or search validation before shortlisting; otherwise rejects for effort risk.",
+      "purchase_triggers": [
+        "Wear-time demos plus consistent review consensus on ease and longevity",
+        "No red flags about tutorials or frequent reapplication"
+      ],
+      "rejection_triggers": [
+        "Requires tutorials, tools or complicated steps",
+        "Mixed reviews with fading, clumping or short wear reports"
+      ],
+      "influencing_parameters": [
+        "trend_sensitivity",
+        "influencer_trust",
+        "research_depth",
+        "convenience_priority",
+        "product_quality_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+          "note": "TikTok discovery leads 72% to search on Google next and only 7% buy directly, showing validation relay"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Filters viral content for wear-time and difficulty proof rather than virality"
+        }
+      ]
+    },
+    {
+      "scenario_id": "popular_price_premium",
+      "investigate_first": "What the premium practically buys in wear time and steps avoided",
+      "information_sought": [
+        "Verified wear hours and reapplication burden",
+        "Ease of application versus premium promise",
+        "Volume and consistency of reliability reviews"
+      ],
+      "conflict_weighing": "Pays premium only when premium buys verified time savings or reliable wear. Compares price gap against touch-ups, steps and repurchase frequency; otherwise stays with cheaper acceptable option. Prestige alone never justifies gap.",
+      "purchase_triggers": [
+        "Strong reliability reviews proving fewer touch-ups and simple use",
+        "Price gap justified by time saved for routine"
+      ],
+      "rejection_triggers": [
+        "Thin or mixed proof of longer wear",
+        "Premium tied to packaging or prestige without effort specifics"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "convenience_priority",
+        "product_quality_priority",
+        "prestige_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.emarketer.com/content/consumers-still-value-convenience-but-not-any-price",
+          "note": "Will pay more for ease but 61% prioritize lower cost; premium holds for verified performance not speed alone"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.businesswire.com/news/home/20261102856593/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International",
+          "note": "One-third pay 20%+ for proven efficacy credentials"
+        }
+      ]
+    },
+    {
+      "scenario_id": "similar_different_prices",
+      "investigate_first": "Performance and ease difference that justifies price gap",
+      "information_sought": [
+        "Ratings distribution on longevity and ease",
+        "Negative reviews about fading or difficult application",
+        "Shade and routine fit certainty"
+      ],
+      "conflict_weighing": "Chooses higher-priced reliable long-wear only if reviews verify duration and ease; otherwise chooses lower-priced acceptable option. Stops researching when one option shows consistent ratings on longevity and ease, no red flags on fading or difficulty, and acceptable price for time saved; if none meets this, defers and retains fallback.",
+      "purchase_triggers": [
+        "Consistent ratings on longevity and ease with acceptable price for time saved",
+        "Certain availability with low-friction fulfillment"
+      ],
+      "rejection_triggers": [
+        "Equivalent wear evidence favoring cheaper option",
+        "Uncertain match requiring extensive guesswork"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "convenience_priority",
+        "research_depth",
+        "brand_loyalty"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+          "note": "Effectiveness dominates with reviews and professional input clustering as top influences"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Stop rule caps comparison to small familiar shortlist unless large practical gain likely"
+        }
+      ]
+    },
+    {
+      "scenario_id": "familiar_vs_trending_brand",
+      "investigate_first": "Whether trending or new brand offers proven practical advantage over familiar",
+      "information_sought": [
+        "Proof of fewer steps or longer wear versus familiar",
+        "Added complexity, shade risk or learning cost",
+        "Consistency volume versus early hype"
+      ],
+      "conflict_weighing": "Defaults to familiar trusted option to save re-research effort. Switches only on clear credible evidence of meaningful time savings or more consistent results with no added complexity; novelty or trend status alone does not outweigh effort risk.",
+      "purchase_triggers": [
+        "Credible proof of fewer steps or longer wear with equal simplicity",
+        "Professional or high-volume consensus supporting switch"
+      ],
+      "rejection_triggers": [
+        "New option adds learning cost or uncertain match",
+        "Evidence limited to virality without time specifics"
+      ],
+      "influencing_parameters": [
+        "brand_loyalty",
+        "novelty_seeking",
+        "product_quality_priority",
+        "convenience_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+          "note": "Familiar brands help 50% decide when overwhelmed and quality drives loyalty"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+          "note": "Switching driven by perceived better results, not novelty seeking"
+        }
+      ]
+    },
+    {
+      "scenario_id": "influencer_vs_weak_reviews",
+      "investigate_first": "Whether influencer claim holds in reviews and detailed proof",
+      "information_sought": [
+        "Customer review consensus versus creator claim",
+        "Wear-time and application difficulty notes",
+        "Professional endorsement or detailed description clarity"
+      ],
+      "conflict_weighing": "Weights independent and professional voices plus customer consensus over creator endorsement. Creator demo can trigger consideration but conversion requires review and search corroboration on longevity and ease.",
+      "purchase_triggers": [
+        "Reviews and search validate practical utility",
+        "Clear benefit on wear or steps with simple use"
+      ],
+      "rejection_triggers": [
+        "Weak reviews contradict creator hype",
+        "Viral claims without time or effort specifics"
+      ],
+      "influencing_parameters": [
+        "influencer_trust",
+        "research_depth",
+        "product_quality_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+          "note": "Professional recommendations far exceed influencer recommendations at decision; reviews slightly edge creator videos"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+          "note": "Detail matters by platform with YouTube for tutorials and TikTok for dupes; Google answers should-I-trust-it"
+        }
+      ]
+    },
+    {
+      "scenario_id": "new_limited_reviews",
+      "investigate_first": "Whether enough consistent proof exists to buy now or defer",
+      "information_sought": [
+        "Review volume and recency for consistency",
+        "Application and shade-match certainty",
+        "Availability and easy fulfillment"
+      ],
+      "conflict_weighing": "Treats limited review counts as uncertainty that favors deferral. Requires consistent early signals on wear and ease plus acceptable shade certainty; caps research at small shortlist and retains reliable fallback if threshold not met. Enough information is consistent ratings on longevity and ease, no red-flag reviews, and acceptable price for time saved.",
+      "purchase_triggers": [
+        "Early but consistent positive signals on wear and ease with no complexity flags",
+        "Large practical gain that justifies expanding search"
+      ],
+      "rejection_triggers": [
+        "Thin evidence with quality-decline or shade-risk flags",
+        "Overwhelming choice without clear practical advantage"
+      ],
+      "influencing_parameters": [
+        "research_depth",
+        "novelty_seeking",
+        "brand_loyalty",
+        "impulse_buying_tendency",
+        "convenience_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research",
+          "note": "Too much choice drives deferral in beauty; shoppers put item aside with openness to later"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://cxm.world/customer-experience/overwhelmed-shoppers-are-a-cx-red-flag-for-beauty-retail/",
+          "note": "In-store overwhelm and poor navigation increase deferral; simplicity builds confidence"
+        }
+      ]
+    },
+    {
+      "scenario_id": "discounted_alternative",
+      "investigate_first": "Whether discount compensates for any performance or effort gap",
+      "information_sought": [
+        "Consistency reports versus discount size",
+        "Wear duration and touch-up cost in time",
+        "Ease and removal simplicity"
+      ],
+      "conflict_weighing": "Evaluates discount against added effort: inconsistent performance, short wear or difficult use outweigh savings. Chooses discounted alternative only as good-enough verified option with acceptable wear and simple application; otherwise keeps reliable option even at higher price.",
+      "purchase_triggers": [
+        "Acceptable wear and ease verified despite lower price",
+        "Reliable fulfillment with certain availability"
+      ],
+      "rejection_triggers": [
+        "Inconsistent performance or short wear requiring rework",
+        "Difficult application needing tutorials or tools"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "convenience_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+          "note": "Price and effectiveness matter most for new product trial; multifunctionality and long-wear drive value"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report",
+          "note": "Common rejection cues include inconsistent wear, smudging and difficult application"
+        }
+      ]
+    }
+  ],
+  "expected_observable_actions": {
+    "discovery": [
+      "Starts from need or replenishment reminder rather than open-ended trend browsing",
+      "Spots ideas in physical store, friends and family, targeted search or social video",
+      "Follows social spotting with search validation before shortlisting"
+    ],
+    "browsing": [
+      "Filters to long-wear, easy-application and multifunctional cues first",
+      "Opens Best Sellers or familiar-brand results rather than extensive category browsing",
+      "Uses virtual try-on or shade matcher to reduce guesswork quickly"
+    ],
+    "comparison": [
+      "Shortlists 2-4 familiar or top-rated options on longevity, ease and routine fit",
+      "Skims ratings distribution and negative comments about fading, creasing or difficulty",
+      "Stops comparing once one option shows consistent longevity and ease with no red flags"
+    ],
+    "purchase": [
+      "Selects reliable product meeting good-enough threshold on wear and ease",
+      "Chooses lowest-friction certain-availability fulfillment and easy reordering",
+      "Repurchases proven products to avoid re-research when performance has been consistent"
+    ],
+    "rejection_or_substitution": [
+      "Rejects options requiring tutorials, special tools or frequent touch-ups",
+      "Rejects viral or new options without corroborated practical benefit",
+      "Defers and retains reliable fallback when choices overwhelm or evidence is thin rather than gambling"
+    ]
+  },
+  "behavioral_scenarios": [
+    {
+      "scenario_id": "longwear_vs_touchup_foundation",
+      "title": "A $45 long-wear foundation versus a $20 foundation requiring touch-ups",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: long-wear liquid foundation claiming all-day wear with simple applicator",
+          "price_usd": 45,
+          "popularity": "Bestseller with strong sales rank",
+          "brand_reputation": "Established familiar brand with consistent quality reputation",
+          "social_influence": "Moderate creator coverage showing wear-time demos",
+          "customer_reviews": "4.6 stars from high volume, consistent praise for 10-12 hour wear and easy blending, few complaints",
+          "performance_claims": "Long-wear, crease-resistant, no midday touch-up needed",
+          "novelty": "Core proven formula, not a new launch"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: everyday foundation with natural finish requiring touch-ups",
+          "price_usd": 20,
+          "popularity": "Widely available staple",
+          "brand_reputation": "Known mass brand with acceptable quality",
+          "social_influence": "Low social buzz",
+          "customer_reviews": "4.0 stars mixed, frequent notes of fading by midday and need for reapplication",
+          "performance_claims": "Natural finish, medium wear, touch-up suggested",
+          "novelty": "Existing core shade range"
+        }
+      ],
+      "expected_journey": [
+        "Identify need from running low on foundation or morning routine friction",
+        "Filter search to long-wear and easy-application cues on Sephora",
+        "Shortlist only Product A and Product B from Bestsellers or familiar brands",
+        "Skim ratings distribution and keyword search for wear duration, touch-ups, fading and difficulty",
+        "Check wear-time demonstration or detailed description for all-day proof",
+        "Select option meeting reliable-and-easy-enough threshold or defer if evidence thin"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "convenience_priority",
+          "effect": "Chooses fastest reliable option and rejects added touch-up burden unless evidence is weak"
+        },
+        {
+          "parameter": "product_quality_priority",
+          "effect": "Requires verified wear duration and ease before paying premium"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "Caps comparison to two options and stops once threshold met"
+        },
+        {
+          "parameter": "price_sensitivity",
+          "effect": "Allows paying more only when time saved is proven, otherwise takes acceptable cheaper option"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Purchases Product A $45 long-wear foundation via lowest-friction certain-availability fulfillment",
+          "conditions": "When verified reviews and demos confirm all-day wear with no tools or tutorials and price is acceptable for time saved"
+        },
+        {
+          "outcome": "Purchases Product B $20 acceptable option or defers and retains current reliable fallback rather than gamble",
+          "conditions": "When wear proof is thin, mixed, or mentions fading and difficulty, or premium is not justified by time saved"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "multifunctional_vs_separate_steps",
+      "title": "One multifunctional lip-and-cheek versus two separate products",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: multifunctional lip-and-cheek cream stick for two-in-one use",
+          "price_usd": 28,
+          "popularity": "Top-rated in multipurpose category",
+          "brand_reputation": "Familiar brand known for easy sticks and consistent shades",
+          "social_influence": "Some practical demos showing 30-second application",
+          "customer_reviews": "4.5 stars noting quick application and 6-8 hour wear on lips and cheeks",
+          "performance_claims": "Buildable color, long-wear, one-step application",
+          "novelty": "Existing format, familiar application"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: set of two separate lip color and cheek blush requiring two steps",
+          "price_usd": 32,
+          "popularity": "Popular separately",
+          "brand_reputation": "Trusted brands for separate lip and blush",
+          "social_influence": "Low combined buzz",
+          "customer_reviews": "4.6 stars individually but require two applications and touch-up coordination",
+          "performance_claims": "High color payoff each, standard wear",
+          "novelty": "Core assortment"
+        }
+      ],
+      "expected_journey": [
+        "Notice mid-routine friction from too many steps",
+        "Search for lip-and-cheek multifunctional with shade and wear filters",
+        "Shortlist single stick versus pair of separate products",
+        "Verify combined wear, pigmentation and application speed in reviews",
+        "Check that one product does not add blending complexity",
+        "Buy if step reduction is proven with no added difficulty"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "convenience_priority",
+          "effect": "Strongly favors fewer steps and faster routine when performance holds"
+        },
+        {
+          "parameter": "product_quality_priority",
+          "effect": "Requires consistent adequate performance across both uses"
+        },
+        {
+          "parameter": "novelty_seeking",
+          "effect": "Rejects novelty unless practical gain is large and evidenced"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "Limits research to quick verification of wear and ease"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Purchases Product A multifunctional stick to reduce steps and reapplication",
+          "conditions": "When reviews confirm acceptable shade, even wear on both areas, and faster application with no tools"
+        },
+        {
+          "outcome": "Rejects multifunctional and keeps separate reliable products or defers",
+          "conditions": "When reviews note patchiness, short wear on one area, or shade compromise requiring extra work"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "viral_complex_vs_reliable_conventional",
+      "title": "Viral product requiring complicated application versus reliable conventional alternative",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: viral eye or complexion product requiring specific technique and tools",
+          "price_usd": 35,
+          "popularity": "Viral and trending top of page",
+          "brand_reputation": "Newer buzz-driven brand with limited track record",
+          "social_influence": "High TikTok and YouTube hype with aesthetic videos",
+          "customer_reviews": "4.1 stars polarized, praise for finish but repeated complaints about difficult application and short wear",
+          "performance_claims": "Intense payoff and trending finish, technique-dependent",
+          "novelty": "Recent viral launch"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: reliable conventional alternative with simple application",
+          "price_usd": 30,
+          "popularity": "Bestseller steady",
+          "brand_reputation": "Familiar trusted brand with steady quality",
+          "social_influence": "Moderate practical demos only",
+          "customer_reviews": "4.5 stars consistent on easy application and reliable 8-hour wear",
+          "performance_claims": "Even application, long-wear, no special tools",
+          "novelty": "Proven core product"
+        }
+      ],
+      "expected_journey": [
+        "Spots viral product via social video or Trending page but does not add to cart immediately",
+        "Searches for corroboration on application steps, tools needed and real wear time",
+        "Compares against familiar conventional alternative on ease and consistency",
+        "Skims negative reviews for tutorial needed, clumping, smudging or short wear",
+        "Rejects viral option if complexity or inconsistency appears"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "trend_sensitivity",
+          "effect": "Filters virality for practical utility only; hype alone never outweighs effort risk"
+        },
+        {
+          "parameter": "influencer_trust",
+          "effect": "Treats creator videos as scouting only until reviews and search validate"
+        },
+        {
+          "parameter": "product_quality_priority",
+          "effect": "Rejects effective-but-complex options in favor of simpler consistent performance"
+        },
+        {
+          "parameter": "brand_loyalty",
+          "effect": "Defaults to familiar to save re-research effort"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Shortlists viral Product A for limited comparison and buys only if it meets reliable-and-easy threshold",
+          "conditions": "When customer reviews and detailed demos corroborate easy application and reliable wear despite virality"
+        },
+        {
+          "outcome": "Rejects viral Product A for effort risk and purchases familiar Product B",
+          "conditions": "When reviews confirm tutorial need, special tools, inconsistent wear or extensive shade guesswork"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "familiar_trusted_vs_new_launch",
+      "title": "Familiar trusted product versus new launch promising superior performance",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: familiar repurchase with known shade and routine fit",
+          "price_usd": 32,
+          "popularity": "Steady bestseller",
+          "brand_reputation": "Long-used trusted brand with proven consistency for this shopper type",
+          "social_influence": "Low but steady word-of-mouth",
+          "customer_reviews": "4.6 stars long history of reliable wear and easy use",
+          "performance_claims": "Consistent 8-hour wear, easy removal",
+          "novelty": "Familiar repurchase"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: new launch promising 12-hour wear and one-step routine",
+          "price_usd": 38,
+          "popularity": "Rising but not yet established",
+          "brand_reputation": "Reputable brand launching new formula with superior claims",
+          "social_influence": "Growing creator attention without long-term proof",
+          "customer_reviews": "4.4 stars but low count under 150, early praise for longer wear",
+          "performance_claims": "Extended wear, fewer touch-ups, simplified routine",
+          "novelty": "New launch within last 60 days"
+        }
+      ],
+      "expected_journey": [
+        "Starts from need to replenish trusted product",
+        "Notices new launch promising superior wear or fewer steps",
+        "Checks what is practically better: wear hours saved, steps removed, difficulty added",
+        "Requires clear credible evidence from volume of reviews or professional endorsement",
+        "Stays with familiar unless new option proves large time advantage with no complexity"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "brand_loyalty",
+          "effect": "Strong pull to stay with proven option to avoid learning cost"
+        },
+        {
+          "parameter": "novelty_seeking",
+          "effect": "Treats newness as caution unless practical gain is well-evidenced"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "Stops with familiar when new evidence is thin rather than gambling"
+        },
+        {
+          "parameter": "price_sensitivity",
+          "effect": "Will pay more only for verified time saved, not for newness alone"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Switches to Product B new launch after short verification",
+          "conditions": "When new launch shows consistent high-volume proof of meaningful time savings and no added complexity or shade risk"
+        },
+        {
+          "outcome": "Repurchases familiar Product A to save effort and defers experimentation",
+          "conditions": "When evidence is limited count, mixed on wear, or suggests learning curve or uncertain match"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "inconsistent_cheap_vs_reliable_premium",
+      "title": "Inexpensive inconsistent product versus premium reliable alternative",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: inexpensive setting spray or mascara with variable results",
+          "price_usd": 14,
+          "popularity": "High trial due to low price",
+          "brand_reputation": "Value brand with variable quality history",
+          "social_influence": "Some dupe chatter without wear demos",
+          "customer_reviews": "3.8 stars inconsistent, reports of uneven pigmentation, creasing and short wear",
+          "performance_claims": "Basic wear claims without long-wear proof",
+          "novelty": "Core value item"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: premium alternative with strong reliability reviews",
+          "price_usd": 34,
+          "popularity": "Highly rated bestseller",
+          "brand_reputation": "Mid-tier reputable brand with strong reliability record",
+          "social_influence": "Practical wear-time demos and professional mentions",
+          "customer_reviews": "4.7 stars large volume praising consistent all-day performance and easy use",
+          "performance_claims": "Waterproof, smudge-resistant, extended wear",
+          "novelty": "Proven formula"
+        }
+      ],
+      "expected_journey": [
+        "Screens for inconsistent performance risk first due to time cost of failures",
+        "Compares inexpensive option's negative reviews on fading and reapplication versus premium reliability reviews",
+        "Weighs price gap against touch-ups avoided and repurchase frequency",
+        "Checks ease of application for both to ensure no tutorial burden",
+        "Chooses premium only if reliability proof justifies time saved"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "price_sensitivity",
+          "effect": "Pays for function and time saved, not prestige"
+        },
+        {
+          "parameter": "product_quality_priority",
+          "effect": "Makes demonstrated consistency the deciding factor"
+        },
+        {
+          "parameter": "convenience_priority",
+          "effect": "Rejects friction from rework and touch-ups"
+        },
+        {
+          "parameter": "prestige_priority",
+          "effect": "Ignores premium packaging unless it signals performance"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Purchases Product B premium alternative for dependable performance",
+          "conditions": "When premium reviews show consistent wear, fewer touch-ups and simple application justifying gap"
+        },
+        {
+          "outcome": "Chooses inexpensive Product A as good-enough or defers until stronger proof emerges",
+          "conditions": "When premium advantage is vague or inexpensive option shows acceptable wear for need"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    }
+  ],
+  "retailer_behavior": {
+    "sephora": {
+      "display_name": "Sephora",
+      "discovery": [
+        "Starts from replenishment need or routine friction via search or Bestsellers hub",
+        "Spots social or Trending item but validates before shortlisting",
+        "Relies on rewards history and prior purchase for repurchase entry"
+      ],
+      "browsing": [
+        "Filters to Bestsellers and familiar brands to build 2-4 item shortlist fast",
+        "Opens product pages to skim star distribution and wear-difficulty comments",
+        "Uses quick shade preview to avoid in-store sampling trips"
+      ],
+      "comparison": [
+        "Compares small set on longevity, ease and routine fit only",
+        "Weighs price gap against verified touch-ups avoided",
+        "Satisfices on reliable-and-easy-enough rather than seeking optimal"
+      ],
+      "purchase": [
+        "Purchases via lowest-friction certain-availability fulfillment",
+        "Uses auto-replenishment for go-to products to avoid monitoring effort",
+        "Earns loyalty points as part of habitual repurchase flow"
+      ],
+      "relevant_site_features": [
+        {
+          "feature": "Beauty Insider rewards with points and member shipping benefits",
+          "relevance": "Rewards habitual repurchase without extra effort; supports staying loyal to proven products",
+          "verified": true,
+          "source_url": "https://joy.so/blog/sephora-loyalty-program/"
+        },
+        {
+          "feature": "Ratings and Reviews with verified purchase and keyword search",
+          "relevance": "Lets her isolate wear, fading and ease comments to verify longevity quickly",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Bestsellers and Trending Products hubs",
+          "relevance": "Provides fast quality-consensus shortlist without extensive browsing",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Auto-Replenishment subscription with frequency and reminder controls",
+          "relevance": "Automates replenishment of proven products to save monitoring time",
+          "verified": false,
+          "source_url": null
+        }
+      ],
+      "differences_from_other_retailers": "Versus Ulta, Sephora assortment signals prestige-heavy quality consensus faster, while Ulta breadth makes affordable-acceptable longevity easier to find; she cross-shops identical products on availability and fulfillment rather than retailer principle.",
+      "evidence": [
+        {
+          "type": "retailer_specific",
+          "source_url": "https://joy.so/blog/sephora-loyalty-program/",
+          "note": "Beauty Insider community, ratings and reviews and Q&A folded into shopping support decisions and personalization"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Screens by long-wear and ease first and caps at small familiar shortlist; stops when longevity plus ease proven"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Detailed descriptions, authentic reviews and clear benefits convert curious shoppers, supporting verification step"
+        }
+      ]
+    },
+    "ulta": {
+      "display_name": "Ulta Beauty",
+      "discovery": [
+        "Starts from running-low need or friction via search or Best Sellers filter",
+        "Treats trending or exclusive callouts as spotting only",
+        "Uses prior rewards purchases for fast repurchase entry"
+      ],
+      "browsing": [
+        "Filters to Best Sellers across mass-prestige range for good-enough options fast",
+        "Opens 2-4 familiar or highly rated pages to check wear consensus",
+        "Uses shade matcher or virtual preview to reduce shade guesswork and returns"
+      ],
+      "comparison": [
+        "Compares on evidenced longer wear versus affordability gap",
+        "Skims Verified Buyer negatives on difficulty and fading",
+        "Caps research when no new practical information emerges"
+      ],
+      "purchase": [
+        "Defaults to Replenish and Save plus 2-hour pickup or same-day delivery when running low",
+        "Chooses split pickup plus ship only when it reduces effort and ensures availability",
+        "Redeems points as effort dividend on habitual buys"
+      ],
+      "relevant_site_features": [
+        {
+          "feature": "Replenish and Save auto-replenishment with discount and free shipping",
+          "relevance": "Automates running-low replenishment with pause and reminder controls",
+          "verified": true,
+          "source_url": "https://www.ulta.com/guestservices/ways-to-shop/replenish-and-save"
+        },
+        {
+          "feature": "Beauty Rewards points redeemable for dollars off",
+          "relevance": "Reinforces loyalty to proven repurchases without chasing novelty",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Product-page Ratings Distribution with Verified Buyer flag",
+          "relevance": "Weights consistent wear and difficulty reports for quick confidence",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Best Sellers filters and virtual try-on with shade matcher",
+          "relevance": "Narrows to proven options and reduces shade uncertainty quickly",
+          "verified": false,
+          "source_url": null
+        }
+      ],
+      "differences_from_other_retailers": "Versus Sephora, Ulta offers wider mass-prestige breadth plus points redeemable as dollars off, making affordable reliable routines easier to assemble; fulfillment and replenishment mechanics are functionally comparable and chosen per mission on certainty and speed.",
+      "evidence": [
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.ulta.com/guestservices/ways-to-shop/replenish-and-save",
+          "note": "Replenish and Save offers 5% off plus free shipping with manager and reminder email; requires Rewards account"
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://news.alphastreet.com/ulta-beauty-inc-ulta-q4-2025-earnings-call-transcript/",
+          "note": "46.7M active loyalty members drive repeat with high share of sales from members, reinforcing habitual repurchase"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research",
+          "note": "Overwhelm leads to putting beauty item aside with openness to later; supports deferral over gambling"
+        }
+      ]
+    }
+  },
+  "research_evidence": {
+    "baseline_assessment": [
+      {
+        "hypothesis": "H1. Motivation: Finding dependable beauty products that simplify daily routines, save time, and deliver consistent results.",
+        "verdict": "supported",
+        "note": "Simplification, multifunctional heroes and fewer higher-quality items are documented motivations."
+      },
+      {
+        "hypothesis": "H2. Has a busy lifestyle and limited time for extensive shopping or elaborate beauty routines.",
+        "verdict": "insufficient_evidence",
+        "note": "No direct time-budget measure for this archetype was found; plausibility rests on general simplification signals."
+      },
+      {
+        "hypothesis": "H3. Prioritizes convenience, effectiveness, longevity, and ease of application.",
+        "verdict": "supported",
+        "note": "Effectiveness, reviews, professional input and long-wear demand converge on this priority set."
+      },
+      {
+        "hypothesis": "H4. Prefers multifunctional products that reduce the number of steps in a routine.",
+        "verdict": "supported",
+        "note": "Majority report regularly purchasing multifunctional products to reduce steps without sacrificing results."
+      },
+      {
+        "hypothesis": "H5. Willing to pay more for meaningful time savings and reliable performance.",
+        "verdict": "refined",
+        "note": "Premium holds for verified efficacy and time saved but not for speed or prestige alone given cost-first limits."
+      },
+      {
+        "hypothesis": "H6. Tends to repurchase products that have demonstrated consistent results.",
+        "verdict": "supported",
+        "note": "Quality-driven loyalty and familiar-brand shortcutting when overwhelmed support habitual repurchase."
+      },
+      {
+        "hypothesis": "H7. Researches selectively rather than exploring an extensive range of alternatives.",
+        "verdict": "refined",
+        "note": "Selectivity means a smaller faster shortlist and earlier stopping, not no research, against a high category average."
+      },
+      {
+        "hypothesis": "H8. Follows social-media trends when they provide practical benefits.",
+        "verdict": "refined",
+        "note": "Social drives discovery but conversion requires practical proof via reviews and search, not virality."
+      },
+      {
+        "hypothesis": "H9. Values credible product demonstrations, professional recommendations, and reviews that address longevity and ease of use.",
+        "verdict": "supported",
+        "note": "Professional recommendations, reviews and reputation cluster as top influences aiding evaluation."
+      },
+      {
+        "hypothesis": "H10. May avoid unfamiliar products when experimentation creates additional effort or uncertainty.",
+        "verdict": "supported",
+        "note": "Overwhelm, deferral and rejection of difficult or inconsistent-wear options support effort-based avoidance."
+      },
+      {
+        "hypothesis": "H11. Values convenient purchasing, replenishment, and fulfillment experiences.",
+        "verdict": "supported",
+        "note": "Frictionless and seamless purchase matters but shoppers will trade speed for savings, so support is incomplete."
+      },
+      {
+        "hypothesis": "H12. Shopping journey: Identify need → Evaluate convenience/performance → Select reliable product → Purchase",
+        "verdict": "supported",
+        "note": "Relay of discovery to validation to limited comparison to purchase maps to this flow with more iteration."
+      }
+    ],
+    "supporting_sources": [
+      {
+        "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/a-close-look-at-the-global-beauty-industry-in-2025",
+        "title": "The future of the beauty industry in 2025 and beyond | McKinsey",
+        "published_date": null,
+        "used_for": "Multi-touchpoint discovery and seamless purchase importance"
+      },
+      {
+        "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+        "title": "57% of beauty consumers don’t start with Google Search",
+        "published_date": null,
+        "used_for": "Search relay behavior and conditional social influence"
+      },
+      {
+        "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+        "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+        "published_date": null,
+        "used_for": "Online touchpoints, reviews influence and scrutiny trend"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+        "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+        "published_date": null,
+        "used_for": "Price and effectiveness dominating trial, creators for discovery"
+      },
+      {
+        "url": "https://en.redtram.com/lifestyle/623973004/",
+        "title": "Who’s Really Influencing the Way You Shop for Beauty?",
+        "published_date": null,
+        "used_for": "Customer reviews versus creator videos at conversion"
+      },
+      {
+        "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+        "title": "The Changing Face of Skincare Loyalty",
+        "published_date": null,
+        "used_for": "Familiar-brand shortcuts, quality-rooted loyalty and switching"
+      },
+      {
+        "url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+        "title": "5 Factors Influencing Readers' Shopping Decisions",
+        "published_date": null,
+        "used_for": "Effectiveness, reviews and professional recommendations"
+      },
+      {
+        "url": "https://www.mintel.com/insights/consumer-research/convenience-as-the-new-consumer-currency/",
+        "title": "Convenience as the New Consumer Currency",
+        "published_date": null,
+        "used_for": "Stated premium for ease and convenience over price"
+      },
+      {
+        "url": "https://www.emarketer.com/content/consumers-still-value-convenience-but-not-any-price",
+        "title": "Consumers still value convenience—but not at any price",
+        "published_date": null,
+        "used_for": "Limits to convenience premium and cost over speed"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20261102856593/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International",
+        "title": "Efficacy Overtakes Novelty as Key Driver of Ingredient Value: Euromonitor International",
+        "published_date": null,
+        "used_for": "Premium for proven efficacy over novelty"
+      },
+      {
+        "url": "https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game",
+        "title": "The Art of Effortless: Simplifying Your Beauty Game",
+        "published_date": null,
+        "used_for": "Simplification and multifunctional fewer-better logic"
+      },
+      {
+        "url": "https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report",
+        "title": "U.S. Eye Color Cosmetics Market Size & Share Report, 2033",
+        "published_date": null,
+        "used_for": "Long-wear demand and rejection for poor wear or difficult application"
+      },
+      {
+        "url": "https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research",
+        "title": "How Having Too Much Choice Impacts Consumer Experience",
+        "published_date": null,
+        "used_for": "Too much choice leading to deferral in beauty"
+      },
+      {
+        "url": "https://www.revieve.com/insider/articles/beauty-decision-fatigue-ai-personalization",
+        "title": "Beauty Decision Fatigue Is Real - Here’s How AI Is Fixing It",
+        "published_date": null,
+        "used_for": "Simplicity and fewer relevant recommendations building confidence"
+      }
+    ],
+    "evidence_summary": "Multi-touchpoint discovery with search as a relay, reviews-first validation, effectiveness over novelty, bounded convenience premiums, and overwhelm-driven simplification support a need-led, shortlist-capped, repurchase-prone pattern. Illustrative tradeoffs: A $45 long-wear versus $20 frequent-touch-up option favors the $45 only with verified wear and time saved; one multifunctional versus two separate options favors the single option if wear and ease are acceptable; a viral complicated-application option loses to a reliable conventional option without corroborated ease; a familiar trusted option beats a new launch without clear credible time or performance gain; an inconsistent inexpensive option loses to a premium reliable-reviewed option when consistency is evidenced. Discovery starts from remembered product, in-store scan or targeted search, investigation focuses on wear duration, reapplication need and application difficulty, comparison is shallow across 2-4 options, and purchase requires proof of fewer steps or longer wear without added complexity.",
+    "research_date": "2026-11-03",
+    "research_report_path": "research-reports/time-constrained/2026-11-03T17-19-56-064Z.md",
+    "research_response_id": "resp_6aea17bd6bff40b01aa24c4f",
+    "assumptions": [
+      "Entry is need- or replenishment-led rather than trend-led browsing, modeled from general discovery patterns not a direct time-budget measure.",
+      "Shortlist is capped at 2-4 familiar or highly rated options with skimming of ratings and negative reviews rather than deep comparison.",
+      "Stopping threshold requires consistent ratings on longevity/ease, no red-flag reviews on difficult application or inconsistent wear, and acceptable price for time saved.",
+      "Unplanned picks are limited to low-effort replenishment or simple add-ons, not exploratory hauls.",
+      "Convenient purchasing is modeled generically as predictable availability and low-friction ordering without proprietary replenishment features.",
+      "Risk aversion is expressed through higher brand_loyalty, low novelty_seeking, bounded research_depth and rejection of high-effort uncertainty, not a separate parameter.",
+      "Price sensitivity at 0.55 and prestige priority at 0.20 are retained as modeling calibrations to reflect bounded convenience premiums, without direct segment-level validation."
+    ],
+    "limitations": [
+      "No direct evidence for a defined time-constrained professional segment; time-scarcity effects are inferred from general convenience and choice-overload studies.",
+      "Willingness-to-pay boundaries are conflicting and context-dependent, requiring simulation rather than a single price-sensitivity value.",
+      "Findings skew to online-discoverable and Western shoppers; in-store-only, low-digital and non-Western routines are underrepresented.",
+      "No direct evidence for specific replenishment mechanics, exact shortlist size, or minutes-spent thresholds; those remain modeling assumptions.",
+      "Behavioral scores are simulation settings to distinguish archetypes, not validated population measurements.",
+      "1 source URL(s) proposed by the model were removed because they were not among the sources cited during web research.",
+      "Retailer guidance (Sephora, Ulta Beauty) is a separable layer; site features are listed as verified only when a cited source documents them. Behavioral scenarios are hypothetical reference cases."
+    ],
+    "retailer_research": {
+      "report_path": "research-reports/time-constrained/2026-11-03T17-23-10-070Z-retailers.md",
+      "response_id": "resp_6aea187f54ed391451214820",
+      "research_date": "2026-11-03",
+      "web_search_calls": 30,
+      "sources": [
+        {
+          "url": "https://www.ulta.com/guestservices/ways-to-shop/replenish-and-save",
+          "title": "Ulta Beauty Replenish & Save | Auto-Replenishment & Savings"
+        },
+        {
+          "url": "https://news.alphastreet.com/ulta-beauty-inc-ulta-q4-2025-earnings-call-transcript/",
+          "title": "Ulta Beauty, Inc (ULTA) Q4 2025 Earnings Call Transcript - Alphastreet"
+        },
+        {
+          "url": "https://joy.so/blog/sephora-loyalty-program/",
+          "title": "Sephora Loyalty Program: Beauty Insider Breakdown"
+        }
+      ],
+      "enriched_at": "2026-11-03T17:23:10.070Z"
+    },
+    "baseline_snapshot": {
+      "motivation": "Finding dependable beauty products that simplify daily routines, save time, and deliver consistent results.",
+      "characteristics": [
+        "Has a busy lifestyle and limited time for extensive shopping or elaborate beauty routines.",
+        "Prioritizes convenience, effectiveness, longevity, and ease of application.",
+        "Prefers multifunctional products that reduce the number of steps in a routine.",
+        "Willing to pay more for meaningful time savings and reliable performance.",
+        "Tends to repurchase products that have demonstrated consistent results.",
+        "Researches selectively rather than exploring an extensive range of alternatives.",
+        "Follows social-media trends when they provide practical benefits.",
+        "Values credible product demonstrations, professional recommendations, and reviews that address longevity and ease of use.",
+        "May avoid unfamiliar products when experimentation creates additional effort or uncertainty.",
+        "Values convenient purchasing, replenishment, and fulfillment experiences."
+      ],
+      "shopping_journey": [
+        "Identify need",
+        "Evaluate convenience/performance",
+        "Select reliable product",
+        "Purchase"
+      ],
+      "research_notes": "Topics to investigate:\n1. How time scarcity influences consumer purchasing decisions\n2. Convenience-oriented beauty shopping behavior\n3. Willingness to pay for time savings and dependable performance\n4. Product loyalty and habitual repurchasing\n5. Preferences for multifunctional and long-wear beauty products\n6. How busy consumers research and compare products\n7. Social-media influence on convenience-oriented purchasing\n8. Shopping friction, decision fatigue and information overload\n9. How consumers weigh convenience against price and quality\n10. Online beauty shopping and fulfillment preferences\nPrioritize empirical consumer research, credible industry studies and verifiable sources. Evaluate the hypotheses critically and keep research findings separate from modeling assumptions.\n\nGuardrails:\n- Do not assume this consumer is wealthy or luxury-oriented. She pays more for function and time saved, not for prestige.\n- Keep willingness to pay for convenience separate from purchasing capacity. Income, budget, age, location, occupation, retailer, product requirements and mission are set per shopping run.\n- Test where the premium stops: does she pay for speed and fulfillment, for reliable performance, or both?\n\nSuggested starting scores (hypotheses to test, not to accept): trend sensitivity 0.35, influencer trust 0.45, price sensitivity 0.40, brand loyalty 0.75, research depth 0.55, novelty seeking 0.35, impulse buying 0.25, product quality priority 0.85, convenience priority 0.95, prestige priority 0.30. Risk aversion (suggested 0.65) is not a separate parameter; express it through brand loyalty, novelty seeking, research depth and the decision rules.\n\nSephora and Ulta behaviors to examine:\n- Searching for long-wear, low-maintenance and multifunctional makeup\n- Prioritizing products that simplify an everyday routine\n- Checking reviews for application difficulty and wear duration\n- Comparing a small shortlist rather than browsing extensively\n- Considering whether a higher-priced product saves time or reduces touch-ups\n- Returning to familiar products rather than repeatedly experimenting\n- Investigating convenient replenishment and fulfillment options (verify any feature before naming it)\n- Evaluating practical social-media recommendations without prioritizing virality itself\n\nDecision rules must cover how she resolves each conflict, context-sensitively (not always the most convenient or most expensive option):\n- Convenience vs price\n- Familiarity vs novelty\n- Longevity vs affordability\n- Quality vs application complexity\n- Social popularity vs practical usefulness\n- Research effort vs purchase confidence\nInclude an explicit rule for when she has enough information to stop researching and decide.\n\nScenarios to include (in addition to any others):\nA. A $45 long-wear foundation versus a $20 foundation requiring frequent touch-ups.\nB. One multifunctional lip-and-cheek product versus two separate products.\nC. A viral product requiring complicated application versus a reliable conventional alternative.\nD. A familiar, trusted product versus a new launch promising superior performance.\nE. An inexpensive product with inconsistent performance versus a premium alternative with strong reliability reviews.\nFor each, show discovery, what she investigates, comparison depth, relevant scores, tradeoffs, purchase/rejection conditions and observable actions. Outcomes are illustrative, not research findings, and not forced.\n\nDistinctness:\n- Stay distinct from the Trend-Driven Beauty Shopper and the Practical Sensitive-Skin Shopper.\n- Versus Sensitive-Skin: both repurchase, but here repurchase saves effort and a \"good enough\" verified option is acceptable; she does not defer for exhaustive suitability checks."
+    }
+  },
+  "metadata": {
+    "status": "draft",
+    "version": 1,
+    "model": "muse-spark-1.3",
+    "generated_at": "2026-11-03T17:23:10.069Z",
+    "edited_at": "2026-11-03T17:23:10.070Z",
+    "approved_at": null,
+    "content_hash": null
+  }
+}

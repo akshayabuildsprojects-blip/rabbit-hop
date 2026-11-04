@@ -1,0 +1,1025 @@
+{
+  "persona_id": "sensitive-skin",
+  "research_date": "2026-11-03",
+  "performed_at": "2026-11-03T16:46:35.819Z",
+  "model": "muse-spark-1.3",
+  "response_id": "resp_6aea0fed319724a8c948456d",
+  "web_search_calls": 28,
+  "report_text": "Mapping how sensitive-skin shoppers research and buy — gathering trusted evidence for your simulation.\n\nI've surfaced initial patterns on ingredient checking and expert trust — now opening the key reports to verify specifics.\n\nThe direct page loads failed, so I'll reconnect through the search results to capture the citations.\n\nI've gathered enough evidence across discovery, ingredients, and loyalty — now assembling your structured archetype profile.\n\n## 1. Product discovery channels and shopping entry points\n- [Evidence] Beauty discovery often starts on social but verification happens elsewhere: 72% say after finding a product on TikTok their next step is to search for it on Google, while only 7% buy immediately in the app ([Discovered on Social, Decided Everywhere](https://www.stellarising.com/blog/beauty-social-search-discovered-on-social)).\n- [Evidence] Google remains the first stop for a beauty question for 43% of consumers, with the remainder split across Instagram, YouTube, TikTok and AI tools, and Google dominates for skincare concerns (54% go first to Google) and especially product ingredients (66% vs 8% TikTok-first) ([Discovered on Social, Decided Everywhere](https://www.stellarising.com/blog/beauty-social-search-discovered-on-social)).\n- [Evidence] Shopping spans multiple touchpoints and retailers: more than half of cosmetics and perfumes purchases involve an online touchpoint, and shoppers who browse across multiple retail sites discover more brands than single-retailer shoppers ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends-every-marketer-should-know/)).\n- [Evidence] Ingredient need states drive label- and search-led entry: 58% of all U.S. shoppers read labels all or most of the time before buying a new product, rising to 87% among health-focused shoppers, and over 25% live in households with allergy or ingredient sensitivity tied partly to beauty, of whom 76% read labels consistently ([Ingredient Transparency Drives U.S. Shopping Decisions](https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/)).\n- [Assumption] For this archetype, Sephora and Ulta product pages, brand sites and Google-indexed ingredient explanations function more as validation checkpoints than impulse shelves, with social acting as a cue to go verify suitability elsewhere.\n\n## 2. Influence of social media, creators, trends and social proof\n- [Evidence] Social is widely used for awareness but weakly trusted for decisions: 73% refer to social media for discovery yet only 26% rate it as extremely trustworthy, and only 24% consider beauty influencers extremely trustworthy ([TPS5_Report](https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf)).\n- [Evidence] In a 511-consumer beauty survey, only 9% find TikTok creators very trustworthy, versus 30% for Google results and 54% for word of mouth; low trust converts discovery into further search rather than immediate purchase ([Discovered on Social, Decided Everywhere](https://www.stellarising.com/blog/beauty-social-search-discovered-on-social)).\n- [Evidence] Broader beauty data show social-led purchase exists (38% recalled seeing or hearing about a new beauty product on social media that they later purchased in one 2025 study summarized in trade press), but the same journey research stresses verification on search and marketplaces before buying — treat viral lifts as qualitative signals only, not representative proof of suitability-driven buying. No direct evidence found that sensitive-skin shoppers follow viral blush or makeup trends at that rate.\n- [Assumption] This archetype likely uses TikTok/Reddit/creator content as directional, lived-experience signal — especially posts from people describing similar sensitivity or irritation — but defers judgment until ingredient lists and irritation-related reviews are checked.\n- [Assumption] Trend sensitivity for modeling should remain low (around 0.30 as hypothesized): trends may enter the consideration set, but they do not bypass suitability screening.\n\n## 3. Product evaluation and comparison habits\n- [Evidence] Reviews and ratings are the top global purchase influence, with nearly half of shoppers relying on them when deciding what to buy, alongside friends/family recommendations, in-store testing and search engines ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends-every-marketer-should-know/)).\n- [Evidence] Evaluation is comparative and effortful: U.S. shoppers browse an average of 19 makeup products and 12 fragrances before purchase, indicating extensive pre-checkout comparison ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends-every-marketer-should-know/)).\n- [Evidence] Ingredient scrutiny is central: 81% rank ingredient transparency as very or extremely important, and parabens (76%), sulfates (72%) and artificial colors (66%) are commonly avoided in one 1,000-respondent clean-beauty survey ([TPS5_Report](https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf)).\n- [Evidence] U.S. beauty shoppers balance natural formulations against clinically proven results when price is held constant (42% choose natural clean beauty vs 39% results-focused with FDA-approved synthetics backed by clinical testing), suggesting comparison of familiar products against new launches weighs both formulation story and proof ([Ingredient Transparency Drives U.S. Shopping Decisions](https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/)).\n- [Assumption] For sensitive-skin evaluation, filtering reviews for mentions of irritation, burning, redness or fragrance sensitivity and scanning full ingredient and fragrance disclosures is a defining, high-effort step beyond average beauty comparison.\n\n## 4. Price sensitivity and perceived value\n- [Evidence] Price-performance scrutiny is high across beauty: 24% traded down to cheaper beauty products in the prior 12 months, and more than half of executives expect scrutiny of perceived value for money to be the biggest theme ([High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices](https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025)).\n- [Evidence] Premium price is not equated with better performance by most consumers: 64% do not think premium beauty products are higher-performing than mass ones, as affordable efficacious brands raise expectations ([High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices](https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025)).\n- [Evidence] Safety can justify paying more, but affordability still constrains choice: 78% express at least some willingness to pay extra for safer formulations (20% significantly more, 32% somewhat more), while 47% cite affordability as a primary purchase criterion and 38% emphasize value for money ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html)).\n- [Assumption] Modeling price sensitivity around mid-range (e.g., 0.55) fits: willingness to spend more is conditional on demonstrated suitability and risk reduction, not on prestige or higher price as a quality cue.\n\n## 5. Brand loyalty versus willingness to experiment\n- [Evidence] General beauty loyalty is fluid: only 34% say they rarely switch from preferred brands, and up to 53% of purchases globally come from a brand not purchased in the prior 12 months, though Japan and South Korea remain more loyal ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends-every-marketer-should-know/)).\n- [Evidence] Sensitive-skin experience pushes the other way toward stickiness: 78% of consumers with sensitive skin state they have avoided a particular product or brand because of past skin reactions, and those with frequent reactions learn to limit use to the few products that do not cause irritation ([Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e](https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387)).\n- [Evidence] Safety concerns override favorite-brand attachment when risk appears: 50% would discontinue use and look for a safer alternative if a formulation featured a risky ingredient, 17% would stop immediately regardless of liking, and 46% had stopped buying certain brands or products because of ingredients ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html)).\n- [Assumption] This archetype is best modeled as conditionally loyal (high brand loyalty around 0.80): strong repurchase of what has worked, but loyalty is to demonstrated tolerability, not to brand name, and is revoked after adverse experience.\n- [Assumption] This distinguishes it from the Trend-Driven Shopper (loyalty to novelty/discovery) and Luxury Shopper (loyalty to prestige/experience), while overlapping with Time-Constrained and Value shoppers who also repurchase to save effort or money — the motive here is risk avoidance.\n\n## 6. Trust in influencers, experts, communities and independent reviews\n- [Evidence] Dermatologists outrank influencers and brand authority: 57% opt for dermatologists' advice, 42% for scientific literature and 46% for other consumer reviews to inform purchases, versus only 26% saying brand image strongly influences decisions and 15% fully trusting clean-beauty claims ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html)).\n- [Evidence] A separate 1,000-respondent survey similarly ranks dermatologists (49%), brand websites (26%) and online reviews (25%) as most trusted sources, surpassing social media and influencers ([TPS5_Report](https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf)).\n- [Evidence] Trust shifts from brand perception to evidence: consumers are described as becoming more proactive in understanding ingredients and how formulations may affect skin, placing less emphasis on persuasive marketing and enthusiastic influencer endorsements ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html)).\n- [Assumption] Credible creators for this shopper are likely credentialed specialists (e.g., dermatologists) or detailed reviewers documenting similar concerns and ingredient checks, not generalist viral endorsers; peer reviews reporting irritation carry more weight than follower counts.\n\n## 7. Purchase triggers and rejection criteria\n- [Evidence] Common adverse experiences create clear rejection cues: breakouts (38%), redness (37%), irritation or rashes (36%), burning/stinging (31%) and allergic reactions (20%) are the most reported issues, with only 28% saying they never experienced a negative reaction ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html)).\n- [Evidence] A risky-ingredient finding is a strong stop signal: 67% would stop using a favorite product if they learned it contained a potentially harmful ingredient with continued use ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html)).\n- [Evidence] Past reactions drive future avoidance at scale for sensitive skin: the 78% avoidance figure above implies that relevant adverse-experience reports and personal irritation history are potent rejection triggers ([Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e](https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387)).\n- [Evidence] Unverifiable safety claims invite skepticism: 83% of so-called hypoallergenic products and 88% of all moisturizers in a 174-product JAMA Dermatology analysis contained at least one North American Contact Dermatitis Group-listed ingredient, and 45% of fragrance-free claims contained a fragrance or botanical cross-reactor ([Many Popular \"Hypoallergenic\" Moisturizers Contain Skin Irritants, Fragrances](https://www.ajmc.com/newsroom/many-popular-hypoallergenic-moisturizers-contain-skin-irritants-fragrances)).\n- [Assumption] Triggers to buy are need plus verified suitability (empty/replacement, dermatologist or trusted-reviewer validation, full transparency); triggers to reject or defer are missing ingredient/fragrance information or a cluster of relevant irritation reports, even for viral or premium options.\n\n## 8. Typical shopping decision sequence\n- [Evidence] The observed cross-channel sequence is social discovers, Google verifies, marketplace closes: 61% switch to Google when social search doesn't deliver, and 48% buy on Amazon after TikTok discovery versus 10% Sephora, 9% TikTok Shop and 8% brand sites in the Stella Rising survey ([Discovered on Social, Decided Everywhere](https://www.stellarising.com/blog/beauty-social-search-discovered-on-social)).\n- [Evidence] Confidence is built before checkout through research and comparison across reviews, friends/family, in-store testing and search, consistent with an identify-need → research → assess → purchase flow rather than direct social checkout ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends-every-marketer-should-know/)).\n- [Evidence] Ingredient and safety checks sit in the middle of that flow: label reading before a new-product purchase is routine for most shoppers and near-universal for allergy/sensitivity households, supporting an explicit ingredient-research and suitability-assessment stage ([Ingredient Transparency Drives U.S. Shopping Decisions](https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/)).\n- [Assumption] A suitable simulation sequence is: Identify need/replacement → Ingredient/formulation research (including fragrance) → Suitability assessment via dermatologist/expert input and irritation-filtered reviews plus comparison to a known-tolerated product → Conditional purchase or deferral if information is missing.\n\n## 9. Impulse purchasing versus deliberate research\n- [Evidence] Beauty buying is becoming more research-driven as shoppers seek reassurance, with reviews as the top influence and extensive browsing before checkout ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends-every-marketer-should-know/)).\n- [Evidence] Immediate social checkout is rare: only 7% buy immediately in the app after TikTok discovery, reinforcing that discovery rarely equals instant conversion ([Discovered on Social, Decided Everywhere](https://www.stellarising.com/blog/beauty-social-search-discovered-on-social)).\n- [Evidence] Dermatology guidance explicitly counsels this posture for sensitive skin: patients who react should not experiment but should find what works and stick with it, implying deliberate, low-variety routines ([Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e](https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387)).\n- [Assumption] Impulse buying for this archetype should be modeled as very low (around 0.10): even an appealing viral blush or new launch is investigated first, and missing suitability evidence leads to deferral rather than trial.\n\n## 10. Factors influencing purchase confidence\n- [Evidence] Brands that make products easier to evaluate — detailed descriptions, authentic reviews and clear benefits — are better positioned to convert curious shoppers ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends-every-marketer-should-know/)).\n- [Evidence] Safety importance (85% say product safety is important), dermatologist backing, scientific substantiation and full ingredient clarity outweigh brand image and social influence for confidence ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html)).\n- [Evidence] Concrete formulation language matters more than vague reassurance because regulated meaning is weak: hypoallergenic and dermatologist-tested lack standardized legal definitions, and the JAMA Dermatology findings show such labels do not guarantee absence of allergens ([Many Popular \"Hypoallergenic\" Moisturizers Contain Skin Irritants, Fragrances](https://www.ajmc.com/newsroom/many-popular-hypoallergenic-moisturizers-contain-skin-irritants-fragrances)).\n- [Evidence] Prior tolerability is itself a confidence asset: sensitive-skin patients limit use to the few products that do not cause irritation to avoid redness and itching that interferes with daily activities ([Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e](https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387)).\n- [Assumption] In simulation, confidence should rise with: complete ingredient + fragrance disclosure, dermatologist or clinical substantiation, multiple recent reviews from similar-sensitivity users without irritation flags, and match to a previously tolerated product; confidence should fall with absent data, conflicting safety signals, or reliance on prestige/virality alone.\n\n## 11. Evidence quality and gaps\n- Overall strength is moderate-to-good for general mechanisms (ingredient scrutiny, review reliance, low influencer trust, premium≠performance skepticism, verification-heavy journeys) which are replicated across large-sample industry surveys (Criteo n>4,500 in 2026; Acosta n=1,083 in 2025; OnSkin n=1,700 U.S.; Stella Rising n=511) and dermatology literature, but direct evidence specifically isolating self-identified sensitive-skin shoppers' step-by-step Sephora/Ulta behavior is thinner.\n- Sensitive-skin-specific findings (52% of 800 ethnically diverse U.S. women and 51.5% of women / 38.2% of men in a 2,058-person U.K. mail survey reporting sensitive skin; 78% avoidance after past reactions) come from textbook-summarized epidemiologic work and a French 2,000+ person quality-of-life study cited in dermatology chapters, not from recent retailer clickstream data, so transfer to 2026 omnichannel simulation requires cautious inference ([Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e](https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387)).\n- Trust and label-skepticism evidence is stronger: independent JAMA Dermatology ingredient audits contradict hypoallergenic/fragrance-free claims, and OnSkin/Acosta/Smytten surveys converge on dermatologist and review reliance over brand/influencer cues, but sample frames differ (U.S. general shoppers vs. India clean-beauty-engaged urban online panel n=1,000 in June 2025), limiting generalizability ([Many Popular \"Hypoallergenic\" Moisturizers Contain Skin Irritants, Fragrances](https://www.ajmc.com/newsroom/many-popular-hypoallergenic-moisturizers-contain-skin-irritants-fragrances); ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html); ([TPS5_Report](https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf)).\n- Key gaps remain: No direct evidence found quantifying this archetype's willingness-to-pay premium for sensitive-skin-labeled vs. comparable cheaper alternatives; its exact weighting of fragrance information versus other irritants; its conversion rate in the five stipulated scenarios (viral blush, familiar vs. new launch, premium sensitive vs. cheaper equivalent, hypoallergenic with opaque transparency, social recommendation contradicted by irritation reviews); or how TikTok/Reddit/YouTube anecdotes causally change its purchase versus merely correlating with discovery. Social anecdotes should therefore be used only as qualitative illustrations of language and concerns.\n- Publisher and date transparency varies: Criteo (Nov 2026 blog reporting June 2026 survey), Stella Rising (Oct 2026, fielded July 2026, 97% female), Acosta via Abasto (Feb 2026, fielded Sept 2025), Fashionista summarizing McKinsey State of Beauty 2025 (June 2025), AJMC summarizing 2017 JAMA Dermatology work, and McGraw Hill textbook chapters (no single survey date) — recency and methods should be surfaced in the simulation rather than averaged into a single persona truth.\n\n## 12. Baseline hypotheses check\n- H1. Motivation: Finding suitable, reliable beauty products while minimizing irritation risk and wasted spend. **Supported** — safety as top priority, daily-exposure concerns, and avoidance after reactions converge on suitability and risk reduction as central motives ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html); ([Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e](https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387)).\n- H2. Highly research-oriented and risk-averse. **Supported** — research-driven confidence-building, multi-product browsing, routine label reading, and explicit advice not to experiment all point to high research depth and caution ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends-every-marketer-should-know/); ([Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e](https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387)).\n- H3. Prioritizes ingredient suitability, formulation transparency, tolerability, and product performance. **Supported** — 81% rank transparency very/extremely important and shoppers weigh natural formulations against clinically proven results rather than relying on ingredient lists alone ([TPS5_Report](https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf); ([Ingredient Transparency Drives U.S. Shopping Decisions](https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/)).\n- H4. Relies on credible expert information, detailed customer reviews, and previous experience. **Supported** — dermatologists (57%), scientific literature (42%) and consumer reviews (46%) are top informants, and past tolerability narrows future choice ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html); ([Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e](https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387)).\n- H5. Prefers familiar, reliable brands when products have worked previously. **Refined** — true only as conditional loyalty to demonstrated tolerability, not general brand loyalty, since general beauty switching is high (only 34% rarely switch) but sensitive-skin shoppers stick to the few non-irritating products and will abandon favorites over ingredient risk ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends-every-marketer-should-know/); ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html)).\n- H6. Willing to spend more for demonstrated suitability, but does not equate expensive with safer or better. **Supported** — 78% will pay at least some extra for safer formulations yet 64% do not see premium as higher-performing, supporting value-conditional premium tolerance ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html); ([High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices](https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025)).\n- H7. Uses social media to research products, especially experiences from consumers with similar skin concerns. **Refined** — social is used for discovery and technique/how-to, but ingredient questions go to Google (66% vs 8% TikTok-first) and trust in creators is low, so social is better modeled as discovery plus qualitative peer-signal, with validation elsewhere ([Discovered on Social, Decided Everywhere](https://www.stellarising.com/blog/beauty-social-search-discovered-on-social); ([TPS5_Report](https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf)).\n- H8. Skeptical of viral products unless there is convincing evidence of suitability. **Supported** — only 7% buy immediately after TikTok discovery and only 9% rate TikTok creators very trustworthy, implying virality alone rarely closes the sale without verification ([Discovered on Social, Decided Everywhere](https://www.stellarising.com/blog/beauty-social-search-discovered-on-social)).\n- H9. Less interested in novelty for its own sake. **Supported** — dermatology guidance to avoid experimentation and to limit routines to tolerated products, plus deferral when social search fails (61% switch to Google), indicate low novelty-seeking ([Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e](https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387); ([Discovered on Social, Decided Everywhere](https://www.stellarising.com/blog/beauty-social-search-discovered-on-social)).\n- H10. More likely to reject when ingredient information is missing or there are relevant adverse-experience reports. **Supported** — label reading is routine and rises in sensitivity households, half would discontinue for a risky ingredient, and most sensitive-skin consumers have avoided brands after past reactions ([Ingredient Transparency Drives U.S. Shopping Decisions](https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/); ([Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e](https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387)).\n- H11. Shopping journey: Identify need → Ingredient research → Suitability assessment → Purchase. **Refined** — evidence supports this core but requires an explicit cross-channel verification and comparison loop (social cue → Google/search ingredient check → review/expert suitability filter → multi-retailer comparison → conditional purchase/deferral) rather than a linear single-site flow ([Discovered on Social, Decided Everywhere](https://www.stellarising.com/blog/beauty-social-search-discovered-on-social); ([New Health & Beauty research: 5 shopper trends every marketer should know](https://www.criteo.com/blog/new-health-beauty-research-5-shopper-trends-every-marketer-should-know/)).",
+  "annotations": [],
+  "sources": [
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere"
+    },
+    {
+      "url": "https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/",
+      "title": "Ingredient Transparency Drives U.S. Shopping Decisions"
+    },
+    {
+      "url": "https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf",
+      "title": "TPS5_Report"
+    },
+    {
+      "url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+      "title": "High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices"
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image"
+    },
+    {
+      "url": "https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387",
+      "title": "Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e | AccessDermatologyDxRx | McGraw Hill Medical"
+    },
+    {
+      "url": "https://www.ajmc.com/newsroom/many-popular-hypoallergenic-moisturizers-contain-skin-irritants-fragrances",
+      "title": "Many Popular \"Hypoallergenic\" Moisturizers Contain Skin Irritants, Fragrances"
+    }
+  ],
+  "considered_results": [
+    {
+      "url": "https://dataintelo.com/report/global-sensitive-skin-product-market",
+      "title": "Sensitive Skin Products Market",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.24marketreports.com/consumer-goods-and-services/global-skincare-s-for-sensitive-skin-forecast-market",
+      "title": "Skincare Products for Sensitive Skin Market Outlook 2026-2032",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/top-trending-cosmetics-websites",
+      "title": "Top Trending Cosmetics Websites for 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.verifiedmarketreports.com/product/sensitive-skin-product-market/",
+      "title": "Sensitive Skin Product Market Size, Share, Trends & Forecast",
+      "snippet": ""
+    },
+    {
+      "url": "https://dataintelo.com/report/global-facial-mask-for-sensitive-skin-market",
+      "title": "Facial Mask for Sensitive Skin Market",
+      "snippet": ""
+    },
+    {
+      "url": "https://pmarketresearch.com/product/worldwide-sensitive-skin-cream-market-research-2024-by-type-application-participants-and-countries-forecast-to-2030/",
+      "title": "Worldwide Sensitive Skin Cream Market Research Report 2025, Forecast to 2032 - PW Consulting",
+      "snippet": ""
+    },
+    {
+      "url": "https://pmarketresearch.com/product/worldwide-sensitive-skin-care-product-market-research-2024-by-type-application-participants-and-countries-forecast-to-2030/",
+      "title": "Worldwide Sensitive Skin Care Product Market Research Report 2025, Forecast to 2031 - PW Consulting",
+      "snippet": ""
+    },
+    {
+      "url": "https://store.mintel.com/report/uk-managing-skin-conditions-and-allergies-market-report",
+      "title": "UK Managing Skin Conditions and Allergies Consumer Report 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.24marketreports.com/consumer-goods-and-services/global-sensitive-skin-mild-skin-care-forecast-market",
+      "title": "Sensitive Skin Mild Skin Care Product Market, Global Outlook and Forecast 2026-2032",
+      "snippet": ""
+    },
+    {
+      "url": "https://third-news.com/article/76f6afe4-4cf5-11f1-bd86-9ca3ba0a67df",
+      "title": "Exploring 2026 Trends in China's Social Media Landscape: A Look at Xiaohongshu's Impact on Generation Z Consumers",
+      "snippet": ""
+    },
+    {
+      "url": "https://pmarketresearch.com/product/worldwide-sensitive-skin-wipe-material-market-research-2024-by-type-application-participants-and-countries-forecast-to-2030/",
+      "title": "Worldwide Sensitive Skin Wipe Material Market Research Report 2025, Forecast to 2031 – PW Consulting",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.credenceresearch.com/report/sensitive-skin-care-products-market",
+      "title": "Sensitive Skin Care Products Market Size, Share and Forecast 2032",
+      "snippet": ""
+    },
+    {
+      "url": "https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/",
+      "title": "Ingredient Transparency Drives U.S. Shopping Decisions",
+      "snippet": ""
+    },
+    {
+      "url": "https://0e190a550a8c4c8c4b93-fcd009c875a5577fd4fe2f5b7e3bf4eb.ssl.cf2.rackcdn.com/EINPresswire-929909618-clean-beauty-is-on-track-to-grow-by-14-percent-by-2035-according-to-market-research-2.pdf",
+      "title": "Clean Beauty Is On Track to Grow By 14 Percent by 2035 According to Market Research",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.einnews.com/pr_news/929909618/clean-beauty-is-on-track-to-grow-by-14-percent-by-2035-according-to-market-research",
+      "title": "Clean Beauty Is On Track to Grow By 14 Percent  by 2035 According to Market Research",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.newbeauty.com/view/ingredient-obsession-skin-care-beautyengine",
+      "title": "​​Here’s What Skin-Care Buyers Care About Most When it Comes to Ingredients",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image",
+      "snippet": ""
+    },
+    {
+      "url": "https://theindustry.beauty/skincare-jargon-skin-rocks-survey/",
+      "title": "Most women struggle to understand skincare ingredients, Skin Rocks survey finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://progressivegrocer.com/ingredient-transparency-now-top-purchase-driver-new-research",
+      "title": "Ingredient Transparency Is Now a Top Purchase Driver: New Research",
+      "snippet": ""
+    },
+    {
+      "url": "https://third-news.com/article/1206aff0-4f41-11f1-8420-9ca3ba08e13f",
+      "title": "Survey Reveals Interesting Trends in Cosmetics Ingredient Awareness Among Women",
+      "snippet": ""
+    },
+    {
+      "url": "https://massmarketretailers.com/half-of-u-s-shoppers-worried-about-artificial-ingredients-in-food-acosta-group-finds/",
+      "title": "Half of U.S. shoppers worried about artificial ingredients in food, Acosta Group finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://chaindrugreview.com/half-of-u-s-shoppers-worried-about-artificial-ingredients-in-food-acosta-group-finds/",
+      "title": "Half of U.S. shoppers worried about artificial ingredients in food, Acosta Group finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://nielseniq.com/wp-content/uploads/sites/4/2026/03/Acosta-Group-NIQ-Beauty-Pres-3-5-26-FINAL.pdf",
+      "title": "PowerPoint Presentation",
+      "snippet": ""
+    },
+    {
+      "url": "https://uk.advfn.com/stock-market/share-news/Half-of-U-S-Shoppers-Worried-About-Artificial-Ing/97903033",
+      "title": "Half of U.S. Shoppers Worried About Artificial Ingredients in Food, Acosta Group Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.alibaba.com/product-insights/how-to-decode-misleading-dermatologist-tested-claims-on-drugstore-skincare-labels.html",
+      "title": "How To Decode Misleading 'dermatologist-tested' Claims On Drugstore Skincare Labels",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.complexionnotes.com/2026-09-25-what-does-dermatologist-tested-mean.html",
+      "title": "What does dermatologist tested actually mean on a label?",
+      "snippet": ""
+    },
+    {
+      "url": "https://betterhealthtodaymt.com/blogs/blogs/what-does-dermatologically-tested-hypoallergenic-mean",
+      "title": "What Does Dermatologically Tested & Hypoallergenic Mean?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.alibaba.com/product-insights/are-fragrance-free-beauty-products-always-hypoallergenic-or-just-hiding-allergens-differently.html",
+      "title": "Are Fragrance-free Beauty Products Always Hypoallergenic—or Just Hiding Allergens Differently",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.dove.com/za/baby/more-from-baby-dove/baby-care-tips/hypoallergenic-what-does-it-mean-and-why-does-it-matter.html",
+      "title": "Hypoallergenic – what does it mean and why does it matter?",
+      "snippet": ""
+    },
+    {
+      "url": "https://goldenbergdermatology.com/wp-content/uploads/2023/02/g19.pdf",
+      "title": "It’s understandable that you’d assume that a moisturizer that says it’s fragrance-free and hypoallergenic would actually live up to its claims. But unfortunately, a new study found that plenty of products that use these labels are straight-up lying about it.",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.qvskincare.com/hk/en/articles/dry-or-sensitive-skin/dermatologically-tested-and-hypoallergenic.html",
+      "title": "What Does Dermatologically Tested And Hypoallergenic Mean",
+      "snippet": ""
+    },
+    {
+      "url": "https://thebeautywriter.com/everything-you-wanted-to-know-about-hypoallergenic-beauty-products/",
+      "title": "Everything You Wanted To Know About Hypoallergenic Beauty Products",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.shipt.com/shop/products/5c494232-7e6b-4944-2c81-f067e40a5028?zip=60115",
+      "title": "Bounce Fabric Softener Sheets - Free & Gentle - 240ct: Box, Dermatologist Tested, Sensitive Formula, Bleach-Free | Shipt",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.shipt.com/shop/products/44640078-f7bc-4994-39c5-5eb1a375d043?zip=46163",
+      "title": "Tide Free & Gentle HE Laundry Detergent Pods 57 Pacs - 42oz: Hypoallergenic, Dye-Free, Child-Resistant Packaging, Dermatologist Tested | Shipt",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.wholefoodsmarket.com/grocery/product/the-honest-company-the-honest-company-baby-wipes-for-sensitive-skin-hypoallergenic-fragrance-free-multi-use-geo-mood-design-576-count-8-packs-of-72-b01nash63g",
+      "title": "The Honest Company Multi-Use Baby Wipes, Geo Mood, Unscented, 576 Count | Baby Wipes, 576 Ct. Hypoallergenic, Fragrance-Free, Plant-Based, 99% Water, Dermatologist Tested. For Sensitive Skin.",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.pharmacyjournal.org/archives/2026/vol8issue1/PartB/8-1-13-314.pdf",
+      "title": "'Untitled'",
+      "snippet": ""
+    },
+    {
+      "url": "https://journal.satriajaya.com/index.php/jemes/article/download/171/129",
+      "title": "The Influence of Influencer Marketing, Customer Reviews, and Customer Ratings on Buying Interest in the Perspective of Human Resources",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "snippet": ""
+    },
+    {
+      "url": "http://ojs.stiami.ac.id/index.php/bijak/article/download/4196/2590/14751",
+      "title": "Exploration of the Influence of Price and Customer Reviews on Body Lotion Purchase Decisions: A Study on Teenage Users",
+      "snippet": ""
+    },
+    {
+      "url": "https://ejurnal.seminar-id.com/index.php/jbe/article/download/9012/4398/",
+      "title": "Influence of Content Marketing, Live Streaming, Reviews, and Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "http://repo.lib.sab.ac.lk:8080/xmlui/handle/susl/4593",
+      "title": "Consumer Reviews on Online Purchase Intention of Beauty Care Products: An Investigation Among Millennials in Southern Province, Sri Lanka",
+      "snippet": ""
+    },
+    {
+      "url": "https://ejournal.stiedewantara.ac.id/001/article/download/1619/769/4044",
+      "title": "Nurfadilah et al,  Page 1 of 14 BUILDING TRUST IN SOCIAL COMMERCE: HOW PRODUCT QUALITY AND STORE REPUTATION INFLUENCE GEN Z BEAUTY PURCHASE DECISIONS ON",
+      "snippet": ""
+    },
+    {
+      "url": "https://gitnux.org/customer-experience-in-the-cosmetic-industry-statistics/",
+      "title": "Customer Experience In The Cosmetic Industry Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://e-journalfb.ukdw.ac.id/index.php/ICGI/article/view/136",
+      "title": "THE INFLUENCE OF GREEN MARKETING, BRAND IMAGE, AND ONLINE CUSTOMER REVIEWS ON PURCHASE DECISION OF THE BODY SHOP PRODUCTS IN THE CITY OF YOGYAKARTA",
+      "snippet": ""
+    },
+    {
+      "url": "https://ejournal.yasin-alsys.org/mikailalsys/article/download/9715/7051/9715.pdf",
+      "title": "The Effect of Electronic Word of Mouth (E-WOM) and Online Customer Reviews on Purchase Decisions for Azarine Products on TikTok Shop",
+      "snippet": ""
+    },
+    {
+      "url": "https://core.ac.uk/download/599121084.pdf",
+      "title": "Microsoft Word - Sumartik_Artikel_Lisa Ayuu.doc",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.researchgate.net/publication/387447384_The_Influence_of_User-Generated_Beauty_Content_on_Xiaohongshu_on_the_Purchase_Decisions_of_Generation_Z_Chinese_Women",
+      "title": "The Influence of User-Generated Beauty Content on Xiaohongshu on the Purchase Decisions of Generation Z Chinese Women",
+      "snippet": ""
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "snippet": ""
+    },
+    {
+      "url": "https://yougov.com/en-us/articles/54186-tiktok-made-me-buy-it-whos-discovering-new-products-on-social-media-in-2026",
+      "title": "TikTok made me buy it: Who’s discovering new products on social media in 2026?",
+      "snippet": ""
+    },
+    {
+      "url": "http://umatechnology.org/tiktok-vs-google-search-for-beauty-product-discovery-which-is-better-for-what/",
+      "title": "TikTok vs Google for Beauty Discovery: When to Use Each",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kyra.com/blog/tiktok-made-everything-discoverable-it-didnt-make-everything-worth-buying",
+      "title": "TikTok Made Everything Discoverable. It Didn’t Make Everything Worth Buying",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ijprems.com/ijprems-paper/consumer-response-to-social-media-advertising-a-study-of-cosmetic-products",
+      "title": "| INTERNATIONAL JOURNAL OF PROGRESSIVE | e-ISSN : |",
+      "snippet": ""
+    },
+    {
+      "url": "https://seosandwitch.com/beauty-ecommerce-seo-statistics/",
+      "title": "Latest Beauty Ecommerce SEO Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.webtonic.io/blog/beauty-skincare-video-marketing-statistics",
+      "title": "Beauty Content Trends & Engagement Rates 2026 | Web Tonic™",
+      "snippet": ""
+    },
+    {
+      "url": "https://journal.lspr.ac.id/index.php/communicare/article/download/957/394",
+      "title": "| Communicare : Journal of Communication Studies |  |",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.aap.com.au/aapreleases/globenewswire9728200/",
+      "title": "Beauty Brands Are Reaching More New Audiences Than Ever, According to Dash Social’s 2026 Benchmark Report",
+      "snippet": ""
+    },
+    {
+      "url": "https://newshub.medianet.com.au/2026/05/beauty-brands-are-reaching-more-new-audiences-than-ever-according-to-dash-socials-2026-benchmark-report/155398/",
+      "title": "Beauty Brands Are Reaching More New Audiences Than Ever, According to Dash Social’s 2026 Benchmark Report",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.advfn.com/stock-market/stock-news/98625979/beauty-brands-are-reaching-more-new-audiences-than",
+      "title": "Beauty Brands Are Reaching More New Audiences Than Ever, According to Dash Social’s 2026 Benchmark Report",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/05/28/3302996/0/en/Beauty-Brands-Are-Reaching-More-New-Audiences-Than-Ever-According-to-Dash-Social-s-2026-Benchmark-Report.html",
+      "title": "Beauty Brands Are Reaching More New Audiences Than Ever,",
+      "snippet": ""
+    },
+    {
+      "url": "https://fxmag.com/business/expensive-serum-cheap-cleansing-gel-this-is-how-consumers-are-changing-the-beauty-market",
+      "title": "Expensive serum, cheap cleansing gel. This is how consumers are changing the beauty market",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautycorner.com.au/consumer-shift-mass-beauty-brands-challenge-premium-market-dominance/",
+      "title": "Consumer Shift: Mass Beauty Brands Challenge Premium Market Dominance – Beauty Corner",
+      "snippet": ""
+    },
+    {
+      "url": "https://finmodelslab.com/products/sustainable-beauty-products-marketing-mix",
+      "title": "Sustainable Beauty Products Marketing Mix Analysis 2025",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+      "title": "Customers Want Beauty Brands to Prove Their Worth",
+      "snippet": ""
+    },
+    {
+      "url": "https://beyondlink.live/customers-want-beauty-brands-to-prove-their-worth/",
+      "title": "Customers Want Beauty Brands to Prove Their Worth",
+      "snippet": ""
+    },
+    {
+      "url": "https://pmarketresearch.com/product/worldwide-moisturizing-hydrogel-mask-market-research-2024-by-type-application-participants-and-countries-forecast-to-2030/",
+      "title": "Worldwide Moisturizing Hydrogel Mask Market Research Report 2025, Forecast to 2031 - PW Consulting",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.yumpu.com/en/document/view/52764291/2012-annual-chinese-consumer-report-from-mckinsey-china/23",
+      "title": "22third higher among tier",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.mckinsey.com/de/~/media/mckinsey/locations/europe%20and%20middle%20east/deutschland/news/presse/2026/2026-07-27%20state%20of%20beauty/from-aisle-to-algorithm.pdf",
+      "title": "Consumer Packaged Goods Practice",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+      "title": "High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices",
+      "snippet": ""
+    },
+    {
+      "url": "https://api.5wpr.com/storage/v1/object/public/media/pdfs/loyalty-premium-2026.pdf",
+      "title": "The Loyalty Premium",
+      "snippet": ""
+    },
+    {
+      "url": "https://chinasocialmedia.net/?p=1005",
+      "title": "New McKinsey survey.60,000 people in upward of 60 cities in China.",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mckinsey.de/~/media/mckinsey/locations/europe%20and%20middle%20east/deutschland/news/presse/2025/state%20of%20beauty/the-state-of-fashion-beauty-june-2025.pdf",
+      "title": "Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/how-to-recognize-peroxide-sensitivity-issues-in-consumers-1279151.html",
+      "title": "How to Recognize Peroxide Sensitivity Issues in Consumers",
+      "snippet": ""
+    },
+    {
+      "url": "https://healthandfamily.in/unpacking-indias-cosmetic-safety-crisis-what-a-nationwide-survey-reveals-about-reactions-counterfeits-and-skin-health/",
+      "title": "Unpacking India’s Cosmetic Safety Crisis: What a Nationwide Survey Reveals About Reactions, Counterfeits, and Skin Health",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/what-is-the-impact-of-whitening-brand-comparisons-on-your-skin-1640058.html",
+      "title": "What is the Impact of Whitening Brand Comparisons on Your Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387",
+      "title": "Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e | AccessDermatologyDxRx | McGraw Hill Medical",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/what-is-the-best-whitening-product-usage-for-sensitive-skin-237682.html",
+      "title": "What is the Best Whitening Product Usage for Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/how-to-minimize-whitening-agent-toxicity-for-sensitive-skin-429673.html",
+      "title": "How to Minimize Whitening Agent Toxicity for Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://pharmuna.com/blogs/gentle-healing-ointments-the-ultimate-guide-for-sensitive-skin-1095155.html",
+      "title": "Gentle Healing Ointments  The Ultimate Guide for Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/how-to-use-whitening-frequency-advice-for-sensitive-skin-safely-748926.html",
+      "title": "How to Use Whitening Frequency Advice for Sensitive Skin Safely",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/whitening-products-review-essential-tips-for-sensitive-skin-85495.html",
+      "title": "Whitening Products Review  Essential Tips for Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://pharmuna.com/blogs/how-to-choose-a-brightening-night-cream-for-sensitive-skin-3139602.html",
+      "title": "How to Choose a Brightening Night Cream for Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/what-are-the-best-aesthetic-treatment-options-for-sensitive-skin-592354.html",
+      "title": "What are the Best Aesthetic Treatment Options for Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/industry/beauty/",
+      "title": "Solutions for Beauty brands | Criteo",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/wp-content/uploads/2026/06/2026-Global-Health-Beauty-Pulse.pdf",
+      "title": "Health & Beauty Pulse 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/wp-content/uploads/2026/08/Global-Consumer-Electronics-Pulse-2026.pdf",
+      "title": "Consumer",
+      "snippet": ""
+    },
+    {
+      "url": "https://mediabrief.com/ai-recommendations-influence-beauty-purchases/",
+      "title": "Criteo: AI recommendations influence beauty purchases",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.passionateinmarketing.com/health-beauty-shoppers-increasingly-turn-to-ai-for-product-discovery-and-restocking-criteo-study-reveals/",
+      "title": "Criteo Study Highlights AI Beauty Shopping Trends",
+      "snippet": ""
+    },
+    {
+      "url": "https://apps.shopify.com/product-ads-by-criteo/reviews?ratings%5B%5D=4",
+      "title": "Reviews: Criteo - Trusted and impactful advertising to grow your business | Shopify App Store",
+      "snippet": ""
+    },
+    {
+      "url": "http://sourceforge.net/software/product/Criteo/",
+      "title": "Criteo Reviews in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.cuspera.com/products/criteo-dynamic-retargeting-x-5065",
+      "title": "Criteo Dynamic Retargeting: Use-Cases, Insights and Reviews | 2026 Cuspera",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/cpg-research-2026/",
+      "title": "Fresh CPG research reveals what’s filling carts in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.getapp.ca/compare/454/2071547/criteo/vs/astrad-dsp",
+      "title": "Criteo vs ASTRAD DSP",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.gartner.com/reviews/product/criteo-commerce-growth",
+      "title": "Criteo Commerce Growth",
+      "snippet": ""
+    },
+    {
+      "url": "https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf",
+      "title": "TPS5_Report",
+      "snippet": ""
+    },
+    {
+      "url": "https://fclskincare.com/blogs/blog/do-people-trust-dermatologists-or-influencers-more",
+      "title": "Do People Trust Dermatologists or Influencers More?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.citedrive.com/en/discovery/ambiguous-credentials-and-commercial-interests-in-dermatology-related-social-media-an-audit-of-skin-experts-and-public-trust-in-ireland/",
+      "title": "Ambiguous credentials and commercial interests in dermatology-related social media: an audit of “skin experts” and public trust in Ireland",
+      "snippet": ""
+    },
+    {
+      "url": "https://visualize.jove.com/40357320-trust-in-dermatologists-versus-social-media-influencers-among-acne-patients",
+      "title": "Trust in Dermatologists Versus Social Media Influencers Among Acne Patients",
+      "snippet": ""
+    },
+    {
+      "url": "https://cosmoderma.org/dermatologists-in-the-digital-age-combating-cosmeceutical-misinformation-through-social-media/",
+      "title": "Dermatologists in the digital age: Combating cosmeceutical misinformation through social media",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.researchgate.net/publication/349041056_Examining_the_impact_of_influencers'_credibility_dimensions_attractiveness_trustworthiness_and_expertise_on_the_purchase_intention_in_the_aesthetic_dermatology_industry",
+      "title": "Examining the impact of influencers’ credibility dimensions: attractiveness, trustworthiness and expertise on the purchase intention in the aesthetic dermatology industry",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.theestablished.com/self/beauty/your-dermatologist-has-a-new-gig-as-an-influencershould-you-swipe-right-or-block-them",
+      "title": "Your dermatologist turns into a social media influencer—can you trust them now? | The Established",
+      "snippet": ""
+    },
+    {
+      "url": "https://businessoffashion-businessoffashion-prod.web.arc-cdn.net/articles/beauty/skincare-dermfluencers-social-media-trust-misinformation/",
+      "title": "How Skincare Brands Build Trust in the Misinformation Era",
+      "snippet": ""
+    },
+    {
+      "url": "https://doi.org/10.7759/cureus.83930",
+      "title": "Trust in Dermatologists Versus Social Media Influencers Among Acne Patients",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.asds.net/skin-experts/news-room/press-releases/dermatologists-top-the-list-as-key-influencers-in-patients-cosmetic-procedure-decisions",
+      "title": "Dermatologists Top the List as Key Influencers in Patients’ Cosmetic Procedure Decisions",
+      "snippet": ""
+    },
+    {
+      "url": "https://reachmd.com/news/survey-dermatologists-remain-top-influencers-in-cosmetic-procedure-decisions/2475930/",
+      "title": "Survey: Dermatologists Remain Top Influencers in Cosmetic Procedure Decisions",
+      "snippet": ""
+    },
+    {
+      "url": "https://inbeat.agency/blog/healthcare-professional-influencers",
+      "title": "Healthcare Influencers: How Brands Work With HCP Creators - inBeat Agency",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.contouredcontent.com/blog-post-2.html",
+      "title": "The Economics Behind Beauty's Longer Buying Journey",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/personalized-aesthetic-plans-vs-impulse-buys-a-smart-choice-1660624.html",
+      "title": "Personalized Aesthetic Plans vs Impulse Buys  A Smart Choice",
+      "snippet": ""
+    },
+    {
+      "url": "https://partnercentric.com/blog/impulse-buying-statistics/",
+      "title": "Consumer Behavior Survey & Statistics | PartnerCentric",
+      "snippet": ""
+    },
+    {
+      "url": "https://postgoo.com/posts/6a1983d3cafdd134cef0518c?type=article",
+      "title": "Planned and Impulse Buying Statistics: What Makes a Consumer Decide to Purchase?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.igd.com/commercial-insight/shoppervista/articles/a-deep-dive-into-the-health-and-beauty-mission/72924",
+      "title": "A deep dive into the health and beauty mission",
+      "snippet": ""
+    },
+    {
+      "url": "https://timesnewsnetworks.com/the-top-impulse-buys-americans-regret-most-study-reveals/",
+      "title": "The top impulse buys Americans regret most – study reveals",
+      "snippet": ""
+    },
+    {
+      "url": "https://americantalk.live/the-top-impulse-buys-americans-regret-most-study-reveals/",
+      "title": "The top impulse buys Americans regret most – study reveals",
+      "snippet": ""
+    },
+    {
+      "url": "http://paper.ijcsns.org/07_book/202407/20240705.pdf",
+      "title": "Microsoft Word - 05--13--(45 - 54 Page)         B---------(공짜 2022년 7월호 발표됨)--(깍아달라 $100)--------(인도 10-page 논문",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mintel.com/press-centre/the-beauty-secret-of-young-men-the-convenience-of-buying-beauty-products-online-appeals-to-six-in-ten-young-men-in-the-us/",
+      "title": "The beauty secret of young men: the convenience of buying beauty products online appeals to six in ten young men in the US",
+      "snippet": ""
+    },
+    {
+      "url": "https://journalinformetrics.com/wp-content/uploads/2026/01/2.pdf",
+      "title": "FACTORS INFLUENCING IMPULSIVE BUYING BEHAVIOR: AN EMPIRICAL STUDY OF CONSUMERS’ PURCHASE INTENTIONS TOWARD OFFLINE BEAUTY",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.gcimagazine.com/21850468",
+      "title": "Impulse Control | Global Cosmetic Industry",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image",
+      "snippet": ""
+    },
+    {
+      "url": "https://en.androidayuda.com/applications/recommended/Onskin%3A-The-Smart-Guide-to-Analyzing-Cosmetics-and-Caring-for-Your-Skin/",
+      "title": "OnSkin, the skincare ingredient analyzer that transforms your beauty routine",
+      "snippet": ""
+    },
+    {
+      "url": "https://vivatech.com/news/beauty-decoded-the-startups-revolutionizing-skincare",
+      "title": "Beauty Decoded: The Startups Revolutionizing Skincare",
+      "snippet": ""
+    },
+    {
+      "url": "https://lifestyle.kynt1450.com/story/169112/new-onskin-launch-helps-consumers-identify-safer-household-chemicals/",
+      "title": "New OnSkin Launch Helps Consumers Identify Safer Household Chemicals – KYNT-AM",
+      "snippet": ""
+    },
+    {
+      "url": "https://markets.financialcontent.com/wral/article/accwirecq-2026-6-1-gen-z-is-transforming-cosmetic-consumption-science-safety-and-sustainability-go-first",
+      "title": "Gen Z Is Transforming Cosmetic Consumption: Science, Safety, and Sustainability Go First",
+      "snippet": ""
+    },
+    {
+      "url": "https://Www.appbrain.com/appstore/onskin-beauty-product-scanner/ios-1630768985",
+      "title": "OnSkin: Beauty Product Scanner",
+      "snippet": ""
+    },
+    {
+      "url": "https://lifestyle.middletownlifemagazine.com/story/504960/gen-z-is-transforming-cosmetic-consumption-science-safety-and-sustainability-go-first/",
+      "title": "Gen Z Is Transforming Cosmetic Consumption: Science, Safety, and Sustainability Go First",
+      "snippet": ""
+    },
+    {
+      "url": "https://lifestyle.thedam.fm/story/249961/gen-z-is-transforming-cosmetic-consumption-science-safety-and-sustainability-go-first/",
+      "title": "Gen Z Is Transforming Cosmetic Consumption: Science, Safety, and Sustainability Go First – The Dam FM",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.Similarweb.com/app/apple/1630768985/vs/687176839/",
+      "title": "OnSkin - AI Product Scanner vs. Think Dirty – Shop Clean iOS App Usage Comparison | Similarweb",
+      "snippet": ""
+    },
+    {
+      "url": "https://pr.franklintownnews.com/article/New-OnSkin-Launch-Helps-Consumers-Identify-Safer-Household-Chemicals/69df93b10f25261839c25f72",
+      "title": "New OnSkin Launch Helps Consumers Identify Safer Household Chemicals",
+      "snippet": ""
+    },
+    {
+      "url": "https://cw7az.com/business/press-releases/cision/20260415FL34027/new-onskin-launch-helps-consumers-identify-safer-household-chemicals/",
+      "title": "New OnSkin Launch Helps Consumers Identify Safer Household Chemicals",
+      "snippet": ""
+    },
+    {
+      "url": "https://justuseapp.com/en/app/1630768985/onskin-scanner-cosm\\u00c3\\u00a9tique/reviews",
+      "title": "Read 65 OnSkin Reviews (2024)",
+      "snippet": ""
+    },
+    {
+      "url": "https://goldenbergdermatology.com/wp-content/uploads/2023/02/g19.pdf",
+      "title": "It’s understandable that you’d assume that a moisturizer that says it’s fragrance-free and hypoallergenic would actually live up to its claims. But unfortunately, a new study found that plenty of products that use these labels are straight-up lying about it.",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ingredients.news/2017-10-05-advertising-lies-researchers-discover-that-most-moisturizers-on-the-market-are-dishonest-in-their-advertising.html",
+      "title": "Advertising LIES: Researchers discover that most moisturizers on the market are dishonest in their advertising",
+      "snippet": ""
+    },
+    {
+      "url": "http://newsme.com.ua/en/tech/health/4231275/",
+      "title": "Moisturizers can be dangerous - Health | NewsMe",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.alibaba.com/product-insights/are-fragrance-free-beauty-products-always-hypoallergenic-or-just-hiding-allergens-differently.html",
+      "title": "Are Fragrance-free Beauty Products Always Hypoallergenic—or Just Hiding Allergens Differently",
+      "snippet": ""
+    },
+    {
+      "url": "https://forum.psychlinks.ca/threads/hypoallergenic-and-fragrance-free-moisturizers-slippery-claims.29446/",
+      "title": "\"Hypoallergenic\" and \"Fragrance-Free\" Moisturizers: Slippery Claims | Psychlinks Forum -- Archive Only (2004-2022)",
+      "snippet": ""
+    },
+    {
+      "url": "http://failover.drugs.com/news/many-moisturizers-aren-t-they-claim-66916.html",
+      "title": "Many Moisturizers Aren't What They Claim to Be - Drugs.com MedNews",
+      "snippet": ""
+    },
+    {
+      "url": "https://plasticsurgerypractice.com/treatment-solutions/products/why-hypoallergenic-skin-care-products-can-be-dangerous/",
+      "title": "Why ‘Hypoallergenic’ Skin Care Products Can Be Dangerous",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ajmc.com/newsroom/many-popular-hypoallergenic-moisturizers-contain-skin-irritants-fragrances",
+      "title": "Many Popular \"Hypoallergenic\" Moisturizers Contain Skin Irritants, Fragrances",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.aarp.org/health/conditions-treatments/hypoallergenic-fragrance-free-moisturizer-chemicals/",
+      "title": "Moisturizer Labels Misleading, Cause Allergens",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.gper.org/podcast/report-from-aaaai2025",
+      "title": "Allergens in eczema moisturizers, red cheeks precede atopic dermatitis and allergens in breastmilk. — Global Parents for Eczema Research",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.merindahbotanicals.com.au/blogs/skincare/hypoallergenic-skincare",
+      "title": "Hypoallergenic Skincare\n – Merindah Botanicals",
+      "snippet": ""
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "snippet": ""
+    },
+    {
+      "url": "https://glossbureau.substack.com/p/who-actually-sold-you-that-serum",
+      "title": "Who Actually Sold You That Serum?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/stellarisingagency?trk=organization_guest_main-feed-card-text",
+      "title": "Stella Rising | LinkedIn",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/blog/video-strategy-geo-brand-discovery",
+      "title": "Video Works Where GEO Needs It Most | Stella Rising",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/blog/topic/social-media",
+      "title": "Digital Marketing News | Stella Rising | Social Media",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/blog/topic/trending",
+      "title": "Digital Marketing News | Stella Rising | Trending",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/resources",
+      "title": "Insights Hub | Stella Rising",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/blog/topic/beauty",
+      "title": "Digital Marketing News | Stella Rising | Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautymatter.com/articles/cracking-the-code-on-search-seo-vs-geo",
+      "title": "Cracking the Code on Search: SEO vs. GEO",
+      "snippet": ""
+    },
+    {
+      "url": "https://joinbrands.com/@stella-fernandes",
+      "title": "Stella F. - TikTok Creator in Deerfield Beach, FL",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/blog/future-of-search-social-discovery",
+      "title": "The Future of Search and Discovery | Stella Rising",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+      "title": "High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautifulfashionblog.com:443/a/12756/",
+      "title": "High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices – Beautiful Fashion",
+      "snippet": ""
+    },
+    {
+      "url": "https://fxmag.com/business/expensive-serum-cheap-cleansing-gel-this-is-how-consumers-are-changing-the-beauty-market",
+      "title": "Expensive serum, cheap cleansing gel. This is how consumers are changing the beauty market",
+      "snippet": ""
+    },
+    {
+      "url": "https://retailasia.com/in-focus/only-seven-beauty-brands-surpassed-1b-in-sales-in-2025-analysis-finds",
+      "title": "Only seven beauty brands surpassed $1b in sales in 2025, analysis finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+      "title": "Customers Want Beauty Brands to Prove Their Worth",
+      "snippet": ""
+    },
+    {
+      "url": "https://retailtimes.co.uk/new-bof-report-reveals-63-of-consumers-do-not-see-the-value-in-luxury-beauty-products/",
+      "title": "New BoF report reveals 63% of consumers do not see the value in luxury beauty products",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mckinsey.de/~/media/mckinsey/locations/europe%20and%20middle%20east/deutschland/news/presse/2025/state%20of%20beauty/the-state-of-fashion-beauty-june-2025.pdf",
+      "title": "Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.mckinsey.com/de/~/media/mckinsey/locations/europe%20and%20middle%20east/deutschland/news/presse/2026/2026-07-27%20state%20of%20beauty/from-aisle-to-algorithm.pdf",
+      "title": "Consumer Packaged Goods Practice",
+      "snippet": ""
+    },
+    {
+      "url": "https://sensfrx.ai/downloads/state-of-commerce.pdf",
+      "title": "THE STATE OF COMMERCE IN 2026:",
+      "snippet": ""
+    },
+    {
+      "url": "https://worldluxurychamber.com/state-of-fashion-beauty-report-2025/",
+      "title": "The State of Fashion: Beauty Report 2025 by BoF & McKinsey",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.blog.selfnamed.com/business/state-of-beauty-what-brands-must-know",
+      "title": "State of Beauty: What Brands Must Know",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautifulfashionblog.com:443/a/12519/",
+      "title": "Beauty Brands May Want to Rethink These Common Marketing Tactics – Beautiful Fashion",
+      "snippet": ""
+    },
+    {
+      "url": "https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387",
+      "title": "Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e | AccessDermatologyDxRx | McGraw Hill Medical",
+      "snippet": ""
+    },
+    {
+      "url": "https://dermatology.mhmedical.com/content.aspx?bookid=3200&sectionid=266615693",
+      "title": "Sensitive Skin | Baumann’s Cosmetic Dermatology, 3e | AccessDermatologyDxRx | McGraw Hill Medical",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.cosmeticsandtoiletries.com/research/literature-data/article/21836981/sensitive-skin-syndrome-relationships-among-factors",
+      "title": "Sensitive Skin Syndrome: Relationships Among Factors",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/how-to-choose-natural-desensitizing-agents-for-sensitive-skin-types-639918.html",
+      "title": "How to Choose Natural Desensitizing Agents for Sensitive Skin Types",
+      "snippet": ""
+    },
+    {
+      "url": "https://dermnetnz.org/topics/sensitive-skin",
+      "title": "Sensitive skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://medicaljournalssweden.se/actadv/article/download/23513/45524?inline=1",
+      "title": "Comparison of Perceptions of Skin Condition, Product Use and Allergen Reactivity Between People with Psoriasis and Controls in the European Dermato-Epidemiology Network (EDEN) Fragrance Study",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/sensitivity-flare-ups-vs-skin-allergies-how-to-tell-the-difference-922068.html",
+      "title": "Sensitivity Flare Ups vs Skin Allergies  How to Tell the Difference",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/avoid-irritant-substances-a-guide-for-sensitive-skin-types-757698.html",
+      "title": "Avoid Irritant Substances  A Guide for Sensitive Skin Types",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/the-benefits-of-restorative-cosmetic-techniques-for-sensitive-skin-74719.html",
+      "title": "The Benefits of Restorative Cosmetic Techniques for Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.dovepress.com/a-survey-to-identify-determinants-that-influence-self-perceived-sensit-peer-reviewed-fulltext-article-CCID",
+      "title": "Identify determinants that influence sensitive skin | CCID | Dove Medical Press",
+      "snippet": ""
+    },
+    {
+      "url": "https://library.scconline.org/cdn-1741616658669/23q5dg2.pdf",
+      "title": "The Vicious Cycle of Biopsychosocial Desperation for",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.aveneusa.com/sensitive-skin-101/",
+      "title": "Sensitive skin 101",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.lsnglobal.com/news/article/26694/stat-inter-covid-beauty-purchases-rely-on-reviews",
+      "title": "Stat: Inter-Covid beauty purchases rely on reviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://seosandwitch.com/beauty-ecommerce-seo-statistics/",
+      "title": "Latest Beauty Ecommerce SEO Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.powerreviews.com/category/insights/page/6/",
+      "title": "Insights Archives - Page 6 of 9 - PowerReviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.cosmeticsdesign-europe.com/Article/2023/09/19/PowerReviews-survey-highlights-strong-pockets-of-consumer-spending",
+      "title": "PowerReviews survey highlights strong pockets of consumer spending",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.powerreviews.com/research/beauty-shopper-digital-expectations-2022/embed/",
+      "title": "Meeting Beauty Shopper Digital Expectations in a Post-Pandemic World",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.powerreviews.com/?p=25794",
+      "title": "New Consumer Survey of 10,000 Beauty Shoppers Reveals Extent of Shift Online - PowerReviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://picante.today/blog/2021/02/17/new-consumer-survey-of-10000-beauty-shoppers-reveals-extent-of-shift-online/",
+      "title": "New Consumer Survey of 10,000 Beauty Shoppers Reveals Extent of Shift Online",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.globenewswire.com/en/news-release/2021/02/17/2177184/0/en/New-Consumer-Survey-of-10-000-Beauty-Shoppers-Reveals-Extent-of-Shift-Online.html",
+      "title": "New Consumer Survey of 10,000 Beauty Shoppers Reveals",
+      "snippet": ""
+    },
+    {
+      "url": "https://WWW.COSMETICSDESIGN.COM/Article/2023/09/20/powerreviews-survey-underscores-the-importance-of-product-reviews-and-sampling",
+      "title": "PowerReviews survey underscores the importance of product reviews and sampling",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.powerreviews.com/research/health-beauty-shopping-trends-2023/dependence-on-ugc/",
+      "title": "Beauty Shoppers’ Dependence on UGC - PowerReviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.powerreviews.com/wp-content/uploads/2019/09/HB_Whitepaper_Final_Sep_2019.pdf",
+      "title": "Learn more powerreviews.com/insights/h&bwhitepaper",
+      "snippet": ""
+    }
+  ],
+  "inline_citations": [
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere"
+    },
+    {
+      "url": "https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/",
+      "title": "Ingredient Transparency Drives U.S. Shopping Decisions"
+    },
+    {
+      "url": "https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf",
+      "title": "TPS5_Report"
+    },
+    {
+      "url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+      "title": "High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices"
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image"
+    },
+    {
+      "url": "https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387",
+      "title": "Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e | AccessDermatologyDxRx | McGraw Hill Medical"
+    },
+    {
+      "url": "https://www.ajmc.com/newsroom/many-popular-hypoallergenic-moisturizers-contain-skin-irritants-fragrances",
+      "title": "Many Popular \"Hypoallergenic\" Moisturizers Contain Skin Irritants, Fragrances"
+    }
+  ],
+  "citation_method": "inline_links",
+  "citation_map": [],
+  "usage": {
+    "input_tokens": 622353,
+    "input_tokens_details": {
+      "cached_tokens": 517347
+    },
+    "output_tokens": 10791,
+    "output_tokens_details": {
+      "reasoning_tokens": 3050
+    },
+    "total_tokens": 633144
+  }
+}

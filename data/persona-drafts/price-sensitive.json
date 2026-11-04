@@ -1,0 +1,1482 @@
+{
+  "schema_version": 1,
+  "persona_id": "price-sensitive",
+  "persona_name": "Price-Sensitive Value Shopper",
+  "description": "Compares prices, sizes, promotions and affordable alternatives across multiple retailers and search before buying. Verifies viral and creator-surfaced options against customer reviews for functional performance and durability per dollar. Switches readily for proven savings but pays more only when evidence shows better long-term value.",
+  "primary_motivation": "Maximizing functional product value while minimizing unnecessary expenditure.",
+  "behavioral_parameters": {
+    "note": "Simulation settings informed by qualitative research. Not scientifically validated population measurements.",
+    "trend_sensitivity": 0.45,
+    "influencer_trust": 0.2,
+    "price_sensitivity": 0.9,
+    "brand_loyalty": 0.3,
+    "research_depth": 0.85,
+    "novelty_seeking": 0.4,
+    "impulse_buying_tendency": 0.3,
+    "product_quality_priority": 0.75,
+    "convenience_priority": 0.3,
+    "prestige_priority": 0.1
+  },
+  "shopping_behavior": {
+    "preferred_discovery_channels": [
+      "general search for product, shade and dupe comparisons",
+      "large retailer and marketplace listings",
+      "short-form social videos for initial awareness",
+      "video tutorials and side-by-side demonstrations"
+    ],
+    "trusted_information_sources": [
+      "customer reviews and ratings volume and recency",
+      "general search results",
+      "word of mouth",
+      "verifiable performance proof such as lab results and detailed benefit descriptions"
+    ],
+    "product_evaluation_criteria": [
+      "price relative to effectiveness",
+      "functional performance and wear longevity",
+      "size, quantity and cost per use",
+      "consistency of recent review themes and failure complaints",
+      "net price after verified promotion or loyalty benefit"
+    ],
+    "purchase_triggers": [
+      "identified replenishment need",
+      "verified parity of affordable alternative on valued attributes",
+      "price drop or loyalty redemption that lowers net cost below alternatives"
+    ],
+    "rejection_criteria": [
+      "price premium without efficacy or durability evidence",
+      "discounted price still above comparable alternatives",
+      "small size with high per-unit cost masked by low ticket price",
+      "unfamiliar option with thin or recent-only reviews and unclear return path",
+      "similar claims without corroborating performance evidence"
+    ],
+    "comparison_strategy": "Cross-retailer comparison of 3-5 brands browsing many items, reading 6-25 reviews filtered for wear, finish and durability, calculating price-per-unit/use and net price after verified promotions.",
+    "typical_shopping_sequence": [
+      "Identify need or price-comparison task and name specific product attributes for search",
+      "Discover candidates via social and retailer browsing, treating viral items as one option among several",
+      "Search to verify and gather dupe and comparison information",
+      "Compare sizes, prices and promotions across multiple retailer pages",
+      "Read reviews for performance, durability and value complaints and watch side-by-side demonstrations",
+      "Select best-value verified option or defer if justification is insufficient"
+    ]
+  },
+  "decision_rules": [
+    {
+      "rule": "When a lower-priced option competes with a higher-priced better-reviewed option, compare cost-per-expected-use using wear-time and failure complaints; choose the higher-priced option only if multiple recent reviews show consistently longer wear or fewer repurchases, otherwise defer or choose the lower-priced verifiable option.",
+      "rationale": "Price and effectiveness jointly dominate (72%/55%) and 64% see premium as no better by default, so require durability proof to justify higher price.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When a viral prestige item competes with an affordable alternative with similar advertised benefits, treat the viral item as one candidate among several; shortlist via creator side-by-sides then require parity evidence on valued attributes across customer reviews before substituting.",
+      "rationale": "Premium must prove verifiable quality/differentiation given mass parity beliefs and dupe-quality concern (50%), plus openness to dupes (28% bought, 53% open).",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When a larger size has higher ticket price but lower stated or calculated price-per-unit, choose it only if expected usage horizon justifies inventory without expiry/waste risk; otherwise choose the smaller size with lower total outlay.",
+      "rationale": "No direct evidence of routine unit-price math; modeled as calculating from size and price to resolve size trade-offs.",
+      "basis": "modeling_assumption"
+    },
+    {
+      "rule": "When social popularity conflicts with practical value, do not purchase in-feed; generate a shortlist from social videos then verify via search, retailer pages and review recency/volume before deciding.",
+      "rationale": "Social often starts but does not finish journey (72% search after social, 7% buy immediately) and creator trust is very low versus word of mouth and search.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When a product shows a percentage discount but remains more expensive than comparable alternatives, reject the discount as a trigger unless durability or cost-per-use evidence closes the gap; otherwise wait or choose the lower net-price alternative.",
+      "rationale": "Waiting for price drops is widespread (67% will wait) and shoppers compare across retailers, so headline discounts above alternatives need extra proof.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When a familiar highly reviewed product competes with a cheaper unfamiliar brand with promising performance, switch only if the unfamiliar option shows consistent recent review volume, photos/video evidence and a clear return path; without that, retain the familiar option despite the price gap.",
+      "rationale": "Only 34% rarely switch and 92% open to smaller brands when needs align, but sponsored influence distrust requires corroboration before switching.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When deciding how deeply to research, scale effort with ticket size, expected consumption frequency and difficulty of return; extend comparison across 3-5 options and 6-25 reviews for high-use or hard-to-return items, use abbreviated checks for low-ticket easily returned trials.",
+      "rationale": "Considerable comparison evidenced but savings-conditionality not directly tested; effort scaling is modeled.",
+      "basis": "modeling_assumption"
+    },
+    {
+      "rule": "Stop further comparison and decide on the best-value verified option when additional searching cannot plausibly change rank-order by more than the expected saving net of time and return hassle, such as no new attribute information across the last several reviews.",
+      "rationale": "No direct evidence for time-to-savings elasticity; stopping rule is modeled to prevent endless comparison.",
+      "basis": "modeling_assumption"
+    },
+    {
+      "rule": "When evaluating claims, discount single sponsored endorsements and require independent signals of functional performance and durability; never treat similar marketing claims alone as proof of similar results.",
+      "rationale": "Sponsored reviews distrusted (9.7% authentic, 54.4% distrust) while lab transparency and review depth build confidence; similar claims do not equal similar results.",
+      "basis": "research_supported"
+    }
+  ],
+  "parameter_context": {
+    "trend_sensitivity": {
+      "score": 0.45,
+      "band": "medium",
+      "definition": "How strongly current trends, viral products and what is popular right now shape what the shopper looks at and wants.",
+      "interpretation": "medium: notices trends and may check a trending item, but only pursues it if value fits",
+      "rationale": "Trend awareness informs candidates; trend status is not a purchase reason unlike Trend-Driven shopper",
+      "shopping_manifestation": "Value-first filtering of trends through review and cost-per-use checks",
+      "observable_actions": [
+        "adds viral item to 3-5 option set rather than starting from it",
+        "searches dupe/comparison terms after social awareness",
+        "defers if trend lacks durability or price justification"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora discovers $38 viral blush via social but compares with $14 alternatives on wear before any decision",
+        "ulta": "At Ulta uses Trending now only as candidate source, never as proof, then verifies via search and reviews"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+          "note": "41% purchased based on TikTok/YouTube in last six months, so social proof cannot be ignored but is verified elsewhere"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+          "note": "Google owns ingredient/concern questions while social owns tutorials and near-parity only for dupes/alternatives"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Treats viral product as one candidate among several; shortlists via side-by-sides then requires parity evidence"
+        }
+      ]
+    },
+    "influencer_trust": {
+      "score": 0.2,
+      "band": "low",
+      "definition": "How much weight the shopper gives to creators, influencers and celebrity endorsements versus other sources.",
+      "interpretation": "low: discounts creator endorsements; relies on reviews, verifiable proof and own comparison instead",
+      "rationale": "Sponsored influence is least trusted signal; demonstration value does not equal credibility",
+      "shopping_manifestation": "Uses creator comparisons to discover dupe names, then cross-checks elsewhere",
+      "observable_actions": [
+        "treats viral videos as candidate source only, never proof",
+        "requires independent review volume/recency and user photos/video before switching",
+        "prefers lab results and detailed benefit descriptions over hype"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora watches creator side-by-side for shade leads then validates on Sephora reviews and search before considering purchase",
+        "ulta": "At Ulta pulls dupe names from TikTok/YouTube then validates via general search and Ulta review recency/volume"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.einpresswire.com/article_print/838582086/survey-finds-social-media-least-trusted-source-for-skincare-brand-credibility",
+          "note": "Only 9.7% view influencer reviews as authentic while 54.4% distrust as paid/fake"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+          "note": "Only 9% rate TikTok creators very trustworthy vs 30% Google and 54% word of mouth; YouTube slightly higher than TikTok"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+          "note": "Influencer recommendations rank last at 2% for new-product decisions vs price 72% and effectiveness 55%"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Discounts single sponsored endorsements; upgrades side-by-sides only as shortlist leads"
+        }
+      ]
+    },
+    "price_sensitivity": {
+      "score": 0.9,
+      "band": "high",
+      "definition": "How much price, discounts and cost per use influence consideration and choice.",
+      "interpretation": "high: price leads decision; actively hunts deals, cheaper alternatives, dupes and net-price math",
+      "rationale": "Optimizes perceived value per dollar, not lowest ticket; pays more only when long-term value proven",
+      "shopping_manifestation": "Hunts verified promos, dupe parity and cost-per-use advantage",
+      "observable_actions": [
+        "compares prices across multiple retailers before checkout",
+        "calculates price-per-unit/use and net price after verified promotion or points",
+        "waits for price drop or loyalty redemption when gap unjustified"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora factors Savings Event tier percent and Beauty Insider Cash 500 points = $10 into net cost before deciding",
+        "ulta": "At Ulta tests $10 off $50 threshold coupons and 100 points = $3 ladder against exclusions before counting savings"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+          "note": "72% cite price as mattering most for new product, jointly with 55% effectiveness defining value not lowest price alone"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.emarketer.com/content/beauty-brands-navigate-loyalty-challenge-discovery-channels-multiply",
+          "note": "About two-thirds regularly compare prices before repurchasing; value scrutiny expected dominant theme"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.accelerationpartners.com/resources/beauty-vertical-discounts-loyalty/",
+          "note": "67% will wait until price decreases even risking stockout; bargain-hunting present even among high spenders"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+          "note": "28% consciously bought dupes and 53% open to them, supporting affordable comparison"
+        }
+      ]
+    },
+    "brand_loyalty": {
+      "score": 0.3,
+      "band": "low",
+      "definition": "How much the shopper sticks with known brands versus switching.",
+      "interpretation": "low: switches brands freely; familiarity carries little weight unless backed by review proof",
+      "rationale": "Low loyalty enables comparison across tiers, but research depth prevents blind switching on price alone",
+      "shopping_manifestation": "Treats familiar product as baseline, not default; requires price or performance reason to stay or switch",
+      "observable_actions": [
+        "pits prestige against mass/masstige equivalents in same comparison",
+        "switches to cheaper unfamiliar brand only after corroboration",
+        "retains familiar option when unfamiliar evidence is thin despite price gap"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora compares prestige blush and masstige alternative side-by-side, switching if recent reviews show parity on wear",
+        "ulta": "At Ulta uses mass-to-prestige continuum in one basket to test drugstore versus prestige mascara on equal review criteria"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Only 34% say they rarely switch and up to 53% of purchases from brands not bought prior year, supporting low loyalty and switching for value"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.einpresswire.com/article_print/838582086/survey-finds-social-media-least-trusted-source-for-skincare-brand-credibility",
+          "note": "92% open to smaller/niche brands when needs/values align, supporting value-driven switching"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Switches readily for proven savings but gates unfamiliar switch on review volume and return path"
+        }
+      ]
+    },
+    "research_depth": {
+      "score": 0.85,
+      "band": "high",
+      "definition": "How much information the shopper gathers before buying: reviews, ingredients, details, comparisons.",
+      "interpretation": "high: reads reviews and details thoroughly and compares several options before committing",
+      "rationale": "Depth provides risk control for switching; effort scales with ticket, frequency and return difficulty",
+      "shopping_manifestation": "Cross-retailer verification is standard, not exception",
+      "observable_actions": [
+        "reads 6-25 reviews per candidate checking recency and volume",
+        "compares 3-5 brands with size, price and promotion math",
+        "watches side-by-side demonstrations and checks user photos/video"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora opens multiple brand pages and scans reviews for lasted and reapply themes before best-value choice",
+        "ulta": "At Ulta compares mass versus prestige pages and review consistency before counting coupon savings"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.contouredcontent.com/blog-post-2.html",
+          "note": "Half conduct extensive research; 76% scrutinise more carefully rising to 84% Gen Z"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "42% read 6-10 reviews and nearly one-third read 11-25; browse 19 makeup products average"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "72% search Google after TikTok discovery; 61% switch to Google when social fails, supporting verification loop"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.cosmeticsdesign-europe.com/Article/2023/09/19/PowerReviews-survey-highlights-strong-pockets-of-consumer-spending",
+          "note": "88% consider ratings/reviews and 89% trust them for buy decision"
+        }
+      ]
+    },
+    "novelty_seeking": {
+      "score": 0.4,
+      "band": "medium",
+      "definition": "How attracted the shopper is to new launches, new brands and untried products.",
+      "interpretation": "medium: open to new or unfamiliar products when there is a value reason to try them",
+      "rationale": "Keeps brand switching separate from novelty seeking; experimentation is considered switching with validation",
+      "shopping_manifestation": "Unfamiliar trial conditional on value proof, not launch excitement",
+      "observable_actions": [
+        "includes new launches in 3-5 candidate set but requires corroboration",
+        "rejects thin or recent-only reviews without return path",
+        "does not treat newness itself as purchase reason"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora considers new masstige launch alongside established bestseller but demands comparable review themes before trial",
+        "ulta": "At Ulta treats New Arrivals as candidate source only, never as proof of performance"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.einpresswire.com/article_print/838582086/survey-finds-social-media-least-trusted-source-for-skincare-brand-credibility",
+          "note": "92% open to smaller/niche brands when aligned with needs/values, but switching is for value not newness"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Tries unfamiliar brands for value, not for newness; new launches are reason for caution without review volume"
+        }
+      ]
+    },
+    "impulse_buying_tendency": {
+      "score": 0.3,
+      "band": "low",
+      "definition": "How likely the shopper is to buy something unplanned or decide quickly in the moment.",
+      "interpretation": "low: sticks to planned need; rarely adds unplanned items without verification",
+      "rationale": "Low impulse supports verification loop; discounts and virality do not trigger instant buy",
+      "shopping_manifestation": "Rare need-anchored impulse only; trend-anchored impulse suppressed",
+      "observable_actions": [
+        "saves or shortlists social finds instead of immediate purchase",
+        "defers when justification insufficient despite promotion badge",
+        "limits unplanned buys to need-anchored replenishment or low-risk trial"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora sees trending shade in Trending-type discovery but leaves page to search and read reviews before returning",
+        "ulta": "At Ulta ignores threshold-coupon urgency unless net-price math and reviews support the basket"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://ppc.land/the-impulse-shopper-is-everyone-adobe-data-on-86-unplanned-buys/",
+          "note": "Flash sales top impulse trigger but 45% overwhelmed by always-on suggestions, supporting selective response"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://ppc.land/the-impulse-shopper-is-everyone-adobe-data-on-86-unplanned-buys/",
+          "note": "Beauty fastest-closing impulse category challenges absolute never-impulse claim, so tendency is relative suppression not absence"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Does not purchase in-feed; generates shortlist from social then verifies via search and retailer pages"
+        }
+      ]
+    },
+    "product_quality_priority": {
+      "score": 0.75,
+      "band": "high",
+      "definition": "How much demonstrated performance and formulation quality drive the choice.",
+      "interpretation": "high: demonstrated performance and durability are deciding factors balanced against price via cost-per-use",
+      "rationale": "Quality tempers price sensitivity; similar marketing claims alone are never proof of similar results",
+      "shopping_manifestation": "Values functional performance per dollar over badge or prestige",
+      "observable_actions": [
+        "filters reviews for wear longevity and failure complaints",
+        "requires consistent recent themes and no clustered failures",
+        "chooses higher-priced option only if longer wear implies fewer repurchases"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora keeps $50 foundation over $22 only if multiple recent reviews show consistently longer wear",
+        "ulta": "At Ulta validates dupe parity on valued attributes across reviews before substituting prestige"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+          "note": "55% cite effectiveness alongside price; subgroups pay more for noticeable results"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.einpresswire.com/article_print/838582086/survey-finds-social-media-least-trusted-source-for-skincare-brand-credibility",
+          "note": "Lab results top credibility driver at 56.1% ahead of influencer signals"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+          "note": "50% concerned about dupe quality even while open to dupes, requiring verifiable differentiation"
+        }
+      ]
+    },
+    "convenience_priority": {
+      "score": 0.3,
+      "band": "low",
+      "definition": "How much ease, speed, simplicity and fit with a routine matter.",
+      "interpretation": "low: willing to spend time and effort for the right value; friction is not a rejection reason",
+      "rationale": "Saving money justifies effort; opposite of time-constrained who spends money to save time",
+      "shopping_manifestation": "Prefers thorough verification over fast checkout; effort scales with potential saving",
+      "observable_actions": [
+        "opens multiple retailer tabs and brand pages",
+        "manually calculates price-per-ounce/use when not displayed",
+        "extends comparison across days with device/channel switching"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora tolerates checking Beauty Offers codes, tier terms and review volume across several pages before deciding",
+        "ulta": "At Ulta checks coupon exclusions, points ladder and multiple brand pages rather than choosing fastest option"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.contouredcontent.com/blog-post-2.html",
+          "note": "Extensive research is modal and shoppers browse 19 makeup items, implying willingness to spend effort"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Willing to spend time calculating per-unit/use and comparing across retailers to save money"
+        }
+      ]
+    },
+    "prestige_priority": {
+      "score": 0.1,
+      "band": "low",
+      "definition": "How much brand status, exclusivity, packaging and premium positioning matter.",
+      "interpretation": "low: indifferent to prestige, exclusivity and packaging; mass brands are fine if performance per dollar wins",
+      "rationale": "Prestige without verifiable quality is not value; efficacy transparency outranks status",
+      "shopping_manifestation": "Prestige treated as price cost, not benefit, unless proven",
+      "observable_actions": [
+        "ignores prestige positioning and packaging in comparison",
+        "requires demonstrable durability difference to justify premium",
+        "trades down readily when parity shown"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora rejects prestige serum premium despite exclusive curation if reviews lack durability themes",
+        "ulta": "At Ulta prefers $7 mascara over $70 serum-tier prestige when wear evidence is equivalent"
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+          "note": "64% do not think premium performs better than mass; 24% traded down in prior 12 months"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+          "note": "Price plus effectiveness dominate new-product criteria while prestige cues rank minimal"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Brand alone never closes price gap; rejects premium without efficacy proof"
+        }
+      ]
+    }
+  },
+  "shopping_decision_rules": [
+    {
+      "scenario_id": "viral_mixed_reviews",
+      "investigate_first": "Search product plus shade and dupe/comparison terms, then open 3-5 Sephora/Ulta pages for viral and alternatives",
+      "information_sought": [
+        "shade match, finish and wear-time themes in 6-25 reviews",
+        "user photos/video and side-by-side wear evidence",
+        "size, price and net price after verified promotion"
+      ],
+      "conflict_weighing": "Weighs virality as awareness only; requires parity on shade, finish and wear-time across recent reviews and side-by-sides. Unlike Trend-Driven who starts from viral and settles for dupe, starts from value set and treats viral as one of several. Popularity never outweighs practical value without proof.",
+      "purchase_triggers": [
+        "affordable alternative shows parity on valued attributes across multiple recent reviews",
+        "viral premium justified only if durability proof shows distinct advantage per dollar"
+      ],
+      "rejection_triggers": [
+        "similar claims without corroborating review evidence",
+        "thin or recent-only reviews for alternative without return path"
+      ],
+      "influencing_parameters": [
+        "trend_sensitivity",
+        "price_sensitivity",
+        "research_depth",
+        "influencer_trust"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "72% search Google after TikTok, only 7% buy immediately; TikTok strongest only for dupes discovery"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+          "note": "28% bought dupes and 53% open but 50% worry about quality, implying verification before substitution"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Do not purchase in-feed; shortlist then verify via search and retailer pages"
+        }
+      ]
+    },
+    {
+      "scenario_id": "popular_price_premium",
+      "investigate_first": "Compare wear evidence across reviews for both price tiers before calculating per-use cost",
+      "information_sought": [
+        "wear longevity consistency and touch-up/reapply complaints",
+        "size and expected consumption frequency for per-use math",
+        "net price after verified promotion or points"
+      ],
+      "conflict_weighing": "Resolves lower price vs better quality via cost-per-expected-use using wear-time, amount per application and failure complaints. Chooses higher-priced proven-longevity option only if multiple recent reviews show consistently longer wear or fewer repurchases; otherwise retains lower-priced verifiable option or defers. Never assumes premium equals better.",
+      "purchase_triggers": [
+        "higher-priced option proves lower cost-per-use via durability and fewer repurchases",
+        "lower-priced option shows adequate wear with no clustered failures"
+      ],
+      "rejection_triggers": [
+        "price premium without efficacy or durability evidence",
+        "mixed-wear pattern that is consistent across recent reviews for cheaper option when longevity is valued"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "research_depth"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+          "note": "Price 72% plus effectiveness 55% jointly define value; subgroups pay more for noticeable results"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+          "note": "64% do not think premium performs better than mass"
+        }
+      ]
+    },
+    {
+      "scenario_id": "similar_different_prices",
+      "investigate_first": "Check size/price math for both sizes and assess consumption horizon",
+      "information_sought": [
+        "stated size and price for per-ounce/use calculation",
+        "expected usage rate and expiry risk",
+        "coupon thresholds that favor one size net price"
+      ],
+      "conflict_weighing": "Resolves size vs purchase price by manual price-per-ounce/use and usage horizon with expiry/waste risk. Chooses larger higher-ticket size only if expected horizon justifies inventory; otherwise chooses smaller with lower total outlay even at higher unit cost. Stops comparing when last several reviews add no new attribute information and rank-order cannot change by more than expected saving net of time and return hassle.",
+      "purchase_triggers": [
+        "larger size shows material per-unit saving with safe consumption horizon",
+        "smaller size wins on total outlay when horizon uncertain"
+      ],
+      "rejection_triggers": [
+        "bulk requirement beyond expected use or expiry risk",
+        "small size with high per-unit cost masked by low ticket when larger is safely consumable"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "research_depth",
+        "convenience_priority"
+      ],
+      "evidence": [
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "No direct evidence shoppers routinely do unit-price math; manual calculation is modeling assumption"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Browses many items and reads 6-25 reviews, supporting extended comparison for high-use items"
+        }
+      ]
+    },
+    {
+      "scenario_id": "familiar_vs_trending_brand",
+      "investigate_first": "Validate unfamiliar brand review depth and return coverage against familiar baseline reviews",
+      "information_sought": [
+        "review recency, volume and consistency for unfamiliar brand",
+        "photo/video performance proof and failure themes",
+        "return/exchange path on retailer"
+      ],
+      "conflict_weighing": "Weighs familiar highly reviewed baseline against cheaper unfamiliar promise by requiring corroboration: consistent recent volume, photos/video and retailer return coverage. Low loyalty enables switch but high research gates it. Without that, retains familiar despite price gap. Switching is for value, not novelty.",
+      "purchase_triggers": [
+        "unfamiliar option meets volume, recency and visual proof thresholds with clear return path",
+        "familiar option repurchased when it remains best-value verified"
+      ],
+      "rejection_triggers": [
+        "thin or recent-only reviews for unfamiliar option",
+        "unclear return path or clustered quality complaints"
+      ],
+      "influencing_parameters": [
+        "brand_loyalty",
+        "research_depth",
+        "price_sensitivity",
+        "novelty_seeking"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.einpresswire.com/article_print/838582086/survey-finds-social-media-least-trusted-source-for-skincare-brand-credibility",
+          "note": "92% open to smaller brands when needs/values align"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Only 34% rarely switch; up to 53% purchases from brands not bought prior year"
+        }
+      ]
+    },
+    {
+      "scenario_id": "influencer_vs_weak_reviews",
+      "investigate_first": "Check endorsement credibility, then seek independent reviews and demos on same attributes",
+      "information_sought": [
+        "sponsorship disclosure and critical vs purely positive framing",
+        "independent review themes on wear and durability",
+        "lab/detailed benefit proof where available"
+      ],
+      "conflict_weighing": "Discounts single sponsored endorsements entirely; requires independent signals of functional performance and durability. Upgrades only creator side-by-sides with disclosed sponsorship and critical commentary as shortlist leads, then verifies via review volume/recency. Never treats similar marketing claims as proof of similar results.",
+      "purchase_triggers": [
+        "independent reviews corroborate creator wear/shade claims with volume and recency",
+        "side-by-side shows parity on valued attributes with visual proof"
+      ],
+      "rejection_triggers": [
+        "single sponsored claim without independent corroboration",
+        "influencer-only proof with weak or conflicting customer reviews"
+      ],
+      "influencing_parameters": [
+        "influencer_trust",
+        "research_depth",
+        "product_quality_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.einpresswire.com/article_print/838582086/survey-finds-social-media-least-trusted-source-for-skincare-brand-credibility",
+          "note": "Only 9.7% view influencer reviews as authentic; 54.4% distrust as paid/fake"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.einpresswire.com/article_print/838582086/survey-finds-social-media-least-trusted-source-for-skincare-brand-credibility",
+          "note": "Lab results top credibility at 56.1% ahead of influencer signals"
+        }
+      ]
+    },
+    {
+      "scenario_id": "new_limited_reviews",
+      "investigate_first": "Assess ticket, frequency and return difficulty to set depth, then check volume/recency for new item",
+      "information_sought": [
+        "review volume, recency and photo/video depth for new item",
+        "return policy clarity for unfamiliar launch",
+        "whether last several reviews added new attribute information"
+      ],
+      "conflict_weighing": "Scales research effort with ticket size, consumption frequency and reversibility; extends to 3-5 options and 6-25 reviews for high-use or hard-to-return items, abbreviates for low-ticket easily returned trials. New/limited-review products require higher proof threshold. Stops further comparison when additional searching cannot plausibly change rank-order by more than expected saving net of time and return hassle.",
+      "purchase_triggers": [
+        "new item shows emerging consistent themes plus safe trial size or return path",
+        "research yields clear best-value rank-order with no new information in recent reviews"
+      ],
+      "rejection_triggers": [
+        "thin recent-only reviews with unclear return path",
+        "continued searching yields no new attributes and expected saving below effort cost"
+      ],
+      "influencing_parameters": [
+        "research_depth",
+        "price_sensitivity",
+        "impulse_buying_tendency",
+        "prestige_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.contouredcontent.com/blog-post-2.html",
+          "note": "Half do extensive research; 42% read 6-10 and one-third 11-25 reviews"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Shoppers browse 19 makeup/12 fragrance items pre-purchase with reviews top influence"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Effort conditional on savings size is assumption; stopping rule is modeling rule"
+        }
+      ]
+    },
+    {
+      "scenario_id": "discounted_alternative",
+      "investigate_first": "Calculate net price after verified promotion and compare to cheaper baseline on per-use basis",
+      "information_sought": [
+        "net price after verified code/coupon and points versus everyday alternative price",
+        "durability or per-use evidence to justify remaining gap",
+        "coupon exclusions and loyalty tier terms"
+      ],
+      "conflict_weighing": "Treats headline percent as non-trigger; keeps cheaper comparable as baseline and buys discounted item only if durability/cost-per-use evidence closes gap. Because waiting for drops and cross-retailer comparison are widespread, rejects discount that leaves item above alternatives without added proof. Verifies coupon/code terms and exclusions before counting savings.",
+      "purchase_triggers": [
+        "verified promotion plus points lowers net cost below alternatives or durability closes gap",
+        "replenishment need coincides with verified event that creates genuine saving"
+      ],
+      "rejection_triggers": [
+        "discounted price still above comparables without performance proof",
+        "promotion requires bulk or conditions beyond expected use"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "impulse_buying_tendency"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.accelerationpartners.com/resources/beauty-vertical-discounts-loyalty/",
+          "note": "67% will wait for price drop; loyalty rewards/offers most valued personalization"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.glossy.co/beauty/how-consumer-demand-for-value-is-changing-beauty-shopping/",
+          "note": "Shoppers browse across multiple sites and easily price-compare online"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Threshold coupons including prestige with exclusions shape net-price math (a source URL not cited during research was removed)"
+        }
+      ]
+    }
+  ],
+  "expected_observable_actions": {
+    "discovery": [
+      "starts from need or price-comparison task naming product attributes and shade",
+      "uses short-form social videos for initial awareness but does not buy in-feed",
+      "uses general search for dupe, comparison and shade-match information",
+      "browses large retailer listings to build 3-5 candidate set"
+    ],
+    "browsing": [
+      "opens 3-5 brand product pages within same category across tabs",
+      "checks size, quantity and price to calculate price-per-unit/use manually",
+      "scans reviews for wear, finish, durability and failure complaints",
+      "checks verified promotions and loyalty redemption terms before counting savings"
+    ],
+    "comparison": [
+      "compares net price after verified coupon, Beauty Offers code or points value",
+      "compares cost-per-expected-use using wear-time and repurchase risk",
+      "compares familiar versus unfamiliar options on review recency, volume and photo/video evidence",
+      "defers when premium lacks corroborating efficacy or durability evidence"
+    ],
+    "purchase": [
+      "purchases best-value verified option after 6-25 review check",
+      "times replenishment to verified Savings Event, coupon or points redemption that lowers net cost",
+      "chooses larger size only when usage horizon justifies inventory without waste",
+      "switches to cheaper unfamiliar brand only after corroborating reviews and clear return path"
+    ],
+    "rejection_or_substitution": [
+      "rejects percentage discount that remains above comparable alternatives without durability proof",
+      "rejects premium without efficacy or durability evidence despite prestige or packaging",
+      "rejects small size with high per-unit cost masked by low ticket when horizon favors larger",
+      "substitutes verified affordable alternative with parity on valued attributes"
+    ]
+  },
+  "behavioral_scenarios": [
+    {
+      "scenario_id": "viral_blush_vs_affordable_dupe",
+      "title": "Viral $38 blush versus $14 similar-benefit alternative",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: viral prestige cream blush in trending shade",
+          "price_usd": 38,
+          "popularity": "viral on TikTok with high views",
+          "brand_reputation": "prestige, well-known blush brand",
+          "social_influence": "heavy creator endorsements and side-by-side videos",
+          "customer_reviews": "high volume, mostly positive but some mixed wear notes",
+          "performance_claims": "12-hour wear, buildable pigmented finish",
+          "novelty": "trending/viral this season"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: affordable cream blush with similar advertised shade and finish",
+          "price_usd": 14,
+          "popularity": "moderate, appears in dupe comparison videos",
+          "brand_reputation": "mass/masstige, value-positioned brand",
+          "social_influence": "appears in dupe-comparison content only",
+          "customer_reviews": "moderate volume, positive on shade match with some finish variation",
+          "performance_claims": "8-hour wear, buildable finish",
+          "novelty": "established core assortment, not new"
+        }
+      ],
+      "expected_journey": [
+        "Discovers viral $38 blush via short-form social video during general browsing",
+        "Treats viral item as one candidate, searches Google for product shade plus dupe and comparison terms",
+        "Opens Sephora brand and category pages for viral and affordable alternatives",
+        "Reads 6-25 reviews filtering for wear, finish and durability themes and watches 1-2 side-by-side demonstrations",
+        "Compares size, price and net price after verified Beauty Offers or Savings Event code",
+        "Buys only if parity evidence exists or defers if justification insufficient"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "price_sensitivity",
+          "effect": "[evidence-supported] price_sensitivity high drives wide initial set and parity requirement before paying $24 gap; 72% cite price and 64% doubt premium performs better"
+        },
+        {
+          "parameter": "influencer_trust",
+          "effect": "[evidence-supported] influencer_trust low discounts single endorsements; requires review volume and photos/video before substituting"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "[hypothetical] research_depth high drives 6-25 review check for wear and failure complaints before switching"
+        },
+        {
+          "parameter": "trend_sensitivity",
+          "effect": "[hypothetical] trend_sensitivity medium treats viral item as one option among several, not starting point unlike Trend-Driven"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Purchases Product B affordable alternative as verified parity substitute",
+          "conditions": "If multiple recent reviews plus photos/video show comparable longevity and finish on similar skin and net price favors Product B"
+        },
+        {
+          "outcome": "Defers purchase or retains viral candidate on shortlist without buying, continues monitoring for price drop",
+          "conditions": "If reviews show inconsistent wear, shade mismatch, or thin evidence for Product B and no promotion closes gap"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "longevity_vs_mixed_wear_foundation",
+      "title": "$50 proven-longevity foundation versus $22 mixed-wear foundation",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: $50 foundation with strong longevity evidence",
+          "price_usd": 50,
+          "popularity": "popular in retailer bestsellers",
+          "brand_reputation": "prestige, known for long-wear complexion",
+          "social_influence": "moderate tutorials showing full-day wear",
+          "customer_reviews": "high volume, consistent 10-12 hour wear reports",
+          "performance_claims": "24-hour long wear, transfer-resistant",
+          "novelty": "core product, not new"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: $22 foundation with mixed wear reviews",
+          "price_usd": 22,
+          "popularity": "moderate",
+          "brand_reputation": "mass, broad shade range value brand",
+          "social_influence": "low creator focus",
+          "customer_reviews": "mixed wear reviews, some fading and touch-up complaints",
+          "performance_claims": "medium wear, natural finish",
+          "novelty": "established"
+        }
+      ],
+      "expected_journey": [
+        "Identifies foundation replenishment need with longevity requirement",
+        "Discovers $50 and $22 options via search and Ulta category browsing",
+        "Calculates cost-per-expected-use from stated size, price and review wear-time",
+        "Reads reviews for lasted, had to reapply, cakey by afternoon themes",
+        "Checks whether coupon and points change net-price rank order",
+        "Selects only if longevity evidence justifies repurchase frequency difference"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "product_quality_priority",
+          "effect": "[evidence-supported] product_quality_priority high tempers price_sensitivity; pays more only when noticeable results proven"
+        },
+        {
+          "parameter": "price_sensitivity",
+          "effect": "[hypothetical] price_sensitivity high requires cost-per-use math; mixed-wear pattern favors fewer repurchases calculation"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "[hypothetical] research_depth high drives comparison of failure complaints and amount per application"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Purchases $50 foundation as better long-term value",
+          "conditions": "If multiple recent reviews consistently report longer wear and fewer repurchases implying lower cost-per-use despite higher ticket"
+        },
+        {
+          "outcome": "Purchases $22 foundation or defers, rejecting unjustified premium",
+          "conditions": "If wear advantage is inconsistent or amount-per-use similar and $22 net price remains far lower"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "thirty_percent_off_still_premium",
+      "title": "30% off product still more expensive than alternatives",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: prestige serum advertised 30% off but still premium net price",
+          "price_usd": 52.5,
+          "popularity": "high due to promotion badge",
+          "brand_reputation": "prestige, premium positioning",
+          "social_influence": "moderate promotion-driven buzz",
+          "customer_reviews": "good but not distinctive on durability",
+          "performance_claims": "improved radiance in 4 weeks",
+          "novelty": "core assortment"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: comparable serum at everyday low price without discount badge",
+          "price_usd": 28,
+          "popularity": "steady seller",
+          "brand_reputation": "mass/masstige value brand",
+          "social_influence": "low",
+          "customer_reviews": "solid volume, comparable benefit themes",
+          "performance_claims": "brightening and hydration",
+          "novelty": "core assortment"
+        }
+      ],
+      "expected_journey": [
+        "Encounters 30%-off badge on prestige product while comparing alternatives",
+        "Treats percentage as non-trigger, keeps cheaper comparables as baseline",
+        "Calculates net price after verified code and compares to alternatives ticket price",
+        "Seeks durability and cost-per-use evidence to close remaining gap",
+        "Rejects or waits if gap remains without proof"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "price_sensitivity",
+          "effect": "[evidence-supported] price_sensitivity high focuses on net price versus alternatives, not headline percent; 67% will wait for better price"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "[hypothetical] research_depth high requires durability proof to justify remaining premium"
+        },
+        {
+          "parameter": "impulse_buying_tendency",
+          "effect": "[hypothetical] impulse_buying_tendency low prevents badge-triggered immediate purchase"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Purchases discounted Product A as genuinely better net value",
+          "conditions": "If durability or per-use math plus verified promotion closes gap and reviews show distinct advantage"
+        },
+        {
+          "outcome": "Rejects discount as trigger, buys Product B or waits for deeper drop",
+          "conditions": "If discounted price remains above Product B without corroborating performance difference"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "larger_size_lower_unit_cost",
+      "title": "Larger higher-ticket size with lower cost per ounce",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: larger 6.7oz moisturizer higher ticket lower per-ounce",
+          "price_usd": 48,
+          "popularity": "moderate",
+          "brand_reputation": "same reputable brand, standard size",
+          "social_influence": "low",
+          "customer_reviews": "high volume, positive on value of large size",
+          "performance_claims": "72-hour hydration, same formula",
+          "novelty": "value size of core product"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: smaller 1.7oz same formula lower ticket higher per-ounce",
+          "price_usd": 22,
+          "popularity": "high",
+          "brand_reputation": "same reputable brand, small size",
+          "social_influence": "low",
+          "customer_reviews": "high volume, positive",
+          "performance_claims": "72-hour hydration, same formula",
+          "novelty": "standard size"
+        }
+      ],
+      "expected_journey": [
+        "Compares two sizes of same moisturizer on Ulta product pages",
+        "Notes ticket price versus stated size and manually calculates price per ounce",
+        "Assesses usage horizon, expiry and waste risk for daily-use amount",
+        "Checks coupon thresholds and points impact on each size",
+        "Chooses larger only if horizon justifies inventory"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "price_sensitivity",
+          "effect": "[hypothetical] price_sensitivity high drives per-unit calculation rather than ticket-price choice"
+        },
+        {
+          "parameter": "product_quality_priority",
+          "effect": "[hypothetical] product_quality_priority high holds formula constant so decision is pure quantity economics"
+        },
+        {
+          "parameter": "convenience_priority",
+          "effect": "[hypothetical] convenience_priority low tolerates manual math and horizon assessment"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Purchases larger Product A for lower cost per use",
+          "conditions": "If daily use and expiry window clearly consume large size without waste and per-ounce saving is material"
+        },
+        {
+          "outcome": "Purchases smaller Product B despite higher unit cost to lower total outlay",
+          "conditions": "If usage is infrequent, horizon uncertain, or bulk promotion requires overstock beyond expected use"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "familiar_vs_cheaper_unfamiliar",
+      "title": "Highly reviewed familiar versus cheaper unfamiliar promising brand",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: familiar highly reviewed mascara at mid price",
+          "price_usd": 29,
+          "popularity": "bestseller",
+          "brand_reputation": "familiar, widely reviewed trusted brand",
+          "social_influence": "steady tutorial presence",
+          "customer_reviews": "very high volume, consistent length and non-smudge themes",
+          "performance_claims": "volumizing, smudge-proof 12 hours",
+          "novelty": "established bestseller"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: cheaper unfamiliar mascara with promising performance",
+          "price_usd": 12,
+          "popularity": "emerging in dupe videos",
+          "brand_reputation": "unfamiliar, smaller value brand with promising claims",
+          "social_influence": "limited creator comparisons",
+          "customer_reviews": "lower volume but promising, recent-only with photos",
+          "performance_claims": "tubing volume, no flaking",
+          "novelty": "recent launch"
+        }
+      ],
+      "expected_journey": [
+        "Shortlists familiar highly reviewed mascara and cheaper unfamiliar promising mascara",
+        "Validates unfamiliar option via recent review volume, photos/video and return path",
+        "Compares wear, flaking and removal complaints across both",
+        "Switches only if corroboration meets threshold, otherwise retains familiar",
+        "Uses same verification at Sephora prestige and mass pages"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "brand_loyalty",
+          "effect": "[evidence-supported] brand_loyalty low enables switching; 53% of category purchases from brands not bought prior year"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "[hypothetical] research_depth high gates switching on recency, volume and return coverage"
+        },
+        {
+          "parameter": "novelty_seeking",
+          "effect": "[hypothetical] novelty_seeking medium allows trial for value reason, not newness itself"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Switches to cheaper Product B as verified value",
+          "conditions": "If unfamiliar option shows consistent recent volume, photo/video wear proof and clear retailer return coverage"
+        },
+        {
+          "outcome": "Retains familiar Product A despite price gap, defers switching",
+          "conditions": "If reviews are thin, recent-only, lack failure-theme check or return path unclear"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    }
+  ],
+  "retailer_behavior": {
+    "sephora": {
+      "display_name": "Sephora",
+      "discovery": [
+        "discovers via general search for product, shade and dupe comparisons then lands on Sephora category pages",
+        "uses short-form social awareness as entry but searches Google before returning to Sephora",
+        "treats viral product as one of several candidates, not starting point"
+      ],
+      "browsing": [
+        "opens 3-5 brand pages within same category to compare prestige and affordable options",
+        "checks size and price to manually calculate price-per-use when unit pricing not shown",
+        "reads reviews for wear, finish and durability themes and scans user photos/video",
+        "reviews Beauty Offers page terms and Savings Event tier eligibility before counting savings"
+      ],
+      "comparison": [
+        "compares net price after verified code ALLONSALE tier percent or Beauty Offers code and shipping threshold",
+        "weighs prestige premium against mass parity evidence from recent reviews",
+        "factors Beauty Insider Cash 500 points = $10 into net cost where points available",
+        "retains familiar bestseller baseline until unfamiliar alternative proves parity"
+      ],
+      "purchase": [
+        "times replenishment to verified Savings Event or Beauty Offers code that lowers net cost below alternatives",
+        "uses Auto-Replenish 5% online-only where it improves per-use cost without overstock",
+        "buys best-value verified option or defers if rank-order unjustified"
+      ],
+      "relevant_site_features": [
+        {
+          "feature": "Savings Event tier discounts with code ALLONSALE (30% Sephora Collection, 20% Rouge, 15% VIB, 10% Insider)",
+          "relevance": "Lets value shopper time replenishment to verified percent that lowers prestige net price",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Beauty Offers page with code-gated deals (e.g., UNREADY, INTHEBAG)",
+          "relevance": "Provides verifiable promo to factor into net-price comparison",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Time-bound markdowns up to 50% off select in-stock merchandise",
+          "relevance": "Creates verifiable markdown baseline to compare against everyday value alternatives",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Beauty Insider loyalty tiers and Beauty Insider Cash (500 points = $10)",
+          "relevance": "Converts points to cash value in net-cost math",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Auto-Replenish 5% off subscription delivery online only",
+          "relevance": "Lowers cost-per-use for repeat high-frequency items without bulk inventory risk",
+          "verified": false,
+          "source_url": null
+        }
+      ],
+      "differences_from_other_retailers": "Sephora protects prestige positioning and rewards prestige launch discovery and tiered-event savings on prestige, while Ulta spans mass to prestige in one basket with threshold coupons; identical prestige items often price-matched but Sephora offers fewer drugstore alternatives in same cart.",
+      "evidence": [
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Tiered Savings Event 20% Rouge, 15% VIB, 10% Insider with code ALLONSALE plus 30% Sephora Collection (a source URL not cited during research was removed)"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Beauty Offers page requiring promo code and up to 50% off select markdowns stackable subject to terms (a source URL not cited during research was removed)"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Beauty Insider tiers Insider/VIB $350/Rouge $1000 and Cash 500 points $10, Rouge 2500 points $100 (a source URL not cited during research was removed)"
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.42signals.com/blog/sephora-vs-ulta-beauty-retail-war/",
+          "note": "Sephora protects prestige positioning vs Ulta mass-to-prestige span"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "72% search Google after TikTok and only 7% buy immediately, supporting verify-before-buy"
+        }
+      ]
+    },
+    "ulta": {
+      "display_name": "Ulta Beauty",
+      "discovery": [
+        "discovers via TikTok/YouTube dupe content then searches Google for comparison before landing on Ulta",
+        "uses Ulta Trending now and New Arrivals sections only as candidate sources, never as proof",
+        "starts from need and value set spanning tiers, not from single viral item"
+      ],
+      "browsing": [
+        "compares prestige against mass/masstige equivalents side-by-side in same category",
+        "checks size and price to calculate cost-per-ounce/use manually",
+        "reads reviews for functional performance, longevity and failure complaints",
+        "checks coupon terms and points ladder before assuming savings apply"
+      ],
+      "comparison": [
+        "calculates net price after $10 off $50 / $15 off $75 / $20 off $100 given exclusions",
+        "compares larger higher-ticket size versus smaller on expiry and usage horizon",
+        "requires consistent recent review volume and photo/video before switching to unfamiliar brand",
+        "rejects percentage badge that leaves item above cheaper comparable without durability proof"
+      ],
+      "purchase": [
+        "purchases verified best-value option after testing coupon applicability and points value",
+        "chooses larger size only if usage horizon justifies inventory without waste",
+        "switches to cheaper unfamiliar brand only with corroborating reviews and clear return path, otherwise retains familiar"
+      ],
+      "relevant_site_features": [
+        {
+          "feature": "Ulta Beauty Rewards earn rates (Member 1pt/$1, Platinum 1.25x, Diamond 1.5x)",
+          "relevance": "Determines points earn value to add to net-price comparison",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Points-to-dollars redemption ladder (100pts=$3 to 2000pts=$125)",
+          "relevance": "Lets shopper convert accumulated points to cash-off net cost",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Threshold coupons ($10 off $50, $15 off $75, $20 off $100 with code GIFTS) including prestige",
+          "relevance": "Provides verifiable coupon to test against basket for net-price lead",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Coupon exclusions (CHANEL, Dyson, Beauty Steals, clearance, gift cards, marketplace)",
+          "relevance": "Shapes whether coupon math counts; must check before assuming discount",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Mass-to-prestige assortment in one basket with loyalty across all",
+          "relevance": "Enables direct prestige versus drugstore value comparison in single cart",
+          "verified": true,
+          "source_url": "https://www.42signals.com/blog/sephora-vs-ulta-beauty-retail-war/"
+        },
+        {
+          "feature": "Homepage Trending now and New Arrivals / New Beauty Products sections",
+          "relevance": "Serves as candidate discovery surface only, requiring external validation before purchase",
+          "verified": false,
+          "source_url": null
+        }
+      ],
+      "differences_from_other_retailers": "Ulta allows $7 drugstore mascara and $70 prestige serum in same basket with points across all, plus broader drugstore/masstige alternatives for direct value comparison, versus Sephora prestige-centered curation and code-gated offers.",
+      "evidence": [
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Ulta Rewards Member 1pt/$1, Platinum $500/yr 1.25pt, Diamond $1200/yr 1.5pt (a source URL not cited during research was removed)"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Points ladder 100pts=$3 to 2000pts=$125 redeemable in store and online (a source URL not cited during research was removed)"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Threshold coupons $10 off $50 etc with code GIFTS including prestige, excluding CHANEL/Dyson/clearance/Beauty Steals (a source URL not cited during research was removed)"
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.42signals.com/blog/sephora-vs-ulta-beauty-retail-war/",
+          "note": "Mass-to-prestige continuum in one basket with loyalty across all"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.cosmeticsandtoiletries.com/research/consumers-market/news/22923675/beauty-dupes-aspirational-beauty-how-to-capture-gen-z-millennial-spending",
+          "note": "42% seek less expensive alternatives and one in three bought dupes seen on social, supporting dupe comparison"
+        }
+      ]
+    }
+  },
+  "research_evidence": {
+    "baseline_assessment": [
+      {
+        "hypothesis": "H1. Motivation: Maximizing functional product value while minimizing unnecessary expenditure.",
+        "verdict": "supported",
+        "note": "Price (72%) and effectiveness (55%) jointly top new-product criteria with value scrutiny dominant."
+      },
+      {
+        "hypothesis": "H2. Highly attentive to product prices and differences in value.",
+        "verdict": "supported",
+        "note": "Two-thirds regularly compare prices and shoppers browse 19 makeup and 12 fragrance items pre-purchase."
+      },
+      {
+        "hypothesis": "H3. Evaluates cost relative to quality, effectiveness, quantity, durability, and expected frequency of use.",
+        "verdict": "refined",
+        "note": "Cost vs quality/effectiveness evidenced, but quantity/durability/frequency math remains assumed without direct proof."
+      },
+      {
+        "hypothesis": "H4. Actively searches for promotions, discounts, bundles, and affordable alternatives.",
+        "verdict": "supported",
+        "note": "67% will wait for price drops and loyalty rewards/offers are most valued even among high spenders."
+      },
+      {
+        "hypothesis": "H5. Understands viral beauty trends but often investigates whether cheaper products provide comparable results.",
+        "verdict": "supported",
+        "note": "28% bought dupes and 53% open to them while 50% worry about dupe quality, indicating comparison not blind adoption."
+      },
+      {
+        "hypothesis": "H6. Uses TikTok, YouTube, Reddit, customer reviews, and beauty communities to research dupes and comparative performance.",
+        "verdict": "refined",
+        "note": "TikTok-to-Google verification and reviews as top influence evidenced, but Reddit/community representativeness unproven."
+      },
+      {
+        "hypothesis": "H7. May spend considerable time comparing products when meaningful savings are possible.",
+        "verdict": "refined",
+        "note": "Extensive research and 6-25 reviews browsed evidenced, but conditionality on savings size was not directly tested."
+      },
+      {
+        "hypothesis": "H8. Willing to purchase a more expensive product if evidence convincingly supports better long-term value.",
+        "verdict": "supported",
+        "note": "Shoppers will pay more for noticeable results when premium proves efficacy against mass parity beliefs."
+      },
+      {
+        "hypothesis": "H9. Less motivated by brand prestige or packaging alone.",
+        "verdict": "supported",
+        "note": "64% do not rate premium as higher-performing and influencer prestige cues rank at 2% for new-product decisions."
+      },
+      {
+        "hypothesis": "H10. May switch brands when comparable quality is available at a better price.",
+        "verdict": "supported",
+        "note": "Only 34% rarely switch and up to 53% of category purchases are from brands not bought in prior year."
+      },
+      {
+        "hypothesis": "H11. Avoids impulse purchases that do not address a practical need.",
+        "verdict": "challenged",
+        "note": "Beauty closes fastest on impulse at 48% in minutes with 86% monthly unplanned buys, overstating absolute avoidance."
+      },
+      {
+        "hypothesis": "H12. Can be skeptical of influencer promotions when sponsorships or commercial incentives are involved.",
+        "verdict": "supported",
+        "note": "Only 9.7% see influencer reviews as authentic and 54.4% distrust them as paid/fake with low TikTok creator trust."
+      },
+      {
+        "hypothesis": "H13. Shopping journey: Identify need → Compare products/prices → Research alternatives → Purchase best-value option",
+        "verdict": "refined",
+        "note": "Multi-retailer compare and Google/review verification fit, but linear funnel understates loops and channel switching."
+      }
+    ],
+    "supporting_sources": [
+      {
+        "url": "https://www.wunderkind.co/original-research/state-of-beauty-ecommerce",
+        "title": "The State of Beauty Ecommerce",
+        "published_date": null,
+        "used_for": "Fragmented discovery shares and loyalty rewards value"
+      },
+      {
+        "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+        "title": "Discovered on Social, Decided Everywhere",
+        "published_date": null,
+        "used_for": "Social discovery to search verification and creator trust"
+      },
+      {
+        "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+        "title": "57% of beauty consumers don’t start with Google Search",
+        "published_date": null,
+        "used_for": "Search-first behavior, social research growth, dupe and tutorial roles"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+        "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+        "published_date": null,
+        "used_for": "Price plus effectiveness as joint value definition"
+      },
+      {
+        "url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+        "title": "High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices",
+        "published_date": null,
+        "used_for": "Premium skepticism, dupe purchase openness and value scrutiny"
+      },
+      {
+        "url": "https://www.firstinsight.com/press-coverage/dupes-and-deals-drive-dollar-store-beauty-growth",
+        "title": "Dupes and Deals Drive Dollar Store Beauty Growth",
+        "published_date": null,
+        "used_for": "Dupe content format as qualitative signal"
+      },
+      {
+        "url": "https://www.contouredcontent.com/blog-post-2.html",
+        "title": "The Economics Behind Beauty's Longer Buying Journey",
+        "published_date": null,
+        "used_for": "Extensive research prevalence and review counts browsed"
+      },
+      {
+        "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+        "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+        "published_date": null,
+        "used_for": "Multi-retailer comparison, products browsed, reviews influence and weak loyalty"
+      },
+      {
+        "url": "https://www.emarketer.com/content/beauty-brands-navigate-loyalty-challenge-discovery-channels-multiply",
+        "title": "Beauty brands navigate the loyalty challenge as discovery channels multiply",
+        "published_date": null,
+        "used_for": "Price comparison habit, trading up/down and demonstration video value"
+      },
+      {
+        "url": "https://www.accelerationpartners.com/resources/beauty-vertical-discounts-loyalty/",
+        "title": "Tap into Online Beauty Consumer Loyalty with Deals and Discounts",
+        "published_date": null,
+        "used_for": "Waiting for price drops and bargain-hunting including high spenders"
+      },
+      {
+        "url": "https://www.einpresswire.com/article_print/838582086/survey-finds-social-media-least-trusted-source-for-skincare-brand-credibility",
+        "title": "Survey Finds Social Media Least Trusted Source for Skincare Brand Credibility",
+        "published_date": null,
+        "used_for": "Sponsored influence distrust, lab-result credibility and openness to small brands"
+      },
+      {
+        "url": "https://www.styleseat.com/blog/social-media-influencers/",
+        "title": "Survey Confirms Most Social Media Users Are Under the Influence",
+        "published_date": null,
+        "used_for": "Skepticism coexisting with social purchase influence and impulse"
+      },
+      {
+        "url": "https://ppc.land/the-impulse-shopper-is-everyone-adobe-data-on-86-unplanned-buys/",
+        "title": "The impulse shopper is everyone: Adobe data on 86% unplanned buys",
+        "published_date": null,
+        "used_for": "Impulse prevalence challenging no-impulse hypothesis and flash-sale triggers"
+      }
+    ],
+    "evidence_summary": "Large-sample industry surveys converge on value-first behavior: price (72%) plus effectiveness (55%) define value, 64% see premium as no better by default, 28% bought dupes with 53% open, two-thirds compare prices, shoppers browse 19 makeup items and read 6-25 reviews across retailers, 67% wait for price drops, only 34% rarely switch, and creator/sponsored trust is very low (9-10% very trustworthy/authentic) with TikTok discovery followed by Google verification (72%). Impulse is simultaneously high category-wide (48% close in minutes, 86% monthly unplanned), challenging absolute no-impulse claims, while unit-price math, savings-elasticity and site-feature effects lack direct evidence.",
+    "research_date": "2026-11-03",
+    "research_report_path": "research-reports/price-sensitive/2026-11-03T18-42-14-295Z.md",
+    "research_response_id": "resp_6aea2b07c420dd18a5894319",
+    "assumptions": [
+      "Starts from a need or price-comparison task and opens multiple retailer tabs rather than buying in-feed (modeling assumption from fragmented discovery).",
+      "Calculates price-per-unit or price-per-expected-use from listed size and price when unit pricing is not displayed (no direct evidence of routine unit-price math).",
+      "Treats single sponsored claims as low-weight but uses side-by-side wear demonstrations and Reddit/YouTube comparisons only as leads to verify via review volume and recency.",
+      "Switches to unfamiliar cheaper brands for value, not novelty, only after corroboration of recent review volume, photos/video and return coverage.",
+      "Scales research effort with ticket size, consumption rate and reversibility; abbreviated checks for low-ticket easily returned trials.",
+      "Stopping rule operationalized as no expected rank-order change net of time and return hassle (e.g., <$2-$3 equivalent or no new information across several reviews).",
+      "Scenario sequences A-E and effort-vs-savings conditionality are hypothetical illustrations, as exact savings elasticity was not tested."
+    ],
+    "limitations": [
+      "No direct evidence for systematic unit-price or cost-per-use calculation routines; modeled as assumption.",
+      "No direct test of research-time-to-savings elasticity or exact stopping threshold.",
+      "No verified evidence that specific sort-by-price or comparison site features drive choice; observable filtering behavior modeled.",
+      "Reddit and community incremental role beyond Google/YouTube/reviews unproven; treated as qualitative signal only.",
+      "Survey methods, populations and dates (2022-2026) differ and several findings come via trade-press summaries, not peer-reviewed causal work.",
+      "Scores are simulation settings to distinguish archetypes, not validated population measurements.",
+      "Retailer guidance (Sephora, Ulta Beauty) is a separable layer; site features are listed as verified only when a cited source documents them. Behavioral scenarios are hypothetical reference cases.",
+      "7 evidence URL(s) proposed during enrichment were removed because they were not cited during research."
+    ],
+    "retailer_research": {
+      "report_path": "research-reports/price-sensitive/2026-11-03T18-45-22-037Z-retailers.md",
+      "response_id": "resp_6aea2bc298a79959a4d94f0a",
+      "research_date": "2026-11-03",
+      "web_search_calls": 36,
+      "sources": [
+        {
+          "url": "https://www.42signals.com/blog/sephora-vs-ulta-beauty-retail-war/",
+          "title": "Sephora vs Ulta: Who's Winning the Beauty Retail War?"
+        },
+        {
+          "url": "https://www.cosmeticsdesign-europe.com/Article/2023/09/19/PowerReviews-survey-highlights-strong-pockets-of-consumer-spending",
+          "title": "PowerReviews survey highlights strong pockets of consumer spending"
+        },
+        {
+          "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+          "title": "57% of beauty consumers don’t start with Google Search"
+        },
+        {
+          "url": "https://www.glossy.co/beauty/how-consumer-demand-for-value-is-changing-beauty-shopping/",
+          "title": "How consumer demand for value is changing beauty shopping"
+        },
+        {
+          "url": "https://www.cosmeticsandtoiletries.com/research/consumers-market/news/22923675/beauty-dupes-aspirational-beauty-how-to-capture-gen-z-millennial-spending",
+          "title": "Beauty Dupes & Aspirational Beauty: How to Capture Gen Z & Millennial Spending"
+        },
+        {
+          "url": "https://www.askattest.com/blog/research/gen-z-beauty-trends",
+          "title": "Gen Z Beauty Trends 2025: Authenticity, Inclusivity | Attest"
+        }
+      ],
+      "enriched_at": "2026-11-03T18:45:22.037Z"
+    },
+    "baseline_snapshot": {
+      "motivation": "Maximizing functional product value while minimizing unnecessary expenditure.",
+      "characteristics": [
+        "Highly attentive to product prices and differences in value.",
+        "Evaluates cost relative to quality, effectiveness, quantity, durability, and expected frequency of use.",
+        "Actively searches for promotions, discounts, bundles, and affordable alternatives.",
+        "Understands viral beauty trends but often investigates whether cheaper products provide comparable results.",
+        "Uses TikTok, YouTube, Reddit, customer reviews, and beauty communities to research dupes and comparative performance.",
+        "May spend considerable time comparing products when meaningful savings are possible.",
+        "Willing to purchase a more expensive product if evidence convincingly supports better long-term value.",
+        "Less motivated by brand prestige or packaging alone.",
+        "May switch brands when comparable quality is available at a better price.",
+        "Avoids impulse purchases that do not address a practical need.",
+        "Can be skeptical of influencer promotions when sponsorships or commercial incentives are involved."
+      ],
+      "shopping_journey": [
+        "Identify need",
+        "Compare products/prices",
+        "Research alternatives",
+        "Purchase best-value option"
+      ],
+      "research_notes": "Topics to investigate:\n1. Price-conscious behavior in beauty and personal-care shopping\n2. Perceived value versus lowest-price purchasing\n3. Willingness to search for discounts and promotions\n4. Dupe culture and social-media-driven comparison shopping\n5. How beauty consumers evaluate price-performance tradeoffs\n6. The role of reviews and creator comparisons in identifying affordable alternatives\n7. Brand switching and loyalty among value-conscious shoppers\n8. Responses to premium pricing and perceived quality differences\n9. The relationship between research effort, expected savings and purchasing decisions\n10. How promotions and loyalty programs influence shopping behavior\nPrioritize credible consumer research and verifiable sources. Evaluate the hypotheses rather than confirming them; keep empirical findings separate from modeling assumptions.\n\nGuardrails:\n- Price sensitivity is a behavioral preference, not a proxy for low disposable income. Do not assume she is financially constrained. The same persona must work under low, moderate and high income; income, budget, age, location, mission, retailer and skin characteristics are set per run.\n- She optimizes perceived value, not the lowest price.\n- Do not assume every product has a direct dupe, or that products with similar marketing claims perform identically.\n\nSuggested starting scores (hypotheses to test, not to accept): trend sensitivity 0.45, influencer trust 0.35, price sensitivity 0.95, brand loyalty 0.30, research depth 0.85, novelty seeking 0.40, impulse buying 0.15, product quality priority 0.75, convenience priority 0.30, prestige priority 0.10. Risk aversion (suggested 0.70) is not a separate parameter. Because brand loyalty is low by design, express risk aversion through research depth, scrutiny of performance and durability reviews, and the rule that similar claims are not proof of similar results; she switches readily, but only after checking.\n- Keep brand switching (brand_loyalty) separate from novelty seeking: she tries unfamiliar brands for value, not for newness.\n\nSephora and Ulta behaviors to examine (name a site feature only if verified):\n- Sorting and comparing products by price\n- Investigating affordable alternatives to trending prestige products\n- Comparing size, quantity, price per unit and expected usage (if unit pricing is not verified on the site, she calculates it from size and price)\n- Checking reviews for functional performance and durability\n- Considering promotions, rewards and discounts when actually available (name specific sale events or coupons only if verified)\n- Comparing multiple brands within the same category\n- Examining whether premium formulations deliver meaningful advantages\n- Rejecting products whose price premium lacks sufficient justification\n- Using social-media comparisons to discover alternatives\n\nDecision rules must cover how she resolves each conflict:\n- Lower price vs better quality\n- Premium brand vs affordable alternative\n- Product size vs purchase price\n- Social popularity vs practical value\n- Discounted product vs genuinely better product\n- Familiar brand vs cheaper unfamiliar brand\n- Research effort vs potential savings\nInclude an explicit rule for when further comparison is no longer worth the expected benefit and she should decide.\n\nScenarios to include (in addition to any others):\nA. A viral $38 blush versus a $14 alternative with similar advertised benefits.\nB. A $50 foundation with strong longevity and performance evidence versus a $22 foundation with mixed wear reviews.\nC. A product advertised as 30% off but still more expensive than comparable alternatives.\nD. A larger product with a higher purchase price but lower cost per ounce.\nE. A highly reviewed familiar product versus a less expensive unfamiliar brand with promising performance.\nFor each, show discovery and search, information sought, comparison depth, how price sensitivity interacts with quality and research depth, purchase/rejection/substitution conditions and observable actions. In the parameter influence text, label each point as evidence-supported or hypothetical. Do not predetermine which product is bought.\n\nDistinctness:\n- Stay distinct from the Trend-Driven Beauty Shopper, Practical Sensitive-Skin Shopper and Time-Constrained Professional.\n- Versus Trend-Driven (the closest pair): Trend-Driven starts from the trending product and may settle for a dupe; this persona starts from value and treats the viral product as one option among several. Scenario A should show this contrast.\n- Versus Sensitive-Skin: both research deeply, but here the checks are price per use, durability and performance, not ingredients and irritation.\n- Versus Time-Constrained: she spends time to save money; Time-Constrained spends money to save time."
+    }
+  },
+  "metadata": {
+    "status": "draft",
+    "version": 1,
+    "model": "muse-spark-1.3",
+    "generated_at": "2026-11-03T18:45:22.035Z",
+    "edited_at": "2026-11-03T18:45:22.037Z",
+    "approved_at": null,
+    "content_hash": null
+  }
+}

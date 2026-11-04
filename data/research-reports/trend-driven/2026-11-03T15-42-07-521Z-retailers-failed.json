@@ -1,0 +1,1661 @@
+{
+  "background": false,
+  "completed_at": 1793720620,
+  "created_at": 1793720529,
+  "error": null,
+  "id": "resp_6aea00d08fb4cd960ca54aea",
+  "incomplete_details": null,
+  "instructions": "You are a retail consumer-behavior analyst. A beauty-shopping simulation will run this persona on the US websites of Sephora (sephora.com) and Ulta Beauty (ulta.com). Research how shoppers with this persona's characteristics discover, evaluate, compare and buy products in those two retail environments.\n\nMethod:\n- Use web search. Look for Sephora- and Ulta-specific evidence first: the retailers' own help, policy and feature pages, investor and press materials, retail trade press, and consumer research that names these retailers. Then general US beauty retail research where retailer-specific evidence is missing.\n- Mark every point as **[Retailer-specific]** (a cited source is specifically about Sephora or Ulta), **[General beauty retail]** (cited, but not retailer-specific) or **[Inference]** (a reasoned translation of the persona's traits, no direct source).\n- Site features: list only features you can document with a cited source (for example review filters, loyalty programs, new or trending sections, try-on tools). If a feature cannot be verified, do not list it as existing.\n- Never invent statistics, studies, features or URLs. If evidence is missing, say so.\n- Describe behavior, not demographics.\n\nOutput format (Markdown), with exactly these headings in this order:\n## 1. Sephora: site features and shopping tools\n## 2. Ulta Beauty: site features and shopping tools\n## 3. Retailer-specific evidence on how shoppers discover, evaluate and buy\n## 4. How this persona's traits show up at Sephora\n## 5. How this persona's traits show up at Ulta Beauty\n## 6. Sephora versus Ulta Beauty for this persona\n## 7. Evidence quality and gaps\n\nUse 3 to 8 bullet points under each heading. Cite sources inline.",
+  "model": "muse-spark-1.3",
+  "object": "response",
+  "output": [
+    {
+      "encrypted_content": "Q-PaDgEyHt_qYyJnPJTDajr1h117Zzxgf4FVHptPZ3icDkIk2EUCMevGFWYXLsFvxXm7XUL3zMwVjHLzOSJFmCcohV-Nx-usvybnVc58tw2cl75jpa_F1YQiXYVXqOfSZ4njK5TTLE8cm6tood9GPEIK2-CvEArBymDrtpiJB4jkvuo3T0XfsRHLrV8lzqfP-GX4NoUYvhb634Ewv3KouVm0XUkHrTnrSZU6VUJGt-6dcW8nA59JMvb3q20ff2XQp4KtqQHysy3B1rtBypVPZtdAqlll5OBjpaHWvewgjCcF2g2PpNKpV4-SW569y95tcxHCGF7wKg2-CHjM4EimchUrAP_BVoVCtHEFV2AvZELQtwhnBjc2jU0X2sCJsTFBQzXbbwT7aKpeH6Zr5F0Myj_2jJIDHxq5JkdJ7p03goTMHRawN91ER0vrJ6r4Dr6lUKXRW4rR_IbSYZlLv1GKA3pzHHy-pyPvW1MbSHv9cE9Z-77Hf0WhPXjIaxJVEm1eCVSCZbMOhe2spcio0_JMZUqlyCWbYQDbKqp1rzopqZ-bmrwe0axl5JrJ6eyBgv9US51y6I8MU6WgE8xKRcCVl91P1EwcdGmMSSczh4I1Gz58_dtBl36dIlQdqzYBtJN4ohWGcWJhNSWgV8uyxHApWMBUGqc3YuB20s-Km0H0k53FIs36WLH1XRmkL_n6x4ZS9WAlYWoivw641UlYV5TEisQT7zQiugI6f8A8Ugar-P47zzhQhqYzq21ILCIDkA1vjvKqVDZYimnUmiP276wLTQKlz-h9e5Hi8zDZVuBIgnHFQ67bwhk8JxewUWIM-_Qx_e6CraKGJp5pXcz5NZ8CwkY0-NqMsvs2TCDTI8MXEODFbYrrA_Ufem6IcxDn6dX1u_-r9IntTA9JaroaYa1wfEVYO7EjCCB1XsLBSZIUiyq7I9Pta6YMoLvfFiOofjLneUXPyPhVdXY3g-W-pppCOEL0XTEp0d7IUl8yueon1sEifuggQYC38DCRmST8FJ4F6dJn1u6UCwPvul9CPulZSfenG86walGVQCVRqPnemWwqHmeWBHdjTQFtEEhqZNbfkBYR_vJziR70RBFOGGr41ylwBXjnrtHtoikb4uMmRYY3dZi0S47Ibqq97ILxLYJQZNaaL2ps946o2NqhHj4zGJ5HCHVBujVOQkgAczgPyJcIEsXDyoFE3xwb3zK6dlV3GeWed9jotjNMyS8n4qTKubnk3sH-Z60vMi076MPsRCGc3RPtP2oBxBzZDGu35nEw41seIcoNg6qDXHcN2gmJ5iBCuaUij78iGJaIGIGK5F_xvpQlt9fUYhFRCVeBqnMxMjTxjArzZ6tltQtrRI-PJkh86ghQnX2nZFXgm3lLw2uPjn8JUMqQnqrDwiNkR2V8TWQh6LZMmIUMQrOjTYDyR4d29I6IiVuhLz7oO_xJMhFa4KfA4c_T6miiCHLSd6DztI1ABVXdGweHrQ7EhvkHcb4R3i50F17sCnA8Gc191mDVLXWLGwicCnPnQVjwFNI-l1hx1CHu6YZcVll_Q7lPIsrEmcvUO3LpDoRLSzPYUxIXzAOwGxrf4BXZXOpGRzQNenfE4kwgSVKPql4xvIQeiyvWmPwykn9lKvgBZppI553rtoeIgbv3K4AHuI2QsRVxSd3b-xq3HIlgIh5Gb3jkxiCMzxROz8yHAXA3L5Izu_5d3jSAUZ1b2MDld9eCk6bl3cJRTSgT_u7RNnsnWashjtAPRApBcWYprtQAp8btxplpOSxCUwO9wQ9p-cGX6XVKWrgU26PEOglTP0tpYGDSL2_Es_6mbvp9bbrJsfblWyvnGPbV6Gt_jl1ywIk6tYoP_s5izWoa3HPseSChIKFGseHzIBzIaVLpZKEOxB8ML_kSKOFnqCSg5LVr1ZxebpwaANnsMZUd7psdwj6ZZimMkVpEq32cm1vSzWcUECNrhdXCxaIa8_vpkkObKfwiOzJk_55cZqaVEDT27FVu7CCM8tVL429NVgDLl-2JUeo881-NxAbvJACaGzWsxDV9sDq2EKqMF6_j9J5A_Kxd7MlvoNa_mcEw4Bqh0D2A9MnKm8D4o7U16t77xusfKhRu2KNNKuwV2-Z5lm9YGSPPhT0cGkG4sYp2tsOfW0YYRiSkkC98gDYqtE9xuosG4aHU8O8h5pTJ6y1jLB9nQCIze2VGGgUNk6yV2SJWS3bQuN6TcJpCzztlyg2PHGqDyQTh7Un9QbFoWwiP465OftPQbbqJxbvh28D9dd15_0sBI8ro7DEHZgaXhPjWUzuKhBQQhlzS6IErqA_y2u5G3ZWlhnX5IjZTXMWgYbaExy8dsSBxEc2Uio6P5oo1yu1eT17fKG5tO2y7LXeB67vmsUQBhKLPw4A1oSe_6puFsoOQmxFFzEHh2J_VPgAu1_Sltj-yduVKHQRueYe4biykND7Dum4kliFo-nOuEa4NatxCkzeYjR2yTXBfwZ9LMVSjhTFlBpLlH6QxeL0eVUnbs-IcRwkEV2v6FoupPnb8b0w-QtevNwI8aSEu5xj2Poy_GTvxzCFMUMsWsdwoBNgHOwHt389l5RUKdDK8U2PpIiOq3vi34Nc7qHwkatCInnz3eAi2FibISKuoqRAXh0rVup5re8USYWCizx0J7gYwyIGLQGv8LjrVYGzIiLeFpVqRajVsCr-LTYxkutndajJxb7EfmAT1kj9a9BvmRekQesK0i6ek4OHQ-ni-F9spWPgmYgt3y6la--8__xgORDiAQ6az0YgTEpV9GgpfoJOKXmVuMm4",
+      "id": "rs_6aea00d08fb4cd960ca54aea:rs_01a1a21330cd7293ab2a1bdeeb74fcfd",
+      "status": "completed",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "Mapping this trend-driven profile to verified Sephora and Ulta tools — gathering retailer evidence first.",
+          "type": "output_text",
+          "parsed": null
+        }
+      ],
+      "id": "rs_01a1a21338de7535bfe4c769798e97de",
+      "phase": "commentary",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    },
+    {
+      "action": {
+        "queries": [
+          "Sephora site features Virtual Artist try-on reviews Beauty Insider"
+        ],
+        "query": "Sephora site features Virtual Artist try-on reviews Beauty Insider",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2133a33753ead2a05fa3787c550",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Sephora — Download & Review — AppFinder",
+          "type": "text_result",
+          "url": "https://appfinder.site/app/sephora.html"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora: Buy Makeup & Skincare - Free APK Download - ViaAPK",
+          "type": "text_result",
+          "url": "https://www.viaapk.com/app/com.sephora"
+        },
+        {
+          "snippet": "",
+          "title": "Which Beauty Brands Have the Best Ecommerce Experience? (+ Lessons Learned)",
+          "type": "text_result",
+          "url": "https://www.tcfecommerce.com/blog/best-beauty-ecommerce-experiences"
+        },
+        {
+          "snippet": "",
+          "title": "How to Order from Sephora US with a forward2me Address",
+          "type": "text_result",
+          "url": "https://www.forward2me.com/retailers/sephora/review-us/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora: Buy Makeup & Skincare Free Downloads",
+          "type": "text_result",
+          "url": "https://www.pocketapk.com/&q/detail/21089"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Collection articles and guides | FasterCapital",
+          "type": "text_result",
+          "url": "https://fastercapital.com/keyword/sephora-collection.html"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora: Buy Makeup & Skincare App - Reviewed",
+          "type": "text_result",
+          "url": "https://reviewed.app/app/sephora-buy-makeup-skincare/?gclid=EAIaIQobChMIvfOtneCtjgMVuqpaBR08ug6TEAAYASAAEgJ5xvD_BwE"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty Insider Program",
+          "type": "text_result",
+          "url": "https://fastercapital.com/keyword/beauty-insider-program.html/3"
+        },
+        {
+          "snippet": "",
+          "title": "Color Skincare articles and guides | FasterCapital",
+          "type": "text_result",
+          "url": "https://fastercapital.com/keyword/color-skincare.html"
+        },
+        {
+          "snippet": "",
+          "title": "Download Sephora: Buy Makeup & Skincare for Android & iOS - Mobexer",
+          "type": "text_result",
+          "url": "https://www.mobexer.com/sephora-buy-makeup-skincare/com.sephora"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Ulta Beauty site features GLAMLab virtual try-on reviews Ultamate Rewards"
+        ],
+        "query": "Ulta Beauty site features GLAMLab virtual try-on reviews Ultamate Rewards",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2133bd873649ad151aac53dbe49",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Ulta Beauty: Makeup & Skincare",
+          "type": "text_result",
+          "url": "https://www.myandroid.org/apps/apple-com-ulta-ultamcommerceapp"
+        },
+        {
+          "snippet": "",
+          "title": "Download Ulta Beauty: Makeup & Skincare app for iPhone and iPad",
+          "type": "text_result",
+          "url": "http://ulta-beauty.appstor.io/amp"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Reviews | Read 141 Customer Ratings of ulta.com | RatingFacts",
+          "type": "text_result",
+          "url": "https://ratingfacts.com/reviews/ulta.com"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty Free Review",
+          "type": "text_result",
+          "url": "https://app.popsilla.com/com.ulta"
+        },
+        {
+          "snippet": "",
+          "title": "APK-Free - Ulta Beauty: Makeup & Skincare",
+          "type": "text_result",
+          "url": "https://apk-free.com/apk/ulta-beauty-makeup-skincare/com.ulta/30257"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty: Makeup & Skincare 免費下載 (iPhone/iPad 版)",
+          "type": "text_result",
+          "url": "https://anderbot.com/tw/ios/ulta-beauty-makeup-skincare/"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty: Shop Makeup, Skin, Hair & Perfume",
+          "type": "text_result",
+          "url": "http://ulta.andro.io/de"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty App",
+          "type": "text_result",
+          "url": "https://recommendedapp.com/com.ulta.html"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty: Makeup & Skincare - AppsDB",
+          "type": "text_result",
+          "url": "https://appsdb.io/ulta-beauty-makeup-and-skincare"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty: Makeup & Skincare - Funaitools",
+          "type": "text_result",
+          "url": "https://funaitools.com/star/p/ulta-beauty-makeup-skincare"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Sephora new arrivals trending now page beauty"
+        ],
+        "query": "Sephora new arrivals trending now page beauty",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2133d3375158c2aa01c382e4489",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Trending Products | Sephora",
+          "type": "text_result",
+          "url": "https://www.sephora.com/buy/trending-products"
+        },
+        {
+          "snippet": "",
+          "title": "New Beauty Arrivals - Sephora Makeup & Skincare Products | Kohl's",
+          "type": "text_result",
+          "url": "https://www.kohls.com/catalog/sephora.jsp?CN=Partnership:Sephora+Assortment:Sephora%20New%20Arrivals&cc=Sephora-TN2.0-S-JustArrived"
+        },
+        {
+          "snippet": "",
+          "title": "The Biggest Sephora Beauty Trends of 2026, According to an Insider",
+          "type": "text_result",
+          "url": "https://www.newbeauty.com/view/sephora-beauty-trends-spring-2026"
+        },
+        {
+          "snippet": "",
+          "title": "What's new in Sephora?",
+          "type": "text_result",
+          "url": "https://benable.com/Ritarita/sephora"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Fall Savings Event 2026 | 20+ NEW Favorites & Viral Products I'd SKIP! ⭐",
+          "type": "text_result",
+          "url": "https://www.youtube.com/watch?v=7eVfxgjNwbw"
+        },
+        {
+          "snippet": "",
+          "title": "New at Sephora UK | SEPHORA UK",
+          "type": "text_result",
+          "url": "https://www.sephora.co.uk/new-at-sephora"
+        },
+        {
+          "snippet": "",
+          "title": "New at Sephora UK | SEPHORA UK",
+          "type": "text_result",
+          "url": "https://www.sephora.co.uk/new-at-sephora?filter=fh_location=//c1/en_GB/in_stock>{in}/new_in=1/badge>{gwp}/!uk_only=1/!brand={a70}/%26fh_view_size=40%26date_time=20260418T120455%26site_area=cms%26device=desktop%26fh_refview=lister%26fh_reffacet=badge#inline-facets"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty Newness To Check Out at Sephora",
+          "type": "text_result",
+          "url": "https://thebeautylookbook.com/2023/08/beauty-newness-to-check-out-at-sephora.html"
+        },
+        {
+          "snippet": "",
+          "title": "I'VE TRIED 29 NEW MAKEUP LAUNCHES AT SEPHORA HERE ARE MY THOUGHTS & OPINIONS",
+          "type": "text_result",
+          "url": "https://www.youtube.com/watch?v=pLhJxsAGxoQ"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Hong Kong",
+          "type": "text_result",
+          "url": "https://www.sephora.hk/?messageType&message=Sorry,+rare-beauty-mini-soft-pinch-liquid-blush+is+not+available+right+now"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora New Zealand",
+          "type": "text_result",
+          "url": "https://www.sephora.nz/pages/trending-suncare/makeup/face/tinted-moisturiser?brands=virtue-labs"
+        },
+        {
+          "snippet": "",
+          "title": "New Products from Sephora that are Must Haves✨",
+          "type": "text_result",
+          "url": "https://benable.com/hanna15/new-products-from-sephora-that-are-must-haves-93"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Ulta Beauty new arrivals trending now page"
+        ],
+        "query": "Ulta Beauty new arrivals trending now page",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2133e9c70199bb3b00e72b3bddf",
+      "results": [
+        {
+          "snippet": "",
+          "title": "The Very Best of Ulta Beauty's Newest Arrivals | NewBeauty",
+          "type": "text_result",
+          "url": "https://www.newbeauty.com/view/ulta-beauty-new-arrivals-august-2025"
+        },
+        {
+          "snippet": "",
+          "title": "New in Ulta Beauty at Target : Target",
+          "type": "text_result",
+          "url": "https://target.com/c/new-in-ulta-beauty-at-target/-/n-1g1r8"
+        },
+        {
+          "snippet": "",
+          "title": "New Beauty Products | Ulta Beauty",
+          "type": "text_result",
+          "url": "https://www.ulta.com/shop/new-beauty-products?category=body-care%2Csuncare"
+        },
+        {
+          "snippet": "",
+          "title": "New in Ulta Beauty at Target : Target",
+          "type": "text_result",
+          "url": "https://www.target.com/c/new-in-ulta-beauty-at-target/-35-nbsp-ndash-nbsp-39-99/-/N-1g1r8Zob2yf"
+        },
+        {
+          "snippet": "",
+          "title": "Your Go-To Guide for the Hottest New Arrivals & Best-Selling Ulta Beauty Picks",
+          "type": "text_result",
+          "url": "https://www.mylifestylenhack.com/your-go-to-guide-for-the-hottest-new-arrivals-best-selling-ulta-beauty-picks/"
+        },
+        {
+          "snippet": "",
+          "title": "New in Ulta Beauty at Target : Target",
+          "type": "text_result",
+          "url": "https://www.target.com/c/new-in-ulta-beauty-at-target/in-stores/-/N-1g1r8"
+        },
+        {
+          "snippet": "",
+          "title": "New in Ulta Beauty at Target",
+          "type": "text_result",
+          "url": "https://www.target.com/c/new-in-ulta-beauty-at-target/5/-/N-1g1r8Z5zkq6"
+        },
+        {
+          "snippet": "",
+          "title": "Multiple Forms : New in Ulta Beauty at Target",
+          "type": "text_result",
+          "url": "https://www.target.com/c/new-in-ulta-beauty-at-target/multiple-forms/-/N-1g1r8Z56cp2"
+        },
+        {
+          "snippet": "",
+          "title": "Revolution Beauty | Ulta Beauty",
+          "type": "text_result",
+          "url": "http://ulta.com/brand/revolution-beauty?CAAGID=1240250168025870&CADevice=c&CAPCID=&CATCI=kwd-77515941457475%3Aloc-190&CATRK=SPFID-1&CAWELAID=330000200003205505&cmpid=PS_Non%21bing%21MassCos_UltaBrand_2024New&msclkid=1f160cc3f94a1f168a4b6abb24c1b84d&page=2"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty | Makeup, Skin Care, Fragrance, Hair Care & Beauty Products",
+          "type": "text_result",
+          "url": "https://www.ulta.com/?AID=164999&PID=408233&CID=af_164999_408233_&clickId=&SubID=&utm_medium=affiliate&utm_source=408233&utm_campaign=&utm_content=core&irgwc=1&afsrc=1"
+        },
+        {
+          "snippet": "",
+          "title": "Cosmetics, Fragrance, Skincare, and Beauty Gifts | Ulta Beauty",
+          "type": "text_result",
+          "url": "https://www.ulta.com/featured/spotlight_viral"
+        },
+        {
+          "snippet": "",
+          "title": "Live Tinted - By Price - 5 Products | Ulta Beauty",
+          "type": "text_result",
+          "url": "https://www.ulta.com/brand/live-tinted?category=gifts%2Cby-price"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Sephora Ulta TikTok discovery beauty shoppers influencer"
+        ],
+        "query": "Sephora Ulta TikTok discovery beauty shoppers influencer",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2133ff776b0984970883f705015",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Sephora Vs. Ulta Beauty: Which Retailer Is Right For Mikayla Nogueira's POV Beauty?",
+          "type": "text_result",
+          "url": "https://www.beautyindependent.com/sephora-vs-ulta-beauty-which-retailer-right-mikayla-nogueira-pov-beauty/"
+        },
+        {
+          "snippet": "",
+          "title": "How Sephora’s TikTok Shop Strategy Is Turning Social Discovery into Commerce",
+          "type": "text_result",
+          "url": "https://beautymatter.com/articles/sephora-wants-a-bigger-piece-of-tiktoks-beauty-economy"
+        },
+        {
+          "snippet": "",
+          "title": "5W Releases \"1,000-Creator Playbook for Beauty 2026\" -- Finds 30,000+ Brands Now Compete on TikTok Shop, Forcing Seeding Operations to 10x Scale",
+          "type": "text_result",
+          "url": "https://tools.prnewswire.com:443/en-us/live/17059/release/20260624NY54083?filter=17059"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty brands navigate the loyalty challenge as discovery channels multiply",
+          "type": "text_result",
+          "url": "https://www.emarketer.com/content/beauty-brands-navigate-loyalty-challenge-discovery-channels-multiply"
+        },
+        {
+          "snippet": "",
+          "title": "5W Releases \"1,000-Creator Playbook for Beauty 2026\" - Finds 30,000+ Brands Now Compete on TikTok Shop, Forcing Seeding Operations to 10x Scale - Maui Sky - Lifestyle",
+          "type": "text_result",
+          "url": "https://lifestyle.mauisky.com/story/201518/5w-releases-1000-creator-playbook-for-beauty-2026-finds-30000-brands-now-compete-on-tiktok-shop-forcing-seeding-operations-to-10x-scale/"
+        },
+        {
+          "snippet": "",
+          "title": "5W Releases \"1,000-Creator Playbook for Beauty 2026\" -- Finds 30,000+ Brands Now Compete on TikTok Shop, Forcing Seeding Operations to 10x Scale | The AI Journal",
+          "type": "text_result",
+          "url": "https://aijourn.com/5w-releases-1000-creator-playbook-for-beauty-2026-finds-30000-brands-now-compete-on-tiktok-shop-forcing-seeding-operations-to-10x-scale-2/"
+        },
+        {
+          "snippet": "",
+          "title": "TikTok Shop Closes in on Sephora in US Online Beauty, while Amazon and Walmart Stay on Top",
+          "type": "text_result",
+          "url": "https://ecdb.com/blog/us-online-beauty-ranking/5266"
+        },
+        {
+          "snippet": "",
+          "title": "How Sephora used Mikayla Nogueira to launch on TikTok Shop",
+          "type": "text_result",
+          "url": "https://www.modernretail.co/marketing/how-sephora-used-mikayla-nogueira-and-pov-beauty-to-kickstart-its-tiktok-shop-launch/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Is Now Selling On TikTok. - by Camille Moore",
+          "type": "text_result",
+          "url": "https://artofthebrand.substack.com/p/sephora-is-now-selling-on-tiktok"
+        },
+        {
+          "snippet": "",
+          "title": "TikTok Shop displaces traditional retail as beauty's primary discovery engine—60% of launches now debut there first",
+          "type": "text_result",
+          "url": "https://www.pops4.com/stash/articles/tiktok-shop-2026-08-26t03-1"
+        },
+        {
+          "snippet": "",
+          "title": "Men's makeup becomes popular on TikTok, Ulta and Sephora capitalize on it",
+          "type": "text_result",
+          "url": "https://telegraph247.com/business/mens-makeup-becomes-popular-on-tiktok-ulta-and-sephora-capitalize-on-it/"
+        },
+        {
+          "snippet": "",
+          "title": "Is TikTok Shop becoming too big to ignore?",
+          "type": "text_result",
+          "url": "https://www.glossy.co/beauty/with-sephora-joining-tiktok-shop-is-the-social-shopping-platform-becoming-too-big-to-ignore/"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "encrypted_content": "Q-PaDgFEGZ8AoKs9jGuY7hijs7KTBjPxNgXFw8oZstoSLwbTPC0X5gtd_cAplQebUFpdhgxNl2gGdiNlkkftcLafqv_ihP3XwXNsSe8G5Cj5T4gQUMePcs40fBZeeYDlG0rPS0Pd3ZzVo8xJoMyg1Sph8guGTyiC6vqNIgfU3nGZkkhybhkKI1rUEKnyvkReo_7T1xhWkFNkjY3rKtfqEdEYw2EoRI7VfNlqnLTAztDLudT3f2DrVqjPMfk6NwABjUH5d5S0nYQuTG33JU3Np6i-dXvWizFdADAzLID8wp48K8vba4TrCnmN51OP6L-vf99oyu3n4fjX6QQxqa2H_mqmz0WUBJ2M3ljbfaQ9BHFNGTFjVHzU-ub_c9K3eE2E7bOdFnUImXXFyAT4HqqW4tybs5ENoRJg1Zso454AOoqxg2rUQz70erHJ2C1LiVNw5_YkJhX3UC7qpFKALcPtMCFsz6tslV5jGlIIVHtKg2T1oJ2DCFli7VfCRGFG8OT0cKxwGe3OBGE30jwBp3YQNk75s9pnccgTvoSBVDV1uVe5FRygygU4MA3zf_uWP4aDkb2LDf2F5LwfMGncioU9s42BH2aHKbMPxhdTrztZ0_EFbuW36pXcYp9564M0q7FVbLvdayVKVF5r7Mrbk_Zgsx7kPy3XglFniNgXdvAmBswkIq3e1VHUL8mR2W0C5D3c1LslWpP-vVIu740JIhc5eewbZWKX1uKddlwoNPSXNRdgTMmMDreewGyCnw-QZUa4JtevAgBksXjOSxjtuU-BkuDc2bdEk0x-Q3-n0mzUYFBM0BHylQ4L1_BKvBLd3Q9dVT_6aK4yUoy9X_gKpOEeOxSkcIMYSfVoLaVQXo4d4Dz4IqlTw6fUMLb5MZWh6x-QnnY3BidmuZGy0x8Qk1Lx822WgrC-eCgTAihSugWXRHTX8qFmrwXUiJg9fQdOHQn5gmwBjNxr85ZwVpEAJDBhWtEIliCuPuo6Z_8bh_csf7roQs8NvhSqs8SMIgW9ash5klo16PbCohtWP9O-UYRpGfFsvHjqj6QJLhYO5NdvjcQ0SARU1GCw6TAP7ZEE-I6vfdjsyZqpYVdDRLaKLAcmB6SBFBTbYNX_xrWri_T9EQrfN3eQkN8kxGtSt7pcnVQSNu6S0qRTfyyqrfgnMXzg3G5Wf_eQv2SkyA8vx5r0a2Baj8S_BlUFIkdQAK47Oaa9WJzBAMZvzvponVzLR71P17vshzd-PRfnq7VKjMrM9yWJKMaaZMHJ-LL9Khk2Z5mCRGg6tMLm-oYGQaMhsq1Wqtr8ozzGeVLLs8gA6tyZNN4mCYanlh9CiG-YBl5XGPKKIRl5wXgA7sQMgMTlfgqqj9emx2CxPKBWk7vH9PuCEOkLhn-Q3YyGJFitPiOHkaUKc9w7NP3th-ZETHG39Q",
+      "id": "rs_6aea00d08fb4cd960ca54aea:rs_01a1a21345f872bd86f4cc197f18655c",
+      "status": "completed",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "First signals on discovery and try-on are promising — now verifying core site features and shopper research.",
+          "type": "output_text",
+          "parsed": null
+        }
+      ],
+      "id": "rs_01a1a2134854731795a4b06c751f8e0d",
+      "phase": "commentary",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    },
+    {
+      "action": {
+        "queries": [
+          "site sephora.com Beauty Insider points rewards tiers"
+        ],
+        "query": "site sephora.com Beauty Insider points rewards tiers",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a21349f573a5a4e1dbcac39b8676",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Sephora Beauty Insider: How the Loyalty Program Works in 2026",
+          "type": "text_result",
+          "url": "https://www.99minds.io/blog/sephoras-beauty-insider/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Beauty Insider Philippines: Is Membership Worth Joining?",
+          "type": "text_result",
+          "url": "https://tipidnation.com/blog/sephora-beauty-insider-philippines-review"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Loyalty Program: Beauty Insider Breakdown",
+          "type": "text_result",
+          "url": "https://joy.so/blog/sephora-loyalty-program/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora vs Ulta Beauty 2026: The Complete Comparison",
+          "type": "text_result",
+          "url": "https://www.forwardme.com/blog/sephora-vs-ulta-beauty"
+        },
+        {
+          "snippet": "",
+          "title": "7 Proven Ways to Maximize Sephora Rewards in 2026",
+          "type": "text_result",
+          "url": "https://www.rakuten.com/blog/7-proven-ways-to-maximize-sephora-rewards-in-2026/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Beauty Insider Tiers 2026: VIB, Rouge & Reset Date",
+          "type": "text_result",
+          "url": "https://www.trendsicle.com/sales/sephora-beauty-insider-tiers/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Promo Codes: 20% Off in November 2026",
+          "type": "text_result",
+          "url": "https://daily.slickdeals.net/stores/sephora-promo-codes/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Beauty Insider Rewards Program",
+          "type": "text_result",
+          "url": "https://www.groupon.com/coupons/blog/sephora-beauty-insider-rewards?srsltid=AfmBOoriHj6ZVpdjvpWjQQ1WfpsZ-w8d4RiumnvtzQ9CidT2bX0g_FK2"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Promo Codes & Discount Codes That Actually Work",
+          "type": "text_result",
+          "url": "https://www.dealmuse.world/sephora.html"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Sale Calendar 2026: Next Savings Event & Tiers",
+          "type": "text_result",
+          "url": "https://dealuxa.com/blog/sephora-sale-calendar"
+        },
+        {
+          "snippet": "",
+          "title": "What We Learned From the Sephora Beauty Insider Program",
+          "type": "text_result",
+          "url": "https://antavo.com/blog/sephora-rewards/"
+        },
+        {
+          "snippet": "",
+          "title": "How Sephora’s Beauty Insider Program Led It To Conquer The Beauty Industry",
+          "type": "text_result",
+          "url": "https://www.candybar.co/sephora-beauty-insider/"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "site ulta.com Ultamate Rewards points redeem"
+        ],
+        "query": "site ulta.com Ultamate Rewards points redeem",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2134bab7101aea0a2a92d151e14",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty",
+          "type": "text_result",
+          "url": "https://www.ulta.com/rewards/all?ref=blog.giift.com&srsltid=AfmBOoqqAs6ACQhNuIyJvw2TBk2IOaYkNOje9KOVsC4AZcLs_H7GHzVv"
+        },
+        {
+          "snippet": "",
+          "title": "How to Use Ulta Points Online: Step-by-Step Instructions and Expert Tips",
+          "type": "text_result",
+          "url": "https://www.accio.com/blog/how-to-use-ulta-points-online-step-by-step-instructions-and-expert-tips"
+        },
+        {
+          "snippet": "",
+          "title": "The Ultimate Guide To Ulta Credit Cards In 2026: Rewards, Perks, And Financial Evaluation",
+          "type": "text_result",
+          "url": "https://hr-consultancy.vwv.co.uk/guide-ulta-credit-cards-2026-bo8y.html"
+        },
+        {
+          "snippet": "",
+          "title": "How to Redeem Ulta Beauty Points?",
+          "type": "text_result",
+          "url": "https://gbtimes.com/how-to-redeem-ulta-beauty-points/"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty Rewards Guide: Points Chart, Expiration & Tiers",
+          "type": "text_result",
+          "url": "https://www.thepointcalculator.com/us/ulta-rewards-points/"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Credit Card: Things To Know And Alternatives",
+          "type": "text_result",
+          "url": "https://www.nasdaq.com/articles/ulta-credit-card%3A-things-to-know-and-alternatives"
+        },
+        {
+          "snippet": "",
+          "title": "How do I redeem Ulta points online? – Opiatalk.com",
+          "type": "text_result",
+          "url": "https://opiatalk.com/how-do-i-redeem-ulta-points-online/"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Points Value: What Are They Worth?",
+          "type": "text_result",
+          "url": "https://www.thepointcalculator.com/us/ulta-rewards-points/ulta-points-value/"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Coupons - 50% Off Coupon Code November 2026",
+          "type": "text_result",
+          "url": "https://www.dontpayfull.com/at/ulta.com"
+        },
+        {
+          "snippet": "",
+          "title": "Does Ulta Give Birthday Gifts?",
+          "type": "text_result",
+          "url": "https://blog.sh.butcherbox.com/does-ulta-give-birthday-gifts/"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Rewards Points Value Calculator",
+          "type": "text_result",
+          "url": "https://www.thepointcalculator.com/us/ulta-rewards-points/calculators/ulta-points-value-calculator/"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty Rewards Points Redemption: Full Value Guide (July 2026)",
+          "type": "text_result",
+          "url": "https://www.coupert.com/research/ulta-beauty-rewards-points-redemption"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Sephora Community reviews Q&A beauty advice"
+        ],
+        "query": "Sephora Community reviews Q&A beauty advice",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2134ce177c781a4431619ee2869",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Re: Focus Question: Beauty Insider - Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/forums/forumtopicprintpage/board-id/beauty-insiders-forum-board/message-id/27653/print-single-message/true/page/1"
+        },
+        {
+          "snippet": "",
+          "title": "Home - Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/community/page.logoutpage?t:cp=authentication/contributions/unticketedauthenticationactions&dest_url=https%3A%2F%2Fsephora.com&lia-action-token=AkZ4-zl3A72rA2VuUCXoLKuskOLlFQ0X1SHfdJdYRjU.&lia-action-token-id=logoff"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/community/page.logoutpage?t:cp=authentication/contributions/unticketedauthenticationactions&dest_url=https%3A%2F%2Fsephora.com&lia-action-token=0-TV3QL1jv-YYy5TWgoTFVsZssmaL-_D7aFsg4CAgV0.&lia-action-token-id=logoff"
+        },
+        {
+          "snippet": "",
+          "title": "Home - Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/community/page.logoutpage?t:cp=authentication/contributions/unticketedauthenticationactions&dest_url=https%3A%2F%2Fsephora.com&lia-action-token=EIdvhZ32vitDfyGwqyvfwhWgeWpHf3v_iapt5cvAwJQ.&lia-action-token-id=logoff"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/community/page.logoutpage?t:cp=authentication/contributions/unticketedauthenticationactions&dest_url=https%3A%2F%2Fsephora.com&lia-action-token=qz70nsb3ZbBDCnyKIn3diRcKF_FYHqrumjMv5V-ksQ8.&lia-action-token-id=logoff"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/?is_listing=false&hsPreviewerApp=blog_post"
+        },
+        {
+          "snippet": "",
+          "title": "Weekend Focus Group: Sephora Asks",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/Off-Topic/Weekend-Focus-Group-Sephora-Asks/td-p/340025"
+        },
+        {
+          "snippet": "",
+          "title": "Weekend Focus Group: Sephora Asks",
+          "type": "text_result",
+          "url": "https://community.sephora.com:443/t5/Besides-Beauty/Weekend-Focus-Group-Sephora-Asks/m-p/340025/highlight/true"
+        },
+        {
+          "snippet": "",
+          "title": "Unveiling the Intriguing Sephora Beauty Community: An In-Depth Exploration",
+          "type": "text_result",
+          "url": "https://voguegrids.com/articles/sephora-beauty-community-insights/"
+        },
+        {
+          "snippet": "",
+          "title": "Re: Focus Question: Beauty Insider - Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/forums/forumtopicprintpage/board-id/beauty-insiders-forum-board/message-id/27707/print-single-message/true/page/1"
+        },
+        {
+          "snippet": "",
+          "title": "Re: Weekend Focus Group: Sephora Asks",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/Besides-Beauty/Weekend-Focus-Group-Sephora-Asks/m-p/361159/highlight/true"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Subreddit",
+          "type": "text_result",
+          "url": "https://documentos.cteg.edu.py/book-search/4JyUJH/04A005/SephoraSubreddit.pdf"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Ulta Beauty reviews ratings filter shade skin type"
+        ],
+        "query": "Ulta Beauty reviews ratings filter shade skin type",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2134e4076f194701718101be3c2",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Ulta Beauty Moisturizing Foundation Stick - Light To Medium Warm",
+          "type": "text_result",
+          "url": "https://www.amazon.com/Ulta-Beauty-Moisturizing-Foundation-Medium/dp/B07RGHQD6K\r"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty: Makeup & Skincare for Android - Free",
+          "type": "text_result",
+          "url": "https://www.appbrain.com/app/ulta-beauty-makeup-skincare/com.ulta"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty: Makeup & Skincare - Apps on Google Play",
+          "type": "text_result",
+          "url": "https://play.google.com/store/apps/details/Ulta_Beauty_Makeup_Skincare?id=com.ulta&hl=en-US"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty HD Soft Focus Liquid Foundation 1 fl oz Qatar | Ubuy",
+          "type": "text_result",
+          "url": "https://www.ubuy.qa/en/product/86CXDMKTG-ulta-beauty-hd-soft-focus-liquid-foundation-1-fl-oz-medium-to-deep-cool"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty in Schenectady, NY - 260 Reviews",
+          "type": "text_result",
+          "url": "https://localstylist.com/ny/schenectady/ulta-beauty-schenectady-new-york"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty Complexion Crush Medium Coverage Pakistan | Ubuy",
+          "type": "text_result",
+          "url": "https://www.ubuy.com.pk/en/product/7U2TJ4J2C-ulta-beauty-complexion-crush-medium-coverage-foundation-medium-cool"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty: Makeup & Skincare for iPhone - Stats, Reviews & Downloads",
+          "type": "text_result",
+          "url": "https://www.appbrain.com/appstore/ulta-beauty-makeup-skincare/ios-561930308"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty Moisturizing Foundation Stick - Light To Peru | Ubuy",
+          "type": "text_result",
+          "url": "https://www.ubuy.pe/en/product/MRQ3QSEPQ-ulta-beauty-moisturizing-foundation-stick-light-to-medium-warm"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty, Joplin, MO - Reviews (120), Photos (50) - BestProsInTown",
+          "type": "text_result",
+          "url": "https://www.bestprosintown.com/mo/joplin/ulta-beauty-/"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty Collection Lip Lacquer - Stiletto - 0.14 fl oz - Ulta Beauty",
+          "type": "text_result",
+          "url": "https://www.target.com/p/ulta-beauty-collection-lip-lacquer-stiletto-0-14-fl-oz-ulta-beauty/-/A-91382460"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty - Fair Neutral Skin Foundation Concealer, Matte Finish, Unisex, Powder Form, All Skin Types",
+          "type": "text_result",
+          "url": "https://www.amazon.com/Ulta-Beauty-Adjustable-Foundation-undertones/dp/B07FPYDJB9"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "beauty shoppers discover products TikTok YouTube Instagram research statistics"
+        ],
+        "query": "beauty shoppers discover products TikTok YouTube Instagram research statistics",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a213501c7640af5d661134105293",
+      "results": [
+        {
+          "snippet": "",
+          "title": "57% of beauty consumers don’t start with Google Search",
+          "type": "text_result",
+          "url": "https://searchengineland.com/beauty-consumers-google-search-493828"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty shock: Marketplaces, social media, AI are reshaping the market",
+          "type": "text_result",
+          "url": "https://insidesmallbusiness.com.au/management/beauty-shock-marketplaces-social-media-ai-are-reshaping-the-market"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty shock: Marketplaces, social media, AI are reshaping online beauty market",
+          "type": "text_result",
+          "url": "https://insideretail.com.au/sectors/health-beauty/beauty-shock-marketplaces-social-media-ai-are-reshaping-online-beauty-market-202609"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty shock: Marketplaces, social media, AI are reshaping online beauty market",
+          "type": "text_result",
+          "url": "https://internetretailing.com.au/beauty-shock-marketplaces-social-media-ai-are-reshaping-online-beauty-market/"
+        },
+        {
+          "snippet": "",
+          "title": "International Journal of Original Recent Advanced Research ISSN (Online): 3048-5479 Vol. 02, Issue 04, July 2025",
+          "type": "text_result",
+          "url": "https://ijorarjournal.com/web/Download/2025-08-13-09-16-54-Paper Id 0757.pdf"
+        },
+        {
+          "snippet": "",
+          "title": "Discovered on Social, Decided Everywhere",
+          "type": "text_result",
+          "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty Video Marketing Statistics",
+          "type": "text_result",
+          "url": "https://www.markstudios.com/research/beauty-video-marketing-statistics"
+        },
+        {
+          "snippet": "",
+          "title": "TikTok vs Google for Beauty Discovery: When to Use Each",
+          "type": "text_result",
+          "url": "http://umatechnology.org/tiktok-vs-google-search-for-beauty-product-discovery-which-is-better-for-what/"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty Social Media Engagement Stats 2026 | Web Tonic™",
+          "type": "text_result",
+          "url": "https://www.webtonic.io/blog/beauty-skincare-social-media-marketing-statistics"
+        },
+        {
+          "snippet": "",
+          "title": "How Gen Z Is Changing the Beauty Industry (2026 Trends Guide)",
+          "type": "text_result",
+          "url": "https://www.bebolddigital.com/blog/gen-zs-impact-on-beauty-industry-statistics-and-marketing-trends"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty Brands Are Reaching More New Audiences Than Ever, According to Dash Social’s 2026 Benchmark Report",
+          "type": "text_result",
+          "url": "https://www.aap.com.au/aapreleases/globenewswire9728200/"
+        },
+        {
+          "snippet": "",
+          "title": "Online Beauty Sales Surge As Social Media Eclipses Traditional Beauty Marketing Channels",
+          "type": "text_result",
+          "url": "https://www.netinfluencer.com/online-beauty-sales-surge-as-social-media-eclipses-traditional-beauty-marketing-channels/"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Sephora Ulta reviews influence purchase ratings importance"
+        ],
+        "query": "Sephora Ulta reviews influence purchase ratings importance",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a213569c73849346c72b78943cce",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Beauty Product Data Analytics - Sephora vs Ulta Beauty",
+          "type": "text_result",
+          "url": "https://www.actowizmetrics.com/beauty-product-data-analytics-sephora-vs-ultabeauty.php"
+        },
+        {
+          "snippet": "",
+          "title": "Re: Long Overdue Return Ban And Retail E... - Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/forums/forumtopicprintpage/board-id/Customer_Support/message-id/154597/print-single-message/true/page/1"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora vs Ulta: Who Has Better Fragrance Prices in 2026? (Data Compared)",
+          "type": "text_result",
+          "url": "https://www.blog.datahut.co/post/sephora-vs-ulta-beauty-competitive-analysis/"
+        },
+        {
+          "snippet": "",
+          "title": "Online Beauty Reviews Are Sometimes Not Trustworthy - Racked",
+          "type": "text_result",
+          "url": "https://www.racked.com/platform/amp/2017/9/21/16325314/beauty-reviews-sephora-amazon-influenster"
+        },
+        {
+          "snippet": "",
+          "title": "Comparing Prices: Ulta vs Sephora",
+          "type": "text_result",
+          "url": "https://k2digitizers.com/comparing-prices-ulta-vs-sephora/"
+        },
+        {
+          "snippet": "",
+          "title": "How Beauty Brands Win Sephora and Ulta: Retail Playbook",
+          "type": "text_result",
+          "url": "https://everything-pr.com/beauty-retail-visibility-strategy"
+        },
+        {
+          "snippet": "",
+          "title": "Piper Sandler’s 2026 Teen Beauty Survey",
+          "type": "text_result",
+          "url": "https://beautymatter.com/articles/teen-beauty-spending-rebounds-in-the-us"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora vs Ulta Beauty Data Analysis 2025 | Actowiz Solutions",
+          "type": "text_result",
+          "url": "https://medium.com/@simthjackson234/sephora-vs-ulta-beauty-data-analysis-2025-actowiz-solutions-db654eba5d85"
+        },
+        {
+          "snippet": "",
+          "title": "Luxury Perfume Options at Sephora and Ulta",
+          "type": "text_result",
+          "url": "https://www.lemon8-app.com:443/experience/luxury-perfume-options-at-sephora-and-ulta?region=us"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta’s Seriously Strategic Partnership Likely to Attract Aging Beauties and Sephora Fans",
+          "type": "text_result",
+          "url": "https://civicscience.com/ultas-seriously-strategic-partnership-likely-to-attract-aging-beauties-and-sephora-fans/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Ulta Beauty Product Intelligence USA | Actowiz",
+          "type": "text_result",
+          "url": "https://articlescad.com/sephora-ulta-beauty-product-intelligence-usa-actowiz-220687.html"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora vs Ulta Beauty scraping data comparison reports 2026",
+          "type": "text_result",
+          "url": "https://medium.com/@simthjackson234/sephora-vs-ulta-beauty-scraping-data-comparison-reports-2026-e188037203ca"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Sephora Ulta samples free gifts promotions new launch early access"
+        ],
+        "query": "Sephora Ulta samples free gifts promotions new launch early access",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a213581671ff9d78b33b01c26876",
+      "results": [
+        {
+          "snippet": "",
+          "title": "8 New Luxury Beauty GWPs: Nordstrom, Chanel, Sephora & More (Oct 2026)",
+          "type": "text_result",
+          "url": "https://icangwp.com/2026/10/19/luxury-beauty-gwp-nordstrom-bergdorf-sephora-october-2026/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora vs Ulta Points: Value Chart",
+          "type": "text_result",
+          "url": "https://www.under30ceo.com/sephora-vs-ulta-points-value-chart/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Archives - ICanGWP - Luxury Beauty Gift with Purchase",
+          "type": "text_result",
+          "url": "https://icangwp.com/category/sephora/"
+        },
+        {
+          "snippet": "",
+          "title": "Free Makeup Samples In 2026: 13 Ways | Yotpo",
+          "type": "text_result",
+          "url": "https://www.yotpo.com:443/blog/free-makeup-samples/"
+        },
+        {
+          "snippet": "",
+          "title": "Free Or Cheap Cologne Samples In 2026 | Yotpo",
+          "type": "text_result",
+          "url": "https://www.yotpo.com:443/blog/free-cologne-samples/"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty Collection Free Gift w/ Purchase",
+          "type": "text_result",
+          "url": "https://www.dealnews.com/Ulta-Beauty-Collection-Free-Gift-w-Purchase-Free-gift-w-22-shipping-varies/22216081.html"
+        },
+        {
+          "snippet": "",
+          "title": "Mac Lover Program And Exclusive Launch Parties - FasterCapital",
+          "type": "text_result",
+          "url": "https://fastercapital.com/keyword/mac-lover-program-and-exclusive-launch-parties.html"
+        },
+        {
+          "snippet": "",
+          "title": "Free Skincare Samples In 2026: 10 Ways | Yotpo",
+          "type": "text_result",
+          "url": "https://www.yotpo.com/blog/free-skincare-samples/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora promo code Archives - ICanGWP - Luxury Beauty Gift with Purchase",
+          "type": "text_result",
+          "url": "https://icangwp.com/category/sephora-promo-code/"
+        },
+        {
+          "snippet": "",
+          "title": "Free Or Cheap Perfume Samples By Mail: 18 Ways | Yotpo",
+          "type": "text_result",
+          "url": "http://yotpo.com/blog/free-perfume-samples-by-mail/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Birthday Gift: Every Choice, Its Value and How to Claim Yours recommended",
+          "type": "text_result",
+          "url": "https://prayerstocks.com/the-sephora-birthday-gift/"
+        },
+        {
+          "snippet": "",
+          "title": "Free Or Cheap Perfume Samples In 2026 | Yotpo",
+          "type": "text_result",
+          "url": "https://www.yotpo.com:443/blog/free-perfume-samples/"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Sephora Clean at Sephora Conscious Beauty Ulta ingredients filter"
+        ],
+        "query": "Sephora Clean at Sephora Conscious Beauty Ulta ingredients filter",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2135fb670ae8f1abf8bdd52eae7",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Sunscreen Agents - Cosmetic Actives - Cosmetic Ingredients - Salicylates and Chemicals Private Limited - Knowde",
+          "type": "text_result",
+          "url": "https://www.knowde.com/stores/salicylates-and-chemicals-private-limited/products?category=technologies-cosmetic-ingredients-cosmetic-actives-sunscreen-agents&filters=labeling-claims-clean-at-sephora"
+        },
+        {
+          "snippet": "",
+          "title": "Cosmetic Actives - Cosmetic Ingredients - Salicylates and Chemicals Private Limited - Knowde",
+          "type": "text_result",
+          "url": "https://www.knowde.com/stores/salicylates-and-chemicals-private-limited/products?category=technologies-cosmetic-ingredients-cosmetic-actives&filters=labeling-claims-clean-at-sephora"
+        },
+        {
+          "snippet": "",
+          "title": "Cosmetic Ingredients - TAISEI CHEMICAL INDUSTRIES - Knowde",
+          "type": "text_result",
+          "url": "https://www.knowde.com/stores/taisei-chemical-industries/products?filters=labeling-claims-ulta-beauty-s-conscious-beauty&category=technologies-cosmetic-ingredients"
+        },
+        {
+          "snippet": "",
+          "title": "How to Shop For Clean Beauty Products Online",
+          "type": "text_result",
+          "url": "https://lifestyledbysofia.com/shop-for-clean-beauty-products-online/"
+        },
+        {
+          "snippet": "",
+          "title": "Cosmetic Ingredients - EMD Performance Materials - Knowde - 2",
+          "type": "text_result",
+          "url": "https://www.knowde.com/stores/emd-performance-materials/products?filters=labeling-claims-ulta-beauty-s-conscious-beauty&category=technologies-cosmetic-ingredients&page=2"
+        },
+        {
+          "snippet": "",
+          "title": "Sunscreen Agents - Cosmetic Actives - Cosmetic Ingredients - Knowde",
+          "type": "text_result",
+          "url": "https://www.knowde.com/b/technologies-cosmetic-ingredients/cosmetic-actives/sunscreen-agents/f/f_labeling-claims-clean-at-sephora/products"
+        },
+        {
+          "snippet": "",
+          "title": "Sunscreen Agents - Cosmetic Actives - Cosmetic Ingredients - EMD Performance Materials - Knowde",
+          "type": "text_result",
+          "url": "https://www.knowde.com/stores/emd-performance-materials/products?filters=labeling-claims-clean-at-sephora&category=technologies-cosmetic-ingredients-cosmetic-actives-sunscreen-agents"
+        },
+        {
+          "snippet": "",
+          "title": "Sunscreen Agents - Cosmetic Actives - Cosmetic Ingredients - Knowde",
+          "type": "text_result",
+          "url": "https://www.knowde.com/b/technologies-cosmetic-ingredients-cosmetic-actives-sunscreen-agents/f/f_labeling-claims-ulta-beauty-s-conscious-beauty/products/dpr_auto"
+        },
+        {
+          "snippet": "",
+          "title": "Cosmetic Ingredients - EMD Performance Materials - Knowde",
+          "type": "text_result",
+          "url": "https://www.knowde.com/stores/emd-performance-materials/products?filters=labeling-claims-ulta-beauty-s-conscious-beauty&category=technologies-cosmetic-ingredients"
+        },
+        {
+          "snippet": "",
+          "title": "Cosmetic Actives - Cosmetic Ingredients - EMD Performance Materials - Knowde",
+          "type": "text_result",
+          "url": "https://www.knowde.com/stores/emd-performance-materials/products?filters=labeling-claims-clean-at-sephora&category=technologies-cosmetic-ingredients-cosmetic-actives"
+        },
+        {
+          "snippet": "",
+          "title": "Products - Goldmann H.S.H. - Knowde",
+          "type": "text_result",
+          "url": "https://www.knowde.com/stores/goldmann-h-s-h/products?filters=labeling-claims-clean-at-sephora"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "encrypted_content": "Q-PaDgESNzPBMPbSP7NkJvNrUStG65BoCYjDV916i04Z2sSRW4tbxc6Bwwmki8s8S8Hcet-8wYEftld61NnYubqRQmuW0p_Jnp_Xb59smMLzC_actVgg9lDKzSJqMvkd0ymFqr5GQ1yt1tKfwfocb3OGVIssmJEN28ZpKPtJ4QrR7c9RJzYJpcEslzuDyMc9fPGCOIF8iRbAGc2HbIjIMoaY_ZX5a0yC6-wXYK3ab1CKWSnAKsF8TPTQQdW6Ka5IJgJP2WGkEsBRzxpEBvsusMHWpJryr8aN7L9Dc2BDbLRC_6rq0FRyDWYbwLZ8SgI6ZfqYYMy8DMrQa-Cpn9BWficU_CT7sjFGTozm-H-v-AZMKekDV6Snp-NmeqszSlabtt8xHUCRi4Gp8gLZqdb7tFqxesE8SdH5Q8hmiF7tK5elKtCCrqxBFki1RWHDMlR3S9AB-Z3eDJsKOJmoXpX0b1EiSaqIsKpGiZZG9zwe99bLQbqUfahcZbBTJVWEqc0nE5l7rzv_hI2kUi8YHlr_tw-e8kjUyyR4x_tNkqFf15vpF8oMzHVN3kmhpavxXTtYRwuN-OhGTG73rvhlzqBxSV3mJDsg9vWVYY1YfK0bOto7HK9i63LA-vKayT-ZDAGNdvACWarX14XNd2cgJRHvee8OPPCCGJyPJH-zzyuBj82Vz0gYO9EiC-UEBkmE97S4x8tQByA8_mCZfx0GOkUPMyKYXskIfKEghDB_m4JIpYke-bLLoHOhOiGor3Om8V2zOeoZDAWvtAdp20fVasUcNjK6QAdbIB7IdKIjSa6b4lhYgPAohCOh-kRpYYmvlPwOPExm-Jw3Kh-UAAIS-j-TbnmenC3yiEDiscCP35dJrdZXwHZTO2HnrvuEwhY47SZfa3vvYkThR7Sse9y5l-td84mScC2M54X2TLiu4AxbAKParaD4o3IfFJ6BBEbd-jNtJrDKLwwfx1Snjlae4bXK9N_cm9YLGmTsW3CD74FfBob7SCrGitK7H0UyDgObNmabFrMXW8b2f4NDb9sW6V2-mFe2FLd5kgTGJJnJMqZCt4HOzUSQz0jr4sGzdqQ6aDwZodvrllnVXhyD8XnwCos71kxh_5PQIPD4lJBYAJBxJjkbSmVwXVlyNQdIRa3HkdzqMUO0SgVTL7yxLDXNl_5OI8K4YaItVgGbAiGzcAEtt5uacZPOqZGwWmwIfOc0QEeKknQp1IvcJMdW9GeKe2UIz0Za7Q6fcu6B58E4qNUrtd4OrO5U2X01HFADMqIZIvo9txS_v9puzG1-j5E224EUTZBlfrglrJw2B_Brdm5AcPu_n9oAla1EpsswAtZjOT3qu4VL71DZ4tAytKu1ajc5hqL6V9as7Fd3D6F8ue0gJpzU-wAsKGfbvkZbUaH2fUQKNLkHeW43ZkU0LUIWIZmfA78NGJKZLEye_DlKdhMFSdj2c4yTu3w3PjyqgfVKtst4oATE94iujW3QruNsvm4LQ_7QM050CIX5B9hhpJ8NPTRT5c0Fb_PZY9Tq82TFcIo2sT9xdBVlxtBmX3HydUsXc2-S2h1SB9wO__YMmATHKxhAWEtjGGlKrPhMGnKXhprI5-2xi4tNSl11MZl5XtReiwUtTdpQAVjveUgx5KR3ma8j8j2-oh1g_I7exkBh_E5hbMAATkvVLgE3w5Mpwuvl8pQnNDGb2ekLmI_sPyfBOBkawEc89KKIhnYoWJi7RkBBK71_ZrDnN-ozeDUSSYpIBnBiCeW3EFGc1Sk4Ia-240fPul3UCgu-OOC1yzoFMPDbKF6VzTwPPAUNcuFG_ICgZvgJzNkcQ0ABAN4YA-zcwupXf-aPEwNlksCmzSgPYpalILstL40u1TuphCIf0PQU5DlfOzBi_0EA6nV3nnd_GrIQg30TcY9oRkKjIXTxv_8X3yYtJ_v_XOkj1pbIOSY6ExJyRDdJ0SJ1FQyKwe83zF3V-JwN2KueTPp8JjfFOuNZPG_8tr9pCCHV9MBjmwDGbJJ3RpiqnvE8hB4u4koMoTGq8yyu_4hN6eRgRZ9udnPgGlri_rRXztE2m6Dfeszx5dVrcycWp7w7hO592AUGmMRF7wR601E3kf3CbeYnIayE0nK5KEU8An6J5wgj6sK1uoOhkj5tY8uYyVIJ1XNsUDqeq8sFvcwMta7LkPCXHXLFODKEznFXNUIjjNJTKZbFyvpkEkmvxABAzyEjsb28WXLbXTj4-zvxYxcI4XJ-zS0J66EOKJxhLTfPZxp1a9jgHPoDRBuRE6yLJluH_y6G-gtsgPYNpNqdPu_FMDMRW-_L5VIIYXhB0D0kvVHrBzhmnLvVR2az7JcLq4_lV-LiZ4Nh7VfsOjPQ8rs_PhFwk0TZaXfOMX25FlEAb9C2F8WBmGZP9lo3II9fxtC1adWWDB0VfD4sLlrkXlTmrSAcNtOJizAhNBB5QzA6gESq0y9KAtfiedPYWj8yhthRTFwfKt-1mRHqgt63NzO_qETzDCSf7E28HylfBnwEEce9opg2ksdnj4sVDmeJZkmljI0g1xC65q8Q-WATYPSDfJWHsK2NkOOCrawTtdYz7XweuOkVG3zY3aXOsQ073VvAbfYrA4vRGHVpnIvQVMIXaejZjD_iPE8Qih9SL-QovjzZnNguwB8zFMZ7mIDlPDMgTMuC93bwqI7EAA0VTyssksVJps7kAPn7xpnigbkZEwXrEKMqCWjEb4Zdl8PwR3ax3tr2kdgt-beDmZwqXghZnxz7qzhEqLYE7K3Yo2VFwygpFprXeGUr-eJcFmVf9C1V1pg",
+      "id": "rs_6aea00d08fb4cd960ca54aea:rs_01a1a21364ea7751a19ad7f6e34549c7",
+      "status": "completed",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "Core loyalty and discovery features are mapped — now digging into official pages and comparison evidence.",
+          "type": "output_text",
+          "parsed": null
+        }
+      ],
+      "id": "rs_01a1a2136e71716d9267f370cd25d88d",
+      "phase": "commentary",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    },
+    {
+      "action": {
+        "queries": [
+          "Sephora.com new beauty trending bestsellers filters"
+        ],
+        "query": "Sephora.com new beauty trending bestsellers filters",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2136f85736ab01a96343d7fe01a",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Top Beauty Gifts | Sephora",
+          "type": "text_result",
+          "url": "https://www.sephora.com/shop/top-beauty-gifts?sortBy=BEST_SELLING&icid2=rwd+soft+link_gifts+bestsellers_081121"
+        },
+        {
+          "snippet": "",
+          "title": "Top Beauty Gifts | Sephora",
+          "type": "text_result",
+          "url": "http://sephora.com/shop/top-beauty-gifts?icid2=rwd soft link_gifts bestsellers_081121"
+        },
+        {
+          "snippet": "",
+          "title": "Bestsellers  ≡ SEPHORA",
+          "type": "text_result",
+          "url": "https://www.sephora.com.kw/om/en/shop/makeup/bestsellers-shop-bestsellers-makeup/"
+        },
+        {
+          "snippet": "",
+          "title": "Best Beauty Gifts in 2026 | Sephora",
+          "type": "text_result",
+          "url": "http://sephora.com/shop/gifts?icid2=sephora_beauty_sample_bag_evergreen_moreways_banner_gifts_rwd"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Skincare Deals: Up to 30% Off, October 2026",
+          "type": "text_result",
+          "url": "https://www.koupon.ai/articles/deal-news/sephora-skincare-deals-october-20-2026"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Deals: Shark FlexStyle and More for October 2026",
+          "type": "text_result",
+          "url": "https://www.koupon.ai/articles/deal-news/sephora-deals-october-16-2026"
+        },
+        {
+          "snippet": "",
+          "title": "Trending Products | Sephora",
+          "type": "text_result",
+          "url": "https://www.sephora.com/buy/trending-products"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Best Selling Beauty Must Haves 2025",
+          "type": "text_result",
+          "url": "https://www.accio.com/business/sephora-best-selling-beauty-must-haves"
+        },
+        {
+          "snippet": "",
+          "title": "Beauty Gifts Sale | Sephora",
+          "type": "text_result",
+          "url": "https://www.sephora.com/shop/gifts?ref=filters[on_sale]=true"
+        },
+        {
+          "snippet": "",
+          "title": "Back to Campus 2026: Dorm Room Beauty Essentials | Sephora",
+          "type": "text_result",
+          "url": "https://www.sephora.com/beauty/back-to-school"
+        },
+        {
+          "snippet": "",
+          "title": "Bestselling Beauty Tools & Brushes | Sephora",
+          "type": "text_result",
+          "url": "http://m.sephora.com/beauty/best-selling-beauty-tools"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Ulta Beauty prestige mass drugstore assortment difference Sephora prestige"
+        ],
+        "query": "Ulta Beauty prestige mass drugstore assortment difference Sephora prestige",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a21375e772ceb7c202d1c00f7fd7",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Sephora vs Ulta: Who's Winning the Beauty Retail War?",
+          "type": "text_result",
+          "url": "https://www.42signals.com/blog/sephora-vs-ulta-beauty-retail-war/"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty vs Sephora 2026: Which Is Better?",
+          "type": "text_result",
+          "url": "https://trustedbuyerreport.com/blog/ulta-beauty-vs-sephora-2026-review"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty vs. Sephora",
+          "type": "text_result",
+          "url": "https://beautymatter.com/articles/ulta-beauty-vs-sephora"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty Target Market: Who Actually Shops There (2026)",
+          "type": "text_result",
+          "url": "https://businessmodelanalyst.com/ulta-beauty-target-market/"
+        },
+        {
+          "snippet": "",
+          "title": "How Beauty Brands Win Sephora and Ulta: Retail Playbook",
+          "type": "text_result",
+          "url": "https://everything-pr.com/beauty-retail-visibility-strategy"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty SWOT Analysis (2026)",
+          "type": "text_result",
+          "url": "https://businessmodelanalyst.com/ulta-beauty-swot-analysis/?scrape=true&cacheburst=1735059012"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta vs. Sephora: Which brand is better? [2026 updated]",
+          "type": "text_result",
+          "url": "https://www.apartstyle.com/post/ulta-vs-sephora"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora vs Ulta Beauty 2026: The Complete Comparison",
+          "type": "text_result",
+          "url": "https://www.forwardme.com/blog/sephora-vs-ulta-beauty"
+        },
+        {
+          "snippet": "",
+          "title": "Are There Too Many Beauty Sales?",
+          "type": "text_result",
+          "url": "https://Www.businessoffashion.com/articles/beauty/prime-day-beauty-sephora-ulta-tiktok-sales/"
+        },
+        {
+          "snippet": "",
+          "title": "The Sephora vs Ulta Showdown: A Deeper Dive",
+          "type": "text_result",
+          "url": "https://www.numberanalytics.com/blog/sephora-vs-ulta-business-comparison"
+        },
+        {
+          "snippet": "",
+          "title": "A Closer Look at Ulta's Store Experience",
+          "type": "text_result",
+          "url": "https://consumergoods.com/closer-look-ultas-store-experience"
+        },
+        {
+          "snippet": "",
+          "title": "A Closer Look at Ulta's Store Experience",
+          "type": "text_result",
+          "url": "https://p2pi.com/article/closer-look-ultas-store-experience"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Sephora product page ratings reviews filter by skin tone shade help"
+        ],
+        "query": "Sephora product page ratings reviews filter by skin tone shade help",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2137bac774d9170a3144b185bde",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Sun Tone Bronzing Crème Hydrating Cream Bronzer - Westman Atelier | Sephora",
+          "type": "text_result",
+          "url": "https://www.sephora.com/ca/en/product/sun-tone-bronzing-creme-P522161"
+        },
+        {
+          "snippet": "",
+          "title": "Medium",
+          "type": "text_result",
+          "url": "https://medium.com/@reventadata/how-i-pulled-sephora-prices-in-minutes-using-python-step-by-step-da00c9f27c15"
+        },
+        {
+          "snippet": "",
+          "title": "Smoothing & setting powder by Sephora Reviews - Face - Try and Review",
+          "type": "text_result",
+          "url": "https://www.tryandreview.com/en/beauty/face/sephora-collection/product/smoothing-and-setting-powder"
+        },
+        {
+          "snippet": "",
+          "title": "SEPHORA COLLECTION Sephora Colorful Contour Matte Powder",
+          "type": "text_result",
+          "url": "https://www.Kohls.Com/product/prd-6460835/sephora-collection-sephora-colorful-contour-matte-powder.jsp?color=01 Fair Light&prdPV=35"
+        },
+        {
+          "snippet": "",
+          "title": "Can Sephora Help Me Find Your Shade | Lani-Loves.com",
+          "type": "text_result",
+          "url": "http://lani-loves.com/can-sephora-help-me-find-your-shade/"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora Review for November 2026 | Best Makeup Stores",
+          "type": "text_result",
+          "url": "https://www.topconsumerreviews.com/best-makeup-stores/reviews/sephora"
+        },
+        {
+          "snippet": "",
+          "title": "Safe and Chic vs Sephora",
+          "type": "text_result",
+          "url": "https://www.topconsumerreviews.com/best-makeup-stores/compare/safe-and-chic-vs-sephora.php"
+        },
+        {
+          "snippet": "",
+          "title": "SEPHORA COLLECTION Best Skin Ever 16 Hour Natural Finish Liquid Foundation",
+          "type": "text_result",
+          "url": "https://www.kohls.com/product/prd-7719817/sephora-collection-best-skin-ever-16-hour-natural-finish-liquid-foundation.jsp?color=24n Medium&prdPV=3"
+        },
+        {
+          "snippet": "",
+          "title": "SEPHORA COLLECTION Bright Future Gel Serum Under Eye UAE | Ubuy",
+          "type": "text_result",
+          "url": "https://www.ubuy.ae/en/product/1PQWTKRDY-sephora-collection-bright-future-gel-serum-concealer-12-pecan-pie-0-14-oz"
+        },
+        {
+          "snippet": "",
+          "title": "Planet Beauty vs Sephora",
+          "type": "text_result",
+          "url": "https://www.topconsumerreviews.com/best-makeup-stores/compare/planet-beauty-vs-sephora.php"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora vs Strawberry Net",
+          "type": "text_result",
+          "url": "https://www.topconsumerreviews.com/best-makeup-stores/compare/sephora-vs-strawberry-net.php"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "\"Beauty Insider Community\" Sephora official groups trends"
+        ],
+        "query": "\"Beauty Insider Community\" Sephora official groups trends",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a21382f37191b5632655aa9174da",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Groups - Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/custom/page/page-id/GroupsLandingPage?om_mmc=oth-bt-sst-groups-20200219-groups"
+        },
+        {
+          "snippet": "",
+          "title": "Groups - Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/custom/page/page-id/GroupsLandingPage?icid2=community_joingroups_hotspot"
+        },
+        {
+          "snippet": "",
+          "title": "Groups in Everything Else - Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/grouphubs/page/node-display-id/category%3Aeverything-else"
+        },
+        {
+          "snippet": "",
+          "title": "Groups in Makeup - Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/grouphubs/page/node-display-id/category:makeup"
+        },
+        {
+          "snippet": "",
+          "title": "Groups - Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/custom/page/page-id/GroupsLandingPage?icid2=header_community_groups_link_external"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora's Beauty Insider Community: The 80%-of-Sales Engine",
+          "type": "text_result",
+          "url": "https://www.social.plus/blog/the-magic-of-sephoras-community-led-path-to-success"
+        },
+        {
+          "snippet": "",
+          "title": "Sephora: loyalty that rests on more than discounts",
+          "type": "text_result",
+          "url": "https://www.sitetrail.com/sephora-loyalty-that-rests-on-more-than-discounts/"
+        },
+        {
+          "snippet": "",
+          "title": "What is zero-party data and how do you collect it?",
+          "type": "text_result",
+          "url": "https://www.lexer.io/blog/zero-party-data-enhancing-customer-relationships-with-consent"
+        },
+        {
+          "snippet": "",
+          "title": "Luxury Daily",
+          "type": "text_result",
+          "url": "https://www.luxurydaily.com/wp-content/uploads/pdf_cache/2/1/3/1/6/9/213169.pdf"
+        },
+        {
+          "snippet": "",
+          "title": "What is trending at Sephora? - Beauty Insider Community",
+          "type": "text_result",
+          "url": "https://community.sephora.com/t5/Insiders/What-is-trending-at-Sephora/td-p/7213677"
+        },
+        {
+          "snippet": "",
+          "title": "12 Membership Retention Strategies That Actually Work (with Examples)",
+          "type": "text_result",
+          "url": "https://buddyboss.com/blog/membership-retention-strategies/"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Ulta Beauty app filter bestsellers new rating price shade"
+        ],
+        "query": "Ulta Beauty app filter bestsellers new rating price shade",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a21388187619ba14b2434d01cc17",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Ulta Beauty: Makeup & Skincare - Apps on Google Play",
+          "type": "text_result",
+          "url": "https://play.google.com/store/apps/details?id=com.ulta"
+        },
+        {
+          "snippet": "",
+          "title": "Ulta Beauty: Makeup & Skincare - Apps on Google Play",
+          "type": "text_result",
+          "url": "https://www.memuplay.com/apkdownload.php?file_name=google-play&from=app_details_pt_com.ulta"
+        },
+        {
+          "snippet": "",
+          "title": "‎Ulta Beauty: Makeup & Skincare App - App Store",
+          "type": "text_result",
+          "url": "https://apps.apple.com/us/app/ulta-beauty-makeup-skincare/id561930308"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "action": {
+        "queries": [
+          "Piper Sandler teens Sephora number one beauty retailer Ulta preference"
+        ],
+        "query": "Piper Sandler teens Sephora number one beauty retailer Ulta preference",
+        "type": "search"
+      },
+      "id": "ws_call_01a1a2139bc371bfb096315286fbba70",
+      "results": [
+        {
+          "snippet": "",
+          "title": "Piper Sandler’s 2026 Teen Beauty Survey",
+          "type": "text_result",
+          "url": "https://beautymatter.com/articles/teen-beauty-spending-rebounds-in-the-us"
+        },
+        {
+          "snippet": "",
+          "title": "Piper Sandler Survey Shows Teen Beauty Spending Rises 7 Percent",
+          "type": "text_result",
+          "url": "https://www.memesita.com/piper-sandler-survey-shows-teen-beauty-spending-rises-7-percent/"
+        },
+        {
+          "snippet": "",
+          "title": "Rhode - Products, Competitors, Financials, Employees, Headquarters Locations",
+          "type": "text_result",
+          "url": "https://www.cbinsights.com/company/rhode"
+        },
+        {
+          "snippet": "",
+          "title": "How AI Describes Sephora vs Ulta",
+          "type": "text_result",
+          "url": "https://www.5wpr.com/research/how-ai-describes/sephora-vs-ulta/"
+        },
+        {
+          "snippet": "",
+          "title": "Teen Beauty Spending Rebounds in New Survey",
+          "type": "text_result",
+          "url": "https://wisevoter.com/world/us/2026/10/26/teen-beauty-spending-rebounds-2026"
+        },
+        {
+          "snippet": "",
+          "title": "Survey Says: Social Media Has A Say in Teen Beauty",
+          "type": "text_result",
+          "url": "https://www.gcimagazine.com/consumers-markets/news/22976517/survey-says-social-media-has-a-say-in-teen-beauty"
+        },
+        {
+          "snippet": "",
+          "title": "ayondo® - meine Community, mein Social Investment Netzwerk, mein Spirit",
+          "type": "text_result",
+          "url": "https://ayondo.com/de/bwr/US7240781002/piper-sandler/piper-sandler-completes-50th-semi-annual-teen-survey-20251009050234r1"
+        },
+        {
+          "snippet": "",
+          "title": "Not Your Mother's",
+          "type": "text_result",
+          "url": "https://www.cbinsights.com/company/not-your-mother"
+        },
+        {
+          "snippet": "",
+          "title": "Gen Alpha Insights: Teen Boys Are AI's Early Beauty Adopters",
+          "type": "text_result",
+          "url": "https://www.mediapost.com/publications/article/415938/gen-alpha-insights-teen-boys-are-ais-early-beaut.html"
+        },
+        {
+          "snippet": "",
+          "title": "Piper Sandler Completes 50th Semi-Annual Teen Survey",
+          "type": "text_result",
+          "url": "https://www.centralcharts.com/en/15550-piper-jaffray-companies/news/5292493-piper-sandler-completes-50th-semi-annual-teen-survey"
+        },
+        {
+          "snippet": "",
+          "title": "Smashburger Appoints Thomas Prather As CMO 05/31/2024",
+          "type": "text_result",
+          "url": "https://www.mediapost.com/publications/article/396473/smashburger-appoints-thomas-prather-as-cmo.html?edition=134479"
+        },
+        {
+          "snippet": "",
+          "title": "Wahaha Signs Manchester United 01/17/2013",
+          "type": "text_result",
+          "url": "https://www.mediapost.com/publications/article/191270/wahaha-signs-manchester-united.html?edition=55551"
+        }
+      ],
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "encrypted_content": "Q-PaDgFlzxi9UaDOvtJ0LCl50QVBXkzJ_OPH-FGYQcFLNnrlwzFNtvxnxq8a44GWnWtLbmL-BE_6TqQFkTYjNGvmY70tpXqQ_Q9kc8fNyR3bB83C7EKG0FdkBFmoDBSw4JFQX47Zrp4iqgBDPO2BXrl0s_rHdjaEcRelWH07YZVjeo1-vFZcyRXbiBmz10liGyp1P8b-DBMnuRSTJ8bkLep1id6ndOU-4bKSdiCVfdEjZQLSpV0s9UcQrAzLNFuHcm6xoluimrhwqDZ_2w6NVbGQQkQBK06rff0ybcVn0p1itHEPHCETppkdvdlMEpGR3UGzNI1qkHzMQ8_W80xAZubvpXPpr9nym4Cx3ik4XLhMFD-SJ0ldWp6YVi5IrRicOEdC_SBHhQb0uQsh5SydZpFF8Jh5Xq39gCB9L1hNs2EUNoXLzc-riMkQGSp_V5Q8EgxA3W4BZGN-fyCph5gb5cNoFSRd1h3G0OWvChiFz0d38DhWc-jrOMFN_PAeKntc1_knuWJmVu-wNlCkXdolJm-zjRRVjNl6UYyWYx-c-jxTTGUa9qsVgSUkMaVqZ-n-OQ8Xj-X4juJpuJ3XPJAeIyzvpwRla8JMeD0rV1b7whcDQRSPn4amt0UK-moiXEpaE6UzZPXSYczcliplQin6d4LabpeXtc4hWRfoGhNJL8P2WQPQ09N_aoVqEJLurcabUuMfVLVScqhVw-BIqLP9CinJ4yzscau2-PKpMTE7It0lEVXdmZmRLfU-w5sAZil_9kbLyoMA0v7k3rquQSl7-uAju9TduKagHu7N5nH-Y1e_uWEF7wonStymcmA2ewLfZAwytNkdlGRIISlWCv1wHuQjQGMaX7deocjye0MKfwdRoWL_4xTLNVL3pkUD4YLreZPCZ89G1xE85_ALZamHuKOp3io2odzf9DeF7dYsbbLj10ml1OMxkmxEChTVggeH1382sWUxUrPGsjgaFJ2ljD_77hUtFOwdDrlV5EeCzehAULdiZfbTcQWJ_T1COsEZ2aM9JAunidRYOFzkLoQY15CSwxLgg7FCsIbz11nHhG1c7s1956mFoIVrrOGvpPJn0U0y68SZsCFxdlss7h-L6yjziA4Hygx9OzNILOg6SshZPcd4TJmqecIWdB1wXJ6kG6QWiOGpWnK755E2b94A4Ec6dKK45vc_IrV0hI3yxEcEv_-o0DnudH0KQbLT7n80lmrN-4BUolyxBdXp9X5jldLe56NxnizHLon60FZhwmgpq2UOOr99kO2-0Cr6HVygf-DZAuQkqOgH0K4lNlYyDcRpMXBKuMkunrn5DiZBwlRQhkshf6EGuBl9EfWBy-wWVSnn_HcGaNt4YOhR94Vu4szCqkp-i_s5ETcDJPrdtmAVATg8ykY-Dfomtwha09JZ09y7VnbEFQuvt794DWGVISTSfAxzX4UfVAd7-TOxu1Cqyn8JjCKUGznL4sqHOmKGJWHcL5IX8u2Sfk7IMt1HRHcBKDBOgCqjrFxk8ugxLinAGntP10aBSzZaaL8dlM_mCT4LTN8EV8XAdLmFQW49dqpDDSYn-7gBuG3XwFSXRBzZLO-njprlZmrZUqQCDMnN7IsVTP2-3xxZMOqkpv6aUZS5OFAY1HXiy9lFp2WYHEHFwSXoHhkrBAY9lT-XbesD7iBJ0zKDz1-nC3qpXFJsTtoOE5J1JJt1jrNeq__e4qoPUcrXmkiYdtEQ5b5Urd6dcoCPnLDvt7eaTQxspvQiCS6iiz7Q-0QlzCeJeQCjEwGsmIzxpVbYv7dsP4UO1l1W4Z5xyEx_2ATrexpao08yO01voKo0z5_ZSsgVk7N1f6CZuAeaOyNGq1-SgQ_3gdwZPUEt9lIGfQ06CTbMLO0CnFcgvs0GJwKqKOsNtiJLDLgL00QtHoVpksGwbQEEhsrv1yI1uhxykQWJMoQE3LfNk6PpmL-m9_Ecy0O7grMQABU2tR8SIqx70b2s1lVIx91EUJVAHqXB23ur0Ly1I8i1-bXPBLyHmd4bu7FbEArfiqJ3Lry3OiPzYzOeKWoodM2EV262xGT7DO4Z_uyMiaysg0VSeX0UNOydoBB52PpbyE4IOKp5gfAU-az_yzXvDx20B-hkZmFV8QA-vz_p1yJaHQgwYvhb4jYFkJy0Y9oFmjB0BMxKIfK5S-o48Q3DyYJaQWYPqGZU9HZTeAC73LOfPFrDWz69jmqRbzmH9UspCaR5EE31m-XcdPDxiY6u7OpNSIgUjBbATytRXuI3-TTKEDC3Xi5AFJstSJm31vZTdpscNzu-LAUIurMs1fiOeTAVQZnjF6UQmISck9B-o_e-7yuB1QrljyKTjG04Smb3_Fq5Jvf4XCjjxO07VpjKzgbtRpNi-ck3TYZNZ5ZI1r5wSUM3-jtK22gB7gJ7sP1sIXiwqOCl8hHhoA6RKfHlvLQ5uyi13XRDN3x6h3g5CZjkZyYhTcYpcBM3pbfTnhqe5xrmVh_H8OYjgHjbK5Cptn-W7nSeWLNKDoVkB53iJBlrQKQ8pdm2XLT5WHZSBrDtk6ndcrCR81QUGEUo8JOVOWlfowyf04nwSrhjjjzgq0vcbFU70tQGux4jjSb4zvIBxNn4sQVsJUj-wX3XsiHm-jIpZIL5IRHF1-LvDw4UPY9urJnaIBITIpMQEftZMU0yqHtssiBBCJEuEZiLKFZuohp7F9peWM8MmDsBJkr8ON73wUZ373BSJLx-Ml87v5Gx1IgeCunlctGa2bou-QIXyUXKtxIr-AWUaJsYPW53ExQINGoWd4qIiyCqilTZ01su32gq6E59SM9vV62GRkpPX9mcTeGdWHOoEK3PJVR4Pg0Z9Rtm8BmAaCVxCNRudYpL30eSwVeXAL-Lz5W87jRtAS9SLF8WwZfEpxDXchL7XrXRDTAbeGLcPKe4OcXTvBp2rc74QjJMakodcx_tf2AL2JOYqXdTIAQ27pMY2Bc618ijddWQya58TVGtoDUxjMYaCm_s-3-R5DCjee-m43WL5ujioeiBchg8ridIsipEDz19S_QpwnX66pTjWqqdGBIM2fDu6vj50LgaRaN3vrux7VpgPRrWZsGGz_BHZjVgzGzHEofGuJ0L0VsOpp_6zZpFJ4A0jm2ozB_L__aKIPy3kOMAh4bbB3vVD0_oPi0RJiZslrdqcFUEde9fz0pU97xqDFZOEgT2PHQTm2XF_JvO0s2pyUruH8_Oq1uyycavhfR5BvcG2xf-VKgLRFIbXOldIdQw35wd6Aq8oNXSqEpuB0GXFFZZ3j-ags996Ritz3Rig3v0Pg-VUVQ9Zy4dG1BiyOMCH1JqDRxtJa3tR686bEa4ED1rPwvW-WmhKA4WWcvvpzQHPKafz5fkWkR-6er8rRspaGg70bmvS5EAgmZdSqLC7vkSTle5L3S3SeuLWQ60gNajlXqYY-4YLNtbXUCcMRQKt5nj8UsqpMQoSBKt_z2PFsfTzrO5PoCnOG8pn5FZj-cujqG6A1XlfgRyj_ikU4aX-OesZQ4nXV0yFWvI8PcYoBwKaguIp96Yir3fES_g1jqop7wpKNWT-f4Ouuz1cVdKt6VcO9wmPwo_fz2rT9XWb8NFuWzE7rbU-z5gXnzEKSv9F2WX8hBF38J4E33LXj844Qs2GGMJaQQ3QNNHE0yLE75AfB1j7RYhU7aF1f6ODOOYfbLWzASJdNQ5WN13yyK_F_0A18QvqX7x6YDHznRjMbdrDhchQkjuqaFNoarXO_6smc3vGuwx53tg3xyUmvv21k-H86VbwN_Yl_XHgCXqsqmfB-0FKx-yKRMgrJ_reALmsZAwrHaJTl4g9SMzzKuN6klSc6r1d008Z3fla0H9D3ms18AQsSzki3cMKiydoc-z61_D-LC-m52TYQngvyFdxeAvzV9pA-WfUT2pxv7pQDGcKGRd_-R_eBLGzTfvecjzST8pnHusXAHjJ9Is6ExrpTCR2OMSMCfbefqmR7-PNbnHcl9Y8zeTjyLxvfvqoxZfS_hAZD75qQleJPqgZRtJ7AnmI8LHgWRWxuWbpyVp6-YhIP222AG9v4JrFqs7C1WVVhhnYrYq0JWf30ZEgn5iZj9x0spdsF-pxOtCdA3gkfeRQXqhQDkFaXTQ61jz1XkxII5QsPHJb90m_rAEmpe3d2MFcaQAeo1mURK4MLZdhqkqetl6BFq07as7M71jOy0WnVqA3-rctTxbPCb8gLf8Pn_bfjop1iOnQ60RvC1UnccLMs1w0tlLyGaJKjgjFrEZH7LdxFvDJUm0fEXzVXQGCwcWVe3Al_CzrNyS13qgVJRKoSRotWeuH6fi7QP2wHRGSPt1mo4T6jVhTvPSrohr5VMNFH5iEjt5lzc1zT4RAi0qGkoROcjY6TdS-L79IeR7XU25YnWrGBxEZ3pjDV2pOIDoAI0oE2svfCUhMTtHDCv9BO0frJwAoOauOHgjYFuJ0Et5-MpcRdNevSnPpRBdzI-ctUQzFD8NpmExr2x4l2qu3JjQjppHSP7jn5cZqHIzWpUxU3KjnsVgxf3ycp_1Q4m7YYO6K3qxSJ-6_4cUWZnE0pDjuD2rasMmfVbup-fH5Dgpo63bjg6Sf1d-XZXWtu5bBwPp1S0VLtbNRVrTUj461ihexvDrkDJk4C49t_M8gQ0cvfRpT4WeAK6mZ9kKjFsMHluKoy3wF3VfCRQL2e7B03xCJbU97ljxuxuC-5wbdc3yRlgfdSDI0_l3B3CadDHv6caUEkILx1HY6uh_k6bdH-H3ClcbPw6xlnI3Ug_CMIPCk6OOFSveswXVZ_ijaGRpIBkoiFpIA0kToRd3pcrMumik_eoBbKcgVxuiQ3kl-8SOznOs5ze4Vrhwwu7HiyDcWkCS7SujB1oLzi7hHIxLom9fJaDEJVmG0FYVd-tKwXOZx-3djiwG0iO_qY17EqUOEO5eKWfyeBWkFcf8uW-Fg4QDMLXB7jlX8670Vsb2ABcU3q0LWX4BQIxne1H1ttFQvbSD341B8Wb4Tsuto4L4lS9IIjvTM9Lp8s_SW1iiTCWu4ylp-e4Bd_reZ6mNZV8U2VfKC9j-DAfxn6Me5dXr5czz6x-FBcXOQMMbQoErRGY3FUdkW2Cbe0CO-wxJlBKBd7XcuyguiMTr17GTrmx9zwQ1IPCg-MZx3QATn0puOs6sPaG87cT2giEtD3S87bq_KuCK1b5SgyZiodNrgCRqN5Ga21ESXUOs-ViKuQ9duU9sCJQi7JFlj5YvPtR4s0X-Qyux59-Yk8eGBCn967rlC12LaAOdOPYgBS2gZbU7eLI-TqYihQYCGBdwKixjZnwY0oNoraudVT10oQ9KVvqwta6KBoyR5_3RZzoOtx9--pO2DkB8zFgQlzSANc232rZ097fSqiODKtT4xijQbQgmzcJnIpqKt2GMO8MebZT3Raem4_B7olCVHAByK8Hm4H8kBZlIMBXd3ViBGivjQdCU305rgzUkxD4FFQYp6pRUXIeWq_gm1cjiBKMC_d3o7Chfti6pXYkAGEHGfiSVXPLHQZsNx0YzavOXv1daLyRrHK-MywxCR4iqmyJ5qbPv3tI4UkUA-F_QBt2Ww8-yLern0zubgAtpgAUJPNU8OJe1251Ok-2dC9bbfYnRhby8lnRWEsorsWBw2jQA0R6N0VTLJJDLD1PCgCT3Dxr0eMWchG36flMJdMaRlXP8T45Co8X-fcCCBrjVOZNgODyrRLBcWZFZVMrcP_e4uJsq-7SzoEuIj7TZ5D50yEHGAu50UPFTMDEKLyJZG5PVc3z54NLTcyrxaV4sM0qm6xXEuLkIA7xhB-7HY0pj9DvJg3ChxTNPnKqHxNcod6mFXR0MWvRB5Y9vc9DrhdlejDHAREl93PjkiUEHOr-1Rd7_2guN_so7u8hkmxTBsKTLbk-pjcxWJSb30tGAAvXpYUcPBCzrkvLymKJymQ9A1vjl0DBaZzCUjyi-R1WaQR3ECHH-kDHB6pv9loZWh92hAZLmTiGQHU7n6V4Avv0rufLtfP0hXGfjwplLeridrjZbJcvKzuTiKqMYE1MpJxquzHeJ1jH9S8XaikoDfkHWtVxeEOp_OWMOVfGsskErKLsiUTd14FB0sG9LseBoRjE1rk5_gxjNXKHikIIn1c3I5ZvVNMY6BwB46Xp_dV2D5KNuwxCUzjzVEb8WtHguWbjgwTaglb8orIrHoxxfYYCf8lRQ_i1iFX6ZgGAtociH01C22QbVMBZjf7ZpKuSdT09mycMiss79GHYIdXZwqHleDWh_Z82a7jtxkJBaJ2FKHdJ8AuOrd2REO27v0l6zeUanXzU522G4MURNNg8s9nzlOYqO6ByyrldHJQmpN-C1NYqNBFa-YQaidvScG-85Gt1jsnm66Y852NKHzlszzDOMWP53ue8dR09DkXY9zGEXbCgJyZPz1se2vklJ0_0RgGgHy3Tbfd5a9oiQgerBKR2TXnNKzwZCjaqRw0CC70Vhp7flp2ONuO_YlIE-f7CBwuw1Xi_V8bIxyfT71PyofYvT7CRpDr6f2yNslnNhYDyjnQ-2ieaNSAG4cqtoNiOuBQeDBG-LBXedWBe3FX3KsYIDZ-CiyNFvDxso2X-MlwmBMhiLCg47OlPqIqymhiPvrQjFCKfWCMfdP1yorflKI_0_gUW--gd1LIpY0eJiZYce5tNkN08zRSJ3Fhi_pzwyYB1Z_qIT45nFR-K34mPeZ6mkHQZ0kUHc2vVT0A5b9ap74TriFkiGOiHjz59S2TC1Se5alnyks1cgNk_jkM8OARBYojIjTeYX-5mdlaYy37w3ABI0sCz40oG-k7VL8sUEt2uGViPmd_dGonUwKzxaJTT8YJZcuEPnAFb-faHafS3KnhenkP_M8KVrYYeIH9-KkS7NFRw80K5BEa3ndfaCdlwBWZ-MImhohc96a3rviJbf9YSJqP_KpSYQ4Xw2ti6vqC4HzkxdarUq8CMF09fHvJ2jRo1kN_s5wJYB7iZsnXkV2Rpf2CZeiAAQFTIqN2zzclyIHl1RaxGyNXAfzhx6vRjT01uxyWjQ_tFHtaiC5cgN_fsI0Z_ei59HK4sXBUfpT2n0mHd2QYDRdSqpJbGNRnJepjYoIFKEGfMkNXow9Ai4y1G9ELDpc6ysoxWn-06HjaUcWhmWQfN_xOX_D6sDEklx0kkl-hcZP1qsPyNygg8VmdVpl_snypf188OV-iTUhcm2_qOf2bK01TWVEy1qhi2fRBobFtfHAC4Qc-NEr20CEgoBBikPqWsO1MndT8_80sXbS0pLx4Yh9-gCd1OPc_C4pswDYC6MJUEMSc1BZYl_6P0ovNAwMADcO4-QNPMcOo84jTtLYlBcXmLZP9eq6gcMVu-rnF5vkaXSojalUa8bAZuDF4xbJ7jH12lNlGVyci0_dQg1sBx622TcMp1ZKEf8Bgz9cr1YEgUJc-e-xc7esWY4SxllKkfIUZ09bXQXByxA8Anz7Y-Wwc6e31w7zgBb4wht555emtMt4-LjQlQ5re1Cga9HQMF8zBpapE52VuFvKIhgG0pDO-JDkpCosRO7_0UoAHyGI_skbLr_i3yfXYJy35E1hZordaLB33XMttBErReKCtWY3wf0fQlmZMdA_FY5TDZe0E9pjfEW1WIAUapnoXAGLZsH8amkJU-fT1B6CPHWFJdmUCb8DBSLZCHULAp_LguxXgb3ei8dvr38r-Vm7LZ8wyvopzEKmjT2MKcu8JykIwYTniCawp4heeT4W269kiFLz9uy8BOdVHN2xRVuFtY0-ghT7XRstNeIVTxMhLXZKoJlXvdjvju8saLGqJPU0Xy8FnEYTWvi9QxaBepoFB5K2IUxJVT34IG6KTeq8rUqKP1S6qF-QOaCxqgJoQLAauvW1q4IxP2Elp1cQ5dW73IPs7XPBwFNuw-wflJCohUD6_jDYO7hL3qM2oTaPXR0zMsd__SSQTN7Mqokh7KlZeC_QbGxLOH_Rcu7ApAQGaAeGUJRQQhVvpqr7YlLkpo0Ffhde5FHa_vuHmudgx6gZ4UVVspfJt0Vfs4flV0STDlKmBWTcS0pgBrKu9K64oPfl4mLp-SLTOKZkr8-Ok9h-3q7Kwniui4Rktr9a2T9C-I4RJsvzXdJpWlfDKcJGQm5MaYOz-g7sULQB-2FpzTdSzM0fXxUIieIDki_cErPzND8er9Fro5eStzzWJehogMcJSH16705_Ds4PlvMwq4JoOyilJzyVCpF2b262O5caIUGBHUZHRC4HAmAU_BY-RAHLvVIQnBfEAKot95l9XXAyxx472eEPV4tj8m-ndtOv-ZOwnwMLhURDLjDAAKZ4aBNEjojfjNmo_MEhr0_QM24uEURmWnVr_wJaGjLB1hD3HwfokeHqDCXK_11EY205dgRySaAcaWdNA2yEaPOSDvdIyY1N_mybYi8ESAHpBC0Nm_ACu6kT--S0BbBP3gVAhVbyJRgkX7Eut6J7Ii5uSs6Dh198dhWe_XqqILYPPIvEd_36SDUnkdft_JicyqN5m_866RcgEdtNXNnuyg7K9a3ZgSu6jq5KEy9sgvxIzwj0D_wjkNteQTde_eIpDtfHewhCkZv3wZxJBmKWHzpQBSMNsdXTG89zSHgeeOIFtIhXjSFMsn7e1asDGvCWS0RA_CpD9F77en_3i14rdXwUZ-wisJ3UNFPUh1RAxe1zB_hs_P0FqYdL7yvHr6Hfl0Mhcqa_gSSrnzIrKDbH5JbJJSyNk5RcRt033TPatumdbDEn487NNUXPhHFn1sr6JfFAdQbHV-BCplGlZZBG9Mraod68aJpWRN8CynJ6kL_Nh9LbRBVHz83qftUBjVKrzJH--3c3tlZbkQ-0uQseR6uuXilgwGqAoL0iGkAZYKky3AUdswsTXW8xjNZBVGv67e8ZASvklODss2ThWiaSEAhBgTgUUnrFsSdHVo7J1c8UJnXl4tkKPMndZ-ornQm9fQILKqFMAXSKvIeJDq748v3skFJkK_LUGxUPtm1pXGwIQBnGzrKnFx8z4q3sUZukqFTNtI6LchvVah-wFx2CyXOuS6hgGdZBi1kXF24YM6Gv0dIoKsDI1QNY5Wx-votGRpz5mPMpdZOs3qF2X3b1lDGfZ3T2XMlHe7MgiyePOvtmcDudWP8RfAhj0jNcxY16EkDTkHwHqaT6afc8e8iZrEmmU8HjYuws0cfuXZr88KFD5IgbiNn9H_bCdmZ6_O7tbuzuZZRkfqroyzhZ3xJpwSlE6uiXOtqslhkhIESdWqRMh5vnpiZ3UwzNsvUkNzSfED-91D62Ed00jFmiKHxvhtQSmLHXRQsC6IrnSVTHmR5NghXzcfOAeZK-dQN6a-FgL0ue2mXZJRx7XWWcpuAqXdcvs2rtSUpr_lKVH3BvkOCD9mY_paJpmMFjougRKCmfDYll5FyfpQJs29XFnMMtlSx323z87-0mZwkB2w9g5wX7xP-3WWxXT9a-7fiDo5R_8SfTQ2z273UfyqLh_uq4Bs-OnG3zK768zXyoAy9eFwAlAUyLINfSpbk0xlQKXdp1N6IjbZU8YWZyi4B7xvcOwKSt2JYO9OG8Yfi_v1e-wZoBwlywSCMggBleklKHwOjQ1ibmVTJzZC6B_VH-vdNWPQ_8JmDFTGbA7h2E95HmWRU-oYeIAsngfFx_ffNNUQ2SVLMk0nocsE_gHXwd21tUQdmgX0a0qLgsj_Av5L1K1Ca_RXuxWLv3cG23Ja08p6BKow40j6lOArRYaVBv1uw0NCSpcGa1xZfQKQLbeoj9QVsph6tJcUThR1raV1BNp5ObJttLQ1a5gme3f-BP3RFo4PPJzDu9S7K7yVRkEJhqntwqJtlNEM_gmsSqMLMmeVeBOsIT13uxFMPsu1flngFp8-mC8UtKdmopi_p9zyO5aYQccL228ciFTAQAFHsmJtp4-zaGj0BZpf6HAIh1_y6V8WHS5RIoOdMnEHCqxnCXI5XHSIAUE2czCwBatQxsMcmqwWWqLt1BEjBOa2Pnb7MXirirGl30xmWiZf4bz9Jc-7P0j0rQE78C7B9Ja78jJQCwIEB8h77A7tiMNknlHU4A6yvP89kSWriFOBWxJtgCo8MpvzkgukH-P00_oUKk8rOVrcCAI251buFjNYAeR0jnlq_zaXtfrClQocT2b3eNtcS5nehfaXjR08I2n3lt8YEkK1E-t8UtvdZXf-PNCHta7_Hy7elRKJJUPn4e8JqTCkXGyktnUe_VBM6BcQ6fI76dNL536-l02rltf_jXk_ZFnuYUPPy5Yu6IG7mPVjwMqHXSksa9NbCaGvy7gNzcnhUrUlSfA615Xb7ImjwCS2UcrQXo3JpJiSpejv66AObMGOHCwzU2Ubh4VAmcCIspWNqpHOz81z_XsPA4k0HaumAGSoTpkm6BAfO7kIVOYdNlHCDsyMBcwIXRTWYR3g-vVNF0Kl2qUnQyzeocQUeGB7deyMyYiALaQpuf5JzipyzqlOMpHhYthd5hO-9rYeFNJjKG9DdoAq5ZcaoZGwDOB_1hakAdKQpvtOTXg4J9PUCFnTpnaIRh8_DnbqqpwkxaMfPnqXovNaYkSI3o0mk5KrtajEuRCWX8eQiFAc9IaY9NoxYkip4gNvloBwLwUS759UKLyFVUHTJ5m-nbBWVsy_118l-6ojL_anBXKrMNz4-Q5xU2r97v8uapsjjxaBDZBmY5J--zmZEsm95VNPPP_zON-l4U8GUDM0RTUzW0T8OZp3wq6ejGZ-_m6dKwyYVPXMUJeBPJ8BYcXXSQOJJWHwOFaNjpoKZMBrdyzqgo3V-ibq4OonXNXpOeS96U_aeQr4W5dZBBBD2uk5sX6ctN4ibPI8FWEogNmW0u8BWrgdabsA0inJjU0aF9dUBj3xr2WYanG9MuqTwx1np2B-TSekbYxota2RKBjfAfKEz4AdPduwNt2QX8fWxrBysBt970mBzSWhYsJB8zXVHCcTaN7Z_YQjfl8uXWvv8iX3yMvLBz2jzALVbZQw93lWovp91RStpIJvzdy_tyKHsOyWOkLF31rr7lvLI3rhyZ812W3_oTZMHZtWK_bwolzm23QcrpWVCDWXW39OMU2GG3c8BB1eH46MF1KWtNYes0qP4LmcWYGCl0VcACmjer8is2PCRAyJfOQNW2cNN7ORAvS7yoxifzZKofMLzJpLBqJqQKrL8DDLcjt8KO-UdiZwAGDtl6XVCoti0EQQntSD63u4_llqq637SZzMOshidyaEOmCfj9e0TIoArguGQ7OQ2aLmDiqLEiB0UB2q8ZSHhGp6QXM_j7Y9YOF0UU6qsr46KAyYQXFppxiyGDpIHLreNPZjHXnRRITHszrCMmA1-MzbIPT2U03JxssY1Sfm1GzkUGSjH0Wt7eZ-hBpb6NX9vGa4Z0CQDC5u7HyPm6M7RqDfkAAmFLgk-U-7x21ASnh6nS2N7PM769sS9maXDHoncgnsl3kMx4eJUcLN3SI4nxDk6VaEZn6XNXyacOCfnX_Ia0QaxKhAreCljUkUYZWYjpxMKDsGhIZ1UqHyABvHA-RVfqWT7m09t1tk2nNaOGmp1krcyG4vx0G330nV8-rNsoSO10Mt2kvC-zZ-6wCTvDkwk7oCY6vodTXn-KL7fgnNpVqWAqrChRFkzWQq69LutQVuTwKjUz4L8eJrmeArrCiPeRGOA1ZqnoFE6ccRsLyMosa06_4ElRQ2XxMbiPxLXrdXiIKZF9vvXb_QPyCuoCEzOPHSeOMWHxNyFj0zkGd1v18m6Jd_IfUH9G279ceqfvathsHJQV6-RKJXEAiJ5mK6QChYrihMfCSxioetuXEQfRkdBny0oIodDNrvevYO5CrltC1A9lFzjid_9mRjbQ09K92BHJNOYNA198ltppOhxRNdoRGtf2SHz8N61eZCcXpe8QPG3-xAriv9fHgqhZ1agZ0_Cgiz64dggOqXE0YN2PLNSTzDlI5dF4x-a1CubPXLN4ZL2nKMz09buznaXN-zrtvpioOR4w7IbP_61Wfza4flIN9temLbLRwWC_cpP-2gVp50aSh-egDl7vkYowppSQgVEQkgnid74Px7nX75hupLzBT81ah8WuvhvQcxfnFRQbv7XmWqAmI7rL14Jb0Ap0vzzPNOOyVeS0zIOF8F7k0XDZ_BConKNJ6KNbkK7cTZ6tFAEg8XXkRPAWcdTAhxPb2M-AP-1rIk-GNN6sQpAQjSB_m9IUoT0T43HwZK7J_uegSL91g5urpJo3HZEBG99LmlWJuvACyRzxoac-SpiZIrQxln6mXzaINR-0MM2q8rYrHJW-qfDZIFK5vZmK956OLJs0oJi72vag5YS3JtfTDnbSDAVPaakiwsxDdCmEHr7-XCkY1jwB0J3M-EgMyl0BVPmrBEqFAAzL7YxB3khitGKYwdrvaOgSiWRJoDmyMZHUwSElBrdyApylrhTG-hYEVCVp-D4iOrck2g0yQhfN6LAZrJOZSug9qop2kr2OEjQq7fjBp9Nv4A_Gr3eTY6ekVgOxzyEmEwpAUpQwDf2WhwlJ3G45PzfAXwe8elvW1dIBEnKXi-gHigIdbCyrYe38jc1wdUsg4Usq3LGVm80S4BdtitGL0Kh_NVo4lpZEfjcopIHHTpv-F8JxT1kBa4a3dJp5eD8Da5N48_WNlVxFgHqv4j9JAUzhLV7YQo2LJuQvFOViECTytSOX5h_82qsZEyl94mmw91VNgym3ac_nPuinjXvnIld19N_nFEjM9UUPNaTDolYFJKMqFFFn_gwhuGNqdYEpe7gMIqeLaZO59Mq-6qU7STAsS3Yvir37le7puIJdkC3bDITEPDYuqyMou8SbLcnWMlZYCpmbDBXHW6VMBcpGnjUj8SczJ1ybtShwCGo9TogzSfX48QU8RoHGpmUZn1AS17CG6X1Jlw4LuQP62Jn3YK71-KihME3YLLnnudtl0InQwDKDHxuBPls2frZXr-SipoK4v8_XXQ3Jy8CobwcgbHwMn2Qc9msmb-EelOSEVSJ2rQeOktW_G5NdJzDSRQbcbwwOKie6ei8RXzb4KuIC-36I3SIOC4An2vKPB9Ad6FgWy7D4k6ZxupJqZVH-syohRiRbnKU5FLW-bbcy8twywD4A7fRB2j02tF6fRLLIiiFSBHIrr2AlgqOGvQ9T22s6l51C7veupXq96rejpVuKqBhulgtSZBFGvWL22yGfbylLSHlgl0_qxg76wF5YLWBo7cRbWStzmCkflMqwmtBWrgr2kkNgiG6Fo4w5Vz1wSkbJRuVvv4tuC_85XFWtTgp6eqkPMDabQIe4rMcx0HI9dTxEECnBfHGEXykIz2_CI1K4d3XEDwq6DrlRbttw5rDDmLzOAC9D4VZS3OQZIvHu3f2f0tZnfFfRdCymJ8TSl81lVO25faFyjyDtwFxE8UntB-yrg2iB4-PBQpg-0QJEjNimNlSTqkJjcQNDSGCBbiDhX4Z-nKMsGxCqNZYafgBmwAhp1VAveB_e-JFOPi_RbUO55-wn8CkUwP5wJ1mjykZlUKotPL_eSNW68vR7-YjN5-kqVCwdJDhEP_vTYfRNWnG28eMDZbu0SA0DWXDhjZ7lMC7SNB107ccGTKH0tt9yh-Sl4lPwHKvNwOMoiO0UvomMarDeM-txNy5gjVQj1VP3x8R-I4SkDAT6re1nAs-Nne2wNRRaoVJB-IDHrjk0btG6B6MkEMV3eI2yO1H4EYcirQRjrk4i9RaGosHs_pmKQOTAeIl05nXxzFY2vINtv-Qif6wj-lHEd5quWdNeZQOH8rEalMoqlYQfLiNfvg9hvvT8cE9zeNq9bz6qVrL2mfybeNA-gyFmSv_XuIeJ8HALSmxm_WqEftJaszeiWKtnKJ4TK326mkfXrDfnRXnd261DCwwLOQ0Q8IIY69jvyfBbUzZt9IN9b_yiXf8YQCuxPGHfnBIdrCg1J9AKbx8MGCt_xH8SjPh3wlj80CC6a-qtDdJM3TtZj_PlGCuGN100MGvchlHsHPlRNi2-_M-cbAzdWRWguHFxaOVBbBrrnK-cyQWxqzOrAKm-fS915uQRnL2yEIuQHunA-RyVP8MniKLG0ngaILydltbLz5q50YjyjMNwoR1nAkVNwluyC_Ie-FjPqbjd2Ht85DQ1gBmV0Wx-KM3-zVxDDv6IuDh3bNn_lty_bMegy1CrwWQQzzb4Zsnzw3bbHOFz4Q-uCIn9BmvCM9m-wyYS0Prz4n-DodLmDhsJWdpbuSD_8CGzp2TSZ1h7l59G0bc0dmw30qp3LhU2Kc1hdjCi2PCG7XEPej1yj6EPbpPf5JZsJHsbVKOxYKilLdS2NMIz_1IK5fbpPl6tFVsmcAwoqRsBlNizEE88_CA7ZqrCET9vA6igxh0X4Npztlbayee3P_nOYmMNA21ParJFkmk1LekncPl1RKvv3tT2MdJkWqXhJPNGCUvSB_HcOrHo4ShKq4BBPatNX7drSwNVAeTG3lt-bQlt9KG8igUmYYle6wA-BqHX1t9S2omDDByqkpnDZka7QM205kmfOGyECSTFEBgGe5sfJkS239iUwSUQQbjAdNO-SkkFldoNEZrWnI2G_8ssI9udYMQN08dlGNgNX9vZHcYouwL3RXKxx5T-KRr3UK1mFxiUYaHgsTKSpkyuXsuV5wJwCEEYyvTOm9tuE2DCggaJwr-6FBGep1rCVqsKDavireLS9z3M8QuQYdgCNf3wEZcKsQXRKVZ_Wmq7K6lArE8xR9ClsIrRWI928HQ-aa-t39LtfLV1bQetYBmA883guQuBWEKJeuz8zA4955zDQwZ5MHJHBUpBnnDVpSHTSLeoGutqrnIKSbHRLANHLDNybPZOZJx2FT8vmExQzoOyCI4muz2AZjDC0Cj_Lv08xyiifLeVMbI-RnzYmGZ8y0oMSN0HbIojrJp3ntOsTCHnJAo1kkyOgfFrYP2Jl2fdCad5FC33BpT-B5fYYkuKO7Q1WDkcMUBbmJUj9NQD0mQPRJhAfBgrO0u-p8o7OjTZ8RGNPgcWKcyP0oXIfodxnOwVzIzWnSaSokjpAqIYZ0l1tbRkBHbn-AQl161W6QX2sYBcRofaJnDOk4X5PcN7x0jdRiVJuz_V1DpQlr8y3y_v7wJg3A_5OZcf8X74SkSUEQqlaJ6UQw3SL9SLvXOHPCHspUJYW6zl796ocI5Zzo08v-UvFPXI1fb3y2tJboZw2xxEKrVIIbHeeccUcTU_aL7PRdFP-EHvWSOtaXGXXg9yRT7lUAu7689rPnTEGMYPfw6AB_Coka1EtgPKl4Xs2Ub0rGAkS84Nt0MseXTfS_76PkfLXO6PDF-zJe_em-McCEQ3LZULCegJu9Aw9R5GCdMzAH19ia_khlFHn5h3Jy4S3FxL9mw4h0EoxaODjNzWROwYsC76MvR3Tz3eLRQxpKt-f5OkIXpjasfns47rjgeGDNqhJ5BD5Hnzngx_jGwe8glovxAI5rKw1_4W2-aSgvmWmhssva08bvyJEYmqPW4ze1c1yIQpaNqrNM7ziiFmVdpFDnXyH5H6bsEZjaNWMGITfgH1gRdia-pplOskmvwKxiZjTG_PKsJVwRxv70vi05mWrVnWI_WsXdnF-Yf3KfeKR6w3m51UaCZc7LRE5ANb-G-h3inLZZ7r8MKFW1y9sRJCuzbDbUCJ_y0DXZqc2DvZzGS89TtG5NdXhqGI9bUyfo-PAREutKFpCmhCZs190-Rv-hBLlYffs2T0JHbYMkQTN_feiR_0eYju4tgNr8jeyTJswoF-EKyGbw-fGfHwHzqmhxXewclfFqnEl_XUnILC7r3VTTQ4-i7REYewA_GoWENvdbTB24C3x6hrXDxrRFUazt1pjEuDLBHQLZPY8uFJ5TYHMq5GqM-Wltej38lHcxZ67RLJkeZZ7Tu7ThmgE82A5dHhaUkWkEeOPgTEl0vLzC7oGKWemj4suWCGWAe7A-Rb27DtLkN3fyyBRx-UHLgfaqwqVAGd03aVxu9dC43CXF9YQNZ4FfhkKkajv6G4lSPMQsOBnVFFXeE-J52UNJUBc0hP0qvQLzqBlC-Pfy3msDrBIdcS6Xhez70oYUySvGHnxLpNYiV5zvSd4yEv2HgmV5F5UROiaKeoVwzN1HF-PgTF-ZBtxn-Y1akSrV2vjGv0RVSjf4vNmT-FxvlDQ73ro9-9UAMSSUdL2wVV01huN9mMirie94aFxGwXWs7Wgnv1quoMYhefw9iqm9iyoSfuSl9o5zzIBf2FdVhaitn1_--FqRFdUZQQL1n2cn_lWsY3nUY4w-3HX5Aj26x0fb2myHMeQ0eirLgzShmp4R1xRzJEco2Co_ywPBlw_PHa11wiC8tnM2u2mta1lPdg_nWNvUOfmDRgOQctiC62GIXW17yE47GPCaMZCqDa-5FnqAOs0v_8rbQWzdmktZpAWsisUfCha8dptvsrGn6jLMMkXzxbw9BDcsYxMYKamXlTHEWOLLty6KK7-_gQbZp0wNPWDtBIcS2fhZ6PlIG5-vJYHeAIofNJoqkLWza3UwIlRMGO5Pxq2XAqozjx72C1WBrNILRB1jTTerouiVc49egKLxzEnsOygI5poCT-0GhOUjrh7qwv2BKQbkbRk2kUuqYKwlSwDNk2xusZZoZUmR4i5Rm5uz3i-iCTnLlPa7ZvSkMY560uUFvvqdc8FhZZ1zGtJg0KJ_dihSHpjC4HaudqI7Eo2Xj8QYAbyx351K_O5SjPSZuwgc5WJmLwdxJkvIzqdvUCOSuRhZYJATsEWZnPPDP8R-3Cpj0RNl02W1e3obEgiNgGD-dTHnElMYWFvW5FYmwS0mVbNNVki62bEFl6glu7jLRcv-T-fGmRcby7wIFoy79ndb3pO3_4pE6smHdaqNydi3NsLdwQ1HKvfxOMPR6AOwL9_Fig484zHQjPACbbgu-dcbPARBN94NFwgQF6T6k5pUblqfSAJUbHYjaS2cZNs0GLYbEZR-0-4XGDbl_K-QOu8RQtadDmCQtbV_k-pJD9v7ZT1dZ8ByfpX9iyvw79zKTfQ2s1NfwOG0-Na__ASBimRXhZeKju2QpY5BfXxd6RGSkTeuUFa7uyy7BTimiLn5aB0wmY1P5AMEDPTf9NSxKZslRzmy8_4EC_Gv3TLYQBy32CLmpZXEvT8vXQKbmuI3fctXwyABW309XBXOCw3ArwsF6M1ceiqlIGgkzn5pXKsZrx_AAm01aY1mo9agv0qVTZfkxoQF4F4u6luTyoC9i1hOZZ7EeAMyEbowQWNyUnO1PvcIRrWQOKOElwnJZ08skCoHNOKr1rUqn8SKJr7rKR2kPEIEk51b5Kfm1Cx5fv3eLZx9lg3d63hbrOM5ukYNZhPxbqCjtWeSPOV0Ln8o085LtfiobOt9OLv5DKYqAuwabWDX3pJsepi1cAfGEgyKWt1_3KzvORlT2LkP-qRHkoz4NddOAXTluXdTV56KMZuAE6YYxggmbEdjaBTFZrb4WU5oTQZv2r9nhpSdsq4pSRjMhJhCc5V4KMKg8fRcvD__OP6j9OzGnEGjakhphih3QflPfiizzhMr99TDLhtKInz6_HLwnkRl0l3Qg9eO0RJYI_y1CrumycWPMvlIrXrQV1BU6ZuzfyEjWi24RvNVmGpt5T2Wl4la36NA2duG5J0Qd5x4Ow8Ud_S29pDauDaAbzIHbd7iTmYX5JHULAtyywS79IC5UoqpUVMEMtVXw0Jod8NTIw1Vaamk6HmWJpaq8dTu30M1uG2lHVfwXeWiFUDPQ-wu9kP-ERgBD0k33wyLcyqReIpCheDn8PAyv62Ef2LaFPbphJk3d8EzWpjqac4DNVVB10AybqxKELnNZj052r1spzTScQ-vdvHoJl9AOJL2lnZVwlDe7MfHLePnL9m1tLRfWGXmo6qMmVR-EWFU_-0IYEYufxN6AegC55yZqVvhl2LIZbrWrtG7JNVwrm0byaH1m4t96JDV3grCLSF_BWGwCjYwzJAFm1ZHPk6mBwrf00R8xot01HX_7QjjxjoyfMm5tyFnQSgWLUP9cQHwnaWz8JQ5Of3skkp2wBFAxsdDwCEURvjZpWKG8Qo5E08-KLCsAub_U6sOiHHS3yeLRRO-ExNw41vUgKaYCJWeINKz4UzbttEQQfa8UbVh13Uu_uRSiCFMk9LuE3vYUVri4Gq9M1B1oY1LSYaeiOCd8R6z-jmp7GvCxIZzw1bh8Vr_csCDD59X3hrh8GIe96oDx5bRuZ2YARqPzWUFIo3pnwymGCIsgstVzci2eK91WNRQZP2hRHIt1Zb5BJuNOSb95GeV23cJwc0oO1TwMRYsmPP8hv597dQkryVi85Pa697stCZv0WOiRzw86NdZ81kfnuG2SmbnuNXHDuMsMrwUKFf5rfRHvm4or0NazTMx2-Am98rzY0jdGHNXXs4_RVFZiYRslT3CpYSr5JoHxyA-4nLeHjYavBt9lJGaU97hfMu8KD28vtMXjWwypKZE7vks6r2O8IWhi4H9TAqfJ6YVK4sNpvh-Z5kJhsz8eW8BLcPYOin6g5SxXCAb60AI4pHU2IeVkQQUyStt_Jji5rUyLOM4ZuEaxEIMw7l8ErmAn4gMZhVqpyH76IU3DG3Czr83TC3KCG3vlb0SfHPoZKl6HTLNIxBur_c4v0kJL0fw7ae7_XPhNIyYh2pVaWteu7bKo5wlfmX4QCheTyVYT9sgiWEmtqyISoxqTwsMz7F7T19PwywqpTKgRtsCAhanaD402AAJ_wvxBHkwGRMKkTjVaoasKv2Bof6WN6024_ZjZ9j3bsCK22qjuUxHd7y7hKKo_6F2kMCp3QCXmmwnrL9MhY71I9vyh6b2BPyBo855qsIX3QSZSdRuM64tpITyHdMRKhoHi_FPR-eFBCXPearHq1seglJntIKaiUnES8T8ETJLnL3CqKtRj8RYlwtInSCS_SWXBuoUh3qngM7aM0zoQVc1u1ssX2OjQ2vmFchyqsCWuDrHAMSWDLeApacFIwV2RhQFZYPmd83I2LV3UYAd-QNJS25HVWGQ5n2OSrfU-9I6-L5Cs9-9BqulTJSSCsDUya_XErvQh6LLQ6c0SU6RlI39MAj3k0Je-eNwdrU6a3Lvqr6JqKoV5oMDOjUkABW6klBD6PMThFbZRDnOgL7p6DKeg27DVIomomgfjtzyISag8i0OLnuK49mfvcwbgUGvRABp7sPlpru7_jtEFzQ-lbwDc3Szgo2TJ_6w2pA2Ns-H9xyCpFtVsl1PTrX9c4G2QgMUwtWbfHGNuuK7La3HjePyro2rUAXdBNy0WQOpS_4YJTriZHqgZCJItus7rKYx0T31In4iulcGze62wV-v5xoTw35BrmQeHR34ySc1059act2YykOBR0jUdtmAIKXHmYK_gRyeef6plEXbdhPIPCylHH37rLwni1o5P4fF1Mj_0O5Bg_1oARdBhpki2xzh507GGPqtDyF6685Ds1YKLcAFHU_elYoqmJkVO2bmiBygSv1y6M8H4q8URcGBpzyD_BVQP7J146hl0HolFVV9YQpwhcftNNNeosxjOzNVd827A1zGl6nL-W5GIRm1mDx9ukGzhbCRiEIWbbzSFdYkgNY3XB_Z420MlaXeKSFJlzG6MZUP85jdvVoX7iLWW6FVC-j9pcRSOdt_G5dTGwcDEleMGulya-i_OE2rsrtARibGmMQBbKk4OeGWBYsgan8kU_njzJzvHLLNrPaBCx0aYe0ztzToQNwkb9ONLCYiTaIbow1Fq3gEtGhnJtO7rR0xK7jwdI29LCOX28g91C-MTC00LD3netsHXvK95dY6Y68P0W5M2z25fAf7mDBkR-qlwDLyJGCbjsfoKEjesNad_st42C7Zb0qrQ-84sQmzcu3BppyAXvkYq8C373LrhBRUNHC2_8J6238NDAZIyvqMLEZDZeO1VSpWo_b3IZp1rTSvT85wEObkit4uBnDuuCTv9j5MpjrvMc7axQ2s8DUQEfpso--Dq9C-jayWgyxMw9dFf5peqgbFexToqcqw72W1fo8YxAlfyCX5VUmqj_cN0eOXTjdSBPeOIck1-R3e9lc3Cfhtlzc1RQ5_dtb8JAgPRRwDQIkuKQ6oGHUOYEEvq17jxHfaD-d5TzMhVbe4HxULkrbSdGrBR0javaGFqFxySVgwYV8Kyb9Jx9h9I_ZkPAxuGJSV6vqwE1vEuMhMDEqq4cc7mA320rs9EkP4eRXfqa5wJZYH0LRPzFdRUO_OLx8hIL74g2gzl1_be12M3fHyWrlRrCw1jUjTjJmzcWtSFGW_fcqlhHlR2zBzajud1AZNVloyeuvG803hJQqR0FKIpLSUygOnf7uMOcGqSgSsO1h0d9D_q0LszI8Jk5Ar64o7YlowaiCFXQZGCfkgHeiXMiODtBbWhl3Djil1aTTO5q4RPXgPKmMe8zEQfjQE5-KuKV4aJvCvEowrxAvl60ekoAMU-JTTUv2rMD0NQHwHjDoU4XwUj-uwZIVvueXQaQypTHFnaXzVRbRw-WFYmCmQVNPSTqfNGTv44VVO4JLEx_Jndv9EGqBu0yoG9GjiodKzwii3E41Wncp5Ixh9axQtNmYBHcAfrvquDzKrJ1ObetURONLLdWjFRjRzNwhYNp1zJwXuLYM1g5IQ8t_YI-xHz5NGj-5y6d6hbkGZxbSzOWNKk6BDkR4P3TUkeZPz5HYgCEx8GzcVw55Z5XQnnZp_xil3hYXOKzlKE01mHjJKEflUxqj_WRhtLMusoneyzRoBd73ekXgpuHzSR0M1Fx-g4iQwRMM9Y3nqLG_GNEtVtTo5kR37WrL61hFpFbCmLCFiwbdx2swMfR4t-mzQC6qQKGc20vL8-SsiM2MupqD9FeoDxwhyXmmrP310MiTDVDmygUKpCjiELX8rtv1RkUsTc8ZNxL7nYYbexnOv6_CFx6HerTGwl8qFAnQipvsgPHW1YbRmpBsDexvm6LfwHEZXJ4Koi-kZaxmUVyosnCWmH25XnFXSyRVKwxjvKWeJov-VXUCXF8ybccuHwKnayBwiwHmYeV1RgstSNQAFMh2LkpU1ZJUqw8ZHa7E-32pwzQdMMFlOWBYucTvA0oJ2QHVXLVDQYC9iqrajF-3iV8_doE4zgIP-iLTz3LxF8OtXMQOpd2ZkBrExPbv2IdQFOb_5EHLWzDPEPcNVwZPDZOrevi2Z1VCV2E-2QM-3BP5vXkVHK3viL822Thf4sd5xu4iSQ_J2kAWtbgTZKtDLodMnpcvrIpstVGgvSri-gBs6qm4HDvdAho-SslBma1t8xW-KbBPRX8wB2d4xFKBuMs4aebyy_QiEFHyJYOQmAHZm6_y5oKu-gwC4eCqKDUIapd2xstGhYaGXgc1vgn3OdvKdeJWhWQ1N8b6K75vu4pr8X2CEB9lEsk8lbWyQ1xRQ-XVdQcmmY2S6qsJyFbC8YRZ_lbAjeAZApjGaq5CX2_BYzkwx2YOM00dD9tAWt6vmLGDii2xnIYryVbcsn_nHBrTRmzY_EdWHaPdohGYDhHL-IBsQ99bW8L212Iz_XL7mpW5pCkdl3WmMZoot9T6FBiLKhVkKTn10ackJeChaI9m8tfdE8L4v8ATLC_Q9Y_p2Exi4vvZpMJr9yDvrdmriE7sFaTCugZJlcN_tNfWVhwLfVhUBWHM1BbUG-t2SESHpzPQ2edKo8--dWib87NhpOzjYWL5_NR39pjq2Wl2yrZR7-WKs0DuKB5VWVHiLB9j15Gmh1n0JXGZNb1rv8MG9QK-PRYFPs3ryiRab1FqpWU4zffTEDS-dkAeBOawyfOJSSPYAkXdj2tuySfU1aRJWdq2rWhNYkFnVnf14ROnXXCt7fEGZmmXzOXiwqFCDJC9x-T12U-LCAeBwbxpHW8WDrd1faOtr5NAW_hOuSPQsOgUgh2KEa9GlV3ejaqf3qvR82Q3H5bdcD8m55x8Pde3f8bQa2v81ikThgyrD4OGEh-DYywPPnjxAwFi9ODh1L6jk_M43T97R3i8RQLXcQ71FIQYBRnW5YrObftEfrIv-rrhLgvyQgjCp-vOilT-_reDWsgU4KljywyMltOHMLmFFuG3k3etComG2kuYarbRwvL4-yiil-uA2CGS6P1tL1lCYG-0iUTrFRNDT53Yfgna_g-fNIbuSVCDqSgxYz4grIUePfW0bDob-rHrsobFORrgmJss5KgNpEFovu-G_A3OlUhQw38JcOxT6m7iLIRK2T-vhVUhWBb-qj45_WBqctNyp1hdNrGNI_lgTNfJNU6rKm8D-h7HHecY3znWjl-Wm4V3wEn0RCYqIh8TNBshCBa_IBiNiqZLDb1fyfl8MEa01gGlLvspA1he4UhzUsNVeJQ_P_ghocbxK0zP2R8jjC9Px5MDyH5vssFhP_gMBi9J4LdHeOwxx85n9dYLNpdAgysoUESYI_sdOyt9PmbtYrKE-ztpXmSR8QYtMYqwjAT-T4SR6N7Bqg93ALx8IKtY3IvKsCUY71FOS5U8NGS63OqqOX6CisQSYPFzOB8HHEO_qKa162sXpQvJubVuFxskEUBlpO-L4-0sYzscNo2_ElPbtJeapL-VXQqutVUdWTRxgauuWWAblrp1d0Y8lrv6ttS-g3wPctrCZc4MdkgToqWRbA-vmjFERk4Hw5LmY6q4R4ykSgxdmQCg4K-2xgELY6WbLL9MBvXWlGVFfNx3aa5bC2ZtS8w2Ac0pakPqWYMR50OW2TDxEPcpHVK5mp22ihepSD_vs-OjQ83OXmLMwqk4SWrWgSV0cLHqqbGqV9PpCZ4XnWCNIAt8xRhv4IL52cykw8APGimq7L6dggNRmSL7QHnCYhYHpqvpeG4cQIqa9cbaQ9NCWP5r8Bjlya45I37Iw42o_43LqOXbl_QEMSgPNwa4ucFNAD8mRY7KAg4gKYinNmY6dcXBXF-KEIxyNlQUzJiaxD5IlWAAx1XP-8t5jAwrYC7QASDS7lJgJUyAhyoYNNlM2Dd3ktWI8bK4SvHX2NwoqE70ErRjxE2IMEOMlfELVW8mYU3_7s2WlJqfeMsGHzd-QV2Sf0qFFJ4Hz872PQXzlrzqnhsc0TNzyZ9sr1FTSaGcacnfb1U_KafQxdsMEEO1W4KyxQNg1qROxEqskiY5UXKUoUrupFeZEmbTpV3hrRz7X2-JXxz_mpcTaJE-WnnyBQJizwPoZHIVYZq__mSIvv-2H2JGd6Cy_E0l1oKgIBZNefSbb_iB-UfjfLKgbfBXSRaVlw9WNtzcFwP6jodEe2IMrqRcmey1OVFnvbfZOJTAGwJ2acOV24q2U5ekhL18rGwrtUpwdq7rzMUEpFDiotivscz-wfQi2EvsQPtu0y0GsnnYfH-ND4YicRjqKhpxN6ONJsGLOab_NWMBHWqqL-meKCu9h9v0I84xV7CZhbhZibEIPmBcAxuddCdWnIAMX1J4xyrlr1IC41tLMARkq9VRDhdTMK4q1jD6aLCk1u_8l2HuzdAJ4ts5CRw9ZQUG1Ye6luwjUjsv95J3VIXLncccrXh9dQSa0-2MRH_5JgJPD1zyAeQLBDOuccxxiinLSwF5-yw4RT9uU_P70gP1OvjuAXSVdk1TpuRSWt09BZk2sTKq1O9ruE9b2Hkn9blsVR1fRdts_zRtW31FPkY6jbo9F6aic2Untra5JRxgXh72ytOqd6qAclCwkhwnVuow3ty01D5PYFGnGdLI0-jBG-5vml-9KWxmmAoUJfkSVtWb2LbKKdOVdCn0auFgO3b9CIK8qEcayDpGoKGQ-buawR2X7TELfh5LwyHXjKpkmtFVy-ILQ72XbqnGdQy_9uEyW3FJuJV5J7h8AkgHwCaik1LYcG39DSUivVoImVvWXL8LKi0ctBTzDea6HzFP0N6NHr44Aj99qVL0Wvg22tuesITNuW9AfJhTjvJfPiu7kAJ4lv10k0K_A4QnuNH3f_rdOB5iG10qQechvFrFmwusU2lgdiHkWmn1tndzmoxHZxdlOW0sLDsSR_IryTYzPzdDuuq0LBpQgGMuQNaVqeYfs75lEALRdFNuxEEBOxuZZ1vkBsJ8Z8nRsRPArRFXhgEhoF_P4AeA1PnNYmUpo-LZYjX9ElT-Czk0u2-IR0QP-qCZwxVEFURFirrr2Hw7JGgTYlgrV48KHznRDzH7rtW398dZqylvfo58s9lSmx7IWxg8MDmsCJz4VxOkTpgEWj69lhKUPz4P6tPkKYJEOra0XliYMqd3cmEk489ExiOcLEfdxquev9wRGEAaOAowEOtfoY0vcQrLqsJPcyJ-wprvi0fGqPsuZpFFvylHsaEV6PMwB6DWTJBaQRxwisxC9nljZapHLn0n6h9Pmnd5l1-34Jn7WleXBvbIii2-HbJHBN1oDXUpZFZ2Y5YYhk5cX32GMtzygJGZ0jl167L14YRPlWr4iop6DH_g48WZAeUbsjwpZCbJMulU-HBYu0c0C9eEZduB5kO8qWeX0knd_kEwWpgmHypxcEsQBRe-CE0jEFSgwY_9QgcdAKj4UuCJbEh0Ui8kGpP3pzvWmhhJnAnPRKNFfR_bgJG0OCOqG4yEDsYXG4_G8YssZJQuk8YOwx4AqG2fKAop25fwHZN159_9D_MocrV0VKgeLF3-4KMKC34oKOMZKn_XQ5D0c6-aoiaSk81uFqZa5GBtVi0VrhMybZSbZ3zCtCEFqSpouh6GZLjeuDHdAxhc6TaDY4OCSdP6s3DpFkfrmRN_Mc8u5p5FBtkHKYwbXKsUk7Cv84lboSTol7Dh1zs34raAbGziDrrkpeEtaJ5Luh5mOM3GwijN_P1fy6Ig04vviqfd9sywN19HTgSjCfliZPT3pTe1o1x3YwtEwCwFiYfXbexMZS5i_kzTcNLzaJNcAKc3ECNDijh7hR_UDeMdS48oy3M1BFkEjMSEoQ7H1olgyMbwDGsqhLYnRPO_ys0h20nprlfznvOZPOb04ZeySfc1PS9UiAONBqIhKEy9jleJraBD66bWyszNGhoxAwNZgSPQIeVoXyxUb0imuwEVCmYdnbC61dwy-2B7tKIfNAh6XpUA4Bbu1QdzNF6HacJ0Stks-GPWDEQpl3PxEnAqncWVyRvlZd8hV6oLtvLDzEIy4qgy_R9Kh7LGOPmp_FenUu-YqBPS0gygiAbnjJVB2MyUZbnp_ZbItyaoSO-Srz8yGoksIcrkah4Qf3k7jHXKXVWjjyqT2cn4-8PKTqVXAqzFGYMp5dbSnbHmIjDphFbskkrOx4X5GZlQt3zgu1xhtg3lLH_QVxWwiylNlNZi6RFE0oGxCslKzhWftxK5LS4i-x1W6-WQiH-L8rowVG2LTDgZZMQcL4qXwOm-RiLyrh0LgdQm4b76MLj3hxZauEDkpIML5iapHM7IfVK5GGtX695rIWTlnlwE8FME6wuFKOCxEFCDf-uatJCjG9rn_Yjo2QLk1dgR779YbRlw3vFvO67F62-T0iunE2_NSY589-TMu9qSM9ybWMUoNZ8FVPk7y4OTYZxBxgebTPR03XR8c81mdKLyYHmqvd56-KV1f4_dl5vpXt0eJZ6wDibc4PQqrfH7mEpQXiSIVHYnvVyLkLHMKXjvxgiL1wVWK0wioDsamAEKDL30mxGzkVEC3qm02vVKBHQfAe2N-z_qKdIawCOgovdhIFpTHuXN7OfcvALMt5HLySlX0lYK6uKCXC-UMcD6ZbADCJR80CEcmJPz3CAd7c48yjj_dWOHs9HH5j2WYORsicqg-n-O2A8y1P1in4SRb3qPPsZgSg0JKioN4E6NXDznG_rczD4vrdnn8F0uYH8PZhzZkBQ5B-YS_8uez7XntEuWZiIJ8geqbrf_cGnvNAU0XZebtEIcN9NTPb_9a0CaEO-DwdTKpMUNSUKYZtOh0dOkwNHCxh054nuftjYwmYJCi8sif8cK4cdtFd3uCgamPYsSzN44GBrHEPS7op2S3BjD0pZsekoXr-2trRRRFFzWf-J0F8YiP8dDr6VFGvOIQ-DP90mmg3tHT9EiiTNB75gy46xeUHEdCiJJO8Z7JH7nUIbbDIMeutBIV-IhcCOWJluekvgVgbcidEq6d68ExL2s0LUlZs97wfBhdQhWmF8xk9lWJt0k0_DDakP7wg5-NWl31Ysyo_4JRyF-V0FCeWYgvbfltS86JsfvnE-BU1wx7_j7RNWrP5z4v7C2O2wJgg4e_yO2Hjtw10WQ6293Tzrddr54h4l5-tWnCyFw2E7y2VeZe2o8PZyB0or8kQ9liuDxX4Ht3TfD0tEAb7SLmo8YERhswj3YSNlru-l7IJ-QMajCNvEOg8JP9Znos2mbn2wOxg_cbFZZeyWJKCqTsmOcBy-c9R_tQrnAHgTQBvr1Me9UQMNq0_nknNH3v7PRY4H4baM0bNeatdP31To92GgFWTmFYeCTsvn-eetOys09NFYhutRPgsLPDRjkWX3_vRjcjyB8BgmJ6TX7K5z9qUND-Cp8k3fAU-dy71x9khIn9W9MurCrpjFER8qHCeTNt3WfgLRR5ENpw47ejMPoSkRdNkjRtL1yQ4DZLKm5RF_NOC9f4IwGIsukDDEw8m0zUh4NaxYB8W93qVYa2qWt4B1QHU5yjNA57jspYGTlqE66tax-E2H2yJtPTMbnaHAyUqPXgKIwRj20WxZ-MGA0r6JJ2c2nsSL-T8-YLdObsl3lIy66IwVrbMTAZhY1kq9oeEZtV5ftUE9QOU-ftypIcgoB4HBHpeUwFZVZ7T9coiqHYvc7NJjU1Uz19RP2Fi97wRkIM2P-ZTu8ye5B2OovOmOwWZUQ5crjdfKTDG4MHAY0WA6TUxHBeeWTeYsq34O8XP7W4PBE323kJf_C9G3u81GI5M36rOF4NZEae1QHBXZgsO38pb93xQiw8LldwKcGDcqR_9liqZRf_HKGjRJShJTds6eOFr8SOlVpQ6hQKgElM9isMzvgvb7jRafRJa5aDWdDsIySdHnbnJ4HhbObbIMHk9PcPYGqIQ6TXPhmMGWCORx3FsrSn_8DBsFXxmqC2jWh5S6ShyKxJ5qFslj0cuSt4q8knNNcnEXzuh9jyi5yk0ORduOTqdKtYJlMEHUsa2V3YnrWKVU63ZMLQEyv4N-KIcAAapbeyQ2LqGo3JZlxbsX6haPf6GOZr6iRKd0tcpOQjA2lwm_-2yKn6ckGFfSr4Cm_O-lvponMwdriFNLatorkTQPQJJ7loKm2z0EALmVjTl4yKemMUMl-SFlabfJDeUE0mpBZjSH6t2UP_y4csIZuJiswTqxi26ajoGY8kzuql8kCrdF81KzJum_vAXg009KaMStKBnVvdoj39mQ7HF2Udpbc1raSYlYDEdck6NcgmJ1mxz0MZgh1Tq5wJ8gnH1UA5t7_ITT1VUAhD6NURi3orRLSesmCYnAbWeummsrzqiim74kv60ZXdJFnlqqiNai0Eu0Fbjisc2MMylgKFPceCwzHCFhWqgr8vxSmBYPaMJJ5fynEY32dzq5dWrl-q6meRqrq_JwI1U1FDiXGF5qNtoWloIuG8xeiKB8z9DV-FiPYW2iANnZT9PfsMPoYdRxNCAQVDgkwKnpNOQZ3FPc7EnwaSjahVRo0OxvA3Pwb1BLaXg9iEWzrOXd416pCUq3qQn4D45O031v7npgcmmF_msxqjPXfzL4Tb4rwc9JMSRiSztVE_Fcxb3tWBVj-wgA3L_zfXvTjlBfOesM0T7AUt7njuMCwoYCjoK0YKPnaKVJzg0bOOJjxvQDye455Wu4ju6EC4eql11BG1diFlZq3UhIrQBabL33Nt_yoAbB2zM5RZAdc-t8qC8x0QOxcsub0dn0HjRU4WwA9QlYDSYmtnxlyZI6gMgFy-bLVNB1ZpysVA3RvQZkkGODCePJ_kHi6-1xhI1llJiIWKsbIwnzSuXStrwwut3s5mLlkWgVgqLYJ-P1P8FeA8iM22rHv1kEaXPdX_WuMr3pycWzDgOGM7_SNEfi-9rbuq29bQ5talds6ef8bSpz-6k1vtJQmncGIUeeu7Cr5I2kfrxUhrO5a5wbERkSQoOr04HvBjLMDsdoZ3PNGrTL8ML1bqMbJvH91xJhWPKec1jowGi7bhKEbJyUAYYz7V0KTwmcbZqMTcnSrI2snSQul333zl95jhG05HKePhGaDAXKbsm2cGRXTtceJR40XzvwhVIwsJzvOzH-nyAxdjssVYc69y07ew0_sVAs8YCwU7JE2DKbNvE7c1GfqIK72VB0f6S5q5hbdef-NWRtLoxzfQ7iMLa9_7P2sDp1MxzbzX2QE9gHGtcXNn6Bq21WoVq8thCWMB2yEbSEgNqRRAsUlgtjvkNR8M4-JKk6kjaT6zbcHbBgTUZ8qW86w_FbDIWSwwupn3P55FWVlDABQKRa3IeuHPKpDM2bnrrA4TCUaOnvr3zmouSkX2UC2x4TLkVDSNPvlqA1d6KyMrxyrv7fwwI50eWxwX0kuWma0zFuzck4aXgsZ72TvniGg588cA8vPxhfQsi46EgLQdMOqoEBttu2SWVvLhEYcFvG8uBJ1LLoK0-RUprhzRjTIzBq8pND0Y46sWjEoh-1fCxnQUv0tsogPiECFoSX4ayEdTzXrfuHg0S15re0oFsgC40Ww2w0ND-QQIYwvK0fE0DDxfXQjlvEBjkl77bmv1T1K1YODKJDqdRSu8FZ6oW85hxIRHbZZ_Sy8pX3VWNbnTUwCRacMeiCXGS8oOq11NqIWxQf3sTl6dPM9_CK5ucoKQEAPLtyBdKRVRRBts5TyoonZ4KhxlUk5VUpGJqrvOPw--WcliQSvnpf7U9TEmSCGzfFgR23il7_NZlbKSCroifI-gbAy0D2L6PnPUd-uOeNK8xFHPH0MX06v_lC2Hv0_eWrCCWn5r7E2EYegaaQcqX0LLoALiS6ALH4AsmtCXMmV4Q22tSX2Xe-YQsBLyd4ZlgbgiBj_ziQFoW_0zq_XO5AnDBwBhyhuYOqu3rrTOTH--7XWPpk1bCNp-4xXqXwBXZsU9szuqOQdXjHhV83HG195IZJeBB9qyxjKArNJv-_f8elQFkocrbK2IBaMOU0OIlclzozX76PmAhKy3GmdYW0UQEOYftjdKzzKzW1aNKDhB4IsJbZ0eig9gE9hfiBn9Kta5rZhwkWTuWlxrXhlEdQyyGn0eVILiTQvCGfTqMupeWD_2opnrY5VRdLIZk0O0zwkMYrrF7O0wseSNnG_57aqRM1mS8JKknhXv6E60e2RPgvN0GzI52pyxEd7w4FT9JgSfIGWPQeioBtEUemAeWaYXcmT9BSA4KXOwAYbEXl_2tb2fV98ixINhsCTCcXanTeo4qisaAMxHpm0PFhpqeWnHQfF5aO-XLSowLYiTYJX_O1U4pXfDdYatBVy7AVSqLLHW1hghpcC1VIFvs_mTMVwP3zngS3L9grwp3DIOGo5A0-cYWU0JCK4sSlHhpPj0x8H6MZzqWjrjcvjmol6yHOwkmRf986Co_PvuvAilPZi9AM-nWeaQdVKDHpZiuk2P7vwuXU_vMViItIetkI-rqEUz8D7zfVolZ9dIyUG1zQdyS-kUy94C00FsHuAMOxggn7eAefYKl35BDiJZMCGmMoijG_59LdnqIZpi88q32p6dVqXoaIKMXfvyQoOadjK0CELHHgL-iR1-fcUjDbj91HmoZP5UB8lrLXA8wG-iVDp5NCwceCQgwEuaobExmH2Zhcz6EOJR-UEg3X-CZWgRmf3UQ8pU40SfvhXo5MXgnlC9FqJBTFwAvSJGiFlb9_-YT2ilpul43vLeSCAvKEtx0rniOk0Ai8ZdZjcxsKPmt1R0PB8bEro2FKIh4JtJhtjFLokEYdX-6wxBdos9UkygMBKA44c5LLbdDOVlsPuzBVmM5EXtuPiiYZ1rSyccWpk7VWiyX4lvWd5NncuR8FKht7vm48nift97b5t6mdNF8u_uGPG_bSyyIQCATk9obY2njxemdHwqYOnhtgnV7kTAlLE3t19mwlWAbKxPm_uDMOdm9jaf_Ybe1sEmMeMC1DMWC_M4zmdrfqcjYS2WDNfKbC_yEP_MA5-LT8Kuxe3M0Mh2h36t9wlCdPNM7SW55TS66Yk7VRetlnA2LxmUodLk-U83YPqnl_QlPYSNr5_AztCRTYmp2BODh0rhvvrGPZ-7i1TijpT7cQ2V6ePFMDHSKD2Qllu4YAj7sD7BQuki3yFkEHt2mi7fWCOphu5zMq5-Lg5udihH-cOuG8L0jx7Agq0feX28cO-YgvzVr5WeZzbN472BF5W45hlPBfRgt14oLU1kE44uIrijdpramD23d10iHTNoPWfeQAbqKAs4ftE2F1OudVrGGfSgScWF7P6Jisb4eGRNEo9fJar0oeleyRr-lvPSGKUGgjPyuusOKFLoh1md20Q1e2NOUE0mFN1RpAmYmxsO0RxqOuTguAaYeelDiTxcrnR_1S0652DkJeCPqeqo04eW-B7i-dKLLadc6dpmukqB2KaC7j7Kna5udMTA4hQeET2DgFaHIofhihVuQqISWDAgUIkO4jB2l-NKXXWkCuN91h7EzATP0q4rLwJi_j2qSRfB2AjRFCESXLWlsoTE-_y_hMSkrFY-yJyauHxypoZBqenQFS9qk4Nfp-NkNa3TBDspoaLzcE1zlG1fkj1bkZFI0s5ImIxU23V8KAIden2P5ez9XgPVVwD9gOPMarVSXQqPoMYqq3VpOQRSHaqFIumz18vVs6t5aOIE-nMo0918d0Pgd4vPe-8lTE2yojXCvCnNZxj3N_ynU-54E7k3Rkf8dif_S9c0TWuQ4uGN0r8gD4YdbeXhqCG26pBGuOgvbejuLKYzLZ2JQrIlpNQRMO5SCF694Y3S9g6-1NshJwr9MQsukyyvGsCeFUKVgKrA4PBnV5f_EpU63YIaThhhN0M-1PfCuIk-k7x6wgMaC4ECuUyJB7C-gorhhntoEREfO_1PxA0TGds59QhuK3e5Lv4qx8m49Kw5UcSsjaFre0vcl_E6v_gsuD72H0npnRABeA6WdhIA7X6SRFgIpEZeSswbqIWYAZcoUrcMlAPxRe5EnH6GOAWOCj-bbM3a0kb8bt2pCHGslloSf5KBhnTUHKX9Q94N9n3AU7-pX_XX8Evj8eBGYvf_RNP1eFaF-51x0w1q4bOM4cy2yRuSeukNrrdoVdYQJEtjt_jd-PUV0-TcWpnWM31gxysCByeSjO5juJnqvouuiEk2hQKJLRlq0TwAERgYFnk73Qhe7zrNUbe-G1FbUVAkT2nHIR8ENJLMW3Wz8npQNMRGc04LuK076rF8h6K4kURi9pMJehLTBmqKid7Au_eKeyDH01vaI74qD5Jd0apDzhnmqrCTclTG91yN7IBydURFtkbbTuCaa7HLuQVPQOxxeM5el2OqCp-AYlSte3WqXxI1Qf1DIrCcu8gL6OiSl0o7MILKY4xa-VLogoaHhkmOyPeYh80nlV6aFft_TGv36MD-TC1gCBBLxBaldg1VZPq7aZ94orG4m2UGDQ7fEMWRXzAHhYx1H-KJ_cLNCGekv0WYzIR5OQ_TMVuWz6wsc58DuF7uNpDHVgzwdxVZfe4opaTetS4GyeyC5FPAPNP5OxNTT8pVr42ZJDVPGqP0WxVn-fd6QajM7JFqD0Jr4hG6Khbdzs6vFUkbPkyOZzytE_FT9yieFbNnGwa_OmnLWGEXBJ26w3p1xVGZIsad_nEbGbuphHDXp1T876IpvCCuTAa6QcVvGiTTB-qtWYo3RRO6atNRSu50yIl9nJ5uwwDTRHt64ZqkIb9Mv1kaQsgt9uTKbxAfWm87bBQHK8UBqzxWh1oss0w3OeMBmMjnUUnekWSMjlOlnmyyL1HLE6ChPyYMVnPFRUw5PTKF2dp3_NBmyrRaTM98lMEFXdx9LqPCyIoMpQZ2VO11UOkmnR1vmdV82IDw-c1SJVxWpjWjNyIEwfpqbKAtfBOYyaYLxccDB5vgEzxEvhsRolC02AqfCpaEjio40ongAlnFAs0klryj2jyd_mgqG78uPHK5GL4Ttg4qtEC0MYFyKm1AGYJeV02fVNgm_z07-OPfUqspvAklq4h8MO80qqp7BFqIrsbV8_Ne9RDYCsjFgIjWCFQDU56R4E1AMekjQ6cRwzPzdLDRuvdD13R44YeWq58TQevvdu6WdJLAIi6B0P00VM9Z_3QW-cOzqL0rIk2eiZ5Wx2O1HhkUm4UVSbSpPaqsehPLgnvgl-kSjtj3DiPxxeNRDKp-jIl2dw8JOXdvQ3BUL-m69rZKj_kD3OdI-CrUQvZh7HcnuCKi2J1_SlBNOulYciHOb4bFCE84g4gYwdk5iu4cjtizK_V6SM4_O7Y4D1I2d9pOfQc2LIup4p94Ow4sDwrZuWk3Oexcf4sReZHMIizGR-E9k38i3PH1QaQxnS0JPCVyEMM8BARhQKstL9MYe9PgQFWpJdZqHyBQ436K2Fkbj5aCpxUMm5s43aTlPviJMx5RPuz0XZYR6QEvKn0_gyqak5nMtzk0TfXUDxrUFNLo48mNb7FqGs5cjHI1CheYpH3vFcb4rNy9C2o8beU9Pq6pUY77XQTOc6QRYgU6qNf0-8ReUDBc5awDZoROJawBcjKLcn8QMxGU0MUbTCnn-NT5__P1e78QOZN7qzvszMNqE51F5olVzhInDLNZM6I-RmXZWU0ybAdAjv-1J5xe6K2PSAwHSkeNsUU1WeotoapEfHYOuLk7NHsa-BU0XgUXpxlVcw4Fqn4YA1TwaWZ8jNM1cOeGxtqUg84AJZTAK-X7XlRUNNYdRtM97-9B5dH413SNcHj_-Utmkzmw2laG3cFA3bLiJHUwpamBTtkOFW9qezl2kHagwWQzUkJTG09W0S1QsBajo_hZnRRklklShLqEsp9jg8tCcyQYlqOYpEKN05Sz16Re1MuNPHhMEFab9j2lCWtMDpbQNQYjzLe9Cre3DIIs0F2AgUBB039IkKNz0hzbt0hdlQritLtLcF6g_RH_9U_9sCmYQLEWiAYbVM4yWyHc140bk_zUF4PXFi4E21DiYZrb_Mrc3M6sGIn8z72CfkJXId00owL2VwazAISc93HtRsjkdFTzfunax7ZBlnM8-iAp2U4uz7x6QRlTlYkF9nBCGGEwozfa7NsLpBubUkD1YGp3B5Ty9oDDklZ72cE7_PJd84PsDuDohJB011fNIif_I0xLui5NZdrP9siJNz40fYX-tzmS6oma7AEMh3aPOJ3BBw-OJMe_67V0-_93d6WppHOzWQBDVQaAggSOXGygK12c7YgdoAJiw3eGkMerdWbbyHdRQlcJIa_T6rj__hD3zRqQx-4F4ImIiCLmuBmL0nd50AIRMeQb63zRP804u0vFKWuQkkeZLndmgIFa-6MHXn-o_PSFh2lFy3icATacR_MYB55cgfhfI5svW7kjLdloYPIHM7i9vf8N3T8T58N54y95IaNcvOP9TsP_iZ4ul9vPA0UibFXWlxk5xCpUP_lHrhpN8QZoPFeV6leG1w6UondhdUYlIw0x83qXgfuCP8ddknRda-cBMefxukyEFyrepnKAbsh-v2prgEdUnAF2EqvNbqufNQXMYFcm8EZJDokNu_jv24DB6Tr7DZS613LlaKW7izIghGxR2m7Giw1m5VUr_wDRiPXjE9kISNKs8B0irOBtOKkDGDt2GKRljZmlJB2IYXDaq7E_vllGO8zerB0XB7j4_V5OwrfMgreBmXE4yAOD2D0Hy8zTxefvfK_FSgbTVRFwlvabe2OQT-UcL0htT107GQ3RTG82ovd_pvEob6M1VWZ-_Dn4dotBFBh8PY9imQZd1RGjD9iagAVPnQ0gC-oguvdPUaYg06JJtZH8pZ08rqQSjiSfz1qDcKGA0L8vN_j3W9YhHTa4FGw06Ox2dJRReihLtjhImMTDU6EH6mrR7L-VajWN8SogXab2iFXV9uZrfzhlQHc1ESJAW_G6z-sI6DLyYlzthnIKDec_QTNYQ0-xzP24eXbvXWg4-MVdq9sisvhlMA0-rH2J_ddGX8sumdTgIVUYQdfFC9Q9aAFZ1EcCTOI5skGbrdniaFHkYPSrAfjUZfrahBmBlpdsfdK2EPyIYeVfBB1-pksoWQ3XXZhYHoUA_mDpDX8e-5p-Po6YKbzkMnbvS5KCI-3ecGLnj0XaM5qTG9f0gbqc_HI_KwgF54W1o15UDmekH4Q_wxGxd1x7M6xFLBb_anYT48-Q-BjuPQrayJcI32W3neRVut02KCQenTfmORpu-YuqfgOqoyNxJgO5nQ0Rq0l5vwUTAVBCCEBJh1Kpb60qJaPN5fLnPeckf8ta9OVUtcScFId69Cwb_vu0WjqrNb0x7dWg9c1LCvVv-BpBaLU1qFKbSNtYZyFynD-pRuccXJ4HpsJW1Khrmuc7cIhGwhqa4MlVYaUyRxlCfAHNbDpnRu6Ifq6-gGqmlsIO3fuM8ZUYNKwMLlyvZD4bZr22q5Utt4NRTuMK4TezXMOzsMZrb2ds91-FF1iU0ELATC6wFRyZlJeHMNXKW1GKSU2Vjzzu7TLREjRG3MHbNW9vpeqm8P9IH4-D68_EekGhQpR3M9HfbYSduh7amOq7CL4U19iVMDbzmW8M7raGDHInEyvLg0MzqSJxEkYcVdihhYgwUVou14kvNz2ClU6eudmSd3LPLn0lFBeN0qOtLoaEpXRn6aJmfGJtzNfF7-rdy2nbS1CLnj7re5zUeBZvhsxWenLgB8RsPT4e9TqNTySj2tGj-QLTHOM81dPWJ-m4jD1FfSMfngTx3V_UMFvYfAXkxKTS1qpsQdtC0lVMl11rTHtVLkt-eYLMzdJ9CD90FZL2W1vhCgAIsNsrR5LxnbF-oA0Clm2xhXfl2d_BCOm8vmITYOQf7zxG8w_T2XZnvk0uEkB8ilu7FgTlchxN4wpft5odaTFcOTyAVEsRZFNgbXCmELAOeh92UVYTfPLMark3ViQJYg8IWOZ1KtRlcQ0XmKDMpnrnv7T9rvYxBwrUld7tMHokocLtVQHGegENCZFQskqOnyuqBITikcHlAnUx8dJ9Fb2K8QmDadHdI3gJk1IdR4R1EFWE5vC-e25QZJ_mi8zllwRlQFj_RrDx2eYgsRKp_noFPmGOZ5wjR9rATbJWGZS2OWQBPUll0KWLT_h86BflGEaOsUKtxt-XqqWDByQws0J_lMytls6aezrvMw1s79jM39WFY5L79V01EOVyYH8UCnMmnHiUDmHJmkUvqXmOOM9OVsP9Yj1nnMfUudxxBUVfPvZq9vFABCOpTIF15j1HoR7BjfVh_OxJjSmu3UykUTae0gMhqCOJNRaNRLgbmiyBLimVF_pdnESr3xRfx8XJG6Xs5AxW7G6L-IeLzRS0mnn1g1uPTau96tvVxoqBnZfePujPOzx6iFIJFHVl0KP4EgRxqzFXhGllqV66Yx7c67AO2XMWfurpsdGHbPgeZYG8oZgpXI1kR0iAKYKHcimwgtOCt5y3hZrhWtPcAnoqhHU_ufiT1IdgJYKZ716V5Kq8llwkoMWedfJk6fn25jnaNCgzehMtn0chI8J6sz9KwJId4AkUYaSwZLduMcnnhwBZMsS6PM2aohbXww6lfjStzr9oPXw2e4c72ylhZuLwtit3WMxljZP1Jr7CT9SRo_7LpLD_noXcV5NafoJHbGGnFm6U3srqNud0nzt8sCHgwtEsrkxKm_0cj0-96IUG-YYQQ2KCu6hKQrv_55aDJSTt86PLGRNJU8HJtGgZc7s2CmAl-szksWR5vYHoGSgS6WXJCCZQ0ou69VJGQiyqXe1hNU3pAbZ1AOJ7MtMNstGdxDJ7eS8aAJKpOtQ0ns5Xogk5l6dkSduoFJLJIPVKMKFX6xFPOxgKM9mTR6vgJGnBr4ME9-EoI8xrZ8h3LZg1EzhdzpsIYjjG3W4B06eiy7aKTPjUwRfsM7SuQE0EjN9Dqzy3MbJOi4x8Eny4CNtyWwRGxzF3kM01jAQnaX5EiU1ZylwEdttnzsXPlaxfPI0sFz0e0KXpxTerbQGwEV-348Tag6YZ_1qt3NrsygQQoePwY3jrHMzYtdoeACXgJLCVaiyhx2X0wYe6A1omwWY1tVRGgqnCTEW5kgk1vyeuGF-eutl5r0KsIponAN6BWtwaD_RNgc_sOdYaSxil5G2J-Dik_bD1WAu64kIUpLxoJF1XJHk8Iil61YBDXzXIxXrjuGXJld9oXCxOUlmXYZIVAcgMRqw_IDXhmOkyfGaVpL8jSNLhhHIhEVJ2iE6-Z6ZduQrEUgaTe8ru34iUppxfiVJDNmGtD6-HG_HuFK9yOpYLv-sIeuCGS1SJ_SvhYlY_KjjiSrmEzdHsxr6MlAkfd8xBYIVslNVyRt16V0AGNBibNb1ea2uNl809brY5M0b7LGl3knFVdL7HBZlcbNgNpbk2uJ7cteqFUGAU0ZozrbhgFg899wWWHAH-MeAuH-Qx3JBbB-uGBqoxaCUQ7Xomrd1Z1Bod0FL2K_bieBMRighSlHA_dh5joW1-5UwbaNj7tR7jq_lK8rPF1Ruc-wNimdessIzuKjvbvuaTIpFRVM6yJytvAUbgOUhg44bQ7nRKz3G7poRJP6OCf2ZhakgbU64tvnb6EWRLRfIQb5jAZncGytl3ks8I3Fhk1qAqA609Zga3w_wR44z6mUuDH1JT-z3-xGMP7UE7e_YxjomA_NC9blxgDpZs3d7yXe4ytfM9tsGKhi70cxI2_y6J3km0ezqPrxLeld7mZpj2kTONMDVw6-oj9c1G-7ivtAfDfpvU_MjikINd-mU-Eiz_ejAPCJRJyaUfJiOK8vLaryRYXX085c7nWzCJoTWil64nBzEUWFq6LCuVA_NtjmAKq4NE0f8aEt6ardBSuojtcW_-lAVMUaGjvBb4WWP2BKZouhA4t8SFBeHEFIF_LDjVXSmRrf2U1x0fBxisQcL3om3B2lhOM_Kaib6thRRDdOUNYN-_o_qymJDeCRcGkePt7194dVEWSY6nmCWWbugiaHl-q-Y2qx1h8sh44ZH7bf6j0vSYErxFsZiPb9DXZFP3Y0yXeoc8u7CcD_pZPvREvP4mVFVXF3vxYVbIjzf20lZ1SgWtDhuIihK58rXyb1tqSuQ4dmbQRDegKkH1YhPSkq19GmYj7fMJ6YExsPaMs7Io15IKJ2b_0TZdMO6tX8LNvZmuGqxlZqgf-hG-I7yDstazse1axAMdHoQ-KTJsIyC8G-7F0JW6FD8JsyUfRlbUE9sInNmxqCrEZADPx6qP6FogGSlEJ8XbwM84bB5u0GJvSws0AbiGEoed4d7KQxeNEWj6082ww2VXG6eucjqhqxJMluDGIXjnskrFoX_jk9D1Vexsfyt2AcR77P_LEH-WypD89M-z3bkMT1SSa5zBLWQoZP_syUjdr8BtE164VvhmYoDqESDEnwN5f-FE8cL_2QLCj4McdfoxbHVKsn7buC3MZaKe5nUg3NYHoEJDz_xFeustZtD3l8fwQ-0IKk87rw1BDWHMDHXTI62qXFp1CObTtDXuK_5Coglwwb5WUhY_-tqImy4qzRuv27erkQnZoEDiZGKeNaJVXSxxhE1zfzhtBUy3ZIasr6NWyDXXKfaJHgb-9FzWQatWgthrjCVZ4uT3q4yCcmkeAfMzVdiahhN6uXCHqZIYwwkiAxmQ0BYhTETneiu202EqFcJVVItfTpZlEP7oJ0EsdvNfTv3celj789iYoxSNaiA27oOaKWNhoOJ6ZBvFK0CBibIx1Z12d7g5OrouHebUxs2KbJsrg4LRiyEQyoYFhgIbTucvwjb9tR6a_t2SHrFy_uBthg1HD677JeGTc7R5ouLGF7dKSpF-sPag9fcRkPic9WK2qfuEI1JJeNIfZyiHuhUB_gUJcpKdOFla0pmhdLAfBUEjIRBJLviKVV0b2ttOtBIqeOoLmwGT6SfF8zD72FvxnXDittsGEXDNRS2osOg5NkDQvlB9e1QZNG7n36dg0LvI6PyZpN6oANiIG6JAOMst8RhxbvKNvAk2tYPOVBUOe0k643FTDDsk_ipTQJ4fUp5-P2e6T49n0CSAsiYK1nvTJqREjv2pZWd4Y1bZ2SYSPQecpAm1IEG1TKqsBc7x3uojsi4w-kA5bL1QsEtraAssEh5zKJ1_l0Zco-gP6HdhaNP11dDzmwFhY6UE-3b0WKLwe304nDvNBAg93ZlOVaOdJALFOZ8SJGsFFaykWXUS2NGu9QtLPGm_kqugZP73y4T5XQWO4hzy3ALAvNMeShPJn-MoeB2qPOBmOIusoguhzC6nHCCyHQ_LxseAkQO3pmuoMZ6Gwe8NkweOJlCDDbwaH6Hq0ChslVMotnlGqKYbDszL_PGmiKBm80AtaIB6lIY2hLNLk_KDdKS_921iSgvns-792WsLiR3eR2HOw7odAvPMuDJBq94jDpPty3nXrh4BJTnguwoPjrGQhqWb9RkDX9tSaYdmonYtlNzVQvsZWkuV6eyORGBrPIc1P1r1CC3i-rESo-QMOEtrLuUgyFKLF6sR4egD_rS3SzAZ5DUM673dXRZp85-X2ELQzK8Us3jmL5Vq785sxb7a9BqnpROpoTdREixQg5-33HvKkuONgXMELjx7qcLLsaaaLmILYoCRX9pLsAlXdV5rG_2AS1hUHakSxtrO0HrW7kakLFrGFlhACTtinwStOxwglYBESLJuW-ADvcy_jS1aObgxJQzpsrB5CGuzaVSIicAXzNY3IpF_HcCvqdfq4EioiOoxCsVJPRq7EnNEqfclhMELVP8QFDtKUS36CAAwrpQPuk4iZ11cfux4lzcunBhycNcYK7VTGT5HH_zOU2pQr7Q-EhvRlnZk0qhxUGs4tfR-HY_gQZzEtWVydxe_S9_wA-ZVGkq_AFfEesuuc2nTEamx6jZoWJyNx8XQCvYfi-_aK1-zf_uJfE5d-VkyovSeTv8Vicd09qiaQVbn55ZtxLGRs0RADkzJlQURNrMXWJd8aXKAcBUR5JjY4qBJ9bKWJrj8x1qrxHQtTL5AqoUTvPXvFd8NxXczD7eubglTLlbOcR1mwsaNe4jLh0nfgRedTr7mhGc10z2Sm9mwmqpVJCos3lbRp0FOUWLFdCWrSxZUQjtNTtVZzBctuLhDZ77mI0NqwJwkMxV56RLr1jajHORoyHCufzjAEqpND2eWoNYO62DwGa6GyfT5tgORcDPLHQ4WDpXfJiBExB1V1S7geay2pjFE7wsSSzXaiu04RScHaLN6xTMOU4Gk62ve5x0aarXiFLw5lCSyoWXMItPlaGUAFLjEg8ojWPfLMSnfD8GPlgpxgYKGzQY0UXqjF6WCMaGfrGSC5MYNFfcJfKYfyPINMVG2npkdQAM-ZAy_H0Pccsp1gtSZ8qjklk4DrlM9oQen-P54aiNlH7BydmZgIvfkgcipf1gV0uF6tvjiigw_iH1PRMpDnUr73PytZhERkpV6ga9tvLmFrLBdx5lh14jKW_W9JRyqjbFc9ReGnBSHeUnmEi7yZaR7YQs66kaROC2uWzI3UX-T816o2Q-SopxpCobcjxYol9oP-UP58qY4OCg1BYb08Ak8RNm8Cy0_nDQtcd1yexDGJH2ZhQ3eA84H_mi5g-pJIlezYXmSmW6XAPebQRcBFAbQ6k4yf3wK2tIsuWeXLm9GdnoQ1yOuA5tra2QbVxIEfzNMq1iw1m-LLnx-THi7dPojL1d8KS9i5BFMLcQDx-EYXP-K0nfw3EnoaJA5970X_s5XV7W_X5hlfSa7aWTNoOxbDSR97q6yBfi9sfHDEJPYUDOj4w74OPqWnvK2VyLH0H2zwcmh_SSax1BHbryxYQWR_-Buf-A10RnsR0RKGeeOyBZTTG7PKToq18hcneQPKfQj_-ksfHlPazt5N4HPRDWUBuxy-Mlwso52U8Y-hZPTjw001EMJCu-TJXAE7dai14OJASMrQUSCd2tddH4hqj3S5-UfABQwhqBtIfKvT9G9lcKbLRdEyyJghs0cr82pr0-mEsEsI6vBxqbYcaPYX5HiqXFqSl3MDZH9P3QbIG7QO0iBkibZW2VvnlJP3e0cdYxkrPHpjxZxMUQgRPo1EPSyE3Z5X_oQAa9fzDvMJOvem81ErU0A0lY2jMFlWDQl0jX2sdhVIhuWvnCQAWHJMnOGu_7o7TGhU_sBPzszYsUQOrw5SHw56tmI6I-DHoOVn2K2dv6Wtxayua1n764hb1d2_6ZUlbaI64WzOULU0J2ouz7_D65gsvJw7vXAdhMvhAPQtGTqcQImu47pO9ACAiaknVWoaFeq6ok3h8ZPTwmR7AXGAWPhFYUMzZB1YeFe5UztSoZU1_uW5-Y0in7Kf1q4Jf1axPtgYQK5ygj8LRWwejPkOctkwV_c0W72Udx2ncxyyFCUsB5TyRJNFJ-smfOC4la9MAB4RMEUAePYRY6KXh3NJSt6x-eGVgZhZFC3rOoUFCy-1bSXixKwTF18_yMaXEiBI7TCvrnqV3XrGx5IK45YW-sISa7rUKVFNT_8AnXY01iZVWTDYxCXfl0uS_UJVnFHFUtzlDkpPT3UYx3v3-QoWwkv1BAlDhX6PbDg7aXwLBmmsZE_gcBj2hcbFHxXU7BhSsF_z9wEKp3-s5iE5wYjCjQyf-OkF1sh8_UU93U2AvFZJ22IRzg2CTsbLCNNHqx_SipSgXVr9prIhWqJMYZOB_RfIkhlQ5LnKx98zcuUZaOpYzfCTviuPDcAX3QhudWr2mTPIoVQkWvnM1urhPqh-Y7pjLrZ_OqfP1JfJHlhBNfLX6wiMWOZAasvGzkcjiUhgzhwxdSQj5fedf25yjFCkupe54ImjA4fWzD9izocg9IBCxsuyU7uLe86oFXY3-pThSrX0pmQcILm7ke-DWgJE82DLZ0LFNqV1jCUhmVo5QyrYdaFwJsHHpia8PPjlzWRom1Jlp6S5TK0tUBsN9scJKZlN3f5UOAZnyD5PmogXvGi4M14XVlTNuo5uDrA-7qFlVRLS9ZKj-Lslvule5V-s7eSKxvxNUQspNpEjlriFuLSV_lyiOkHg578sBoQ0rNyKh2fRz_x58tD_7XdB2bCEXr5FOE3j5kDhem8aaHZg6NQUTfyx9zo_zPoCgyBEgfuyDfHyUoifqxLCRBvti8XOncvCgTZgc_XfZXoRbPf59gz5UzLWjlE_9pJC-P_Wob3BysT7pppFDIjlXBXfBEFnEFmSgTr6EyCQN8IUwqqrVfqLx48Lnk_igSIZQQKKMf_Gesjx985FFPEJtW0OnzF6POkYJhKvdebWuV_QMZLAqM37gqsQDyvMiXStcLQzpv4mp3xAGdmfHfsyIG4Zvo2afSyriQj3dSdBE33Pob6n8mxbAU1JxrmyAE3Wk5VhFrNcGlvzK2BdUiNGPhCUtQ6dKXSCvEXnykijA50YNRHKpPaUUXgCPbQA1oK-EBfHVOqAdJB74KbCnyXadrS94ee-jkjyfxSzhIDOf4n2G1t4YH7iHQWw4aUmf8Q32d-xMAKTfNn0pp4a44hjtJBbzn0EhFo1n5QgLHf1GVWdT_K5XYTYrJEORA3tgXaROUEVD4srX6TQDDGN6l7ZnG19rvoP7fNtjocx1Pg501SL9NwLzIR2YB-ZYNS3Xu1TgSFiYAoUFO0wVETD-ykqqj9IRjG-xdeS-TvSDbkMEjcM95dT8qoNlzNj4757LilhBIePr1jyT6zJ9NQfnYBkfb9eekpZw7I7VmQWqW1fp1C3L2aFs7tQYuOw_bNGnopZvCtWcYtoaBbwUBhV5IDn75cOh1qXJ0saqxkl2SdwyWaYHy2FbKyVrydrHg8DU3gwT2yTDvyFtco6iznurMwtF6CKVEdVQRcB9pVkN_HtEllNH193B2VfMOK6ZzVeej3QHreLkKPAH3TQQJSdMoUkywwXO9Mm_OpROKbsjmOllZkfzPDtQjafEGqR6_aVKvCQDVCEkWHt92raRZ2_EC3Jxva8fGyXBFc2IDdnpdY6F-kjaUBsnAEmU_rXncM8AzA7GqKMvgTfR5jvaXkVIRSFAhgwua6lqTy9EBXZ8cXixhBDTO54C0lXXF7i0wQxfIQv__9mKalDsKrhYLFBYkp0borMydejbBtgh_dT9boOyiKtsKNwvjRxmfvN4CD4DkTSVHwd8P5jo2pfMahQb6ZIch5RsENFBv6yqbLcvmx8xX_jsnqTJL5v9Vu_EgFYFxRQtHMTHBukXmppKf6Hbj1WgClIZg2G9jFKFmmFQ4iak21AqR1XhAgRmN7RNfAH2iEC1MYmO8y7ZAZIdrZHr3OdYAiXiCyENb3NQUQzo1sY2rO1wlQMzOwgA_sqNag4GKQc3PHUBaHMCvGeTwlOxFC9TYpfJ8XiKhUGzTXy90H2GSw-UzymO2gpTX9C6k0OensxGe-7s0O6r4sNNAyvN357xnzUwEEx11zdGec475p2I43hsNN1VXIlozkEafkwlFmwfBVbrdSqm7Wv3wymbtfMFI2y2ymz959RK5paa05K6gJQ_OkuYj4zAM4BbI4xpxv05V7jir3DNs92pVcDPstDiiovUcDoxQM7az6Wz620XGdCT6I3TY7sJ2D0uK5YUNTmKvNQnbwQlAPxJlyDA3FnMVtYp0n67MSIARJBZ1ogTnKi0p5FfhjQ6kyPHKszl_dp4ZfoKNtvuqjZmPKJR54aVfshlW0M95k0NOfVgP1KTlgKBER9NfBpJtoLv4W65Uq26rjdZYhCHBxELtyuBTTaURvrD6vumJoxuY53kWM9yqq3zEY5aG515gKnm3LdsSPpTDwgC-UXOWuiXb6WHqqz1OpBK3Yt1PpBf7M71wW3S0lxwecx49Sb6teODt2vjUD4UqRmXn04CIcI9BVwmOWfShUUDrJgZ1o0iq74Df28RxUJrKz_-eVB_2uZiHgl3l1I8W1jJ_T6Wog1IRdbP9Qe7OLFWwdYdirSg1T3kMaY07zVTcw-3E1oZkmgqFTSOU3N6xI-9f8sE2ixFNuZpuJ20kvZU0qLakgeNJJ3KkaTJMLeobV27HrUdXQxl7IzSpSYgZCQPNVwUpMVABPOFh91OfPNn6eJEqUMNQJ61QummJIntN-7UjlSA890DLpu_LczOE1crOBvBMinCoxe2fmxi0lqHyz1GlCETXykSY5VPxRUMC3S4msp3CpvlKnNoYgH6qy6uTu3BrQzPo__niX0SjqUQZjhdplBH4-eCQTPQcN_hjWyFeqy59rDWxfW1v0O4QgAzrdiLXoxyORurFXKLDNW1dTdg0ym9WS7wggB3ue2cGzXXmEDppe9b5Od-wXxk1GbL4Z06_137jTs7LAUYdhUfMbUuUf4oNWvfB25eZv9ty8Efw7TDjtTMnGwWNhYY8ztQvZfsNsQGaPPAhjz0W0iQQj1NdgQnLohd4X2Pz0juUJ1S54Tl_NGf_kxcM2EpYOd5mfHasRmaxPBDIR5ZWCPw01yB-IunQR_jwFCxg_hmbMTkwqcArKDEGO9dZJCSpEGOrT12NOSuuCmesK1eYL4GbyF_ztGG033tUjKskARMUWrfzc87MHPCcjY9p92QeBQqUJO9-6SFuwfcgjBHjchX2f_TkXDz6khP7VzBPatMY420jCK72ojrdudnvRVSLXUR6kXvmk61TjocjCnjucBSNQJrQ05sfVVoIHTUKnmCrDWdCPD5C_L56f4r7JdCE43W05J4lk8Jb22rGTx_QhVAltFK6O3Fs92ZdhLirNdM621qul-NSP2m9oyYBKwN3fMU5RhPLt15p9LazO1uygIM0BZ6tZsAGEaduswIW9Ys3ziQMvrCbzB73qOdTi6_2UVTn9EndCRmE1B6fbdHAf2BjIK7t54s8dTsG3RR0vlVr3d4Twyzjc",
+      "id": "rs_6aea00d08fb4cd960ca54aea:rs_01a1a213a14b730eb4b0093ce53bce44",
+      "status": "completed",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "## 1. Sephora: site features and shopping tools\n\n- [Retailer-specific] Dedicated Trending Products page framed as social discovery: “Check out the latest trending beauty products at Sephora! Learn more about makeup, skincare, fragrance, and haircare products that are taking social media by storm.”\n- [Retailer-specific] Bestsellers merchandising with counts and filters, e.g. “Bestsellers (220)” alongside “Filters” on category pages.\n- [Retailer-specific] AR-powered Virtual Artist try-on tool described as part of Sephora’s site/app ecosystem alongside quizzes and AI recommendations, with third-party trade reporting over 200 million uses.\n- [Retailer-specific] Free three-tier Beauty Insider loyalty program: members “earn 1 point per dollar, move up to VIB at $350 a year and Rouge at $1,000 a year.”\n- [Retailer-specific] Checkout sampling tied to loyalty: “As a free Beauty Insider member, you can add up to two free samples to an online order at sephora.com.”\n- [Retailer-specific] Product pages display star rating plus review volume, e.g. “Rating: 4.6111/5 (486 reviews)” with Q&A such as “How to pick my colour?”, and review-filter options including “Most recent, Rating, Age, Skin tone, Skin type, Skin concern.”\n- [Retailer-specific] Beauty Insider Community Groups to “discover content tailored to your interests,” positioned as “the exclusive place to find information on the most up-to-date makeup trends and beauty launches.”\n\n## 2. Ulta Beauty: site features and shopping tools\n\n- [Retailer-specific] Dedicated New Arrivals catalog: “New Beauty Products | Ulta Beauty” / “New Arrivals.” plus homepage “Trending now — Beauty that’s hot right now.”\n- [Retailer-specific] GLAMlab virtual try-on: “shade match and color swatch your favorite makeup and haircare in GLAMlab, our virtual beauty try-on experience.” covering “thousands of looks” including hair color and lash try-ons.\n- [Retailer-specific] Foundation Shade Matcher and Skin Analysis for customized recommendations, listed alongside GLAMlab in the app description.\n- [Retailer-specific] Category filtering: “Shop by category and filter by brand, price, rating, bestsellers & new arrivals.”\n- [Retailer-specific] Ultamate Rewards redemption model: “Points can be redeemed for discounts on qualifying products and beauty services” in “eligible increments,” redeemable “once you have at least 100 available points.”\n- [Retailer-specific] Base earn described as “1 point for every $1 you spend (up to 1.5 points for Platinum and Diamond members).”\n- [Retailer-specific] Conscious Beauty section plus built-in discovery aids: “Ulta has a section of its site specifically dedicated to conscious beauty” and “Both Sephora and Ulta have built-in search tools and filters to find clean beauty products.”\n\n## 3. Retailer-specific evidence on how shoppers discover, evaluate and buy\n\n- [Retailer-specific] Sephora maintained its lead as preferred beauty retailer among teens at 39% with Ulta at 25%, indicating Sephora skews stronger for trend-led teen discovery missions.\n- [Retailer-specific] Sephora launched on TikTok Shop in the US with “Sephora Drop Shop,” described as “a monthly program centered on exclusive product launches, creator content, TikTok LIVE events, and an initial period of platform exclusivity.”\n- [Retailer-specific] Ulta entered TikTok Shop earlier, “in March, becoming the first beauty and wellness” retailer presence noted in that coverage.\n- [Retailer-specific] Assortment difference shapes evaluation: “Ulta spans mass to prestige, letting a shopper buy drugstore and luxury products in one basket,” while “Sephora concentrates on curated prestige with exclusive brand launches.”\n- [Retailer-specific] Buying criteria differ by retailer: “Sephora favors prestige positioning and editorial validation, Ulta favors sales velocity and creator-driven demand.”\n- [Retailer-specific] Reviews are separate validation pools by retailer: “Sephora and Ulta reviews are independent corpus pools with volume, recency and independence.”\n\n## 4. How this persona's traits show up at Sephora\n\n- [Inference] High trend_sensitivity (0.90) and novelty_seeking (0.85) map directly to Sephora’s Trending Products and Bestsellers pages as the first validation stop after TikTok/Instagram/YouTube discovery, using “taking social media by storm” curation to narrow many alternatives.\n- [Inference] Medium influencer_trust (0.60) plus high research_depth (0.70) produces the documented multi-step pattern: social inspiration, then off-social verification via general search — consistent with 72% searching Google after finding a product on TikTok and only 7% buying directly through TikTok at that moment.\n- [Inference] Need for “demonstrated result in tutorial or video” leads this persona to weight YouTube/TikTok tutorials heavily before Sephora purchase, paralleling that makeup tutorials skew to YouTube 31% + TikTok 27% versus Google 19%.\n- [Inference] Price_sensitivity (0.65) with low prestige_priority (0.30) means Sephora’s prestige-leaning assortment is evaluated on effectiveness and review signals rather than brand prestige alone; 500 points converting to $10 and tiered Savings Event discounts become the promotion trigger rather than the initial draw.\n- [Inference] Rejection rules around shade/ingredient clarity map to Sephora’s ingredient callouts under Clean at Sephora listings and review filters by skin tone/type, plus Virtual Artist as a first-pass shade check before deferring if verification fails.\n- [Inference] Sampling reduces risk for unproven virality: choosing two checkout samples and monitoring recent review volume lets the persona trial new launches without committing to full price when sentiment is mixed.\n\n## 5. How this persona's traits show up at Ulta Beauty\n\n- [Inference] Same high novelty_seeking plays well at Ulta because mass-to-prestige range allows side-by-side comparison of a viral prestige item against lower-cost drugstore alternatives in one basket, supporting the “compare price against effectiveness” rule.\n- [Inference] Interactive try-on as purchase trigger is served by GLAMlab plus Foundation Shade Matcher and Skin Analysis, which the persona would use after creator demonstration to verify shade/result before buying rather than as pure entertainment.\n- [Inference] Medium convenience_priority (0.40) means Ulta’s filter by brand, price, rating, bestsellers and new arrivals matters more than fulfillment speed; the persona uses those filters to operationalize “browse many alternatives” across price and rating.\n- [Inference] Value-seeking for higher-consideration items fits Ultamate Rewards’ escalating redemption value — e.g. holding points toward higher tiers rather than small redemptions — aligning with willingness to tolerate higher prices only with promotion or value justification.\n- [Inference] Need for recent, substantial social proof maps to Ulta’s higher average review volume per SKU environment and separate review corpus from Sephora, prompting cross-retailer recency checks rather than relying on a single site’s sentiment.\n- [Inference] Conscious Beauty filters and built ingredient tools support the rejection rule on unverifiable ingredients, while periodic gift-with-purchase offers provide low-risk trial for trending items when efficacy is unproven.\n\n## 6. Sephora versus Ulta Beauty for this persona\n\n- [Inference] For pure newness and social visibility, Sephora has the edge via prestige/exclusive-launch positioning and teen preference lead (39% vs 25%), making it the closer match to trend_sensitivity when the goal is staying current.\n- [Inference] For price-aware comparison, Ulta has the edge because the same trending need can be evaluated across drugstore to prestige price tiers and filtered explicitly by price and rating, matching price_sensitivity (0.65) without leaving the site.\n- [Inference] For shade/result verification, both offer virtual try-on, but Ulta bundles GLAMlab with Shade Matcher and Skin Analysis while Sephora pairs Virtual Artist with Community trend groups and detailed Q&A, so the persona would likely use both rather than treat them as substitutes.\n- [Inference] For loyalty-driven purchase timing, Sephora’s Beauty Insider Cash and tiered Savings Events favor waiting for multiplier/access moments on prestige virals, while Ultamate Rewards’ cash-like redemption favors accumulating points across mixed-basket experimentation.\n- [Inference] For validation depth, the independent review pools mean the persona’s rule to corroborate across sources is best served by checking both Sephora and Ulta listings plus general search, rather than treating either retailer’s volume alone as sufficient.\n\n## 7. Evidence quality and gaps\n\n- [Retailer-specific] Feature evidence is strongest for loyalty, try-on, and new/trending merchandising because retailer pages and app listings explicitly describe them, while on-site tutorial/video depth could not be verified from cited sources and is therefore not listed as a feature.\n- [Retailer-specific] Community as a trend-validation tool is weakened by recency: the Beauty Insider Community Forum is now in “read-only mode.”, so Groups remain documented for interest-based discovery but open discussion value is uncertain.\n- [General beauty retail] Discovery journey evidence relies on general surveys (e.g. 511 beauty consumers; 1,003 beauty shoppers with 38% later purchasing after social exposure) rather than Sephora/Ulta-tagged shopper panels, so retailer-specific conversion rates for trend-driven missions are missing. specimens: Google first stop 43% with Instagram 11.9%, YouTube 11.2%, TikTok 10.6%.\n- [Inference] No cited source isolates this exact persona (high novelty, medium influencer trust, medium price sensitivity) within Sephora versus Ulta, so section 4–6 translations infer from general discovery plus verified site tools.\n- [Inference] Evidence on review-filter precision (e.g. whether shade/skin-type filters reliably surface recent effectiveness signals) and on promotion elasticity for viral items is thin; thresholds for “substantial recent volume” versus “poor sentiment” cannot be quantified from available sources.\n- [Inference] TikTok Shop Drop Shop and Ulta’s March entry show social-to-retail linkage, but no verified data was found on whether this persona closes in TikTok Shop versus deferring to sephora.com/ulta.com, matching the draft’s note that purchase often occurs through a separate preferred fulfillment touchpoint after validation.",
+          "type": "output_text",
+          "parsed": null
+        }
+      ],
+      "id": "msg_01a1a21432d8773c8a1d679b18fe8cff",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "reasoning": {
+    "effort": "high"
+  },
+  "service_tier": "auto",
+  "status": "completed",
+  "store": false,
+  "temperature": 1,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "search_context_size": "high",
+      "type": "web_search"
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 295780,
+    "input_tokens_details": {
+      "cached_tokens": 259419
+    },
+    "output_tokens": 8450,
+    "output_tokens_details": {
+      "reasoning_tokens": 4578
+    },
+    "total_tokens": 304230
+  },
+  "output_text": "Mapping this trend-driven profile to verified Sephora and Ulta tools — gathering retailer evidence first.First signals on discovery and try-on are promising — now verifying core site features and shopper research.Core loyalty and discovery features are mapped — now digging into official pages and comparison evidence.## 1. Sephora: site features and shopping tools\n\n- [Retailer-specific] Dedicated Trending Products page framed as social discovery: “Check out the latest trending beauty products at Sephora! Learn more about makeup, skincare, fragrance, and haircare products that are taking social media by storm.”\n- [Retailer-specific] Bestsellers merchandising with counts and filters, e.g. “Bestsellers (220)” alongside “Filters” on category pages.\n- [Retailer-specific] AR-powered Virtual Artist try-on tool described as part of Sephora’s site/app ecosystem alongside quizzes and AI recommendations, with third-party trade reporting over 200 million uses.\n- [Retailer-specific] Free three-tier Beauty Insider loyalty program: members “earn 1 point per dollar, move up to VIB at $350 a year and Rouge at $1,000 a year.”\n- [Retailer-specific] Checkout sampling tied to loyalty: “As a free Beauty Insider member, you can add up to two free samples to an online order at sephora.com.”\n- [Retailer-specific] Product pages display star rating plus review volume, e.g. “Rating: 4.6111/5 (486 reviews)” with Q&A such as “How to pick my colour?”, and review-filter options including “Most recent, Rating, Age, Skin tone, Skin type, Skin concern.”\n- [Retailer-specific] Beauty Insider Community Groups to “discover content tailored to your interests,” positioned as “the exclusive place to find information on the most up-to-date makeup trends and beauty launches.”\n\n## 2. Ulta Beauty: site features and shopping tools\n\n- [Retailer-specific] Dedicated New Arrivals catalog: “New Beauty Products | Ulta Beauty” / “New Arrivals.” plus homepage “Trending now — Beauty that’s hot right now.”\n- [Retailer-specific] GLAMlab virtual try-on: “shade match and color swatch your favorite makeup and haircare in GLAMlab, our virtual beauty try-on experience.” covering “thousands of looks” including hair color and lash try-ons.\n- [Retailer-specific] Foundation Shade Matcher and Skin Analysis for customized recommendations, listed alongside GLAMlab in the app description.\n- [Retailer-specific] Category filtering: “Shop by category and filter by brand, price, rating, bestsellers & new arrivals.”\n- [Retailer-specific] Ultamate Rewards redemption model: “Points can be redeemed for discounts on qualifying products and beauty services” in “eligible increments,” redeemable “once you have at least 100 available points.”\n- [Retailer-specific] Base earn described as “1 point for every $1 you spend (up to 1.5 points for Platinum and Diamond members).”\n- [Retailer-specific] Conscious Beauty section plus built-in discovery aids: “Ulta has a section of its site specifically dedicated to conscious beauty” and “Both Sephora and Ulta have built-in search tools and filters to find clean beauty products.”\n\n## 3. Retailer-specific evidence on how shoppers discover, evaluate and buy\n\n- [Retailer-specific] Sephora maintained its lead as preferred beauty retailer among teens at 39% with Ulta at 25%, indicating Sephora skews stronger for trend-led teen discovery missions.\n- [Retailer-specific] Sephora launched on TikTok Shop in the US with “Sephora Drop Shop,” described as “a monthly program centered on exclusive product launches, creator content, TikTok LIVE events, and an initial period of platform exclusivity.”\n- [Retailer-specific] Ulta entered TikTok Shop earlier, “in March, becoming the first beauty and wellness” retailer presence noted in that coverage.\n- [Retailer-specific] Assortment difference shapes evaluation: “Ulta spans mass to prestige, letting a shopper buy drugstore and luxury products in one basket,” while “Sephora concentrates on curated prestige with exclusive brand launches.”\n- [Retailer-specific] Buying criteria differ by retailer: “Sephora favors prestige positioning and editorial validation, Ulta favors sales velocity and creator-driven demand.”\n- [Retailer-specific] Reviews are separate validation pools by retailer: “Sephora and Ulta reviews are independent corpus pools with volume, recency and independence.”\n\n## 4. How this persona's traits show up at Sephora\n\n- [Inference] High trend_sensitivity (0.90) and novelty_seeking (0.85) map directly to Sephora’s Trending Products and Bestsellers pages as the first validation stop after TikTok/Instagram/YouTube discovery, using “taking social media by storm” curation to narrow many alternatives.\n- [Inference] Medium influencer_trust (0.60) plus high research_depth (0.70) produces the documented multi-step pattern: social inspiration, then off-social verification via general search — consistent with 72% searching Google after finding a product on TikTok and only 7% buying directly through TikTok at that moment.\n- [Inference] Need for “demonstrated result in tutorial or video” leads this persona to weight YouTube/TikTok tutorials heavily before Sephora purchase, paralleling that makeup tutorials skew to YouTube 31% + TikTok 27% versus Google 19%.\n- [Inference] Price_sensitivity (0.65) with low prestige_priority (0.30) means Sephora’s prestige-leaning assortment is evaluated on effectiveness and review signals rather than brand prestige alone; 500 points converting to $10 and tiered Savings Event discounts become the promotion trigger rather than the initial draw.\n- [Inference] Rejection rules around shade/ingredient clarity map to Sephora’s ingredient callouts under Clean at Sephora listings and review filters by skin tone/type, plus Virtual Artist as a first-pass shade check before deferring if verification fails.\n- [Inference] Sampling reduces risk for unproven virality: choosing two checkout samples and monitoring recent review volume lets the persona trial new launches without committing to full price when sentiment is mixed.\n\n## 5. How this persona's traits show up at Ulta Beauty\n\n- [Inference] Same high novelty_seeking plays well at Ulta because mass-to-prestige range allows side-by-side comparison of a viral prestige item against lower-cost drugstore alternatives in one basket, supporting the “compare price against effectiveness” rule.\n- [Inference] Interactive try-on as purchase trigger is served by GLAMlab plus Foundation Shade Matcher and Skin Analysis, which the persona would use after creator demonstration to verify shade/result before buying rather than as pure entertainment.\n- [Inference] Medium convenience_priority (0.40) means Ulta’s filter by brand, price, rating, bestsellers and new arrivals matters more than fulfillment speed; the persona uses those filters to operationalize “browse many alternatives” across price and rating.\n- [Inference] Value-seeking for higher-consideration items fits Ultamate Rewards’ escalating redemption value — e.g. holding points toward higher tiers rather than small redemptions — aligning with willingness to tolerate higher prices only with promotion or value justification.\n- [Inference] Need for recent, substantial social proof maps to Ulta’s higher average review volume per SKU environment and separate review corpus from Sephora, prompting cross-retailer recency checks rather than relying on a single site’s sentiment.\n- [Inference] Conscious Beauty filters and built ingredient tools support the rejection rule on unverifiable ingredients, while periodic gift-with-purchase offers provide low-risk trial for trending items when efficacy is unproven.\n\n## 6. Sephora versus Ulta Beauty for this persona\n\n- [Inference] For pure newness and social visibility, Sephora has the edge via prestige/exclusive-launch positioning and teen preference lead (39% vs 25%), making it the closer match to trend_sensitivity when the goal is staying current.\n- [Inference] For price-aware comparison, Ulta has the edge because the same trending need can be evaluated across drugstore to prestige price tiers and filtered explicitly by price and rating, matching price_sensitivity (0.65) without leaving the site.\n- [Inference] For shade/result verification, both offer virtual try-on, but Ulta bundles GLAMlab with Shade Matcher and Skin Analysis while Sephora pairs Virtual Artist with Community trend groups and detailed Q&A, so the persona would likely use both rather than treat them as substitutes.\n- [Inference] For loyalty-driven purchase timing, Sephora’s Beauty Insider Cash and tiered Savings Events favor waiting for multiplier/access moments on prestige virals, while Ultamate Rewards’ cash-like redemption favors accumulating points across mixed-basket experimentation.\n- [Inference] For validation depth, the independent review pools mean the persona’s rule to corroborate across sources is best served by checking both Sephora and Ulta listings plus general search, rather than treating either retailer’s volume alone as sufficient.\n\n## 7. Evidence quality and gaps\n\n- [Retailer-specific] Feature evidence is strongest for loyalty, try-on, and new/trending merchandising because retailer pages and app listings explicitly describe them, while on-site tutorial/video depth could not be verified from cited sources and is therefore not listed as a feature.\n- [Retailer-specific] Community as a trend-validation tool is weakened by recency: the Beauty Insider Community Forum is now in “read-only mode.”, so Groups remain documented for interest-based discovery but open discussion value is uncertain.\n- [General beauty retail] Discovery journey evidence relies on general surveys (e.g. 511 beauty consumers; 1,003 beauty shoppers with 38% later purchasing after social exposure) rather than Sephora/Ulta-tagged shopper panels, so retailer-specific conversion rates for trend-driven missions are missing. specimens: Google first stop 43% with Instagram 11.9%, YouTube 11.2%, TikTok 10.6%.\n- [Inference] No cited source isolates this exact persona (high novelty, medium influencer trust, medium price sensitivity) within Sephora versus Ulta, so section 4–6 translations infer from general discovery plus verified site tools.\n- [Inference] Evidence on review-filter precision (e.g. whether shade/skin-type filters reliably surface recent effectiveness signals) and on promotion elasticity for viral items is thin; thresholds for “substantial recent volume” versus “poor sentiment” cannot be quantified from available sources.\n- [Inference] TikTok Shop Drop Shop and Ulta’s March entry show social-to-retail linkage, but no verified data was found on whether this persona closes in TikTok Shop versus deferring to sephora.com/ulta.com, matching the draft’s note that purchase often occurs through a separate preferred fulfillment touchpoint after validation.",
+  "output_parsed": null
+}

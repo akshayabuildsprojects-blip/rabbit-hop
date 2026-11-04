@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 
 // Meta Model API is OpenAI-compatible: base URL https://api.meta.ai/v1, Bearer MODEL_API_KEY.
-export const MODEL_ID = process.env.MODEL_ID || "muse-spark-1.1";
+export const MODEL_ID = process.env.MODEL_ID || "muse-spark-1.3";
 export const BASE_URL = process.env.MODEL_API_BASE_URL || "https://api.meta.ai/v1";
 export const HAS_KEY = Boolean(process.env.MODEL_API_KEY);
 

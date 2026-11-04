@@ -1,0 +1,1434 @@
+{
+  "schema_version": 1,
+  "persona_id": "sensitive-skin",
+  "persona_name": "Practical Sensitive-Skin Shopper",
+  "description": "Researches full ingredients and fragrance disclosure through search and product pages before considering trend popularity. Compares familiar tolerated options against new alternatives using dermatologist input and irritation-filtered customer reviews. Defers or rejects when suitability information is missing or relevant adverse reports appear, repurchasing what has worked.",
+  "primary_motivation": "Finding suitable, reliable beauty products while minimizing irritation risk, unnecessary experimentation, and wasted expenditure.",
+  "behavioral_parameters": {
+    "note": "Simulation settings informed by qualitative research. Not scientifically validated population measurements.",
+    "trend_sensitivity": 0.3,
+    "influencer_trust": 0.25,
+    "price_sensitivity": 0.55,
+    "brand_loyalty": 0.8,
+    "research_depth": 0.9,
+    "novelty_seeking": 0.15,
+    "impulse_buying_tendency": 0.1,
+    "product_quality_priority": 0.85,
+    "convenience_priority": 0.35,
+    "prestige_priority": 0.15
+  },
+  "shopping_behavior": {
+    "preferred_discovery_channels": [
+      "social media for initial awareness and technique cues",
+      "search engines for ingredient and concern-led verification",
+      "brand sites and product detail pages as validation checkpoints across multiple touchpoints"
+    ],
+    "trusted_information_sources": [
+      "dermatologists and scientific literature",
+      "detailed customer reviews, especially those describing irritation or sensitivity",
+      "previous personal experience of tolerability",
+      "search results and ingredient explanations for formulation questions"
+    ],
+    "product_evaluation_criteria": [
+      "full ingredient transparency including fragrance disclosure",
+      "evidence of tolerability and absence of relevant irritation signals",
+      "dermatologist backing or clinical and scientific substantiation",
+      "detailed review consensus, especially from similar-concern peers",
+      "performance relative to familiar tolerated option and suitability relative to price"
+    ],
+    "purchase_triggers": [
+      "identified replacement or need paired with verified formulation suitability",
+      "dermatologist, scientific or trusted detailed-reviewer validation",
+      "complete transparency with no relevant irritation cluster and match to previously tolerated experience"
+    ],
+    "rejection_criteria": [
+      "missing or unverifiable ingredient or fragrance information",
+      "cluster of relevant adverse reports such as irritation, redness, burning or rash",
+      "risky-ingredient finding or unverifiable safety labeling without full disclosure",
+      "reliance on virality, brand image or prestige alone without suitability proof"
+    ],
+    "comparison_strategy": "Compare extensively across multiple candidates and against a known-tolerated reference, weighing formulation story against clinical or expert proof and transparency rather than price, prestige or virality.",
+    "typical_shopping_sequence": [
+      "Identify need or replacement",
+      "Research ingredients and formulation including fragrance disclosure",
+      "Assess suitability via expert input and irritation-filtered reviews",
+      "Compare against known-tolerated option across touchpoints",
+      "Conditionally purchase if suitability verified, otherwise defer or reject"
+    ]
+  },
+  "decision_rules": [
+    {
+      "rule": "When a product is encountered via social or viral attention, treat it only as a cue to verify and do not purchase until formulation and suitability checks are completed elsewhere.",
+      "rationale": "Discovery often starts on social but verification happens on search; only 7% buy immediately after discovery and trust in creators is very low.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When comparing a previously tolerated option against an unfamiliar alternative with similar claimed features, prioritize the tolerated option unless the alternative shows stronger verified suitability evidence.",
+      "rationale": "Sensitive-skin shoppers limit use to few non-irritating products after past reactions, while general loyalty is fluid.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "Before considering an unfamiliar product, filter and inspect detailed reviews for mentions of irritation, redness, burning or fragrance sensitivity and weigh relevant adverse reports heavily.",
+      "rationale": "Reviews are top purchase influence and adverse experiences like redness, irritation and burning are common rejection cues.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When evaluating price differences, do not treat higher price or prestige as evidence of better tolerability; require demonstrated suitability and transparency to justify paying more.",
+      "rationale": "Most consumers do not view premium as higher-performing, but many will pay extra specifically for safer formulations.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When full ingredient and fragrance information is missing or unverifiable, defer or reject the product rather than proceeding to trial.",
+      "rationale": "Label reading is routine and rises in sensitivity households, and risky-ingredient findings drive discontinuation.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When a product carries reassuring safety labeling without full disclosure, treat the claim as unverified and check the complete formulation before any suitability judgment.",
+      "rationale": "Most hypoallergenic-labeled products analyzed contained listed contact allergens and fragrance-free claims often contained fragrance cross-reactors, with weak standardized definitions.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When weighing conflicting signals, give greater weight to dermatologist, scientific and detailed peer-review evidence than to influencer endorsement, brand image or trend popularity.",
+      "rationale": "Dermatologists, scientific literature and consumer reviews outrank brand image and influencers for informing purchases.",
+      "basis": "research_supported"
+    }
+  ],
+  "parameter_context": {
+    "trend_sensitivity": {
+      "score": 0.3,
+      "band": "low",
+      "definition": "How strongly current trends, viral products and what is popular right now shape what the shopper looks at and wants.",
+      "interpretation": "Low: largely ignores trends; picks by need and is unmoved by trending labels.",
+      "rationale": "Trend popularity carries no tolerability information; need and safety dominate.",
+      "shopping_manifestation": "Social discovery rarely converts without Google/search and PDP verification loop.",
+      "observable_actions": [
+        "Treats Trending Products and viral blush as cue to verify elsewhere",
+        "Does not pursue trending item unless it fits replacement need and passes suitability",
+        "Verifies formulation suitability before considering trend popularity"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora, views Trending Products page but opens PDP ingredient and review checks before any interest, distinct from Trend-Driven Shopper.",
+        "ulta": "On Ulta, notices trending New Arrivals buzz but starts from need and inspects Ingredients and irritation reviews first."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "72% search Google after TikTok find and only 7% buy immediately; Google leads for skincare concerns (54%) and ingredients (66% vs 8% TikTok-first)."
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf",
+          "note": "Social widely used for awareness but weakly trusted; trends enter consideration but do not bypass screening."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Low trend sensitivity means largely ignores trends and is unmoved by trending labels without suitability proof."
+        }
+      ]
+    },
+    "influencer_trust": {
+      "score": 0.25,
+      "band": "low",
+      "definition": "How much weight the shopper gives to creators, influencers and celebrity endorsements versus other sources.",
+      "interpretation": "Low: discounts creator endorsements; relies on reviews, experts or own experience instead.",
+      "rationale": "Persuasive marketing and enthusiastic endorsements are weak predictors of individual tolerability.",
+      "shopping_manifestation": "Social recommendation alone never closes sale; always cross-checked with formulation and adverse-report scan.",
+      "observable_actions": [
+        "Treats viral endorsement as cue to verify, not proof",
+        "Prefers credentialed dermatologist creators or detailed similar-concern reviewers over generalist endorsers",
+        "Weights irritation-reporting peers over follower counts"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora, skips influencer shade demos and goes to ratings, detailed reviews and Community Q&A for tolerability context.",
+        "ulta": "On Ulta, watches creator wear test but defers judgment until Key Ingredients and PDP reviews for stinging/rash checked."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "Only 9% find TikTok creators very trustworthy vs 30% Google results and 54% word of mouth; 73% use social for discovery but only 26% rate it extremely trustworthy."
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+          "note": "Dermatologists (57%/49%), scientific literature and consumer reviews outrank social/influencers as trusted sources."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Low trust means creator content is directional lived-experience signal at best, checked against ingredients and reviews."
+        }
+      ]
+    },
+    "price_sensitivity": {
+      "score": 0.55,
+      "band": "medium",
+      "definition": "How much price, discounts and cost per use influence consideration and choice.",
+      "interpretation": "Medium: compares prices and notices deals, but pays more when clearly better or more suitable.",
+      "rationale": "Willingness to spend is conditional on demonstrated risk reduction, not prestige or virality.",
+      "shopping_manifestation": "Value-conditional premium tolerance; hunts comparable alternatives but not cheapest at any cost.",
+      "observable_actions": [
+        "Anchors premium sensitive option against cheaper comparable on verified features",
+        "Uses Rewards or Auto-Replenish value after suitability proven, not to drive trial",
+        "Does not treat higher price as evidence of better tolerability"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora, justifies higher price only when transparency plus dermatologist or detailed reviewer validation confirms suitability; otherwise keeps affordable tolerated staple.",
+        "ulta": "On Ulta, leverages broad mass-prestige assortment to price-anchor and prefers cheaper verified equivalent when proof equal."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+          "note": "24% traded down and value-for-money scrutiny is top theme, yet 78% will pay extra for safer formulations while 47% cite affordability as primary criterion."
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+          "note": "Safety can justify paying more but affordability still constrains choice; premium not equated with performance."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Medium means compares prices and notices deals but pays more when suitability clearly better."
+        }
+      ]
+    },
+    "brand_loyalty": {
+      "score": 0.8,
+      "band": "high",
+      "definition": "How much the shopper sticks with known brands versus switching.",
+      "interpretation": "High: defaults to trusted tolerated brands/products and needs strong suitability reason to try another.",
+      "rationale": "Past irritation teaches risk avoidance; tolerability history is strongest predictor, but loyalty is revocable on safety signal.",
+      "shopping_manifestation": "Strong repurchase of non-irritating staples; reluctant switching unless verified safer or better-tolerated.",
+      "observable_actions": [
+        "Repurchases what has worked without re-researching from scratch",
+        "Requires new alternative to beat tolerated reference on transparency and proof",
+        "Abandons favorite immediately on risky-ingredient finding or relevant reaction cluster"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora, uses Auto-Replenish for tolerated staple and keeps trending alternative in wishlist pending full ingredient and irritation-review check.",
+        "ulta": "On Ulta, consolidates tolerated cleanser/moisturizer repurchases in Rewards and compares new launch side-by-side before any switch."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387",
+          "note": "78% of sensitive-skin consumers avoided a product/brand after past reaction and limit use to few non-irritating products, supporting conditional stickiness to tolerated options."
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+          "note": "General beauty switching is high (only 34% rarely switch) but safety risk overrides favorite-brand attachment, so loyalty is to tolerability not name."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "High loyalty means default to previously tolerated reference and require stronger verified suitability to switch."
+        }
+      ]
+    },
+    "research_depth": {
+      "score": 0.9,
+      "band": "high",
+      "definition": "How much information the shopper gathers before buying: reviews, ingredients, details, comparisons.",
+      "interpretation": "High: reads reviews and details thoroughly and compares several options before committing.",
+      "rationale": "Thorough verification builds confidence where tolerability risk is high and claims are weakly regulated.",
+      "shopping_manifestation": "Explicit ingredient-research and suitability-assessment stage before any purchase; defers when data missing.",
+      "observable_actions": [
+        "Reads full ingredients including fragrance disclosure on PDP and brand pages",
+        "Filters detailed reviews for irritation, burning, redness, fragrance sensitivity",
+        "Compares multiple candidates against known-tolerated reference across touchpoints"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora, opens full ingredient list, checks Clean status without trusting it, and mines reviews and Community Q&A for similar-skin tolerability.",
+        "ulta": "On Ulta, inspects Key Ingredients plus full Ingredients and scans broad review volume for stinging or rash signals before considering trial."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/",
+          "note": "58% read labels before new-product buy rising to 76-87% in sensitivity/health-focused households; 81% rank ingredient transparency very/extremely important."
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027",
+          "note": "Reviews are top purchase influence and shoppers browse many products before purchase, indicating extensive pre-checkout comparison."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "High research expresses risk aversion through ingredient, fragrance, and irritation-filtered review checks."
+        }
+      ]
+    },
+    "novelty_seeking": {
+      "score": 0.15,
+      "band": "low",
+      "definition": "How attracted the shopper is to new launches, new brands and untried products.",
+      "interpretation": "Low: prefers proven, familiar products; new launches are reason for caution.",
+      "rationale": "Untried formulas increase uncertainty and reaction risk; proven tolerability is safer.",
+      "shopping_manifestation": "Avoids novelty for its own sake; openness only with verified suitability reason.",
+      "observable_actions": [
+        "Filters out New Arrivals unless need-driven",
+        "Requires larger review base and stronger proof for new items",
+        "Stays with staple when new formula proof thin"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora, treats Trending Products as watchlist and prioritizes established staple with tolerability history.",
+        "ulta": "On Ulta, compares New Beauty Products launch against familiar staple and retains staple absent superior verified evidence."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387",
+          "note": "Sensitive-skin guidance to avoid experimentation and limit routines to tolerated products indicates caution toward new launches."
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "61% switch to Google when social search doesn't deliver, indicating deferral rather than novelty trial when proof lacking."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Very low novelty means newness itself is reason for caution and higher evidence bar."
+        }
+      ]
+    },
+    "impulse_buying_tendency": {
+      "score": 0.1,
+      "band": "low",
+      "definition": "How likely the shopper is to buy something unplanned or decide quickly in the moment.",
+      "interpretation": "Low: sticks to planned purchase; rarely adds unplanned items.",
+      "rationale": "Unplanned trial carries irritation and waste risk; deliberation is protective strategy.",
+      "shopping_manifestation": "No in-the-moment checkout from social or trending shelf; always defers to research loop.",
+      "observable_actions": [
+        "Saves viral or new item to wishlist instead of immediate bag add",
+        "Abandons unplanned item when disclosure incomplete",
+        "Completes only planned repurchase when verification fails"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora, leaves trending blush in Trending Products view without purchase until PDP verification done elsewhere.",
+        "ulta": "On Ulta, encounters New Arrivals item during staple buy but does not add to bag without full Ingredients and irritation-review check."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "Only 7% buy immediately in app after TikTok discovery; discovery rarely equals instant conversion."
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387",
+          "note": "Dermatology guidance counsels sensitive-skin patients not to experiment but to find what works and stick with it."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Very low impulse means viral or new find is investigated first and deferred if evidence missing."
+        }
+      ]
+    },
+    "product_quality_priority": {
+      "score": 0.85,
+      "band": "high",
+      "definition": "How much demonstrated performance and formulation quality drive the choice.",
+      "interpretation": "High: performance and formulation quality are deciding factors.",
+      "rationale": "For sensitive skin, quality includes gentleness and reliable function; poor tolerability is product failure.",
+      "shopping_manifestation": "Formulation story plus clinical or expert proof and transparency drive choice over price or trend.",
+      "observable_actions": [
+        "Requires evidence of tolerability and absence of relevant irritation signals",
+        "Compares performance relative to familiar tolerated option",
+        "Rejects adequate marketing promise without substantiation"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora, scrutinizes Highlighted Ingredients and full INCI plus review consensus from similar-concern peers before judging efficacy.",
+        "ulta": "On Ulta, checks Key Ingredients and full Ingredients plus rating detail for performance-without-irritation before bag add."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+          "note": "85% say product safety is important; dermatologist backing and scientific substantiation outweigh brand image for confidence."
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/",
+          "note": "Shoppers weigh natural formulations against clinically proven results when price held constant, indicating performance proof matters."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "High quality priority means demonstrated tolerability and formulation performance are deciding factors."
+        }
+      ]
+    },
+    "convenience_priority": {
+      "score": 0.35,
+      "band": "medium",
+      "definition": "How much ease, speed, simplicity and fit with a routine matter.",
+      "interpretation": "Medium-low: prefers easy options but will make meaningful effort when suitability is at stake.",
+      "rationale": "Risk reduction outweighs speed; convenience matters after safety verified, not before.",
+      "shopping_manifestation": "Tolerates research burden and multi-site checks; values simple tolerated routine but not at cost of skipping proof.",
+      "observable_actions": [
+        "Accepts multi-step verification loop despite friction",
+        "Prefers streamlined routine once tolerability proven",
+        "Does not choose one-step or fast fulfillment if it skips ingredient checks"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora, ignores Same-Day Delivery speed as decision factor until ingredient and review checks pass; will defer rather than rush checkout.",
+        "ulta": "On Ulta, treats GLAMLab preview and quick add as irrelevant to irritation risk and still completes Key Ingredients and review scan."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "Journey spans social discovery to Google verification to retailer PDP close, implying willingness to expend effort across touchpoints rather than choosing fastest option."
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027",
+          "note": "92% research online while in store and browse many products before purchase, indicating effortful evaluation over convenience."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Medium score means prefers easy routines but subordinates ease to suitability verification."
+        }
+      ]
+    },
+    "prestige_priority": {
+      "score": 0.15,
+      "band": "low",
+      "definition": "How much brand status, exclusivity, packaging and premium positioning matter.",
+      "interpretation": "Low: indifferent to prestige; mass brands fine if suitable.",
+      "rationale": "Prestige does not predict tolerability; formulation and proof do.",
+      "shopping_manifestation": "No preference for prestige presentation; premium must earn choice via suitability.",
+      "observable_actions": [
+        "Ignores premium packaging or exclusivity as quality cue",
+        "Compares mass and prestige on same ingredient criteria",
+        "Selects mass option when transparency equal or better"
+      ],
+      "retailer_examples": {
+        "sephora": "On Sephora, evaluates prestige blush and prestige alternative on identical fragrance and irritation criteria without prestige bonus.",
+        "ulta": "On Ulta, readily chooses mass fragrance-free cleanser over prestige sensitive-marketed cleanser when verified features comparable."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+          "note": "64% do not think premium beauty is higher-performing than mass, raising bar for prestige justification."
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+          "note": "Only 26% say brand image strongly influences decisions vs 57% dermatologists and 46% reviews."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Low prestige means mass and drugstore-style brands are fully acceptable if suitable and transparent."
+        }
+      ]
+    }
+  },
+  "shopping_decision_rules": [
+    {
+      "scenario_id": "viral_mixed_reviews",
+      "investigate_first": "Full formulation suitability and irritation-review scan before considering trend popularity or rating volume.",
+      "information_sought": [
+        "Full ingredient and fragrance disclosure",
+        "Irritation-filtered review consensus from similar-concern peers",
+        "Dermatologist or clinical substantiation if available"
+      ],
+      "conflict_weighing": "Virality and high rating do not offset missing suitability data; dermatologist, scientific and detailed irritation-filtered peer evidence outweighs trend and influencer signals.",
+      "purchase_triggers": [
+        "Complete transparency with no relevant irritation cluster plus trusted validation"
+      ],
+      "rejection_triggers": [
+        "Missing fragrance/ingredient data or relevant adverse cluster despite high rating",
+        "Reliance on virality alone without suitability proof"
+      ],
+      "influencing_parameters": [
+        "trend_sensitivity",
+        "influencer_trust",
+        "research_depth",
+        "novelty_seeking",
+        "impulse_buying_tendency"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+          "note": "Only 7% buy immediately after TikTok discovery and 9% rate creators very trustworthy, so virality alone rarely closes sale."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "When viral buzz conflicts with uncertain suitability, defer and verify formulation first."
+        }
+      ]
+    },
+    {
+      "scenario_id": "popular_price_premium",
+      "investigate_first": "Whether premium features are verifiably comparable or superior on transparency and tolerability, not price or image.",
+      "information_sought": [
+        "Side-by-side ingredient and fragrance comparison",
+        "Tolerability proof and detailed peer consensus for both price tiers",
+        "Value relative to suitability, not prestige"
+      ],
+      "conflict_weighing": "Premium sensitive positioning and higher price granted no bonus; suitability transparency and proof decide, with cheaper verified equivalent preferred when equal.",
+      "purchase_triggers": [
+        "Premium shows demonstrably stronger verified suitability to justify extra cost"
+      ],
+      "rejection_triggers": [
+        "Premium relies on positioning or price as safety proxy without stronger proof"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "prestige_priority",
+        "product_quality_priority",
+        "research_depth"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+          "note": "64% do not see premium as higher-performing; 78% will pay more for safer formulations but affordability constrains, so premium must be justified by suitability."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Do not assume higher price or prestige guarantees better tolerability."
+        }
+      ]
+    },
+    {
+      "scenario_id": "similar_different_prices",
+      "investigate_first": "Formulation equivalence and disclosure completeness for both similarly described products.",
+      "information_sought": [
+        "Comparable verified features and full disclosure for both options",
+        "Irritation consensus for each",
+        "Cost-per-use only after suitability confirmed"
+      ],
+      "conflict_weighing": "Price difference weighed only after suitability parity established; transparency and tolerability dominate, convenience and prestige subordinate.",
+      "purchase_triggers": [
+        "Clear suitability plus transparency advantage or equal suitability at better value"
+      ],
+      "rejection_triggers": [
+        "Opaque formula or relevant adverse signals in otherwise cheaper or premium pick"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "research_depth",
+        "prestige_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/",
+          "note": "Shoppers balance natural formulations against clinically proven results when price held constant, supporting formulation-plus-proof comparison."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Require demonstrated suitability to justify paying more."
+        }
+      ]
+    },
+    {
+      "scenario_id": "familiar_vs_trending_brand",
+      "investigate_first": "Known-tolerated reference formulation as baseline, then newcomer gap analysis.",
+      "information_sought": [
+        "Prior tolerability match and ingredient overlap with tolerated reference",
+        "Newcomer transparency and adverse-report profile",
+        "Expert or similar-peer validation for switch"
+      ],
+      "conflict_weighing": "Tolerated familiarity strongly favored; unfamiliar trending brand must show stronger verified suitability evidence to displace it.",
+      "purchase_triggers": [
+        "Unfamiliar shows superior transparency and clean tolerability consensus plus expert support"
+      ],
+      "rejection_triggers": [
+        "Thin review base, missing disclosure, or any relevant irritation cluster in newcomer"
+      ],
+      "influencing_parameters": [
+        "brand_loyalty",
+        "novelty_seeking",
+        "research_depth",
+        "trend_sensitivity"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387",
+          "note": "Sensitive-skin shoppers limit to few non-irritating products after avoidance of 78% post-reaction; dermatology advises not to experiment."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Prioritize tolerated option unless alternative shows stronger verified suitability."
+        }
+      ]
+    },
+    {
+      "scenario_id": "influencer_vs_weak_reviews",
+      "investigate_first": "Relevant negative reviews and their specificity before weighing endorsement reach.",
+      "information_sought": [
+        "Relevance of adverse reports to sensitivity concern (redness, burning, fragrance)",
+        "Full formula to explain reports",
+        "Corroborating dermatologist or similar-peer context"
+      ],
+      "conflict_weighing": "Single endorsement heavily discounted versus cluster of relevant irritation reports; credentialed and detailed peer evidence outranks generalist creator.",
+      "purchase_triggers": [
+        "Adverse reports sparse/non-relevant and outweighed by strong transparent tolerability proof"
+      ],
+      "rejection_triggers": [
+        "Cluster of relevant irritation reports mapping to shopper triggers"
+      ],
+      "influencing_parameters": [
+        "influencer_trust",
+        "research_depth",
+        "product_quality_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+          "note": "Dermatologists, scientific literature and consumer reviews outrank brand image and influencer cues; low trust in creators and clean claims."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Investigate relevant negative reviews before purchasing unfamiliar product."
+        }
+      ]
+    },
+    {
+      "scenario_id": "new_limited_reviews",
+      "investigate_first": "Disclosure completeness and review sufficiency to judge tolerability at all.",
+      "information_sought": [
+        "Complete ingredient/fragrance disclosure",
+        "Sufficient review volume with sensitivity detail",
+        "Any early irritation signals and return-risk context"
+      ],
+      "conflict_weighing": "Limited data means higher caution, not benefit of doubt; newness plus thin proof leads to deferral, not trial.",
+      "purchase_triggers": [
+        "Full transparency plus emerging clean consensus and expert validation despite newness"
+      ],
+      "rejection_triggers": [
+        "Missing data, packaging-may-vary ambiguity, or insufficient sensitivity feedback to verify"
+      ],
+      "influencing_parameters": [
+        "novelty_seeking",
+        "research_depth",
+        "impulse_buying_tendency",
+        "brand_loyalty"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/",
+          "note": "Extensive browsing before purchase and routine label reading support high-evidence bar before new-product trial."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "When critical suitability information unavailable, defer rather than proceed to trial."
+        }
+      ]
+    },
+    {
+      "scenario_id": "discounted_alternative",
+      "investigate_first": "Whether discounted alternative matches verified suitability, not size of discount.",
+      "information_sought": [
+        "Discounted formula transparency versus full-price reference",
+        "Irritation profile of discounted option",
+        "Value only if suitability equal"
+      ],
+      "conflict_weighing": "Discount attractiveness weighed only after suitability verified; deal never compensates for opacity or irritation risk, and Rewards value follows proven staples.",
+      "purchase_triggers": [
+        "Comparable verified suitability with clean consensus makes discount decisive"
+      ],
+      "rejection_triggers": [
+        "Discount paired with incomplete disclosure or relevant adverse reports"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "research_depth",
+        "convenience_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf",
+          "note": "Ingredient transparency ranked very/extremely important and commonly avoided ingredients drive scrutiny even when deals available."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Discounted alternative considered only if verified features comparable and tolerability clean."
+        }
+      ]
+    }
+  ],
+  "expected_observable_actions": {
+    "discovery": [
+      "Encounter products via social/TikTok and trending modules as cues to verify elsewhere, rarely buying in-app",
+      "Start skincare and ingredient questions on Google/search rather than TikTok, especially for ingredients and concerns",
+      "Discover more brands via multi-retailer browsing but narrow to tolerability-verified subset"
+    ],
+    "browsing": [
+      "Open full Ingredients and Highlighted/Key Ingredients sections on Sephora and Ulta PDPs before shade or finish exploration",
+      "Manually scan and keyword-search reviews and Community Q&A for irritation, redness, burning, rash, stinging and fragrance sensitivity",
+      "Browse across multiple touchpoints: social cue to Google/search ingredient check to retailer PDP review check",
+      "Revisit familiar tolerated product pages as reference anchor while evaluating alternatives"
+    ],
+    "comparison": [
+      "Compare familiar tolerated option against new alternative on formulation transparency, fragrance disclosure, and clinical or dermatologist proof rather than price or virality",
+      "Weigh natural formulation story against clinically proven results when price held constant",
+      "Treat Clean at Sephora and Conscious Beauty badges as starting filters requiring formula-level verification",
+      "Reject prestige or higher price as proxy for tolerability"
+    ],
+    "purchase": [
+      "Purchase on need or replacement only after verified formulation suitability and no relevant irritation cluster",
+      "Consolidate verified repurchases via Auto-Replenish or Rewards after suitability proven",
+      "Conditionally pay more only when transparency plus dermatologist, scientific or detailed peer validation confirms suitability"
+    ],
+    "rejection_or_substitution": [
+      "Defer or reject when ingredient or fragrance information missing, unverifiable, or packaging-may-vary",
+      "Reject on cluster of relevant adverse reports even if rating high or product viral or premium",
+      "Substitute toward previously tolerated product when unfamiliar alternative lacks stronger verified suitability evidence",
+      "Treat hypoallergenic or dermatologist-tested without full disclosure as unverified and hold for verification"
+    ]
+  },
+  "behavioral_scenarios": [
+    {
+      "scenario_id": "viral_blush_uncertain_suitability",
+      "title": "Viral blush with strong reviews but uncertain suitability",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: viral cream blush with high pigment and dewy finish",
+          "price_usd": 28,
+          "popularity": "Very high social volume and trending badge",
+          "brand_reputation": "Trendy color brand with no sensitive-skin track record",
+          "social_influence": "Widespread TikTok endorsements and hauls",
+          "customer_reviews": "4.7 stars from 8,200 reviews, mostly shade and wear praise, few sensitivity mentions but no irritation filter",
+          "performance_claims": "12-hour wear, intense pigment, dewy finish, no tolerability testing cited",
+          "novelty": "Viral launch from past 3 months, heavily featured in trending curation"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: sheer mineral blush with full ingredient and fragrance disclosure",
+          "price_usd": 24,
+          "popularity": "Moderate steady sales, not viral",
+          "brand_reputation": "Familiar brand previously tolerated by shopper",
+          "social_influence": "Low creator coverage",
+          "customer_reviews": "4.4 stars from 1,300 reviews, includes several sensitive-skin users reporting no irritation",
+          "performance_claims": "Sheer buildable color, fragrance-free claim with full INCI visible",
+          "novelty": "Established product, not trending"
+        }
+      ],
+      "expected_journey": [
+        "Encounters viral blush on social as cue only, does not add to bag",
+        "Opens Sephora product page to check full ingredients and fragrance disclosure",
+        "Scans ratings and detailed reviews for irritation, redness, burning, rash mentions",
+        "Checks Clean at Sephora status but verifies actual formula and Community Q&A for similar-sensitivity context",
+        "Defers purchase if suitability unverified despite strong rating"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "trend_sensitivity",
+          "effect": "Viral status triggers verification, not desire; trending badge ignored as proof"
+        },
+        {
+          "parameter": "influencer_trust",
+          "effect": "Creator endorsements discounted; detailed irritation reviews weighted heavily"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "Extensive ingredient and review checking before any consideration"
+        },
+        {
+          "parameter": "novelty_seeking",
+          "effect": "Viral newness is caution flag; favors proven option"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Rejects or defers viral Product A and repurchases or selects familiar Product B",
+          "conditions": "If full fragrance/ingredient disclosure missing or irritation cluster found on Product A, and Product B shows clean transparency with no relevant adverse reports"
+        },
+        {
+          "outcome": "Conditionally considers Product A after extended verification, still compares against Product B before purchase",
+          "conditions": "If Product A provides complete disclosure, no relevant irritation signals, plus dermatologist or detailed peer validation matching tolerability need"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "familiar_vs_new_launch",
+      "title": "Familiar tolerated product versus unfamiliar new launch",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: familiar fragrance-free moisturizer previously used without issue",
+          "price_usd": 32,
+          "popularity": "Steady popular staple",
+          "brand_reputation": "Known brand with prior tolerability for this shopper",
+          "social_influence": "Low social buzz, routine recommendations",
+          "customer_reviews": "4.5 stars from 3,400 reviews, consistent tolerability comments",
+          "performance_claims": "24-hour hydration, barrier support, dermatologist-tested claim with full disclosure",
+          "novelty": "Core assortment, repurchase staple"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: new launch moisturizer with novel botanical complex",
+          "price_usd": 34,
+          "popularity": "Rising but low volume",
+          "brand_reputation": "New brand with no personal history",
+          "social_influence": "Moderate creator unboxings",
+          "customer_reviews": "4.6 stars from 180 reviews, limited history, mostly texture praise",
+          "performance_claims": "Brightening plus hydration, novel complex, limited clinical detail",
+          "novelty": "New launch with limited review volume"
+        }
+      ],
+      "expected_journey": [
+        "Starts from replacement need and locates familiar tolerated product",
+        "Inspects New Arrivals unfamiliar alternative Key Ingredients and full Ingredients for fragrance and irritants",
+        "Compares formulation story and clinical proof side-by-side in same cart",
+        "Filters reviews for stinging, rash, eye irritation mentions",
+        "Retains familiar unless alternative shows stronger verified suitability"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "brand_loyalty",
+          "effect": "Defaults to tolerated Product A; high bar to switch"
+        },
+        {
+          "parameter": "novelty_seeking",
+          "effect": "Low attraction to newness; new launch requires extra proof"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "Thorough comparison of ingredients and adverse reports"
+        },
+        {
+          "parameter": "impulse_buying_tendency",
+          "effect": "No quick trial; defers if evidence thin"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Repurchases familiar Product A via Rewards consolidation",
+          "conditions": "If Product B has thin review base, incomplete irritant clarity, or any relevant adverse cluster"
+        },
+        {
+          "outcome": "Cautiously trials Product B only after verification, otherwise retains Product A",
+          "conditions": "If Product B shows full transparency, stronger dermatologist or scientific substantiation and clean irritation-filtered consensus exceeding Product A"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "premium_sensitive_vs_cheaper_comparable",
+      "title": "Premium sensitive-marketed versus cheaper comparable alternative",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: premium cleanser marketed for sensitive skin, $38",
+          "price_usd": 38,
+          "popularity": "High in prestige sensitive segment",
+          "brand_reputation": "Prestige dermo-positioned brand",
+          "social_influence": "Dermatologist mentions plus prestige editorial",
+          "customer_reviews": "4.5 stars from 2,100 reviews, some sensitive users positive but mixed fragrance comments",
+          "performance_claims": "Gentle cleanse for sensitive skin, dermatologist-tested, premium packaging",
+          "novelty": "Established prestige sensitive line"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: mass fragrance-free cleanser with full disclosure and comparable gentle surfactants",
+          "price_usd": 14,
+          "popularity": "Broad mass popularity",
+          "brand_reputation": "Mass brand with transparent formula",
+          "social_influence": "Low influencer focus, high word-of-mouth",
+          "customer_reviews": "4.4 stars from 5,600 reviews, many irritation-free reports from sensitivity users",
+          "performance_claims": "Gentle fragrance-free cleanse, full INCI, no prestige claim",
+          "novelty": "Core mass staple"
+        }
+      ],
+      "expected_journey": [
+        "Identifies need for sensitive-positioned cleanser",
+        "Compares premium sensitive-marketed option against cheaper alternative with comparable verified features",
+        "Verifies full ingredients and fragrance disclosure for both, ignoring price as safety proxy",
+        "Checks dermatologist backing and detailed peer reviews for tolerability",
+        "Chooses on demonstrated suitability and transparency, not prestige"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "price_sensitivity",
+          "effect": "Notices price gap but requires suitability proof to justify paying more"
+        },
+        {
+          "parameter": "prestige_priority",
+          "effect": "Prestige ignored as tolerability signal"
+        },
+        {
+          "parameter": "product_quality_priority",
+          "effect": "Performance and tolerability evidence decides, not positioning"
+        },
+        {
+          "parameter": "brand_loyalty",
+          "effect": "Loyalty only follows demonstrated tolerability, not prestige badge"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Selects cheaper Product B and rejects premium markup as unjustified",
+          "conditions": "If cheaper Product B shows equal or better transparency, no irritation cluster, and comparable or stronger peer tolerability consensus"
+        },
+        {
+          "outcome": "Pays more for Product A conditionally on verified suitability",
+          "conditions": "If premium Product A alone provides complete disclosure plus stronger dermatologist or clinical validation and Product B shows gaps or adverse signals"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "hypoallergenic_limited_transparency",
+      "title": "Hypoallergenic label with limited ingredient transparency",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: moisturizer labeled hypoallergenic with partial ingredient visibility",
+          "price_usd": 29,
+          "popularity": "Moderate",
+          "brand_reputation": "Mid-tier brand leaning on safety labeling",
+          "social_influence": "Low creator push, brand safety messaging",
+          "customer_reviews": "4.3 stars from 900 reviews, limited detail on sensitivity, few irritation mentions not yet clustered",
+          "performance_claims": "Hypoallergenic, gentle for sensitive skin, no full fragrance allergen breakdown shown",
+          "novelty": "Repackaged with hypoallergenic front claim"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: moisturizer without hypoallergenic headline but with complete INCI and fragrance disclosure",
+          "price_usd": 27,
+          "popularity": "Steady",
+          "brand_reputation": "Transparent brand with full disclosure",
+          "social_influence": "Peer review driven",
+          "customer_reviews": "4.5 stars from 2,800 reviews with detailed sensitivity feedback and no relevant cluster",
+          "performance_claims": "Fragrance-free, full ingredient transparency, tolerability-focused",
+          "novelty": "Established transparent formula"
+        }
+      ],
+      "expected_journey": [
+        "Encounters hypoallergenic-labeled moisturizer",
+        "Treats label as unverified and seeks full ingredient and fragrance breakdown",
+        "Searches reviews and Q&A for irritation, burning, redness despite label",
+        "Consults dermatologist or scientific context that hypoallergenic lacks standard definition",
+        "Defers if transparency incomplete"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "research_depth",
+          "effect": "Deep check for missing disclosure; absence triggers rejection"
+        },
+        {
+          "parameter": "product_quality_priority",
+          "effect": "Tolerability performance requires proof, not label"
+        },
+        {
+          "parameter": "impulse_buying_tendency",
+          "effect": "No impulse trial on reassuring claim alone"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Rejects or defers Product A and prefers transparent Product B if verified",
+          "conditions": "If Product A lacks complete ingredient or fragrance information or relies on label without substantiation"
+        },
+        {
+          "outcome": "Re-evaluates Product A on equal formulation footing, still weighing peer tolerability",
+          "conditions": "If Product A later supplies full verifiable disclosure with no relevant irritants and clean peer consensus"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "social_endorsement_vs_irritation_reviews",
+      "title": "Social recommendation contradicted by irritation reviews",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: social-recommended brightening serum with fragrance and botanical extracts",
+          "price_usd": 26,
+          "popularity": "High virality",
+          "brand_reputation": "Viral serum brand with strong creator push",
+          "social_influence": "High single-creator endorsement driving discovery",
+          "customer_reviews": "3.9 stars from 4,500 reviews with visible cluster reporting stinging, redness, burning, especially fragrance-sensitive users",
+          "performance_claims": "Brightening and even tone in 2 weeks, creator before-afters",
+          "novelty": "Viral serum of the moment"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: low-profile serum with full disclosure and minimal fragrance",
+          "price_usd": 25,
+          "popularity": "Moderate",
+          "brand_reputation": "Familiar low-fragrance brand",
+          "social_influence": "Minimal creator coverage",
+          "customer_reviews": "4.4 stars from 2,000 reviews, detailed sensitive-skin reviews noting no stinging",
+          "performance_claims": "Gentle brightening with niacinamide, full INCI",
+          "novelty": "Non-trending staple"
+        }
+      ],
+      "expected_journey": [
+        "Sees social recommendation for serum for redness-prone skin",
+        "Treats post as cue and moves to retailer PDP and search to verify",
+        "Filters customer reviews for irritation, stinging, redness worsening contradicting endorsement",
+        "Weighs credentialed or detailed peer evidence over generalist endorsement",
+        "Rejects if relevant adverse cluster outweighs endorsement"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "influencer_trust",
+          "effect": "Low weight to single endorsement versus review cluster"
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "Relevant adverse reports heavily weighted"
+        },
+        {
+          "parameter": "trend_sensitivity",
+          "effect": "Trend buzz does not override safety signals"
+        },
+        {
+          "parameter": "product_quality_priority",
+          "effect": "Prefers tolerated-type formula performance over viral promise"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Rejects Product A despite endorsement and retains or verifies Product B",
+          "conditions": "If irritation, burning or redness cluster maps to shopper-relevant triggers and fragrance disclosure confirms risk"
+        },
+        {
+          "outcome": "Keeps Product A in consideration for extended verification rather than immediate rejection",
+          "conditions": "If adverse reports are sparse, non-relevant, or contradicted by strong dermatologist and similar-peer tolerability evidence with full transparency"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "unplanned_tinted_spf_find",
+      "title": "Unplanned trending tinted SPF during staple repurchase",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A: new tinted SPF with trending finish, unplanned find",
+          "price_usd": 36,
+          "popularity": "Trending in suncare",
+          "brand_reputation": "Prestige suncare brand, unfamiliar to shopper",
+          "social_influence": "Moderate beauty-creator wear tests",
+          "customer_reviews": "4.2 stars from 650 reviews, limited sensitivity data, some eye-sting mentions",
+          "performance_claims": "SPF 40 glow finish, blurring tint",
+          "novelty": "New shade extension trending for finish"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B: planned repurchase mineral SPF already tolerated",
+          "price_usd": 30,
+          "popularity": "Steady staple",
+          "brand_reputation": "Familiar tolerated staple brand",
+          "social_influence": "Low buzz",
+          "customer_reviews": "4.6 stars from 3,000 reviews with proven no-irritation history",
+          "performance_claims": "Mineral SPF with full filter disclosure",
+          "novelty": "Longstanding staple"
+        }
+      ],
+      "expected_journey": [
+        "Discovers tinted sunscreen via trending module while repurchasing staple",
+        "Does not add unplanned item immediately; opens ingredients and reviews in new view",
+        "Checks for fragrance, chemical filters, and sensitive-eye stinging reports",
+        "Compares convenience of one-step tint versus tolerability risk",
+        "Only proceeds if verification complete, otherwise abandons extra item"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "impulse_buying_tendency",
+          "effect": "Sticks to planned repurchase; unplanned add requires full check"
+        },
+        {
+          "parameter": "convenience_priority",
+          "effect": "Prefers simple routine but will spend effort to verify; ease does not override risk"
+        },
+        {
+          "parameter": "brand_loyalty",
+          "effect": "Loyalty to tolerated SPF anchors decision"
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Abandons unplanned Product A and completes only planned Product B repurchase",
+          "conditions": "If Product A review base is thin or shows eye-sting or fragrance risk and disclosure incomplete"
+        },
+        {
+          "outcome": "Adds Product A for cautious trial alongside Product B, pending continued tolerability",
+          "conditions": "If Product A shows full filter and fragrance transparency with clean sensitivity consensus and dermatologist support"
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    }
+  ],
+  "retailer_behavior": {
+    "sephora": {
+      "display_name": "Sephora",
+      "discovery": [
+        "Encounters Trending Products taking social by storm as cue only to verify on PDP and search",
+        "Starts skincare and ingredient questions on search rather than in-app, arriving at PDP to validate",
+        "Uses Community looks and Q&A to find similar-sensitivity experiences, not influencer endorsement"
+      ],
+      "browsing": [
+        "Opens full ingredient sections with Highlighted Ingredients plus full INCI and packaging-change note",
+        "Mines Ratings & Reviews aggregate and detailed text for irritation keywords; uses Community Q&A and Gallery for similar-concern peer context",
+        "Treats Virtual Artist try-on as finish preview only, still requiring tolerability checks"
+      ],
+      "comparison": [
+        "Compares familiar tolerated product against new alternative on formulation and clinical or expert proof",
+        "Checks Clean at Sephora status as initial filter then cross-checks fragrance disclosure and actual formula",
+        "Evaluates prestige-versus-prestige tolerability without prestige bonus"
+      ],
+      "purchase": [
+        "Repurchases tolerated familiar via Auto-Replenish with 5% off or Buy Online & Pick Up after suitability proven",
+        "Defers hypoallergenic-labeled premium item when PDP lacks complete fragrance breakdown",
+        "Pays more only when transparency plus dermatologist, scientific or detailed reviewer validation confirms suitability"
+      ],
+      "relevant_site_features": [
+        {
+          "feature": "Full ingredient disclosure with Highlighted Ingredients plus full INCI list",
+          "relevance": "Enables fragrance and irritant screening before any trend consideration.",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Clean at Sephora commitment without certain ingredients",
+          "relevance": "Starting filter only; still requires formula check as it does not guarantee sensitive-skin suitability.",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Ratings & Reviews with aggregate rating, review count, plus Beauty Insider Community Q&A",
+          "relevance": "Central checkpoint to filter for irritation, redness, burning and similar-concern peer context.",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Trending Products curation",
+          "relevance": "Discovery cue to verify, not proof of suitability.",
+          "verified": false,
+          "source_url": null
+        },
+        {
+          "feature": "Beauty Insider loyalty with points and Rewards Bazaar and Auto-Replenish fulfillment",
+          "relevance": "Rewards consolidation of verified tolerated repurchases, not novelty trial.",
+          "verified": true,
+          "source_url": "https://www.99minds.io/blog/sephoras-beauty-insider/"
+        }
+      ],
+      "differences_from_other_retailers": "Versus Ulta, Sephora skews prestige and offers Community Q&A and Gallery for detailed peer tolerability context; Ulta offers broader mass-prestige price-anchored comparison in one basket. Both require manual irritation keyword search and neither guarantees fragrance-allergen detail.",
+      "evidence": [
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027",
+          "note": "Trending as cue to verify, PDP ingredient and review checks, and Community for peer context reflect low trend and low influencer with high research."
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.99minds.io/blog/sephoras-beauty-insider/",
+          "note": "Beauty Insider tiers and cash redemptions reward repeat of tolerated staples rather than novelty trial."
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Sephora PDP mechanics and Clean framework require manual verification because no irritation filter was verified."
+        }
+      ]
+    },
+    "ulta": {
+      "display_name": "Ulta Beauty",
+      "discovery": [
+        "Starts from need or replacement then checks New Beauty Products/New Arrivals for alternatives to verify",
+        "Follows creator content to Google/YouTube ingredient learning then to Ulta PDP for reviews and price",
+        "Uses Conscious Beauty pillars to narrow to transparency-signaled options for further verification"
+      ],
+      "browsing": [
+        "Inspects Key Ingredients summaries and full Ingredients lists for fragrance, dyes and known irritants",
+        "Scans PDP rating and broad review volume for stinging, rash, eye-irritation clusters",
+        "Treats GLAMLab virtual try-on and shade preview as irrelevant to irritation risk"
+      ],
+      "comparison": [
+        "Compares familiar tolerated product against unfamiliar new launch across mass, prestige, K-beauty in same cart",
+        "Uses Conscious Beauty Clean Ingredients certification as initial signal then checks Made Without List and actual formula",
+        "Weighs formulation story and clinical proof over price or virality"
+      ],
+      "purchase": [
+        "Consolidates verified repurchases in Ulta Beauty Rewards for value on high-exposure daily staples",
+        "Defers when PDP shows missing or packaging-may-vary ingredients or review cluster reports irritation",
+        "Purchases only after verified suitability and no relevant adverse signals"
+      ],
+      "relevant_site_features": [
+        {
+          "feature": "Key Ingredients summaries and full Ingredients lists with rating and review count",
+          "relevance": "Core suitability checkpoint for fragrance and irritant review before bag add.",
+          "verified": true,
+          "source_url": "https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2"
+        },
+        {
+          "feature": "Conscious Beauty transparency framework and Clean Ingredients pillar with Made Without List",
+          "relevance": "Initial transparency signal requiring further formula verification; brand-attested, not suitability guarantee.",
+          "verified": true,
+          "source_url": "https://www.ulta.com/conscious-beauty/"
+        },
+        {
+          "feature": "New Beauty Products/New Arrivals assortment with mass-prestige breadth",
+          "relevance": "Enables familiar-versus-new comparison in one basket on formulation and proof.",
+          "verified": true,
+          "source_url": "https://www.ulta.com/conscious-beauty/"
+        },
+        {
+          "feature": "GLAMLab virtual try-on with foundation matching and AI skin analysis",
+          "relevance": "Shade/finish preview only; explicitly not used as tolerability evidence.",
+          "verified": true,
+          "source_url": "https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai"
+        },
+        {
+          "feature": "Ulta Beauty Rewards points-to-dollars program",
+          "relevance": "Value consolidation for verified tolerated staples after suitability proven.",
+          "verified": true,
+          "source_url": "https://www.ulta.com/conscious-beauty/"
+        }
+      ],
+      "differences_from_other_retailers": "Versus Sephora, Ulta favors price-anchored comparison of premium sensitive-positioned versus cheaper comparable due to mass-prestige breadth; Sephora favors prestige-versus-prestige and Community peer depth. Try-on in both shows color only, not tolerability.",
+      "evidence": [
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2",
+          "note": "PDP Key Ingredients and full Ingredients with rating/review count support irritant screening workflow."
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.ulta.com/conscious-beauty/",
+          "note": "Conscious Beauty transparency framework identifies Clean Ingredients, Cruelty Free, Vegan and Sustainable Packaging as starting filters."
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai",
+          "note": "GLAMLab and AI tools show finish but do not test tolerability, keeping convenience subordinate to quality."
+        }
+      ]
+    }
+  },
+  "research_evidence": {
+    "baseline_assessment": [
+      {
+        "hypothesis": "H1. Motivation: Finding suitable, reliable beauty products while minimizing irritation risk, unnecessary experimentation, and wasted expenditure.",
+        "verdict": "supported",
+        "note": "Safety priority, daily-exposure concern and avoidance after reactions converge on suitability and risk reduction."
+      },
+      {
+        "hypothesis": "H2. Highly research-oriented and risk-averse.",
+        "verdict": "supported",
+        "note": "Multi-product browsing, routine label reading and advice not to experiment support high research and caution."
+      },
+      {
+        "hypothesis": "H3. Prioritizes ingredient suitability, formulation transparency, tolerability, and product performance.",
+        "verdict": "supported",
+        "note": "High importance of transparency and balancing natural formulations against clinically proven results."
+      },
+      {
+        "hypothesis": "H4. Relies on credible expert information, detailed customer reviews, and previous experience with products.",
+        "verdict": "supported",
+        "note": "Dermatologists, scientific literature and consumer reviews outrank brand image, with past tolerability narrowing choice."
+      },
+      {
+        "hypothesis": "H5. Prefers familiar, reliable brands when products have worked previously.",
+        "verdict": "refined",
+        "note": "True only as conditional loyalty to demonstrated tolerability, since general switching is high but sensitivity drives stickiness."
+      },
+      {
+        "hypothesis": "H6. Willing to spend more for demonstrated suitability, but does not equate expensive products with safer or better formulations.",
+        "verdict": "supported",
+        "note": "Willingness to pay extra for safer formulations coexists with skepticism that premium performs better."
+      },
+      {
+        "hypothesis": "H7. Uses social media to research products, especially experiences from consumers with similar skin concerns.",
+        "verdict": "refined",
+        "note": "Social is used for discovery, but ingredient questions go to search and creator trust is low, requiring validation elsewhere."
+      },
+      {
+        "hypothesis": "H8. Skeptical of viral products unless there is convincing evidence of suitability.",
+        "verdict": "supported",
+        "note": "Rare immediate social checkout and very low creator trust imply virality alone rarely closes sale."
+      },
+      {
+        "hypothesis": "H9. Less interested in novelty for its own sake.",
+        "verdict": "supported",
+        "note": "Guidance to avoid experimentation and to limit routines to tolerated options indicates low novelty seeking."
+      },
+      {
+        "hypothesis": "H10. More likely to reject a product when ingredient information is missing or there are relevant adverse-experience reports.",
+        "verdict": "supported",
+        "note": "Routine label reading, discontinuation for risky ingredients and avoidance after past reactions support strong rejection."
+      },
+      {
+        "hypothesis": "H11. Shopping journey: Identify need → Ingredient research → Suitability assessment → Purchase",
+        "verdict": "refined",
+        "note": "Core holds but requires explicit cross-channel verification and comparison loop with conditional purchase or deferral."
+      }
+    ],
+    "supporting_sources": [
+      {
+        "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+        "title": "Discovered on Social, Decided Everywhere",
+        "published_date": "Oct 2026",
+        "used_for": "Social discovers-search verifies journey, low creator trust, rare immediate checkout"
+      },
+      {
+        "url": "https://abasto.com/en/news/ingredient-transparency-drives-u-s-shopping-decisions/",
+        "title": "Ingredient Transparency Drives U.S. Shopping Decisions",
+        "published_date": "Feb 2026",
+        "used_for": "Label reading frequency, sensitivity-household behavior, natural vs clinically proven trade-off"
+      },
+      {
+        "url": "https://storage.googleapis.com/pulseaistorage/20250822073101__TPS5_Report_1_compressed.pdf",
+        "title": "TPS5_Report",
+        "published_date": null,
+        "used_for": "Ingredient transparency importance, avoided ingredients, trusted sources including dermatologists vs influencers"
+      },
+      {
+        "url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+        "title": "High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices",
+        "published_date": "June 2025",
+        "used_for": "Price scrutiny, trade-down, skepticism that premium performs better"
+      },
+      {
+        "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+        "title": "US beauty consumers prioritize ingredient transparency over brand image",
+        "published_date": null,
+        "used_for": "Dermatologist and review reliance, safety WTP, rejection for risky ingredients and adverse experiences"
+      },
+      {
+        "url": "https://dermatology.mhmedical.com/content.aspx?bookid=2864&sectionid=244974387",
+        "title": "Sensitive Skin | Cosmetic Dermatology: Principles and Practice, 2e | AccessDermatologyDxRx | McGraw Hill Medical",
+        "published_date": null,
+        "used_for": "Sensitive-skin avoidance after reactions and guidance to limit use to tolerated products"
+      },
+      {
+        "url": "https://www.ajmc.com/newsroom/many-popular-hypoallergenic-moisturizers-contain-skin-irritants-fragrances",
+        "title": "Many Popular \"Hypoallergenic\" Moisturizers Contain Skin Irritants, Fragrances",
+        "published_date": null,
+        "used_for": "Skepticism toward hypoallergenic and fragrance-free claims due to allergen findings"
+      }
+    ],
+    "evidence_summary": "General mechanisms are moderate-to-good: social discovers but search verifies (72% search after discovery, 7% buy immediately), ingredient transparency is very important (81%), reviews are top influence with extensive comparison, dermatologists (57%/49%) and peer reviews outrank influencers (9-26% high trust), 78% of sensitive-skin consumers avoid products after reactions, 78% will pay extra for safer formulations while 64% reject premium-equals-performance, and audits show 83% of hypoallergenic products contained listed allergens. Direct sensitive-skin retailer journey and WTP-premium evidence remains thin, requiring cautious inference.",
+    "research_date": "2026-11-03",
+    "research_report_path": "research-reports/sensitive-skin/2026-11-03T16-46-35-819Z.md",
+    "research_response_id": "resp_6aea0fed319724a8c948456d",
+    "assumptions": [
+      "Social content is treated as directional lived-experience signal from similar-concern peers, with judgment deferred until ingredient and review checks - no direct causal evidence for this use.",
+      "Trend sensitivity kept low at 0.30: trends may enter consideration but do not bypass suitability screening.",
+      "Brand loyalty kept high at 0.80 as conditional loyalty to demonstrated tolerability, not brand name, revoked after adverse experience.",
+      "Price sensitivity kept at 0.55: willingness to pay more is conditional on demonstrated suitability, not prestige - no direct WTP premium quantification found.",
+      "Novelty seeking lowered to 0.15 and impulse buying kept at 0.10 based on guidance not to experiment and rare immediate social checkout, without direct sensitive-skin conversion rates.",
+      "Convenience priority lowered to 0.35 to reflect willingness to browse extensively across touchpoints; no direct sensitive-skin convenience weighting found.",
+      "Prestige priority kept low at 0.15: higher price is not used as a cue for safer or better tolerability.",
+      "Review filtering for irritation language and fragrance-disclosure checks are modeled as defining high-effort steps beyond average beauty comparison."
+    ],
+    "limitations": [
+      "No direct evidence quantifying willingness-to-pay premium for sensitive-labeled versus cheaper comparable alternatives.",
+      "No direct evidence on exact weighting of fragrance information versus other potential irritants.",
+      "No direct conversion evidence for the five stipulated scenarios (viral option, familiar vs new, premium vs cheaper, opaque hypoallergenic, social vs irritation reviews).",
+      "Sensitive-skin-specific step-by-step retailer behavior is thin; transfer from general surveys and dermatology textbook summaries requires caution.",
+      "Sample frames differ across sources and publisher/date transparency varies, limiting generalizability.",
+      "Behavioral scores are simulation settings to distinguish archetypes, not validated population measurements.",
+      "Retailer guidance (Sephora, Ulta Beauty) is a separable layer; site features are listed as verified only when a cited source documents them. Behavioral scenarios are hypothetical reference cases."
+    ],
+    "retailer_research": {
+      "report_path": "research-reports/sensitive-skin/2026-11-03T16-49-22-276Z-retailers.md",
+      "response_id": "resp_6aea1093c2db4e8029ff412f",
+      "research_date": "2026-11-03",
+      "web_search_calls": 35,
+      "sources": [
+        {
+          "url": "https://www.99minds.io/blog/sephoras-beauty-insider/",
+          "title": "Sephora Beauty Insider: How the Loyalty Program Works in 2026"
+        },
+        {
+          "url": "https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2",
+          "title": "ICONIC LONDON -  Filter Fix Prep Set Blur Setting Spray | Ulta Beauty"
+        },
+        {
+          "url": "https://www.ulta.com/conscious-beauty/",
+          "title": "Conscious Beauty | Ulta Beauty"
+        },
+        {
+          "url": "https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai",
+          "title": "How Ulta Beauty is giving omnichannel retail a fresh face | Google Cloud Blog"
+        },
+        {
+          "url": "https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027",
+          "title": "Beauty and Skincare Marketing Trends 2027"
+        },
+        {
+          "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+          "title": "US beauty consumers prioritize ingredient transparency over brand image"
+        },
+        {
+          "url": "http://www.fda.gov/cosmetics/cosmetics-labeling-claims/hypoallergenic-cosmetics",
+          "title": "\"Hypoallergenic\" Cosmetics | FDA"
+        }
+      ],
+      "enriched_at": "2026-11-03T16:49:22.276Z"
+    },
+    "baseline_snapshot": {
+      "motivation": "Finding suitable, reliable beauty products while minimizing irritation risk, unnecessary experimentation, and wasted expenditure.",
+      "characteristics": [
+        "Highly research-oriented and risk-averse.",
+        "Prioritizes ingredient suitability, formulation transparency, tolerability, and product performance.",
+        "Relies on credible expert information, detailed customer reviews, and previous experience with products.",
+        "Prefers familiar, reliable brands when products have worked previously.",
+        "Willing to spend more for demonstrated suitability, but does not equate expensive products with safer or better formulations.",
+        "Uses social media to research products, especially experiences from consumers with similar skin concerns.",
+        "Skeptical of viral products unless there is convincing evidence of suitability.",
+        "Less interested in novelty for its own sake.",
+        "More likely to reject a product when ingredient information is missing or there are relevant adverse-experience reports."
+      ],
+      "shopping_journey": [
+        "Identify need",
+        "Ingredient research",
+        "Suitability assessment",
+        "Purchase"
+      ],
+      "research_notes": "Topics to investigate:\n- Sensitive-skin consumers' beauty shopping behaviors\n- Ingredient-conscious purchasing\n- Risk perception and brand trust\n- Sources used to verify product suitability\n- Effects of previous negative product experiences\n- Loyalty toward products that have worked\n- Willingness to pay for suitable formulations\n- Social media's role in product discovery versus product validation\n- How consumers interpret fragrance-free, dermatologist-tested, hypoallergenic and similar claims\n\nGuardrails:\n- Ground findings in credible consumer research and appropriate dermatological evidence.\n- Do not assume marketing terms guarantee product suitability.\n- Do not infer individual allergies or medical diagnoses, and do not invent medical histories.\n- Exact skin concerns, known ingredient restrictions and skin type are set per shopping run, not in the persona.\n\nSuggested starting scores (hypotheses to test, not to accept): trend sensitivity 0.30, influencer trust 0.35, price sensitivity 0.55, brand loyalty 0.80, research depth 0.90, novelty seeking 0.20, impulse buying 0.10, product quality priority 0.90, convenience priority 0.45, prestige priority 0.15. Risk aversion (suggested 0.95) is not a separate parameter; express it through research depth, brand loyalty, novelty seeking, impulse buying and the decision rules.\n\nSephora and Ulta behaviors to examine:\n- Looking for ingredient and formulation information\n- Checking product reviews for mentions of irritation or sensitivity\n- Evaluating claims made by beauty brands\n- Comparing familiar products against new alternatives\n- Investigating recommendations from dermatologists and credible creators\n- Looking for fragrance information and other relevant product characteristics\n- Comparing product suitability against price and convenience\n- Rejecting products when important suitability information is unavailable\n\nScenarios to include (in addition to any others):\n1. A viral blush with strong reviews but uncertain suitability for sensitive skin.\n2. A familiar product that has worked previously versus an unfamiliar new launch.\n3. A premium product marketed for sensitive skin versus a cheaper alternative with comparable verified features.\n4. A product labeled hypoallergenic with limited ingredient transparency.\n5. A social-media recommendation contradicted by relevant customer reviews reporting irritation.\nDo not force predetermined purchases; outcomes depend on the evidence available.\n\nExample operational rules:\n- Verify formulation suitability before considering trend popularity.\n- Treat previous positive product experience as a strong signal for repurchase.\n- Investigate relevant negative reviews before purchasing an unfamiliar product.\n- Do not assume higher price or prestige guarantees better tolerability.\n- Reject or defer products when critical suitability information is unavailable.\n\nStay behaviorally distinct from the Trend-Driven Shopper."
+    }
+  },
+  "metadata": {
+    "status": "draft",
+    "version": 1,
+    "model": "muse-spark-1.3",
+    "generated_at": "2026-11-03T16:49:22.275Z",
+    "edited_at": "2026-11-03T16:49:22.276Z",
+    "approved_at": null,
+    "content_hash": null
+  }
+}

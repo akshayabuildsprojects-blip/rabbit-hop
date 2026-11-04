@@ -1,0 +1,30 @@
+{
+  "persona_id": "time-constrained",
+  "order": 3,
+  "persona_name": "Time-Constrained Professional",
+  "initial_description": "Chooses dependable, easy-to-use beauty products that simplify routines, save time and deliver consistent results.",
+  "baseline": {
+    "motivation": "Finding dependable beauty products that simplify daily routines, save time, and deliver consistent results.",
+    "characteristics": [
+      "Has a busy lifestyle and limited time for extensive shopping or elaborate beauty routines.",
+      "Prioritizes convenience, effectiveness, longevity, and ease of application.",
+      "Prefers multifunctional products that reduce the number of steps in a routine.",
+      "Willing to pay more for meaningful time savings and reliable performance.",
+      "Tends to repurchase products that have demonstrated consistent results.",
+      "Researches selectively rather than exploring an extensive range of alternatives.",
+      "Follows social-media trends when they provide practical benefits.",
+      "Values credible product demonstrations, professional recommendations, and reviews that address longevity and ease of use.",
+      "May avoid unfamiliar products when experimentation creates additional effort or uncertainty.",
+      "Values convenient purchasing, replenishment, and fulfillment experiences."
+    ],
+    "shopping_journey": [
+      "Identify need",
+      "Evaluate convenience/performance",
+      "Select reliable product",
+      "Purchase"
+    ],
+    "research_notes": "Topics to investigate:\n1. How time scarcity influences consumer purchasing decisions\n2. Convenience-oriented beauty shopping behavior\n3. Willingness to pay for time savings and dependable performance\n4. Product loyalty and habitual repurchasing\n5. Preferences for multifunctional and long-wear beauty products\n6. How busy consumers research and compare products\n7. Social-media influence on convenience-oriented purchasing\n8. Shopping friction, decision fatigue and information overload\n9. How consumers weigh convenience against price and quality\n10. Online beauty shopping and fulfillment preferences\nPrioritize empirical consumer research, credible industry studies and verifiable sources. Evaluate the hypotheses critically and keep research findings separate from modeling assumptions.\n\nGuardrails:\n- Do not assume this consumer is wealthy or luxury-oriented. She pays more for function and time saved, not for prestige.\n- Keep willingness to pay for convenience separate from purchasing capacity. Income, budget, age, location, occupation, retailer, product requirements and mission are set per shopping run.\n- Test where the premium stops: does she pay for speed and fulfillment, for reliable performance, or both?\n\nSuggested starting scores (hypotheses to test, not to accept): trend sensitivity 0.35, influencer trust 0.45, price sensitivity 0.40, brand loyalty 0.75, research depth 0.55, novelty seeking 0.35, impulse buying 0.25, product quality priority 0.85, convenience priority 0.95, prestige priority 0.30. Risk aversion (suggested 0.65) is not a separate parameter; express it through brand loyalty, novelty seeking, research depth and the decision rules.\n\nSephora and Ulta behaviors to examine:\n- Searching for long-wear, low-maintenance and multifunctional makeup\n- Prioritizing products that simplify an everyday routine\n- Checking reviews for application difficulty and wear duration\n- Comparing a small shortlist rather than browsing extensively\n- Considering whether a higher-priced product saves time or reduces touch-ups\n- Returning to familiar products rather than repeatedly experimenting\n- Investigating convenient replenishment and fulfillment options (verify any feature before naming it)\n- Evaluating practical social-media recommendations without prioritizing virality itself\n\nDecision rules must cover how she resolves each conflict, context-sensitively (not always the most convenient or most expensive option):\n- Convenience vs price\n- Familiarity vs novelty\n- Longevity vs affordability\n- Quality vs application complexity\n- Social popularity vs practical usefulness\n- Research effort vs purchase confidence\nInclude an explicit rule for when she has enough information to stop researching and decide.\n\nScenarios to include (in addition to any others):\nA. A $45 long-wear foundation versus a $20 foundation requiring frequent touch-ups.\nB. One multifunctional lip-and-cheek product versus two separate products.\nC. A viral product requiring complicated application versus a reliable conventional alternative.\nD. A familiar, trusted product versus a new launch promising superior performance.\nE. An inexpensive product with inconsistent performance versus a premium alternative with strong reliability reviews.\nFor each, show discovery, what she investigates, comparison depth, relevant scores, tradeoffs, purchase/rejection conditions and observable actions. Outcomes are illustrative, not research findings, and not forced.\n\nDistinctness:\n- Stay distinct from the Trend-Driven Beauty Shopper and the Practical Sensitive-Skin Shopper.\n- Versus Sensitive-Skin: both repurchase, but here repurchase saves effort and a \"good enough\" verified option is acceptable; she does not defer for exhaustive suitability checks."
+  },
+  "ui_color": "#8FD3FF",
+  "note": "Baseline behavioral hypotheses, not validated consumer findings. Research substantiates, challenges and refines them. Income, geography and budget are set per session, never here."
+}

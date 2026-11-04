@@ -1,0 +1,29 @@
+{
+  "persona_id": "sensitive-skin",
+  "order": 2,
+  "persona_name": "Practical Sensitive-Skin Shopper",
+  "initial_description": "Chooses beauty products for suitability and reliability, researching ingredients and reviews to minimize irritation risk and wasted spend.",
+  "baseline": {
+    "motivation": "Finding suitable, reliable beauty products while minimizing irritation risk, unnecessary experimentation, and wasted expenditure.",
+    "characteristics": [
+      "Highly research-oriented and risk-averse.",
+      "Prioritizes ingredient suitability, formulation transparency, tolerability, and product performance.",
+      "Relies on credible expert information, detailed customer reviews, and previous experience with products.",
+      "Prefers familiar, reliable brands when products have worked previously.",
+      "Willing to spend more for demonstrated suitability, but does not equate expensive products with safer or better formulations.",
+      "Uses social media to research products, especially experiences from consumers with similar skin concerns.",
+      "Skeptical of viral products unless there is convincing evidence of suitability.",
+      "Less interested in novelty for its own sake.",
+      "More likely to reject a product when ingredient information is missing or there are relevant adverse-experience reports."
+    ],
+    "shopping_journey": [
+      "Identify need",
+      "Ingredient research",
+      "Suitability assessment",
+      "Purchase"
+    ],
+    "research_notes": "Topics to investigate:\n- Sensitive-skin consumers' beauty shopping behaviors\n- Ingredient-conscious purchasing\n- Risk perception and brand trust\n- Sources used to verify product suitability\n- Effects of previous negative product experiences\n- Loyalty toward products that have worked\n- Willingness to pay for suitable formulations\n- Social media's role in product discovery versus product validation\n- How consumers interpret fragrance-free, dermatologist-tested, hypoallergenic and similar claims\n\nGuardrails:\n- Ground findings in credible consumer research and appropriate dermatological evidence.\n- Do not assume marketing terms guarantee product suitability.\n- Do not infer individual allergies or medical diagnoses, and do not invent medical histories.\n- Exact skin concerns, known ingredient restrictions and skin type are set per shopping run, not in the persona.\n\nSuggested starting scores (hypotheses to test, not to accept): trend sensitivity 0.30, influencer trust 0.35, price sensitivity 0.55, brand loyalty 0.80, research depth 0.90, novelty seeking 0.20, impulse buying 0.10, product quality priority 0.90, convenience priority 0.45, prestige priority 0.15. Risk aversion (suggested 0.95) is not a separate parameter; express it through research depth, brand loyalty, novelty seeking, impulse buying and the decision rules.\n\nSephora and Ulta behaviors to examine:\n- Looking for ingredient and formulation information\n- Checking product reviews for mentions of irritation or sensitivity\n- Evaluating claims made by beauty brands\n- Comparing familiar products against new alternatives\n- Investigating recommendations from dermatologists and credible creators\n- Looking for fragrance information and other relevant product characteristics\n- Comparing product suitability against price and convenience\n- Rejecting products when important suitability information is unavailable\n\nScenarios to include (in addition to any others):\n1. A viral blush with strong reviews but uncertain suitability for sensitive skin.\n2. A familiar product that has worked previously versus an unfamiliar new launch.\n3. A premium product marketed for sensitive skin versus a cheaper alternative with comparable verified features.\n4. A product labeled hypoallergenic with limited ingredient transparency.\n5. A social-media recommendation contradicted by relevant customer reviews reporting irritation.\nDo not force predetermined purchases; outcomes depend on the evidence available.\n\nExample operational rules:\n- Verify formulation suitability before considering trend popularity.\n- Treat previous positive product experience as a strong signal for repurchase.\n- Investigate relevant negative reviews before purchasing an unfamiliar product.\n- Do not assume higher price or prestige guarantees better tolerability.\n- Reject or defer products when critical suitability information is unavailable.\n\nStay behaviorally distinct from the Trend-Driven Shopper."
+  },
+  "ui_color": "#3CC7B5",
+  "note": "Baseline behavioral hypotheses, not validated consumer findings. Research substantiates, challenges and refines them. Income, geography and budget are set per session, never here."
+}

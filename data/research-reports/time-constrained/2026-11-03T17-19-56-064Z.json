@@ -1,0 +1,1474 @@
+{
+  "persona_id": "time-constrained",
+  "research_date": "2026-11-03",
+  "performed_at": "2026-11-03T17:19:56.064Z",
+  "model": "muse-spark-1.3",
+  "response_id": "resp_6aea17bd6bff40b01aa24c4f",
+  "web_search_calls": 32,
+  "report_text": "I’m gathering evidence on how time-pressed shoppers discover and buy beauty.\n\nEarly signals show time pressure favors familiar, low-effort choices — now I’ll dig into loyalty and research habits.\n\nI’ve mapped discovery and loyalty patterns — next I’ll examine fulfillment and expert trust.\n\nI’ve gathered the core evidence — now I’ll pull exact sources to support each claim.\n\nThe direct page links aren't resolving, so I'll try another approach to capture the citations.\n\nFound strong support for convenience premiums — now I’ll collect the remaining proof points.\n\nCore evidence is secured — now I’ll verify the final details on delivery trade-offs.\n\n## 1. Product discovery channels and shopping entry points\n\n- **[Evidence]** Discovery is multi-touchpoint rather than single-channel: physical retail is the most common source of beauty inspiration, followed by friends and family and then online retail, with social and brand marketing also contributing. ([The future of the beauty industry in 2025 and beyond | McKinsey](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/a-close-look-at-the-global-beauty-industry-in-2025)) \n- **[Evidence]** Search behaves as a relay: Google is the first stop for 43% of beauty consumers, while 57% start elsewhere across Instagram (11.9%), YouTube (11.2%), TikTok (10.6%) and AI tools (9.8%); when a product is found on TikTok, 72% next search for it on Google and only 7% buy directly through TikTok at that moment. ([57% of beauty consumers don’t start with Google Search](https://searchengineland.com/beauty-consumers-google-search-493828)) \n- **[Evidence]** Digital is routinely involved even when purchase finishes elsewhere: more than half of cosmetics and perfume purchases involve an online touchpoint, and shoppers who browse across multiple retailers discover more brands than single-retailer shoppers. ([New Health & Beauty research: 5 shopper trends every marketer should know | Criteo](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)) \n- **[Evidence]** Nearly half of surveyed beauty consumers (47.7%) say they typically complete beauty purchases on Amazon, illustrating that discovery, validation and conversion often occur in different places. ([57% of beauty consumers don’t start with Google Search](https://searchengineland.com/beauty-consumers-google-search-493828)) \n- **[Assumption]** For this archetype, entry is typically need- or replenishment-led (running low, need faster morning routine) rather than trend-led browsing, so discovery is more likely to start from a remembered product, in-store scan, or targeted search than from open-ended social exploration.\n\n## 2. Influence of social media, creators, trends and social proof\n\n- **[Evidence]** Social influence on purchase is widespread but not youth-only: 41% of all respondents made a beauty purchase in the last six months based on something seen on TikTok or YouTube, rising to 60% in their 30s and still 34% in their 50s cohort. ([57% of beauty consumers don’t start with Google Search](https://searchengineland.com/beauty-consumers-google-search-493828)) \n- **[Evidence]** Creators drive discovery more than final decision: only 2% name influencer recommendations as a driver when deciding whether to buy a new product, while influencers remain key for product discovery; price (72%) and effectiveness (55%) dominate the buying decision. ([Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds](https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html)) \n- **[Evidence]** Customer reviews slightly outweigh creator videos at conversion: 42% cite regular customer reviews/comments as a factor in online beauty buying versus 41% citing influencer/celebrity video reviews, with creators described as scouts and reviews as fact-checkers. ([Who’s Really Influencing the Way You Shop for Beauty?](https://en.redtram.com/lifestyle/623973004/)) \n- **[Evidence]** Trust varies by format: YouTube creators are rated “very trustworthy” by 14.1% versus 8.6% for TikTok creators; YouTube leads for tutorials where detail matters, while TikTok is near-competitive with Google only for dupes/alternatives. ([57% of beauty consumers don’t start with Google Search](https://searchengineland.com/beauty-consumers-google-search-493828)) \n- **[Assumption]** This archetype filters social content for practical utility — wear-time demos, application difficulty, routine simplification — rather than virality or novelty, which distinguishes it from the Trend-Driven Beauty Shopper where staying current itself is rewarding.\n- **[Assumption]** Trend sensitivity is low-to-moderate and conditional: a viral product only enters the shortlist if reviews and demonstrations suggest it saves steps or performs reliably; otherwise it is ignored.\n\n## 3. Product evaluation and comparison habits\n\n- **[Evidence]** Evaluation is research-intensive for many beauty shoppers: U.S. shoppers browse an average of 19 makeup products and 12 fragrances before purchase, and globally reviews/ratings are the top purchase influence with nearly half relying on them. ([New Health & Beauty research: 5 shopper trends every marketer should know | Criteo](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)) \n- **[Evidence]** When overwhelmed, shoppers use shortcuts to eliminate options: among skincare shoppers who feel overwhelmed, 50% say familiar brands help them decide, 48% turn to customer reviews/ratings, and 25% focus on visual appeal, with fewer relying on advertising. ([The Changing Face of Skincare Loyalty](https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/)) \n- **[Evidence]** Effectiveness dominates evaluation criteria: 77% cite product effectiveness as key, with customer reviews and ingredients tied at 53.4%, dermatologist/aesthetician recommendations at 52.8%, and brand reputation at 52.7%. ([5 Factors Influencing Readers' Shopping Decisions](https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions)) \n- **[Assumption]** Consistent with limited time and decision fatigue, this archetype researches selectively: checks a small shortlist (often 2–4 familiar or highly-rated options) on longevity, ease of application and fit for routine, then stops once one option meets a “reliable and easy enough” threshold rather than seeking the optimal product.\n- **[Assumption]** Comparison depth is deliberately capped: detailed ingredient-by-ingredient or 10+-review deep dives are the exception; skimming ratings distribution, negative reviews about fading/creasing/difficult application, and professional endorsements is sufficient to decide.\n\n## 4. Price sensitivity and perceived value\n\n- **[Evidence]** Convenience commands a stated premium for many but not all: over 60% of U.S. consumers say they will pay more for things that make life easier and 42% prioritise convenience over price, especially younger consumers and parents with busier routines. ([Convenience as the New Consumer Currency](https://www.mintel.com/insights/consumer-research/convenience-as-the-new-consumer-currency/)) \n- **[Evidence]** The premium has a clear limit: 61% of U.S. online shoppers say lower cost matters more than convenience, and 90% would accept slower shipping for savings; delivery cost (36%) outranks speed (23%) and convenience (17%) as most important delivery aspect. ([Consumers still value convenience—but not at any price](https://www.emarketer.com/content/consumers-still-value-convenience-but-not-any-price)) \n- **[Evidence]** Proven performance justifies a premium more reliably than convenience alone: one-third of beauty consumers will pay 20% or more for skincare with proven efficacy credentials, and quality remains a stronger driver of premium spending than ease alone. ([Efficacy Overtakes Novelty as Key Driver of Ingredient Value: Euromonitor International](https://www.businesswire.com/news/home/20261102856593/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International)) ; ([Convenience as the New Consumer Currency](https://www.mintel.com/insights/consumer-research/convenience-as-the-new-consumer-currency/)) \n- **[Evidence]** In Asia-Pacific beauty, 31% will pay 10–20% more for new/innovative formats, while 32.1% would rather buy fewer but higher-quality items, supporting a “pay for fewer, better, easier” logic rather than paying more for prestige. ([The Art of Effortless: Simplifying Your Beauty Game](https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game)) ; \n- **[Assumption]** Tradeoff rule (illustrative, not a finding): she pays more when the premium buys verified time savings or reliable wear (for example, Scenario A: $45 long-wear foundation versus $20 requiring touch-ups, or Scenario E: premium with strong reliability reviews versus inconsistent cheap option) but chooses the cheaper acceptable option when performance evidence is equivalent — distinct from the Price-Sensitive Value Shopper who minimizes cost first and from the Luxury Shopper who values prestige/exclusivity.\n\n## 5. Brand loyalty versus willingness to experiment\n\n- **[Evidence]** Loyalty is fragile overall: only 34% say they rarely switch from preferred beauty brands, and up to 53% of global purchases across fragrance, skincare and makeup come from brands not purchased in the prior 12 months. ([New Health & Beauty research: 5 shopper trends every marketer should know | Criteo](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)) \n- **[Evidence]** Where loyalty exists in skincare it is performance-rooted, not emotional: 55% say quality most influences loyalty, with value second at 30%; nearly half would stop buying after a decline in quality and one-third after price increases. ([The Changing Face of Skincare Loyalty](https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/)) ; \n- **[Evidence]** Switching is driven by perceived better results: nearly half of recent skincare purchasers cite product performance as primary reason to switch and 30% cite ingredients, with reviews, availability and reputation also influential. ([The Changing Face of Skincare Loyalty](https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/)) \n- **[Assumption]** For this archetype, repurchase is habitual because it saves effort: once a product proves consistent, she defaults to it to avoid re-research, and only experiments when a new launch promises a clear, credible performance or time advantage (Scenario D: familiar trusted product versus new launch) — unlike the Trend-Driven shopper who experiments for novelty and unlike the Sensitive-Skin shopper who requires exhaustive suitability checks before any switch.\n- **[Assumption]** Novelty seeking is low: unfamiliar products that add learning cost, uncertain shade match, or complicated application are rejected unless the practical gain is large and well-evidenced.\n\n## 6. Trust in influencers, experts, communities and independent reviews\n\n- **[Evidence]** Independent and professional voices outweigh influencers at decision: effectiveness (77%), reviews (53.4%), ingredients (53.4%), dermatologist/aesthetician recommendations (52.8%) and brand reputation (52.7%) all far exceed influencer/celebrity recommendations (10.8%). ([5 Factors Influencing Readers' Shopping Decisions](https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions)) \n- **[Evidence]** Reviews are the single top global influence (nearly half rely on them), alongside friends/family, in-store testing and search engines for reassurance. ([New Health & Beauty research: 5 shopper trends every marketer should know | Criteo](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)) \n- **[Evidence]** Detail and credibility matter by platform: TikTok answers “does this work?” while Google answers “should I trust it?”, with ingredient and skincare-concern questions dominated by Google and exploratory dupe/trend questions stronger on TikTok. ([57% of beauty consumers don’t start with Google Search](https://searchengineland.com/beauty-consumers-google-search-493828)) \n- **[Assumption]** This archetype trusts concise demonstrations of longevity and ease (wear-time claims, before/after over hours, application difficulty notes) plus professional or high-volume user consensus, and discounts virality, follower count, or aesthetic packaging as proof.\n- **[Assumption]** A practical social post can trigger consideration (Scenario C: viral complicated product versus reliable conventional alternative), but conversion requires corroboration in reviews/search; without it, the viral option is rejected for effort risk.\n\n## 7. Purchase triggers and rejection criteria\n\n- **[Evidence]** Triggers center on value and proof: price (72%) and effectiveness (55%) matter most for trying a new product, with multifunctionality influencing 15.2% of Asia-Pacific choices and long-wear/reduced reapplication driving demand for waterproof, smudge-resistant and crease-resistant formulas. ([Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds](https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html)) ; ([The Art of Effortless: Simplifying Your Beauty Game](https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game)) ; ([U.S. Eye Color Cosmetics Market Size & Share Report, 2033](https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report)) \n- **[Evidence]** Common rejection cues include inconsistent performance (uneven pigmentation, clumping, poor blending, limited wear), smudging/short wear, difficult application/removal, and irritation/sensitivity concerns. ([U.S. Eye Color Cosmetics Market Size & Share Report, 2033](https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report)) \n- **[Evidence]** Loyalty breaks on quality decline, price hikes without justification, poor experiences and availability problems. ([The Changing Face of Skincare Loyalty](https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/)) \n- **[Assumption]** Purchase rule (illustrative): she buys when a product credibly promises fewer steps or longer wear without added complexity (Scenario B: one lip-and-cheek versus two separate products wins if shade, wear and application are acceptable); she rejects when use requires tutorials, frequent touch-ups, uncertain shade matching, or extensive patch-testing/guesswork.\n- **[Assumption]** Stock certainty and easy fulfillment are secondary triggers: out-of-stock, overcrowded or hard-to-navigate experiences increase deferral or substitution rather than prolonged hunting.\n\n## 8. Typical shopping decision sequence\n\n- **[Evidence]** A common modern sequence is discovery (social, physical retail, friends) → validation (Google/search, reviews, in-store test) → comparison across retailers/products → purchase online and/or offline, rather than a linear funnel. ([57% of beauty consumers don’t start with Google Search](https://searchengineland.com/beauty-consumers-google-search-493828)) ; ([New Health & Beauty research: 5 shopper trends every marketer should know | Criteo](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)) \n- **[Evidence]** Validation is explicit: brands that make products easier to evaluate with detailed descriptions, authentic reviews and clear benefits are better positioned to convert curious shoppers. ([New Health & Beauty research: 5 shopper trends every marketer should know | Criteo](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)) \n- **[Assumption]** Archetype sequence: Identify need (low stock, routine friction, event) → screen for convenience/performance (long-wear, multifunctional, easy application) → shortlist 2–4 familiar or top-rated options → verify wear/application via reviews/demos → select reliable product → purchase via lowest-friction channel with certain availability.\n- **[Assumption]** Stopping rule (modeling assumption, not a finding): she stops researching when one option has (a) consistent ratings on longevity/ease, (b) no red-flag reviews on irritation/difficult application relevant to her, and (c) acceptable price for the time saved; further searching must promise a large practical gain to continue.\n- **[Assumption]** No direct evidence was found for retailer-specific replenishment features (for example, auto-replenishment or specific fulfillment options); convenient purchasing is therefore modeled generically as fast, predictable delivery/pickup and easy reordering without naming proprietary features.\n\n## 9. Impulse purchasing versus deliberate research\n\n- **[Evidence]** The category trend is toward more scrutiny, not less: shoppers are putting more thought into what they buy, researching and comparing before deciding what earns a place in routines. ([New Health & Beauty research: 5 shopper trends every marketer should know | Criteo](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)) \n- **[Evidence]** Overwhelm often leads to deferral rather than abandonment in beauty: those challenged by too much choice were equally likely to ultimately purchase in most categories except beauty/personal care, where they instead put the item aside with openness to buying later. ([How Having Too Much Choice Impacts Consumer Experience](https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research)) \n- **[Evidence]** Between 30% and 40% of shoppers who had difficulty deciding cite too many products as the roadblock, and beauty/personal care is where too much choice is most likely to be an issue. ([How Having Too Much Choice Impacts Consumer Experience](https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research)) ; \n- **[Assumption]** Impulse buying is low for this archetype: unplanned picks occur mainly as low-effort replenishment or a clearly simple add-on (mini, stick, spray, one-step hybrid), not as exploratory hauls — contrasting with trend-driven impulse and with convenience-store impulse seen in general health/beauty missions.\n- **[Assumption]** Deliberate but bounded research is the norm: she will postpone rather than gamble on an uncertain product, returning later to the saved reliable option.\n\n## 10. Factors influencing purchase confidence\n\n- **[Evidence]** Confidence is built before checkout through reassurance: reviews/ratings, friends/family, in-store testing and search engines all play important roles. ([New Health & Beauty research: 5 shopper trends every marketer should know | Criteo](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)) \n- **[Evidence]** Familiarity plus proof reduces risk: familiar brands and customer reviews are the top two decision shortcuts when overwhelmed (50% and 48%), and brand reputation influences both trial and loyalty. ([The Changing Face of Skincare Loyalty](https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/)) ; ([5 Factors Influencing Readers' Shopping Decisions](https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions)) \n- **[Evidence]** Simplicity itself builds confidence: consumers want less friction to performance, with clarity, streamlined routines and fewer, more relevant recommendations increasing trust. ([Beauty Decision Fatigue Is Real - Here’s How AI Is Fixing It](https://www.revieve.com/insider/articles/beauty-decision-fatigue-ai-personalization)) ; \n- **[Evidence]** In-store friction undermines confidence: nearly 70% feel overwhelmed browsing brick-and-mortar beauty stores, with out-of-stock (47%), overcrowding (46%), long checkouts (40%) and poor navigation (34%) as top frustrations. ([Overwhelmed Shoppers Are a CX Red Flag for Beauty Retail](https://cxm.world/customer-experience/overwhelmed-shoppers-are-a-cx-red-flag-for-beauty-retail/)) ; \n- **[Assumption]** Confidence rule: clear evidence on wear duration, reapplication need, application steps/tools, and multifunctional payoff moves her to buy; vague “clean,” “premium,” or “viral” claims without time/effort specifics do not.\n\n## 11. Evidence quality and gaps\n\n- Overall evidence is moderate-to-strong on general beauty behavior but indirect for this exact archetype: large-sample industry surveys (Criteo N>4,500 across six markets; Stella Rising N=511; Morning Consult N=3,758; Allure N>142,000; NewBeauty N>1,300; Provoke Insights via Happi) and analyst syntheses (McKinsey 15,000+ consumers in 13 markets; Euromonitor Voice of Consumer) converge on reviews-first validation, effectiveness over novelty, convenience premiums with limits, and overwhelm-driven simplification. Publisher and dates are visible in linked pages, with most sources from 2024–2026.\n- Key limitation: No direct evidence found for a defined “time-constrained professional” segment in beauty; time-scarcity effects are inferred from general convenience, simplification (skinimalism: 62% seeking simpler routines is widely cited but not independently verified here), and choice-overload studies, not from a controlled comparison of time-pressed versus non-pressed beauty shoppers.\n- Willingness-to-pay boundaries are context-dependent and partly conflicting: U.S. data show both high stated willingness to pay for ease and strong price-first behavior (61% prioritize lower cost; 90% accept slower shipping), indicating the premium depends on whether the gain is reliable performance versus fulfillment speed alone — a gap requiring careful simulation rather than a single price-sensitivity value.\n- Social and retail findings skew to U.S./UK/EU and to online-discoverable shoppers; in-store-only, low-digital, and non-Western routines are underrepresented, and TikTok/Reddit/YouTube anecdotes are qualitative signals only and were not treated as representative.\n- No direct evidence found for retailer-specific replenishment/subscription mechanics, exact shortlist size, or minutes-spent-research thresholds for busy shoppers; those must remain explicit modeling assumptions with observable proxies (shortlist length, time to decision, touch-ups avoided) rather than cited facts.\n\n## 12. Baseline hypotheses check\n\n- **H1. Motivation: Finding dependable beauty products that simplify daily routines, save time, and deliver consistent results. — Supported.** Simplification without compromising results, multifunctional heroes, and fewer higher-quality products are documented motivations. ([The Art of Effortless: Simplifying Your Beauty Game](https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game)) \n- **H2. Has a busy lifestyle and limited time for extensive shopping or elaborate beauty routines. — Insufficient evidence.** No direct evidence found measuring this archetype’s time budgets; busy-schedule simplification and 21% seeking to simplify lives support plausibility but do not prove this group’s time scarcity. ([The Art of Effortless: Simplifying Your Beauty Game](https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game)) \n- **H3. Prioritizes convenience, effectiveness, longevity, and ease of application. — Supported.** Effectiveness (77% and 55% in two surveys), reviews/ingredients/professional input, and long-wear/reduced-reapplication demand converge on this priority set. ([5 Factors Influencing Readers' Shopping Decisions](https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions)) ; ([U.S. Eye Color Cosmetics Market Size & Share Report, 2033](https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report)) \n- **H4. Prefers multifunctional products that reduce the number of steps in a routine. — Supported.** 67% report regularly purchasing multifunctional beauty products and 15.2% in APAC cite multifunctionality as most influential, with skinimalism/skip-care framing fewer steps without sacrificing results. ([U.S. Eye Color Cosmetics Market Size & Share Report, 2033](https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report)) ; ([The Art of Effortless: Simplifying Your Beauty Game](https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game)) \n- **H5. Willing to pay more for meaningful time savings and reliable performance. — Refined.** True for reliable performance (one-third pay 20%+ for proven efficacy; 60%+ will pay more for ease) but bounded: most still prioritize lower cost over convenience and will trade speed for savings, so the premium holds for verified performance/time saved, not for speed/prestige alone. ([Efficacy Overtakes Novelty as Key Driver of Ingredient Value: Euromonitor International](https://www.businesswire.com/news/home/20261102856593/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International)) ; ([Consumers still value convenience—but not at any price](https://www.emarketer.com/content/consumers-still-value-convenience-but-not-any-price)) \n- **H6. Tends to repurchase products that have demonstrated consistent results. — Supported.** Quality-driven loyalty (55% cite quality), familiar-brand shortcutting when overwhelmed (50%), and loyalty that must be continually earned through consistent efficacy support habitual repurchase. ([The Changing Face of Skincare Loyalty](https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/)) ; \n- **H7. Researches selectively rather than exploring an extensive range of alternatives. — Refined.** Directionally consistent with shortcutting (familiar brands, reviews) and desire for fewer, more relevant recommendations, but the category average is extensive (19 products browsed); selectivity should be modeled as a smaller, faster shortlist and earlier stopping rule, not as no research. ([The Changing Face of Skincare Loyalty](https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/)) ; ([New Health & Beauty research: 5 shopper trends every marketer should know | Criteo](https://www.criteo.com/blog/5-beauty-shopper-trends-2026/)) \n- **H8. Follows social-media trends when they provide practical benefits. — Refined.** Social drives discovery (41% bought from TikTok/YouTube in six months) but conversion requires practical proof via reviews/search; influencer relevance has also declined, so trend-following is conditional on demonstrated utility, not virality. ([57% of beauty consumers don’t start with Google Search](https://searchengineland.com/beauty-consumers-google-search-493828)) ; ([The future of the beauty industry in 2025 and beyond | McKinsey](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/a-close-look-at-the-global-beauty-industry-in-2025)) \n- **H9. Values credible product demonstrations, professional recommendations, and reviews that address longevity and ease of use. — Supported.** Professional recommendations (~53%), reviews (~53–54%) and brand reputation (~53%) cluster as top influences, with reviews slightly edging creator videos and detailed/evaluative content aiding conversion. ([5 Factors Influencing Readers' Shopping Decisions](https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions)) ; ([Who’s Really Influencing the Way You Shop for Beauty?](https://en.redtram.com/lifestyle/623973004/)) \n- **H10. May avoid unfamiliar products when experimentation creates additional effort or uncertainty. — Supported.** Overwhelm pushes shoppers to eliminate options, rely on familiar brands, defer beauty purchases when choice is excessive, and reject difficult-application or inconsistent-wear products. ([How Having Too Much Choice Impacts Consumer Experience](https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research)) ; ([U.S. Eye Color Cosmetics Market Size & Share Report, 2033](https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report)) \n- **H11. Values convenient purchasing, replenishment, and fulfillment experiences. — Supported but incomplete.** Convenience is number one for e-commerce (speed, frictionless experience) and seamless/multi-channel, subscription/automation and rapid formats aid busy routines, yet shoppers will sacrifice speed for savings, so fulfillment convenience matters but is not unconditionally premium. ([The future of the beauty industry in 2025 and beyond | McKinsey](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/a-close-look-at-the-global-beauty-industry-in-2025)) ; ([Convenience as the New Consumer Currency](https://www.mintel.com/insights/consumer-research/convenience-as-the-new-consumer-currency/)) \n- **H12. Shopping journey: Identify need → Evaluate convenience/performance → Select reliable product → Purchase — Supported as a simplified summary.** The observed relay (discovery → Google/review validation → multi-product comparison → purchase across channels) maps to this flow, with the caveat that validation and limited comparison are more iterative than strictly linear. ([57% of beauty consumers don’t start with Google Search](https://searchengineland.com/beauty-consumers-google-search-493828))",
+  "annotations": [
+    {
+      "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/a-close-look-at-the-global-beauty-industry-in-2025",
+      "title": "The future of the beauty industry in 2025 and beyond | McKinsey",
+      "start_index": 306,
+      "end_index": 498
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 827,
+      "end_index": 953
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 1223,
+      "end_index": 1368
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 1580,
+      "end_index": 1706
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 2333,
+      "end_index": 2459
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "start_index": 2776,
+      "end_index": 2953
+    },
+    {
+      "url": "https://en.redtram.com/lifestyle/623973004/",
+      "title": "Who’s Really Influencing the Way You Shop for Beauty?",
+      "start_index": 3234,
+      "end_index": 3336
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 3591,
+      "end_index": 3717
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 4525,
+      "end_index": 4670
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty",
+      "start_index": 4945,
+      "end_index": 5059
+    },
+    {
+      "url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+      "title": "5 Factors Influencing Readers' Shopping Decisions",
+      "start_index": 5299,
+      "end_index": 5441
+    },
+    {
+      "url": "https://www.mintel.com/insights/consumer-research/convenience-as-the-new-consumer-currency/",
+      "title": "Convenience as the New Consumer Currency",
+      "start_index": 6388,
+      "end_index": 6525
+    },
+    {
+      "url": "https://www.emarketer.com/content/consumers-still-value-convenience-but-not-any-price",
+      "title": "Consumers still value convenience—but not at any price",
+      "start_index": 6797,
+      "end_index": 6942
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20261102856593/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International",
+      "title": "Efficacy Overtakes Novelty as Key Driver of Ingredient Value: Euromonitor International",
+      "start_index": 7211,
+      "end_index": 7447
+    },
+    {
+      "url": "https://www.mintel.com/insights/consumer-research/convenience-as-the-new-consumer-currency/",
+      "title": "Convenience as the New Consumer Currency",
+      "start_index": 7448,
+      "end_index": 7587
+    },
+    {
+      "url": "https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game",
+      "title": "The Art of Effortless: Simplifying Your Beauty Game",
+      "start_index": 7833,
+      "end_index": 7976
+    },
+    {
+      "url": "https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game",
+      "title": "The Art of Effortless: Simplifying Your Beauty Game",
+      "start_index": 7977,
+      "end_index": 7978
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 8798,
+      "end_index": 8943
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty",
+      "start_index": 9197,
+      "end_index": 9311
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty",
+      "start_index": 9312,
+      "end_index": 9313
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty",
+      "start_index": 9562,
+      "end_index": 9676
+    },
+    {
+      "url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+      "title": "5 Factors Influencing Readers' Shopping Decisions",
+      "start_index": 10722,
+      "end_index": 10864
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 11034,
+      "end_index": 11179
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 11441,
+      "end_index": 11567
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "start_index": 12507,
+      "end_index": 12684
+    },
+    {
+      "url": "https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game",
+      "title": "The Art of Effortless: Simplifying Your Beauty Game",
+      "start_index": 12685,
+      "end_index": 12830
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report",
+      "title": "U.S. Eye Color Cosmetics Market Size & Share Report, 2033",
+      "start_index": 12831,
+      "end_index": 12984
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report",
+      "title": "U.S. Eye Color Cosmetics Market Size & Share Report, 2033",
+      "start_index": 13209,
+      "end_index": 13360
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty",
+      "start_index": 13493,
+      "end_index": 13607
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 14481,
+      "end_index": 14607
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 14608,
+      "end_index": 14755
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 14959,
+      "end_index": 15104
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 16368,
+      "end_index": 16513
+    },
+    {
+      "url": "https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research",
+      "title": "How Having Too Much Choice Impacts Consumer Experience",
+      "start_index": 16797,
+      "end_index": 16941
+    },
+    {
+      "url": "https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research",
+      "title": "How Having Too Much Choice Impacts Consumer Experience",
+      "start_index": 17142,
+      "end_index": 17286
+    },
+    {
+      "url": "https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research",
+      "title": "How Having Too Much Choice Impacts Consumer Experience",
+      "start_index": 17287,
+      "end_index": 17288
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 18004,
+      "end_index": 18149
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty",
+      "start_index": 18365,
+      "end_index": 18479
+    },
+    {
+      "url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+      "title": "5 Factors Influencing Readers' Shopping Decisions",
+      "start_index": 18480,
+      "end_index": 18624
+    },
+    {
+      "url": "https://www.revieve.com/insider/articles/beauty-decision-fatigue-ai-personalization",
+      "title": "Beauty Decision Fatigue Is Real - Here’s How AI Is Fixing It",
+      "start_index": 18819,
+      "end_index": 18968
+    },
+    {
+      "url": "https://www.revieve.com/insider/articles/beauty-decision-fatigue-ai-personalization",
+      "title": "Beauty Decision Fatigue Is Real - Here’s How AI Is Fixing It",
+      "start_index": 18969,
+      "end_index": 18970
+    },
+    {
+      "url": "https://cxm.world/customer-experience/overwhelmed-shoppers-are-a-cx-red-flag-for-beauty-retail/",
+      "title": "Overwhelmed Shoppers Are a CX Red Flag for Beauty Retail",
+      "start_index": 19212,
+      "end_index": 19369
+    },
+    {
+      "url": "https://cxm.world/customer-experience/overwhelmed-shoppers-are-a-cx-red-flag-for-beauty-retail/",
+      "title": "Overwhelmed Shoppers Are a CX Red Flag for Beauty Retail",
+      "start_index": 19370,
+      "end_index": 19371
+    },
+    {
+      "url": "https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game",
+      "title": "The Art of Effortless: Simplifying Your Beauty Game",
+      "start_index": 21952,
+      "end_index": 22095
+    },
+    {
+      "url": "https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game",
+      "title": "The Art of Effortless: Simplifying Your Beauty Game",
+      "start_index": 22418,
+      "end_index": 22561
+    },
+    {
+      "url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+      "title": "5 Factors Influencing Readers' Shopping Decisions",
+      "start_index": 22820,
+      "end_index": 22962
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report",
+      "title": "U.S. Eye Color Cosmetics Market Size & Share Report, 2033",
+      "start_index": 22963,
+      "end_index": 23116
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report",
+      "title": "U.S. Eye Color Cosmetics Market Size & Share Report, 2033",
+      "start_index": 23423,
+      "end_index": 23574
+    },
+    {
+      "url": "https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game",
+      "title": "The Art of Effortless: Simplifying Your Beauty Game",
+      "start_index": 23575,
+      "end_index": 23720
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20261102856593/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International",
+      "title": "Efficacy Overtakes Novelty as Key Driver of Ingredient Value: Euromonitor International",
+      "start_index": 24102,
+      "end_index": 24338
+    },
+    {
+      "url": "https://www.emarketer.com/content/consumers-still-value-convenience-but-not-any-price",
+      "title": "Consumers still value convenience—but not at any price",
+      "start_index": 24339,
+      "end_index": 24486
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty",
+      "start_index": 24779,
+      "end_index": 24893
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty",
+      "start_index": 24894,
+      "end_index": 24895
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty",
+      "start_index": 25291,
+      "end_index": 25405
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 25406,
+      "end_index": 25553
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 25886,
+      "end_index": 26012
+    },
+    {
+      "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/a-close-look-at-the-global-beauty-industry-in-2025",
+      "title": "The future of the beauty industry in 2025 and beyond | McKinsey",
+      "start_index": 26013,
+      "end_index": 26207
+    },
+    {
+      "url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+      "title": "5 Factors Influencing Readers' Shopping Decisions",
+      "start_index": 26559,
+      "end_index": 26701
+    },
+    {
+      "url": "https://en.redtram.com/lifestyle/623973004/",
+      "title": "Who’s Really Influencing the Way You Shop for Beauty?",
+      "start_index": 26702,
+      "end_index": 26806
+    },
+    {
+      "url": "https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research",
+      "title": "How Having Too Much Choice Impacts Consumer Experience",
+      "start_index": 27111,
+      "end_index": 27255
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report",
+      "title": "U.S. Eye Color Cosmetics Market Size & Share Report, 2033",
+      "start_index": 27256,
+      "end_index": 27409
+    },
+    {
+      "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/a-close-look-at-the-global-beauty-industry-in-2025",
+      "title": "The future of the beauty industry in 2025 and beyond | McKinsey",
+      "start_index": 27805,
+      "end_index": 27997
+    },
+    {
+      "url": "https://www.mintel.com/insights/consumer-research/convenience-as-the-new-consumer-currency/",
+      "title": "Convenience as the New Consumer Currency",
+      "start_index": 27998,
+      "end_index": 28137
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 28518,
+      "end_index": 28644
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/a-close-look-at-the-global-beauty-industry-in-2025",
+      "title": "The future of the beauty industry in 2025 and beyond | McKinsey"
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search"
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds"
+    },
+    {
+      "url": "https://en.redtram.com/lifestyle/623973004/",
+      "title": "Who’s Really Influencing the Way You Shop for Beauty?"
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty"
+    },
+    {
+      "url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+      "title": "5 Factors Influencing Readers' Shopping Decisions"
+    },
+    {
+      "url": "https://www.mintel.com/insights/consumer-research/convenience-as-the-new-consumer-currency/",
+      "title": "Convenience as the New Consumer Currency"
+    },
+    {
+      "url": "https://www.emarketer.com/content/consumers-still-value-convenience-but-not-any-price",
+      "title": "Consumers still value convenience—but not at any price"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20261102856593/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International",
+      "title": "Efficacy Overtakes Novelty as Key Driver of Ingredient Value: Euromonitor International"
+    },
+    {
+      "url": "https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game",
+      "title": "The Art of Effortless: Simplifying Your Beauty Game"
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report",
+      "title": "U.S. Eye Color Cosmetics Market Size & Share Report, 2033"
+    },
+    {
+      "url": "https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research",
+      "title": "How Having Too Much Choice Impacts Consumer Experience"
+    },
+    {
+      "url": "https://www.revieve.com/insider/articles/beauty-decision-fatigue-ai-personalization",
+      "title": "Beauty Decision Fatigue Is Real - Here’s How AI Is Fixing It"
+    },
+    {
+      "url": "https://cxm.world/customer-experience/overwhelmed-shoppers-are-a-cx-red-flag-for-beauty-retail/",
+      "title": "Overwhelmed Shoppers Are a CX Red Flag for Beauty Retail"
+    }
+  ],
+  "considered_results": [
+    {
+      "url": "https://www.winsomemarketing.com/resources/winsome-marketing-how-time-perception-affects-purchase-decisions",
+      "title": "How Time Perception Affects Purchase Decisions — Winsome",
+      "snippet": ""
+    },
+    {
+      "url": "https://myscp.onlinelibrary.wiley.com/doi/10.1002/jcpy.1460",
+      "title": "On seeing the self as a scarce resource: How time and money scarcity differentially shape consumers&apos; self‐value and preferences - So - 2026 - Journal of Consumer Psychology - Wiley Online Library",
+      "snippet": ""
+    },
+    {
+      "url": "http://proceedings.emac-online.org/pdfs/A2026-131695.pdf",
+      "title": "The Social Side of Scarcity: When Time Limits Create Connection, Not Competition",
+      "snippet": ""
+    },
+    {
+      "url": "https://drepo.sdl.edu.sa/signposting/describedby/a5f805d0-70f2-427c-9f75-2376b61dba4e",
+      "title": "EXPLORING THE ROLE OF SCARCITY MESSAGES IN CONSUMER BEHAVIOR",
+      "snippet": ""
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-94187-0_24",
+      "title": "The Influence of Time Distance and Reference Price on Purchase Behavior in Scarcity Promotion",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.peasy.nu/blog/the-power-of-urgency-and-scarcity-in-e-commerce",
+      "title": "Urgency and Scarcity in Ecommerce: Psychology, Tactics, and Measurement",
+      "snippet": ""
+    },
+    {
+      "url": "https://theaspd.com/index.php/ijes/article/download/10765/7739/22626",
+      "title": "International Journal of Environmental Sciences",
+      "snippet": ""
+    },
+    {
+      "url": "https://digital.lib.washington.edu/researchworks/items/d08976d8-9946-4e69-aa3f-9d2c4fd2beb9/full",
+      "title": "The Psychology of Constraints: The Time Scarcity and Money Scarcity Effect",
+      "snippet": ""
+    },
+    {
+      "url": "https://awspntest.apa.org/record/2026-53489-001",
+      "title": "The effect of product scarcity appeals on consumers’ impulse buying intentions.",
+      "snippet": ""
+    },
+    {
+      "url": "https://drepo.sdl.edu.sa/items/52d43f7b-96e1-4be3-a5d9-55957d304096",
+      "title": "EXPLORING THE ROLE OF SCARCITY MESSAGES IN CONSUMER BEHAVIOR",
+      "snippet": ""
+    },
+    {
+      "url": "https://psycnet.apa.org/record/2024-13579-001",
+      "title": "Running out of time(rs): Effects of scarcity cues on perceived task load, perceived benevolence and user experience on e-commerce sites.",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/hidden-cost-retail-innovation-time-scarce-icp5f",
+      "title": "The hidden cost of retail “innovation” for time-scarce women",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.igd.com/commercial-insight/shoppervista/articles/a-deep-dive-into-the-health-and-beauty-mission/72924",
+      "title": "A deep dive into the health and beauty mission",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.mintel.com/press-centre/beauty-and-personal-care/45-of-us-beauty-consumers-prefer-mobile-devices-over-sales-associates-for-in-store-assistance",
+      "title": "45% of US beauty consumers prefer mobile devices over sales associates for in-store assistance",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.passionateinmarketing.com/health-beauty-shoppers-increasingly-turn-to-ai-for-product-discovery-and-restocking-criteo-study-reveals/",
+      "title": "Criteo Study Highlights AI Beauty Shopping Trends",
+      "snippet": ""
+    },
+    {
+      "url": "https://chainstoreage.com/survey-gen-alpha-beauty-consumers-prefer-store-shopping",
+      "title": "Survey: Gen Alpha beauty consumers prefer in-store shopping",
+      "snippet": ""
+    },
+    {
+      "url": "https://2visions.org/ecommerce-market-research/2024-personal-care-beauty-ecommerce-market-research-report/",
+      "title": "2024 Personal Care & Beauty Ecommerce Market Research Report - 2 Visions",
+      "snippet": ""
+    },
+    {
+      "url": "https://prezi.com/p/ycozofchmhsx/impact-of-online-shopping-on-consumer-behavior/",
+      "title": "Impact of Online Shopping on Consumer Behavior",
+      "snippet": ""
+    },
+    {
+      "url": "https://uweconsoc.ca/articles/exploring-emotional-drivers-of-digital-consumption.pdf",
+      "title": "Research paper  - Riya Maggo",
+      "snippet": ""
+    },
+    {
+      "url": "https://ssl.gstatic.com/think/docs/digital-behaviors-beauty-shoppers_research-studies.pdf",
+      "title": "October 2013",
+      "snippet": ""
+    },
+    {
+      "url": "https://nielseniq.com/global/en/insights/analysis/2026/beauty-retail-choices-how-prestige-shopper-priorities-shift-across-prestige-mainstream-and-online-pure-play-retailers/",
+      "title": "Beauty Retail Choices: How Shopper Priorities Shift Across Prestige, Mainstream, and Online Pure Play Retailers",
+      "snippet": ""
+    },
+    {
+      "url": "https://koreascience.kr/search.page?keywords=fashion+product&&&lang=ko&pageSize=10&pageNo=46",
+      "title": "통합 검색 | Korea Science",
+      "snippet": ""
+    },
+    {
+      "url": "https://doczz.net/doc/7685646/beauty-retail--the-buying-preferences-of-in",
+      "title": "Beauty Retail: The Buying Preferences of In",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.koreascience.or.kr/search.page?keywords=Fashion+shopping+orientation&lang=en&pageSize=10&pageNo=5",
+      "title": "Search | Korea Science",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.italianfoodnews.com/en/news/471-when-time-beats-price-the-rise-of-time-saving-convenience-in-grocery",
+      "title": "When time beats price: the rise of time-saving convenience in grocery",
+      "snippet": ""
+    },
+    {
+      "url": "https://Www.supermarketnews.com/grocery-trends-data/grocery-shoppers-weigh-convenience-trust-and-time-alongside-price-report",
+      "title": "Grocery shoppers weigh other factors alongside price",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.icsc.com/news-and-views/icsc-exchange/the-cost-of-convenience-how-shoppers-weigh-price-time-and-return-flexibility",
+      "title": "The Cost of Convenience: How Shoppers Weigh Price, Time and Return Flexibility",
+      "snippet": ""
+    },
+    {
+      "url": "https://financebuzz.com/convenience-economy",
+      "title": "The Convenience Economy 2026: What Americans Will Pay to Skip the Trip (and When They Won't) [Data Study]",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.emarketer.com/content/consumers-still-value-convenience-but-not-any-price",
+      "title": "Consumers still value convenience—but not at any price",
+      "snippet": ""
+    },
+    {
+      "url": "https://financebuzz.com/what-americans-will-overpay-to-skip",
+      "title": "We Asked Americans What Their Time Is Worth. Here Are the 7 Things They'll Happily Overpay to Skip",
+      "snippet": ""
+    },
+    {
+      "url": "https://paymentsindustryintelligence.com/consumers-put-price-on-convenience-as-financial-pressures-persist/",
+      "title": "Consumers put price on convenience as financial pressures persist",
+      "snippet": ""
+    },
+    {
+      "url": "https://robeco.substack.com/p/buying-time",
+      "title": "The Daily Sketch by Robeco",
+      "snippet": ""
+    },
+    {
+      "url": "https://markets.financialcontent.com/dailytimesleader/article/bizwire-2026-7-7-new-icsc-survey-consumers-reassess-the-cost-of-convenience",
+      "title": "User | dailytimesleader.com - New ICSC Survey: Consumers Reassess the Cost of Convenience",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mintel.com/insights/consumer-research/convenience-as-the-new-consumer-currency/",
+      "title": "Convenience as the New Consumer Currency",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.webtonic.io/blog/beauty-skincare-branding-statistics",
+      "title": "Beauty & Skincare Branding Stats | Web Tonic™",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mageloyalty.com/benchmarks/beauty-skincare",
+      "title": "Beauty Repeat Purchase Rate Benchmarks 2026: Retention, CLV",
+      "snippet": ""
+    },
+    {
+      "url": "https://thedtcplaybook.com/benchmarks/repeat-purchase-rate/",
+      "title": "Repeat Purchase Rate Benchmarks by Category (2026) | The DTC Playbook",
+      "snippet": ""
+    },
+    {
+      "url": "https://arbelle.ai/beauty-industry-customer-retention-strategies/",
+      "title": "Top beauty industry customer retention strategies - Arbelle",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.amraandelma.com/brand-loyalty-statistics/",
+      "title": "TOP 20 BRAND LOYALTY STATISTICS 2026 THAT REVEAL SHOCKING CUSTOMER DEVOTION TRENDS",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.amraandelma.com/dtc-brand-loyalty-statistics/",
+      "title": "TOP 20 DTC BRAND LOYALTY STATISTICS 2026 THAT REVEAL WHY CUSTOMERS NEVER LEAVE",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.re-thinkingthefuture.com/technologies/creating-repeat-customers-in-a-trial-heavy-beauty-industry/",
+      "title": "Creating Repeat Customers in a Trial-Heavy Beauty Industry",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.emarketer.com/content/beauty-brands-navigate-loyalty-challenge-discovery-channels-multiply",
+      "title": "Beauty brands navigate the loyalty challenge as discovery channels multiply",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.finsi.ai/blog/beauty-ecommerce-churn-benchmarks-2026/",
+      "title": "Beauty & Skincare Ecommerce Churn Benchmarks 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://beauty-scale.co/articles/article-prestige-fragrance-s-loyalty-architecture-4-7b-repeat-purchase-opportu",
+      "title": "Prestige Fragrance's Loyalty Architecture: $4.7B Repeat-Purchase Opportunity Unlocked Through Data",
+      "snippet": ""
+    },
+    {
+      "url": "https://proceeding.unpkediri.ac.id/index.php/kilisuci/article/download/9721/6220/35970",
+      "title": "Kilisuci International Conference on Economic & Business Vol. 4 Tahun 2026 The Influence Of Brand Awareness And Brand Association On Repurchase",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report",
+      "title": "U.S. Eye Color Cosmetics Market Size & Share Report, 2033",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.techsciresearch.com/news/22876-lip-and-cheek-tint-market.html",
+      "title": "Lip and Cheek Tint Market to Grow with a CAGR of 6.28% through 2031F",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/concealer_lipstick_trend",
+      "title": "Concealer Lipstick Trend 2025: Hybrid Formulas & Sustainable Solutions",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.technavio.com/report/makeup-base-industry-analysis?amp",
+      "title": "Makeup Base Market Growth Analysis - Size and Forecast 2026-2030",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.indexbox.io/blog/setting-spray-set-market-growth-to-accelerate-by-2035-driven-by-premiumization-and-skincare-makeup-hybrids/",
+      "title": "Setting Spray Set Market Forecast Points Higher Toward 2035 Amid Rising Demand for Multifunctional Finishing Sprays - News and Statistics - IndexBox",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.indexbox.io/blog/anti-caking-makeup-products-market-forecast-points-higher-toward-2035-driven-by-premiumization-and-e-commerce/",
+      "title": "Anti Caking Makeup Products Market Analysis: Demand to Accelerate by 2035 Amid Rising Professional and Personal Use - News and Statistics - IndexBox",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.reportsanddata.com/report-detail/face-primer-market",
+      "title": "Face Primer Market Size, Share, Trends, Demand, and Forecast, 2025-2035",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.indexbox.io/blog/lip-powder-market-forecast-points-higher-toward-2035-on-demand-for-long-wear-and-clean-beauty-formats/",
+      "title": "Lip Powder Market Growth Trajectory to 2035 Driven by Premiumization and Private Label Expansion - News and Statistics - IndexBox",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/liquid_blush_trend",
+      "title": "Liquid Blush Trend 2025: Top Products & Market Insights Revealed",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.indexbox.io/blog/transfer-resistant-stain-pigment-systems-for-lip-and-cheek-tints-market-forecast-points-higher-toward-2035/",
+      "title": "Transfer Resistant Stain Pigment Systems for Lip and Cheek Tints Market Demand to Accelerate by 2035 Amid Clean Beauty Formulation Shift - News and Statistics - IndexBox",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.indexbox.io/blog/waterproof-setting-powder-market-forecast-points-higher-toward-2035-driven-by-active-lifestyle-and-humidity-resistant-demand/",
+      "title": "Waterproof Setting Powder Market Growth Outlook to 2035: Premiumization and E-Commerce Reshape Category Dynamics - News and Statistics - IndexBox",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-face-color-cosmetics-market-report",
+      "title": "U.S. Face Color Cosmetics Market Size, Share Report, 2033",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.rswebsols.com/article/consumers-decide-worth-buying/",
+      "title": "How Consumers Decide What Is Actually Worth Buying",
+      "snippet": ""
+    },
+    {
+      "url": "https://radjapublika.com/index.php/MORFAI/article/download/2699/2136",
+      "title": "Multidisciplinary Output Research For Actual and International",
+      "snippet": ""
+    },
+    {
+      "url": "https://communicateonline.me/insights/the-new-consumer-middle-easts-definition-of-value-spending-and-brand-loyalty/",
+      "title": "The new consumer: Middle East’s definition of value, spending and brand loyalty",
+      "snippet": ""
+    },
+    {
+      "url": "https://businessnewsforprofit.com/business/value-over-low-prices-why-consumers-are-becoming-more-selective-about-what-they-buy/",
+      "title": "Value Over Low Prices: Why Consumers Are Becoming More Selective About What They Buy",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.rtbhouse.com/blog/how-to-master-the-modern-messy-path-to-purchase",
+      "title": "A consumer study shows how consumer trends are changing.  | RTB House",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mytotalretail.com/article/the-age-of-the-selective-shopper-why-winning-the-sale-is-harder-than-ever/",
+      "title": "The Age of the Selective Shopper: Why Winning the Sale is Harder Than Ever",
+      "snippet": ""
+    },
+    {
+      "url": "https://quizlet.com/12359614/consumer-behavior-final-exam-flash-cards/",
+      "title": "Consumer Behavior (final exam)",
+      "snippet": ""
+    },
+    {
+      "url": "https://ashavi.com/en/detail/consumer-behavior-is-changing-faster-than-you-think.html",
+      "title": "Consumer Behavior Is Changing Faster Than You Think",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.bostonbrandmedia.com/news/research-spotlight-understanding-todays-consumer",
+      "title": "Research Spotlight: Understanding Today’s Consumer",
+      "snippet": ""
+    },
+    {
+      "url": "http://umatechnology.org/ai-shopping-how-recommendations-reshape-the-brands-consumers-consider/",
+      "title": "How AI Is Changing Shopping: Discovery, Search and Trust",
+      "snippet": ""
+    },
+    {
+      "url": "https://slm.mba/mmpm-001/consumer-decision-making-search-behavior/",
+      "title": "Information Search Behavior in Consumer Decision-Making • SLM (Self Learning Material) for MBA",
+      "snippet": ""
+    },
+    {
+      "url": "https://themba.institute/consumer-behaviour/information-search/",
+      "title": "Information Search Behavior in Consumer Decision-Making • SLM (Self Learning Material) for MBA",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.contouredcontent.com/blog-post-2.html",
+      "title": "The Economics Behind Beauty's Longer Buying Journey",
+      "snippet": ""
+    },
+    {
+      "url": "https://seosandwitch.com/beauty-ecommerce-seo-statistics/",
+      "title": "Latest Beauty Ecommerce SEO Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://ijorarjournal.com/web/Download/2025-08-13-09-16-54-Paper Id 0757.pdf",
+      "title": "International Journal of Original Recent Advanced Research ISSN (Online): 3048-5479 Vol. 02, Issue 04, July 2025",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.newbeauty.com/view/beauty-habits-2025-beautyengine",
+      "title": "Beauty Habits of 2025: How Readers Shopped and Spent",
+      "snippet": ""
+    },
+    {
+      "url": "https://gitnux.org/customer-experience-in-the-cosmetic-industry-statistics/",
+      "title": "Customer Experience In The Cosmetic Industry Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/beauty-breakthrough-5-shopper-trends-shaping-the-future-of-marketing/",
+      "title": "Beauty breakthrough: 5 shopper trends shaping the future of marketing",
+      "snippet": ""
+    },
+    {
+      "url": "https://en.redtram.com/lifestyle/623973004/",
+      "title": "Who’s Really Influencing the Way You Shop for Beauty?",
+      "snippet": ""
+    },
+    {
+      "url": "https://hello.wunderkind.co/hubfs/PDFS%20-%20Content/2025-Beauty-Consumer-Insights-Report.pdf?hsLang=en",
+      "title": "2025 C onsumer",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.researchgate.net/publication/378448148_THE_POWER_OF_ONLINE_REVIEWS_ANALYSIS_OF_CUSTOMERS%27_PERCEPTION_AND_PURCHASING_DECISIONS_IN_SKIN_CARE_PRODUCTS?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6Il9kaXJlY3QiLCJwYWdlIjoiX2RpcmVjdCJ9fQ",
+      "title": "THE POWER OF ONLINE REVIEWS: ANALYSIS OF CUSTOMERS’ PERCEPTION AND PURCHASING DECISIONS IN SKIN CARE PRODUCTS",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.igd.com/commercial-insight/shoppervista/articles/a-deep-dive-into-the-health-and-beauty-mission/72924",
+      "title": "A deep dive into the health and beauty mission",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ijprems.com/ijprems-paper/consumer-response-to-social-media-advertising-a-study-of-cosmetic-products",
+      "title": "| INTERNATIONAL JOURNAL OF PROGRESSIVE | e-ISSN : |",
+      "snippet": ""
+    },
+    {
+      "url": "http://umatechnology.org/tiktok-vs-google-search-for-beauty-product-discovery-which-is-better-for-what/",
+      "title": "TikTok vs Google for Beauty Discovery: When to Use Each",
+      "snippet": ""
+    },
+    {
+      "url": "https://ppc.land/tiktok-data-shows-beauty-brands-operate-at-50-of-optimal-spending-levels/",
+      "title": "TikTok data shows beauty brands operate at 50% of optimal spending levels",
+      "snippet": ""
+    },
+    {
+      "url": "https://mailinvest.blog/index.php/2025/12/21/tiktok-data-shows-beauty-brands-operate-at-50-of-optimal-spending-levels/",
+      "title": "TikTok data shows beauty brands operate at 50% of optimal spending levels",
+      "snippet": ""
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.retailgazette.co.uk/blog/2026/07/tiktok-shop-beauty-sales-soar-60-as-platform-delivers-10bn-uk-boost/",
+      "title": "TikTok Shop beauty sales soar 60% as platform delivers £10bn UK boost - Retail Gazette",
+      "snippet": ""
+    },
+    {
+      "url": "https://dinastischolars.org/journals/DIJMS/articles/6266/pdf",
+      "title": "https://dinastipub.org/DIJMS  Vol. 7, No. 3, February 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.styleseat.com/blog/social-media-influencers/",
+      "title": "Survey Confirms Most Social Media Users Are Under the Influence",
+      "snippet": ""
+    },
+    {
+      "url": "https://rsisinternational.org/journals/ijriss/download_pdf.php?id=14407",
+      "title": "FOMO-Driven Beauty Purchases: The Role of Influencers and TikTok Livestreaming in Indonesia",
+      "snippet": ""
+    },
+    {
+      "url": "https://proceeding-ieces.unimed.eu.org/article/1f0a2SQIXM8CL8YO7rdtvK8H43uJdgfe_k8BHdQnLBuY/the-effect-of-influencer-marketing-and-customer-reviews-on-purchase-interest-of-skintific-skincare-products-on-tiktok-shop-a-study-of-students-in-meda.pdf",
+      "title": "2025_IECES_THE_EFFECT_OF_INFLUENCER_MARKETING_AND_CUSTOMER_REVIEWS_ON_PURCHASE_INTEREST_OF_SKINTIFIC_SKINCARE_PRODUCTS_ON_TIKTOK_SHOP_Dewi_Nuriani_Balqissyah_et_al",
+      "snippet": ""
+    },
+    {
+      "url": "https://intel.morningconsult.com/mc-content/analysis/high-frequency-beauty-consumers",
+      "title": "The Biggest Beauty Fans Congregate on TikTok",
+      "snippet": ""
+    },
+    {
+      "url": "https://yougov.com/en-us/articles/54186-tiktok-made-me-buy-it-whos-discovering-new-products-on-social-media-in-2026",
+      "title": "TikTok made me buy it: Who’s discovering new products on social media in 2026?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.revieve.com/insider/articles/beauty-decision-fatigue-ai-personalization",
+      "title": "Beauty Decision Fatigue Is Real - Here’s How AI Is Fixing It",
+      "snippet": ""
+    },
+    {
+      "url": "https://b2bdaily.com/fintech/is-choice-overload-killing-beauty-e-commerce/",
+      "title": "Is Choice Overload Killing Beauty E-Commerce?",
+      "snippet": ""
+    },
+    {
+      "url": "https://brittanyhodak.com/is-choice-overload-hurting-your-customer-experience/",
+      "title": "Is Choice Overload Hurting Your Customer Experience?",
+      "snippet": ""
+    },
+    {
+      "url": "https://archeroracle.org/112112/opinion/column-this-or-that-the-problem-of-decision-fatigue/",
+      "title": "Column: This or that? The problem of decision fatigue.",
+      "snippet": ""
+    },
+    {
+      "url": "https://home.breinify.ai/learn/paradox-of-choice",
+      "title": "Marketing for the Paradox of Choice",
+      "snippet": ""
+    },
+    {
+      "url": "https://zoovu.com/blog/psychology-choice-customers-need-assistance",
+      "title": "The Psychology of Choice: Why Customers Need Your Assistance",
+      "snippet": ""
+    },
+    {
+      "url": "https://cxm.world/customer-experience/overwhelmed-shoppers-are-a-cx-red-flag-for-beauty-retail/",
+      "title": "Overwhelmed Shoppers Are a CX Red Flag for Beauty Retail",
+      "snippet": ""
+    },
+    {
+      "url": "https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research",
+      "title": "How Having Too Much Choice Impacts Consumer Experience",
+      "snippet": ""
+    },
+    {
+      "url": "https://homebusinessmag.com/blog/beauty/biggest-problem-beauty-industry/",
+      "title": "Biggest Problem in Beauty Industry: Overconsumption",
+      "snippet": ""
+    },
+    {
+      "url": "https://home.worldofwaw.com/product-configurator-how-to-help-your-clients-make-decisions/",
+      "title": "Product Configurator: How To Help Your Clients Make Decisions",
+      "snippet": ""
+    },
+    {
+      "url": "https://blog.zoovu.com/psychology-choice-customers-need-assistance",
+      "title": "The Psychology of Choice: Why Customers Need Your Assistance",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.purpleurchinsoap.com/blogs/blog-1/tackling-decision-fatigue-simplify-your-skincare-routine-with-purple-urchin",
+      "title": "Tackling Decision Fatigue: Simplify Your Skincare Routine with Purple  – Purple Urchin",
+      "snippet": ""
+    },
+    {
+      "url": "https://topfeelbag.com/purse-size-cosmetic-bags.html",
+      "title": "Stop Digging: The Ultimate Purse Size Cosmetic Bags for Your Handbag",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+      "title": "High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/a-close-look-at-the-global-beauty-industry-in-2025",
+      "title": "The future of the beauty industry in 2025 and beyond | McKinsey",
+      "snippet": ""
+    },
+    {
+      "url": "https://khaleejtip.com/home-salon-services-in-dubai-beauty-grooming-at-your-doorstep/",
+      "title": "Home Salon Service Dubai – Beauty, Makeup & Spa Services - Khaleejtip.com",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.provisionfda.com/post/how-gen-z-is-recomposing-the-beauty-routine-the-skinimalism-trend",
+      "title": "How Gen Z Is Recomposing the Beauty Routine: The Skinimalism Trend",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.hedgethink.com/the-wellness-economy-is-growing-up-how-consumers-are-changing-the-way-they-invest-in-their-health/",
+      "title": "The Wellness Economy Is Growing Up: How Consumers Are Changing the Way They Invest in Their Health",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.gcimagazine.com/consumers-markets/news/22924131/2025-beauty-strategies-how-brands-can-tap-consumers-value-focus",
+      "title": "2025 Beauty Strategies: How Brands Can Tap Consumers’ Value Focus",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.cosmeticsandtoiletries.com/research/consumers-market/news/22924131/2025-beauty-strategies-how-brands-can-tap-consumers-value-focus",
+      "title": "2025 Beauty Strategies: How Brands Can Tap Consumers’ Value Focus",
+      "snippet": ""
+    },
+    {
+      "url": "https://reelmind.ai/blog/ai-generated-beauty-tips-look-your-best",
+      "title": "AI-Generated Beauty Tips: Look Your Best",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/state-of-beauty",
+      "title": "State of Beauty industry trends 2026 | McKinsey",
+      "snippet": ""
+    },
+    {
+      "url": "https://pmarketresearch.com/worldwide-beauty-skin-rejuvenation-pen-market-research/",
+      "title": "Worldwide Beauty Skin Rejuvenation Pen Market 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://aboutbrazilmr.com/author/femo/feed/",
+      "title": "Felipe Carvalho, Autor em About Brazil Market Research",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.emarketer.com/content/ai-search-reshapes-beauty-brand-discovery",
+      "title": "AI search reshapes beauty brand discovery",
+      "snippet": ""
+    },
+    {
+      "url": "https://discovery.researcher.life/topic/influence-of-beauty/954345?page=1&topic_name=Influence Of Beauty",
+      "title": "Beauty Influencers Research Articles",
+      "snippet": ""
+    },
+    {
+      "url": "https://en.radartecnologico.com/multiple-voices-reshape-credibility-in-the-beauty-industry/",
+      "title": "Multiple voices reshape credibility in the beauty industry",
+      "snippet": ""
+    },
+    {
+      "url": "https://discovery.researcher.life/topic/dermatologic-care/3743461?page=1",
+      "title": "Dermatologic Care Research Articles",
+      "snippet": ""
+    },
+    {
+      "url": "https://discovery.researcher.life/topic/skincare-routines/382126?page=1&topic_name=Skincare Routines",
+      "title": "Skin Care Routines Research Articles - R Discovery",
+      "snippet": ""
+    },
+    {
+      "url": "https://discovery.researcher.life/topic/influence-of-beauty/954345?page=1",
+      "title": "Beauty Influencers Research Articles - R Discovery",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.citedrive.com/en/discovery/the-influence-of-social-media-on-public-attitudes-and-behaviors-towards-cosmetic-dermatologic-procedures-and-skin-care-practices-a-study-in-saudi-arabia/",
+      "title": "The influence of social media on public attitudes and behaviors towards cosmetic dermatologic procedures and skin care practices: A study in Saudi Arabia",
+      "snippet": ""
+    },
+    {
+      "url": "https://discovery.researcher.life/topic/behavior-of-media/10191915?page=6",
+      "title": "Behavior Of Media Research Articles - R Discovery",
+      "snippet": ""
+    },
+    {
+      "url": "https://assets.ctfassets.net/xpbu77rkft4z/5ZoaxGoVZps8DaIZmoLGeA/cd6ee2d8ac19f049c781b16564a2608e/CONS_Report_Health___Beauty_Study_2023.pdf",
+      "title": "Health & Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://docs.cohley.com/hubfs/Insights/Skincare%20Vertical%20Survey%20Results.pdf",
+      "title": "Skincare Vertical Survey Results",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.researchgate.net/publication/346648936_The_Influence_of_Modern_Social_Media_on_Dermatologist_Selection_by_Patients",
+      "title": "(PDF) The Influence of Modern Social Media on Dermatologist Selection by Patients",
+      "snippet": ""
+    },
+    {
+      "url": "https://assets.ctfassets.net/xpbu77rkft4z/3uXeIrV2GEW2TPIQ1weTr4/e39f8dfadc5aed2bdfb8c1006b8b9ac7/CONS_Report_Health_and_Beauty_Survey_Fall_2024_FINAL.pdf",
+      "title": "H E A LT H & B E AU T Y A N N UA L S U R V EY",
+      "snippet": ""
+    },
+    {
+      "url": "https://americantalk.live/the-top-impulse-buys-americans-regret-most-study-reveals/",
+      "title": "The top impulse buys Americans regret most – study reveals",
+      "snippet": ""
+    },
+    {
+      "url": "https://timesnewsnetworks.com/the-top-impulse-buys-americans-regret-most-study-reveals/",
+      "title": "The top impulse buys Americans regret most – study reveals",
+      "snippet": ""
+    },
+    {
+      "url": "https://journalinformetrics.com/wp-content/uploads/2026/01/2.pdf",
+      "title": "FACTORS INFLUENCING IMPULSIVE BUYING BEHAVIOR: AN EMPIRICAL STUDY OF CONSUMERS’ PURCHASE INTENTIONS TOWARD OFFLINE BEAUTY",
+      "snippet": ""
+    },
+    {
+      "url": "https://postgoo.com/posts/6a1983d3cafdd134cef0518c?type=article",
+      "title": "Planned and Impulse Buying Statistics: What Makes a Consumer Decide to Purchase?",
+      "snippet": ""
+    },
+    {
+      "url": "https://partnercentric.com/blog/impulse-buying-statistics/",
+      "title": "Consumer Behavior Survey & Statistics | PartnerCentric",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.igd.com/commercial-insight/shoppervista/articles/a-deep-dive-into-the-health-and-beauty-mission/72924",
+      "title": "A deep dive into the health and beauty mission",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.contouredcontent.com/blog-post-2.html",
+      "title": "The Economics Behind Beauty's Longer Buying Journey",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.deloitte.com/us/en/insights/industry/retail-distribution/consumer-behavior-trends-state-of-the-consumer-tracker/splurge-spending-inflation-lipstick-index.html",
+      "title": "Understanding splurge spending | Deloitte Insights",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.thefreelibrary.com/Beauty+shoppers+exhibit+some+surprising+behavior.-a0221849391",
+      "title": "Beauty shoppers exhibit some surprising behavior. - Free Online Library",
+      "snippet": ""
+    },
+    {
+      "url": "https://cosmeticsdesign.com/Article/2021/11/03/Holiday-shoppers-looking-to-buy-more-cosmetics-value-environmental-impact-Survey/",
+      "title": "Holiday shoppers looking to buy more cosmetics, value environmental impact: Survey",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.aims-international.org/aims17/17ACD/PDF/A267-Final.pdf",
+      "title": "Factors Affecting Impulse Buying of Beauty Products",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.amraandelma.com/consumer-impulse-buying-statistics/",
+      "title": "TOP 20 CONSUMER IMPULSE BUYING STATISTICS 2026 REVEAL SHOCKING SPENDING TRIGGERS",
+      "snippet": ""
+    },
+    {
+      "url": "http://assets.ctfassets.net/wowgx05xsdrr/3cMiyeTvi4UPEDoU0iJA70/5bc1905da341768387adb77967999dbc/BigCommerce-en-AU-subscription.pdf",
+      "title": "Unlock the Power of Ecommerce",
+      "snippet": ""
+    },
+    {
+      "url": "https://pdf.marketpublishers.com/stratistics/subscription-replenishment-market-strat.pdf",
+      "title": "Subscription Replenishment Market Forecasts to 2034 – Global Analysis By Product Category (Beauty & Personal Care, Food & Beverages, Health & Wellness, Household Essentials & Cleaning Supplies, Pet Food & Pet Care, Baby & Kids Essentials, Grooming & Hygiene Products, Apparel Basics, Office & Workplace Consumables, and Other Product Categories), Delivery Frequency, Business Model, Platform Type, Payment Model, Customer Type, End User Industry, and By Geography",
+      "snippet": ""
+    },
+    {
+      "url": "https://mail.mockandassociates.com/beauty-customer-satisfaction-form-0646/",
+      "title": "Beauty and Lifestyle Subscription Services: A Modern Retailing Format for the Vigilante Collaborative Consumption Consumer",
+      "snippet": ""
+    },
+    {
+      "url": "https://fluentcommerce.com/wp-content/uploads/Fluent-OMS-Beauty-Retail-Guide.pdf",
+      "title": "BEAUTY",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.booyah.com/wp-content/uploads/securepdfs/2026/09/booyah-advertising-beauty-ebook.pdf",
+      "title": "Retail : Made for beauty ",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ordergroove.com/wp-content/uploads/2021/02/beautymatter-salvation-with-subscriptions.pdf",
+      "title": "Beauty Brands Are Finding Salvation with Subscriptions  - BeautyMatter",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.cfr.solutions/wp-content/uploads/2026/04/6.pdf",
+      "title": "PowerPoint Presentation",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.luxurydaily.com/wp-content/uploads/pdf_cache/2/9/0/1/5/3/290153.pdf",
+      "title": "Luxury Daily",
+      "snippet": ""
+    },
+    {
+      "url": "https://diamondlogistics.co.uk/objects/public/diamond-logistics/assets/files/beauty-product-fulfilment-guide.pdf",
+      "title": "the 2023 guide to beauty product fulfilment",
+      "snippet": ""
+    },
+    {
+      "url": "https://starshipit.com/reports/Beauty%20and%20Cosmetics/Starshipit_Beauty_Cosmetics_Ebook.pdf",
+      "title": "| Introduction |  |",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.dubaiwholesalestore.com/blogs/news/the-rise-of-skinimalism-why-less-is-more-in-skincare",
+      "title": "The Rise of Skinimalism: Why Less is More in Skincare",
+      "snippet": ""
+    },
+    {
+      "url": "https://drugstorenews.com/beauty-trends-2026-consumers-demand-skinimalism-holistic-wellness",
+      "title": "Beauty trends 2026: Consumers demand ‘skinimalism,’ holistic wellness",
+      "snippet": ""
+    },
+    {
+      "url": "https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game",
+      "title": "The Art of Effortless: Simplifying Your Beauty Game",
+      "snippet": ""
+    },
+    {
+      "url": "https://wire.expertini.com/article/kizen-launches-in-the-u-s-redefining-men-s-skincare-with-japanese-inspired-skinimalism--2025-09-29/",
+      "title": "KIZEN Launches in the U.S., Redefining Men's Skincare with Japanese-Inspired 'Skinimalism'",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/skinimalism-products-trend",
+      "title": "Skinimalism Products Trend 2025: What's In & Out?",
+      "snippet": ""
+    },
+    {
+      "url": "https://yoursite.51degrees.com/www.numerator.com/wp-content/uploads/2025/09/Numerator_The-Rise-of-Skinimalism-and-Makeup-with-Benefits.pdf",
+      "title": "2023 Numerator Deck Template",
+      "snippet": ""
+    },
+    {
+      "url": "https://shop.nielseniq.com/?download_file=316252&order=wc_order_prAU1cYVVt6DX&uid=f0dd84fda97b6588eea543de70ec3da4ab7741323acd67360b7da9b0f6d7298e&key=1329aaa2-ddc6-488e-91e6-41c04c11b95b",
+      "title": "Simplifying Skin Routines",
+      "snippet": ""
+    },
+    {
+      "url": "https://thewomenspost.com/rise-of-skinimalism-simplified-skincare-2026/",
+      "title": "The Rise of Skinimalism: Why Simplified Skincare Dominates 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionnewzroom.com/2025-beauty-trends-skinimalism-and-no-makeup-makeup/",
+      "title": "2025 Beauty Trends: Skinimalism and ‘No-Makeup’ Makeup",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.cellinique.com/en/blog/minimalism-skincare-trend-guide",
+      "title": "Skinimalism Skincare: How to Cut Back and What to Keep",
+      "snippet": ""
+    },
+    {
+      "url": "https://beauty.supportarchive.com/2026/03/youre-doing-k-beautyall-wrong_01939298605.html",
+      "title": "Common K-Beauty Routine Mistakes (and What Koreans Do Instead)",
+      "snippet": ""
+    },
+    {
+      "url": "https://kingofhearts99.blogspot.com/2024/09/Skinimalism-The%202024%20Beauty%20Trend.html",
+      "title": "Skinimalism: The 2024 Beauty Trend Americans Are Obsessed With",
+      "snippet": ""
+    },
+    {
+      "url": "https://5ec3d13d8306d.site123.me/blog/what-drives-cosmetic-purchases-in-the-us-consumer-insights-explained",
+      "title": "What Drives Cosmetic Purchases in the U.S.? Consumer Insights Explai...",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.bcg.com/publications/2026/consumers-shape-a-new-age-of-optimization-in-beauty",
+      "title": "Consumers Shape a New Age of Optimization in Beauty | BCG",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20261102856593/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International",
+      "title": "Efficacy Overtakes Novelty as Key Driver of Ingredient Value: Euromonitor International",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20261102502927/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International",
+      "title": "Efficacy Overtakes Novelty as Key Driver of Ingredient Value: Euromonitor International",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260528890231/en",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.packagingtechtoday.com/news-headlines/consumers-want-sustainable-packaging-without-the-trade-offs/",
+      "title": "Packaging Technology Today",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.grandviewresearch.com/voice-of-consumer/us-perfumes-fragrances-deodorants-category-insights",
+      "title": "U.S. Perfumes, Fragrances & Deodorants Category | Voice of Consumer Report",
+      "snippet": ""
+    },
+    {
+      "url": "https://massmarketretailers.com/survey-reveals-what-consumers-want-in-health-and-beauty-packaging/",
+      "title": "Survey reveals what consumers want in health and beauty packaging",
+      "snippet": ""
+    },
+    {
+      "url": "https://ai.updf.com/paper-detail/the-dual-approach-in-the-sunscreen-market-consumer-behavior-analysis-tam-uyen-a4eead03acab6ac5bc0f1c396517d0e1b1b0730b",
+      "title": "The Dual Approach in the Sunscreen Market: Consumer Behavior Analysis Using PLS-SEM and Product Improvement Using Taguchi Based on the Six Sigma Model",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+      "title": "5 Factors Influencing Readers' Shopping Decisions",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "snippet": ""
+    },
+    {
+      "url": "https://mediabrief.com/ai-recommendations-influence-beauty-purchases/",
+      "title": "Criteo: AI recommendations influence beauty purchases",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/wp-content/uploads/2026/06/2026-Global-Health-Beauty-Pulse.pdf",
+      "title": "Health & Beauty Pulse 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.passionateinmarketing.com/health-beauty-shoppers-increasingly-turn-to-ai-for-product-discovery-and-restocking-criteo-study-reveals/",
+      "title": "Criteo Study Highlights AI Beauty Shopping Trends",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/cpg-research-2026/",
+      "title": "Fresh CPG research reveals what’s filling carts in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/industry/beauty/",
+      "title": "Solutions for Beauty brands | Criteo",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/wp-content/uploads/2026/09/Global-CPG-Pulse-2026.pdf",
+      "title": "CPG Pulse 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/resources/",
+      "title": "Digital Advertising Resources | Criteo",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/page/3/?s=shopping+report&submit=search",
+      "title": "You searched for shopping report | Page 3 of 14 | Criteo",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/beauty-breakthrough-5-shopper-trends-shaping-the-future-of-marketing/",
+      "title": "Beauty breakthrough: 5 shopper trends shaping the future of marketing",
+      "snippet": ""
+    },
+    {
+      "url": "https://future.criteo.com/resources/",
+      "title": "Digital Advertising Resources | Criteo",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.adin.ai/marketing-radar/reports/library/2025-msit-press-release-3-year-results-table/",
+      "title": "2025 인터넷이용실태조사 결과 발표 (MSIT press release, 3-year results table)",
+      "snippet": ""
+    }
+  ],
+  "inline_citations": [
+    {
+      "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/a-close-look-at-the-global-beauty-industry-in-2025",
+      "title": "The future of the beauty industry in 2025 and beyond | McKinsey"
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search"
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds"
+    },
+    {
+      "url": "https://en.redtram.com/lifestyle/623973004/",
+      "title": "Who’s Really Influencing the Way You Shop for Beauty?"
+    },
+    {
+      "url": "https://www.happi.com/exclusives/the-changing-face-of-skincare-loyalty/",
+      "title": "The Changing Face of Skincare Loyalty"
+    },
+    {
+      "url": "https://www.newbeauty.com/view/factors-influencing-readers-skin-care-shopping-decisions",
+      "title": "5 Factors Influencing Readers' Shopping Decisions"
+    },
+    {
+      "url": "https://www.mintel.com/insights/consumer-research/convenience-as-the-new-consumer-currency/",
+      "title": "Convenience as the New Consumer Currency"
+    },
+    {
+      "url": "https://www.emarketer.com/content/consumers-still-value-convenience-but-not-any-price",
+      "title": "Consumers still value convenience—but not at any price"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20261102856593/en/Efficacy-Overtakes-Novelty-as-Key-Driver-of-Ingredient-Value-Euromonitor-International",
+      "title": "Efficacy Overtakes Novelty as Key Driver of Ingredient Value: Euromonitor International"
+    },
+    {
+      "url": "https://WWW.EUROMONITOR.COM/article/the-art-of-effortless-simplifying-your-beauty-game",
+      "title": "The Art of Effortless: Simplifying Your Beauty Game"
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/us-eye-color-cosmetics-market-report",
+      "title": "U.S. Eye Color Cosmetics Market Size & Share Report, 2033"
+    },
+    {
+      "url": "https://intel.morningconsult.com/mc-content/analysis/shopper-product-choice-research",
+      "title": "How Having Too Much Choice Impacts Consumer Experience"
+    },
+    {
+      "url": "https://www.revieve.com/insider/articles/beauty-decision-fatigue-ai-personalization",
+      "title": "Beauty Decision Fatigue Is Real - Here’s How AI Is Fixing It"
+    },
+    {
+      "url": "https://cxm.world/customer-experience/overwhelmed-shoppers-are-a-cx-red-flag-for-beauty-retail/",
+      "title": "Overwhelmed Shoppers Are a CX Red Flag for Beauty Retail"
+    }
+  ],
+  "citation_method": "annotations",
+  "citation_map": [],
+  "usage": {
+    "input_tokens": 1160877,
+    "input_tokens_details": {
+      "cached_tokens": 1018445
+    },
+    "output_tokens": 15371,
+    "output_tokens_details": {
+      "reasoning_tokens": 6057
+    },
+    "total_tokens": 1176248
+  }
+}

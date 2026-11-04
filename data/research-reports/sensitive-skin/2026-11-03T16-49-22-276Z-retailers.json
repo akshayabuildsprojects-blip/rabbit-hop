@@ -1,0 +1,1430 @@
+{
+  "persona_id": "sensitive-skin",
+  "research_date": "2026-11-03",
+  "performed_at": "2026-11-03T16:49:22.276Z",
+  "model": "muse-spark-1.3",
+  "response_id": "resp_6aea1093c2db4e8029ff412f",
+  "web_search_calls": 35,
+  "report_text": "Sensitive-skin shopping hinges on proof — I'm mapping the verified Sephora and Ulta tools your persona would rely on.\n\nI've charted the loyalty structures and clean beauty standards — now digging into try-on tools, samples, and trust signals.\n\nEarly findings lean on non-US pages, which don't apply here — I'm refocusing on verified US sources for both retailers.\n\nI've gathered the core feature evidence — now pulling the exact US pages to anchor every claim.\n\nCore US product and policy pages are verified — now capturing the final discovery and loyalty sources.\n\nI've secured the loyalty and safety data — now confirming the ingredient display details to complete the picture.\n\n## 1. Sephora: site features and shopping tools\n\n- Full ingredient disclosure on product detail pages, with Highlighted Ingredients plus full INCI list and note to check packaging for changes. **[Retailer-specific]** ([Aim High Cream Highlighter Stick - LYS Beauty | Sephora](https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937))\n- Clean at Sephora commitment described as offering effective products without certain ingredients such as parabens, sulfates, phthalates and mineral oils. **[Retailer-specific]** ([Aim High Cream Highlighter Stick - LYS Beauty | Sephora](https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937))\n- Trending Products curation that frames products taking social media by storm, useful as a cue to verify rather than proof of suitability. **[Retailer-specific]** ([Trending Products | Sephora](https://www.sephora.com/beauty/trending-products))\n- Ratings & Reviews displayed with aggregate rating and review count, plus Beauty Insider Community for looks, reviews and Questions & Answers with other shoppers. **[Retailer-specific]** ([Aim High Cream Highlighter Stick - LYS Beauty | Sephora](https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937)) ([Beauty Insider Community FAQs](https://community.sephora.com/))\n- Virtual Artist augmented-reality try-on that scans selfie image to place lipstick, eyeshadow, highlighter and false lashes. **[Retailer-specific]** ([7 Brands Using Virtual Try-On Tech to Boost Sales](https://www.threekit.com/))\n- Auto-Replenish with 5% off, Same-Day Delivery and Buy Online & Pick Up fulfillment choices shown on product pages. **[Retailer-specific]** ([Aim High Cream Highlighter Stick - LYS Beauty | Sephora](https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937))\n- Beauty Insider free three-tier loyalty program earning 1 point per dollar, with Insider, VIB at $350/year and Rouge at $1,000/year and cash redemptions starting at 500 points for $10 off and Rewards Bazaar samples. **[Retailer-specific]** ([Sephora Beauty Insider: How the Loyalty Program Works in 2026](https://www.99minds.io/blog/sephoras-beauty-insider/))\n\n## 2. Ulta Beauty: site features and shopping tools\n\n- Product pages show Key Ingredients summaries and full Ingredients lists with rating and review count, for example niacinamide and antioxidant listing and 4.5 rating from 22 reviews. **[Retailer-specific]** ([ICONIC LONDON - Filter Fix Prep Set Blur Setting Spray | Ulta Beauty](https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2))\n- Conscious Beauty at Ulta Beauty transparency framework to identify Clean Ingredients, Cruelty Free, Vegan and Sustainable Packaging brands and products. **[Retailer-specific]** ([Conscious Beauty | Ulta Beauty](https://www.ulta.com/conscious-beauty/))\n- Clean Ingredients pillar defined as brand certification that they comply with Ulta Beauty Made Without List considering human and environmental health impact. **[Retailer-specific]** ([Conscious Beauty | Ulta Beauty](https://www.ulta.com/conscious-beauty/))\n- New Beauty Products / New Arrivals assortment pages plus prestige, drugstore, K-beauty and wellness breadth, enabling familiar versus new comparison in one basket. **[Retailer-specific]** ([New Beauty Products | Ulta Beauty](https://www.ulta.com/new-beauty-products/))\n- GLAMLab virtual try-on in the app for thousands of products including lipsticks, eyeliners, foundations and eyeshadows, plus foundation matching, hair-color try-on and AI skin analysis. **[Retailer-specific]** ([How Ulta Beauty is giving omnichannel retail a fresh face | Google Cloud Blog](https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai))\n- Ulta Beauty Rewards free loyalty program with Member 1 point per $1, Platinum 1.25 at $500/year and Diamond 1.5 at $1,200/year, redeemable from 100 points for $3.00 up to 2,000 points for $125.00. **[Retailer-specific]** ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n- Tightened US return window to 30 days for full refund with 31-60 days merchandise credit only, applying to new or gently used products. **[Retailer-specific]** ([Sephora and Ulta tighten returns policies](https://trending.thestreet.com/))\n\n## 3. Retailer-specific evidence on how shoppers discover, evaluate and buy\n\n- Discovery often begins with creator content on TikTok or Instagram, then shoppers head to Google or YouTube to learn about ingredients and compare claims, then to retailer PDPs on Sephora or Ulta to read reviews and check price. **[Retailer-specific]** ([Beauty and Skincare Marketing Trends 2027](https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027))\n- 92% of shoppers use ratings and reviews on product pages, making PDP reviews a central evaluation checkpoint at both retailers. **[General beauty retail]** ([Beauty and Skincare Marketing Trends 2027](https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027))\n- Social creates early demand while retail media and PDP proof points such as clinical data, ingredient clarity, reviews and dermatologist support shape conversion more than polished brand claims. **[General beauty retail]** ([Beauty and Skincare Marketing Trends 2027](https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027))\n- US consumers increasingly prefer dermatologically and scientifically backed formulations over brand authority, trusting dermatologists advice at 57%, consumer reviews at 46% and scientific literature at 42%, versus 26% strongly influenced by brand image. **[General beauty retail]** ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html))\n- Only 15% fully trust clean beauty claims, so Clean at Sephora and Conscious Beauty badges function as starting filters requiring further ingredient verification. **[General beauty retail]** ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html))\n- Adverse experiences drive defection: 67% would stop using a favorite if it contained a potentially harmful ingredient, 50% would discontinue and seek safer alternative, and 46% had stopped buying certain brands because of ingredients. **[General beauty retail]** ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html))\n- Physical trial remains sensory validation, but 92% research online while in brick-and-mortar store, scanning reviews and comparing ingredients on phones. **[General beauty retail]** ([Beauty and Skincare Marketing Trends 2027](https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027))\n\n## 4. How this persona's traits show up at Sephora\n\n- Treats Trending Products as cue only, then verifies full ingredients and Highlighted Ingredients on the PDP before considering novelty, consistent with trend_sensitivity 0.30 and novelty_seeking 0.15. **[Inference]** ([Trending Products | Sephora](https://www.sephora.com/beauty/trending-products)) ([Aim High Cream Highlighter Stick - LYS Beauty | Sephora](https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937))\n- Filters detailed reviews for irritation, redness, burning or fragrance sensitivity and weighs relevant adverse reports heavily before unfamiliar trial, reflecting research_depth 0.90 and low impulse_buying 0.10. **[Inference]** ([Aim High Cream Highlighter Stick - LYS Beauty | Sephora](https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937))\n- Checks Clean at Sephora status but does not treat it as guarantee, cross-checking fragrance disclosure because Clean allows restricted synthetic fragrance under 1% and dermatologists note hypoallergenic has very little meaning. **[Inference]** ([Aim High Cream Highlighter Stick - LYS Beauty | Sephora](https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937)) ([\"Hypoallergenic\" Cosmetics | FDA](http://www.fda.gov/cosmetics/cosmetics-labeling-claims/hypoallergenic-cosmetics))\n- Uses Community Q&A and Gallery to find similar-concern peers and asks for tolerability context rather than relying on influencer endorsement, matching influencer_trust 0.25. **[Inference]** ([Beauty Insider Community FAQs](https://community.sephora.com/))\n- Prefers repurchase of tolerated familiar option via Auto-Replenish 5% off, requiring stronger verified suitability evidence to switch, expressing brand_loyalty 0.80. **[Inference]** ([Aim High Cream Highlighter Stick - LYS Beauty | Sephora](https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937))\n- Rejects hypoallergenic-labeled premium blush if PDP lacks complete fragrance breakdown, because FDA has no federal standards governing hypoallergenic and manufacturers need not submit substantiation. **[Inference]** ([\"Hypoallergenic\" Cosmetics | FDA](http://www.fda.gov/cosmetics/cosmetics-labeling-claims/hypoallergenic-cosmetics))\n- Evaluates prestige price without assuming better tolerability, justifying paying more only when transparency plus dermatologist, scientific or detailed reviewer validation confirms suitability, reflecting price_sensitivity 0.55 and prestige_priority 0.15. **[Inference]** ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html))\n\n## 5. How this persona's traits show up at Ulta Beauty\n\n- Starts from need or replacement, then inspects Key Ingredients and full Ingredients sections for fragrance, dyes and known irritants before adding to bag. **[Inference]** ([ICONIC LONDON - Filter Fix Prep Set Blur Setting Spray | Ulta Beauty](https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2))\n- Uses Conscious Beauty Clean Ingredients certification as initial transparency signal, then checks Made Without List compliance and actual formula because certification is brand-attested. **[Inference]** ([Conscious Beauty | Ulta Beauty](https://www.ulta.com/conscious-beauty/))\n- Compares familiar tolerated product against unfamiliar new launch across mass and prestige in same cart, weighing formulation story and clinical proof over price or virality. **[Inference]** ([New Beauty Products | Ulta Beauty](https://www.ulta.com/new-beauty-products/))\n- Treats GLAMLab shade or finish preview as irrelevant to irritation risk and still requires ingredient and review checks, keeping convenience_priority 0.35 subordinate to product_quality_priority 0.85. **[Inference]** ([How Ulta Beauty is giving omnichannel retail a fresh face | Google Cloud Blog](https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai))\n- Defers when PDP shows missing or packaging-may-vary ingredients, or when review cluster reports stinging, rash or eye irritation, consistent with high risk aversion expressed through research and deferral rules. **[Inference]** ([ICONIC LONDON - Filter Fix Prep Set Blur Setting Spray | Ulta Beauty](https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2)) ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html))\n- Consolidates verified repurchases in Ulta Beauty Rewards for value on daily-use cleanser, moisturizer and similar high-exposure categories, since 85% of surveyed categories are used daily by at least one-third and 78% will pay more for safer formulations. **[Inference]** ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all)) ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html))\n\n## 6. Sephora versus Ulta Beauty for this persona\n\n- Ingredient transparency mechanics are comparable: both show PDP ingredient sections, but neither was verified to offer irritation-specific review filters, so manual keyword searching for irritation is required in both. **[Retailer-specific]** ([Aim High Cream Highlighter Stick - LYS Beauty | Sephora](https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937)) ([ICONIC LONDON - Filter Fix Prep Set Blur Setting Spray | Ulta Beauty](https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2))\n- Clean signaling differs: Sephora frames as without certain ingredients, Ulta frames as Clean Ingredients plus Cruelty Free, Vegan, Sustainable Packaging and Give Back pillars, neither equating to sensitive-skin suitability. **[Retailer-specific]** ([Aim High Cream Highlighter Stick - LYS Beauty | Sephora](https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937)) ([Conscious Beauty | Ulta Beauty](https://www.ulta.com/conscious-beauty/))\n- Assortment breadth favors Ulta for price-anchored comparison of premium sensitive-positioned versus cheaper comparable, while Sephora skews prestige and supports prestige-versus-prestige tolerability comparison. **[Inference]** ([New Beauty Products | Ulta Beauty](https://www.ulta.com/new-beauty-products/)) ([Trending Products | Sephora](https://www.sephora.com/beauty/trending-products))\n- Peer validation differs: Sephora offers Community Q&A and Gallery for detailed peer context, Ulta leans on PDP ratings and broader mass-prestige review volume, both requiring skepticism toward viral claims. **[Retailer-specific]** ([Beauty Insider Community FAQs](https://community.sephora.com/)) ([ICONIC LONDON - Filter Fix Prep Set Blur Setting Spray | Ulta Beauty](https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2))\n- Try-on relevance is low for this persona in both: Virtual Artist and GLAMLab show color and finish but do not test tolerability or predict irritation. **[Retailer-specific]** ([7 Brands Using Virtual Try-On Tech to Boost Sales](https://www.threekit.com/)) ([How Ulta Beauty is giving omnichannel retail a fresh face | Google Cloud Blog](https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai))\n- Risk buffer is now similar and tighter: both allow 30 days for full refund on gently used products, with Ulta offering 31-60 days merchandise credit, reducing willingness to experiment without verification. **[Retailer-specific]** ([Sephora and Ulta tighten returns policies](https://trending.thestreet.com/))\n- Loyalty value favors consolidation after suitability is proven: Sephora converts at 500 points for $10 off, Ulta scales from 100 points for $3.00 to 2,000 points for $125.00, rewarding repeat of tolerated staples rather than driving novelty trial. **[Retailer-specific]** ([Sephora Beauty Insider: How the Loyalty Program Works in 2026](https://www.99minds.io/blog/sephoras-beauty-insider/)) ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n\n## 7. Evidence quality and gaps\n\n- Strongest evidence is retailer-owned US PDP and program pages confirming ingredient sections, Clean frameworks, ratings display, try-on and loyalty mechanics. **[General beauty retail]** ([Conscious Beauty | Ulta Beauty](https://www.ulta.com/conscious-beauty/)) ([Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty](https://www.ulta.com/rewards/all))\n- Strong US regulatory evidence clarifies that hypoallergenic has no federal definition and requires no substantiation, directly supporting rejection of unverified safety labeling. **[General beauty retail]** ([\"Hypoallergenic\" Cosmetics | FDA](http://www.fda.gov/cosmetics/cosmetics-labeling-claims/hypoallergenic-cosmetics))\n- Strong US survey of 1,700 consumers documents safety over brand image, low trust in clean claims, reliance on dermatologists and reviews, adverse-reaction prevalence and willingness to pay more for safer formulations. **[General beauty retail]** ([US beauty consumers prioritize ingredient transparency over brand image](https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html))\n- Moderate evidence on journey orchestration from US trade press synthesizing PowerReviews, NIQ and creator studies, but figures vary by study and year and were not independently verified. **[General beauty retail]** ([Beauty and Skincare Marketing Trends 2027](https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027))\n- No verified evidence found that either retailer offers review filtering by sensitive skin, irritation keywords, or fragrance sensitivity, nor that either discloses full EU fragrance allergens consistently on US PDPs. **[Inference]** ([Aim High Cream Highlighter Stick - LYS Beauty | Sephora](https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937)) ([ICONIC LONDON - Filter Fix Prep Set Blur Setting Spray | Ulta Beauty](https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2))\n- No retailer-specific public data found on sensitive-skin segment conversion, returns due to irritation, or dermatologist content effectiveness on Sephora or Ulta. **[Inference]** ([Beauty and Skincare Marketing Trends 2027](https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027))\n- Regional Sephora help and product pages were excluded per US-only scope, and return-policy details rely on secondary US press because official policy pages were not retrieved in search. **[General beauty retail]** ([Sephora and Ulta tighten returns policies](https://trending.thestreet.com/))",
+  "annotations": [],
+  "sources": [
+    {
+      "url": "https://www.99minds.io/blog/sephoras-beauty-insider/",
+      "title": "Sephora Beauty Insider: How the Loyalty Program Works in 2026"
+    },
+    {
+      "url": "https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2",
+      "title": "ICONIC LONDON -  Filter Fix Prep Set Blur Setting Spray | Ulta Beauty"
+    },
+    {
+      "url": "https://www.ulta.com/conscious-beauty/",
+      "title": "Conscious Beauty | Ulta Beauty"
+    },
+    {
+      "url": "https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai",
+      "title": "How Ulta Beauty is giving omnichannel retail a fresh face | Google Cloud Blog"
+    },
+    {
+      "url": "https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027",
+      "title": "Beauty and Skincare Marketing Trends 2027"
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image"
+    },
+    {
+      "url": "http://www.fda.gov/cosmetics/cosmetics-labeling-claims/hypoallergenic-cosmetics",
+      "title": "\"Hypoallergenic\" Cosmetics | FDA"
+    }
+  ],
+  "considered_results": [
+    {
+      "url": "https://www.sephora.com/product/henry-rose-fragrance-sampler-set-P522092?skuId=2960821&om_mmc=paid_social_Facebook_DPA",
+      "title": "Henry Rose Discovery Set ft. London 1983 with Fig + Musk - Henry Rose | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://nightingaledvs.com/what-the-label-wont-tell-you/",
+      "title": "What the Label Won’t Tell You",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.daserv.com/sephora-vendor-compliance-guide/",
+      "title": "Sephora Vendor Compliance Guide: What to Know with 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/p/sephora-collection-cream-lip-stain-P1000215841",
+      "title": "Sephora Collection Cream Lip Stain",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/p/fenty-beauty-gloss-bomb-stix",
+      "title": "Fenty Beauty Gloss Bomb Stix",
+      "snippet": ""
+    },
+    {
+      "url": "https://skinsort.com/products/sephora-collection/best-skin-ever-foundation-stick",
+      "title": "Sephora Collection Best Skin Ever Foundation Stick (Ingredients",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/p/sol-de-janeiro-cheirosa-59-intense-mist",
+      "title": "Sol de Janeiro Cheirosa '59 Intense Mist 90ml",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/p/tatcha-the-little-luxuries",
+      "title": "TATCHA The Little Luxuries SET",
+      "snippet": ""
+    },
+    {
+      "url": "https://skinsignal.com/products/sephora-collection-total-purity-and-cleanser-gel",
+      "title": "SEPHORA COLLECTION Total Purity & Cleanser Gel Ingredients",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.co.uk/p/color-wow-raise-the-root-thicken-lift-spray",
+      "title": "Color Wow Raise The Root Thicken & Lift Spray 150ml",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.inside-sephora.com/sites/default/files/2025-10/Sephora-Public-Chemicals-Policy-3rd-Progress-Update-2022.pdf",
+      "title": "S e p h o r a P u b l i c C h e m i c a l s P o l i c y 2022 P r o g r e s s U p d a t e",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.cosmeticsandtoiletries.com/news/companies/news/22578182/compress&dpr=2",
+      "title": "Class Action Alleges 'Clean at Sephora' Misleads Consumers",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.beautydecoded.com/en/brands/sephora/",
+      "title": "Sephora Reviews: AI Score and Reviews from 50,000 Beauty Decoders (2026)",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.wardrobeoxygen.com/sephora-fall-savings-event/",
+      "title": "Sephora Sale Picks: My Tried-and-True Beauty Favorites",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.influenster.com/reviews/sephora-collection-creamy-body-wash-vanilla/reviews",
+      "title": "SEPHORA COLLECTION Creamy Body Wash Vanilla Reviews | Find the Best Skin Products | Influenster",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kohls.com/product/prd-7686575/sephora-collection-resurfacing-serum.jsp?skuid=48517633",
+      "title": "SEPHORA COLLECTION Resurfacing Serum",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.influenster.com/reviews/sephora-collection-clarifying-peel-pads-60-pads/reviews",
+      "title": "SEPHORA COLLECTION Clarifying Peel Pads 60 Pads Reviews | Find the Best Skin Care Masks & Peels Products | Influenster",
+      "snippet": ""
+    },
+    {
+      "url": "http://sephora.com/buy/mild-exfoliator-for-sensitive-skin?icid2=seop_relatedlinks",
+      "title": "Mild Exfoliator For Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.sa/en/p/Reveal-Skin-Optimizing-Foundation-713355.html",
+      "title": "PRADA | Reveal Skin Optimizing Foundation",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.hwahae.com/en/brand/sephoracollection/best-for-sensitive-skin",
+      "title": "All sephoracollection Products for Sensitive Skin Ranked by User Reviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://irecommend.reviews/reviews/skin-care/sephora-creme-legere-activatrice-dhydratation-instant-moisturizer/face-moisturizer",
+      "title": "Sephora Creme Legere Activatrice D'hydratation Instant  Moisturizer - «A face moisturizer infused with a hyaluronic acid. My skin feels comfortable with it, because the formula hydrates and deprives from tightened skin. It doesn’t clog pores and will be fine for a combo skin.But…where the hell is the promised hyaluronic acid»  | Consumer reviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-makeup-stores/compare/planet-beauty-vs-sephora.php",
+      "title": "Planet Beauty vs Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2",
+      "title": "ICONIC LONDON -  Filter Fix Prep Set Blur Setting Spray | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/lip-filter-hydroplump-soft-matte-lipstick-pimprod2054242?sku=2646197&pr_rd_page=2",
+      "title": "Morphe - Souffle Lip Filter Hydroplump Soft Matte Lipstick | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/complexion-crush-full-coverage-concealer-pimprod2046565?sku=2617693&pr_rd_page=15",
+      "title": "ULTA Beauty Collection - Light Neutral Complexion Crush Full Coverage Concealer | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/complexion-crush-full-coverage-concealer-pimprod2046565?sku=2617697&pr_rd_page=4",
+      "title": "ULTA Beauty Collection - Medium Warm Complexion Crush Full Coverage Concealer | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/complexion-crush-full-coverage-concealer-pimprod2046565?sku=2617686&pr_rd_page=2",
+      "title": "ULTA Beauty Collection - Dark Cool Complexion Crush Full Coverage Concealer | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/complexion-crush-full-coverage-concealer-pimprod2046565?sku=2617688&pr_rd_page=7",
+      "title": "ULTA Beauty Collection - Deep Cool Complexion Crush Full Coverage Concealer | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "http://toxinfreeish.com/blog/clean-at-sephora/",
+      "title": "Clean Beauty at Sephora: How Clean is it Really?",
+      "snippet": ""
+    },
+    {
+      "url": "https://thefiltery.com/clean-at-sephora/",
+      "title": "Is the \"Clean at Sephora\" Label Just Greenwashing?",
+      "snippet": ""
+    },
+    {
+      "url": "https://sephora.in/page/faqs-clean-sephora",
+      "title": "faqs clean sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautyhealingorganic.com/clean-beauty-sephora-guide/",
+      "title": "The Smart Shopper's Guide to Clean Beauty at Sephora (What the Labels Don't Tell You) - Organic Skincare & Clean Beauty Guide",
+      "snippet": ""
+    },
+    {
+      "url": "https://consciousbunny.com/clean-brands-at-sephora/",
+      "title": "All 120+ Clean Brands At Sephora Who Are Seal Approved",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.buzzsprout.com/2112756/episodes/14696946-is-sephora-s-clean-makeup-actually-clean-3-step-hack-for-reading-cosmetics-labels-ep-60",
+      "title": "Is Sephora's 'Clean' Makeup Actually Clean? 3 Step Hack for Reading Cosmetics Labels✨ Ep. 60",
+      "snippet": ""
+    },
+    {
+      "url": "https://daniela-perego.com/the-best-clean-makeup-hair-care-and-fragrance-at-sephora-now/",
+      "title": "The Best Clean Makeup, Hair Care, and Fragrance at Sephora Now",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.styleatacertainage.com/beauty/clean-fragrance-picks/",
+      "title": "Clean Fragrance Picks – 6 Non-Toxic Scents",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.thezoereport.com/why-these-clean-fragrances-deserve-a-permanent-spot-in-your-beauty-collection",
+      "title": "Why These Clean Fragrances Deserve A Permanent Spot In Your Beauty Collection",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.alibaba.com/product-insights/are-clean-at-sephora-certified-products-actually-free-of-endocrine-disruptors-verified-lab-reports.html",
+      "title": "Are ‘clean At Sephora’ Certified Products Actually Free Of Endocrine Disruptors — Verified Lab Reports",
+      "snippet": ""
+    },
+    {
+      "url": "https://sephoranz.zendesk.com/hc/en-us/articles/35117614394521-What-ingredients-are-Clean-at-Sephora-products-formulated-without",
+      "title": "What ingredients are Clean at Sephora products formulated without?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/lights-camera-lashes-4-in-1-mascara-xlsImpprod2430021?sku=2220240&cmpid=PS_Non!google!Product_Listing_Ads&cagpspn=pla&CATCI=aud-370516521359:pla-308159508376&CAAGID=27584408670&CAWELAID=562839702&catargetid=330000200001423085&cadevice=c&gclid=Cj0KCQjwlv_XBRDrARIsAH-iRJTQnehu5eioIME-tzXUxL3VmHBLUJX5aUY_zL9IyrBINx6hMNB4PIoaAgHdEALw_wcB",
+      "title": "Tarte - Black Lights, Camera, Lashes 4-in-1 Mascara | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/travel-size-lights-camera-lashes-4-in-1-mascara-pimprod2000361?sku2537050",
+      "title": "Tarte - Black Travel Size Lights, Camera, Lashes 4-in-1 Mascara | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/shimmer-body-oil-sun-kissed-glow-pimprod2006392\r",
+      "title": "Anastasia Beverly Hills -  Shimmer Body Oil | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/picture-perfect-eyelash-curler-duo-xlsImpprod2430077?sku=2220262&cmpid=PS_Non%21google%21Product_Listing_Ads&cagpspn=pla&CATCI=pla-1207144965518&CAAGID=133744637932&CAWELAID=562839729&CATARGETID=330000200002831671&CADevice=c&gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF7bNGc3CnsA74xscqRkSj3J7U1f-Awz6JkRBBSaEb8OOcZvHXSetdcaAjEbEALw_wcB&pr_rd_page=1",
+      "title": "Tarte -  Picture Perfect Eyelash Curler Duo | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/makeup-remover-cleansing-towelettes-twin-pack-xlsImpprod12041841?AID=165158&PID=1320707&CID=af_165158_1320707_&clickId=&SubID=best-cyber-monday-skincare-deals&utm_medium=affiliate&utm_source=1320707&utm_campaign=&utm_content=core&irgwc=1",
+      "title": "Neutrogena -  Makeup Remover Cleansing Towelettes, Twin Pack | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/p-xlsImpprod16411139?sku=2512743",
+      "title": "Neutrogena -  Fragrance-Free Makeup Remover Cleansing Towelettes Twin Pack | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/skinactive-micellar-makeup-removing-towelettes-xlsImpprod15541117?sku=2503154",
+      "title": "SkinActive Micellar Makeup Removing Towelettes - Garnier | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/travel-size-makeup-remover-towlettes?productId=xlsImpprod2690159",
+      "title": "Neutrogena -  Travel Size Makeup Remover Cleansing Towelettes | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/makeup-remover-cleansing-towelettes-xlsImpprod13961061?sku=2095841&cmpid=PS_Non!google!Product_Listing_Ads&utm_source=google&utm_medium=paidsearch&cagpspn=pla&CATCI=pla-1898473638669&CAAGID=18002902230&CAWELAID=306032241&CATARGETID=330000200002825550&CADevice=c&gad_source=1&gclid=Cj0KCQjwiYOxBhC5ARIsAIvdH52jAqli0wEGbV0xKhkbDbxe_1_ZGbruArxcGkPRy-FNG7qUWcqXKBwaArFmEALw_wcB",
+      "title": "Neutrogena -  Makeup Remover Cleansing Towelettes | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/makeup-remover-wipes-pimprod2015195",
+      "title": "Honest Beauty -  Makeup Remover Wipes | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/makeup-remover-cleansing-towelettes-singles-pimprod2002068",
+      "title": "Neutrogena -  Makeup Remover Cleansing Towelette Singles | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/real-clean-xl-makeup-removing-cleansing-wipes-pimprod2040226\r",
+      "title": "Real Clean XL Makeup Removing & Cleansing Wipes - Real Techniques | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.99minds.io/blog/sephoras-beauty-insider/",
+      "title": "Sephora Beauty Insider: How the Loyalty Program Works in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.groupon.com/coupons/blog/sephora-beauty-insider-rewards?srsltid=AfmBOoriHj6ZVpdjvpWjQQ1WfpsZ-w8d4RiumnvtzQ9CidT2bX0g_FK2",
+      "title": "Sephora Beauty Insider Rewards Program",
+      "snippet": ""
+    },
+    {
+      "url": "https://wiserreview.com/blog/loyalty-program-examples/",
+      "title": "16 Best loyalty program examples to build customer loyalty in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.trendsicle.com/sales/sephora-beauty-insider-tiers/",
+      "title": "Sephora Beauty Insider Tiers 2026: VIB, Rouge & Reset Date",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.omnisend.com/blog/loyalty-program/",
+      "title": "17 Best Loyalty Program Examples Every Marketer Should Study",
+      "snippet": ""
+    },
+    {
+      "url": "https://thepointsguy.com/loyalty-programs/sephora-beauty-insider",
+      "title": "Sephora Beauty Insider, explained: Is Rouge status worth it?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.rakuten.com/blog/7-proven-ways-to-maximize-sephora-rewards-in-2026/",
+      "title": "7 Proven Ways to Maximize Sephora Rewards in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://tipidnation.com/blog/sephora-beauty-insider-philippines-review",
+      "title": "Sephora Beauty Insider Philippines: Is Membership Worth Joining?",
+      "snippet": ""
+    },
+    {
+      "url": "https://joy.so/blog/sephora-loyalty-program/",
+      "title": "Sephora Loyalty Program: Beauty Insider Breakdown",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.price-scout.app/blog/sephora-beauty-insider-guide",
+      "title": "Sephora Beauty Insider Guide: Tiers, Points and Value | Price Scout",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.atome.my/en-my/blog/sephoras-beauty-insider-rewards-benefits-andexclusive-access",
+      "title": "Sephora’s Beauty Insider: Rewards, Benefits, and Exclusive Access",
+      "snippet": ""
+    },
+    {
+      "url": "https://thesocialcat.com/guides/loyalty-program",
+      "title": "Loyalty Program: Reward and Retain Customers",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.groupon.com/coupons/blog/ultamate-ulta-rewards",
+      "title": "Ulta Rewards: How to Sign Up & Save",
+      "snippet": ""
+    },
+    {
+      "url": "https://stackable.deals/retailers/ulta",
+      "title": "The Best Way to Buy at Ulta in 2026 | Stackable",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.myhubble.money/blogs/ulta-beauty-rewards---digital-transformation-and-loyalty-rewards-flywheel",
+      "title": "Ulta Beauty Rewards: Digital Transformation and Loyalty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.marketingscoop.com/consumer/do-ulta-points-expire/",
+      "title": "When Do Ulta Points Expire? An Expert Guide for Savvy Shoppers - Marketing Scoop",
+      "snippet": ""
+    },
+    {
+      "url": "https://hr-consultancy.vwv.co.uk/guide-ulta-credit-cards-2026-bo8y.html",
+      "title": "The Ultimate Guide To Ulta Credit Cards In 2026: Rewards, Perks, And Financial Evaluation",
+      "snippet": ""
+    },
+    {
+      "url": "https://bankio.io/knowledge/how_can_i_maximize_my_ulta_cashback_rewards_while_shopping.php",
+      "title": "How can I maximize my Ulta cashback rewards while shopping?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.thepointcalculator.com/us/ulta-rewards-points/calculators/ulta-points-value-calculator/",
+      "title": "Ulta Rewards Points Value Calculator",
+      "snippet": ""
+    },
+    {
+      "url": "https://lji.io/guides/ulta-vs-sephora",
+      "title": "Ulta vs Sephora: Rewards, Tiers and Perks Compared (2026)",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.thepointcalculator.com/us/ulta-rewards-points/ulta-points-value/",
+      "title": "Ulta Points Value: What Are They Worth?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.rivo.io/blog/ulta-rewards-program-a-complete-breakdown",
+      "title": "Ulta Rewards Program: A Complete Breakdown",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/rewards/all?ref=blog.giift.com&srsltid=AfmBOoqqAs6ACQhNuIyJvw2TBk2IOaYkNOje9KOVsC4AZcLs_H7GHzVv",
+      "title": "Ulta Beauty Rewards: Points for Dollars Off & Perks | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://db.raceface.com/download/gZ3/286/7KSCRS/DoUltaPointsExpire.html",
+      "title": "DO ULTA POINTS EXPIRE",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.threekit.com/blog/7-brands-using-virtual-try-on-boost-sales?hsLang=en",
+      "title": "7 Brands Using Virtual Try-On Tech to Boost Sales",
+      "snippet": ""
+    },
+    {
+      "url": "https://cosupport.ai/articles/sephora-beauty-assistant-teaches-personalization-support",
+      "title": "What Sephora’s Beauty Assistant Teaches About Personalization in Support",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.threekit.com/blog/7-brands-using-virtual-try-on-boost-sales",
+      "title": "7 Brands Using Virtual Try-On Tech to Boost Sales",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.basedlabs.ai/tools/sephora-virtual-try-on",
+      "title": "sephora virtual try on",
+      "snippet": ""
+    },
+    {
+      "url": "https://webflow-prod.glamar.io/blog/virtual-try-ons-examples",
+      "title": "12 Virtual try-ons examples in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.trackmind.com/sephora-augmented-reality-artificial-intelligence-future-beauty-industry-2/",
+      "title": "Sephora: AR, AI & Future of Beauty | Trackmind",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sachebeautystudio.com/how-sephora-is-using-technology-to-transform-online-beauty-shopping/",
+      "title": "How Sephora Is Using Technology to Transform Online Beauty Shopping",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.flyriver.com/l/sephora-s-virtual-try-on-tool",
+      "title": "Details about Sephora's Virtual Try On Tool | Flyriver.com",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.vodaswim.com.tw/intipya/sephora-virtual-try-on",
+      "title": "sephora virtual try on",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/virtual-try-on-312940.html",
+      "title": "Virtual try on",
+      "snippet": ""
+    },
+    {
+      "url": "https://getfolksfishing.org/bdwexurq/sephora-virtual-try-on",
+      "title": "sephora virtual try on",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ecoledeconduitevision.ca/post/sephora-virtual-try-on",
+      "title": "sephora virtual try on",
+      "snippet": ""
+    },
+    {
+      "url": "https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai",
+      "title": "How Ulta Beauty is giving omnichannel retail a fresh face | Google Cloud Blog",
+      "snippet": ""
+    },
+    {
+      "url": "http://ulta.andro.io/es",
+      "title": "Ulta Beauty: Shop Makeup, Skin, Hair & Perfume",
+      "snippet": ""
+    },
+    {
+      "url": "https://th.phoneky.com/iphone/?id=n1n220262",
+      "title": "Ulta Beauty Makeup  Skincare iPhone แอป โดย Ulta Salon, Cosmetics & Fragrance, Inc - ดาวน์โหลดบน PHONEKY",
+      "snippet": ""
+    },
+    {
+      "url": "https://anderbot.com/vn/ios/ulta-beauty-makeup-skincare/",
+      "title": "Ulta Beauty: Makeup & Skincare Tải miễn phí cho iPhone/iPad",
+      "snippet": ""
+    },
+    {
+      "url": "https://ulta-beauty.gr.aptoide.com/app",
+      "title": "Ulta Beauty - Λήψη APK για Android | Aptoide",
+      "snippet": ""
+    },
+    {
+      "url": "https://ulta-beauty.ua.aptoide.com/app",
+      "title": "Ulta Beauty - Завантажити APK для Android",
+      "snippet": ""
+    },
+    {
+      "url": "http://ulta-beauty.appstor.io//zh",
+      "title": "Ulta Beauty: Makeup & Skincare 的 iPhone 应用程序 - 下载的iOS从  Ulta Salon, Cosmetics & Fragrance, Inc",
+      "snippet": ""
+    },
+    {
+      "url": "https://anderbot.com/tw/ios/ulta-beauty-makeup-skincare/",
+      "title": "Ulta Beauty: Makeup & Skincare 免費下載 (iPhone/iPad 版)",
+      "snippet": ""
+    },
+    {
+      "url": "https://threadadvisorygroup.com/ai-is-changing-how-customers-shop-are-retailers-ready-to-change/",
+      "title": "AI Is Changing How Customers Shop. Are Retailers Ready to Change?",
+      "snippet": ""
+    },
+    {
+      "url": "https://anderbot.com/ko/ios/ulta-beauty-makeup-skincare/",
+      "title": "Ulta Beauty: Makeup & Skincare 무료 다운로드 (iPhone/iPad용)",
+      "snippet": ""
+    },
+    {
+      "url": "https://k2digitizers.com/comparing-prices-ulta-vs-sephora/",
+      "title": "Comparing Prices: Ulta vs Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "http://lani-loves.com/sephora-vs-ulta-a-comprehensive-comparison/?p=230710",
+      "title": "Sephora vs Ulta: A Comprehensive Comparison",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.forwardme.com/blog/sephora-vs-ulta-beauty",
+      "title": "Sephora vs Ulta Beauty 2026: The Complete Comparison",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.apartstyle.com/post/ulta-vs-sephora",
+      "title": "Ulta vs. Sephora: Which brand is better? [2026 updated]",
+      "snippet": ""
+    },
+    {
+      "url": "https://pages.anua.com/where-to-buy-anua/official-store-vs-amazon-ulta-sephora",
+      "title": "Authorized Retailers vs Third-Party Marketplaces for Anua Skincare",
+      "snippet": ""
+    },
+    {
+      "url": "https://trustedbuyerreport.com/blog/ulta-beauty-vs-sephora-2026-review",
+      "title": "Ulta Beauty vs Sephora 2026: Which Is Better?",
+      "snippet": ""
+    },
+    {
+      "url": "https://return-policy.org/ulta-fragrance-return-policy",
+      "title": "Ulta Fragrance Return Policy",
+      "snippet": ""
+    },
+    {
+      "url": "https://return-policy.org/return-policy-at-sephora",
+      "title": "Return Policy At Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-makeup-stores/compare/ulta-vs-sephora.php",
+      "title": "Ulta vs Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://trending.thestreet.com/retail/sephora-and-ulta-beauty-quietly-changed-their-return-polices",
+      "title": "Sephora and Ulta tighten returns policies: What you need to know",
+      "snippet": ""
+    },
+    {
+      "url": "https://return-policy.org/what-is-ulta-s-return-policy",
+      "title": "What Is Ulta's Return Policy",
+      "snippet": ""
+    },
+    {
+      "url": "https://return-policy.org/ulta-return-policy-domain-10",
+      "title": "Ulta Return Policy Domain_10",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kohls.com/catalog/sephora.jsp?CN=Partnership:Sephora+Assortment:Sephora%20New%20Arrivals&cc=Sephora-TN2.0-S-JustArrived",
+      "title": "New Beauty Arrivals - Sephora Makeup & Skincare Products | Kohl's",
+      "snippet": ""
+    },
+    {
+      "url": "https://sephora.in/collection/new-arrivals?sort_on=discount_dsc&custom-attribute-1=Hair",
+      "title": "New Arrivals |Sephora India",
+      "snippet": ""
+    },
+    {
+      "url": "https://sephora.in/collection/new-arrivals?sort_on=discount_dsc&custom-attribute-1=Skincare",
+      "title": "New Arrivals |Sephora India",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/buy/trending-products",
+      "title": "Trending Products | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://eg.feel22.com/ar/collections/new-arrivals?filter.p.vendor=Sephora",
+      "title": "New Arrivals & Trending Products| Feel22 | Egypt – Feel22Egypt",
+      "snippet": ""
+    },
+    {
+      "url": "https://clipzag.com/watch?v=Q9f68o1FowM",
+      "title": "ULTIMATE Sephora Sale Guide: What to Skip, Beauty Staples, Hot New Products, Gifts + My Wishlist! - Clipzag.com",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.thefashionspot.com/beauty/794977-sephora-clean-beauty",
+      "title": "17 Must-Have Beauty Products From Sephora's Clean Beauty Section",
+      "snippet": ""
+    },
+    {
+      "url": "https://witwhimsy.com/sephora-sale-picks/",
+      "title": "Sephora Sale Picks + What I'm Buying - wit & whimsy",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.accio.com/business/sephora-trending-products",
+      "title": "Sephora Trending Products 2025: Top Beauty Picks & Must-Haves",
+      "snippet": ""
+    },
+    {
+      "url": "https://howl.me/cmhXfmsaVm0",
+      "title": "Sephora at Kohl's: Discover Beauty Products Near You",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.ae/qa/en/brands/brands/isle-of-paradise-isle/?scgid=C303",
+      "title": "SKINCARE ISLE OF PARADISE  ≡ SEPHORA",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/Clean-Beauty/Discover-these-NEW-CLEAN-products-from-Sephora-Collection/td-p/5525826/page/5",
+      "title": "Discover these NEW, CLEAN products from ... - Page 5 - Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://coupon.hoursguide.com/ulta/coupon-333841/officialwebsite/",
+      "title": "Ulta Beauty | Makeup, Skin Care, Fragrance, Hair Care & Beauty Products",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.newbeauty.com/view/ulta-beauty-new-arrivals-august-2025",
+      "title": "The Very Best of Ulta Beauty's Newest Arrivals | NewBeauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.target.com/c/new-in-ulta-beauty-at-target/-35-nbsp-ndash-nbsp-39-99/-/N-1g1r8Zob2yf",
+      "title": "New in Ulta Beauty at Target : Target",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.target.com/c/new-in-ulta-beauty-at-target/5/-/N-1g1r8Z5zkq6",
+      "title": "New in Ulta Beauty at Target",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.target.com/c/new-in-ulta-beauty-at-target/in-stores/-/N-1g1r8",
+      "title": "New in Ulta Beauty at Target : Target",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.target.com/c/new-in-ulta-beauty-at-target/multiple-forms/-/N-1g1r8Z56cp2",
+      "title": "Multiple Forms : New in Ulta Beauty at Target",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Itr9ibn7AlI",
+      "title": "My Honest Opinion on New Viral Ulta Finds!",
+      "snippet": ""
+    },
+    {
+      "url": "https://WWW.ZACKS.COM/stock/news/3012966/3-beauty-stocks-to-explore-as-consumer-preferences-reshape-the-market",
+      "title": "3 Beauty Stocks to Explore as Consumer Preferences Reshape the Market",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/shop/new-beauty-products?category=body-care%2Csuncare",
+      "title": "New Beauty Products | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://simplywall.st/stocks/us/retail/nasdaq-ulta/ulta-beauty/news/is-ulta-beauty-ulta-a-bargain-as-new-brand-launches-test-its",
+      "title": "Is Ulta Beauty (ULTA) A Bargain As New Brand Launches Test Its Valuation?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xXuMlVcvnfE",
+      "title": "Why I Bought Everything in This Ulta Beauty Haul",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.zacks.com/stock/news/2795198/3-beauty-cosmetic-stocks-set-to-ride-on-the-next-wave-of-growth",
+      "title": "3 Beauty & Cosmetic Stocks Set to Ride on the Next Wave of Growth",
+      "snippet": ""
+    },
+    {
+      "url": "https://note.com/skincare_noyaa/n/nf35d7fe2e6e1?hl=en",
+      "title": "Choosing skincare for dry, red skin in autumn and winter. Alcohol-free? Vitamin labeling? What a housewife in her 40s looks for, and how to read ingredient labels based on my research",
+      "snippet": ""
+    },
+    {
+      "url": "https://ez-case.online/2026/07/31/how-to-choose-the-best-otc-meds-for-sensitive-skin.pdf",
+      "title": "How to Choose the Best OTC Meds for Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://answersbyexpert.com/m-auto/afs/default/rsoc/92449a56-e3b9-4d09-a4fb-c7f35593a7b2/sensitive-skin-products-compared-what-buyers-should-know-before-choosing?channel=Ch_57028",
+      "title": "Sensitive Skin Products Compared: What Buyers Should Know Before Choosing",
+      "snippet": ""
+    },
+    {
+      "url": "http://digitalnews4all.com/lifestyle/hypochlorous-acid-spray-skin-care/",
+      "title": "Hypochlorous Acid Spray: The Dermatologist-Approved Hack Viral on Social Media",
+      "snippet": ""
+    },
+    {
+      "url": "https://cosmeticsbusiness.com/paula-s-choice-launches-ingredient-checker-to-address-skin-care-misinformation-209097",
+      "title": "Paula’s Choice launches ingredient checker to address skin care misinformation",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.shefinds.com/collections/cleanser-ingredient-avoid-sensitive-skin/",
+      "title": "The Cleanser Ingredient You Should Avoid At All Costs If You Have S...",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/how-to-understand-whitening-product-risks-for-sensitive-skin-1423205.html",
+      "title": "How to Understand Whitening Product Risks for Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/how-to-assess-hygiene-product-effectiveness-for-sensitive-skin-610676.html",
+      "title": "How to Assess Hygiene Product Effectiveness for Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://ph.my-best.com:443/4639/",
+      "title": "10 Best Bar Soaps in the Philippines 2026 | Buying Guide Reviewed by Dermatologist",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.acnera.app/best-skincare-ingredient-checker-apps",
+      "title": "Best Skincare Ingredient Checker Apps in 2026: The Buyer’s Shortlist",
+      "snippet": ""
+    },
+    {
+      "url": "https://goldenbergdermatology.com/wp-content/uploads/2023/02/g19.pdf",
+      "title": "It’s understandable that you’d assume that a moisturizer that says it’s fragrance-free and hypoallergenic would actually live up to its claims. But unfortunately, a new study found that plenty of products that use these labels are straight-up lying about it.",
+      "snippet": ""
+    },
+    {
+      "url": "https://oodee.com/blogs/know-your-triggers/oodee-sensitive-skincare-index",
+      "title": "The Oodee Sensitive Skincare Index",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.24marketreports.com/consumer-goods-and-services/global-skincare-s-for-sensitive-skin-forecast-market",
+      "title": "Skincare Products for Sensitive Skin Market Outlook 2026-2032",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.24marketreports.com/consumer-goods-and-services/global-sensitive-skin-mild-skin-care-forecast-market",
+      "title": "Sensitive Skin Mild Skin Care Product Market, Global Outlook and Forecast 2026-2032",
+      "snippet": ""
+    },
+    {
+      "url": "https://pmarketresearch.com/product/worldwide-sensitive-skin-care-product-market-research-2024-by-type-application-participants-and-countries-forecast-to-2030/",
+      "title": "Worldwide Sensitive Skin Care Product Market Research Report 2025, Forecast to 2031 - PW Consulting",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/the-ultimate-cheat-sheet-on-whitening-product-ingredients-1161711.html",
+      "title": "The Ultimate Cheat Sheet on Whitening Product Ingredients",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/how-to-select-smile-glow-products-for-sensitive-skin-types-811084.html",
+      "title": "How to Select Smile Glow Products for Sensitive Skin Types",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.hobbsonlinenews.net/skincare-risks-rise-dermatologist-warns-harmful-ingredients-everyday-products/",
+      "title": "Skincare Risks Rise as Dermatologist Warns of Harmful Ingredients in Everyday Products | Hobbs Online News",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/whitening-and-beauty-trends-the-best-tips-for-sensitive-skin-1590910.html",
+      "title": "Whitening and Beauty Trends  The Best Tips for Sensitive Skin",
+      "snippet": ""
+    },
+    {
+      "url": "https://theindustry.beauty/skincare-jargon-skin-rocks-survey/",
+      "title": "Most women struggle to understand skincare ingredients, Skin Rocks survey finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://third-news.com/article/283ce7a0-c6af-11f0-bb23-9ca3ba0a67df",
+      "title": "Rising Expectations for Next-Gen Ingredients: Azulen in Skincare for Sensitive Skin - Third News",
+      "snippet": ""
+    },
+    {
+      "url": "https://dentalcarefree.com/blogs/natural-ingredients-advantage-the-ultimate-guide-to-clean-beauty-646996.html",
+      "title": "Natural Ingredients Advantage  The Ultimate Guide to Clean Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.alibaba.com/product-insights/are-fragrance-free-beauty-products-always-hypoallergenic-or-just-hiding-allergens-differently.html",
+      "title": "Are Fragrance-free Beauty Products Always Hypoallergenic—or Just Hiding Allergens Differently",
+      "snippet": ""
+    },
+    {
+      "url": "https://destglow.com/blogs/beauty-skincare/fragrance-free-unscented-hypoallergenic-what-the-labels",
+      "title": "Fragrance-Free vs Unscented vs Hypoallergenic Skincare",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.complexionnotes.com/2026-10-14-what-does-hypoallergenic-mean.html",
+      "title": "What Does Hypoallergenic Mean on a Skincare Label?",
+      "snippet": ""
+    },
+    {
+      "url": "https://thebeautywriter.com/everything-you-wanted-to-know-about-hypoallergenic-beauty-products/",
+      "title": "Everything You Wanted To Know About Hypoallergenic Beauty Products",
+      "snippet": ""
+    },
+    {
+      "url": "http://blog.beingcontent.com/2016/03/skincare-terminology-explained/",
+      "title": "Skincare Terminology Explained",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.heysunday.com/blogs/learn/hypoallergenic-laundry-detergent",
+      "title": "What does hypoallergenic laundry detergent mean?",
+      "snippet": ""
+    },
+    {
+      "url": "https://GetCurex.com/beauty-product-allergy/is-l-oreal-true-match-super-blendable-foundation-hypoallergenic-symptoms-overview",
+      "title": "Is L'Oreal True Match Foundation Hypoallergenic? | Curex",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ingredientbeauty.com/blog/2026-09-29-hypoallergenic-meaning.html",
+      "title": "What does “hypoallergenic” on a label actually mean?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.doctorkatta.com/post/warning-the-labels-on-your-personal-care-products-don-t-always-mean-what-you-think-they-do",
+      "title": "Warning: The labels on your personal care products don’t always mean what you think they do",
+      "snippet": ""
+    },
+    {
+      "url": "https://getcurex.com/allergens-and-symptoms/is-l-oreal-paris-revitalift-cream-hypoallergenic",
+      "title": "Is L'Oréal Revitalift Hypoallergenic? Retinol & Fragrance | Curex",
+      "snippet": ""
+    },
+    {
+      "url": "https://withoutfragrance.com/fragrance-free-vs-unscented-and-hyperallergenic/",
+      "title": "Fragrance-Free vs Unscented vs Hypoallergenic",
+      "snippet": ""
+    },
+    {
+      "url": "https://withoutfragrance.com/about-sensitive-and-hypoallergenic-products/",
+      "title": "Are Sensitive and Hypoallergenic Products Really Better?",
+      "snippet": ""
+    },
+    {
+      "url": "https://nielseniq.com/global/en/insights/analysis/2026/beauty-shoppers-do-not-think-in-channels-they-think-in-needs/",
+      "title": "Beauty Shoppers Don't Think in Channels. They Think in Needs",
+      "snippet": ""
+    },
+    {
+      "url": "https://skincareanarchy.medium.com/where-you-buy-beauty-is-becoming-who-you-trust-4acc844aa65b",
+      "title": "Where You Buy Beauty Is Becoming Who You Trust",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027",
+      "title": "Beauty and Skincare Marketing Trends 2027",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.beautytipa.com/how-beauty-consumers-compare-product-claims-online.html",
+      "title": "How Beauty Consumers Compare Product Claims Online",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.emarketer.com/content/beauty-brands-navigate-loyalty-challenge-discovery-channels-multiply",
+      "title": "Beauty brands navigate the loyalty challenge as discovery channels multiply",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.pushtheenvelopepr.com/blog/how-consumers-discover-beauty-brands/",
+      "title": "How Consumers Discover Beauty Brands in 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://acornmetric.com/p/5sLgd1gTLmgR5A4Iztsfy.pdf",
+      "title": "pdf-13331-75845.html",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.unboxconnection.com/four-simple-niches-that-pay-bloggers-best.html",
+      "title": "High Paying Blog Niches | Creator Campaigns | Unbox Connection",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionchinaagency.com/which-channels-chinese-consumers-use-to-buy-fashion-products-2/",
+      "title": "\"HOW\" Chinese consumers use to buy Fashion ? - Fashion China",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.atmad.io/blog-lo-fi-less-is-more.html",
+      "title": "Lo-Fi Content: Why Less Is More in Influencer Marketing",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautymatter.com/articles/sephora-raises-the-bar-on-clean-beauty",
+      "title": "| BeautyMatter",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.sephora.co.uk/clean-at-sephora?filter=fh_location=//c1/en_GB/clean>{clean}/brand>{a5189}/!uk_only=1/!brand={a70}/%26fh_view_size=40%26date_time=20260810T004016%26site_area=cms%26device=desktop%26fh_refview=lister%26fh_reffacet=brand#inline-facets",
+      "title": "Clean | SEPHORA UK",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/product/reserve-skin-P404356?om_mmc=aff-linkshare-redirect-PPkX79%2Fc%2Ab0&c3ch=Linkshare&c3nid=PPkX79%2Fc%2Ab0&affid=PPkX79_c.b0-FS9QYtf8r.1iFsaZCvSbqg&ranEAID=PPkX79%2Fc%2Ab0&ranMID=2417&ranSiteID=PPkX79_c.b0-FS9QYtf8r.1iFsaZCvSbqg&ranLinkID=10-1&browserdefault=true",
+      "title": "Reserve - Skin - CLEAN RESERVE | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/Clean-at-Sephora/Group-Update-Clean-at-Sephora/m-p/7128940",
+      "title": "Re: Group Update: Clean at Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/beauty/community-faq?icid2=customer_service_beauty_insider_community_faqs_action_link",
+      "title": "Beauty Insider Community FAQs",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/Everything-Else/ct-p/everything-else/page/771?af=false",
+      "title": "Everything Else - Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/community/page.logoutpage?t:cp=authentication/contributions/unticketedauthenticationactions&dest_url=https%3A%2F%2Fsephora.com&lia-action-token=qz70nsb3ZbBDCnyKIn3diRcKF_FYHqrumjMv5V-ksQ8.&lia-action-token-id=logoff",
+      "title": "Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/community/page.logoutpage?t:cp=authentication/contributions/unticketedauthenticationactions&dest_url=https%3A%2F%2Fsephora.com&lia-action-token=mMioGi-G45P-6BiCd-PbsOL8CLgl5SFj5HFNpUyixVY.&lia-action-token-id=logoff",
+      "title": "Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/community/page.logoutpage?t:cp=authentication/contributions/unticketedauthenticationactions&dest_url=https%3A%2F%2Fsephora.com&lia-action-token=Nk8whXPtowEy6UfTRaO5BPXwsU4GEIvMWMpj_ww-duk.&lia-action-token-id=logoff",
+      "title": "Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/community/page.logoutpage?t:cp=authentication/contributions/unticketedauthenticationactions&dest_url=https%3A%2F%2Fsephora.com&lia-action-token=rbfDgkSdFz9EJvWIudIWRETS-gEOhZmJ4qCBroqmR74.&lia-action-token-id=logoff",
+      "title": "Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/Trending-at-Sephora/Beauty-Insider-Community-Feedback/m-p/6642855",
+      "title": "Re: Beauty Insider Community Feedback",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/community/page.logoutpage?t:cp=authentication/contributions/unticketedauthenticationactions&dest_url=https%3A%2F%2Fsephora.com&lia-action-token=mosTGs1zR5Q6NhfQLrjqgt_ouO_TVgIt_NQ_MLZtUVw.&lia-action-token-id=logoff",
+      "title": "Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/community/page.logoutpage?t:cp=authentication/contributions/unticketedauthenticationactions&dest_url=https%3A%2F%2Fsephora.com&lia-action-token=EIdvhZ32vitDfyGwqyvfwhWgeWpHf3v_iapt5cvAwJQ.&lia-action-token-id=logoff",
+      "title": "Home - Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/Top/ct-p/top/page/16459",
+      "title": "Top - Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/?is_listing=false&hsPreviewerApp=blog_post",
+      "title": "Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/conscious-beauty/",
+      "title": "Conscious Beauty | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/company/corporate-responsibility/product",
+      "title": "Ulta Beauty Product Responsibility | Safety, Ingredients & Sustainability",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/super-soothe-gentle-facial-wipes-pimprod2033822?sku=2593276",
+      "title": "Super Soothe Gentle Facial Wipes - ULTA Beauty Collection | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/travel-size-poreless-face-primer-xlsImpprod17871301\r",
+      "title": "Travel Size Poreless Face Primer - ULTA Beauty Collection | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/conscious-beauty/brands",
+      "title": "Conscious Beauty Brand List | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/clean-lash-everyday-mascara-pimprod2031756",
+      "title": "Undone Beauty -  Clean Lash Everyday Mascara | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/clean-lash-everyday-mascara-pimprod2031756?sku=2593455",
+      "title": "Undone Beauty - Black Brown Clean Lash Everyday Mascara | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://necolebitchie.com/does-ulta-carry-all-natural-makeup/",
+      "title": "Does Ulta Carry All-Natural Makeup?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ecoenclose.com/resources/retailer-guide/ulta",
+      "title": "Guide to Ulta Beauty's Packaging Requirements | EcoEnclose",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.cosmeticsandtoiletries.com/news/companies/news/22953753/class-action-against-ulta-beauty-over-clean-ingredient-claims-advances",
+      "title": "Class Action Against Ulta Beauty Over 'Clean Ingredient' Claims Advances",
+      "snippet": ""
+    },
+    {
+      "url": "https://adubtion.com/lander/adubtion.com/index.php?_=%2Fdiscover%2Fconscious-beauty%23x0vFEwnjdnVUiGMx8LhF9J7PFbY%3D",
+      "title": "Conscious Beauty | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/beauty/find-products?icid2=customer_service_finding_products_brands",
+      "title": "How to Find Products | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://community.sephora.com/t5/Customer-Support/List-of-ingredients-ghosted/m-p/4702164",
+      "title": "Re: List of ingredients ghosted? - Beauty Insider Community",
+      "snippet": ""
+    },
+    {
+      "url": "https://sharifsuliman.medium.com/looking-at-the-chemicals-inside-sephora-makeup-foundations-for-any-toxic-alerts-f2b5bdba48f5",
+      "title": "Looking at the Chemicals Inside Sephora Makeup Foundations For Any Toxic Alerts",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.tabsite.com/mt-one-014/sephora-clean-list-pdf.pdf",
+      "title": "Sephora Clean List Pdf",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/product/lys-beauty-aim-high-cream-highlighter-stick-P511937?om_mmc=aff-linkshare-redirect-8yaPBDQV8ls&c3ch=Linkshare&c3nid=8yaPBDQV8ls&affid=8yaPBDQV8ls-ypt0ctvW0SMMEISf4v9MZA&ranEAID=8yaPBDQV8ls&ranMID=2417&ranSiteID=8yaPBDQV8ls-ypt0ctvW0SMMEISf4v9MZA&ranLinkID=10-1&browserdefault=true&skuId=2735934&icid2=products%20grid:p511937:product",
+      "title": "Aim High Cream Highlighter Stick - LYS Beauty | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/product/ilia-lip-wrap-revival-balm-P480308?om_mmc=aff-linkshare-redirect-8yaPBDQV8ls&c3ch=Linkshare&c3nid=8yaPBDQV8ls&affid=8yaPBDQV8ls-gr49vDr0Q5bQCDx8fcaWuQ&ranEAID=8yaPBDQV8ls&ranMID=2417&ranSiteID=8yaPBDQV8ls-gr49vDr0Q5bQCDx8fcaWuQ&ranLinkID=10-1&browserdefault=true&c3ch=Linkshare&c3nid=ynE279rkYk8&ranLinkID=10-1&browserdefault=true&nrtv_cid=9is5nwat8dsfj",
+      "title": "Lip Wrap Reviving Balm - ILIA | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "http://toxinfreeish.com/blog/clean-at-sephora/",
+      "title": "Clean Beauty at Sephora: How Clean is it Really?",
+      "snippet": ""
+    },
+    {
+      "url": "https://hypebae.com/2018/5/sephora-clean-beauty-category-controversial-ingredients",
+      "title": "Sephora Is Launching \"Clean Beauty Category\" | Hypebae",
+      "snippet": ""
+    },
+    {
+      "url": "https://millionmarker.com/pure/approved-products/product/sephora-lift-firm-smoothing-firming-eye-cream-with-peptides-hyaluronic-acid",
+      "title": "Lift & Firm - Smoothing & Firming Eye Cream with Peptides + Hyaluronic Acid by SEPHORA - Safety Rating & Ingredients | Million Marker",
+      "snippet": ""
+    },
+    {
+      "url": "https://millionmarker.com/pure/approved-products/product/sephora-12-hour-colorful-contour-pencil-eyeliner-tiramisu",
+      "title": "12 Hour Colorful Contour Pencil Eyeliner - Tiramisu by SEPHORA - Safety Rating & Ingredients | Million Marker",
+      "snippet": ""
+    },
+    {
+      "url": "https://millionmarker.com/pure/approved-products/product/sephora-glossed-moisturizing-lip-gloss-10-self-made",
+      "title": "Glossed Moisturizing Lip Gloss - 10 Self Made by SEPHORA - Safety Rating & Ingredients | Million Marker",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautyhealingorganic.com/clean-beauty-sephora-guide/",
+      "title": "The Smart Shopper's Guide to Clean Beauty at Sephora (What the Labels Don't Tell You) - Organic Skincare & Clean Beauty Guide",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/exfoliating-treatment-body-mist-mkt77012019",
+      "title": "Bare It All -  Exfoliating Treatment Body Mist | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/on-point-eyeliner-pencil-pimprod2046600?sku=2626382&pr_rd_page=2",
+      "title": "PÜR Minerals - Brown On Point Eyeliner Pencil | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/performer-skin-focused-foundation-pimprod2043010?sku=2618966",
+      "title": "about-face - F0COOL THE PERFORMER Skin-Focused Foundation | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/performer-skin-focused-foundation-pimprod2043010?sku=2618932",
+      "title": "about-face - D2COOL THE PERFORMER Skin-Focused Foundation | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/performer-skin-focused-foundation-pimprod2043010?sku=2618963&pr_rd_page=11",
+      "title": "about-face - L1NEUTRAL THE PERFORMER Skin-Focused Foundation | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/performer-skin-focused-foundation-pimprod2043010?sku=2618924",
+      "title": "-   | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/blush-subtil-oil-free-powder-blush-xlsImpprod3650106?sku=2634810",
+      "title": "Lancôme - 500 Ôh La La Pink Blush Subtil Oil-Free Powder Blush | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ulta.com/p/nail-envy-nail-strengthener-pimprod2039432?sku=2609619&pr_rd_page=2",
+      "title": "OPI - Tough Luv Nail Envy Nail Strengthener | Ulta Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ingredientbeauty.com/blog/2026-09-29-hypoallergenic-meaning.html",
+      "title": "What does “hypoallergenic” on a label actually mean?",
+      "snippet": ""
+    },
+    {
+      "url": "https://destglow.com/blogs/beauty-skincare/fragrance-free-unscented-hypoallergenic-what-the-labels",
+      "title": "Fragrance-Free vs Unscented vs Hypoallergenic Skincare",
+      "snippet": ""
+    },
+    {
+      "url": "https://tangieco.com/blog/what-does-hypoallergenic-mean/",
+      "title": "What Does Hypoallergenic Mean?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.fda.gov/cosmetics/resources-consumers-cosmetics/using-cosmetics-safely",
+      "title": "Using Cosmetics Safely",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.complexionnotes.com/2026-10-14-what-does-hypoallergenic-mean.html",
+      "title": "What Does Hypoallergenic Mean on a Skincare Label?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.herbaldynamicsbeauty.com/blogs/herbal-dynamics-beauty/what-do-skincare-buzzwords-like-non-comedogenic-and-hypoallergenic-really-mean",
+      "title": "Non-Comedogenic vs. Hypoallergenic: Label Guide",
+      "snippet": ""
+    },
+    {
+      "url": "https://millennialskin.com/2026/01/03/watch-out-the-beauty-industry-is-full-of-frauds/",
+      "title": "The Beauty Claims That Legally Mean Nothing",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.epilynx.com/blogs/news/using-cosmetics-safely",
+      "title": "Using Cosmetics Safely",
+      "snippet": ""
+    },
+    {
+      "url": "https://therunlow.com/blog/baby-wipes-ingredient-list/",
+      "title": "What a Baby Wipe's Ingredient List Has to Tell You",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.fda.gov/cosmetics/cosmetics-labeling-claims/hypoallergenic-cosmetics",
+      "title": "\"Hypoallergenic\" Cosmetics | FDA",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.fda.gov/media/93074/download",
+      "title": "Cosmetic Facts from the U.S. Food and Drug Administration",
+      "snippet": ""
+    },
+    {
+      "url": "https://withoutfragrance.com/fragrance-free-vs-unscented-and-hyperallergenic/",
+      "title": "Fragrance-Free vs Unscented vs Hypoallergenic",
+      "snippet": ""
+    },
+    {
+      "url": "https://virtualexhibitors.ins1.org/files/textbooks/Files/does-sephora-give-free-samples-in-store.pdf",
+      "title": "Does Sephora Give Free Samples In Store - virtualexhibitors.ins1.org",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.whowhatwear.com/promo-codes/sephora",
+      "title": "Sephora promo codes | 10% OFF in June 2026",
+      "snippet": ""
+    },
+    {
+      "url": "http://library.eshikshya.org/kiwix/content/wikihow_en_maxi_2023-03/Get-Free-Products-at-Sephora-Stores",
+      "title": "4 Ways to Get Free Products at Sephora Stores - wikiHow",
+      "snippet": ""
+    },
+    {
+      "url": "https://tare.arq.com.mx/pdf/textbook-solutions/Files:H1N4/filedownload.ashx/Does-Sephora-Give-Free-Samples-In-Store.pdf",
+      "title": "Does Sephora Give Free Samples In Store - tare.arq.com.mx",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.discountreactor.com/coupons/sephora.com",
+      "title": "Sephora Promo Codes - November 2026 - DiscountReactor",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.rather-be-shopping.com/blog/sephora-return-policy/",
+      "title": "Sephora Return Policy: All Your Burning Questions Answered",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.retailmenot.com/view/sephora.com?c=9184641",
+      "title": "Sephora Promo Codes - 20% off Code - November 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.supermoney.com/what-is-sephoras-return-policy",
+      "title": "Sephora Return Policy (2026): Window, Receipt Rules & Exceptions - SuperMoney",
+      "snippet": ""
+    },
+    {
+      "url": "https://necolebitchie.com/how-to-get-free-skincare-samples-from-sephora/",
+      "title": "How to Get Free Skincare Samples from Sephora?",
+      "snippet": ""
+    },
+    {
+      "url": "https://necolebitchie.com/how-to-get-free-perfume-samples-at-sephora/",
+      "title": "How to Get Free Perfume Samples at Sephora?",
+      "snippet": ""
+    },
+    {
+      "url": "http://simplycodes.com/store/sephora.com",
+      "title": "Sephora Promo Codes - 50% Off (+5 Codes) Nov 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.shoppingspout.us/sephora-coupon-codes?c=1149954",
+      "title": "Verified 30% Off Sephora Coupon Codes, Promo Codes June 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.robinspost.com/news/consumer-news/consumer-daily-reports/2125926-consumer-news-holiday-returns-got-worse-while-you-weren%e2%80%99t-looking-what-changed-at-big-retailers",
+      "title": "Consumer News: Holiday returns got worse while you weren’t looking: what changed at big retailers",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.rather-be-shopping.com/blog/author/admin/page/65/",
+      "title": "Kyle James, Author at Rather-Be-Shopping Blog - Page 65 of 152",
+      "snippet": ""
+    },
+    {
+      "url": "https://complain.biz/ulta-beauty/page/2/",
+      "title": "Ulta Beauty Complaint AI Customer Service: We Help Resolve It!",
+      "snippet": ""
+    },
+    {
+      "url": "https://termsandconditionstemplate.com/beauty-return-rate-statistics-2026",
+      "title": "Beauty Return Rate 2026: 4%-12%, Lowest of Any Category",
+      "snippet": ""
+    },
+    {
+      "url": "https://returnspolicy.info/ulta-return-policy/",
+      "title": "Ulta Return Policy 2026 | Used Items, Receipt Rules & Exceptions",
+      "snippet": ""
+    },
+    {
+      "url": "https://technologistmag.com/ulta-promo-codes-up-to-20-off-in-october-2026/",
+      "title": "Ulta Promo Codes: Up to 20% Off in October 2026",
+      "snippet": ""
+    },
+    {
+      "url": "http://coupons.slickdeals.net/ulta-beauty",
+      "title": "Ulta Coupons | 15% OFF | May 2025",
+      "snippet": ""
+    },
+    {
+      "url": "https://returnpolicyvault.com/ulta-return-policy/",
+      "title": "Ulta Return Policy 2026: Ultimate Info For Beauty Shoppers - The Return Policy Vault",
+      "snippet": ""
+    },
+    {
+      "url": "https://anfup.cl/?a=ulta-beauty-finds-by-ulta-beauty-scents-of-the-season-159318258",
+      "title": "Ulta Beauty Finds by ULTA Beauty  Scents of the Season Best Sale | Cosmetics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.supermoney.com/what-is-ultas-return-policy",
+      "title": "Ulta Beauty Return Policy (2026): Window, Receipt Rules & Exceptions - SuperMoney",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.campingvillageoasi.it/ulta-beauty-finds-by-ulta-beauty-campus-chic-back-to-school-beauty-e-ca58-1599234.html",
+      "title": "Ulta Beauty Finds by ULTA Beauty  Campus Chic: Back-To-School Beauty Essentials Sale | Cosmetics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.campingvillageoasi.it/ulta-beauty-finds-by-ulta-beauty-come-clean-with-conscious-beauty-ca58-1605379.html",
+      "title": "Ulta Beauty Finds by ULTA Beauty  Come Clean With Conscious Beauty Clearance | Cosmetics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/product/plant-fibre-lash-collection-P501532?skuId=2604577&icid2=seop_4_reviews",
+      "title": "Plant Fibre Lash Collection - Velour Lashes | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/product/bondi-boost-hydration-shampoo-P504010",
+      "title": "Heavenly Hydration Shampoo with Aloe - BondiBoost | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/product/plant-fibre-lash-collection-P501532?skuId=2708998&icid2=seop_9_title",
+      "title": "Plant Fibre Lash Collection - Velour Lashes | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-beauty-stores/reviews/sephora",
+      "title": "Sephora Review for November 2026 | Best Beauty Stores",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.sephora.com/ca/en/product/plant-fibre-lash-collection-P501532?skuId=2708998&icid2=seop_2_title",
+      "title": "Plant Fibre Lash Collection - Velour Lashes | Sephora",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.trustedbuyerreport.com/review/sephora",
+      "title": "Sephora Review 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.topconsumerreviews.com/best-makeup-stores/compare/ulta-vs-sephora.php",
+      "title": "Ulta vs Sephora",
+      "snippet": ""
+    }
+  ],
+  "inline_citations": [
+    {
+      "url": "https://www.99minds.io/blog/sephoras-beauty-insider/",
+      "title": "Sephora Beauty Insider: How the Loyalty Program Works in 2026"
+    },
+    {
+      "url": "https://www.ulta.com/p/filter-fix-prep-set-blur-setting-spray-pimprod2052442?pr_rd_page=2",
+      "title": "ICONIC LONDON -  Filter Fix Prep Set Blur Setting Spray | Ulta Beauty"
+    },
+    {
+      "url": "https://www.ulta.com/conscious-beauty/",
+      "title": "Conscious Beauty | Ulta Beauty"
+    },
+    {
+      "url": "https://cloud.google.com/blog/transform/ulta-beauty-reinventing-omnichannel-retail-with-cloud-ai",
+      "title": "How Ulta Beauty is giving omnichannel retail a fresh face | Google Cloud Blog"
+    },
+    {
+      "url": "https://www.bigeyeagency.com/insights/beauty-and-skincare-marketing-trends-2027",
+      "title": "Beauty and Skincare Marketing Trends 2027"
+    },
+    {
+      "url": "https://www.personalcareinsights.com/news/us-beauty-ingredient-trust.html",
+      "title": "US beauty consumers prioritize ingredient transparency over brand image"
+    },
+    {
+      "url": "http://www.fda.gov/cosmetics/cosmetics-labeling-claims/hypoallergenic-cosmetics",
+      "title": "\"Hypoallergenic\" Cosmetics | FDA"
+    }
+  ],
+  "citation_method": "inline_links",
+  "citation_map": [],
+  "usage": {
+    "input_tokens": 1262516,
+    "input_tokens_details": {
+      "cached_tokens": 1111584
+    },
+    "output_tokens": 13596,
+    "output_tokens_details": {
+      "reasoning_tokens": 7164
+    },
+    "total_tokens": 1276112
+  }
+}

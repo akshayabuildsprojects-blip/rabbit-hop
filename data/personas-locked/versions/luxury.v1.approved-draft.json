@@ -1,0 +1,1412 @@
+{
+  "schema_version": 1,
+  "persona_id": "luxury",
+  "persona_name": "Luxury Beauty Shopper",
+  "description": "She discovers through curated prestige assortments, launch edits and limited releases filtered for prestige relevance. She researches deeply across descriptions, detailed reviews and expert input, focusing on formulation craft, texture, finish and sensory experience. She compares premium-to-premium alternatives on quality, desirability, reputation and experience and rejects expensive options that fail to prove worth.",
+  "primary_motivation": "Acquiring desirable, premium beauty products that offer superior perceived quality, exclusivity, prestige, and elevated product experiences.",
+  "behavioral_parameters": {
+    "note": "Simulation settings informed by qualitative research. Not scientifically validated population measurements.",
+    "trend_sensitivity": 0.4,
+    "influencer_trust": 0.45,
+    "price_sensitivity": 0.35,
+    "brand_loyalty": 0.45,
+    "research_depth": 0.8,
+    "novelty_seeking": 0.55,
+    "impulse_buying_tendency": 0.35,
+    "product_quality_priority": 0.9,
+    "convenience_priority": 0.35,
+    "prestige_priority": 0.9
+  },
+  "shopping_behavior": {
+    "preferred_discovery_channels": [
+      "curated prestige assortments and specialty retail curation",
+      "premium launch edits and limited-edition releases",
+      "social commerce discovery on image and video platforms filtered for prestige relevance",
+      "multi-retailer browsing and AI-assisted entry points"
+    ],
+    "trusted_information_sources": [
+      "detailed product descriptions with clear benefits",
+      "authentic reviews and ratings",
+      "friends and family recommendations",
+      "expert reviews and evidence-based communication",
+      "professional and editorial contexts",
+      "in-store testing and search"
+    ],
+    "product_evaluation_criteria": [
+      "formulation, finishes, ingredients and claimed benefits",
+      "texture, application, scent and sensory experience",
+      "packaging, product design and aesthetic presentation",
+      "brand reputation and heritage cues",
+      "clinical, dermatological or ingredient-quality evidence where claimed"
+    ],
+    "purchase_triggers": [
+      "uniqueness and emotional affinity",
+      "sensory appeal and design attachment",
+      "exclusive credible benefits that justify premium spend",
+      "limited editions and restricted availability creating urgency",
+      "trustworthy retailer offering indulgent confidence-building experience and rewards"
+    ],
+    "rejection_criteria": [
+      "expensive option fails to demonstrate superior quality, desirability or experience over cheaper alternative",
+      "premium performance skepticism confirmed by weak evidence or credible dupe equivalence",
+      "functional flaws despite premium positioning",
+      "reliance on price, virality or scarcity alone without corroborating quality evidence"
+    ],
+    "comparison_strategy": "Compare shortlisted prestige alternatives on perceived quality, desirability, reputation and product experience, checking whether a higher price offers meaningful sensory or performance advantage and whether mass-appearing alternatives truly match craft.",
+    "typical_shopping_sequence": [
+      "Browse curated prestige assortment, launch edits and limited releases for desirable and emerging prestige options",
+      "Evaluate brand and product through descriptions for formulation, finishes, ingredients and benefits plus reputation and aesthetic cues",
+      "Consult detailed reviews, expert input and sensory evidence and widen to multi-product comparison",
+      "Compare premium-to-premium alternatives on quality, desirability, reputation and experience including price-versus-advantage check",
+      "Seek trial, sampling, shade-matching or return options where confidence is thin and re-research as needed",
+      "Purchase where trust and experience justify spend"
+    ]
+  },
+  "decision_rules": [
+    {
+      "rule": "When a higher-priced prestige option and a lower-priced alternative make similar claims, do not choose on price alone; compare formulation, finish, sensory evidence and performance proof and select the higher-priced option only if it shows a meaningful quality, desirability or experience advantage, otherwise defer or reject it.",
+      "rationale": "Only 14% equate higher price with better quality, 63% do not rate premium higher-performing, and 75% agree quality need not be expensive, so premiums require demonstrated advantage.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When comparing a familiar established prestige option against an emerging prestige option with an innovative formulation, shortlist both and favor the emerging option only if detailed reviews, expert validation or sensory evidence show superior craft or desirability; otherwise retain the familiar option.",
+      "rationale": "Only 34% rarely switch and up to 53% of category purchases involve a new brand, with segments ranging from purists to experiment-prone enthusiasts.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When brand heritage conflicts with innovative formulation, treat heritage as a tie-breaker only after formulation, texture, finish and reputation evidence are compared; do not choose heritage alone if innovation shows stronger credible performance or experience proof.",
+      "rationale": "No direct evidence on heritage versus innovative formulation tradeoffs; heritage modeled as secondary cue to demonstrated craft.",
+      "basis": "modeling_assumption"
+    },
+    {
+      "rule": "When exclusivity or limited availability conflicts with practical performance evidence, require at least basic performance and sensory corroboration before valuing exclusivity; if performance evidence is weak or missing, prioritize investigation or rejection over scarcity appeal.",
+      "rationale": "Uniqueness and exclusivity underpin luxury perceptions and scarcity can heighten intention, but failure to prove worth drives rejection and openness to alternatives.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When viral popularity conflicts with curated expert recommendation, do not add a viral option to consideration on buzz alone; consider it only if corroborated by professional, editorial or detailed-review evidence addressing formulation, finish and wear experience.",
+      "rationale": "Mass brands drive virality while prestige requires distinctive stories, and in-depth reviews plus expert sources outrank hype and general influencer volume.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When elegant packaging and aesthetic appeal conflict with functionality, inspect functionality signals such as application, wear, flaws and design execution and reject or deprioritize the option if functionality evidence is negative despite attractive presentation.",
+      "rationale": "Design, texture, scent and elevated packaging drive attachment, but functional flaws can undermine premium positioning.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When a familiar prestige option competes with an unfamiliar premium launch, investigate the unfamiliar option through descriptions, finishes, ingredients with sensorial payoff, expert input and shade or texture evidence before switching; stay with the familiar unless the new option demonstrates comparable or superior experience.",
+      "rationale": "No luxury-specific rate for unfamiliar launch evaluation; modeled as deliberate comparison with heightened checks rather than automatic trial.",
+      "basis": "modeling_assumption"
+    },
+    {
+      "rule": "When brand desirability conflicts with the mission budget, do not automatically trade down to a non-prestige alternative; first consider buying fewer items, selecting one hero item, or seeking a smaller or trial size within the budget, and only defer purchase if no prestige-consistent compromise fits.",
+      "rationale": "Investment is conditional on exclusive credible benefits with need to feel rewarded, and smaller cheaper formats, minis and sampling can open access while retaining prestige.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "Before purchase feels justified, complete a multi-signal check covering product description and claimed benefits, multiple detailed reviews and ratings, comparison of several prestige alternatives, and where relevant expert or sensory evidence; do not purchase on a single signal such as price, virality or scarcity alone.",
+      "rationale": "Half conduct extensive research, reviews are the top influence, and shoppers browse many alternatives with evaluation across multiple touchpoints.",
+      "basis": "research_supported"
+    },
+    {
+      "rule": "When a limited-edition option has high desirability but limited customer reviews, intensify investigation for shade, texture and artist validation and look for sampling, shade-matching or easy-return options; delay purchase until corroboration is found rather than buying on urgency alone.",
+      "rationale": "Scarcity effects vary by individual and limited-edition beauty lift is inferred from general luxury scarcity, so thin reviews modeled as trigger for deeper checks.",
+      "basis": "modeling_assumption"
+    },
+    {
+      "rule": "When choosing where to purchase shortlisted options, prefer the source that provides the more rewarding, inspiring and confidence-building journey with clear benefits, sampling or returns support, rather than choosing on convenience or price alone.",
+      "rationale": "Trust and enjoyable, confidence-building experience is the top prestige retail driver with seamless navigation and frictionless returns supporting engagement.",
+      "basis": "research_supported"
+    }
+  ],
+  "parameter_context": {
+    "trend_sensitivity": {
+      "score": 0.4,
+      "band": "medium",
+      "definition": "How strongly current trends, viral products and what is popular right now shape what the shopper looks at and wants.",
+      "interpretation": "Medium-low: notices trends and may check a trending prestige item, but trend status alone does not create consideration.",
+      "rationale": "Selective about social trends; curation and expert validation filter mass buzz.",
+      "shopping_manifestation": "Follows prestige launches and editorial curation; filters out mass virality.",
+      "observable_actions": [
+        "Browses trending edits to filter for prestige relevance",
+        "Checks viral item only if corroborated by artist or detailed-review evidence",
+        "Ignores mass virality lacking formulation and wear proof"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora she uses the Trending Products page as a prestige-filtered entry, not following every viral item.",
+        "ulta": "At Ulta she treats launch visibility as awareness, requiring prestige assortment and sensory proof before consideration."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+          "note": "Mass brands excel at driving viral trends on TikTok/Instagram/Xiaohongshu while prestige must counter with distinctive stories and demonstrable distinction"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media",
+          "note": "Social commerce on TikTok/Instagram is a verified discovery path for some luxury shoppers but should be treated as qualitative signal"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "She notices trends and may check a prestige-relevant trending item, but only pursues if craft and curation fit"
+        }
+      ]
+    },
+    "influencer_trust": {
+      "score": 0.45,
+      "band": "medium",
+      "definition": "How much weight the shopper gives to creators, influencers and celebrity endorsements versus other sources.",
+      "interpretation": "Medium: uses creator content as one input, checked against reviews, experts or own testing.",
+      "rationale": "Trust hierarchy favors verifiable and close sources; genuine engagement outranks hype for luxury.",
+      "shopping_manifestation": "Follows prestige launches, artists and curated editorial; filters out mass virality.",
+      "observable_actions": [
+        "Watches prestige creator and artist content for texture and finish cues",
+        "Cross-checks creator claims with detailed reviews and editorial evidence",
+        "Discounts mass-viral volume without finish/wear detail"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora she considers a trending blush only if artist or detailed-review evidence addresses finish and wear, otherwise retains premium shortlist.",
+        "ulta": "At Ulta she uses artist and expert mentions to validate prestige skincare sensorial claims before adding to comparison."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media",
+          "note": "In-depth reviews (49%) and user-generated content (32%) are most effective influencer content among follower-shoppers, over hype"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media",
+          "note": "Even among influencer-followers, friends/family 63% and expert reviews 48% outrank micro-influencers 24%"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "She treats prestige creators and professional artists as confidence input to cross-check, not sole proof"
+        }
+      ]
+    },
+    "price_sensitivity": {
+      "score": 0.35,
+      "band": "medium",
+      "definition": "How much price, discounts and cost per use influence consideration and choice.",
+      "interpretation": "Medium-low: notices price and deals but price rarely overrides desirability once quality proof converges.",
+      "rationale": "Value-sensitive, not price-insensitive; premiums must demonstrate exclusive credible benefits versus dupes.",
+      "shopping_manifestation": "Weighs desirability and experience against price, not cost-per-use minimization.",
+      "observable_actions": [
+        "Compares $65 vs $35 on formulation and sensory advantage, not price alone",
+        "Rejects expensive option that fails to prove worth over cheaper",
+        "Under restricted mission considers fewer items or hero size within prestige rather than automatic trade-down"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora she does not choose foundation on price alone; she selects higher-priced only if it shows meaningful quality or experience advantage.",
+        "ulta": "At Ulta she treats rewards as confidence-building benefit, not reason to switch to non-prestige."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+          "note": "Even those not price-sensitive are still value-sensitive; shoppers want to feel rewarded to justify premium spending"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+          "note": "75% agree quality need not be expensive and 63% say premium is not higher-performing, requiring proof of worth"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.emarketer.com/content/shoppers-define-luxury-more-by-price-than-quality",
+          "note": "Only 14% believe higher prices indicate better quality, decoupling price from quality"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "She compares prices but pays more only when product is clearly more desirable or better crafted"
+        }
+      ]
+    },
+    "brand_loyalty": {
+      "score": 0.45,
+      "band": "medium",
+      "definition": "How much the shopper sticks with known brands versus switching.",
+      "interpretation": "Medium: has prestige favorites and heritage affinity but switches for compelling craft or desirability proof.",
+      "rationale": "Loyalty is conditional and heterogeneity is high; identity/desirability drives stickiness, not inertia.",
+      "shopping_manifestation": "Defaults to trusted prestige houses but investigates unfamiliar premium launches through descriptions, finishes and expert input.",
+      "observable_actions": [
+        "Shortlists familiar and emerging prestige together",
+        "Retains familiar unless new shows comparable or superior experience",
+        "Treats heritage as tie-breaker after evidence compared"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora she keeps an established luxury lipstick in comparison while investigating an emerging prestige formula via descriptions and detailed reviews, switching only if craft proof is stronger.",
+        "ulta": "At Ulta she browses established and emerging prestige in the prestige assortment, comparing reputation and experience before switching heritage preference."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Only 34% rarely switch brands and up to 53% of category purchases involve a brand not bought in prior year, supporting conditional loyalty"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+          "note": "Mintel segments range from Prestige Purists to Balanced Enthusiasts and Pragmatic Skeptics requiring proof a product cannot be duped"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Her loyalty is identity- and desirability-based; she shortlists familiar and emerging prestige and switches only on superior craft proof"
+        }
+      ]
+    },
+    "research_depth": {
+      "score": 0.8,
+      "band": "high",
+      "definition": "How much information the shopper gathers before buying: reviews, ingredients, details, comparisons.",
+      "interpretation": "High: reads reviews and details thoroughly and compares several options before committing.",
+      "rationale": "Considered prestige evaluation demands converging evidence on quality, desirability and experience.",
+      "shopping_manifestation": "Research-intensive across descriptions, ratings, comparisons and expert input.",
+      "observable_actions": [
+        "Completes multi-signal check: description, multiple reviews, several prestige alternatives, expert/sensory evidence",
+        "Browses many alternatives and loops to re-research where confidence is thin",
+        "Delays purchase until corroboration found rather than buying on single signal"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora she compares several prestige alternatives via descriptions and detailed reviews plus artist validation before purchase feels justified.",
+        "ulta": "At Ulta she widens to multi-product prestige comparison and cross-checks claims with detailed reviews before committing."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Half conduct extensive research before purchasing and reviews are top global influence; US shoppers browse ~19 makeup and 12 fragrance products before purchase"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Detailed descriptions, authentic reviews and clear benefits help decide confidently alongside testing and search"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "No luxury-only research rate was verified; multi-signal check threshold is a modeling assumption to test"
+        }
+      ]
+    },
+    "novelty_seeking": {
+      "score": 0.55,
+      "band": "medium",
+      "definition": "How attracted the shopper is to new launches, new brands and untried products.",
+      "interpretation": "Medium: open to new prestige launches and emerging brands when there is reason to try them.",
+      "rationale": "Newness attracts within prestige curation, but proof of craft is required to switch.",
+      "shopping_manifestation": "Actively scans prestige newness while requiring sensory and reputation corroboration.",
+      "observable_actions": [
+        "Browses launch edits and limited releases for emerging prestige",
+        "Shortlists unfamiliar premium launch for description and expert investigation",
+        "Stays with familiar unless new demonstrates comparable or superior experience"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora she explores NEW and limited-edition edits to surface emerging prestige, then investigates finishes and ingredients before switching.",
+        "ulta": "At Ulta she explores prestige assortment expansion entrants, treating heritage as tie-breaker after innovation evidence is weighed."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+          "note": "Mintel frames uniqueness and emotional affinity as core luxury propositions supported by inspirational retail, with prestige launches as entry points"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "She is open to emerging prestige and new launches when detailed or expert evidence gives reason to try"
+        }
+      ]
+    },
+    "impulse_buying_tendency": {
+      "score": 0.35,
+      "band": "medium",
+      "definition": "How likely the shopper is to buy something unplanned or decide quickly in the moment.",
+      "interpretation": "Medium-low: mostly deliberate with situational impulse concentrated on limited editions or hero affinity.",
+      "rationale": "Deliberation dominates; scarcity accelerates attention but still requires performance corroboration.",
+      "shopping_manifestation": "Occasional quick interest in giftable sets or hero restocks, but default is comparison and justification.",
+      "observable_actions": [
+        "Pauses on limited editions to seek shade/texture/artist proof",
+        "Delays when reviews are thin despite urgency cues",
+        "Rarely adds unplanned mass-viral items without corroboration"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora when a LIMITED EDITION flag creates urgency, she intensifies review and artist checks and delays if corroboration is missing.",
+        "ulta": "At Ulta when exclusive or early-access cues appear, she requires basic performance/sensory proof before valuing exclusivity."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://scienmag.com/tag/urgency-in-luxury-marketing-strategies/feed/",
+          "note": "Scarcity and limited availability can create urgency via uniqueness and fear of missing out, but effects vary by individual and do not guarantee purchase"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+          "note": "Half conduct extensive research and browse many alternatives before purchase, tilting considered beauty toward deliberation"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Limited-edition desirability triggers intensified investigation, not automatic buying on urgency alone"
+        }
+      ]
+    },
+    "product_quality_priority": {
+      "score": 0.9,
+      "band": "high",
+      "definition": "How much demonstrated performance and formulation quality drive the choice.",
+      "interpretation": "High: performance and formulation craft are deciding factors.",
+      "rationale": "Quality here means texture, finish, sensory experience and formulation craft, not tolerability or ease.",
+      "shopping_manifestation": "Requires converging performance and sensory proof; skepticism toward premium performance unless proven.",
+      "observable_actions": [
+        "Inspects formulation, finishes, ingredients and claimed benefits in descriptions",
+        "Prioritizes detailed reviews on texture, application, scent and wear",
+        "Rejects premium with functional flaws despite attractive presentation"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora she scrutinizes descriptions and reviews for finish, wear and sensorial payoff and checks flaws like application issues before valuing packaging.",
+        "ulta": "At Ulta she demands ingredient-quality and wear evidence for prestige skincare, rejecting elegant packaging if functionality evidence is negative."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+          "note": "Product experience including design, texture and scent drives attachment, with higher-priced heroes scoring higher when they deliver"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+          "note": "Tablestakes are expert-driven evidence-based communication with clinical and ingredient-quality proof; transparency and trials differentiate from dupes"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/",
+          "note": "Pricing must be justified by formulation quality, performance outcomes or cultural relevance; high price alone does not guarantee quality"
+        }
+      ]
+    },
+    "convenience_priority": {
+      "score": 0.35,
+      "band": "medium",
+      "definition": "How much ease, speed, simplicity and fit with a routine matter.",
+      "interpretation": "Medium-low: prefers inspiring journeys but will spend time and effort for the right prestige product.",
+      "rationale": "Shopping experience is part of prestige value, not convenience; friction is tolerated when craft justification requires it.",
+      "shopping_manifestation": "Willing to invest effort across descriptions, reviews and comparisons; does not reject on effort alone.",
+      "observable_actions": [
+        "Accepts multi-product comparison and re-research loops",
+        "Seeks trial or shade-match confidence where thin",
+        "Chooses confidence-building retailer over fastest option"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora she completes multi-signal checks and explores Rewards Bazaar trial routes rather than choosing fastest checkout.",
+        "ulta": "At Ulta she invests time comparing premium-to-premium options on quality and experience rather than defaulting to easiest pick."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+          "note": "NIQ finds trust plus me-time appeal is top driver and differentiation comes from indulgent confidence-building experience, not speed alone"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "She prefers the more rewarding, inspiring journey with sampling/returns support over convenience or price alone"
+        }
+      ]
+    },
+    "prestige_priority": {
+      "score": 0.9,
+      "band": "high",
+      "definition": "How much brand status, exclusivity, packaging and premium positioning matter.",
+      "interpretation": "High: prefers prestige brands and premium presentation; prestige and elevated experience are part of value.",
+      "rationale": "Prestige motivation centers on desirability, exclusivity and elevated experience, distinct from trend or convenience.",
+      "shopping_manifestation": "Seeks desirable premium products where formulation craft, heritage cues and presentation justify premium.",
+      "observable_actions": [
+        "Filters discovery for prestige relevance and curated exclusives",
+        "Weighs packaging, design and sensorial ritual alongside performance",
+        "Prefers rewarding, inspiring retailer journey over convenience or price"
+      ],
+      "retailer_examples": {
+        "sephora": "At Sephora she gravitates to ONLY AT SEPHORA and LIMITED EDITION curation and values Bazaar samples and inspiring journey as part of value.",
+        "ulta": "At Ulta she seeks prestige assortment depth and sensorial heritage stories, valuing confidence-building experience over trading down."
+      },
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+          "note": "Uniqueness and emotional affinity plus brand name and exclusivity underlie luxury perceptions and investment"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+          "note": "Sensory elements, application, texture, smell and elevated packaging matter especially in self-service environments, linking design to attachment"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+          "note": "Trust plus indulgent, confidence-building experience differentiates prestige choice beyond product"
+        }
+      ]
+    }
+  },
+  "shopping_decision_rules": [
+    {
+      "scenario_id": "viral_mixed_reviews",
+      "investigate_first": "Check whether viral buzz includes detailed formulation, finish and wear evidence versus brief hype notes.",
+      "information_sought": [
+        "Detailed review content on formulation, finish and wear for viral item",
+        "Professional or editorial corroboration where available",
+        "Comparison of viral finish vs premium shortlist"
+      ],
+      "conflict_weighing": "Do not choose on rating count or buzz alone; weigh detailed sensory and wear content, expert corroboration and formulation evidence. Viral popularity only earns consideration if corroborated on finish and wear.",
+      "purchase_triggers": [
+        "Viral item corroborated by artist/editorial and detailed reviews showing comparable craft",
+        "Converging sensory proof across multiple sources"
+      ],
+      "rejection_triggers": [
+        "Buzz volume without texture, finish or wear detail",
+        "Contradictory wear evidence or credible flaw reports"
+      ],
+      "influencing_parameters": [
+        "trend_sensitivity",
+        "influencer_trust",
+        "research_depth",
+        "prestige_priority",
+        "product_quality_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media",
+          "note": "In-depth reviews outrank hype and expert/friend sources outrank influencers; mass brands dominate virality prestige must filter"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+          "note": "Mass virality must be countered with distinctive demonstrable distinction"
+        }
+      ]
+    },
+    {
+      "scenario_id": "popular_price_premium",
+      "investigate_first": "Open descriptions and detailed reviews for both to compare formulation craft and sensory proof before weighing price.",
+      "information_sought": [
+        "Formulation, finish and ingredient-quality comparison",
+        "Detailed reviews on texture, wear and sensory payoff",
+        "Evidence of meaningful advantage for price gap"
+      ],
+      "conflict_weighing": "Do not choose on price or prestige badge alone; compare formulation, finish, sensory evidence and performance proof. Select higher-priced only if it shows meaningful quality, desirability or experience advantage.",
+      "purchase_triggers": [
+        "Higher-priced shows distinct sensory, finish or lasting-wear advantage with corroboration",
+        "Exclusive credible benefit that justifies premium"
+      ],
+      "rejection_triggers": [
+        "No meaningful advantage despite higher price",
+        "Credible dupe equivalence or weak evidence for premium claims"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "prestige_priority",
+        "research_depth"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.emarketer.com/content/shoppers-define-luxury-more-by-price-than-quality",
+          "note": "Only 14% equate higher price with better quality; premiums must prove worth versus dupes"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+          "note": "63% do not rate premium higher-performing; mass challengers match prestige codes requiring justification"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/",
+          "note": "Shoppers evaluate will this work first, then price, with benefit-aligned ingredients and design as proof"
+        }
+      ]
+    },
+    {
+      "scenario_id": "similar_different_prices",
+      "investigate_first": "Compare formulation, finish and sensory evidence across descriptions and reviews for both price points.",
+      "information_sought": [
+        "Side-by-side benefit and finish comparison",
+        "Sensory and performance proof from reviews and experts",
+        "Shade, texture and wear corroboration"
+      ],
+      "conflict_weighing": "Treat similar claims as hypothesis to test; favor higher-priced only on demonstrated craft, desirability or experience advantage, otherwise defer or reject it rather than automatically economizing.",
+      "purchase_triggers": [
+        "Prestige option proves superior texture, finish or experience with multiple corroborating signals",
+        "Trial or return confidence supports full-size commitment"
+      ],
+      "rejection_triggers": [
+        "Premium fails to demonstrate superiority over cheaper on craft or experience",
+        "Performance skepticism confirmed by weak evidence"
+      ],
+      "influencing_parameters": [
+        "price_sensitivity",
+        "product_quality_priority",
+        "prestige_priority",
+        "research_depth"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+          "note": "Value-sensitive but lower price sensitivity; need to feel rewarded to justify premium"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+          "note": "Investment conditional on exclusive credible benefits; smaller formats and sampling open aperture"
+        }
+      ]
+    },
+    {
+      "scenario_id": "familiar_vs_trending_brand",
+      "investigate_first": "Inspect unfamiliar launch via descriptions, finishes, ingredients, expert input and shade/texture evidence before switching.",
+      "information_sought": [
+        "Innovative formulation benefits and sensorial payoff",
+        "Heritage and reputation cues plus aesthetic presentation",
+        "Expert and detailed-review comparison on craft"
+      ],
+      "conflict_weighing": "Shortlist both; treat heritage as tie-breaker only after formulation, texture, finish and reputation evidence are compared. Favor emerging only if superior craft or desirability is shown.",
+      "purchase_triggers": [
+        "Emerging prestige shows comparable or superior experience with expert and review corroboration",
+        "Distinct desirability with performance proof"
+      ],
+      "rejection_triggers": [
+        "Innovation evidence thin or only viral without sensory corroboration",
+        "Familiar retains stronger proven experience"
+      ],
+      "influencing_parameters": [
+        "brand_loyalty",
+        "novelty_seeking",
+        "product_quality_priority",
+        "prestige_priority",
+        "research_depth"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+          "note": "Low blanket loyalty with openness to switching and segment variation from Purists to Skeptics"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Discovery spans multiple retailers with many alternatives browsed, supporting premium-to-premium comparison"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Heritage versus innovation weighting is a modeling assumption to test, not an empirical rate"
+        }
+      ]
+    },
+    {
+      "scenario_id": "influencer_vs_weak_reviews",
+      "investigate_first": "Identify what the endorsement actually demonstrates about formulation and experience, then cross-check with reviews and experts.",
+      "information_sought": [
+        "Creator claim specifics on texture, finish and wear",
+        "Cross-check in detailed reviews and expert/editorial tests",
+        "Negative signals on application or longevity"
+      ],
+      "conflict_weighing": "Do not add influencer-favored option on endorsement alone; require professional, editorial or detailed-review corroboration addressing formulation, finish and wear. Weight verifiable sources above creator volume.",
+      "purchase_triggers": [
+        "Endorsement corroborated by detailed reviews or artist/editorial evidence on craft",
+        "Consistent wear and finish proof across sources"
+      ],
+      "rejection_triggers": [
+        "Weak reviews contradict endorsement",
+        "No finish or wear detail to evaluate craft"
+      ],
+      "influencing_parameters": [
+        "influencer_trust",
+        "research_depth",
+        "product_quality_priority",
+        "prestige_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media",
+          "note": "Friends/family and expert reviews remain highly trusted above micro-influencers even among followers"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+          "note": "Expert-driven evidence-based communication is tablestakes for luxury credibility"
+        }
+      ]
+    },
+    {
+      "scenario_id": "new_limited_reviews",
+      "investigate_first": "Assess desirability cues then immediately seek corroborating texture, shade and performance signals given thin reviews.",
+      "information_sought": [
+        "Shade, texture and finish evidence despite few reviews",
+        "Artist or editorial validation",
+        "Sampling, shade-matching or return options"
+      ],
+      "conflict_weighing": "Require at least basic performance and sensory corroboration before valuing exclusivity; if evidence is weak or missing, prioritize investigation or rejection over scarcity appeal.",
+      "purchase_triggers": [
+        "Corroboration found plus trial/return confidence",
+        "Converging artist and early detailed-review support"
+      ],
+      "rejection_triggers": [
+        "No corroboration after intensified search",
+        "Functionality concerns emerge without counter-evidence"
+      ],
+      "influencing_parameters": [
+        "novelty_seeking",
+        "impulse_buying_tendency",
+        "research_depth",
+        "prestige_priority",
+        "product_quality_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://scienmag.com/tag/urgency-in-luxury-marketing-strategies/feed/",
+          "note": "Scarcity heightens purchase intention via uniqueness but varies by susceptibility"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+          "note": "Uniqueness and exclusivity underpin luxury perceptions"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Limited edition with thin reviews should trigger intensified shade/texture/artist validation and sampling inquiry"
+        }
+      ]
+    },
+    {
+      "scenario_id": "discounted_alternative",
+      "investigate_first": "Evaluate whether cheaper truly matches craft and whether premium packaging translates to functional experience.",
+      "information_sought": [
+        "Performance evidence for cheaper alternative",
+        "Packaging functionality and wear flaw checks for premium",
+        "Prestige-consistent compromise options if mission budget is restricted"
+      ],
+      "conflict_weighing": "Inspect functionality signals such as application, wear, flaws and design execution; reject or deprioritize if functionality evidence is negative despite attractive presentation. Do not trade down to non-prestige on price alone.",
+      "purchase_triggers": [
+        "Discounted/prestige-consistent option shows stronger credible performance with sensory corroboration",
+        "Premium proves distinct experience advantage justifying full price"
+      ],
+      "rejection_triggers": [
+        "Elegant packaging paired with negative application or wear evidence",
+        "Price, virality or scarcity alone without quality corroboration"
+      ],
+      "influencing_parameters": [
+        "product_quality_priority",
+        "prestige_priority",
+        "price_sensitivity",
+        "research_depth",
+        "convenience_priority"
+      ],
+      "evidence": [
+        {
+          "type": "research_supported",
+          "source_url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+          "note": "Functional flaws can undermine premium despite positioning; sensory and design drive attachment only when they deliver"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/",
+          "note": "Sophisticated shoppers check benefit-aligned ingredients, packaging proof and creator validation with price secondary"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "Under restricted mission, compromise as fewer items, one hero or mini/trial within prestige rather than mass switch"
+        }
+      ]
+    }
+  ],
+  "expected_observable_actions": {
+    "discovery": [
+      "Enters via curated prestige assortment, launch edits and limited releases",
+      "Encounters social/editorial inspiration but filters mass virality for prestige relevance",
+      "Widens from curation to multi-retailer browsing and professional/editorial contexts"
+    ],
+    "browsing": [
+      "Browses prestige assortment, launch edits and limited-edition curation filtered for prestige relevance",
+      "Opens descriptions to inspect formulation, finishes, ingredients, benefits and aesthetic cues",
+      "Reads multiple detailed reviews focusing on texture, application, scent, finish and wear"
+    ],
+    "comparison": [
+      "Compares premium-to-premium alternatives on quality, desirability, reputation and experience",
+      "Checks whether higher price offers meaningful sensory or performance advantage over cheaper alternative",
+      "Weights heritage as tie-breaker only after formulation and reputation evidence compared"
+    ],
+    "purchase": [
+      "Purchases where trust and experience justify spend after multi-signal convergence",
+      "Uses trial, sampling or return confidence where needed before full-size commitment",
+      "Under restricted mission budget compromises by fewer items, one hero, or smaller/trial size within prestige"
+    ],
+    "rejection_or_substitution": [
+      "Rejects expensive option that fails to demonstrate superior quality, desirability or experience",
+      "Defers limited-edition with thin reviews until shade/texture/artist corroboration found",
+      "Excludes viral-only option lacking professional or detailed-review proof"
+    ]
+  },
+  "behavioral_scenarios": [
+    {
+      "scenario_id": "prestige_vs_strong_value_foundation",
+      "title": "Sixty-five dollar prestige foundation versus thirty-five dollar similar-benefit foundation",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A - $65 prestige foundation with skincare-infused formulation and luminous finish",
+          "price_usd": 65,
+          "popularity": "High within prestige assortment",
+          "brand_reputation": "Established prestige house with heritage cues and strong desirability",
+          "social_influence": "Featured in editorial curation and professional artist content",
+          "customer_reviews": "4.4 stars from many reviews praising finish, texture and wear with detailed sensory notes",
+          "performance_claims": "Long wear, even finish, skincare benefits and shade depth",
+          "novelty": "Core prestige formula, not a new launch"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B - $35 foundation with similar advertised benefits and strong reviews",
+          "price_usd": 35,
+          "popularity": "High overall with viral mentions",
+          "brand_reputation": "Mass-appearing brand with good reputation for value but limited prestige heritage",
+          "social_influence": "Broad viral buzz and dupe comparisons",
+          "customer_reviews": "4.6 stars from many reviews praising coverage and value",
+          "performance_claims": "Similar long-wear and finish claims at accessible price",
+          "novelty": "Recent reformulation positioned as prestige alternative"
+        }
+      ],
+      "expected_journey": [
+        "Discover both foundations while browsing Sephora curated prestige assortment and Trending / new arrivals filtered for prestige relevance",
+        "Open $65 prestige description to inspect formulation, finish, ingredients and claimed benefits plus brand reputation cues",
+        "Read multiple detailed reviews focusing on texture, finish, wear and scent, not just rating",
+        "Compare $65 vs $35 side-by-side on formulation craft, sensory evidence and performance proof, checking whether cheaper truly matches craft",
+        "Seek shade/texture evidence and sampling or return confidence if needed before deciding"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "product_quality_priority",
+          "effect": "High quality priority requires meaningful formulation, finish and sensory advantage to justify $65 — evidence-supported from skepticism that premium is not automatically higher-performing."
+        },
+        {
+          "parameter": "prestige_priority",
+          "effect": "High prestige priority keeps $65 in consideration for desirability and experience, not price alone — evidence-supported."
+        },
+        {
+          "parameter": "price_sensitivity",
+          "effect": "Medium price sensitivity means she notices $30 gap but does not trade down on price alone — hypothetical weighting of compromise as fewer items rather than mass switch."
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "High research depth drives multi-review and multi-product comparison before justification — evidence-supported."
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Further investigation then purchase of $65 prestige foundation where rewarding journey and confidence support spend",
+          "conditions": "If detailed reviews, expert validation and sensory evidence show $65 delivers superior texture, finish, wear or experience that $35 does not match."
+        },
+        {
+          "outcome": "Reject or defer $65 and continue investigating, without automatically buying $35 as prestige-consistent compromise is required",
+          "conditions": "If $35 shows equivalent craft and finish with credible sensory proof and $65 shows no meaningful advantage despite prestige positioning."
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "scenario_2",
+      "title": "Established luxury lipstick versus emerging prestige innovative lipstick",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A - Established luxury brand lipstick in classic satin finish",
+          "price_usd": 45,
+          "popularity": "Steady prestige bestseller",
+          "brand_reputation": "Established luxury house with strong heritage and desirability",
+          "social_influence": "Editorial mainstay and artist kit staple",
+          "customer_reviews": "4.5 stars with consistent praise for classic finish and packaging experience",
+          "performance_claims": "Rich color, comfortable wear and elegant packaging",
+          "novelty": "Iconic shade family, low novelty"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B - Emerging prestige brand lipstick with innovative cushiony formulation",
+          "price_usd": 42,
+          "popularity": "Rising in prestige launch edits",
+          "brand_reputation": "Emerging prestige brand with growing reputation for innovative formulation",
+          "social_influence": "Prestige creator and artist early endorsements",
+          "customer_reviews": "4.3 stars from fewer reviews noting innovative texture and modern finish",
+          "performance_claims": "Weightless full coverage, blurred finish and hydrating feel",
+          "novelty": "New launch with novel wax-alternative base"
+        }
+      ],
+      "expected_journey": [
+        "Discover established lipstick in prestige assortment and emerging prestige lipstick in launch edit or limited curation",
+        "Shortlist both rather than dismissing unfamiliar brand",
+        "Inspect descriptions for formulation innovation, finish, ingredients and sensory payoff",
+        "Consult detailed reviews and professional / editorial validation addressing texture, pigment, wear and scent",
+        "Compare premium-to-premium on quality, desirability, reputation and experience"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "brand_loyalty",
+          "effect": "Medium brand loyalty means heritage keeps familiar option as default but does not block emerging prestige trial — evidence-supported from low overall loyalty and segment heterogeneity."
+        },
+        {
+          "parameter": "novelty_seeking",
+          "effect": "Medium novelty seeking creates openness to emerging prestige when reason exists — hypothetical threshold tested in simulation."
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "High research depth and high quality priority require superior craft or desirability proof before switching — evidence-supported."
+        },
+        {
+          "parameter": "prestige_priority",
+          "effect": "High prestige priority treats heritage as tie-breaker only after formulation and experience evidence compared — hypothetical weighting."
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Investigate shade and texture further then consider emerging prestige option, potentially preferring it over familiar",
+          "conditions": "If detailed reviews and artist validation show emerging formula delivers superior craft, texture or desirability with credible wear evidence."
+        },
+        {
+          "outcome": "Retain familiar established prestige option and defer emerging option pending stronger proof",
+          "conditions": "If innovation evidence is thin, inconsistent, or only viral without sensory corroboration."
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "scenario_3",
+      "title": "Limited-edition luxury product with high desirability but limited reviews",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A - Limited-edition luxury compact with exclusive shade and collectible packaging",
+          "price_usd": 85,
+          "popularity": "High desirability, low availability",
+          "brand_reputation": "Prestige house with strong desirability and collectible design reputation",
+          "social_influence": "High social desire and unboxing attention, limited wear-test content",
+          "customer_reviews": "Few reviews (e.g., under 30) but early detailed notes positive on design and finish; rating provisional",
+          "performance_claims": "Exclusive finish and sensorial application with collectible case",
+          "novelty": "Limited edition, high novelty and exclusivity"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B - Core line prestige compact with comparable finish and proven wear",
+          "price_usd": 68,
+          "popularity": "Steady prestige seller",
+          "brand_reputation": "Same prestige house core line with established reputation",
+          "social_influence": "Sustained editorial and review endorsement",
+          "customer_reviews": "4.6 stars from thousands of reviews with thorough wear evidence",
+          "performance_claims": "Comparable lasting finish with proven shade range",
+          "novelty": "Permanent line, low novelty"
+        }
+      ],
+      "expected_journey": [
+        "Encounter limited-edition product via limited-edition curation or launch edit with high desirability cues",
+        "Recognize scarcity urgency but do not buy on urgency alone",
+        "Intensify investigation for shade, texture, finish and artist validation despite limited customer reviews",
+        "Look for sampling, shade-matching or easy-return confidence routes and re-research",
+        "Delay if corroboration missing rather than impulse buying"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "prestige_priority",
+          "effect": "High prestige priority heightens attraction to exclusivity and design attachment — evidence-supported from uniqueness as core luxury proposition."
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "High research depth triggers intensified shade/texture/artist validation when reviews are thin — evidence-supported."
+        },
+        {
+          "parameter": "impulse_buying_tendency",
+          "effect": "Medium impulse tendency means urgency may tempt but default remains deliberate justification — hypothetical situational impulse."
+        },
+        {
+          "parameter": "product_quality_priority",
+          "effect": "High quality priority requires at least basic performance and sensory corroboration before valuing exclusivity — hypothetical threshold."
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Proceed to purchase limited edition after intensified investigation",
+          "conditions": "If shade, texture and artist validation plus return/sample confidence converge to support performance and desirability."
+        },
+        {
+          "outcome": "Delay purchase and continue monitoring reviews or consider proven core alternative, prioritizing investigation over scarcity",
+          "conditions": "If performance/sensory evidence remains weak or missing despite desirability and scarcity pressure."
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "viral_affordable_vs_artist_premium_blush",
+      "title": "Viral affordable blush versus premium artist-recommended blush",
+      "retailer_setting": "sephora",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A - Viral affordable blush with intense social buzz",
+          "price_usd": 12,
+          "popularity": "Viral top-trending",
+          "brand_reputation": "Mass brand known for virality, limited prestige heritage",
+          "social_influence": "Very high TikTok/Instagram volume from mass creators",
+          "customer_reviews": "4.7 stars from very high review counts but many brief hype notes, fewer detailed wear tests",
+          "performance_claims": "High pigment and glow with low price",
+          "novelty": "Viral shade, high trend novelty"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B - Premium blush recommended by professional makeup artists",
+          "price_usd": 42,
+          "popularity": "Moderate but strong in artist/editorial circles",
+          "brand_reputation": "Prestige brand with strong artist endorsement and formulation reputation",
+          "social_influence": "Professional artist and editorial recommendations plus in-depth review content",
+          "customer_reviews": "4.5 stars with detailed reviews on blendability, finish and lasting wear",
+          "performance_claims": "Buildable natural finish, lasting wear and refined texture",
+          "novelty": "Refillable prestige formula, moderate novelty"
+        }
+      ],
+      "expected_journey": [
+        "Notice viral affordable blush in social feed but filter through prestige relevance lens",
+        "Browse premium blush shortlist in prestige assortment and professional recommendation contexts",
+        "Consider viral option only if corroborated by professional, editorial or detailed-review evidence on formulation, finish and wear",
+        "Compare finish, texture, pigment and wear experience, not buzz volume",
+        "Retain premium shortlist if viral lacks craft proof"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "trend_sensitivity",
+          "effect": "Medium trend sensitivity means she notices viral item but does not pursue on trend status alone — evidence-supported distinction from mass virality."
+        },
+        {
+          "parameter": "influencer_trust",
+          "effect": "Medium influencer trust means creator content is checked against reviews and expert sources — evidence-supported from trust hierarchy favoring experts and detailed reviews."
+        },
+        {
+          "parameter": "prestige_priority",
+          "effect": "High prestige and quality priorities favor artist-validated craft and sensory experience over buzz — evidence-supported."
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "High research depth requires finish and wear proof before adding viral to consideration — hypothetical application."
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Add viral option to comparison set for deeper premium-to-value craft check, still requiring sensory proof",
+          "conditions": "If viral affordable blush gains corroboration from prestige artists, editorial tests or detailed reviews showing comparable finish and wear craft."
+        },
+        {
+          "outcome": "Exclude viral from consideration and continue premium-to-premium comparison, focusing on artist-recommended option",
+          "conditions": "If viral buzz lacks professional or detailed-review corroboration on formulation and wear."
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    },
+    {
+      "scenario_id": "scenario_5",
+      "title": "Elegant expensive skincare versus cheaper stronger-evidence skincare",
+      "retailer_setting": "ulta",
+      "listings": [
+        {
+          "label": "Product A",
+          "description": "Product A - Expensive prestige serum with elegant packaging and sensorial texture",
+          "price_usd": 120,
+          "popularity": "Moderate prestige visibility",
+          "brand_reputation": "Prestige skincare house with elegant design and heritage cues",
+          "social_influence": "Aesthetic unboxing and lifestyle endorsement",
+          "customer_reviews": "4.1 stars with mixed notes: praise for scent and packaging, questions on performance vs price",
+          "performance_claims": "Radiance, smoothness and luxury sensorial ritual",
+          "novelty": "Prestige repackaged formula"
+        },
+        {
+          "label": "Product B",
+          "description": "Product B - Cheaper serum with stronger performance evidence and transparent benefits",
+          "price_usd": 58,
+          "popularity": "Growing via detailed reviews and expert mentions",
+          "brand_reputation": "Derm-leaning prestige brand with reputation for evidence-based formulations",
+          "social_influence": "Expert and detailed-review validation",
+          "customer_reviews": "4.6 stars with detailed before/after and texture notes plus ingredient-quality discussion",
+          "performance_claims": "Clinical-looking radiance and texture improvement with transparent ingredients",
+          "novelty": "Science-backed formula update"
+        }
+      ],
+      "expected_journey": [
+        "Discover expensive skincare via prestige curation noting elegant packaging and prestige positioning",
+        "Discover cheaper alternative with stronger performance evidence via reviews or clinical/ingredient-quality communication",
+        "Inspect functionality signals: application, wear, flaws, design execution and ingredient-quality evidence",
+        "Compare whether higher price offers meaningful sensory or performance advantage",
+        "Reject premium if it fails to prove superior quality, desirability or experience"
+      ],
+      "parameter_influence": [
+        {
+          "parameter": "product_quality_priority",
+          "effect": "High quality priority makes demonstrated performance and formulation craft deciding — evidence-supported from need to prove worth vs dupes."
+        },
+        {
+          "parameter": "prestige_priority",
+          "effect": "High prestige priority appreciates packaging but does not override negative functionality evidence — evidence-supported from sensory plus flaw findings."
+        },
+        {
+          "parameter": "price_sensitivity",
+          "effect": "Medium price sensitivity supports value justification, not discount chasing — evidence-supported as value-sensitive not price-insensitive."
+        },
+        {
+          "parameter": "research_depth",
+          "effect": "High research depth drives inspection of application, wear and design execution flaws — hypothetical depth of check."
+        }
+      ],
+      "plausible_outcomes": [
+        {
+          "outcome": "Reject or deprioritize expensive prestige option despite attractive presentation, deferring or shifting to proven option",
+          "conditions": "If cheaper product maintains stronger credible performance and sensory evidence and expensive option shows no meaningful advantage."
+        },
+        {
+          "outcome": "Retain expensive option in premium comparison and investigate further for experience justification, requiring converging signals",
+          "conditions": "If expensive option demonstrates distinct sensorial craft, finish or exclusive credible benefit with corroborating detailed reviews."
+        }
+      ],
+      "evidence_type": "hypothetical_example"
+    }
+  ],
+  "retailer_behavior": {
+    "sephora": {
+      "display_name": "Sephora",
+      "discovery": [
+        "Enters via curated prestige assortment, Trending Products page and Sephora Favorites sampler/value-set cues",
+        "Uses NEW and LIMITED EDITION flags to surface desirable and emerging prestige",
+        "Widens to reviews, expert input and multi-product comparison"
+      ],
+      "browsing": [
+        "Browses Trending Products and ONLY AT SEPHORA / LIMITED EDITION edits to filter mass virality for prestige relevance",
+        "Opens descriptions for formulation, finishes, ingredients, benefits and aesthetic cues",
+        "Reads multiple detailed reviews focusing on texture, finish, scent and wear"
+      ],
+      "comparison": [
+        "Compares premium-to-premium alternatives on quality, desirability, reputation and experience",
+        "Checks price-versus-advantage: higher price only if meaningful sensory or performance advantage shown",
+        "Treats heritage as tie-breaker after formulation and reputation evidence compared"
+      ],
+      "purchase": [
+        "Purchases where rewarding, inspiring and confidence-building journey justifies spend",
+        "Uses Bazaar deluxe samples and choose-with-order trial to test texture and scent before full-size where needed",
+        "Prefers sampling and return confidence over convenience or price alone"
+      ],
+      "relevant_site_features": [
+        {
+          "feature": "Trending Products page curating social-driven products across makeup, skincare, fragrance and hair",
+          "relevance": "Provides prestige-filtered launch and virality entry point to check trends for prestige relevance",
+          "verified": true,
+          "source_url": "https://www.sephora.com/buy/trending-products"
+        },
+        {
+          "feature": "ONLY AT SEPHORA, NEW and LIMITED EDITION merchandising flags including Sephora Favorites sets",
+          "relevance": "Supports curated discovery of exclusives and limited releases central to desirability",
+          "verified": true,
+          "source_url": "https://www.sephora.com/buy/trending-products"
+        },
+        {
+          "feature": "Beauty Insider program with Insider/VIB/Rouge tiers, Beauty Insider Cash and Rewards Bazaar",
+          "relevance": "Provides rewarding journey and deluxe-sample trial to build confidence and justify premium spend",
+          "verified": true,
+          "source_url": "https://www.sephora.com/beauty/loyalty-program"
+        }
+      ],
+      "differences_from_other_retailers": "Sephora maps more directly to her prestige-launch filter via verified Trending and exclusivity merchandising plus sample-based trial rituals, while Ulta leans on prestige assortment expansion and service-linked value.",
+      "evidence": [
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.sephora.com/buy/trending-products",
+          "note": "Trending Products page curates what is taking social media by storm across categories"
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.sephora.com/buy/trending-products",
+          "note": "Site merchandising flags ONLY AT SEPHORA, NEW and LIMITED EDITION including sampler sets"
+        },
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.sephora.com/beauty/loyalty-program",
+          "note": "Beauty Insider tiers, Cash redemption and Rewards Bazaar deluxe samples support trial and rewarding journey"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Reviews and multi-product browsing behavior supports deep evaluation before purchase"
+        }
+      ]
+    },
+    "ulta": {
+      "display_name": "Ulta Beauty",
+      "discovery": [
+        "Enters via prestige assortment and new prestige brand presence",
+        "Uses multi-retailer browsing to surface brands not seen elsewhere",
+        "Filters launch visibility through expert and sensory relevance"
+      ],
+      "browsing": [
+        "Browses prestige and Global Beauty assortment for established and emerging prestige options",
+        "Inspects descriptions for formulation, sensorial experience, heritage and benefits",
+        "Consults detailed reviews and professional mentions for texture, finish and wear"
+      ],
+      "comparison": [
+        "Compares premium-to-premium on perceived quality, desirability, reputation and experience",
+        "Requires performance/sensory corroboration before valuing exclusivity",
+        "Deprioritizes attractive packaging if functionality evidence is negative"
+      ],
+      "purchase": [
+        "Purchases where trust and indulgent confidence-building experience justify spend",
+        "Under restricted mission buys fewer items, one hero, or smaller/trial size within prestige rather than trading down",
+        "Defers when performance corroboration is missing despite exclusivity cues"
+      ],
+      "relevant_site_features": [
+        {
+          "feature": "Prestige and Global Beauty assortment expansion with sensorial heritage positioning (e.g., DECORTE Liposome collection)",
+          "relevance": "Provides multi-brand prestige discovery to compare established and emerging prestige on craft and experience",
+          "verified": true,
+          "source_url": "https://www.prnewswire.com/news-releases/decorte-announces-partnership-with-ulta-beauty-bringing-its-signature-liposome-skincare-to-select-stores-nationwide-302925877.html"
+        }
+      ],
+      "differences_from_other_retailers": "Ulta offers prestige discovery via assortment expansion and sensorial heritage stories, with value mechanics better suited to mixed-basket confidence while staying prestige, versus Sephora's exclusivity-flag curation.",
+      "evidence": [
+        {
+          "type": "retailer_specific",
+          "source_url": "https://www.prnewswire.com/news-releases/decorte-announces-partnership-with-ulta-beauty-bringing-its-signature-liposome-skincare-to-select-stores-nationwide-302925877.html",
+          "note": "Ulta positions prestige discovery via Global Beauty and prestige expansion exemplified by DECORTE Liposome sensorial heritage launch"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "note": "Shoppers discover more brands when browsing across multiple retailers, supporting cross-retailer prestige hunting"
+        },
+        {
+          "type": "research_supported",
+          "source_url": "https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/",
+          "note": "Pricing must be justified by formulation quality or performance; high price does not guarantee quality"
+        },
+        {
+          "type": "inferred_rule",
+          "source_url": null,
+          "note": "No verified evidence was found for Ulta review-filter or sampling specifics, so those are modeled as investigation needs"
+        }
+      ]
+    }
+  },
+  "research_evidence": {
+    "baseline_assessment": [
+      {
+        "hypothesis": "H1. Motivation: Acquiring desirable, premium beauty products that offer superior perceived quality, exclusivity, prestige, and elevated product experiences.",
+        "verdict": "supported",
+        "note": "Uniqueness, emotional affinity, exclusivity and indulgent experience are confirmed as core luxury propositions."
+      },
+      {
+        "hypothesis": "H2. Values premium formulations, product performance, brand reputation, heritage, and aesthetic presentation.",
+        "verdict": "refined",
+        "note": "Performance proof, reputation and aesthetics are strongly supported but heritage lacks direct quantitative support and becomes secondary."
+      },
+      {
+        "hypothesis": "H3. Willing to pay substantial premiums when perceived quality, exclusivity, or desirability justifies the price.",
+        "verdict": "supported",
+        "note": "Investment is conditional on exclusive credible benefits and feeling rewarded to justify premium spend."
+      },
+      {
+        "hypothesis": "H4. Considers packaging, product design, and the overall shopping experience as part of product value.",
+        "verdict": "supported",
+        "note": "Design, texture, scent, packaging and trust plus experience differentiate prestige choice."
+      },
+      {
+        "hypothesis": "H5. Follows prestige beauty launches, professional makeup artists, luxury beauty creators, and curated editorial recommendations.",
+        "verdict": "insufficient_evidence",
+        "note": "Curation and expert trust are supported but no study isolates makeup-artist or editorial following rates for luxury shoppers."
+      },
+      {
+        "hypothesis": "H6. May be loyal to established prestige brands while remaining open to emerging premium brands.",
+        "verdict": "supported",
+        "note": "Low overall loyalty with frequent brand switching supports conditional loyalty open to proven emerging prestige."
+      },
+      {
+        "hypothesis": "H7. Interested in product craftsmanship, formulation, texture, finish, and sensory experience.",
+        "verdict": "supported",
+        "note": "Design, texture, scent and application experience drive attachment and differentiation."
+      },
+      {
+        "hypothesis": "H8. Selective about social-media trends rather than automatically following mass-market virality.",
+        "verdict": "supported",
+        "note": "In-depth reviews and expert sources outrank hype while mass brands dominate virality that prestige filters."
+      },
+      {
+        "hypothesis": "H9. May value exclusivity, limited editions, and product scarcity.",
+        "verdict": "supported",
+        "note": "Exclusivity and scarcity heighten intention but beauty-specific limited-edition lift lacks a dedicated estimate."
+      },
+      {
+        "hypothesis": "H10. Compares premium alternatives using quality, desirability, reputation, and product experience.",
+        "verdict": "supported",
+        "note": "Extensive multi-product research evaluates sensory, functional, design and science-backed performance."
+      },
+      {
+        "hypothesis": "H11. Does not necessarily equate high price with high quality and may reject an expensive product that fails expectations.",
+        "verdict": "supported",
+        "note": "Only a small minority equate price with quality and most agree quality need not be expensive."
+      },
+      {
+        "hypothesis": "H12. Shopping journey: Curated discovery → Brand/product evaluation → Compare premium alternatives → Purchase",
+        "verdict": "refined",
+        "note": "Each step is evidenced but no source validates this exact linear order, so loops for re-research apply."
+      }
+    ],
+    "supporting_sources": [
+      {
+        "url": "https://store.mintel.com/report/us-luxury-beauty-consumer-market-report?add-to-cart=190734",
+        "title": "US Luxury Beauty Consumer: 2025 | Mintel Store",
+        "published_date": null,
+        "used_for": "curation reliance, uniqueness and emotional affinity, expert-driven evidence tablestakes, exclusivity perceptions, segmentation and conditional investment"
+      },
+      {
+        "url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+        "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+        "published_date": null,
+        "used_for": "specialty influence, lower prestige price sensitivity needing reward, trust and experience as top driver"
+      },
+      {
+        "url": "https://www.wpp.com/en/news/2025/02/uk-shoppers-buy-luxury-items-directly-through-social-media",
+        "title": "Over a quarter of UK shoppers buy luxury fashion and beauty items directly through social media, a new WPP survey reveals",
+        "published_date": null,
+        "used_for": "social commerce path, in-depth review effectiveness, friends/family and expert trust hierarchy and selective trend following"
+      },
+      {
+        "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+        "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+        "published_date": null,
+        "used_for": "multi-retailer discovery, AI-assisted shopping, reviews as top influence, browsing depth and low rarely-switch loyalty"
+      },
+      {
+        "url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+        "title": "Customers Want Beauty Brands to Prove Their Worth",
+        "published_date": null,
+        "used_for": "value-sensitivity, mass virality versus prestige distinction, extensive research, sensory/design attachment, premium skepticism and dupe openness"
+      },
+      {
+        "url": "https://www.emarketer.com/content/shoppers-define-luxury-more-by-price-than-quality",
+        "title": "Shoppers define luxury more by price than quality",
+        "published_date": null,
+        "used_for": "price-quality decoupling with few equating higher price with better quality"
+      },
+      {
+        "url": "https://scienmag.com/tag/urgency-in-luxury-marketing-strategies/feed/",
+        "title": "urgency in luxury marketing strategies – Science",
+        "published_date": null,
+        "used_for": "scarcity and uniqueness heightening luxury purchase intention with individual variation"
+      }
+    ],
+    "evidence_summary": "Omnichannel curated and specialty discovery with growing social and multi-retailer paths supports curated entry; in-depth reviews, close sources and expert reviews outrank hype, supporting selective trend filtering. Research-intensive evaluation across many alternatives focuses on sensory, design and science-backed performance proof, while value-sensitivity with skepticism that premium outperforms mass requires demonstrated worth. Conditional loyalty with frequent switching enables established-versus-emerging comparison, and uniqueness plus scarcity trigger interest but need corroboration; trust and indulgent experience drive final choice with trial formats supporting confidence.",
+    "research_date": "2026-11-03",
+    "research_report_path": "research-reports/luxury/2026-11-03T19-20-22-366Z.md",
+    "research_response_id": "resp_6aea33f72c0a2265c3174041",
+    "assumptions": [
+      "H5 retained as modeling assumption despite insufficient evidence that she follows prestige launches, professional makeup artists and curated editorial sources at a distinct rate.",
+      "H2 heritage component retained as secondary cue as modeling assumption without direct quantitative support.",
+      "H12 linear curated discovery to purchase sequence treated as typical with loops for re-research and trial rather than strictly validated order.",
+      "Entry typically starts from curated prestige assortment, launch edit or limited-edition curation rather than price-sorted or problem-solution search.",
+      "Viral buzz alone does not create consideration unless corroborated by prestige creators, experts or detailed sensory evidence.",
+      "Quality interpreted as formulation craft, texture, finish and sensory experience rather than tolerability or ease.",
+      "Under tight mission budget compromise modeled as fewer items, one hero item or smaller trial size rather than defaulting to mass alternative.",
+      "Professional makeup artist and curated editorial input weighted above mass-viral creator volume and cross-checked against sensory evidence.",
+      "Limited-edition with thin reviews triggers intensified investigation and trial-seeking rather than automatic purchase on scarcity.",
+      "Impulse potential modeled as situational and assortment-dependent, concentrated on limited editions or strong prior affinity, not a fixed trait.",
+      "Confidence threshold modeled as relatively high requiring converging signals on quality, desirability and experience.",
+      "Parameter scores are modeling calibrations to make archetypes distinguishable, not measured population values."
+    ],
+    "limitations": [
+      "Mintel full data paywalled with only summary findings visible.",
+      "WPP/YouGov is UK-only and conditional on following influencers (follower n=479).",
+      "Criteo and BoF-McKinsey are global beauty, not luxury-only cuts.",
+      "Ipsos/Circana figures are US-general, not luxury-only.",
+      "Scarcity study is general luxury, not beauty-specific.",
+      "Social platform observations are qualitative and non-representative.",
+      "No direct evidence on willingness-to-pay by formulation attribute, heritage versus innovative formulation tradeoff, professional makeup artist lift, or verified prestige assortment differences by retailer.",
+      "No luxury-specific extensive-research rate or impulse rate to calibrate scores; those remain modeling assumptions.",
+      "Limited-edition beauty lift inferred from general luxury scarcity plus uniqueness findings, not a beauty-only experiment.",
+      "Scores are simulation settings, not validated population measurements.",
+      "Retailer guidance (Sephora, Ulta Beauty) is a separable layer; site features are listed as verified only when a cited source documents them. Behavioral scenarios are hypothetical reference cases."
+    ],
+    "retailer_research": {
+      "report_path": "research-reports/luxury/2026-11-03T19-23-22-378Z-retailers.md",
+      "response_id": "resp_6aea34aa08c6297cf06340a8",
+      "research_date": "2026-11-03",
+      "web_search_calls": 22,
+      "sources": [
+        {
+          "url": "https://www.sephora.com/beauty/loyalty-program",
+          "title": "About Beauty Insider Loyalty Program | Sephora"
+        },
+        {
+          "url": "https://www.sephora.com/buy/trending-products",
+          "title": "Trending Products | Sephora"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/decorte-announces-partnership-with-ulta-beauty-bringing-its-signature-liposome-skincare-to-select-stores-nationwide-302925877.html",
+          "title": "DECORTÉ Announces Partnership with Ulta Beauty, Bringing Its Signature Liposome Skincare to Select Stores Nationwide"
+        },
+        {
+          "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+          "title": "New Health & Beauty research: 5 shopper trends every marketer should know"
+        },
+        {
+          "url": "https://www.beautyindependent.com/how-sophisticated-beauty-shoppers-price-value/",
+          "title": "How Sophisticated Are Beauty Shoppers About Price And Value?"
+        }
+      ],
+      "enriched_at": "2026-11-03T19:23:22.378Z"
+    },
+    "baseline_snapshot": {
+      "motivation": "Acquiring desirable, premium beauty products that offer superior perceived quality, exclusivity, prestige, and elevated product experiences.",
+      "characteristics": [
+        "Values premium formulations, product performance, brand reputation, heritage, and aesthetic presentation.",
+        "Willing to pay substantial premiums when perceived quality, exclusivity, or desirability justifies the price.",
+        "Considers packaging, product design, and the overall shopping experience as part of product value.",
+        "Follows prestige beauty launches, professional makeup artists, luxury beauty creators, and curated editorial recommendations.",
+        "May be loyal to established prestige brands while remaining open to emerging premium brands.",
+        "Interested in product craftsmanship, formulation, texture, finish, and sensory experience.",
+        "Selective about social-media trends rather than automatically following mass-market virality.",
+        "May value exclusivity, limited editions, and product scarcity.",
+        "Compares premium alternatives using quality, desirability, reputation, and product experience.",
+        "Does not necessarily equate high price with high quality and may reject an expensive product that fails expectations."
+      ],
+      "shopping_journey": [
+        "Curated discovery",
+        "Brand/product evaluation",
+        "Compare premium alternatives",
+        "Purchase"
+      ],
+      "research_notes": "Topics to investigate:\n1. Luxury and prestige beauty consumer purchasing behavior\n2. Psychological motivations behind premium beauty purchases\n3. The influence of brand heritage, reputation and exclusivity\n4. Perceived product quality versus objective performance\n5. The role of packaging, design and sensory experience\n6. Willingness to pay for premium formulations\n7. Brand loyalty and switching behavior in prestige beauty\n8. Luxury beauty influencers, professional makeup artists and editorial recommendations\n9. Social-media-driven luxury product discovery and purchasing\n10. Responses to limited editions, product scarcity and premium launches\nPrioritize credible consumer research, empirical studies, reputable market research and verifiable sources. Evaluate the hypotheses critically; distinguish evidence-supported findings, modeling assumptions and retailer-specific observations.\n\nGuardrails:\n- Luxury preference is a behavioral motivation, not a guarantee of high disposable income or unlimited spending. Income, budget, age, location, retailer, product requirements and mission are set per run.\n- Under a restricted mission budget she keeps premium preferences and makes realistic compromises (for example fewer items, one hero product, or a smaller size). Name specific options such as deluxe minis or sample programs only if verified.\n- No unconditional rules such as \"always choose the most expensive product\". She must be able to reject expensive products when evidence does not support their desirability or value.\n\nSuggested starting scores (hypotheses to test, not to accept): trend sensitivity 0.55, influencer trust 0.50, price sensitivity 0.20, brand loyalty 0.75, research depth 0.70, novelty seeking 0.60, impulse buying 0.40, product quality priority 0.90, convenience priority 0.50, prestige priority 0.95. Risk aversion (suggested 0.40) is not a separate parameter; express it through the decision rules and novelty seeking.\n- Her brand loyalty comes from brand identity, heritage and desirability, not from fear of a bad outcome. Do not lower brand loyalty just because risk aversion is low.\n- The shopping experience is part of prestige value, not convenience; keep it under prestige and the rules rather than raising convenience priority.\n\nSephora and Ulta behaviors to examine (name a site feature only if verified; do not assume both retailers carry the same luxury brands, exclusives or experience):\n- Exploring prestige and luxury beauty brands\n- Browsing curated collections, premium launches and limited-edition releases\n- Examining descriptions for formulations, finishes, ingredients and claimed benefits\n- Comparing premium products within the same category\n- Consulting professional makeup artist recommendations and detailed reviews\n- Investigating premium packaging, application experience and other differentiators\n- Evaluating whether a more expensive product offers meaningful advantages over a cheaper alternative\n- Considering exclusive products or special releases when relevant\n- Rejecting premium products that lack sufficient desirability or quality evidence\n\nDecision rules must cover how she resolves each conflict:\n- Premium price vs demonstrated product quality\n- Established luxury brand vs emerging prestige brand\n- Brand heritage vs innovative formulation\n- Exclusivity vs practical product performance\n- Viral popularity vs curated expert recommendations\n- Packaging and aesthetic appeal vs functionality\n- Familiar luxury product vs unfamiliar premium launch\n- Brand desirability vs budget constraints (conditional on the mission budget)\nInclude an explicit rule for how much investigation she typically needs before a purchase feels justified.\n\nScenarios to include (in addition to any others):\nA. A $65 prestige foundation versus a $35 foundation with similar advertised benefits and strong reviews.\nB. An established luxury brand's lipstick versus an emerging prestige brand with an innovative formulation.\nC. A limited-edition luxury product with high desirability but limited customer reviews.\nD. A viral affordable blush versus a premium blush recommended by professional makeup artists.\nE. An expensive skincare product with elegant packaging and prestige positioning versus a cheaper product with stronger performance evidence.\nFor each, show discovery and browsing, information investigated, comparison depth, relevant scores, quality/desirability/exclusivity/price tradeoffs, purchase/rejection/further-investigation conditions and observable actions. In the parameter influence text, label each point as evidence-supported or hypothetical. Do not predetermine which product is bought.\n\nDistinctness:\n- Stay distinct from the Trend-Driven Beauty Shopper, Practical Sensitive-Skin Shopper, Time-Constrained Professional and Price-Sensitive Value Shopper. In particular, distinguish prestige motivation from trend sensitivity, convenience and product quality.\n- Versus Trend-Driven: both follow launches, but she follows prestige launches, makeup artists and editorial curation and filters out mass virality; Trend-Driven follows what is viral. Scenario D should show this.\n- Versus Sensitive-Skin and Time-Constrained: quality means texture, finish, sensory experience and formulation craft here, not tolerability or wear time and ease. Show this in the rules and in the evidence she looks for.\n- Versus Price-Sensitive: she weighs desirability and experience against price; Price-Sensitive weighs cost per use."
+    }
+  },
+  "metadata": {
+    "status": "draft",
+    "version": 1,
+    "model": "muse-spark-1.3",
+    "generated_at": "2026-11-03T19:23:22.376Z",
+    "edited_at": "2026-11-03T19:23:22.378Z",
+    "approved_at": null,
+    "content_hash": null
+  }
+}

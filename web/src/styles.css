@@ -1,85 +1,152 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
-  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
-  --color-base: var(--base);
-  --color-panel: var(--panel);
-  --color-ink: var(--ink);
-  --color-ink-2: var(--ink-2);
-  --color-muted: var(--muted);
-  --color-line: var(--line);
-  --color-paper: var(--paper);
-}
-
-:root {
-  --base: #eef0f2;
-  --panel: #ffffff;
-  --ink: #1d1b24;
-  --ink-2: #4a4756;
-  --muted: #6f6c7a;
-  --line: #d8dbe1;
-  --paper: #fbfaf6;
-  color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --base: #16151b;
-    --panel: #201f27;
-    --ink: #f1f0f4;
-    --ink-2: #c9c6d3;
-    --muted: #9b98a8;
-    --line: #34323d;
-    --paper: #2a2932;
-    color-scheme: dark;
-  }
+  --font-sans: "Archivo", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-ink: #000000;
+  --color-ink-2: #2a2833;
+  --color-muted: #55525f;
+  --color-lilac: #e7e4ff;
+  --color-wash: #f4f3fa;
+  --color-sun: #ffe14d;
+  --color-violet: #3b2fd6;
 }
 
 html,
 body {
-  background: var(--base);
-  color: var(--ink);
+  background: #ffffff;
+  color: #000000;
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }
 
-.tabular {
-  font-variant-numeric: tabular-nums;
+button {
+  cursor: pointer;
 }
-
-/* Receipt strip: zig-zag torn edge top and bottom */
-.receipt {
-  background: var(--paper);
-  --tooth: 8px;
-  mask:
-    conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / var(--tooth) 51% repeat-x,
-    conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / var(--tooth) 51% repeat-x;
-}
-
-.receipt-row + .receipt-row {
-  border-top: 1px dashed var(--line);
-}
-
-@keyframes print {
-  from {
-    clip-path: inset(0 0 100% 0);
-  }
-  to {
-    clip-path: inset(0 0 0 0);
-  }
-}
-.print-in {
-  animation: print 380ms ease-out both;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .print-in {
-    animation: none;
-  }
+button:disabled {
+  cursor: not-allowed;
 }
 
 :focus-visible {
-  outline: 2px solid var(--ink);
+  outline: 3px solid var(--color-violet);
   outline-offset: 2px;
+}
+
+/* Neo-brutal primitives (components layer so Tailwind utilities can override) */
+@layer components {
+.box {
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 6px;
+}
+.card {
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 6px;
+  box-shadow: 5px 5px 0 #000;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 14px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  transition: transform 80ms ease, box-shadow 80ms ease;
+}
+.btn-raised {
+  box-shadow: 4px 4px 0 #000;
+}
+.btn-raised:active:not(:disabled) {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0 #000;
+}
+.btn-sun {
+  background: var(--color-sun);
+}
+.btn-ink {
+  background: #000;
+  color: var(--color-sun);
+}
+.btn:disabled {
+  opacity: 0.45;
+}
+.field {
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 10px 12px;
+  min-height: 44px;
+  font-size: 15px;
+  background: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 2px solid #000;
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  background: #fff;
+}
+.tag {
+  display: inline-block;
+  border: 1.5px solid #000;
+  border-radius: 3px;
+  padding: 0 5px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+.swatch {
+  display: inline-block;
+  flex: none;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #000;
+  border-radius: 3px;
+}
+.dashed + .dashed {
+  border-top: 1px dashed #8a8796;
+}
+.mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+input[type="range"] {
+  accent-color: #000;
+}
+
+}
+
+@keyframes drop {
+  from {
+    transform: translateY(-6px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.drop-in {
+  animation: drop 220ms ease-out both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .drop-in {
+    animation: none;
+  }
+  .btn {
+    transition: none;
+  }
 }

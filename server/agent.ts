@@ -1,14 +1,25 @@
-import type { AgentEvent, AgentResult, ExperimentConfig, Persona } from "../shared/types.js";
+import type { AgentEvent, AgentResult, ExperimentConfig, PersonaConfig } from "../shared/types.js";
+import { describeTraits } from "./personas/traits.js";
+import { describeContext, describeMission } from "./personas/context.js";
 import { llm, MODEL_ID } from "./llm.js";
 import { ShoppingSession, TOOL_DEFS } from "./tools.js";
 
 type Emit = (e: AgentEvent) => void;
 
-export function buildSystemPrompt(persona: Persona, cfg: ExperimentConfig) {
-  return `${persona.systemPrompt}
+export function buildSystemPrompt(persona: PersonaConfig, cfg: ExperimentConfig) {
+  return `You are a shopper persona called "${persona.name}".${persona.tagline ? ` Your motto: "${persona.tagline}"` : ""}
+${persona.style || "Shop according to the trait dials below."}
 
-You are an autonomous shopping agent in a beauty store. Your shopping goal: ${cfg.objective}
-Your budget is $${cfg.budget}. It is a hard limit; ignore tax and shipping.
+Your trait dials (these should visibly shape your choices):
+${describeTraits(persona.traits)}
+
+Consumer context for this session (who you are shopping as today):
+${describeContext(cfg.context)}
+
+Shopping mission for this session:
+${describeMission(cfg.mission)}
+
+You are an autonomous shopping agent in a beauty store. Your persona decides HOW you shop; the context and mission decide the circumstances.
 
 How to work:
 - Use the tools to explore the trend feed and catalog, compare options and build your basket. Only buy products by their catalog id.
@@ -18,7 +29,7 @@ How to work:
 - When your basket is final, call finalize_basket. Try to finish within about 12 tool calls.`;
 }
 
-export async function runLiveAgent(persona: Persona, cfg: ExperimentConfig, emit: Emit, signal: AbortSignal): Promise<AgentResult> {
+export async function runLiveAgent(persona: PersonaConfig, cfg: ExperimentConfig, emit: Emit, signal: AbortSignal): Promise<AgentResult> {
   const session = new ShoppingSession(cfg.budget);
   const maxSteps = cfg.maxSteps ?? 16;
   const messages: any[] = [

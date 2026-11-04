@@ -1,0 +1,1020 @@
+{
+  "persona_id": "trend-driven",
+  "research_date": "2026-11-03",
+  "performed_at": "2026-11-03T04:34:18.985Z",
+  "model": "muse-spark-1.3",
+  "response_id": "resp_6ae9644b6172ccda5e3c4bae",
+  "web_search_calls": 17,
+  "report_text": "I’ll gather current research on trend-driven beauty shopping to test your hypotheses.\n\nEarly findings point to social-first discovery — now I’m pulling detailed evidence for each behavior.\n\nI’ve mapped the core discovery journey — next I’m filling gaps on trust, price, and loyalty.\n\n## 1. Product discovery channels and shopping entry points\n- **[Evidence]** Social is a major entry point, but not the only first stop: Google is first for 43% of beauty questions, with Instagram (11.9%), YouTube (11.2%), TikTok (10.6%) and AI tools (9.8%) splitting the other 57% (Stella Rising survey of 511 US beauty consumers, July 2026; reported Oct 2026).\n- **[Evidence]** Among social platforms, Instagram is the most-used for beauty questions across every age group, including shoppers in their 20s (80% vs. 76% for TikTok), while TikTok and YouTube also contribute to first searches (Stella Rising, 2026).\n- **[Evidence]** Social discovery often converts to purchase: 38% of US beauty shoppers recalled finding a product they later bought on social media, rising to 62% of Gen Z; among social discoverers, Facebook 26%, YouTube 24% and TikTok 17% were most cited (Tinuiti 2025 Beauty Marketing Study, n=1,003, Jan 2025).\n- **[Evidence]** Discovery is increasingly social-led over time: 31% said they use social platforms more for beauty research than two years ago vs. 10% using less (Stella Rising, 2026).\n- **[Assumption]** For modeling, assume entry is usually a feed, search-within-social, or creator video rather than a planned retailer visit, then branches to external validation — this relay pattern is documented generally, but no direct evidence isolates it only to trend-driven shoppers.\n\n## 2. Influence of social media, creators, trends and social proof\n- **[Evidence]** Social influence touches most of the journey: 9 in 10 shoppers say social influences beauty/personal-care journey and 77% of those who engage creators buy products creators launched or endorsed (WPP Media / Snapchat / Ipsos, 9,000+ consumers in six markets, 2025).\n- **[Evidence]** High-frequency beauty buyers over-index on TikTok (+13 points vs. general public) and Instagram (+8 points), and 32% follow beauty experts vs. 17% of US adults (Morning Consult, June-Oct 2025).\n- **[Evidence]** 41% of all beauty respondents made a purchase in the last six months based on something seen on TikTok or YouTube — 60% in their 30s, 43% in their 40s, 34% in their 50s — indicating trend influence is not Gen-Z-only (Stella Rising, 2026).\n- **[Evidence]** Influencer sway may be softening overall: share looking to influencers for beauty ideas fell from 33% in 2023 to 25% in 2025 in US, China and Europe (BoF-McKinsey State of Beauty 2025), suggesting trend-driven behavior relies on broader social proof, not influencers alone.\n- **[Assumption]** Assume viral visibility (views, dupe-talk, “trending now” framing) acts as an initial relevance cue for this archetype, even when final validation comes elsewhere — no representative study directly measures “virality” as distinct from creator endorsement.\n\n## 3. Product evaluation and comparison habits\n- **[Evidence]** Trend discovery routes to verification: 72% search Google after finding a product on TikTok; only 7% buy immediately in-app (Stella Rising, 2026).\n- **[Evidence]** Evaluation burden is high: US shoppers browse on average 19 makeup products and 12 fragrances before purchase (Criteo commerce data, June 2026), and about half of global beauty consumers now conduct “extensive research” before buying (BoF-McKinsey 2025, via secondary summary).\n- **[Evidence]** What is evaluated where differs: social leads for makeup application/tutorials (YouTube 31% + TikTok 27% vs. Google 19%), while Google dominates skincare concerns (54%) and ingredients (66% vs. TikTok 8%) (Stella Rising, 2026).\n- **[Evidence]** Ratings/reviews anchor evaluation: globally reviews/ratings are the top purchase influence with nearly half relying on them (Criteo shopper survey N=4,595, June 2026); 88-89% consider or trust ratings/reviews for beauty decisions (PowerReviews summaries, vendor-reported).\n- **[Assumption]** Assume this archetype evaluates “does it work on someone like the demo / is it the right shade / is it the viral item” via video, then checks name, shade, and review volume in search — specific product-naming is common in top videos (71% name/feature a product), supporting name-based follow-up search.\n\n## 4. Price sensitivity and perceived value\n- **[Evidence]** Price remains central even for novelty seekers: 72% cite price and 55% cite effectiveness as most important when deciding on a new beauty product (Consumer Collective Routine Shift, 750 US adults, Oct 2026).\n- **[Evidence]** Value reframing is widespread: 65% look for deals/wait for promotions while desire for novelty/self-expression remains powerful (WPP Media/Snapchat/Ipsos); 24% traded down to cheaper beauty in last 12 months and 53% are open to dupes (BoF-McKinsey 2025).\n- **[Evidence]** Premium is not assumed superior: 63% do not think premium beauty performs better than mass (BoF-McKinsey 2025), which blurs trend-driven vs. price-sensitive value-shopper motives around dupes.\n- **[Evidence]** Willingness to pay more is conditional on results: 56% of women taking GLP-1s will pay more for products delivering noticeable results; high-engagement groups spend more when efficacy is clear (Consumer Collective, 2026); a separate checkout survey found 75% would pay more for beauty/skincare (Bolt, 1,000+ US consumers) — vendor samples, not trend-segment-specific.\n- **[Assumption]** Assume this archetype may stretch price tolerance for a highly desired launch but still uses deals/dupes to rationalize — no direct evidence quantifies price premium specifically for “viral” vs. non-viral items.\n\n## 5. Brand loyalty versus willingness to experiment\n- **[Evidence]** Loyalty and exploration coexist: 73% tend to stick with known/loved brands, especially skincare routines (WPP Media/Snapchat/Ipsos), yet only 34% say they rarely switch and up to 53% of purchases are from a brand not purchased in prior 12 months (Criteo commerce data, six markets, June 2026).\n- **[Evidence]** Switching is normal across categories including fragrance, skincare and makeup, with strongest discovery in US, UK and France vs. more loyal Japan/South Korea (Criteo, 2026).\n- **[Evidence]** Sampling lowers new-brand barrier: 75% are more likely to buy from an unfamiliar brand after sampling (Odore tech-platform study of 20,000 consumers) — relevant to new-launch trial but not specific to trend motivation.\n- **[Assumption]** Assume this archetype is over-represented among switchers/new-brand triers driven by launches and creator drops, while sensitive-skin and time-constrained archetypes anchor the loyal end — direct segment-level comparison evidence was not found.\n\n## 6. Trust in influencers, experts, communities and independent reviews\n- **[Evidence]** Creator trust is limited and tiered: only 9% rate TikTok creators very trustworthy vs. 30% for Google results and 54% for word-of-mouth; YouTube creators (14.1% very trustworthy) outscore TikTok (8.6%) (Stella Rising, 2026).\n- **[Evidence]** Credibility beats reach: qualified experts like dermatologists are most trusted (52%), followed by self-declared expert influencers; among those engaging influencers, 77% buy launched/endorsed products (WPP Media/Snapchat/Ipsos).\n- **[Evidence]** Personal circles dominate: 93% say friends/family influence purchase (WPP Media/Snapchat/Ipsos), and influencer recommendations drive only 2% of final decisions though remaining key for discovery (Consumer Collective, 2026).\n- **[Evidence]** A trusted known creator still moves intent: 61% are more likely to purchase if a creator they know and trust posts about it (Traackr IMPACT report).\n- **[Assumption]** Assume this archetype weights creator demonstration for inspiration but discounts single-creator claims until corroborated by reviews, expert voices, or friends — consistent with low TikTok trust plus high search follow-up, but not directly tested as a segment trait.\n\n## 7. Purchase triggers and rejection criteria\n- **[Evidence]** Triggers include newness, social visibility and demonstrable result: top videos open on result then show work (72% use tutorial/process structure) and name a specific product (71%) (Stella Rising Instagram analysis of ~22,700 posts, Sept 2026).\n- **[Evidence]** AR/try-on and influencer placement can trigger impulse: 63% of Snapchatters are more likely to buy from brands offering AR, and 63% admit impulsive personal-care purchases (WPP Media/Snapchat/Ipsos, Snapchat-skewed sample).\n- **[Evidence]** Rejection is driven by price and unproven efficacy (72% price, 55% effectiveness for new-product decisions) (Consumer Collective, 2026), plus inability to verify shade, ingredients or recent reviews — 58% care about review volume and 49% check recent reviews for efficacy (PowerReviews pre-pandemic comparison study, via secondary summary).\n- **[Assumption]** Assume poor review sentiment, missing shade/ingredient detail, or failure to surface on Google/Amazon after social exposure causes drop-off — inferred from 61% switching to Google when social search fails and 48% closing on Amazon, not from stated rejection experiments.\n\n## 8. Typical shopping decision sequence\n- **[Evidence]** Common relay: social discovers, Google verifies, Amazon closes — 72% Google after TikTok, 48% buy on Amazon after TikTok vs. Sephora 10%, TikTok Shop 9%, brand.com 8% (Stella Rising, 2026).\n- **[Evidence]** Search is multi-touch, not single-session: consumers move across touchpoints serving different functions (discovery vs. validation vs. conversion) (Stella Rising, 2026); more than half of cosmetics/perfume purchases involve an online touchpoint and multi-retailer browsing expands brands discovered (Criteo, 2026).\n- **[Evidence]** Direct social checkout exists but is minority for TikTok discovery (7% immediate buy), though 42% of beauty shoppers have at some point bought directly on TikTok/Facebook/Instagram (Tinuiti 2025, via secondary summary) and 30% now buy skincare directly via TikTok Shop (Tinuiti 2026, via secondary summary) — signals channel growth, not the modal path.\n- **[Assumption]** For simulation, model H6 as Social discovery → Influencer validation → Product research → Purchase, with Google/retailer validation inserted before purchase and possible Amazon/retailer switch at close.\n\n## 9. Impulse purchasing versus deliberate research\n- **[Evidence]** Both modes occur: 68% of purchases on social-selling platforms are impulse (NIQ 2025, via secondary summary), while beauty overall is becoming more research-driven with extensive pre-purchase browsing (Criteo; BoF-McKinsey).\n- **[Evidence]** Loyal yet impulsive: even loyal customers are susceptible to impulse, especially when promoted by an influencer in the right place/time (WPP Media/Snapchat/Ipsos).\n- **[Evidence]** Research intensity varies by task: low-stakes dupe/trend queries favor TikTok; ingredient/efficacy queries favor Google and longer YouTube tutorials (Stella Rising, 2026).\n- **[Assumption]** Assume this archetype skews impulse for low-cost, high-hype items (lip, mask, mini) and deliberate for high-cost or skin-active products — no representative basket-level evidence separates impulse rate for trend-driven shoppers specifically.\n\n## 10. Factors influencing purchase confidence\n- **[Evidence]** Confidence builders are reviews/ratings (top influence, ~half rely), friends/family, in-store testing and search engines (Criteo, N=4,595, June 2026).\n- **[Evidence]** Specificity and repeatability build confidence: nameable product, tutorial structure, and “for whom” framing (e.g., for 4C hair/oily skin in >80% of hair/nail winners) characterize winning videos (Stella Rising Instagram analysis).\n- **[Evidence]** AI assistance is emerging: 38% use AI assistants while shopping beauty/personal care and 57% of those say AI recommendations influence what they buy (Criteo, 2026).\n- **[Evidence]** Checkout still concentrates where trust/fulfillment is highest (Amazon 47.7% typically complete beauty purchases there), making off-site visibility part of confidence (Stella Rising, 2026).\n- **[Assumption]** Assume confidence for this archetype = viral desirability + verifiable proof (recent reviews, photos/video, clear shade/ingredient page, available at preferred retailer) — composite not directly validated as a scale.\n\n## 11. Evidence quality and gaps\n- Overall strength is **moderate**: large multi-market surveys (WPP/Snapchat/Ipsos 9,000+; Criteo 4,500+ plus transaction data; Tinuiti 1,003; Stella Rising 511; Consumer Collective 750; BoF-McKinsey executive + consumer research) converge on social-led discovery, Google/retailer validation, review importance, and loyalty-experimentation coexistence. Publisher and field dates are visible for Stella Rising (July 2026), Criteo (June 2026), Consumer Collective (Oct 2026), Tinuiti (Jan 2025) and BoF-McKinsey (2025).\n- Limitations: many sources are vendor or media-affiliated (Stella Rising, Criteo, Tinuiti, PowerReviews, Bolt) with thin method disclosure and possible framing bias; Snapchat-skewed samples overstate social/impulse; secondary summaries sometimes report toplines without questionnaires or weights.\n- Key gaps directly relevant to this archetype: **No direct evidence found** that isolates “trend-driven” shoppers as a defined segment with distinct rates for discovery, price tolerance, or review use; no experiment shows willingness to accept higher prices or mixed reviews *because* a product is viral; no representative data on how virality itself (vs. creator trust, paid promotion, or distribution) causes purchase.\n- Social listening (TikTok/Instagram/Reddit/YouTube comments) is treated here as qualitative signal only about language and formats, not prevalence, per method rule — it cannot validate segment size or causality.\n- Distinguishing vs. other archetypes is inferential: sensitive-skin emphasis on ingredients/suitability aligns with Google dominance for ingredients (66%) and concern queries (54%); time-constrained emphasis on efficiency conflicts with the documented 19-product browse and multi-retailer relay; price-sensitive emphasis on minimum cost overlaps with this archetype’s deal-seeking (65%) and dupe openness (53%) so price alone does not separate them; luxury emphasis on prestige overlaps on willingness to pay more but evidence ties trend premium to noticeable results/newness rather than heritage/service, and 63% see no premium performance gap.\n\n## 12. Baseline hypotheses check\n- **H1. Motivation: Staying current with beauty trends and discovering new products.** — **Supported**: Novelty/self-expression remains powerful alongside deal-seeking; social discovery leading to purchase is common (38% overall, 62% Gen Z) and routines are open to change (only 34% rarely switch).\n- **H2. High trend sensitivity, influencer trust, novelty seeking, and social-media engagement.** — **Refined**: Engagement and novelty-seeking are supported (90% use social at some point; 31% using social more than two years ago), but “high influencer trust” overstates — TikTok creators are least trusted (9% very trustworthy) and YouTube/experts/friends outrank them. More precise: high social engagement + selective, expertise-weighted creator trust.\n- **H3. Discovers products through TikTok, Instagram, YouTube, and beauty creators.** — **Supported**: Instagram is most-used across ages, TikTok/YouTube contribute first searches and 41% bought based on TikTok/YouTube in six months; Tinuiti ranks Facebook 26%, YouTube 24%, TikTok 17% among social discoverers, confirming multi-platform mix.\n- **H4. Values viral popularity, social proof, and new launches.** — **Supported** with caveat: social proof matters (77% of creator-engagers buy launched/endorsed items), but final choice weights reviews, friends/family and testing over virality alone (Criteo top influence = reviews; only 2% name influencer recs as decisive). Refined statement: values virality as discovery cue, proof as decision cue.\n- **H5. May tolerate higher prices or mixed reviews for highly desirable trending products.** — **Insufficient evidence**: No segment-specific test of price/review tolerance for viral items was found. Adjacent evidence points the other way — price (72%) and effectiveness (55%) dominate new-product decisions and 65% wait for deals — with conditional premium only when results are noticeable. Cannot confirm systematic tolerance.\n- **H6. Shopping journey: Social discovery → Influencer validation → Product research → Purchase** — **Refined**: Sequence is broadly supported but misses the dominant handoff: Social discovery → Search verification (72% Google next) → Retailer close (48% Amazon), with only 7% buying in-app. More precise: Social discovery → Creator/peer validation → Search + review research (often Google/YouTube/retailer) → Purchase (often Amazon/multi-retailer).",
+  "annotations": [
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 59,
+      "end_index": 360
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 362,
+      "end_index": 613
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 930,
+      "end_index": 1114
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 1968,
+      "end_index": 2222
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "start_index": 2838,
+      "end_index": 3000
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 3002,
+      "end_index": 3162
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "start_index": 3297,
+      "end_index": 3540
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 3542,
+      "end_index": 3725
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "start_index": 3832,
+      "end_index": 4152
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "start_index": 4199,
+      "end_index": 4422
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "start_index": 4424,
+      "end_index": 4595
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "start_index": 4906,
+      "end_index": 5143
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "start_index": 5576,
+      "end_index": 5724
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 5724,
+      "end_index": 5885
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 5887,
+      "end_index": 6077
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "start_index": 6653,
+      "end_index": 6893
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "start_index": 6895,
+      "end_index": 7140
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "start_index": 7142,
+      "end_index": 7254
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "start_index": 7254,
+      "end_index": 7382
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "start_index": 7885,
+      "end_index": 8145
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "start_index": 8147,
+      "end_index": 8386
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "start_index": 8388,
+      "end_index": 8540
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "start_index": 8746,
+      "end_index": 8995
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "start_index": 9078,
+      "end_index": 9283
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 9285,
+      "end_index": 9470
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 9470,
+      "end_index": 9615
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "start_index": 10504,
+      "end_index": 10683
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 10685,
+      "end_index": 10872
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 11183,
+      "end_index": 11349
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "start_index": 11351,
+      "end_index": 11598
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 11600,
+      "end_index": 11780
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 11782,
+      "end_index": 11987
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "start_index": 13710,
+      "end_index": 13891
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "start_index": 14399,
+      "end_index": 14558
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 14632,
+      "end_index": 14688
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "start_index": 14698,
+      "end_index": 14877
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "start_index": 14877,
+      "end_index": 15059
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "start_index": 15153,
+      "end_index": 15377
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "start_index": 15496,
+      "end_index": 15657
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "start_index": 15657,
+      "end_index": 15772
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "start_index": 15772,
+      "end_index": 15814
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "start_index": 16094,
+      "end_index": 16201
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "start_index": 16202,
+      "end_index": 16224
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "start_index": 16331,
+      "end_index": 16614
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search"
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere"
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds"
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media"
+    }
+  ],
+  "considered_results": [
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "snippet": ""
+    },
+    {
+      "url": "https://internetretailing.com.au/beauty-shock-marketplaces-social-media-ai-are-reshaping-online-beauty-market/",
+      "title": "Beauty shock: Marketplaces, social media, AI are reshaping online beauty market",
+      "snippet": ""
+    },
+    {
+      "url": "https://insideretail.com.au/sectors/health-beauty/beauty-shock-marketplaces-social-media-ai-are-reshaping-online-beauty-market-202609",
+      "title": "Beauty shock: Marketplaces, social media, AI are reshaping online beauty market",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.gcimagazine.com/consumers-markets/news/22976517/survey-says-social-media-has-a-say-in-teen-beauty",
+      "title": "Survey Says: Social Media Has A Say in Teen Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.webtonic.io/blog/beauty-skincare-social-media-marketing-statistics",
+      "title": "Beauty Social Media Engagement Stats 2026 | Web Tonic™",
+      "snippet": ""
+    },
+    {
+      "url": "https://seosandwitch.com/beauty-ecommerce-seo-statistics/",
+      "title": "Latest Beauty Ecommerce SEO Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://intel.morningconsult.com/mc-content/analysis/high-frequency-beauty-consumers",
+      "title": "The Biggest Beauty Fans Congregate on TikTok",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.aap.com.au/aapreleases/globenewswire9728200/",
+      "title": "Beauty Brands Are Reaching More New Audiences Than Ever, According to Dash Social’s 2026 Benchmark Report",
+      "snippet": ""
+    },
+    {
+      "url": "https://newshub.medianet.com.au/2026/05/beauty-brands-are-reaching-more-new-audiences-than-ever-according-to-dash-socials-2026-benchmark-report/155398/",
+      "title": "Beauty Brands Are Reaching More New Audiences Than Ever, According to Dash Social’s 2026 Benchmark Report",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.advfn.com/stock-market/stock-news/98625979/beauty-brands-are-reaching-more-new-audiences-than",
+      "title": "Beauty Brands Are Reaching More New Audiences Than Ever, According to Dash Social’s 2026 Benchmark Report",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.webtonic.io/blog/beauty-skincare-video-marketing-statistics",
+      "title": "Beauty Content Trends & Engagement Rates 2026 | Web Tonic™",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/05/28/3302996/0/en/Beauty-Brands-Are-Reaching-More-New-Audiences-Than-Ever-According-to-Dash-Social-s-2026-Benchmark-Report.html",
+      "title": "Beauty Brands Are Reaching More New Audiences Than Ever,",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ijprems.com/ijprems-paper/consumer-response-to-social-media-advertising-a-study-of-cosmetic-products",
+      "title": "| INTERNATIONAL JOURNAL OF PROGRESSIVE | e-ISSN : |",
+      "snippet": ""
+    },
+    {
+      "url": "https://ijorarjournal.com/web/Download/2025-08-13-09-16-54-Paper Id 0757.pdf",
+      "title": "International Journal of Original Recent Advanced Research ISSN (Online): 3048-5479 Vol. 02, Issue 04, July 2025",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.ijltemas.in/submission/online/article/view/3652/4615;h=repec:bjb:journl:v:14:y:2025:i:11:p:960-964",
+      "title": "Influence of Social Media on Gen Z's Purchase Decisions for Organic Cosmetics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.vitaminrush.com/359419/consumers-shape-a-new-age-of-optimization-in-beauty/",
+      "title": "Consumers Shape a New Age of Optimization in Beauty",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.markstudios.com/research/beauty-video-marketing-statistics",
+      "title": "Beauty Video Marketing Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://cosmorsij.com/published/CRSIJ25000042.pdf",
+      "title": "The Influence of Social Media Marketing On Purchasing Decisions of Beauty Products among Gen Z in Ahmedabad",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.allcommercejournal.com/article/461/6-1-39-285.pdf",
+      "title": "Influence of social media on women consumers buying decision about beauty products in Balangir town",
+      "snippet": ""
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.newbeauty.com/view/beauty-habits-2025-beautyengine",
+      "title": "Beauty Habits of 2025: How Readers Shopped and Spent",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.memesita.com/piper-sandler-survey-shows-teen-beauty-spending-rises-7-percent/",
+      "title": "Piper Sandler Survey Shows Teen Beauty Spending Rises 7 Percent",
+      "snippet": ""
+    },
+    {
+      "url": "https://koreascience.or.kr/article/JAKO202516257605924.pdf",
+      "title": "T Commutation Snubber-Assisted Three Phase Vo",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.mendeley.com/catalogue/9f06affa-4e58-3b2c-9451-6cdac4aa6455/",
+      "title": "The Influence of TikTok Social Me... preview & related info | Mendeley",
+      "snippet": ""
+    },
+    {
+      "url": "https://jrssem.publikasiindonesia.id/index.php/jrssem/article/download/1336/1860/14557",
+      "title": "JRSSEM 2026, Vol. 5, No. 7, February",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.wppmedia.com/news/decoding-the-modern-beauty-buyer-the-four-paradoxes-reshaping-the-indusrty",
+      "title": "Decoding the Modern Beauty Buyer: Four Paradoxes Reshaping Beauty & Personal Care | WPP Media",
+      "snippet": ""
+    },
+    {
+      "url": "https://cosmeticsbusiness.com/75-are-more-likely-to-buy-from-new-beauty-brands-after-sampling--178149",
+      "title": "75% are more likely to buy from new beauty brands after sampling",
+      "snippet": ""
+    },
+    {
+      "url": "https://inkubis.polteksci.ac.id/index.php/ink/article/view/197",
+      "title": "Digital Marketing Activities, Digital Personal Branding, and Purchase Intention for Luxury Makeup: A Mediation Analysis\n\t\t\t\t\t\t\t| Inkubis : Jurnal Ekonomi dan Bisnis",
+      "snippet": ""
+    },
+    {
+      "url": "http://umatechnology.org/tiktok-vs-google-search-for-beauty-product-discovery-which-is-better-for-what/",
+      "title": "TikTok vs Google for Beauty Discovery: When to Use Each",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.socialmediatoday.com/news/snapchat-shares-insights-beauty-industry-purchase-behavior-trends/802892/",
+      "title": "Snapchat Shares Insight Into Evolving Beauty Shopping Trends",
+      "snippet": ""
+    },
+    {
+      "url": "https://global-angle.com/wp-content/uploads/2025/07/The-Rise-of-Chinese-Color-Cosmetics-in-Southeast-Asia-Market-Insights-and-Brand-Performance-Report.pdf",
+      "title": "The Rise of Chinese Color Cosmetics in Southeast Asia: Market Insights and Brand Performance Report",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.passionateinmarketing.com/health-beauty-shoppers-increasingly-turn-to-ai-for-product-discovery-and-restocking-criteo-study-reveals/",
+      "title": "Criteo Study Highlights AI Beauty Shopping Trends",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.kspost.biz/en-us/articles/2585",
+      "title": "Beauty Shopping Journeys and Purchase Behavior, Analyzed With Data",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.emarketer.com/content/beauty-brands-navigate-loyalty-challenge-discovery-channels-multiply",
+      "title": "Beauty brands navigate the loyalty challenge as discovery channels multiply",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.gcimagazine.com/consumers-markets/news/22936010/consumer-survey-how-gen-z-and-new-technologies-are-reshaping-beauty-shopping-trends",
+      "title": "Consumer Survey: How Gen Z and New Technologies Are Reshaping Beauty Shopping Trends",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.inc.com/jasmine-browley/the-new-beauty-creator-deal-pay-for-sales-not-just-posts/91409395",
+      "title": "TikTok Shop and Beauty Brands: How Creators Are Driving Sales",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.meltwater.com/en/blog/fragrance-influencer-insights",
+      "title": "The Data Behind Successful Fragrance Influencer Marketing",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.researchgate.net/publication/378244547_Beauty_Influencer_on_Social_Media_Credibility_Perceived_Value_Trust_and_Purchase_Intention_of_Skin_Care_Products",
+      "title": "Beauty Influencer on Social Media: Credibility, Perceived Value, Trust and Purchase Intention of Skin Care Products",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.amraandelma.com/consumer-trust-in-influencers-statistics/",
+      "title": "TOP 20 CONSUMER TRUST IN INFLUENCERS STATISTICS 2026 REVEAL SHOCKING AUTHENTICITY POWER",
+      "snippet": ""
+    },
+    {
+      "url": "https://blog.flonci.com/2026/09/influencer-marketing-is-finally-being.html",
+      "title": "Influencer Marketing Is Finally Being Forced to Prove Incrementality",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.techedt.com/affiliate-marketing-drives-southeast-asias-evolving-e-commerce-influencer-landscape",
+      "title": "Affiliate marketing drives Southeast Asia’s evolving e-commerce influencer landscape",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.traackr.com/influencer-marketing-blog/gen-z-marketing-creators",
+      "title": "Gen Z Marketing: Do Creators Impact Mental Health?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.smehorizon.com/affiliate-marketing-takes-centre-stage-in-southeast-asias-e-commerce-influencer-evolution/",
+      "title": "Affiliate marketing takes centre stage in Southeast Asia’s e-commerce influencer evolution",
+      "snippet": ""
+    },
+    {
+      "url": "https://market.us/report/niche-influencer-marketing-market/",
+      "title": "Niche Influencer Marketing Market",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.marketing-interactive.com/study-76-of-indonesians-shop-through-creators-despite-declining-trust",
+      "title": "Study: 76% of Indonesians shop through creators despite declining trust",
+      "snippet": ""
+    },
+    {
+      "url": "https://noah-news.com/circanas-new-report-links-influencer-marketing-directly-to-retail-sales-boosting/",
+      "title": "Circana’s new report links influencer marketing directly to retail sales, boosting confidence in smaller brands",
+      "snippet": ""
+    },
+    {
+      "url": "https://impact.com/influencer/social-commerce-examples/?latest",
+      "title": "5 Social Commerce Examples That Drive Real Sales",
+      "snippet": ""
+    },
+    {
+      "url": "https://aytm.com/post/skincare-consumer-insights-brand-switching",
+      "title": "Secrets of skincare: Brand switching consumer insights | aytm",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businessoffashion.com/articles/beauty/state-of-fashion-beauty-report-value-price-mass-brands/",
+      "title": "Customers Want Beauty Brands to Prove Their Worth",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://retailmediabreakfastclub.com/what-it-now-takes-for-a-shopper-to-switch-brands-using-ai/",
+      "title": "What it now takes for a shopper to switch brands, using AI",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.alixpartners.com/newsroom/press-release-csi-fashion-and-csi-beauty-reports/",
+      "title": "Price is No Longer the Primary Driver of Consumer Purchase Decisions According to New AlixPartners Reports",
+      "snippet": ""
+    },
+    {
+      "url": "https://nielseniq.com/global/en/news-center/2026/trust-and-experience-are-reshaping-prestige-beauty-retail-niq-finds/",
+      "title": "Trust and Experience Are Reshaping Prestige Beauty Retail, NIQ Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.emarketer.com/content/beauty-brands-navigate-loyalty-challenge-discovery-channels-multiply",
+      "title": "Beauty brands navigate the loyalty challenge as discovery channels multiply",
+      "snippet": ""
+    },
+    {
+      "url": "https://static.comeos.be/img/Comeos_HB_Survey2024_Presented.pdf",
+      "title": "PowerPoint Presentation",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.statista.com/statistics/1619966/leading-pricing-factors-driving-beauty-brand-purchases/?srsltid=AfmBOooDMQaOc_odP8CpxUvWOMdV1ekOFTecABTIHhl6CR7q4oyqk9Vy",
+      "title": "Leading pricing factors driving beauty brand purchases | Statista",
+      "snippet": ""
+    },
+    {
+      "url": "https://salestechstar.com/amp/predictive-marketing/75-of-shoppers-would-pay-more-for-beauty-products-to-get-personalized-online-shopping-experiences-says-new-survey/",
+      "title": "75% of Shoppers Would Pay More for Beauty Products",
+      "snippet": ""
+    },
+    {
+      "url": "https://fastercapital.com/content/Beauty-market-research--Skin-Deep--Exploring-Consumer-Behavior-in-Beauty-Purchases.html",
+      "title": "Beauty market research: Skin Deep: Exploring Consumer Behavior in Beauty Purchases",
+      "snippet": ""
+    },
+    {
+      "url": "https://jumpaccelerator.com/8-pricing-mistakes-early-stage-beauty-brands-make/",
+      "title": "pricing mistakes beauty brands make",
+      "snippet": ""
+    },
+    {
+      "url": "https://searchengineland.com/beauty-consumers-google-search-493828",
+      "title": "57% of beauty consumers don’t start with Google Search",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/blog/beauty-social-search-discovered-on-social",
+      "title": "Discovered on Social, Decided Everywhere",
+      "snippet": ""
+    },
+    {
+      "url": "https://glossbureau.substack.com/p/who-actually-sold-you-that-serum",
+      "title": "Who Actually Sold You That Serum?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/stellarisingagency?trk=organization_guest_main-feed-card-text",
+      "title": "Stella Rising | LinkedIn",
+      "snippet": ""
+    },
+    {
+      "url": "https://indieagency.news/a-horror-movie-you-can-only-watch-during-an-oil-change-and-other-ways-to-get-remembered/",
+      "title": "A Horror Movie You Can Only Watch During an Oil Change (and Other Ways to Get Remembered)",
+      "snippet": ""
+    },
+    {
+      "url": "https://searchengineoptimization.blog/",
+      "title": "SEO: the daily news brief on the shift from search to AI answers",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/blog/video-strategy-geo-brand-discovery",
+      "title": "Video Works Where GEO Needs It Most | Stella Rising",
+      "snippet": ""
+    },
+    {
+      "url": "https://muckrack.com/john-morabito",
+      "title": "John Morabito's Profile | MSN, Search Engine Land, MediaPost Journalist | Muck Rack",
+      "snippet": ""
+    },
+    {
+      "url": "https://brentonway.com/blog/best-beauty-marketing-agency",
+      "title": "Top 16 Beauty Marketing Agencies in 2026 (Rated & Reviewed)",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/blog/page/1",
+      "title": "Digital Marketing News | Stella Rising",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.stellarising.com/2017-fashion-marketing-trends",
+      "title": "2023 Beauty Trend Report White Paper | Stella Rising",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionista.com/2025/06/beauty-product-price-sensitivity-mckinsey-report-2025",
+      "title": "High-End Beauty Brands Will Need to Work Harder Than Ever to Justify Their Prices",
+      "snippet": ""
+    },
+    {
+      "url": "https://retailtimes.co.uk/new-bof-report-reveals-63-of-consumers-do-not-see-the-value-in-luxury-beauty-products/",
+      "title": "New BoF report reveals 63% of consumers do not see the value in luxury beauty products",
+      "snippet": ""
+    },
+    {
+      "url": "https://intheblack.cpaaustralia.com.au/business-and-finance/what-driving-beauty-industry-growth",
+      "title": "What is driving beauty industry growth?",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionista.com/2025/06/mckinsey-state-of-beauty-report-2025-marketing-strategies",
+      "title": "Beauty Brands May Want to Rethink These Common Marketing Tactics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.berlinpackaging.com/content/market-insights/2026-Beauty-Packaging-Trends-GCI.pdf",
+      "title": "2026 Beauty Packaging Trends  for GCI - MC & SJ Edits",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.glossy.co/beauty/how-consumer-demand-for-value-is-changing-beauty-shopping/",
+      "title": "How consumer demand for value is changing beauty shopping",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.makeup-in-paris.com/en/show-news/recession-beauty-how-economic-pressure-is-redefining-beauty-culture",
+      "title": "Recession Beauty: How Economic Pressure is Redefining Beauty Culture",
+      "snippet": ""
+    },
+    {
+      "url": "https://deangelisreview.substack.com/p/rise-of-the-frugal-consumer",
+      "title": "Rise of the Frugal Consumer - Stephen DeAngelis",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionista.com/2026/06/livestream-shopping-beauty-sales-channel-mckinsey-report-2026",
+      "title": "Livestreams Set to Shape the Next Era of Beauty Shopping",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.americansalon.com/business/7-market-trends-predict-where-beauty-headed-next",
+      "title": "7 Market Trends That Predict Where Beauty Is Headed Next",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.beautyworldnews.com/articles/236129/20261013/beauty-shopping-shift-making-luxury-drugstore-products-equally-appealing.htm",
+      "title": "The Beauty Shopping Shift Making Luxury and Drugstore Products Equally Appealing",
+      "snippet": ""
+    },
+    {
+      "url": "https://beautycorner.com.au/consumer-shift-mass-beauty-brands-challenge-premium-market-dominance/",
+      "title": "Consumer Shift: Mass Beauty Brands Challenge Premium Market Dominance – Beauty Corner",
+      "snippet": ""
+    },
+    {
+      "url": "https://ijorarjournal.com/web/Download/2025-08-13-09-16-54-Paper Id 0757.pdf",
+      "title": "International Journal of Original Recent Advanced Research ISSN (Online): 3048-5479 Vol. 02, Issue 04, July 2025",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "snippet": ""
+    },
+    {
+      "url": "https://seosandwitch.com/beauty-ecommerce-seo-statistics/",
+      "title": "Latest Beauty Ecommerce SEO Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.lsnglobal.com/news/article/26694/stat-inter-covid-beauty-purchases-rely-on-reviews",
+      "title": "Stat: Inter-Covid beauty purchases rely on reviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://ppc.land/the-impulse-shopper-is-everyone-adobe-data-on-86-unplanned-buys/",
+      "title": "The impulse shopper is everyone: Adobe data on 86% unplanned buys",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.contouredcontent.com/blog-post-2.html",
+      "title": "The Economics Behind Beauty's Longer Buying Journey",
+      "snippet": ""
+    },
+    {
+      "url": "https://americantalk.live/the-top-impulse-buys-americans-regret-most-study-reveals/",
+      "title": "The top impulse buys Americans regret most – study reveals",
+      "snippet": ""
+    },
+    {
+      "url": "https://timesnewsnetworks.com/the-top-impulse-buys-americans-regret-most-study-reveals/",
+      "title": "The top impulse buys Americans regret most – study reveals",
+      "snippet": ""
+    },
+    {
+      "url": "https://partnercentric.com/blog/impulse-buying-statistics/",
+      "title": "Consumer Behavior Survey & Statistics | PartnerCentric",
+      "snippet": ""
+    },
+    {
+      "url": "https://postgoo.com/posts/6a1983d3cafdd134cef0518c?type=article",
+      "title": "Planned and Impulse Buying Statistics: What Makes a Consumer Decide to Purchase?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://freeyourself.com/blogs/news/social-commerce-beauty-sales-statistics",
+      "title": "Social Commerce Beauty Sales Statistics for 2025",
+      "snippet": ""
+    },
+    {
+      "url": "https://seosandwitch.com/beauty-ecommerce-seo-statistics/",
+      "title": "Latest Beauty Ecommerce SEO Statistics",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.beautyindependent.com/amazon-walmart-dominate-beauty-searches-ai-emerges-discovery-channel/",
+      "title": "Amazon And Walmart Dominate Beauty Searches As AI Emerges As A Discovery Channel",
+      "snippet": ""
+    },
+    {
+      "url": "http://umatechnology.org/tiktok-vs-google-search-for-beauty-product-discovery-which-is-better-for-what/",
+      "title": "TikTok vs Google for Beauty Discovery: When to Use Each",
+      "snippet": ""
+    },
+    {
+      "url": "https://bg.sgpjbg.com/bgdown/621311.html",
+      "title": "Tinuiti：2025年美容营销研究报告：纯净美妆新趋势及AI、TikTok和GLP-1药物的作用（英文版）（21页）.pdf-在线下载-三个皮匠报告",
+      "snippet": ""
+    },
+    {
+      "url": "https://bg.sgpjbg.com/baogao/621311.html",
+      "title": "Tinuiti：2025年美容营销研究报告：纯净美妆新趋势及AI、TikTok和GLP-1药物的作用（英文版）（21页）.pdf_三个皮匠报告",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.gcimagazine.com/consumers-markets/news/22936010/consumer-survey-how-gen-z-and-new-technologies-are-reshaping-beauty-shopping-trends",
+      "title": "Consumer Survey: How Gen Z and New Technologies Are Reshaping Beauty Shopping Trends",
+      "snippet": ""
+    },
+    {
+      "url": "https://storage.pardot.com/1062992/1740409571cBJm4qve/Tinuiti_2025_Beauty_Study.pdf",
+      "title": "The beauty industry continues to evolve at a rapid pace,",
+      "snippet": ""
+    },
+    {
+      "url": "https://tinuiti.com/blog/ecommerce/global-retail-u-s-retailers-guide-selling-internationally/",
+      "title": "7 Innovative Retail Trends to Watch in 2025 | Tinuiti",
+      "snippet": ""
+    },
+    {
+      "url": "https://tinuiti.com/blog/paid-search/google-adwords-price-extensions-for-mobile-text-ads-101/",
+      "title": "7 Innovative Retail Trends to Watch in 2025 | Tinuiti",
+      "snippet": ""
+    },
+    {
+      "url": "https://kjtv.substack.com/p/the-ai-beauty-shopping-paradox-why",
+      "title": "The AI Beauty Shopping Paradox: Why 58% Aren't Using AI Yet, and Why That Number Will Collapse Faster Than You Think",
+      "snippet": ""
+    },
+    {
+      "url": "https://tinuiti.com/blog/search/cosmetics-advertising/",
+      "title": "Advertising Cosmetics Guide: Strategies and Examples",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.webtonic.io/blog/beauty-skincare-social-media-marketing-statistics",
+      "title": "Beauty Social Media Engagement Stats 2026 | Web Tonic™",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/is-your-brand-really-worth-it-beauty-shoppers-want-proof-new-report-finds-302921803.html",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://pr.holladayjournal.com/article/Is-Your-Brand-Really-Worth-It-Beauty-Shoppers-Want-Proof-New-Report-Finds/6ae1f2b1282cc2aea3185144",
+      "title": "Is Your Brand Really Worth It? Beauty Shoppers Want Proof, New Report Finds",
+      "snippet": ""
+    },
+    {
+      "url": "https://cew.org/beauty_news/beautys-top-headlines-october-29-2026/",
+      "title": "CEW Top Headlines October 29 2026",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.theconsumercollective.co/insights",
+      "title": "Insights | Consumer Collective",
+      "snippet": ""
+    },
+    {
+      "url": "https://gcn.com/secondhand-shopping-76-percent-americans/22628/",
+      "title": "Secondhand shopping becomes routine for 76 percent of Americans",
+      "snippet": ""
+    },
+    {
+      "url": "https://foundlanes.com/hyeglo-raises-rs-7-crore-funding/",
+      "title": "Hyeglo Raises Rs 7 Crore for R&D, Product Launches",
+      "snippet": ""
+    },
+    {
+      "url": "https://theconsumercollective.substack.com/p/gen-z-gen-alpha-mall-shopping-trends",
+      "title": "Gen Z and Gen Alpha Are Bringing Shoppers Back to the Mall",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.beautypackaging.com/exclusives/cews-new-blueprint-strategies-reshaping-the-beauty-landscape/",
+      "title": "CEW's New Blueprint: Strategies Reshape the Beauty Landscape",
+      "snippet": ""
+    },
+    {
+      "url": "https://theconsumercollective.substack.com/p/the-new-athleticism-",
+      "title": "The New Athleticism: How Sports Culture, Sneakers and Exercise Are Reshaping Consumer Trends",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.retaildive.com/news/retail-impact-weight-loss-boom-glp-1/817230/",
+      "title": "Are retailers ready for what the weight-loss boom requires?",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.consumeraffairs.com/news/as-prices-rise-buying-second-hand-has-become-a-mainstream-shopping-habit-100826.html",
+      "title": "As prices rise, buying second-hand has become a mainstream shopping habit",
+      "snippet": ""
+    },
+    {
+      "url": "https://thesmetimes.com/hyeglo-beauty-raises-₹7-crore-seed-round-led-by-sauce-to-build-indias-skinified-beauty-category/",
+      "title": "Hyeglo Beauty Raises ₹7 Crore Seed Round Led by Sauce to Build India’s Skinified Beauty Category",
+      "snippet": ""
+    },
+    {
+      "url": "https://blog.osum.com/best-selling-beauty-products/",
+      "title": "Discover the Power of Best-Selling Beauty Products - Osum",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.lsnglobal.com/news/article/26694/stat-inter-covid-beauty-purchases-rely-on-reviews",
+      "title": "Stat: Inter-Covid beauty purchases rely on reviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://cleancommit.io/blog/do-product-reviews-increase-conversion-rate/",
+      "title": "Do Product Reviews Increase Conversion Rate? (2026 Data)",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.powerreviews.com/?p=29473",
+      "title": "Beauty Enthusiast Snapshot - PowerReviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.criteo.com/blog/5-beauty-shopper-trends-2026/",
+      "title": "New Health & Beauty research: 5 shopper trends every marketer should know",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.powerreviews.com/category/blog/page/8/",
+      "title": "Blog Archives - Page 8 of 35 - PowerReviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://softwarefinder.com/customer-service-software/powerreviews",
+      "title": "PowerReviews: Pricing, Free Demo & Features | Software Finder",
+      "snippet": ""
+    },
+    {
+      "url": "https://useamp.com/blog/ecommerce-reviews/",
+      "title": "Ecommerce Reviews: What They're Worth Beyond | Lifetimely",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.powerreviews.com/category/benchmarks/brand-health-index/",
+      "title": "Brand Health Index Archives - PowerReviews",
+      "snippet": ""
+    },
+    {
+      "url": "https://wisernotify.com/blog/impact-of-reviews-on-purchasing-decisions/",
+      "title": "How Do Product Reviews Impact Purchase Decisions? (2026)",
+      "snippet": ""
+    },
+    {
+      "url": "https://fastercapital.com/content/Product-Reviews--The-Power-of-Opinion--Product-Reviews-in-the-Age-of-Consumerism.html",
+      "title": "Product Reviews: The Power of Opinion: Product Reviews in the Age of Consumerism",
+      "snippet": ""
+    },
+    {
+      "url": "https://WWW.COSMETICSDESIGN.COM/Article/2023/09/20/powerreviews-survey-underscores-the-importance-of-product-reviews-and-sampling",
+      "title": "PowerReviews survey underscores the importance of product reviews and sampling",
+      "snippet": ""
+    },
+    {
+      "url": "https://fashionista.com/2025/06/mckinsey-state-of-beauty-report-2025-marketing-strategies",
+      "title": "Beauty Brands May Want to Rethink These Common Marketing Tactics",
+      "snippet": ""
+    },
+    {
+      "url": "https://retailtimes.co.uk/new-bof-report-reveals-63-of-consumers-do-not-see-the-value-in-luxury-beauty-products/",
+      "title": "New BoF report reveals 63% of consumers do not see the value in luxury beauty products",
+      "snippet": ""
+    },
+    {
+      "url": "http://www.blog.selfnamed.com/business/state-of-beauty-what-brands-must-know",
+      "title": "State of Beauty: What Brands Must Know",
+      "snippet": ""
+    },
+    {
+      "url": "https://pug-deer-m8mx.squarespace.com/articles/state-of-beauty-what-brands-must-know",
+      "title": "State of Beauty: What Brands Must Know — Selfnamed",
+      "snippet": ""
+    },
+    {
+      "url": "https://britishbeautycouncil.com/the-state-of-beauty-bof/",
+      "title": "The State of Beauty: Business of Fashion unveils trends shaping the global sector - British Beauty Council",
+      "snippet": ""
+    },
+    {
+      "url": "https://worldluxurychamber.com/state-of-fashion-beauty-report-2025/",
+      "title": "The State of Fashion: Beauty Report 2025 by BoF & McKinsey",
+      "snippet": ""
+    },
+    {
+      "url": "https://syncly.app/blog/social-listening-beauty-brands-kpis",
+      "title": "Social Listening for Beauty Brands: 6 KPIs That Beat Mention Counts",
+      "snippet": ""
+    },
+    {
+      "url": "https://staging.britishbeautycouncil.com/the-state-of-beauty-bof/",
+      "title": "The State of Beauty: Business of Fashion unveils trends shaping the global sector : The British Beauty Council",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.businessoffashion.com:443/reports/state-of-fashion-beauty-industry-report/",
+      "title": "The State of Fashion: Beauty Report — Solving the Growth Puzzle",
+      "snippet": ""
+    },
+    {
+      "url": "https://world-collective.com/blog/what-fashion-playbooks-brands-are-reading-in-late-2025",
+      "title": "What Fashion Playbooks Brands Are Reading in Late 2025  | World Collective",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.prurgent.com/2026-01-05/pressrelease473436.htm",
+      "title": "Beauty’s $590 Billion Future: New McKinsey Report Outlines the Roadmap to 2030",
+      "snippet": ""
+    }
+  ],
+  "usage": {
+    "input_tokens": 200733,
+    "input_tokens_details": {
+      "cached_tokens": 128136
+    },
+    "output_tokens": 9253,
+    "output_tokens_details": {
+      "reasoning_tokens": 3353
+    },
+    "total_tokens": 209986
+  }
+}
