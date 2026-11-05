@@ -6,7 +6,7 @@ Rabbit Hop sends AI shoppers with researched, locked personas to shop live beaut
 
 I'm Akshaya, an Executive MBA student who loves skincare and makeup. Across customer discovery work in different domains, I have always wondered whether agentic infrastructure could automate part of it. Rabbit Hop is my attempt to find out, starting with the beauty aisle.
 
-Built for the Meta Global AI Developer Hackathon (Indie developer track), problem statement **Build for Your World**. Everything here was written during the building period (Oct 26 to Nov 4, 2026).
+Built for the Meta Global AI Developer Hackathon (Indie developer track), problem statement **Build for Your World**. Everything here was written during the building period (Oct 27 to Nov 4, 2026).
 
 ## The problem
 
